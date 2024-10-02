@@ -856,11 +856,29 @@
  MORS_idea_6_desc:0 "Beneath the Eight Peaks is a key nexus for all tunnels in the region - a junction that unlocks the World’s Edge Mountains for any ambitious Skaven Warlord."
  MORS_idea_7:0 "Crimson Guard"
  MORS_idea_7_desc:0 "The Stormvermin of the Red Guard were exceptional fighters, standout killers even amongst the massive Skaven army. In their long service to their Warlord, they had taken sacred banners from Ironbreakers, brought down Giants and worn necklaces fashioned from the teeth of Black Orc commanders."
+
+ Pestiliens_ideas:0 "Clan Pestiliens Ideas"
+ Pestiliens_ideas_bonus:0 "Clan Pestiliens Ambition"
+ Pestiliens_ideas_start:0 "Clan Pestiliens Traditions"
+ Pestiliens_idea_1:0 "The Pestilent Brotherhood"
+ Pestiliens_idea_1_desc:0 "The Pestilent Brotherhood is the over-arching Skaven religious sect founded by Clan Pestilens, consisting of themselves and their many thrall Warlord Clans. The brotherhood worships the Horned Rat in his aspect as the spreader of disease and decay, and they seek to seed the Horned One's diseases throughout the mortal world, ultimately paving the way for the Great Ascendancy of the Skaven race and its god.\n\nWhile the clans of the Pestilent Brotherhood might believe themselves to be equal partners in their faith, all they truly share are the diseases and heresies of their new ruling Great Clan."
+ Pestiliens_idea_2:0 "Liber Bubonicus"
+ Pestiliens_idea_2_desc:0 "The Liber Bubonicus, also called the Book of Woe, is a foul tome inscribed with the clandestine knowledge of the Skaven's magical Lore of Plague, and it contains the secrets of every pestilence and plague in the mortal world. Several of its verses were written by the Verminlord Daemon Vermalanx the Corrupt, although it is not clear if he is the tome's sole author"
+ Pestiliens_idea_3:0 "Masters of Diseases"
+ Pestiliens_idea_3_desc:0 "Rising in the ranks of the clan means subjecting oneself to one of the "Seven Lethal Poxes," sacred diseases imprisoned in the Cauldrons of a Thousand Poxes. Any Skaven, from Clanrat to Plague Deacon, can volunteer to be lowered into one of the Cauldrons. Should he survive, he is automatically given a higher rank. In this way, no clan chieftain can worm his way into authority beyond his right and no leader can retain power beyond his time."
+ Pestiliens_idea_4:0 "The First and Second Skaven Civil Wars"
+ Pestiliens_idea_4_desc:0 "REPLACE_ME"
+ Pestiliens_idea_5:0 "Plague Priests"
+ Pestiliens_idea_5_desc:0 "REPLACE_ME"
+ Pestiliens_idea_6:0 "Cauldron of a Thousand Poxes"
+ Pestiliens_idea_6_desc:0 "The plagues of Clan Pestilens kill insidiously, regardless of an enemy's arms or armour. They are quiet weapons that do not risk the lives of the near-immune Plague Monks that spread them. The enemy even spreads the diseases for the Skaven, and provides breeding grounds for the plagues in the form of the poor sanitation and hygiene in the majority of the Old World's Human cities."
+ Pestiliens_idea_7:0 "The Viletide Cometh"
+ Pestiliens_idea_7_desc:0 "REPLACE_ME"
  
  
  greenskin_group_ideas:0 "Greenskin Ideas"
  greenskin_group_ideas_bonus:0 "Greenskin Ambition"
- greenskin_group_ideas_start:0 "Greenskin Tradition"
+ greenskin_group_ideas_start:0 "Greenskin Traditions"
  greenskin_group_idea_1:0 "Healy Mushrooms"
  greenskin_group_idea_1_desc:0 "Dey taste like death, but do da opposite"
  greenskin_group_idea_2:0 "'Eavy Metal'"
@@ -1248,7 +1266,7 @@
  
  #Nehekhara
  #khemri
- 
+
  Z01_ideas:0 "Khemrian Ideas"
  Z01_ideas_bonus:0 "Khemrian Traditions"
  Z01_ideas_start:0 "Khemrian Ambitions"
@@ -1256,14 +1274,16 @@
  Z01_idea_1_desc:0 "Oh mighty, Settra... Great King, the Imperishable, Khemrikhara, The Great King of Nehekhara, King of Kings, Opener of the Way, Wielder of the Divine Flame, Punisher of Nomads, The Great Unifier, Commander of the Golden Legion, Sacred of Appearance, Bringer of Light, Father of Hawks, Builder of Cities, Protector of the Two Worlds, Keeper of the Hours, Chosen of Ptra, High Steward of the Horizon, Sailor of the Great Vitae, Sentinel of the Two Realms, The Undisputed, Begetter of the Begat, Scourge of the Faithless, Carrion-feeder, First of the Charnel Valley, Rider of the Sacred Chariot, Vanquisher of Vermin, Champion of the Death Arena, Mighty Lion of the Infinite Desert, Emperor of the Shifting Sands, He Who Holds The Sceptre, Great Hawk Of The Heavens, Arch-Sultan of Atalan, Waker of the Hierotitan, Monarch of the Sky, Majestic Emperor of the Shifting Sands, Champion of the Desert Gods, Breaker of the Ogre Clans, Builder of the Great Pyramid, Terror of the Living, Master of the Never-Ending Horizon, Master of the Necropolises, Taker of Souls, Tyrant to the Foolish, Bearer of Ptra's Holy Blade, Scion of Usirian, Scion of Nehek, The Great, Chaser of Nightmares, Keeper of the Royal Herat, Founder of the Mortuary Cult, Banisher of the Grand Hierophant, High Lord Admiral of the Deathfleets, Guardian of the Charnal Pass, Tamer of the Liche King, Unliving Jackal Lord, Dismisser of the Warrior Queen, Charioteer of the Gods, He Who Does Not Serve, Slayer off Reddittras, Scarab Purger, Favoured of Usirian, Player of the Great Game, Liberator of Life, Lord Sand, Wrangler of Scorpions, Emperor of the Dunes, Eternal Sovereign of Khemri's Legions, Seneschal of the Great Sandy Desert, Curserer of the Living, Regent of the Eastern Mountains, Warden of the Eternal Necropolis, Herald of all Heralds, Caller of the Bitter Wind, God-Tamer, Master of the Mortis River, Guardian of the Dead, Great Keeper of the Obelisks, Deacon of the Ash River, Belated of Wakers, General of the Mighty Frame, Summoner of Sandstorms, Master of all Necrotects, Prince of Dust, Tyrant of Araby, Purger of the Greenskin Breathers, Killer of the False God's Champions, Tyrant of the Gold Dunes, Golden Bone Lord, Avenger of the Dead, Carrion Master, Eternal Warden of Nehek's Lands, Breaker of Djaf's Bonds... and many, many more... begin your Conquest!"
  Z01_idea_2:0 "Chariots of the Gods"
  Z01_idea_2_desc:0 "The mighty chariots of Khemri carry with them the blessings of all the gods and goddesses of Nehekhara, and their wheels blaze with mystical flame."
- Z01_idea_3:0 "REPLACE_ME"
- Z01_idea_3_desc:0 "REPLACE_ME"
- Z01_idea_4:0 "REPLACE_ME"
- Z01_idea_4_desc:0 "REPLACE_ME"
- Z01_idea_5:0 "REPLACE_ME"
- Z01_idea_5_desc:0 "REPLACE_ME"
- Z01_idea_6:0 "REPLACE_ME"
- Z01_idea_6_desc:0 "REPLACE_ME"
- Z01_idea_7:0 "REPLACE_ME"
- Z01_idea_7_desc:0 "REPLACE_ME"
+ Z01_idea_3:0 "City of Kings"
+ Z01_idea_3_desc:0 "Khemri, also known as the "City of Kings", is chief amongst the cities of Nehekhara. It is the oldest, largest and most powerful city in this ancient kingdom. The city itself is filled with monuments and statues, each of which was painstakingly crafted in honour of the gods by masterful craftsmen."
+ Z01_idea_4:0 "Hawk Legions of Settra"
+ Z01_idea_4_desc:0 "Most famed in all Nehekhara, they were the one hundred legions, each one a hundred warriors strong; the dreaded Hawk Legions of Settra. In unlife, these warriors had become more implacable than ever. Time and again they had set forth from Khemri to conquer, returning victorious. They were known for their turquoise shields and banners, as well as the symbol of the double-headed hawk."
+ Z01_idea_5:0 "Dominate Lesser Kings"
+ Z01_idea_5_desc:0 "All the lesser Kings have swore eternal loyalty to Settra, use the Mortuary Cult to remind them who is the greatest of the Tomb Kings."
+ Z01_idea_6:0 "The Reign of a Million Years"
+ Z01_idea_6_desc:0 "While the Mortuary Cult has failed thus far to achieve any of the promises made, they are still useful pawns to have around to spread the greatness of Nehekhara."
+ Z01_idea_7:0 "The Will of Settra"
+ Z01_idea_7_desc:0 "One of the best generals and strategists to have ever lived, in life it was Settra's mastery on the battlefield that allowed him to conquere the other Nehekharan cities. In death, it is the same remarkable will and genius that moves his undying army. Given enough time other loyal nobles can be mentored under his wings and achieve similar degrees of battlefield mastery."
+ 
+ 
  

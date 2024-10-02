@@ -1685,7 +1685,7 @@ U25_ideas = {
 		max_absolutism = 10
 	}
 	U25_idea_7 = {
-		all_power_cost = -0.05
+		all_power_cost = -0.025
 	}
 }
 
@@ -1769,6 +1769,55 @@ MORS_ideas = {
 		infantry_power = 0.1
 	}
 }
+
+#Clan Pestiliens
+
+Pestiliens_ideas = {
+	start = {
+		hostile_attrition = 2
+		defensiveness = 0.1
+	}
+	bonus = {
+		tolerance_own = 2
+	}
+	trigger = {
+		or = {
+			tag = U29
+			tag = U45
+		}
+	}
+	free = yes
+	#Pestilent Brotherhood
+	Pestiliens_idea_1 = {
+		vassal_forcelimit_bonus = 1.0
+	}
+	#Plague Monks
+	Pestiliens_idea_2 = {
+		missionaries = 1
+		missionary_maintenance_cost = -0.25
+	}
+	#masters of disease
+	Pestiliens_idea_3 = {
+		land_attrition = -0.15
+	}
+	#First and Second Skaven Civil War
+	Pestiliens_idea_4 = {
+		morale_damage_received = -0.1
+	}
+	#plaguelords
+	Pestiliens_idea_5 = {
+		global_missionary_strength = 0.02
+	}
+	#stinky
+	Pestiliens_idea_6 = {
+		siege_ability = 0.1
+	}
+	#the Viletide
+	Pestiliens_idea_7 = {
+		manpower_in_true_faith_provinces = 0.33
+	}
+}
+
 
 
 ########
