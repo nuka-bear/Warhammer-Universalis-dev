@@ -1,0 +1,10 @@
+owner = G36
+base_tax = 1
+base_manpower = 3
+base_production = 3
+trade_goods = livestock
+religion = slaaneshi_religion
+controller = G36
+is_city = yes
+culture = steppe_hobgoblin
+add_core = G36

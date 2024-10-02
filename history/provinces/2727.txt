@@ -1,0 +1,11 @@
+owner = G36
+base_tax = 3
+base_manpower = 6
+base_production = 6
+trade_goods = salt
+religion = gork_n_mork_religion
+controller = G36
+is_city = yes
+culture = steppe_hobgoblin
+add_core = G36
+fort_15th = yes

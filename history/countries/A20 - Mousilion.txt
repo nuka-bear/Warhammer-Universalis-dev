@@ -1,0 +1,26 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = mousillonian
+religion = vampiric
+technology_group = tech_vampire_count
+capital = 283
+fixed_capital = 283
+government_rank = 1
+setup_vision = yes
+
+2500.1.1 = {
+	monarch = {
+		name = "Mallobaude"
+		dynasty = "d'Mousilion"
+		birth_date = 2479.5.3
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+	set_variable = {
+		which = royarch_vote
+		value = 0
+	}
+}
+
+

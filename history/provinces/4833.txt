@@ -1,0 +1,10 @@
+owner = U43
+
+
+
+trade_goods = tropical_wood
+religion = horned_rat
+controller = U43
+is_city = yes
+culture = grutnik_skaven
+add_core = U43

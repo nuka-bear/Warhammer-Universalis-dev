@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = tribal_federation
+primary_culture = scythan
+religion = nehekharan_pantheon
+technology_group = tech_arabyn
+capital = 837
+setup_vision = yes
+government_rank = 1

@@ -1,0 +1,22 @@
+
+owner = A19
+controller = A19
+add_core = A19
+culture = bourgonian
+religion = lady_of_the_lake
+ 
+hre = no
+
+base_tax = 4
+base_production = 5
+trade_goods = grain
+base_manpower = 6
+
+is_city = yes
+
+
+
+
+
+
+

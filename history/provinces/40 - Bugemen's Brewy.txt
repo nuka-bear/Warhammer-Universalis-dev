@@ -1,0 +1,15 @@
+owner = A02
+controller = A02
+religion = cult_of_sigmar
+culture = sudenlander
+hre = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = beer
+capital = ""
+is_city = yes
+add_core = A02
+add_core = A11
+
+

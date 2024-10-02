@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = luccini_monarchy_states_general
+primary_culture = luccian
+religion = myrmidia
+technology_group = tech_imperial
+capital = 608
+fixed_capital = 608
+setup_vision = yes
+government_rank = 1

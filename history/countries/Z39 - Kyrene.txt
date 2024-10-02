@@ -1,0 +1,9 @@
+government = theocracy
+add_government_reform = nehekharan_government_reform
+primary_culture = nehekharan_culture
+religion = nehekharan_pantheon
+technology_group = tech_tomb_kings
+capital = 945# Gao
+government_rank = 1
+setup_vision = yes
+set_country_flag = tomb_king_ruler

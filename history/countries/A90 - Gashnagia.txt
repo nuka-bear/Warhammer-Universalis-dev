@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = strigany
+religion = vampiric
+technology_group = tech_imperial
+capital = 633
+fixed_capital = 642
+setup_vision = yes
+government_rank = 1
+2502.1.1 = {
+	monarch = {
+		name = "Gashnag"
+		dynasty = "Strigoi"
+		culture = strigany
+		birth_date = 2470.12.3
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

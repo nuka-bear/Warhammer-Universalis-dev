@@ -1,0 +1,12 @@
+owner = A15
+controller = A15
+culture = bretoni
+religion = lady_of_the_lake
+center_of_trade = 2
+base_tax = 7
+base_production = 5
+trade_goods = cloth
+base_manpower = 7
+is_city = yes
+add_core = A15
+fort_15th = yes

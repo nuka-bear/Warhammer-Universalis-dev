@@ -1,0 +1,22 @@
+
+owner = A46
+controller = A46
+add_core = A46
+culture = asturian
+religion = myrmidia
+ 
+hre = no
+
+base_tax = 3
+base_production = 3
+trade_goods = cloth
+base_manpower = 2
+
+is_city = yes
+
+
+
+
+
+
+

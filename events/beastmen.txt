@@ -1,0 +1,84 @@
+#Beastmen Warband
+namespace = beastmen
+
+country_event = {
+	id = beastmen.0100
+	title = beastmen.0100.t
+	desc = beastmen.0100.d
+	picture = IMPALED_SOLDIERS_eventPicture
+	
+	mean_time_to_happen = {
+		years = 15
+		modifier = {
+			factor = 1.5
+		}
+	}
+	
+	trigger = {
+		NOT = { is_year = 2700 }
+		capital_scope = { continent = europe }
+		total_development = 100
+		any_owned_province = {
+			OR = {
+				continent = europe
+			}
+			OR = {
+				has_terrain = forest
+			}
+		}
+	}
+	
+	#Profit
+	option = {
+        name = beastmen.0100.a
+        ai_chance = { factor = 100 }
+		hidden_effect = { country_event = { id = beastmen.0101 days = 150 random = 100 } }
+	}
+}
+
+#warband arrives
+country_event = {
+	id = beastmen.0101
+	title = beastmen.0101.t
+	desc = beastmen.0101.d
+	picture = IMPALED_SOLDIERS_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		any_owned_province = {
+			OR = {
+				continent = europe
+			}
+			OR = {
+				has_terrain = forest
+			}
+			any_neighbor_province = { has_terrain = forest }
+		}
+	}
+	
+	option = {
+        name = beastmen.0101.a
+        ai_chance = { factor = 100 }
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					OR = {
+						continent = europe
+					}
+					OR = {
+						has_terrain = forest
+					}
+					any_neighbor_province = { has_terrain = forest }
+				}
+				spawn_rebels = {
+					type = beastmen_warband_rebels
+					culture = beastmen
+					size = 2
+				}
+			}
+		}
+	}
+}
+
+#Beastmen Disaster

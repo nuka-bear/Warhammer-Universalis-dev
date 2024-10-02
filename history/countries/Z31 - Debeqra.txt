@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = sudron_arabyn
+religion = the_one_faith
+technology_group = tech_arabyn
+setup_vision = yes
+capital = 1227# Gao
+government_rank = 1

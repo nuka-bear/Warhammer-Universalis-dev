@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = loren
+religion = asrai_cadai
+technology_group = tech_wood_elf
+capital = 2097
+setup_vision = yes
+government_rank = 1

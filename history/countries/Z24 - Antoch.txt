@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = outremer
+religion = lady_of_the_lake
+technology_group = tech_imperial
+capital = 1115
+setup_vision = yes
+government_rank = 1

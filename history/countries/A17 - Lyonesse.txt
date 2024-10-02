@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = bretonnian_dukedom_reform
+primary_culture = bretoni
+religion = lady_of_the_lake
+technology_group = tech_imperial
+capital = 484
+fixed_capital = 484
+government_rank = 1
+setup_vision = yes
+set_country_flag = bretonnian_duke_cf
+set_country_flag = bretonnian_kingdom_pot_candidate
+
+2500.1.1 = {
+	monarch = {
+		name = "Adalhard"
+		dynasty = "d'Lyonesse"
+		birth_date = 2429.5.3
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	set_variable = {
+		which = royarch_vote
+		value = 0
+	}
+}
+
+

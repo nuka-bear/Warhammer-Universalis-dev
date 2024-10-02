@@ -1,0 +1,9 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = ogre_main
+religion = the_great_maw_religion
+technology_group = tech_ogre
+capital = 2209#wissenburg
+setup_vision = yes
+#Ogre kingdom
+government_rank = 1

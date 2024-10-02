@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = bedouin_arabyan
+religion = the_one_faith
+technology_group = tech_arabyn
+capital = 968
+setup_vision = yes
+government_rank = 1

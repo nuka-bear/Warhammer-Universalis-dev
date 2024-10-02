@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = obregese
+religion = myrmidia
+technology_group = tech_imperial
+capital = 629
+setup_vision = yes
+
+2502.1.1 = {
+	monarch = {
+		name = "Bragthorn"
+		birth_date = 2445.12.22
+		adm = 3
+		dip = 3
+		mil = 3
+		religion = myrmidia       
+		culture = obregese    
+	}
+}

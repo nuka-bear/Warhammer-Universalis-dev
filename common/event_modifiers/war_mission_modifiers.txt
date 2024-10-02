@@ -1,0 +1,74 @@
+#Reikland
+A01_reikland_support_1 = {
+	land_morale = 0.025
+	discipline = 0.025
+}
+
+A01_reikland_support_2 = {
+	land_morale = 0.05
+	discipline = 0.05
+}
+
+A01_reikland_support_3 = {
+	land_morale = 0.075
+	discipline = 0.05
+}
+
+A01_reikland_support_4 = {
+	land_morale = 0.10
+	discipline = 0.075
+}
+
+A01_reikland_support_5 = {
+	land_morale = 0.15
+	discipline = 0.10
+}
+
+reikland_bretonnia_trade_modifier = {
+	trade_efficiency = 0.2
+}
+
+#Blazing Sun
+#First Internal Mission
+A87_myrimidia_tenets = {
+	development_cost = -0.15
+	stability_cost_to_declare_war = 4
+	global_monthly_devastation = -0.1
+	global_prosperity_growth = 0.1
+	build_cost = -0.15
+}
+
+A87_blazing_sun_fleet = {
+	global_sailors_modifier = 0.2
+	naval_maintenance_modifier = -0.1
+}
+
+A87_far_from_home_modifier = {
+	improve_relation_modifier = 0.20
+}
+
+A87_imperial_modifier = {
+	diplomatic_reputation = 2
+}
+
+A87_kislevite_modifier = {
+	land_attrition = -0.10
+}
+
+A87_estalian_modifier = {
+	global_tax_income = 12
+}
+
+A87_tilean_modifier = {
+	trade_efficiency = 0.10
+}
+
+A87_norscan_modifier = {
+	infantry_power = 0.1
+	years_of_nationalism = -2
+	global_unrest = 2
+}
+
+A87_contest_marienburg = {
+	galley_power = 0.1
+}

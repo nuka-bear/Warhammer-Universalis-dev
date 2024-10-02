@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = reiklander
+religion = lady_of_the_lake
+technology_group = tech_imperial
+capital = 637
+setup_vision = yes
+government_rank = 1

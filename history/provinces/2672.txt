@@ -1,0 +1,10 @@
+base_tax = 1
+base_manpower = 2
+base_production = 2
+culture = tahmaks
+trade_goods = slaves
+religion = khornate_religion
+is_city = yes
+owner = B61
+controller = B61
+add_core = B61

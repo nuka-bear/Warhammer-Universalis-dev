@@ -1,0 +1,10 @@
+base_tax = 4
+base_manpower = 2
+base_production = 3
+trade_goods = slaves
+religion = animism
+is_city = yes
+owner = Z63
+controller = Z63
+culture = khureshi_snakefolk
+add_core = Z63

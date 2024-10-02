@@ -1,0 +1,10 @@
+base_tax = 3
+base_manpower = 3
+base_production = 2
+trade_goods = fish
+religion = tzeentchian_religion
+is_city = yes
+owner = B62
+controller = B62
+add_core = B62
+culture = east_cathayan

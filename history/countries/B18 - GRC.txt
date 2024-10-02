@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = songhai
+religion = the_one_faith
+technology_group = sub_saharan
+ 
+capital = 4205# Gao
+government_rank = 1

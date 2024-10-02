@@ -1,0 +1,9 @@
+government = monarchy
+religion = the_thousand_gods
+technology_group = tech_indish
+capital = 4428
+setup_vision = yes
+government_rank = 1
+primary_culture = tigerkin_c
+
+

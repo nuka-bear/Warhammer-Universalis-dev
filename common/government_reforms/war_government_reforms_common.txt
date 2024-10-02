@@ -1,0 +1,134 @@
+# # # # # # # # # # # # # # # #
+#							  #
+#      Military Doctrines     #
+#							  #
+# # # # # # # # # # # # # # # #
+#norscan
+mammoth_riders_reform = {
+	icon = noble_indian
+	allow_normal_conversion = yes
+	potential = {
+			technology_group = tech_norscan
+	}
+	trigger = {
+			technology_group = tech_norscan
+	}
+	modifiers = {
+		cavalry_power = 0.10
+		shock_damage_received = -0.10
+		cavalry_cost = 0.10
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+#skaven
+
+#cav
+warhammer_T5_skaven_clan_moulder = {
+	icon = "moulder"
+	allow_normal_conversion = yes
+	potential = {
+		has_country_modifier = skaven_military
+	}
+	trigger = {
+	}
+
+	modifiers = {
+		#Positive
+		cav_to_inf_ratio = 0.1
+		movement_speed = 0.1
+		cavalry_cost = -0.2
+	}
+	
+	ai = {
+		factor = 1
+	}
+}
+
+#fire damage/artillery
+warhammer_T5_skaven_clan_skyre = {
+	icon = "skryre"
+	allow_normal_conversion = yes
+	potential = {
+		has_country_modifier = skaven_military
+	}
+	trigger = {
+	}
+	modifiers = {
+		#Positive
+		artillery_power = 0.1
+		siege_ability = 0.1
+		artillery_levels_available_vs_fort = 1
+	}
+	
+	ai = {
+		factor = 1
+	}
+}
+
+#infantry quantity
+warhammer_T5_skaven_clan_verminus = {
+	icon = "vermintide"
+	allow_normal_conversion = yes
+	potential = {
+		has_country_modifier = skaven_military
+	}
+	trigger = {
+	}
+	modifiers = {
+		#Positive
+		global_manpower_modifier = 0.15
+		land_forcelimit_modifier = 0.15
+	}
+	
+	ai = {
+		factor = 1
+	}
+
+}
+
+#inf quality
+warhammer_T5_skaven_clan_eshin = {
+	icon = "eshin"
+	allow_normal_conversion = yes
+	potential = {
+		has_country_modifier = skaven_military
+	}
+	trigger = {
+	}
+	modifiers = {
+		#Positive
+		fire_damage_received = -0.075
+		shock_damage_received = -0.1
+		drill_gain_modifier = 1
+		drill_decay_modifier = -0.25
+		spy_offence = 0.10
+	}
+	
+	ai = {
+		factor = 1
+	}
+}
+
+#defensive
+warhammer_T5_skaven_clan_pestilins = {
+	icon = "pestilens"
+	allow_normal_conversion = yes
+	potential = {
+		has_country_modifier = skaven_military
+	}
+	trigger = {
+	}
+	modifiers = {
+		defensiveness = 0.15
+		max_hostile_attrition = 1
+		fort_maintenance_modifier = -0.1
+		garrison_size = 0.2
+	}
+	
+	ai = {
+		factor = 1
+	}
+}

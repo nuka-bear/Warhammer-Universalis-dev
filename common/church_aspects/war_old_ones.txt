@@ -1,0 +1,113 @@
+sequence_civilization = {
+	is_blessing = yes
+
+	modifier = {
+		global_missionary_strength = 0.015
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 1.5
+			religious_unity = 0.9
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { religious_unity = 0.7 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { religious_unity = 0.5 }
+		}
+	}
+}
+
+
+sequence_stoicism = {
+	is_blessing = yes
+
+	modifier = {
+		global_unrest = -2
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+sequence_construction = {
+	is_blessing = yes
+
+	modifier = {
+		development_cost = -0.075
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+
+sequence_idea = {
+	is_blessing = yes
+
+	modifier = {
+		idea_cost = -0.075
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+sequence_spawning = {
+	is_blessing = yes
+
+	modifier = {
+		global_colonial_growth = 20
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+sequence_order = {
+	is_blessing = yes
+
+	modifier = {
+		stability_cost_modifier = -0.15
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+sequence_city = {
+	is_blessing = yes
+
+	modifier = {
+		build_cost = -0.075
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+sequence_bulwark = {
+	is_blessing = yes
+
+	modifier = {
+		land_morale = 0.05
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+sequence_instinct = {
+	is_blessing = yes
+
+
+	modifier = {
+		infantry_power = 0.05
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}

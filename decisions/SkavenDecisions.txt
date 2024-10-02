@@ -1,0 +1,48 @@
+
+country_decisions = {
+
+	form_under_empire = {
+		major = yes
+		potential = {
+			culture_group = skaven_group
+			NOT = { tag = U98 } ##Under-Empire
+			OR = {
+				ai = no
+				NOT = { exists = U98 }
+			}
+			is_colonial_nation = no
+			normal_or_historical_nations = yes
+		}
+		provinces_to_highlight = {
+			continent =  underempire
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			culture_group = skaven_group
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_tribal = no
+			NOT = { exists = U98 }
+
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 200
+				continent = underempire
+			}
+			owns = 169
+		}
+		effect = {
+			change_tag = U98
+			hidden_effect = { restore_country_name = yes }
+			swap_non_generic_missions = yes
+			country_event = { id = ideagroups.1 }
+	
+			add_country_modifier = { name = centralization_modifier duration = 7300 }
+			add_prestige = 100
+		}
+		ai_will_do = { factor = 1 }
+		ai_importance = 400
+	}
+
+
+	
+}

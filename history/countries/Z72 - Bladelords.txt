@@ -1,0 +1,9 @@
+government = monarchy
+primary_culture = north_nipponese_c
+religion = khornate_religion
+technology_group = tech_cathayan
+capital = 2148
+government_rank = 1
+setup_vision = yes
+
+

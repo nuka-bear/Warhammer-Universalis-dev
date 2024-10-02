@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "KHORNE_eventPicture"
+		texturefile = "gfx/event_pictures/KHORNE_eventPicture.dds"
+	}
+	spriteType = {
+		name = "NURGLE_eventPicture"
+		texturefile = "gfx/event_pictures/NURGLE_eventPicture.dds"
+	}
+	spriteType = {
+		name = "BEASTMEN_eventPicture"
+		texturefile = "gfx/event_pictures/BEASTMEN_eventPicture.dds"
+	}
+	spriteType = {
+		name = "SLAANESH_PARTY_eventPicture"
+		texturefile = "gfx/event_pictures/SLAANESH_PARTY_eventPicture.dds"
+	}	
+	spriteType = {
+		name = "KARL_FRANZ_eventPicture"
+		texturefile = "gfx/event_pictures/KARL_FRANZ_eventPicture.dds"
+	}		
+}

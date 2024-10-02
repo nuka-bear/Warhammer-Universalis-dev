@@ -1,0 +1,11 @@
+owner = A54
+controller = A54
+culture = umbrian_war
+religion = myrmidia
+base_tax = 8
+base_production = 8
+trade_goods = silk
+base_manpower = 8
+is_city = yes
+add_core = A54
+fort_15th = yes

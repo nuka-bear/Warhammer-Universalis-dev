@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = south_nipponese_c
+religion = nagash_worship
+technology_group = tech_eastern_undead
+capital = 4787
+setup_vision = yes
+government_rank = 1

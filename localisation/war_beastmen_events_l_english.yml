@@ -1,0 +1,56 @@
+﻿l_english:
+ ############################
+ # Beastmen
+ ############################
+ beastmen.0100.t: "Rumors of a Beastmen Warband"
+ beastmen.0100.d: "News spreads like wildfire through the towns and villages of the Old World, carried by frightened refugees and frantic messengers. Whispers in hushed tones echo through crowded marketplaces, and fear hangs heavy in the air. The ominous word is out: a Beastmen warband is on the move."
+ beastmen.0100.a: "We must perpare for the worst. ."
+  
+ beastmen.0101.t: "Beastmen Warband Strikes!"
+ beastmen.0101.d: "As The Beastmen emerge from their woodland lairs, ten thousand hooves stamp in agitated union, and a foetid musk arises from the sea of matted fur. The bray of the battle-horns pierces the gloom, and beyond."
+ beastmen.0101.a: "To Arms!"
+ ##########
+ #disaster
+ #########
+
+ disaster_beastmen_horde.1.t:0 "Dark Omens"
+ disaster_beastmen_horde.1.d:0 "Strange events are occuring around waystone"
+ disaster_beastmen_horde.1.a:0 "I have no time for some peaseant tale's"
+ disaster_beastmen_horde.1.b:0 "Investigate these rumors"
+ disaster_beastmen_horde.1.c:0 "We should prepare for the worst"
+ disaster_beastmen_horde.2.t:0 "Rumours Continue""
+ disaster_beastmen_horde.2.d:0 "Years have passed, but the rumours from the area around the waystone continue, and remain the same. Footsteps, voices, and the feeling of being watched."
+ disaster_beastmen_horde.2.a:0 "Something is going on"
+ disaster_beastmen_horde.2.b:0 "It's just rumors. Ignore them"
+ disaster_beastmen_horde.4.t:0 "Beastmen Horde Recedes"
+ disaster_beastmen_horde.4.d:0 "For years, our army has clashed with the Beastmen horde. Battles have been fought, people have died, but now we can finally look forward to the future."
+ disaster_beastmen_horde.4.a:0 "We have fought and Won."
+ disaster_beastmen_horde.4.b:0 "We have failed, but we will continue"
+ disaster_beastmen_horde.5.t:0 "Call of the Beastmen"
+ disaster_beastmen_horde.5.d: "Within the depths of the forest, the Beastmen conduct dark rituals, invoking foul powers and summoning daemonic entities to aid them in their quest for dominance. The air grows thick with the stench of blood and brimstone as their depraved ceremonies reach a crescendo. The waystone, a sacred artifact imbued with the essence of the Old World, has long served as a bastion of light against the forces of chaos. Yet, malevolent bray Shamans, unseen and insidious, working in unison have twisted its energies, corrupting its sanctity. Now from the shadows of the forest emerge the Beastmen, savage and relentless in their pursuit of pillage and defilement. Emboldened by the corruption of the waystone, they launch raids and ambushes on nearby settlements in numbers not seen since Gorthor the Beastlord. If we do not act soon our fair province may share the same fate as Drakwald or Solland."
+ disaster_beastmen_horde.5.a:0 "Bring me to my men!"
+ disaster_beastmen_horde.6.t:0 "Bloodgrounds Awaken"
+ disaster_beastmen_horde.6.d:0 "Beastmen Spawn"
+ disaster_beastmen_horde.6.a:0 "Damn"
+ blood_grounds_tooltip:0 "Blood Grounds"
+
+ beastmen_horde:0 "Call of the Beastmen"
+ beastmen_horde_rebels_name:0 "Beastmen Horde"
+ beastmen_horde_rebels_title:0 "Beastmen Horde"
+ beastmen_horde_rebels_desc:0 "REPLACE_ME"
+ beastmen_horde_rebels_army:0 "Beastmen Horde"
+ something_is_going_up_tooltip:0 "Something is going up"
+ no_old_hold_tooltip:0 "REPLACE_ME"
+ old_waystone:0 "Old Waystone"
+ desc_old_waystone:0 "Waystones are hewn from igneous rocks high in quartz, which resonates with the magical energy that flows through them."
+ blood_grounds:0 "Blood Grounds"
+ desc_blood_grounds:0 "The lands that the Beastmen use to hunt their prey are known collectively as Blood-Grounds."
+ no_old_gate_tooltip:0 "REPLACE_ME"
+ fight_great_invasion_tooltip:0 "REPLACE_ME"
+
+ defender_of_civilization:0 "Defender of Civilization"
+ desc_defender_of_civilization:0 "We have destoried the Beastmen"
+ waystone.1.t:0 "REPLACE_ME"
+ waystone.1.d:0 "REPLACE_ME"
+ waystone.1.a:0 "REPLACE_ME"
+ waystone.1.b:0 "REPLACE_ME"

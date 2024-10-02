@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = songhai
+religion = the_great_maw_religion
+technology_group = tech_ogre
+capital = 2811# Gao
+government_rank = 1
+setup_vision = yes

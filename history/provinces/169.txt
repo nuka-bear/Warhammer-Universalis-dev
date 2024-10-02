@@ -1,0 +1,15 @@
+#Uppland, contains Stockholm, Uppsala & Nyköping.
+#lol
+owner = U25
+controller = U25
+religion = horned_rat
+base_tax = 17
+base_production = 17
+base_manpower = 17
+trade_goods = warpstone
+capital = ""
+is_city = yes
+center_of_trade = 2
+culture = common_skaven
+add_core = U25
+fort_15th = yes

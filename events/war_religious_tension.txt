@@ -1,0 +1,552 @@
+namespace = pf_religious_tension
+
+#cult_of_sigmar Nations buy it up
+country_event = {
+	id = pf_religious_tension.1
+	title = pf_religious_tension.1.t
+	desc = pf_religious_tension.1.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		religion = cult_of_sigmar
+		is_part_of_hre = yes
+		NOT = { has_religious_tension = { amount = 100 } } 
+      NOT = { has_global_flag = religious_wars_over }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 1.25
+			NOT = { is_year = 1460 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { is_year = 1465 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { total_development = 15 }
+		}
+		modifier = {
+			factor = 1.25
+			has_religious_tension = { amount = 50 }
+		}
+		modifier = {
+			factor = 1.25
+			has_religious_tension = { amount = 75 }
+		}
+		modifier = {
+			factor = 1.25
+			is_year = 1490
+		}
+		modifier = {
+			factor = 1.25
+			is_year = 1500
+		}
+		modifier = {
+			factor = 1.25
+			is_year = 1510
+		}
+		modifier = {
+			factor = 2
+			has_religious_tension = { amount = 75 }
+		}
+		modifier = {
+			factor = 5
+			has_religious_tension = { amount = 90 }
+		}
+	}
+
+	option = {
+		name = pf_religious_tension.1.a
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 2			
+		 		stability = 1
+			}
+		}
+		add_religious_tension_effect = { amount = 500 }
+		custom_tooltip = empty_line_tt
+		add_years_of_income = 0.6
+	}
+
+	option = {
+		name = pf_religious_tension.1.b
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				NOT = { stability = 1 }
+			}
+		}
+		add_stability_or_adm_power = yes
+	}
+}
+
+#cult_of_sigmar Nations buy it up
+country_event = {
+	id = pf_religious_tension.2
+	title = pf_religious_tension.2.t
+	desc = pf_religious_tension.2.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		religion = cult_of_sigmar
+		is_part_of_hre = yes
+		NOT = { has_religious_tension = { amount = 100 } }
+      NOT = { has_global_flag = religious_wars_over }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 1.25
+			NOT = { is_year = 1460 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { is_year = 1465 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { total_development = 15 }
+		}
+		modifier = {
+			factor = 1.25
+			has_religious_tension = { amount = 50 }
+		}
+		modifier = {
+			factor = 1.25
+			has_religious_tension = { amount = 75 }
+		}
+		modifier = {
+			factor = 1.25
+			is_year = 1490
+		}
+		modifier = {
+			factor = 1.25
+			is_year = 1500
+		}
+		modifier = {
+			factor = 1.25
+			is_year = 1510
+		}
+		modifier = {
+			factor = 2
+			has_religious_tension = { amount = 75 }
+		}
+		modifier = {
+			factor = 5
+			has_religious_tension = { amount = 90 }
+		}
+	}
+
+	option = {
+		name = pf_religious_tension.2.a
+		ai_chance = {
+			factor = 5
+		}
+		add_religious_tension_effect = { amount = 5 }
+		custom_tooltip = empty_line_tt
+		change_government_reform_progress = 25
+	}
+
+	option = {
+		name = pf_religious_tension.2.b
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				num_of_loans = 1
+			}
+			modifier = {
+				factor = 2
+				num_of_loans = 2
+			}
+			modifier = {
+				factor = 2
+				num_of_loans = 3
+			}
+		}
+		add_treasury = 0.5
+	}
+}
+
+
+#Adirim Buys it down
+country_event = {
+	id = pf_religious_tension.3
+	title = pf_religious_tension.3.t
+	desc = pf_religious_tension.3.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_emperor = yes
+		AND = {
+			has_religious_tension = { amount = 1 }
+			NOT = { has_religious_tension = { amount = 100 } }
+		}
+      NOT = { has_global_flag = religious_wars_over }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 1.25
+			NOT = { is_year = 1460 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { is_year = 1465 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { total_development = 15 }
+		}
+		modifier = {
+			factor = 1.25
+			has_religious_tension = { amount = 50 }
+		}
+		modifier = {
+			factor = 1.25
+			has_religious_tension = { amount = 75 }
+		}
+		modifier = {
+			factor = 1.25
+			is_year = 1490
+		}
+		modifier = {
+			factor = 1.25
+			is_year = 1500
+		}
+		modifier = {
+			factor = 1.25
+			is_year = 1510
+		}
+	}
+
+	option = {
+		name = pf_religious_tension.3.a
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 2
+				government_reform_progress = 30
+			}
+		}
+		add_religious_tension_effect = { amount = -10 }
+		custom_tooltip = empty_line_tt
+		change_government_reform_progress = -30
+	}
+	option = {
+		name = pf_religious_tension.3.b
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 2
+				treasury = 100
+			}
+			modifier = {
+				factor = 0.5
+				num_of_loans = 3
+			}
+			modifier = {
+				factor = 0.5
+				num_of_loans = 2
+			}
+			modifier = {
+				factor = 0.5
+				num_of_loans = 1
+			}
+		}
+		add_religious_tension_effect = { amount = -10 }
+		custom_tooltip = empty_line_tt
+		add_years_of_income = -0.8
+	}
+	option = {
+		name = pf_religious_tension.3.c
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 2
+				treasury = 300
+			}
+			modifier = {
+				factor = 0.5
+				num_of_loans = 3
+			}
+			modifier = {
+				factor = 0.5
+				num_of_loans = 2
+			}
+			modifier = {
+				factor = 0.5
+				num_of_loans = 1
+			}
+		}
+		add_religious_tension_effect = { amount = -25 }
+		custom_tooltip = empty_line_tt
+		add_years_of_income = -2.5
+	}
+	option = {
+		name = pf_religious_tension.3.e
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 2
+				num_of_loans = 2
+			}
+			modifier = {
+				factor = 2
+				num_of_loans = 1
+			}
+		}
+		add_adm_power = 50
+	}
+}
+
+#Punic Princes add or remove
+country_event = {
+	id = pf_religious_tension.4
+	title = pf_religious_tension.4.t
+	desc = pf_religious_tension.4.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		religion = cult_of_ulric_religion
+		is_part_of_hre = yes
+		NOT = { is_emperor = yes }
+		NOT = { has_religious_tension = { amount = 100 } } 
+      NOT = { has_global_flag = religious_wars_over }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 0.9
+			NOT = { is_year = 1460 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { is_year = 1465 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { total_development = 50 }
+		}
+		modifier = {
+			factor = 0.9
+			has_religious_tension = { amount = 50 }
+		}
+		modifier = {
+			factor = 0.9
+			has_religious_tension = { amount = 75 }
+		}
+		modifier = {
+			factor = 0.75
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.75
+			is_year = 1500
+		}
+		modifier = {
+			factor = 0.75
+			is_year = 1510
+		}
+	}
+
+	option = {
+		name = pf_religious_tension.4.a
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 1.25
+				any_owned_province = {
+					religion = cult_of_sigmar
+				}
+			}
+			modifier = {
+				factor = 1.25
+				calc_true_if = {
+					amount = 1
+					all_ally = {
+						religion = cult_of_sigmar
+					}
+				}
+			}
+		}
+		add_religious_tension_effect = { amount = 5 }
+		custom_tooltip = empty_line_tt
+		add_legitimacy_equivalent = {
+			amount = 10
+			republican_tradition = 5
+		}
+		custom_tooltip = empty_line_tt
+		add_years_of_income = 0.25
+	}
+
+	option = {
+		name = pf_religious_tension.4.b
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				NOT = { prestige = 0 }
+			}
+			modifier = {
+				factor = 2
+				NOT = { prestige = 10 }
+			}
+			modifier = {
+				factor = 2
+				NOT = { prestige = 20 }
+			}
+			modifier = {
+				factor = 1.5
+				calc_true_if = {
+					amount = 1
+					all_rival_country = {
+						religion = cult_of_sigmar
+					}
+				}
+			}
+		}
+		add_prestige_or_monarch_power = { amount = 5 }
+	}
+}
+
+#Electors add or remove
+country_event = {
+	id = pf_religious_tension.5
+	title = pf_religious_tension.5.t
+	desc = pf_religious_tension.5.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		religion = cult_of_ulric_religion
+		is_part_of_hre = yes
+		NOT = { is_emperor = yes }
+		is_elector = yes
+		NOT = { has_religious_tension = { amount = 100 } } 
+      NOT = { has_global_flag = religious_wars_over }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 0.75
+			NOT = { is_year = 1460 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { is_year = 1465 }
+		}
+		modifier = {
+			factor = 0.9
+			has_religious_tension = { amount = 50 }
+		}
+		modifier = {
+			factor = 0.9
+			has_religious_tension = { amount = 75 }
+		}
+		modifier = {
+			factor = 0.75
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.75
+			is_year = 1500
+		}
+		modifier = {
+			factor = 0.75
+			is_year = 1510
+		}
+	}
+
+	option = {
+		name = pf_religious_tension.5.a
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 1.25
+				any_owned_province = {
+					religion = cult_of_sigmar
+				}
+			}
+			modifier = {
+				factor = 1.25
+				calc_true_if = {
+					amount = 1
+					all_ally = {
+						religion = cult_of_sigmar
+					}
+				}
+			}
+		}
+		add_religious_tension_effect = { amount = 5 }
+		custom_tooltip = empty_line_tt
+		add_dip_power = 50
+		
+	}
+
+	option = {
+		name = pf_religious_tension.5.b
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				NOT = { stability = 1 }
+			}
+			modifier = {
+				factor = 10
+				alliance_with = emperor
+			}
+			modifier = {
+				factor = 2
+				calc_true_if = {
+					amount = 1
+					all_rival_country = {
+						religion = cult_of_sigmar
+					}
+				}
+			}
+		}
+		add_religious_tension_effect = { amount = -10 }
+		custom_tooltip = empty_line_tt
+		add_dip_power = -50
+	}
+
+	option = {
+		name = pf_religious_tension.5.c
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				NOT = { stability = 1 }
+			}
+			modifier = {
+				factor = 1.5
+				calc_true_if = {
+					amount = 1
+					all_rival_country = {
+						religion = cult_of_sigmar
+					}
+				}
+			}
+		}
+		add_stability_or_adm_power = yes
+	}
+}

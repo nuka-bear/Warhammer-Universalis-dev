@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = sudron_arabyn
+religion = the_one_faith
+technology_group = tech_arabyn
+capital = 1223
+setup_vision = yes
+government_rank = 1

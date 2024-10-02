@@ -1,0 +1,10 @@
+owner = B53
+base_tax = 2
+base_manpower = 3
+base_production = 4
+trade_goods = fish
+religion = chaos_undivided_religion
+controller = B53
+is_city = yes
+culture = manchu_warhammer
+add_core = B53

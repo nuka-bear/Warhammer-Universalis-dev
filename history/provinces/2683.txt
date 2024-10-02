@@ -1,0 +1,10 @@
+owner = B50
+base_tax = 1
+base_manpower = 3
+base_production = 1
+trade_goods = fur
+religion = nurglite_religion
+controller = B50
+is_city = yes
+culture = yusaks
+add_core = B50

@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = strigany 
+religion = vampiric
+technology_group = tech_vampire_count
+capital = 177
+setup_vision = yes

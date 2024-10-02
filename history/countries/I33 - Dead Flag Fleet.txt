@@ -1,0 +1,9 @@
+government = monarchy
+primary_culture = west_cathayan
+religion = vampiric
+technology_group = tech_eastern_undead
+capital = 2850
+government_rank = 1
+setup_vision = yes
+
+

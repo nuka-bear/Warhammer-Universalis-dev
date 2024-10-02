@@ -1,0 +1,22 @@
+
+owner = A55
+controller = A55
+add_core = A55
+culture = tobaran
+religion = myrmidia
+ 
+hre = no
+
+base_tax = 8
+base_production = 8
+trade_goods = dyes
+base_manpower = 8
+
+is_city = yes
+
+
+
+
+
+
+

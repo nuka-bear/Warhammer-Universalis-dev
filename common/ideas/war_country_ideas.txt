@@ -1,0 +1,1981 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+####################
+########  THE EMPIRE
+####################
+#The Empire
+A99_ideas = {
+	start = {
+		morale_damage_received = -0.1
+		liberty_desire_from_subject_development = -0.25
+	}
+	bonus = {
+		governing_capacity_modifier = 0.15
+	}
+	trigger = {
+		tag = A99		#Empire
+	}
+	free = yes
+	#Colleges of Magic
+	A99_idea_1 = {
+		all_power_cost = -0.05
+	}
+	#steel faith and Gunpowder
+	A99_idea_2 = {
+		discipline = 0.05
+	}
+	#Multi-Enthic Empire
+	A99_idea_3 = {
+		num_accepted_cultures = 4
+	}
+	#Forges of Nuln
+	A99_idea_4 = {
+		production_efficiency = 0.2
+	}
+	#Imperial Berceaury
+	A99_idea_5 = {
+		global_tax_modifier = 0.1
+		administrative_efficiency = 0.05
+	}
+	#Bastion of Order
+	A99_idea_6 = {
+		diplomatic_reputation = 2
+	}
+	#Imperium of Man
+	A99_idea_7 = {
+		core_creation = -0.20
+		years_of_nationalism = -5
+	}
+}
+
+#Reikland
+A01_ideas = {
+	start = {
+		infantry_power = 0.1
+		diplomatic_reputation = 2
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = A01
+	}
+	free = yes
+	#imperial_ambitions
+	A01_ideas_1 = {
+		imperial_authority = 0.1
+	}
+	#Altdorf
+	A01_ideas_2 = {
+		global_trade_power = 0.1
+	}
+	#Legacy of Sigmar
+	A01_ideas_3 = {
+		monthly_splendor = 1
+		prestige = 1
+	}
+	#Reiksgard Knights
+	A01_ideas_4 = {
+		cavalry_power = 0.1
+		cavalry_shock = 0.5
+	}
+	#Imperial heartland
+	A01_ideas_5 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	#Courtly
+	A01_ideas_6 = {
+		improve_relation_modifier = 0.15
+		envoy_travel_time = -0.25
+	}
+	#Center of learning
+	A01_ideas_7 = {
+		advisor_pool = 1
+		idea_cost = -0.05
+	}
+}
+
+#Money/Artillery
+#Wissenland
+A02_ideas = {
+	start = {
+		land_morale = 0.1
+		global_trade_power = 0.15
+	}
+	bonus = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	trigger = {
+		tag = A02
+	}
+	free = yes	#will be added at load.
+	#Early Industrization
+	A02_idea_1 = {
+		development_cost = -0.1
+	}
+	#Pious Wissenland
+	A02_idea_2 = {
+		tolerance_own = 2
+	}
+	# Defenders of the South
+	A02_idea_3 = {
+		defensiveness = 0.1
+		fort_maintenance_modifier = -0.1
+	}
+	#Nulnish influence
+	A02_idea_4 = {
+		artillery_power = 0.15
+	}
+	#Rebuilding after Grom Da Paunch
+	A02_idea_5 = {
+		build_cost = -0.1
+	}
+	#Remember Solland
+	A02_idea_6 = {
+		shock_damage_received = -0.1
+	}
+	# River of Echoe
+	A02_idea_7 = {
+		trade_efficiency = 0.2
+	}
+}
+
+#hochland
+A03_ideas = {
+	start = {
+		discipline = 0.05
+		defensiveness = 0.25
+	}
+	bonus = {
+		fire_damage = 0.1
+	}
+	trigger = {
+		tag = A03
+	}
+	free = yes
+	#hochland long rifles
+	A03_idea_1 = {
+		infantry_fire = 0.15
+	}
+	#religious tolerant
+	A03_idea_2 = {
+		tolerance_heretic = 4
+	}
+	#Hit and Run
+	A03_idea_3 = {
+		hostile_attrition = 1
+	}
+	#
+	A03_idea_4 = {
+		trade_steering = 0.25
+	}
+	#
+	A03_idea_5 = {
+		global_own_trade_power = 0.1
+	}
+	#
+	A03_idea_6 = {
+		improve_relation_modifier = 0.2
+	}
+	#college of magic
+	A03_idea_7 = {
+		leader_land_manuever = 1
+	}
+}
+
+#Middenland ideas
+A04_ideas = {
+	start = {
+		global_regiment_cost = -0.15
+		global_manpower_modifier = 0.2
+	}
+	bonus = {
+		infantry_power = 0.1
+	}
+	trigger = {
+		tag = A04		#Middenland
+	}
+	free = yes
+	#Soverigns of the North
+	A04_idea_1 = {
+		vassal_forcelimit_bonus = 1
+		vassal_income = 0.25
+	}
+	A04_idea_2 = {
+		prestige_decay = -0.01
+		land_forcelimit_modifier = 0.2
+	}
+	#cult of Ulric
+	A04_idea_3 = {
+		tolerance_own = 2
+		global_missionary_strength = 0.01
+	}
+	A04_idea_4 = {
+		fort_maintenance_modifier = -0.2
+	}
+	#Champion of the North
+	A04_idea_5 = {
+		land_morale = 0.1
+	}
+	A04_idea_6 = {
+		imperial_authority = 0.1
+		improve_relation_modifier = 0.2
+	}
+	A04_idea_7 = {
+		development_cost = -0.1
+	}
+}
+
+#Stirland
+A05_ideas = {
+	start = {
+		land_morale = 0.15
+	}
+	bonus = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	trigger = {
+		tag = A05		#Stirland
+	}
+	free = yes
+	#legacy of Queen Freya
+	A05_idea_1 = {
+		leader_land_shock = 1
+		may_recruit_female_generals = yes
+	}
+	#_the_land_of_our_ancestors
+	A05_idea_2 = {
+		fabricate_claims_cost = -0.25
+		unjustified_demands = -0.2
+	}
+	#Stir River Patrol
+	A05_idea_3 = {
+		allowed_marine_fraction = 0.5
+		infantry_power = 0.1
+	}
+	A05_idea_4 = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		republican_tradition = 0.3
+	}
+	A05_idea_5 = {
+		war_exhaustion = -0.02
+		global_missionary_strength = 0.01
+	}
+	#Witch Hunters
+	A05_idea_6 = {
+		yearly_corruption = -0.1
+	}
+	A05_idea_7 = {
+		same_religion_advisor_cost = -0.1
+	}
+}
+
+#Averland
+A06_ideas = {
+	start = {
+		production_efficiency = 0.1
+	}
+	bonus = {
+		land_morale = 0.15
+	}
+	trigger = {
+		tag = A06		#Averland
+	}
+	free = yes
+	#cattle drives
+	A06_idea_1 = {
+		caravan_power = 0.2
+	}
+	#defenders of the blackfire pass
+	A06_idea_2 = {
+		defensiveness = 0.1
+		garrison_size = 0.15
+	}
+	#Dwarf Friend
+	A06_idea_3 = {
+		diplomatic_reputation = 1
+		envoy_travel_time = -0.25
+	}
+	#Order of the Black Bear
+	A06_idea_4 = {
+		cavalry_power = 0.2
+	}
+	#good horses
+	A06_idea_5 = {
+		movement_speed = 0.15
+	}
+	#legacy of Marius Leitdorf
+	A06_idea_6 = {
+		leader_land_shock = 2
+	}
+	#eccentric
+	A06_idea_7 = {
+		idea_cost = -0.1
+	}
+}
+
+#Ostland
+A07_ideas = {
+	start = {
+		defensiveness = 0.15
+		fort_maintenance_modifier = -0.15
+	}
+	bonus = {
+		shock_damage_received = -0.1
+	}
+	trigger = {
+		tag = A07
+	}
+	free = yes
+	#ostland bulls
+	A07_idea_1 = {
+		infantry_shock = 0.25
+	}
+	#conservative
+	A07_idea_2 = {
+		stability_cost_modifier = -0.15
+	}
+	#conservative + clear out patches in the forest
+	A07_idea_3 = {
+		development_cost_in_primary_culture = -0.15
+	}
+	#down for a fight
+	A07_idea_4 = {
+		land_forcelimit_modifier = 0.1
+		reinforce_speed = 0.1
+	}
+	#eat anything
+	A07_idea_5 = {
+		land_attrition = -0.15
+	}
+	#luv sigmar
+	A07_idea_6 = {
+		tolerance_own = 2
+	}
+	#economic
+	A07_idea_7 = {
+		production_efficiency = 0.1
+	}
+}
+
+#Talabecland
+A08_ideas = {
+	start = {
+		core_creation = -0.1
+	}
+	bonus = {
+		development_cost = -0.1
+	}
+	trigger = {
+		tag = A08
+	}
+	free = yes
+	#Crossroads of the Empire
+	A08_idea_1 = {
+		caravan_power = 0.25
+	}
+	#Forest Fighting
+	A08_idea_2 = {
+		hostile_attrition = 1
+	}
+	#Cult of Taal 
+	A08_idea_3 = {
+		shock_damage = 0.1
+	}
+	#Cult of Rhya
+	A08_idea_4 = {
+		tolerance_own = 1
+		may_recruit_female_generals = yes
+		female_advisor_chance = 0.33
+	}
+	A08_idea_5 = {
+		land_forcelimit_modifier = 0.2
+	}
+	A08_idea_6 = {
+		production_efficiency = 0.1
+	}
+	#Helmut Feuerbach
+	A08_idea_7 = {
+		max_absolutism = 10
+		global_unrest = -1
+	}
+}
+
+#ostermark
+A09_ideas = {
+	start = {
+		cavalry_cost = -0.1
+		build_cost = -0.1
+	}
+	bonus = {
+		development_cost = -0.1
+	}
+	trigger = {
+		tag = A09
+	}
+	free = yes
+	#Mordheim Mercenaries
+	A09_idea_1 = {
+		mercenary_cost = -0.25
+		mercenary_manpower = 0.5
+	}
+	#league of Ostermark
+	A09_idea_2 = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		republican_tradition = 0.3
+		monthly_splendor = 1
+	}
+	#league of Ostermark Pt 2.
+	A09_idea_3 = {
+		num_accepted_cultures = 2
+		tolerance_own = 1
+	}
+	#The Death's Heads
+	A09_idea_4 = {
+		infantry_power = 0.1
+	}
+	#sisters of sigmar
+	A09_idea_5 = {
+		yearly_corruption = -0.1
+		advisor_cost = -0.1
+		may_recruit_female_generals = yes
+		female_advisor_chance = 0.33
+	}
+	#ostermark Marches
+	A09_idea_6 = {
+		defensiveness = 0.25
+	}
+	#Legacy of Stefan von Kessel 
+	A09_idea_7 = {
+		leader_land_shock = 1
+	}
+}
+
+#Nordland
+A10_ideas = {
+	start = {
+		light_ship_cost = -0.2
+		land_morale = 0.1
+	}
+	bonus = {
+		global_trade_power = 0.1
+	}
+	trigger = {
+		tag = A10
+	}
+	free = yes
+	#Claims of the Gaussers
+	A10_idea_1 = {
+		province_warscore_cost = -0.1
+	}
+	A10_idea_2 = {
+		merchants = 1
+	}
+	#imperial Navy
+	A10_idea_3 = {
+		galley_power = 0.15
+		galley_cost = -0.25
+	}
+	#Nordland Mariners 
+	A10_idea_4 = {
+		movement_speed_onto_off_boat_modifier = 1
+		allowed_marine_fraction = 0.1
+	}
+	#Ruin of the Norscans
+	A10_idea_5 = {
+		culture_conversion_cost = -0.25
+		same_culture_advisor_cost = -0.1
+	}
+	A10_idea_6 = {
+		colonists = 1
+		religious_unity = 0.1
+	}
+	A10_idea_7 = {
+		naval_forcelimit_modifier = 0.25
+	}
+}
+
+#Marienburg
+A12_ideas = {
+	start = {
+		global_sailors_modifier = 0.25
+		naval_forcelimit_modifier = 0.5
+	}
+	bonus = {
+		trade_efficiency = 0.15
+	}
+	trigger = {
+		tag = A12
+	}
+	free = yes
+	#’The business of Marienburg is business’
+	A12_idea_1 = {
+		merchants = 1
+		trade_range_modifier = 0.1
+		inflation_reduction = 0.1
+	}
+	A12_idea_2 = {
+		inflation_reduction = 0.1
+	}
+	A12_idea_3 = {
+		development_cost = -0.1
+	}
+	A12_idea_4 = {
+		leader_naval_fire = 2
+		allowed_marine_fraction = 0.25
+	}
+	A12_idea_5 = {
+		tolerance_heretic = 3
+	}
+	A12_idea_6 = {
+		siege_ability = 0.1
+	}
+	A12_idea_7 = {
+		fire_damage = 0.1
+	}
+}
+
+#The Moot
+A14_ideas = {
+	start = {
+		production_efficiency = 0.1
+		diplomatic_reputation = 1
+	}
+	bonus = {
+		global_trade_power = 0.1
+	}
+	trigger = {
+		tag = A14
+	}
+	free = yes
+	#Pie Week
+	A14_idea_1 = {
+		improve_relation_modifier = 0.2
+	}
+	A14_idea_2 = {
+		prestige = 1
+	}
+	#
+	A14_idea_3 = {
+		land_maintenance_modifier = -0.1
+	}
+	#
+	A14_idea_4 = {
+		spy_offence = 0.3
+	}
+	#They breed
+	A14_idea_5 = {
+		manpower_in_own_culture_provinces = 0.2
+	}
+	#breadbasket of the Empire
+	A14_idea_6 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	#OGRES MY LORD
+	A14_idea_7 = {
+		infantry_power = 0.2
+		loot_amount = 0.5
+	}
+}
+
+#NULN
+A63_ideas = {
+	start = {
+		prestige_decay = -0.01
+		advisor_cost = -0.15
+	}
+	bonus = {
+		artillery_fire = 1
+	}
+	trigger = {
+		tag = A63
+	}
+	free = yes
+	A63_idea_1 = {
+		technology_cost = -0.05
+	}
+	A63_idea_2 = {
+		fire_damage = 0.1
+	}
+	A63_idea_3 = {
+		trade_goods_size = 0.1
+	}
+	A63_idea_4 = {
+		artillery_cost = -0.2
+	}
+	A63_idea_5 = {
+		leader_land_fire = 1
+	}
+	A63_idea_6 = {
+		artillery_power = 0.1
+	}
+	A63_idea_7 = {
+		siege_ability = 0.1
+	}
+}
+
+#Order of the Blazing Sun
+A87_ideas = {
+	start = {
+		discipline = 0.05
+		global_spy_defence = 0.2
+	}
+	bonus = {
+		fire_damage_received = -0.1
+	}
+	trigger = {
+		tag = A87
+	}
+	free = yes
+	A87_idea_1 = {
+		legitimacy = 1
+		republican_tradition = 0.3
+		devotion = 0.5
+	}
+	A87_idea_2 = {
+		diplomats = 1
+	}
+	A87_idea_3 = {
+		shock_damage = 0.1
+	}
+	A87_idea_4 = {
+		prestige = 1
+	}
+	A87_idea_5 = {
+		global_tax_modifier = 0.1
+	}
+	A87_idea_6 = {
+		leader_land_shock = 1
+	}
+	A87_idea_7 = {
+		defensiveness = 0.25
+	}
+}
+
+#Grudgebringers
+A94_ideas = {
+	start = {
+		mercenary_manpower = 0.2
+		leader_cost = -0.1
+	}
+	bonus = {
+		siege_ability = 0.1
+	}
+	trigger = {
+		tag = A94
+	}
+	free = yes
+	#The grudgebringer
+	A94_idea_1 = {
+		diplomatic_reputation = 2
+	}
+	#shadow of the horned rat
+	A94_idea_2 = {
+		fire_damage_received = -0.1
+	}
+	#dark omens
+	A94_idea_3 = {
+		yearly_corruption = -0.1
+	}
+	#vermintide
+	A94_idea_4 = {
+		advisor_cost = -0.2
+		num_accepted_cultures = 1
+		may_recruit_female_generals = yes
+	}
+	#grudgebringer calavry
+	A94_idea_5 = {
+		cavalry_power = 0.2
+	}
+	#Life of War
+	A94_idea_6 = {
+		war_exhaustion = -0.05
+	}
+	A94_idea_7 = {
+		mercenary_discipline = 0.05
+		merc_maintenance_modifier = -0.15
+	}
+}
+
+####### NORSCA ########
+####### NORSCA ########
+####### NORSCA ########
+#sarl
+A33_ideas = {
+	start = {
+		may_perform_slave_raid = yes
+		cav_to_inf_ratio = 0.5
+		may_recruit_female_generals = yes
+	}
+	bonus = {
+		shock_damage_received = -0.1
+	}
+	trigger = {
+		tag = A33
+	}
+	free = yes
+	A33_idea_1 = {
+		cavalry_cost = -0.2
+	}
+	A33_idea_2 = {
+		power_projection_from_insults = 1
+	}
+	A33_idea_3 = {
+		movement_speed = 0.15
+	}
+	norse_group_idea_4 = {
+		war_exhaustion_cost = -0.15
+	}
+	norse_group_idea_5 = {
+		global_ship_cost = -0.1
+		light_ship_power = 0.1
+	}
+	norse_group_idea_6 = {
+		trade_efficiency = 0.1
+	}
+	norse_group_idea_7 = {
+		naval_forcelimit_modifier = 0.25
+	}
+}
+
+####### Tilea ########
+####### Tilea ########
+####### Tilea ########
+#remas
+A50_ideas = {
+	start = {
+		merc_maintenance_modifier = -0.15
+		infantry_power = 0.1
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = A50
+	}
+	free = yes	#will be triggered at load
+	A50_idea_1 = {
+		mercenary_discipline = 0.05
+		mercenary_manpower = 0.5
+	}
+	A50_idea_2 = {
+		trade_efficiency = 0.1
+	}
+	A50_idea_3 = {
+		advisor_cost = -0.1
+	}
+	A50_idea_4 = {
+		fort_maintenance_modifier = -0.2
+		defensiveness = 0.25
+	}
+	A50_idea_5 = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		horde_unity = 1
+	}
+	A50_idea_6 = {
+		prestige = 1
+	}
+	A50_idea_7 = {
+		production_efficiency = 0.1
+	}
+}
+
+#verezzo
+A51_ideas = {
+	start = {
+		merc_maintenance_modifier = -0.15
+		infantry_power = 0.1
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = A51
+	}
+	free = yes	#will be triggered at load
+	#Legacy of Ricco and Robbio
+	A51_idea_1 = {
+		trade_range_modifier = 0.25
+	}
+	#good government
+	A51_idea_2 = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		horde_unity = 1
+	}
+	A51_idea_3 = {
+		advisor_cost = -0.1
+	}
+	A51_idea_4 = {
+		fort_maintenance_modifier = -0.2
+		defensiveness = 0.25
+	}
+	A51_idea_5 = {
+		development_cost = -0.1
+	}
+	A51_idea_6 = {
+		prestige = 1
+	}
+	A51_idea_7 = {
+		production_efficiency = 0.1
+	}
+}
+
+#Trantio
+A52_ideas = {
+	start = {
+		movement_speed_in_fleet_modifier = 1
+		infantry_power = 0.1
+	}
+	bonus = {
+		global_tariffs = 0.2
+	}
+	trigger = {
+		tag = A52
+	}
+	free = yes
+	A52_idea_1 = {
+		power_projection_from_insults = 1
+		rival_change_cost = -0.25
+	}
+	A52_idea_2 = {
+		naval_morale = 0.1
+		range = 0.2
+	}
+	A52_idea_3 = {
+		global_trade_power = 0.1
+	}
+	A52_idea_4 = {
+		global_colonial_growth = 15
+	}
+	A52_idea_5 = {
+		trade_efficiency = 0.15
+	}
+	A52_idea_6 = {
+		build_cost = -0.15
+		yearly_absolutism = 0.5
+	}
+	A52_idea_7 = {
+		defensiveness = 0.1
+		artillery_fire = 1
+	}
+}
+
+# sartosa
+A53_ideas = {
+	start = {
+		privateer_efficiency = 0.1
+		heavy_ship_power = 0.1
+		female_advisor_chance = 0.5
+		may_recruit_female_generals = yes
+	}
+	bonus = {
+		siege_blockade_progress = 1
+	}
+	trigger = {
+		tag = A53
+	}
+	free = yes	#will be triggered at load
+	#good captains
+	A53_idea_1 = {
+		naval_forcelimit_modifier = 0.33
+	}
+	#pirates
+	A53_idea_2 = {
+		leader_naval_manuever = 1
+	}
+	#pirates
+	A53_idea_3 = {
+		allowed_marine_fraction = 0.35
+		global_sailors_modifier = 0.1
+	}
+	#
+	A53_idea_4 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	#wrecked hive of scum and villiny 
+	A53_idea_5 = {
+		advisor_cost = -0.1
+	}
+	#
+	A53_idea_6 = {
+		infantry_power = 0.1
+	}
+	#
+	A53_idea_7 = {
+		global_unrest = -1
+		naval_morale = 0.1
+	}
+}
+
+# PAVONA
+A54_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		merc_maintenance_modifier = -0.25
+	}
+	bonus = {
+		free_dip_policy = 1
+	}
+	trigger = {
+		tag = A54
+	}
+	free = yes	#will be triggered at load
+	#Lucrezzia Belladonna
+	A54_idea_1 = {
+		spy_offence = 0.33
+	}
+	#tilea
+	A54_idea_2 = {
+		trade_efficiency = 0.1
+	}
+	#tilea
+	A54_idea_3 = {
+		advisor_cost = -0.1
+	}
+	#hate trantio
+	A54_idea_4 = {
+		rival_border_fort_maintenance = -0.25
+	}
+	#tilea 
+	A54_idea_5 = {
+		idea_cost = -0.1
+	}
+	#Lucrezzia Belladonna
+	A54_idea_6 = {
+		improve_relation_modifier = 0.25
+		heir_chance = 0.5
+	}
+	#lack access to sea
+	A54_idea_7 = {
+		fabricate_claims_cost = -0.25
+	}
+}
+
+#tobaro
+A55_ideas = {
+	start = {
+		merc_maintenance_modifier = -0.25
+		global_regiment_recruit_speed = -0.2
+	}
+	bonus = {
+		mercenary_cost = -0.25
+	}
+	trigger = {
+		tag = A55
+	}
+	free = yes
+	A55_idea_1 = {
+		#anti-skaven
+		defensiveness = 0.15
+		global_spy_defence = 0.5
+	}
+	A55_idea_2 = {
+		#sea of sirens
+		leader_naval_manuever = 1
+	}
+	A55_idea_3 = {
+		mercenary_discipline   = 0.05
+	}
+	A55_idea_4 = {
+		#Prince Piggalo I 
+		global_tax_modifier = 0.1
+	}
+	A55_idea_5 = {
+		#they tileans
+		mercenary_manpower = 0.25
+	}
+	A55_idea_6 = {
+		#good relations with estalia
+		improve_relation_modifier = 0.2
+	}
+	A55_idea_7 = {
+		#good relations with estalia
+		diplomatic_reputation = 1
+	}
+}
+
+#Luccini
+A56_ideas = {
+	start = {
+		galley_cost = -0.2
+		galley_power = 0.2
+	}
+	bonus = {
+		trade_efficiency = 0.1
+	}
+	trigger = {
+		tag = A56
+	}
+	free = yes	#will be triggered at load
+	#Luccini has drip
+	A56_idea_1 = {
+		prestige = 0.5
+		prestige_decay = -0.01
+	}
+	# cash money
+	A56_idea_2 = {
+		global_trade_power = 0.1
+	}
+	#cash money
+	A56_idea_3 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	#good fleet
+	A56_idea_4 = {
+		navy_tradition = 1
+	}
+	#tileans
+	A56_idea_5 = {
+		mercenary_discipline = 0.075
+		mercenary_cost = -0.1
+	}
+	#loads of dwarves
+	A56_idea_6 = {
+		build_cost = -0.1
+	}
+	#tileans
+	A56_idea_7 = {
+		merc_maintenance_modifier = -0.2
+		mercenary_manpower = 0.125
+	}
+}
+
+#Miraglianese
+A57_ideas = {
+	start = {
+		merc_maintenance_modifier = -0.15
+		infantry_power = 0.1
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = A57
+	}
+	free = yes	#will be triggered at load
+	#Generic Tilean
+	A57_idea_1 = {
+		shock_damage_received = -0.1
+	}
+	# Miragaliano wasnt built on elf ruins, had to build everything themselves
+	A57_idea_2 = {
+		development_cost = -0.1
+	}
+	#Generic Tilean
+	A57_idea_3 = {
+		advisor_cost = -0.1
+	}
+	#closest to skavenblight, good at resisting them
+	A57_idea_4 = {
+		global_spy_defence = 0.5
+		garrison_size = 0.25
+	}
+	#Leonardo da Miragliano
+	A57_idea_5 = {
+		technology_cost = -0.05
+	}
+	#Borgio the Besieger
+	A57_idea_6 = {
+		global_unrest = -2
+	}
+	#Borgio the Besieger
+	A57_idea_7 = {
+		max_general_siege = 1
+	}
+}
+
+
+#Monte Castello
+A61_ideas = {
+	start = {
+		defensiveness = 0.25
+		mercenary_discipline = 0.05
+		may_recruit_female_generals = yes
+	}
+	bonus = {
+		diplomatic_reputation = 1
+	}
+	trigger = {
+		tag = A61
+	}
+	free = yes	#will be triggered at load
+
+	#Legacy of 3 Races
+	A61_idea_1 = {
+		cavalry_power = 0.05
+		infantry_power = 0.05
+		artillery_power = 0.05
+	}
+	#Guardians of the Eastern Approach
+	A61_idea_2 = {
+		hostile_attrition = 1
+	}
+	#	Monna Lissa's Inspiration
+	A61_idea_3 = {
+		land_morale = 0.10
+		army_tradition_from_battle = 0.5
+	}
+	#Tintoverdi's Masterpiece
+	A61_idea_4 = {
+		prestige = 1
+	}
+	#Sentinel of the Black Gulf
+	A61_idea_5 = {
+		ship_durability = 0.15
+	}
+	#masters of siege craft	
+	A61_idea_6 = {
+		leader_siege = 1
+	}
+	#Mercenary Tradition
+	A61_idea_7 = {
+		mercenary_manpower = 0.25
+		mercenary_cost = -0.10
+	}
+}
+
+
+########
+#Albion
+########
+#Truthsayers
+#Tall/Religious/Diplo
+B08_ideas = {
+	start = {
+		tolerance_own = 2
+		advisor_cost = -0.1
+	}
+	bonus = {
+		development_cost = -0.1
+	}
+	trigger = {
+		tag = B08
+	}
+	free = yes
+	B08_idea_1 = {
+		hostile_attrition = 1
+	}
+	B08_idea_2 = {
+		idea_cost = -0.1
+	}
+	B08_idea_3 = {
+		missionaries = 1
+	}
+	B08_idea_4 = {
+		leader_land_shock = 1
+	}
+	B08_idea_5 = {
+		improve_relation_modifier = 0.2
+	}
+	B08_idea_6 = {
+		global_missionary_strength = 0.015
+	}
+	B08_idea_7 = {
+		morale_damage_received = -0.1
+	}
+}
+
+#Shadow Clan
+#conquest/balantly evil/Chaos
+B06_ideas = {
+	start = {
+		spy_offence = 0.25
+		siege_ability = 0.1
+	}
+	bonus = {
+		years_of_nationalism = -5
+	}
+	trigger = {
+		tag = B06		#Shadow clan
+	}
+	free = yes
+	B06_idea_1 = {
+		discipline = 0.05
+	}
+	B06_idea_2 = {
+		legitimacy = 1
+		republican_tradition = 0.3
+		devotion = 1
+		horde_unity = 1
+	}
+	B06_idea_3 = {
+		shock_damage = 0.1
+	}
+	B06_idea_4 = {
+		land_forcelimit_modifier = 0.2
+	}
+	B06_idea_5 = {
+		all_power_cost = -0.025
+	}
+	B06_idea_6 = {
+		global_manpower_modifier = 0.15
+	}
+	B06_idea_7 = {
+		hostile_attrition = 2
+	}
+}
+
+#Albionise Fimir
+B11_ideas = {
+	start = {
+		same_culture_advisor_cost = -0.15
+		production_efficiency = 0.1
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		culture_group = fimir_group		#FimirAlbion
+	}
+	free = yes
+	B11_idea_1 = {
+		horde_unity = 1
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		horde_unity = 1
+	}
+	B11_idea_2 = {
+		defensiveness = 0.1
+	}
+	#nurgle
+	B11_idea_3 = {
+		global_unrest = -2
+	}
+	#Tzeench
+	B11_idea_4 = {
+		idea_cost = -0.1
+	}
+	#khorne
+	B11_idea_5 = {
+		siege_ability = 0.1
+	}
+	#Slannesh
+	B11_idea_6 = {
+		prestige = 1
+	}
+	#Chaos undivided
+	B11_idea_7 = {
+		land_morale = 0.1
+	}
+}
+
+#Belenii
+#eagle riders
+B09_ideas = {
+	start = {
+		prestige = 1
+		cavalry_flanking = 0.75
+	}
+	bonus = {
+		idea_cost = -0.05
+	}
+	trigger = {
+		tag = B09
+	}
+	free = yes
+	B09_idea_1 = {
+		cavalry_power = 0.2
+	}
+	B09_idea_2 = {
+		global_tax_modifier = 0.1
+	}
+	B09_idea_3 = {
+		fort_maintenance_modifier = -0.1
+	}
+	B09_idea_4 = {
+		leader_land_manuever = 1
+	}
+	B09_idea_5 = {
+		trade_efficiency = 0.15
+	}
+	B09_idea_6 = {
+		recover_army_morale_speed = 0.1
+		war_exhaustion = -0.01
+	}
+	B09_idea_7 = {
+		fire_damage = 0.1
+	}
+}
+
+#Boreni
+#Pig Riders Cav 
+B10_ideas = {
+	start = {
+		shock_damage = 0.10
+		trade_efficiency = 0.1
+	}
+	bonus = {
+		global_manpower_modifier = 0.15
+	}
+	trigger = {
+		tag = B10
+	}
+	free = yes
+	B10_idea_1 = {
+		cavalry_power = 0.2
+	}
+	B10_idea_2 = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		horde_unity = 1
+	}
+	B10_idea_3 = {
+		production_efficiency = 0.1
+		cavalry_cost = -0.10
+	}
+	B10_idea_4 = {
+		mil_advisor_cost = -0.25
+	}
+	B10_idea_5 = {
+		global_spy_defence = 0.2
+	}
+	B10_idea_6 = {
+		church_loyalty_modifier = 0.1
+		tolerance_own = 2
+	}
+	B10_idea_7 = {
+		fire_damage_received = -0.1
+	}
+}
+
+#toulenni
+
+B12_ideas = {
+	start = {
+		land_morale = 0.1
+		defensiveness = 0.2
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = B12
+	}
+	free = yes
+	B12_idea_1 = {
+		prestige = 1
+	}
+	B12_idea_2 = {
+		legitimacy = 1
+		fabricate_claims_cost = -0.25
+	}
+	B12_idea_3 = {
+		global_trade_power = 0.15
+	}
+	B12_idea_4 = {
+		reform_progress_growth = 0.15
+	}
+	B12_idea_5 = {
+		build_cost = -0.1
+		garrison_size = 0.25
+	}
+	B12_idea_6 = {
+		stability_cost_modifier = -0.15
+		harsh_treatment_cost = -0.3
+	}
+	B12_idea_7 = {
+		development_cost = -0.1
+	}
+}
+
+######## Elves #####
+######## Elves #####
+######## Elves #####
+
+#CALEDOR ideas
+H07_ideas = {
+	start = {
+		leader_land_shock = 2
+		cavalry_power = 0.2
+	}
+	bonus = {
+		monarch_admin_power = 1
+	}
+	trigger = {
+		tag = H07		#cALEDOR
+	}
+	free = yes	#will be added at load.
+	H07_idea_1 = {
+		monarch_military_power = 1
+		army_tradition_from_battle = 0.5
+	}
+	H07_idea_2 = {
+		leader_naval_manuever = 2
+		navy_tradition_decay = -0.01
+	}
+	H07_idea_3 = {
+		mercenary_manpower = 0.5
+		merc_maintenance_modifier = -0.15
+	}
+	H07_idea_4 = {
+		production_efficiency = 0.1
+	}
+	H07_idea_5 = {
+		global_colonial_growth = 25
+	}
+	H07_idea_6 = {
+		free_leader_pool = 2
+	}
+	H07_idea_7 = {
+		land_morale = 0.1
+		recover_army_morale_speed = 0.05
+	}
+}
+
+
+#Athel Loren
+B01_ideas = {
+	start = {
+		infantry_power = 0.2
+		hostile_attrition = 1
+	}
+	bonus = {
+		manpower_in_own_culture_provinces = 0.15
+	}
+	trigger = {
+		tag = B01
+	}
+	free = yes
+	#Ambient Magic of Athel Loren
+	B01_idea_1 = {
+		development_cost_in_primary_culture = -0.1
+	}
+	# The Wild Hunt
+	B01_idea_2 = {
+		leader_land_shock = 1
+		cavalry_power = 0.10
+	}
+	#Way Watchers
+	B01_idea_3 = {
+		infantry_fire = 0.1
+	}
+	#Spirits of the Forest
+	B01_idea_4 = {
+		land_morale = 0.10
+	}
+	#Isolationist Policy
+	B01_idea_5 = {
+		defensiveness = 0.2
+	}
+	#Symbiosis with Nature
+	B01_idea_6 = {
+		build_cost = -0.10
+	}
+	#Manipulation of the Worldroots
+	B01_idea_7 = {
+		diplomats = 1
+		envoy_travel_time = -0.25
+	}
+}
+
+#Naggaroth
+H12_ideas = {
+	start = {
+		mil_advisor_cost = -0.20
+		navy_tradition = 1
+	}
+	bonus = {
+		shock_damage = 0.10
+	}
+	trigger = {
+		tag = H12
+	}
+	free = yes
+	# Reclaim the birthright
+	H12_idea_1 = {
+		core_creation = -0.25
+	}
+	# Cold Blooded Killers
+	H12_idea_2 = {
+		morale_damage = 0.15
+	}
+	# Rule Through Fear
+	H12_idea_3 = {
+		harsh_treatment_cost = -0.50
+		max_absolutism = 10
+	}
+	# Black Ark Corsairs
+	H12_idea_4 = {
+		allowed_marine_fraction = 0.25
+		privateer_efficiency = 0.33
+	}
+	# Crack the Whip
+	H12_idea_5 = {
+		global_trade_goods_size_modifier = 0.10
+	}
+	# Black Arks
+	H12_idea_6 = {
+		heavy_ship_power = 0.20
+		range = 0.25
+	}
+	# Cult of Khaine
+	H12_idea_7 = {
+		war_exhaustion = -0.03
+		global_manpower_modifier = 0.25
+	}
+}
+
+
+######## Skaven #####
+######## Skaven #####
+######## Skaven #####
+
+#Moulder
+
+U03_ideas = {
+	start = {
+		reinforce_cost_modifier = -0.15
+		cavalry_power = 0.33
+	}
+	bonus = {
+		leader_land_shock = 1
+	}
+	trigger = {
+		tag = U03
+	}
+	free = yes
+	U03_idea_1 = {
+		cavalry_flanking = 1
+		cav_to_inf_ratio = 0.25
+	}
+	U03_idea_2 = {
+		land_morale = 0.15
+	}
+	U03_idea_3 = {
+		production_efficiency = 0.1
+	}
+	U03_idea_4 = {
+		leader_land_manuever = 1
+		shock_damage = 0.05
+	}
+	U03_idea_5 = {
+		global_unrest = -1
+		harsh_treatment_cost = -0.2
+	}
+	U03_idea_6 = {
+		diplomatic_reputation = 2
+	}
+	U03_idea_7 = {
+		war_exhaustion = -0.03
+	}
+}
+
+#Rictus
+U01_ideas = {
+	start = {
+		loot_amount = 0.5
+		leader_land_shock = 1
+	}
+	bonus = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		horde_unity = 1
+	}
+	trigger = {
+		tag = U01
+	}
+	free = yes
+	U01_idea_1 = {
+		trade_efficiency = 0.1
+	}
+	U01_idea_2 = {
+		leader_land_manuever = 1
+		spy_offence = 0.15
+	}
+	U01_idea_3 = {
+		infantry_power = 0.1
+	}
+	U01_idea_4 = {
+		production_efficiency = 0.05
+		development_cost = -0.05
+	}
+	U01_idea_5 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	#all my homies hate clan mors
+	U01_idea_6 = {
+		power_projection_from_insults = 1
+	}
+	U01_idea_7 = {
+		movement_speed = 0.15
+	}
+}
+
+#Clan VOlkn
+U23_ideas = {
+	start = {
+		unjustified_demands = -0.2
+		stability_cost_modifier = -0.2
+	}
+	bonus = {
+		army_tradition = 0.5
+	}
+	trigger = {
+		tag = U23
+	}
+	free = yes
+	U23_idea_1 = {
+		development_cost = -0.05
+		prestige = 1
+	}
+	U23_idea_2 = {
+		fire_damage = 0.15
+	}
+	U23_idea_3 = {
+		hostile_attrition = 1
+	}
+	U23_idea_4 = {
+		global_unrest = -2
+	}
+	U23_idea_5 = {
+		manpower_in_own_culture_provinces = 0.2
+	}
+	U23_idea_6 = {
+		war_exhaustion = -0.03
+	}
+	U23_idea_7 = {
+		global_regiment_cost = -0.1
+	}
+}
+
+#Grey Seers
+U25_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		religious_unity = 0.25
+	}
+	bonus = {
+		tolerance_own = 2
+	}
+	trigger = {
+		tag = U25
+	}
+	free = yes
+	U25_idea_1 = {
+		advisor_cost = -0.1
+	}
+	U25_idea_2 = {
+		prestige_per_development_from_conversion = 0.5
+	}
+	U25_idea_3 = {
+		global_unrest = -1
+		production_efficiency = 0.1
+	}
+	U25_idea_4 = {
+		discipline = 0.05
+	}
+	U25_idea_5 = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		horde_unity = 1
+	}
+	U25_idea_6 = {
+		max_absolutism = 10
+	}
+	U25_idea_7 = {
+		all_power_cost = -0.05
+	}
+}
+
+#Skryre
+U26_ideas = {
+	start = {
+		possible_policy = 1
+		innovativeness_gain = 1
+	}
+	bonus = {
+		stability_cost_modifier = -0.15
+	}
+	trigger = {
+		tag = U26
+	}
+	free = yes
+	U26_idea_1 = {
+		technology_cost = -0.1
+	}
+	U26_idea_2 = {
+		global_institution_spread = 0.25
+		embracement_cost = -0.25
+	}
+	U26_idea_3 = {
+		prestige_decay = -0.01
+	}
+	U26_idea_4 = {
+		development_cost = -0.1
+		build_time = -0.05
+	}
+	U26_idea_5 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	U26_idea_6 = {
+		artillery_power = 0.1
+	}
+	U26_idea_7 = {
+		fire_damage = 0.05
+	}
+}
+
+#Clan MORS
+MORS_ideas = {
+	start = {
+		land_morale = 0.1
+		shock_damage_received = -0.1
+	}
+	bonus = {
+		land_maintenance_modifier = -0.1
+	}
+	trigger = {
+		or = {
+			tag = U27
+			tag = U39
+		}
+	}
+	free = yes
+	MORS_idea_1 = {
+		leader_land_shock = 1
+	}
+	MORS_idea_2 = {
+		province_warscore_cost = -0.15
+	}
+	MORS_idea_3 = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.15
+		horde_unity = 1
+	}
+	MORS_idea_4 = {
+		mil_tech_cost_modifier = -0.1
+	}
+	MORS_idea_5 = {
+		prestige_from_land = 0.25
+		army_tradition_from_battle = 0.25
+	}
+	MORS_idea_6 = {
+		trade_efficiency = 0.1
+	}
+	MORS_idea_7 = {
+		infantry_power = 0.1
+	}
+}
+
+
+########
+#darklands
+
+#Zharr-Naggarund
+
+B17_ideas = {
+	start = {
+		infantry_power = 0.10
+		build_time = -0.25
+	}
+	bonus = {
+		backrow_artillery_damage = 0.1 
+	}
+	trigger = {
+		tag = B17
+	}
+	free = yes
+	B17_idea_1 = {
+		production_efficiency = 0.20
+	}
+	B17_idea_2 = {
+		caravan_power = 0.25
+	}
+	B17_idea_3 = {
+		discipline = 0.05
+	}
+	B17_idea_4 = {
+		army_tradition = 1.0
+	}
+	B17_idea_5 = {
+		siege_ability = 0.15
+	}
+	B17_idea_6 = {
+		technology_cost = -0.05	
+	}
+	B17_idea_7 = {
+		same_religion_advisor_cost = -0.05
+		tolerance_own = 2
+	}
+}
+
+#uzkulak
+
+B29_ideas = {
+	start = {
+		naval_morale = 0.15
+		prestige = 1
+	}
+
+	bonus = {
+		global_trade_power = 0.1
+	}
+
+	trigger = {
+		tag = B29 
+	}
+	free = yes
+
+	B29_idea_1 = {
+		stability_cost_modifier = -0.15
+	}
+	B29_idea_2 = { 
+		diplomatic_reputation = 1
+	}
+	B29_idea_3 = { 
+		navy_tradition = 1
+	}
+	B29_idea_4 = {
+		trade_steering = 0.25
+	}
+	B29_idea_5 = { 
+		global_ship_cost = -0.1
+	}
+	B29_idea_6 = { 
+		leader_naval_manuever = 1
+		allowed_marine_fraction = 0.2
+	}
+	B29_idea_7 = {
+		innovativeness_gain = 0.5
+		development_cost = -0.05
+	}
+}
+
+
+#vorag
+B27_ideas = {
+	start = {
+		land_morale = 0.15
+		manpower_in_own_culture_provinces = 0.10
+	}
+	bonus = {
+		trade_goods_size_modifier = 0.10
+	}
+	trigger = {
+		tag = B27
+	}
+	free = yes
+	B27_idea_1 = {
+		devotion = 1
+		horde_unity = 1
+		legitimacy = 1
+		meritocracy = 1
+		republican_tradition = 0.30
+	}
+	B27_idea_2 = {
+		stability_cost_modifier = 0.10
+	}
+	B27_idea_3 = {
+		loot_amount = 0.25
+		siege_ability = 0.10
+	}
+	B27_idea_4 = {
+		cavalry_power = 0.10
+	}
+	B27_idea_5 = {
+		reinforce_speed = 0.1
+		movement_speed = 0.1
+	}
+	B27_idea_6 = {
+		diplomatic_reputation = 1
+	}
+	B27_idea_7 = {
+		prestige = 1
+	}
+}
+
+
+
+#nagash
+U24_ideas = {
+	start = {
+		shock_damage_received = -0.2
+		siege_ability = 0.2
+	}
+	bonus = {
+		governing_capacity_modifier = 0.25
+	}
+	trigger = {
+		tag = U24 #Nagash/Undead Legions
+	}
+	free = yes
+
+	U24_idea_1 = {
+		all_power_cost = -0.05
+	}
+	U24_idea_2 = { 
+		prestige = 1
+	}
+	U24_idea_3 = {
+		reduced_liberty_desire  = 15
+	}
+	U24_idea_4 = {
+		years_of_nationalism = -5
+	}
+	U24_idea_5 = {
+		manpower_recovery_speed = 0.15
+	}
+	U24_idea_6 = { 
+		discipline = 0.05
+	}
+	U24_idea_7 = { 
+		missionaries = 1
+        global_missionary_strength = 0.03
+	}
+}
+
+##########
+# Nehekhara
+#########
+#Khemri
+Z01_ideas = {
+	start = {
+		discipline = 0.05
+		global_unrest = -2
+	}
+
+	bonus = {
+		land_forcelimit_modifier = 0.25
+	}
+
+	trigger = {
+		tag = Z01
+	}
+	free = yes
+
+	Z01_idea_1 = {
+		core_creation = -0.25
+	}
+	Z01_idea_2 = {
+		cavalry_power = 0.15
+	}
+	Z01_idea_3 = {
+		prestige = 1
+	}
+	Z01_idea_4 = {
+		discipline = 0.05
+	}
+	Z01_idea_5 = {
+		reduced_liberty_desire_on_same_continent = 10
+		diplomatic_annexation_cost = -0.1
+	}
+	Z01_idea_6 = {
+		global_missionary_strength = 0.03
+	}
+	Z01_idea_7 = {
+		leader_land_shock = 1
+	}
+}

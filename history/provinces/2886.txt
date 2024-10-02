@@ -1,0 +1,10 @@
+base_tax = 6
+base_manpower = 5
+base_production = 1
+trade_goods = naval_supplies
+religion = yin_yang
+is_city = yes
+owner = I29
+controller = I29
+culture = south_cathayan
+add_core = I29

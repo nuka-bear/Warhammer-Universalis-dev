@@ -1,0 +1,927 @@
+﻿l_english:
+ ######################################
+ # General
+ ######################################
+ WORLD_YEAR: "$YEAR$ IC"
+ 
+ RELIGIOUS_CONFLICT_RULES_ON:0 "§YReligious Conflicts§!\n- Invasions can be called by the Seer Council.\n- Horned Rat rulers can be dishonored."
+ RELIGIOUS_CONFLICT_RULES_OFF:0 "This age has no special religious conflict."
+ ENDOFTIME_BODY:0 "It is the year Twenty-Seven Hundred and Two of the Imperial Calender. What changes has your nation seen over the last 400 years?"
+
+ until_end_of_age_of_discovery_desc:0 "until the end of the §YAge of Discovery§!"
+ until_end_of_age_of_reformation_desc:0 "until the end of the §YAge of Reckoning§!"
+ until_end_of_age_of_absolutism_desc:0 "until the end of the §YThe End Times§!"
+ until_end_of_age_of_revolution_desc:0 "until the end of the §YAge of Sigmar§!"
+ 
+ age_of_discovery_short:0 "Discovery"
+ age_of_reformation_short:0 "Reckoning"
+ age_of_absolutism_short:0 "The End Times"
+ age_of_revolutions_short:0 "Sigmar"
+ 
+ age_of_discovery:0 "Age of Reckoning"
+ age_of_discovery_desc:1 "At the dawn of the Early Modern era new continents are being mapped while feudal society is slowly giving way to centralized states.\nFor an enterprising state this age can see the foundation of a worldwide empire."
+ age_of_reformation:0 "Age of Reckoning"
+ age_of_reformation_desc:1 "From East to West this is the age of religious conviction, debates and mass movements. In Europe Protestantism is entrenched while millenarianism takes hold of Iran and religious Syncretism shapes Indian society."
+ age_of_absolutism:0 "The End Times"
+ age_of_absolutism_desc:1 "As governments wrest the absolute power in their countries from other parties, they are now able to devote themselves to the building of Empires. This is the age of the state, of rulers, and their armies."
+ age_of_revolutions:0 "Age of Sigmar"
+ age_of_revolutions_desc:1 "The questioning of rights, authority and the world itself during the Enlightenment has led to the rejection of the Ancient Regime. As Absolutism gives way to Revolution kingdoms may have to make place for Republics."
+ 
+ ######################################
+ # Holy Roman Empire
+ ###################################### 
+ 
+ VIEW_HRE:0 "The Empire View"
+ ALL_HRE_PROVS:0 "All Imperial Provinces"
+ DISMANTLE_HRE:0 "Dismantle the Empire"
+ HRE_MEMBERS:0 "Empire Members"
+ HRE_EMPEROR:0 "The Emperor"
+ HRE_HRE:0 "The Empire"
+ HRE_ELECTORS:0 "Elector Counts"
+ HRE_MEMBER_STAT:0 "$NUM$ Princes"
+ HRE_CLOSE:0 "Close"
+ HRE_MEMBER_STATES:0 "Member States"
+ HRE_MEMBER_HAS_NOT_MODIFIER:0 "Empire Members do not have the modifier "
+ HRE_MEMBER_HAS_MODIFIER:0 "Empire Members have the modifier "
+ HRE_EMPEROR_HAS_NOT_MODIFIER:0 "The Empire does not have the modifier "
+ HRE_EMPEROR_HAS_MODIFIER:0 "The Empire has the modifier "
+ HRE_INTERNAL_CB_ENABLED:0 "Allow Internal Imperial Wars"
+ HRE_INTERNAL_CB_DISABLED:0 "Disallow Internal Imperial Wars"
+ HRE_IMPERIAL_BAN_ENABLED:0 "Gives casus belli on non-members holding Imperial territory."
+ HRE_IMPERIAL_BAN_DISABLED:0 "No longer gives casus belli on non-members holding Imperial territory."
+ HRE_IMPERIAL_BAN_IS_ENABLED:0 "Emperor has CB on occupiers of the Empire"
+ HRE_IMPERIAL_BAN_IS_DISABLED:0 "Emperor does NOT have CB on occupiers of the Empire"
+ IS_HRE_EMPEROR:0 "§Y$RULERNAME$§W of §Y$NAME$§W is Emperor."
+ HRE_ELECTOR:0 "§Y$NAME$§W is an Elector in the Empire. They would currently support the ruler of §Y$VOTE$§W as emperor, should the current one die."
+ HRE_MEMBER:0 "§Y$NAME$§W is a member of the Empire."
+ HRE_FREE_CITY:0 "§Y$NAME$§W is a Free City in the Empire."
+ HRE_RELATION:1 "$NAME$ give us §Y$POINTS$§W points when ranking of who they want to vote for as the next Emperor."
+ EMPEROR_BENEFIT:0 "Being emperor gives the following benefits:\n"
+ NUM_OF_PRINCES:0 "The §Y$TOTAL$§! Princes and §Y$CITIES$§! Free Cities in the Empire give the following to the Emperor:\n"
+ HRE_NUM_MEMBERS:1 "These are the member states of the Empire."
+ HRE_NUM_MEMBERS_DELAYED:1 "More countries might join the Empire if they are threatened by outside powers, and have a friendly attitude towards the Emperor. A high Imperial Authority may help to convince them."
+ DISMANTLE_HRE:0 "Dismantle the Empire"
+ states_in_hre:0 "States in the Empire"
+ free_cities_in_hre:0 "Free Cities in the Empire"
+ reichsreform_member:0 "Imperial Reform"
+ desc_reichsreform_member:0 "The reformed Imperial administration brings us benefits."
+ reichsreform_emperor:0 "Imperial Reform"
+ desc_reichsreform_emperor:0 "The reformed Imperial administration brings us benefits."
+ reichsregiment_member:0 "Imperial Government"
+ desc_reichsregiment_member:0 "The reformed Imperial government is more efficient, but our foreign policy has become less independent."
+ reichsregiment_emperor:0 "Imperial Government"
+ desc_reichsregiment_emperor:0 "The reformed Imperial government is more effective, and foreign policy for the entire empire is increasingly set by you, the Emperor."
+ hofgericht_member:0 "Emperor's Will"
+ desc_hofgericht_member:0 "The emperor has final say on judicial matters, and we are gradually losing our native legal tradition as a result."
+ hofgericht_emperor:0 "Emperor's Will"
+ desc_hofgericht_emperor:0 "With the reaffirmed Hofgericht you, as Emperor, now set legal policy for the entire empire. Skilled policy makers are increasingly drawn to the imperial court."
+ gemeinerpfennig_member:0 "Imperial Crowns"
+ desc_gemeinerpfennig_member:0 "We are now paying taxes to the Emperor."
+ gemeinerpfennig_emperor:0 "Imperial Crowns"
+ desc_gemeinerpfennig_emperor:0 "Taxes from the entire Empire fill our coffers, but the growing power of the Imperial office is starting to draw the world's attention."
+ landfriede_member:0 "Realm Peace"
+ desc_landfriede_member:0 "The Emperor has declared peace throughout the Empire."
+ landfriede_emperor:0 "Realm Peace"
+ desc_landfriede_emperor:0 "We have declared peace throughout the empire."
+ erbkaisertum_member:0 "Hereditary Constitution"
+ desc_erbkaisertum_member:0 "The Empire has become a hereditary monarchy."
+ erbkaisertum_emperor:0 "Hereditary Constitution"
+ desc_erbkaisertum_emperor:0 "The Empire has become a hereditary monarchy."
+ privilegia_de_non_appelando_member:0 "Privileges Revoked"
+ desc_privilegia_de_non_appelando_member:0 "The 'privilege of not appealing' have been revoked throughout the empire."
+ privilegia_de_non_appelando_emperor:0 "Privileges Revoked"
+ desc_privilegia_de_non_appelando_emperor:0 "The 'privilege of not appealing' have been revoked throughout the empire."
+ bg_elector:0 "The year of $YEAR$ saw $COUNTRY$ given the dignity of Prince Elector of the Empire."
+ M_HRE_BUTTON:0 "The Empire"
+ 
+ #Imperial Reforms
+ emperor_reichsstabilitaet_title:0 "Absolute Stability"
+ emperor_reichsstabilitaet_desc:0 "Safeguard the stability of the Empire by securing the means for its expansion."
+ emperor_perpetual_diet_title:0 "Permanent Parliament"
+ emperor_perpetual_diet_desc:1 "Institute a permanent session of the Imperial Parliament so that important matters can be brought before it as and when they happen."
+ emperor_landsknechtswesen_title:0 "Imperial Dogs of War Companies"
+ emperor_landsknechtswesen_desc:0 "Organize the many dogs of war and regiment of renown mercenary companies and bands into official companies available for the Empire's defense."
+ emperor_reichstag_collegia_title:0 "Establish the Parliamentary Colleges"
+ emperor_reichstag_collegia_desc:0 "Divide the Parliament between into separate colleges for the Emperor, the Elector Counts and the Free Cities to improve its functioning for all."
+ emperor_geteilte_macht_title:0 "Shared Authority"
+ emperor_geteilte_macht_desc:0 "Guarantee the powers of the Elector Counts so that they in turn may support the strength of the Emperor."
+ emperor_rechenschaft_title:0 "Restore Lost Provinces"
+ emperor_rechenschaft_emperor_per_prince:0 "Drakwald Reforms"
+ emperor_rechenschaft_desc:0 "We must expand the Empire's checks and balances to create a more equitable system."
+ emperor_expand_gemeiner_pfennig_title:0 "Expand the Imperial Tax"
+ emperor_expand_gemeiner_pfennig_desc:0 "Increase the common tax to expand the Empire's capabilities in times of war."
+ emperor_reichskrieg_title:0 "Imperial War"
+ emperor_reichskrieg_desc:0 "Mobilize the Empire's forces against all who may seek to threaten it!"
+ emperor_imperial_estates_title:0 "Curtail the Elector Counts"
+ emperor_imperial_estates_desc:0 "Curb the freedoms of the Elector Counts so that they are no longer able to defy the Emperor."
+ emperor_reichsreform_title:0 "Call for Reforms"
+ emperor_reichsreform_desc:0 "Reform the Empire to a more centralized model."
+ emperor_reichsregiment_title:0 "Reform Imperial Government"
+ emperor_reichsregiment_desc:0 "Consolidate the Imperial Parliament, and reduce the legislative complexity."
+ emperor_gemeinerpfennig_title:0 "Enact the Imperial Tax"
+ emperor_gemeinerpfennig_desc:0 "Require member states of The Empire to levy a special tax to be paid directly to the Emperor."
+ emperor_hofgericht_title:0 "Emperor's Will"
+ emperor_hofgericht_desc:0 "Reduce legislative independence by making the Emperor the final legal authority within the Empire."
+ emperor_landfriede_title:0 "Enforce Realm Peace"
+ emperor_landfriede_desc:0 "Force member states to solve their disputes in courts of law, rather than on battlefields."
+ emperor_privilegia_de_non_appelando_title:0 "Revoke The Privilegia"
+ emperor_privilegia_de_non_appelando_desc:0 "Revoke The Privilege of Non-Appeal."
+ emperor_erbkaisertum_title:0 "Abolish the Elections"
+ emperor_erbkaisertum_desc:0 "Abolish the elective monarchy of The Empire."
+ emperor_renovatio_title:0 "Unify The Empire"
+ emperor_renovatio_desc:0 "Realize the Dream: unite the disparate states of The Empire into a nation state."
+ 
+ #imperial reforms(Non-Emperor)
+ reichsreform_title:0 "Call for Reforms"
+ reichsreform_desc:0 "Reform the Empire to a more centralized model."
+ reichsreform_province:0 "Imperial Reform"
+ reichsregiment_title:0 "Reform Imperial Government"
+ reichsregiment_desc:0 "Consolidate the Imperial Parliament, and reduce the legislative complexity."
+ reichsregiment_province:0 "Imperial Parliament"
+ gemeinerpfennig_title:0 "Enact Imperial Taxes"
+ gemeinerpfennig_desc:0 "Require member states of the Empire to levy a special tax to be paid directly to the Emperor."
+ hofgericht_title:0 "Emperor's Will"
+ hofgericht_desc:0 "Reduce legislative independence by making the Emperor the final legal authority within the Empire."
+ landfriede_title:0 "Enforce Realm Peace"
+ landfriede_desc:0 "Force member states to solve their disputes in courts of law, rather than on battlefields."
+ landfriede_province:0 "Realm Peace"
+ privilegia_de_non_appelando_title:0 "Revoke The Privilegia"
+ privilegia_de_non_appelando_desc:0 "Revoke The Privilege of Non-Appeal."
+ erbkaisertum_title:0 "Abolish the Elections"
+ erbkaisertum_desc:0 "Abolish the elective monarchy of The Empire."
+ renovatio_title:0 "Unify The Empire"
+ renovatio_desc:0 "Realize the Dream: unite the disparate states of The Empire into a nation state."
+ 
+ #misc
+ HRE_RIGHTBRANCH:0 "Centralization"
+ 
+ ######################################
+ # Piety
+ ######################################
+ PIETY_DESCRIPTION:2 "Gork n' Mork represents the favor of Gork or Mork. It is measured on a scale between -100 (§RGork§!) and 100 (§MMork§!).\nThe piety of your ruler is affected by various actions you can take. Event options will move your position on the scale as will declaring war on infidels (Increase) or brothers in faith (Decrease)."
+ PIETY_DESCRIPTION_ESTATES:1 "\nWhether the ruler prefers Gork or Mork will influence the loyalty of your Estates."
+ GAIN_PIETY:0 "Move $VALUE|Y$ towards Mork"
+ LOSE_PIETY:0 "Move $VALUE|Y$ towards Gork"
+ PIETY_TOO_LOW_FOR_LEGALISM:1 "To be able to '§YCunning Brutality§!' we need to be at least $NEED|Y$ towards Mork. This would impact corruption by $CORRUPTION$."
+ PIETY_LEGALISM_BONUS:1 "Our tradition of Gork is a great advantage. §YEnforcing faithful Adherence§! will move us by $COST|Y$ towards Mork but impact corruption by $CORRUPTION$."
+ PIETY_TOO_HI_FOR_MYSTICISM:1 "To be able to '§YBrutal Cunning§!' we need to be at least $NEED|Y$ towards Mork. This would gives us the following impact:\n$GAIN$"
+ PIETY_MYSTICISM_BONUS:1 "Our tradition of Mork is a great advantage. §YBrutal Cunning§! will move us by $COST|Y$ towards Gork but offer us $GAIN$"
+ PIETY_MYSTICISM_COOLDOWN:0 "You can only '§YBrutal Cunning§!' once every $YEARS|Y$ years.\nYou will be able to do it again in $UNTIL|Y$."
+ PIETY_LEGALISM_COOLDOWN:0 "You can only '§YCunning Brutality§!' once every $YEARS|Y$ years.\nYou will be able to do it again in $UNTIL|Y$."
+ MODIFIER_MONTHLY_PIETY:0 "Monthly Piety"
+ ADD_PIETY:0 "$DIRECTION$ $VALUE$ Piety"
+ PIETY_BAD_WAR_EFF:3 "Declaring war on a fellow $REL$ will move us towards Gork by §Y$VAL$§!."
+ PIETY_GOOD_WAR_EFF:2 "Declaring war on the $REL$ will move us towards Mork by §Y$VAL$§!."
+ CURRENT_PIETY:0 "§JDa Green Godz§"
+ CURRENT_PIETY_IS:0 "Our current Frevor is $VALUE$"
+ USES_PIETY:0 "$COUNTRY|Y$ uses Frevor."
+ USES_NOT_PIETY:0 "$COUNTRY|Y$ does NOT use Frevor."
+ MODIFIER_MONTHLY_PIETY_ACCELERATOR:0 "Monthly Frevor Accelerator"
+ PIETY_LESS_THAN:0 "Frevor is less than §Y$VAL$§!.\n"
+ PIETY_AT_LEAST:0 "Frevor is at least §Y$VAL$§!.\n"
+ positive_piety:1 "Mork"
+ negative_piety:1 "Gork"
+ 
+ ######################################
+ # Karma => Harmony
+ ######################################
+ MODIFIER_MONTHLY_KARMA:0 "Monthly Harmony"
+ MODIFIER_YEARLY_KARMA_DECAY:0 "Yearly Harmony Decay"
+ KARMA_FROM_CONV:1 "This decreases our Harmony by §R$VAL$§!."
+ KARMA_FROM_CONV_CONFIRM:0 "Converting this province will decrease our Harmony by §R$VAL$§!."
+ KARMA_OFFENSIVE_WAR_EFF:0 "Declaring war is an inherently immoral action, and it will decrease our Harmony by §Y$VAL$§!. "
+ KARMA_INCREASE:0 "This will give us §Y$VAL$§! Harmony."
+ KARMA_DECREASE:0 "This will cost us §Y$VAL$§! Harmony."
+ KARMA_INCREASE_FOR_COUNTRY:0 "This will give $COUNTRY$ §Y$VAL$§! Harmony."
+ KARMA_DECREASE_FOR_COUNTRY:0 "This will cost $COUNTRY$ §Y$VAL$§! Harmony."
+ USES_KARMA:0 "$COUNTRY|Y$ uses Harmony."
+ USES_NOT_KARMA:0 "$COUNTRY|Y$ does NOT use Harmony."
+ CURRENT_KARMA:0 "Harmony"
+ KARMA_EFFECT:0 "§YEffects from Karma:§W"
+ NEGATIVE_KARMA_EFFECT:0 "§YEffects from negative Karma:§W"
+ POSITIVE_KARMA_EFFECT:0 "§YEffects from positive Karma:§W"
+ karma:0 "Karma"
+ positive_karma:0 "Positive Karma"
+ negative_karma:0 "Negative Karma"
+ ADD_KARMA_EFFECT:0 "$DIRECTION$ $VALUE$ Harmony.\n"
+ KARMA_LESS_THAN:0 "Harmony is less than §Y$VAL$§!.\n"
+ KARMA_AT_LEAST:0 "Harmony is at least §Y$VAL$§!.\n"
+ SET_KARMA_EFFECT:0 "Harmony set to $VALUE$.\n"
+ KARMA_DESC2:0 "Harmony represents your ruler's alignment with the Dragon Emperors's teachings. A ruler too fixated on warring will be counted as imbalanced towards Yin, seeing all who stand against you as enemies, whether they are deserving or not. On the other hand a ruler may become complacent and find themselves imbalanced towards Yang, being content in rule and merely holding evil at bay.\n\nCountries with Harmony do not pay any diplomatic power cost for returning cores and releasing countries and vassals in peace deals."
+ KARMA_DESC:0 "Karma increases from:\n- §YHonoring alliances§!\n- §YReleasing vassals§!\n- §YReleasing nations in peace deals§!\n- §YReturning cores§!\n- §YConverting Provinces§!\n\nKarma decreases from:\n- §YStarting wars§!\n- §YTaking provinces in peace deals§!\n\n(Note: some influences like modifiers that give Yearly Harmony Decay may not be shown here)\n"
+ KARMA_JUST_RIGHT_DESC:0 "Harmony between $LOW$ and $HIGH$"
+ KARMA_TOO_HIGH_DESC:0 "Harmony $HIGH$ or higher"
+ KARMA_TOO_LOW_DESC:0 "Harmony $LOW$ or lower"
+ karma_just_right:0 "In Harmony"
+ karma_too_high:0 "Imbalanced Towards Yin"
+ karma_too_low:0 "Imbalanced Towards Yang"
+ KARMA_FOR_CTA:0 "We would gain $KARMA$ Harmony, since this is the right thing to do."
+ 
+
+ ######################################
+ # Papacy/Skaven Seer Council
+ ######################################
+ crusades_after_age_limit:0 "Invasions"
+ papacy_reform:0 "Priesthood of the Horned Rat"
+ papacy_reform_desc:0 "In the wake of the Great Skaven Civil War, the Order of Grey Seers was charged with guiding the Great Clans toward a unified front and away from a repeat of that devastating conflict."
+ 
+ PAPACY_CONTROLLER: "§Seer Council§!\n$NAME$ is currently in control of the Seer Council."
+ CONVREL_PAPACY: "The Seer Lord of the Skaven cannot convert to another religion."
+ IS_PAPAL_CONTROLLER: "The ruler of $NAME$ is Seer Lord."
+ ARE_NOT_PAPAL_CONTROLLER: "Are NOT the Seer Lord"
+ ARE_PAPAL_CONTROLLER:  "Are the Seer Lord"
+ ARE_NOT_PREVIOUS_PAPAL_CONTROLLER: "Were NOT the Seer Council previously"
+ ARE_PREVIOUS_PAPAL_CONTROLLER: "Were the Seer Council previously"
+ PAPAL_INFLUENCE: "Seer Council Influence"
+ PAPAL_INFLUENCE_NOT_ENOUGH: "§R- You do not have enough Seer Council influence.§!"
+ PAPAL_INFLUENCE_NO_CARDINAL: "§R- It is not possible to invest Seer Council influence if you have no active Grey Seers.§!"
+ YEARLY_PAPAL_INFLUENCE: "Yearly Seer Council Influence"
+ CURRENT_PAPAL_INFLUENCE: "Seer Council Influence: §Y$VAL$§!"
+ MONTHLY_PAPAL_INFLUENCE: "Each year you gain $VAL$ Seer Council Influence."
+ CARDINALS_PAPAL_INFLUENCE: "From Controlled Grey Seers:"
+ PAPAL_RELATIONS: "Seer Council Relations"
+ PAPAL_INF_LESS_THAN: "Seer Council Influence less than"
+ PAPAL_INF_AT_LEAST: "Seer Council Influence at least"
+ INVESTED_PAPAL_INF_LESS_THAN: "Invested Seer Council Influence less than"
+ INVESTED_PAPAL_INF_AT_LEAST: "Invested Seer Council Influence at least"
+ ADD_PAPAL_INFLUENCE: "$DIRECTION$ $VALUE$ Seer Council Influence"
+ PAPACY_IS_ENABLED: "The Seer Council is active"
+ PAPACY_IS_DISABLED: "The Seer Council is NOT active"
+ ENABLE_PAPACY: "Enable the Seer Council"
+ DISABLE_PAPACY: "Disable the Seer Council"
+ LEDGER_PAPAL_INF: "Seer Council Inf"
+ PAPAL_MAX_STORE: "You can store up to §Y$VAL$§! Seer Council influence ($YEAR$ years worth)"
+ M_VATICAN_BUTTON:0 "Seer Council"
+ CRUSADE: "Vermintide"
+ CRUSADE_DESC: "Skaven all over the world are encouraged to attack §Y$NAME$§W! The Invasion will last until $DATE$ or until the enermy has been destroyed."
+ ALREADY_CRUSADING: "The Skaven has already launched an Invasion. We must wait for it to end before calling another."
+ CRUSADE_SAME_RELIGION: "While tempting, we cannot launch an Invasion against fellow devouts of the Horned Rat, heretics or not."
+ 
+ IS_POPE: "They are the Seer Council."
+ EXCOM_NOT_PAPACY: "We cannot have the Seer Lord himself Dishonored."
+ PAPACYVIEW_CANDIDATE: "There's a §Y$CHANCE$%§W chance that the next Grey Lord will come from §Y$COUNTRY$§W. They have a Grey Seers influence of §Y$INFLUENCE$%§W."
+ PAPACY_CARDINALS: "Grey Seers:"
+ PAPACY_THE_HOLY_SEE: ""
+ 
+ M_VATICAN_BUTTON: "Seer Council"
+ 
+ HAVE_LESS_CARDINALS_THAN: "Grey Seers less than "
+ HAVE_MORE_CARDINALS_THAN: "Grey Seers at least "
+ HAVE_LESS_TOTAL_CARDINALS_THAN: "Grey Seers less than "
+ HAVE_MORE_TOTAL_CARDINALS_THAN: "Grey Seers at least "
+ 
+ controlled_cardinals: "Controlled Grey Seers"
+ CARDINAL_TITLE: "Grey Seer"
+ CARDINAL_BRIBE_DESC: "If we are successful, the Grey Seer will support us and we gain §G$GAIN$§W prestige. If we should fail, we will lose §R$LOSS$§W."
+ PAPACY_CARDINALS: "Grey Seer:"
+ HAS_CARDINAL: "Province has an active Grey Seer"
+ HAS_CARDINAL_NOT: "Province does not have an active Grey Seer"
+ CARDINAL_NOT_READY: "The Grey Seer has been influenced too recently. We must wait until "
+ 
+ PAPACY_THE_HOLY_SEE: "Seer Council"
+ VIEW_PAP: "Seer Council View"
+ 
+ PAPAL_OPINION_OF_US: "Modified by $VAL$ due to Seer Lord opinion of us."
+ 
+ NEWPOPE_TITLE: "New Seer Lord"
+ NEWPOPE_SETUP: "When a new Seer Lord has been elected."
+ NEWPOPE_HEADER: "New Seer Lord elected"
+ NEWPOPE_1: "The Seer Lord"
+ NEWPOPE_2: "The Seer Lord has arisen"
+ NEWPOPE_4: "as the new Seer Lord. "
+ NEWPOPE_LOG: "Grey Council has elected $POPE$ as the new Seer Council."
+ CURIACONTROLPAP: "The Seer Council answers only to the Horned Rat."
+ 
+ NEWACTIVECARDINAL_TITLE: "New Grey Seer Elected"
+ NEWACTIVECARDINAL_SETUP: "When a new active Grey Seer is chosen."
+ NEWACTIVECARDINAL_HEADER: "News from the Seer Council"
+ NEWACTIVECARDINAL_1: "A New Grey Seer"
+ NEWACTIVECARDINAL_2: "§Y$PROVINCE$§W is now the seat of a new Grey Seer."
+ NEWACTIVECARDINAL_3: "He is loyal to §Y$COUNTRY$§W."
+ NEWACTIVECARDINAL_4: "They have §Y$NCARDINALS$§W active Grey Seers now."
+ NEWACTIVECARDINAL_LOG: "New Grey Seer from $PROVINCE$"
+ 
+ FUTURECARDINALDEAD_TITLE: "Active Grey Seer Dead"
+ FUTURECARDINALDEAD_SETUP: "When a Grey Seer has died."
+ FUTURECARDINALDEAD_HEADER: "News from the Seer Council"
+ FUTURECARDINALDEAD_1: "End of a Grey Seer"
+ FUTURECARDINALDEAD_2: "§Y$PROVINCE$§W is no longer the seat of a Grey Seer."
+ FUTURECARDINALDEAD_LOG: "$PROVINCE$ is no longer the seat of a Grey Seer."
+ 
+ FUTURECARDINALLOYALTYSTOP_TITLE: "Grey Seer no longer loyal"
+ FUTURECARDINALLOYALTYSTOP_SETUP: "When a Grey Seer previously loyal to us changes his loyalty."
+ FUTURECARDINALLOYALTYSTOP_HEADER: "News from the Seer Council"
+ FUTURECARDINALLOYALTYSTOP_1: "A Grey Seer is no longer loyal to us!"
+ FUTURECARDINALLOYALTYSTOP_2: "Sadly, $NAME$, has changed his loyalty to $LOYALNAME$."
+ FUTURECARDINALLOYALTYSTOP_3: "They now have §Y$NUMACTIVE$§! active and §Y$NUMFUTURE$§! future Grey Seers loyal to them."
+ FUTURECARDINALLOYALTYSTOP_5: "We have invested §Y$YOURPOINTS$§! Seer Council influence in this Grey Seer!"
+ FUTURECARDINALLOYALTYSTOP_LOG: "Grey Seer $NAME$ is no longer loyal to us!"
+ 
+ HINT_PAPALCONTROLLER_TITLE: "Seer Council"
+ HINT_PAPALCONTROLLER_TEXT:1 "When a new Seer Council rules in The Skaven Region, a new country is picked as Seer Council based on their Invested Seer Council Influence.  The Seer Council gains access to bonuses and specific Seer Council Actions that can be used through the Diplomacy view."
+ HINT_PAPALACTIONS_TITLE: "Seer Council Actions"
+ HINT_PAPALACTIONS_TEXT: "The Seer Council has access to a few extra Diplomatic Actions called Seer Council Actions. These actions include Dishonor, which allows you to Dishonor a Southron ruler provided their relation with the Seer Council is bad enough. Call Crusade is another Seer Council Action which allows the Seer Council to call a crusade against an infidel country, encouraging other Southron countries to attack them."
+ 
+ HINT_PAPALINFLUENCE_TITLE: "Seer Council Influence"
+ HINT_PAPALINFLUENCE_TEXT:1 "Seer Council Influence is a resource you use to gain bonuses from the Seer Council and try to become Seer Council. Seer Council Influence is gained yearly from Religious Unity and having good relations with the Seer Council. Certain Ideas can also increase your Seer Council Influence."
+ 
+ HINT_PAPACY_TITLE: "Seer Council"
+ HINT_PAPACY_TEXT:1 "Southron countries can compete for influence with the Seer Council by spending Seer Council Influence on a chance to be the next Seer Council."
+ 
+ HINT_CARDINAL_TITLE: "Grey Seers"
+ HINT_CARDINAL_TEXT:1 "Grey Seers are randomly assigned to Southron provinces in Europe.  Owners of these provinces receive a bonus to their Seer Council Influence."
+ 
+ CARDINAL_CONTROLLER_ACTIVE_DESC: "This Grey Seer belongs to $COUNTRY|Y$."
+ CARDINAL_CONTROLLER_FUTURE_DESC: "This Grey Seer belongs to $COUNTRY|Y$ since they have given them $VOTES|Y$ votes so far."
+ CARDINAL_TOOLTIP_AMOUNT: "§Y$COUNTRY$§W has §Y$AMOUNT$§W active Grey Seers."
+ CARDINAL_TOOLTIP_PAPAL: "§Y$COUNTRY$§W has §Y$AMOUNT$§W Seer Council influence."
+ CARDINAL_TOOLTIP_INVESTED: "§Y$COUNTRY$§W has invested §Y$AMOUNT$§W Seer Council influence in becoming the next Seer Council."
+ 
+ CARDINAL_NEW: "§YActive Grey Seer§!\nWe control this active Grey Seer from $HOME|Y$. Each active Grey Seer gives us $BENEFIT$ Seer Council Influence per year."
+ NO_ACTIVE_CARDINALS: "Spend your Seer Council influence to vote on future Grey Seers to increase your chance to control a Grey Seer in the Grey Seer Council in the future."
+ AUTOMATING_CARDINAL: "Automatic Spending for §Y$CARDINAL$§! is currently ON. You will automatically spend Seer Council Influence to try and maintain control of this Grey Seer."
+ NOT_AUTOMATING_CARDINAL: "Automatic Spending for §Y$CARDINAL$§! is currently OFF. You will need to manually spend Seer Council Influence to maintain control of this Grey Seer."
+ NO_ACTVIVE_CARDINALS: "No active Grey Seers."
+ VOTE_ON_CARDINAL: "Spend Seer Council Influence to vote for this future Grey Seer."
+ VOTE_ONE_ON_CARDINAL: "§YLeft click§! to spend $PI|R$ point of Seer Council Influence to add $PI|G$ vote for this future Grey Seer."
+ CANT_VOTE_ON_CARDINAL: "You need at least $PI|Y$ point(s) of Seer Council Influence to vote for this Grey Seer."
+ ACTIVE_CARDINALS: "The country that has the most loyal active Grey Seers will be the Seer Council."
+ FUTURE_CARDINALS: "When an active Grey Seer dies, a random one of future Grey Seers will be chosen to be an active Grey Seer. The Grey Seer will be loyal to the one who has spent the most points on him."
+ 
+ SORT_BY_NCARDINALS: "Sort by number of active Grey Seers"
+ SORT_BY_PAPAL_INFLUENCE: "Sort by Seer Council influence"
+ SORT_BY_INVESTED: "Sort by amount of invested Seer Council influence"
+ CARDINAL_CONTROLLER_ACTIVE_DESC: "This Grey Seer belongs to $COUNTRY|Y$."
+ CARDINAL_CONTROLLER_FUTURE_DESC: "This Grey Seer belongs to $COUNTRY|Y$ since they have given them $VOTES|Y$ votes so far."
+ CARDINAL_TOOLTIP_AMOUNT: "§Y$COUNTRY$§W has §Y$AMOUNT$§W active Grey Seers."
+ CARDINAL_TOOLTIP_PAPAL: "§Y$COUNTRY$§W has §Y$AMOUNT$§W Seer Council influence."
+ CARDINAL_TOOLTIP_INVESTED: "§Y$COUNTRY$§W has invested §Y$AMOUNT$§W Seer Council influence in becoming the next Seer Council."
+ CARDINAL_TOOLTIP_CHANCE: "§Y$COUNTRY$§W has $AMOUNT$ chance of being the next Seer Council."
+ 
+ OPEN_PAPACY: "§YSeer Council view§!\nClick here to open the Seer Council view."
+ USES_PAPACY: "$COUNTRY|Y$ uses Seer Council."
+ USES_NOT_PAPACY: "$COUNTRY|Y$ does NOT use Seer Council."
+ 
+ PAPACY_ACTIVE_CARDINALS: "Active Grey Seers"
+ PAPACY_FUTURE_CARDINALS: "Future Grey Seers"
+ CONVREL_PAPACY: "The Seer Council cannot convert to another religion."
+ PAPACY_NEXT_CARDINALS: "§YNext Possible Grey Seers§W"
+ PAPAL_STATE_NO_INFLUENCE: "The Seer Council does not get Seer Council Influence or Grey Seers, but instead gains investment towards becoming Seer Council based on the total number of Grey Seers."
+ PAPAL_CONTROLLER_DIPACTIONS_DESC: "The Seer Council may take the following diplomatic actions: \n$LIST|Y$"
+ 
+ alert_can_vote_for_cardinal_instant: "§YYou can invest in a Grey Seer!§W"
+ alert_can_vote_for_cardinal_delayed: "You have enough Seer Council influence to invest in a future Grey Seer."
+ 
+ M_VATICAN_BUTTON_DRO: "Seer Council Influence: §Y$VALUE$§!"
+ 
+ PAPAL_NOT_ALLOW: "§RYou do not meet all the requirements for taking this action.§!"
+ PAPAL_NOT_ENOUGH: "§RYou need at least §Y$COST$§R Seer Council Influence to take this action.§!"
+ PAPAL_COST: "Costs §Y$COST$§W Seer Council Influence.\n"
+ PAPAL_INVEST: "Spend §Y$MOD_COST$§W Seer Council Influence to gain §Y$COST$§W Invested influence towards becoming the next Seer Council."
+ 
+ OPEN_PAPACY: "§YSeer Council of the Skaven view§!\nClick here to open the Seer Council of the Skavenview."
+ 
+ PAP_BONUS_FROM_CONV: "This increases our Seer Council influence by §Y+$VAL$§!."
+ 
+ PAPAL_OPINION_OF_US: "Modified by $VAL$ due to Seer Council opinion of us."
+ 
+ CARDINAL_NAME: "Grey Seer of $LOC|Y$"
+ 
+ ADDED_CARDINAL: "§Y$PROVINCE$§! will be the seat of a new Grey Seer."
+ REMOVED_CARDINAL: "§Y$PROVINCE$§! will no longer be the seat of a Grey Seer."
+ 
+ CALL_CRUSADETITLE: "Declare Invasion"
+ CALL_CRUSADENEWDESC: "Do you wish to declare an Invasion against $COUNTRY$? This will give Horned Rat countries a significant manpower and income bonus while at war with the enermy."
+ CALL_CRUSADEDESC: "Invasions give Horned Rat countries a significant manpower and income bonus while at war with them."
+ 
+ DIPLOMACYACTION_CATEGORY_papacy: "Seer Council actions"
+ 
+ EXCOMMUNICATETITLE: "Dishonor"
+ EXCOMMUNICATENEWDESC: "Do you wish to Dishonor $MONARCH$? Neighboring Skaven countries will not need a Casus Belli against $COUNTRY$."
+ EXCOMMUNICATEDESC: "Dishonor will allow neighboring Skaven to declare war on them without suffering the normal stability hit of lacking a Casus Belli."
+ HASEXCOMMUNICATE: "We have already Dishonored them."
+ EXCOM_NO_RULER: "They currently have no ruler to Dishonor."
+ EXCOM_WRONG_RELIGION: "We can only Dishonor Skaven."
+ EXCOM_NOT_READY: "We cannot Dishonor rulers left and right! We must wait, at least until "
+ EXCOMMUNICATED: "Dishonored"
+ EXCOMMUNICATED_DESC: "The Seer Council has seen fit to Dishonor this ruler. Neighboring Skaven countries can declare war without incurring the normal stability hits."
+ IS_EXCOMMUNICATED: "Is Dishonored "
+ IS_NOT_EXCOMMUNICATED: "Is not Dishonored "
+ 
+ MODIFIER_CURIA_POWERS_COST: "Seer Council Action cost"
+ MODIFIER_APPOINT_CARDINAL_COST: "Appoint Grey Seer cost"
+ MODIFIER_CURIA_TREASURY_CONTRIBUTION: "Treasure Pile Contribution"
+ 
+ # Curia tithe
+ CURIA_TREASURY: "The treasure pile contain $VALUE|Y$¤"
+ CURIA_TREASURY_DESC: "Every month, as a demonstration of loyalty, the Skaven countries will offer a tribute to the Seer Council to fill the treasure pile. The estimate tribute for this month is $INCREMENT|Y$¤\n$WHY$"
+ EXPENSE_PAPAL_ACTION: "Seer Council Actions"
+ USE_CURIA_TREASURY: "Spend Treasure Pile"
+ CURIA_TREASURY_NOT_CURIA_CONTROLLER: "§ROnly the Seer Council can use the Treasure Pile!§!"
+ USE_CURIA_TREASURY_DESC: "As the Seer Council you have access to the Treasure Pile."
+ 
+ # Buy Indulgence
+ CURIA_BUY_INDULGENCE: "Spend $COST|Y$¤ to send a tribute. $TREASURY|Y$¤ will enrich the treasure pile, and you will gain $INFLUENCE|G$ yearly Seer Council Influence for $YEARS|Y$ years. The Seer Council will appreciate this voluntary tribute, and therefore this will increase our relations with him."
+ CURIA_BUY_INDULGENCE_EXCOMMUNICATED: "You are Dishonored, so the price for your tribute is $MULTIPLIER|Y$ times bigger. The Seer Council, on the other hand, will reward your proof of loyalty by lifting it and will not try dishonor you again for $YEARS|Y$ years."
+ CURIA_BUY_INDULGENCE_TITLE: "Send Tribute"
+ CURIA_BUY_INDULGENCE_DESC: "Do you want to spend $COST|Y$¤ to send a tribute? $TREASURY|Y$¤ will enrich the treasure pile, and you will gain $INFLUENCE|G$ yearly Seer Council Influence for $YEARS|Y$ years. The Seer Council will appreciate this voluntary tribute, and therefore this will increase our relations with him."
+ CURIA_BUY_INDULGENCE_ALREADY_BOUGHT: "§RYou have already sent a tribute, no amount of money can change the Seer Council's mind at the moment.§!"
+ CURIA_BUY_INDULGENCE_NOT_ENOUGH_MONEY: "§RYou need $COST|Y$¤ to send a tribute, but you only have $AVAILABLE|Y$¤§!"
+ EXCOM_TARGET_BOUGHT_INDULGENCE: "§RThe target has sent a tribute, you cannot Dishonor him now.§!"
+ EXCOMM_INDULG: "This will remove our dishonor, and any nations we are in a union with!"
+ 
+ bought_indulgence: "Sent Tribute"
+ 
+ # Call ecumenical council
+ CURIA_CALL_ECUMENICAL_COUNCIL: "Spend $COST|Y$¤ to fill the treasure pile. $TREASURY|Y$¤ will enrich the Treasure Pile, and you will gain §Y$INFLUENCE$§W Invested influence towards becoming the next Seer Council."
+ CURIA_CALL_ECUMENICAL_COUNCIL_NOT_ENOUGH_MONEY: "§RYou need $COST|Y$¤ to fill the treasure pile, but you only have $AVAILABLE|Y$¤§!"
+ CURIA_CALL_ECUMENICAL_COUNCIL_TITLE: "Fill the Treasure Pile"
+ CURIA_CALL_ECUMENICAL_COUNCIL_DESC: "Do you want to spend $COST|Y$¤ to fill the treasure pile? $TREASURY|Y$¤ will enrich the treasure pile, and you will gain §Y$INFLUENCE$§W Invested influence towards becoming the next Seer Council."
+ 
+ # Appoint Cardinal diplomatic action
+ APPOINT_CARDINAL_COST_WHY: "The $VAL|2Y$¤ cost of appointing this Grey Seer is due to:\n$WHY$"
+ CARDINAL_BASE_COST: "Base Cost: $VAL|+=$¤\n"
+ CARDINAL_TOTAL_CARDINAL: "Total of $NUM$ Grey Seers in the Faith: $VAL|+=$¤\n"
+ CARDINAL_TARGET_CARDINAL: "$NUM$ Grey Seer from $NAME$: $VAL|+=$¤\n"
+ APPOINT_CARDINALTITLE: "Appoint Grey Seer"
+ APPOINT_CARDINALDESC: "Appoint a Grey Seer in the target Country, increasing their opinion of us and increasing the Invested Influence for the next Seer Council election."
+ APPOINT_CARDINAL_DESCRIPTION: "Invest $COST|Y$¤ to Appoint a Grey Seer in $RECIPIENT$ land. This is a great honor and they will owe us a debt of gratitude, increasing their opinion of us by $OPINION|G$.\n\nOur Invested influence towards becoming the next Seer Council will be increased by $INFLUENCE|Y$."
+ APPOINT_CARDINAL_NOT_IN_SUBJECTS_DIEING: "§R- Grey Seer cannot be appointed in Countries that we are about to annex.§!"
+ APPOINT_CARDINAL_ONLY_CATHOLICS: "§RGrey Seer can only be appointed in Countries that are considered Skaven.§!"
+ APPOINT_CARDINAL_TOO_MANY_IN_COUNTRY: "§RNo more than $MAX$ Grey Seers can be appointed in the same country.§!"
+ APPOINT_CARDINAL_TOO_MANY_IN_WORLD: "§RThere are already enough Grey Seers in the World, Appointing one more would destabilize our authority.§!"
+ APPOINT_CARDINAL_NO_PROVINCE_AVAILABLE: "§RThere are no suitable Provinces for us to Appoint a Grey Seer.§!"
+ APPOINT_CARDINAL_NEED_MORE_CASH: "§RAppointing a Grey Seer will cost $REQUIRED$¤ but you only have $AVAILABLE$¤.§!"
+ CURIA_APPOINT_CARDINAL:2 "Spend $COST|Y$¤ of your own money to Appoint one of your loyalists as a Grey Seer. This will give us $CORRUPTION|R$ Corruption and increase our Invested influence towards becoming the next Seer Council by $INFLUENCE|Y$ every year."
+ CURIA_APPOINT_CARDINAL_SELF_TITLE: "Appoint loyalist Grey Seer"
+ CURIA_APPOINT_CARDINAL_SELF_DESC: "Do you want to spend $COST|Y$¤ to Appoint one of your loyalists as a Grey Seer? This will give us $CORRUPTION|R$ Corruption and increase our Invested influence towards becoming the next Seer Council by $INFLUENCE|Y$ every year."
+ 
+ # Golden Bulls
+ CURIA_PICK_GOLDEN_BULL_NOT_ENOUGH_CASH: "§RYou need $REQUIRED|Y$¤ in the Treasure Pile to pick a Decree but you only have $AVAILABLE|Y$¤.§!"
+ CURIA_PICK_GOLDEN_BULL_ALREADY_PICKED: "§RThere can only be one Decree enacted at a time.§!"
+ CURIA_CURRENT_GOLDEN_BULL_PICKED: "§YThis Decree has been enacted by the Seer Council and will remain active for the rest of his life.§!"
+ 
+ cardinals_spread_institution: "Grey Seers spread institutions"
+ CURIA_PICK_GOLDEN_BULL_TITLE: "Pick Decree"
+ CURIA_PICK_GOLDEN_BULL_DESC:2 "Do you want to pick $NAME|Y$?\n\nPicking this Decree will cost $COST|Y$¤ from the §YTreasure Pile§!, and will until the death $POPE|Y$ give the following benefits to all $RELIGION|Y$ countries:\n\n$DESCRIPTION$"
+ 
+ PAPAL_BULL_POSSIBLE: "§YDecrees§!\nThese are the possible decrees that the Seer Council can enact.\n"
+ PAPAL_BULL_EXPLANATION: "Decrees are bonuses that the Seer Council can enact using the Treasure Pile that benefits all Skaven Countries! They last until the current Seer Council dies."
+ 
+ GOLDEN_BULL_INSTANT: "$NAME|Y$\n$EFFECT$\nInvest $COST|Y$¤ from the §YTreasure Pile§! and pick this Decree"
+ PAPACY_GOLDEN_BULLS: "Decrees"
+ GOLDEN_BULL_PICKED_TITLE: "Decree Picked"
+ GOLDEN_BULL_PICKED_SETUP: "When the Seer Council picks a Decree."
+ GOLDEN_BULL_PICKED_HEADER: "$MESSENGER$"
+ GOLDEN_BULL_PICKED_1: "The Seer Council has picked a Decree!"
+ GOLDEN_BULL_PICKED_2: "$MONARCHTITLE$, by virtue of the powers granted him by the Grey Seers,"
+ GOLDEN_BULL_PICKED_3: "the Seer Council has decided to enact the following Decree: "
+ GOLDEN_BULL_PICKED_4: "$BULL$."
+ GOLDEN_BULL_PICKED_5: "This Decree has the following effect: "
+ GOLDEN_BULL_PICKED_6: "$EFFECT$"
+ GOLDEN_BULL_PICKED_LOG: "The Seer Council picked $BULL$."
+ GOLDEN_BULL_PICKED_BTN1: "OK"
+ GOLDEN_BULL_PICKED_BTN2: "OK"
+ GOLDEN_BULL_PICKED_BTN3: "Go to"
+ 
+ PAPACY_PICK_GOLDEN_BULL: "Pick a Decree"
+ PAPAL_BULL_NOT_CURIA_CONTROLLER: "§RYou are not the Seer Council. Only the Seer Council can spend the Treasure Pile to enact a Decree.§!"
+ PICK_GOLDEN_BULL_TOOLTIP: "§YPick a Decree§!\n"
+ 
+ ######################################-------------------
+ # ADM Tech
+ ######################################-------------------
+ adm_tech_cs_0_name: "Administrative Technology 0"
+ adm_tech_cs_0_desc: "The beginning of our technology tree."
+ 
+ adm_tech_cs_1_name: "Administrative Technology I"
+ adm_tech_cs_1_desc: "Our industry has been transformed by recent innovations."
+ 
+ adm_tech_cs_2_name: "Administrative Technology II"
+ adm_tech_cs_2_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_3_name: "Administrative Technology III"
+ adm_tech_cs_3_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_4_name: "Administrative Technology IV"
+ adm_tech_cs_4_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_5_name: "Administrative Technology V"
+ adm_tech_cs_5_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_6_name: "Administrative Technology VI"
+ adm_tech_cs_6_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_7_name: "Administrative Technology VII"
+ adm_tech_cs_7_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_8_name: "Administrative Technology VIII"
+ adm_tech_cs_8_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_9_name: "Administrative Technology IX"
+ adm_tech_cs_9_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_10_name: "Administrative Technology X"
+ adm_tech_cs_10_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_11_name: "Administrative Technology XI"
+ adm_tech_cs_11_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_12_name: "Administrative Technology XII"
+ adm_tech_cs_12_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_13_name: "Administrative Technology XIII"
+ adm_tech_cs_13_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_14_name: "Administrative Technology XIV"
+ adm_tech_cs_14_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_15_name: "Administrative Technology XV"
+ adm_tech_cs_15_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_16_name: "Administrative Technology XVI"
+ adm_tech_cs_16_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_17_name: "Administrative Technology XVII"
+ adm_tech_cs_17_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_18_name: "Administrative Technology XVIII"
+ adm_tech_cs_18_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_19_name: "Administrative Technology XIX"
+ adm_tech_cs_19_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_20_name: "Administrative Technology XX"
+ adm_tech_cs_20_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_21_name: "Administrative Technology XXI"
+ adm_tech_cs_21_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_22_name: "Administrative Technology XXII"
+ adm_tech_cs_22_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_23_name: "Administrative Technology XXIII"
+ adm_tech_cs_23_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_24_name: "Administrative Technology XXIV"
+ adm_tech_cs_24_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_25_name: "Administrative Technology XXV"
+ adm_tech_cs_25_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_26_name: "Administrative Technology XXVI"
+ adm_tech_cs_26_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_27_name: "Administrative Technology XXVII"
+ adm_tech_cs_27_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_28_name: "Administrative Technology XVIII"
+ adm_tech_cs_28_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_29_name: "Administrative Technology XXIX"
+ adm_tech_cs_29_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_30_name: "Administrative Technology XXX"
+ adm_tech_cs_30_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_31_name: "Administrative Technology XXXI"
+ adm_tech_cs_11_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ adm_tech_cs_32_name: "Administrative Technology XXXII"
+ adm_tech_cs_32_desc: "Our Administrative has been transformed by recent innovations."
+ 
+ ######################################-------------------
+ # DIP Tech
+ ######################################-------------------
+ dip_tech_cs_0_name: "Diplomatic Technology 0"
+ dip_tech_cs_0_desc: "The beginning of our technology tree."
+ 
+ dip_tech_cs_1_name: "Diplomatic Technology I"
+ dip_tech_cs_1_desc: "Our industry has been transformed by recent innovations."
+ 
+ dip_tech_cs_2_name: "Diplomatic Technology II"
+ dip_tech_cs_2_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_3_name: "Diplomatic Technology III"
+ dip_tech_cs_3_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_4_name: "Diplomatic Technology IV"
+ dip_tech_cs_4_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_5_name: "Diplomatic Technology V"
+ dip_tech_cs_5_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_6_name: "Diplomatic Technology VI"
+ dip_tech_cs_6_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_7_name: "Diplomatic Technology VII"
+ dip_tech_cs_7_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_8_name: "Diplomatic Technology VIII"
+ dip_tech_cs_8_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_9_name: "Diplomatic Technology IX"
+ dip_tech_cs_9_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_10_name: "Diplomatic Technology X"
+ dip_tech_cs_10_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_11_name: "Diplomatic Technology XI"
+ dip_tech_cs_11_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_12_name: "Diplomatic Technology XII"
+ dip_tech_cs_12_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_13_name: "Diplomatic Technology XIII"
+ dip_tech_cs_13_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_14_name: "Diplomatic Technology XIV"
+ dip_tech_cs_14_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_15_name: "Diplomatic Technology XV"
+ dip_tech_cs_15_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_16_name: "Diplomatic Technology XVI"
+ dip_tech_cs_16_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_17_name: "Diplomatic Technology XVII"
+ dip_tech_cs_17_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_18_name: "Diplomatic Technology XVIII"
+ dip_tech_cs_18_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_19_name: "Diplomatic Technology XIX"
+ dip_tech_cs_19_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_20_name: "Diplomatic Technology XX"
+ dip_tech_cs_20_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_21_name: "Diplomatic Technology XXI"
+ dip_tech_cs_21_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_22_name: "Diplomatic Technology XXII"
+ dip_tech_cs_22_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_23_name: "Diplomatic Technology XXIII"
+ dip_tech_cs_23_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_24_name: "Diplomatic Technology XXIV"
+ dip_tech_cs_24_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_25_name: "Diplomatic Technology XXV"
+ dip_tech_cs_25_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_26_name: "Diplomatic Technology XXVI"
+ dip_tech_cs_26_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_27_name: "Diplomatic Technology XXVII"
+ dip_tech_cs_27_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_28_name: "Diplomatic Technology XVIII"
+ dip_tech_cs_28_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_29_name: "Diplomatic Technology XXIX"
+ dip_tech_cs_29_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_30_name: "Diplomatic Technology XXX"
+ dip_tech_cs_30_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_31_name: "Diplomatic Technology XXXI"
+ dip_tech_cs_11_desc: "Our Diplomatic has been transformed by recent innovations."
+ 
+ dip_tech_cs_32_name: "Diplomatic Technology XXXII"
+ dip_tech_cs_32_desc: "Our Diplomatic has been transformed by recent innovations."
+
+ ######################################-------------------
+ # MIL Tech
+ ######################################-------------------
+ mil_tech_cs_0_name: "Military Technology 0"
+ mil_tech_cs_0_desc: "The beginning of our technology tree."
+ 
+ mil_tech_cs_1_name: "Military Technology I"
+ mil_tech_cs_1_desc: "Our industry has been transformed by recent innovations."
+ 
+ mil_tech_cs_2_name: "Military Technology II"
+ mil_tech_cs_2_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_3_name: "Military Technology III"
+ mil_tech_cs_3_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_4_name: "Military Technology IV"
+ mil_tech_cs_4_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_5_name: "Military Technology V"
+ mil_tech_cs_5_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_6_name: "Military Technology VI"
+ mil_tech_cs_6_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_7_name: "Military Technology VII"
+ mil_tech_cs_7_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_8_name: "Military Technology VIII"
+ mil_tech_cs_8_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_9_name: "Military Technology IX"
+ mil_tech_cs_9_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_10_name: "Military Technology X"
+ mil_tech_cs_10_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_11_name: "Military Technology XI"
+ mil_tech_cs_11_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_12_name: "Military Technology XII"
+ mil_tech_cs_12_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_13_name: "Military Technology XIII"
+ mil_tech_cs_13_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_14_name: "Military Technology XIV"
+ mil_tech_cs_14_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_15_name: "Military Technology XV"
+ mil_tech_cs_15_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_16_name: "Military Technology XVI"
+ mil_tech_cs_16_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_17_name: "Military Technology XVII"
+ mil_tech_cs_17_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_18_name: "Military Technology XVIII"
+ mil_tech_cs_18_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_19_name: "Military Technology XIX"
+ mil_tech_cs_19_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_20_name: "Military Technology XX"
+ mil_tech_cs_20_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_21_name: "Military Technology XXI"
+ mil_tech_cs_21_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_22_name: "Military Technology XXII"
+ mil_tech_cs_22_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_23_name: "Military Technology XXIII"
+ mil_tech_cs_23_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_24_name: "Military Technology XXIV"
+ mil_tech_cs_24_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_25_name: "Military Technology XXV"
+ mil_tech_cs_25_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_26_name: "Military Technology XXVI"
+ mil_tech_cs_26_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_27_name: "Military Technology XXVII"
+ mil_tech_cs_27_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_28_name: "Military Technology XVIII"
+ mil_tech_cs_28_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_29_name: "Military Technology XXIX"
+ mil_tech_cs_29_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_30_name: "Military Technology XXX"
+ mil_tech_cs_30_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_31_name: "Military Technology XXXI"
+ mil_tech_cs_11_desc: "Our Military has been transformed by recent innovations."
+ 
+ mil_tech_cs_32_name: "Military Technology XXXII"
+ mil_tech_cs_32_desc: "Our Military has been transformed by recent innovations."
+
+ ######################################
+ # Time                                   
+ ######################################
+
+ January:0 "Nachhexen(1)"
+ February:0 "Jahrdrung(2)"
+ March:0 "Pflugzeit(3)"
+ April:0 "Sigmarzeit(4)"
+ May:0 "Sommerzeit(5)"
+ June:0 "Vorgeheim(6)"
+ July:0 "Nachgeheim(7)"
+ August:0 "Erntezeit(8)"
+ September:0 "Brauzeit(9)"
+ October:0 "Kaldezeit(10)"
+ November:0 "Ulriczeit(11)"
+ December:0 "Vorhexen(12)"
+ 
+ Monday:0 "Wellentag(1)"
+ Tuesday:0 "Aubentag(2)"
+ Wednesday:0 "Marktag(3)"
+ Thursday:0 "Backertag(4)"
+ Friday:0 "Bezahltag(5)"
+ Saturday:0 "Konistag(6)"
+ Sunday:0 "Angestag(7)"
+ 
+ DIPLOMACY_FILTER_ALL:0 "All"
+ DIPLOMACY_FILTER_EUROPE:0 "Old World"
+ DIPLOMACY_FILTER_ASIA:0 "Far East"
+ DIPLOMACY_FILTER_NORTH_AMERICA:0 "Naggaroth"
+ DIPLOMACY_FILTER_SOUTH_AMERICA:0 "Lustria"
+ DIPLOMACY_FILTER_AFRICA:0 "Southlands"
+ DIPLOMACY_FILTER_OCEANIA:0 "Oceania"
+ 
+ europe:0 "Old World"
+ asia:0 "Far East"
+ africa:0 "Southlands"
+ north_america:0 "Naggaroth"
+ south_america:0 "Lustria"
+ oceania:0 "Oceania"
+ 
+ ######################################
+ # Trade Goods                                            (IF LEFT IN ITS OWN FILE NOT ALL VANILLA GOODS WILL REPLACE TEXT, GOODS MUST BE IN REPLACE_L_ENGLISH.YML)
+ ######################################
+
+ chinaware:0 "Porcelain"
+ chinawareDESC:0 "Made from local clays and sands, porcelain in The Fated Place is a a luxurious, refined good. It is typically produced by those with an inclination for high culture and artisinal dining. The type of porcelain produced varies based on the region of its origin. Household porcelain is common amongst upper classes and more particular folk like Hobbits and Elves. You will not find dwarves drinking out of porcelain, as it is wholly unsuited to the labor of being intoxicated."
+
+ cloth:0 "Cloth"
+ clothDESC:0 "Cloth represents the various fabrics and clothing made from flax linen, spun from flax yarn. It is produced mostly in the more populated northern regions of The Fated Place where ground is more fertile, allowing for regular cultivation of the flax plant. "
+
+ coffee:0 "Coffee"
+ coffeeDESC:0 "Coffee grows in the temperate and tropical regions of The Fated Place. It will only grow along the wet, green and fertile regions."
+
+ copper:0 "Copper"
+ copperDESC:0 "Copper has a wide variety of uses. While Iron is responsible for most arms and armor production, copper and brass has taken the role of more utilitarian use. It is durable enough for making work tools like axes, adzes and chisels, and can be shaped small enough to make excellent surgical instruments like needles and tweezers. Its availability globally makes it a viable metal for currency between most cultures. Copperware like pots, pans and bowls are another popular product, as are are the reliable and malleable pipes used for irrigation and sewage in more civilized regions. Aristocrat and commoner alike can also be found wearing copper or brass jewelry."
+
+ cotton:0 "Cotton"
+ cottonDESC:0 "Cotton originated from Central Asia but was not widely used in Europe until it was introduced to the American colonies and used as a cheap but good complement or substitute for wool in the clothing industry of the late 18th century"
+
+ fish:0 "Fish"
+ fishDESC:0 "Fish are one of the most plentiful foods along the rivers and coasts of The Fated Place. The fishermen who make the catch are also valuable additions to their community, as they also provide the basic recruiting pool of sailors for the merchant and military navies."
+
+ fur:0 "Fur"
+ furDESC:0 "Furs are a valuable means of keeping warm in the colder northern climates of The Fated Place. It is only possible to trade them where there are large wild herds capable of replenishing their numbers between hunts. Furs make for excellent clothing, bedding and insulation. The further south one travels the more furs are reserved for the wealthy and elite classes, while wools and flax cloth "
+
+ gold:0 "Gold"
+ goldDESC:0 "Gold is a rare but very valuable resource in The Fated Place; most reserves of it are found deep beneath large and ancient mountain ranges. The dwarves excel above all others at finding and tapping these veins, though all races are able to mine it. Its primary purpose is serving as high-value currency, but is also largely utilized as decoration and adornment in aristocratic courts, palaces and warcamps. It is not uncommon to see the warriors of Harad and their Oliphaunts adorned in pieces of gold jewelry. Dwarven halls, weapons and armors are commonly inlaid with gold. The warriors of Rhun often smelt a fine layer of gold leaf into their armors in imitation of gold-covered dragon scales."
+
+ grain:0 "Grain"
+ grainDESC:0 "Grain represents any type of cultivated grass that produces a variety of cereal crops. These often constitute the primary diet for most humans and animals that have access to them. The most commonly grown grains in The Fated Place are wheat, barley, corn, oats, and rye."
+
+ iron:0 "Iron"
+ ironDESC:0 "Iron represents not just iron, but other ferrous metals and the production of alloys such as steel. Iron forms the cornerstone of the military metallurgical industry and is used extensively in the production of weapons and armors for all races. Iron horseshoes can be found on every horse in The Fated Place, and iron tools can be found in nearly every town."
+
+ ivory:0 "Ivory"
+ ivoryDESC:0 ""
+
+ naval_supplies:0 "Naval Supplies"
+ naval_suppliesDESC:0 "Naval Supplies represent everything needed in ship construction, from basic wood to tar, ropes, linen, sails, and various other materials. Forests and coasts make for the best locations to produce these goods. No merchant or military naval force is fully prepared for the seas without the production or trade of these crucial items."
+
+ salt:0 "Salt"
+ saltDESC:0 "Salt is essential for all animals to survive. It is also extremely useful for preserving food for the long winter months, or for the upcoming war-march. Its mineral form is mined from most of the many mountain ranges across The Fated Place, though it is a semi-rare resource compared to iron and copper. The natural form of salt occurs from salt marsh production via evaporation along sunny coastlines, making the coasts another reliable place for obtaining this crucial resource."
+
+ slaves:0 "Slaves"
+ slavesDESC:0 "Slavery was most commonly practiced in Dark Elven and Greenskins and by those who closely followed the teachings of Chaos. Orcs would enslave anyone they conquered, including other orcs or goblins. The Dark Elves, the Skaven, the Chaos Dwarves, the Norscans, and Greenskins were all active practitioners of slavery. In The Fated Place, once captured and sold into slavery it was very unlikely you would ever return to your faraway home lands or be freed. Many elves, dwarves and humans have died in the pits of Naggaroth and the Under-Empire while in metalled chains."
+
+ spices:0 "Spices"
+ spicesDESC:0 ""
+
+ sugar:0 "Sugarcane"
+ sugarDESC:0 "Sugarcane is a perennial grass grown mostly for its juice from which sugar is processed. The sugar product is often further manipulated to create molasses and rum. Sugarcane grows best in tropical and subtropical regions that have soils with a healthy mixture of sand, silt clay, and organic material."
+
+ tea:0 "Tea"
+ teaDESC:0 ""
+
+ tobacco:0 "Tobacco"
+ tobaccoDESC:0 ""
+
+ wine:0 "Wine"
+ wineDESC:0 ""
+
+ wool:0 "Wool"
+ woolDESC:0 ""
+
+ cocoa:0 "Cocoa"
+ cocoaDESC:0 ""
+
+ dyes:0 "Dyes"
+ dyesDESC:0 "There are many colors in The Fated Place;."
+
+ silk:0 "Silk"
+ silkDESC:0 ""
+
+ incense:0 "Incense"
+ incenseDESC:0 "Frankincense, Myhrr, Bdellium, Agarwood and Sandalwood are the most common tree resins used in the making of incense and perfumes. These resins are harvested only in specific regions large enough to generate a demand for its usage, in locales capable of growing the unique woods that produce these resins. Incense makes for a unique commodity that many cultural and religious ceremonies call for across The Fated Place."
+
+ livestock:0 "Livestock"
+ livestockDESC:0 "The domestication of animals is a pursuit that elves, humans, dwarves, and even orcs have all tried and succeeded at. Cattle, pigs, sheep and chickens are the most common edible livestock and are raised based on the local climate. Humans have also mastered raising horses anywhere wild grass grows."
+
+ glass:0 "Glass"
+ glassDESC:0 ""
+
+ paper:0 "Paper"
+ paperDESC:0 "Paper is a rarer commodity in The Fated Place, as a majority of most peoples do not know how to read or write. Used mostly for books, paper's only other real presence in common life might be in maps used by travellers or merchants. It is much more common to see paper used amongst scholars, administrators, wizards and elves. The only places that accrue books are typically places of high government, or places of old knowledge and learning. Many secrets, prophecies, and items of historical lore have been recorded on paper throughout the ages. Sometimes a single piece of parchment will hold a secret to an entire destiny; such is the true value of paper in The Fated Place."
+
+ gems:0 "Gems"
+ gemsDESC:0 "Gems are buried deep under tall mountains, but for those who go digging they may find topaz, amethysts, jade, rubies, sapphires, emeralds and diamonds. It would be fair to say the majority of gemstones in circulation in northern The Fated Place were mined and traded by dwarves, who seek these stones with more skill and greed than any other race."
+
+ coal:0 "Coal"
+ coalDESC:0 "Coal has a long history as a source of fuel, but it is not until the invention and dissemination of the practical Steam Engine that demand would take off. As the Industrial Revolution swept across The Old World, the use and export or import of coal would become a major business and an integral part of a modern economy."
+ 

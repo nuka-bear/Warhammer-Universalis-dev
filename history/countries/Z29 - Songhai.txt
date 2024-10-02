@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = songhai
+religion = sunni
+technology_group = tech_arabyn
+setup_vision = yes
+capital = 1133	# Gao

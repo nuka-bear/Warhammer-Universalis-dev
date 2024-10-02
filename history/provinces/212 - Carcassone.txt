@@ -1,0 +1,21 @@
+owner = A28
+controller = A28
+add_core = A28
+culture = carcassonnian
+religion = lady_of_the_lake
+ 
+hre = no
+
+base_tax = 5
+base_production = 4
+trade_goods = dyes
+base_manpower = 5
+
+is_city = yes
+
+
+
+
+
+
+

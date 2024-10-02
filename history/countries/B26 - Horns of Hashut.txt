@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = chaos_dwarf
+religion = hashut
+technology_group = tech_chaos_dwarfen
+capital = 2208#wissenburg
+setup_vision = yes
+#chaos Dwarf
+government_rank = 1

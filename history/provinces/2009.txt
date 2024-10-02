@@ -1,0 +1,12 @@
+owner = H12
+controller = H12
+culture = naggarondi
+religion = cytharai
+base_tax = 12
+base_production = 12
+base_manpower = 12
+trade_goods = gems
+is_city = yes
+center_of_trade = 2
+add_core = H12
+fort_15th = yes

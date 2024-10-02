@@ -1,0 +1,9 @@
+government = monarchy
+primary_culture = grutnik_skaven
+religion = horned_rat
+technology_group = tech_skaven
+capital = 4739# Gao
+government_rank = 1
+setup_vision = yes
+add_government_reform = autocracy_reform
+

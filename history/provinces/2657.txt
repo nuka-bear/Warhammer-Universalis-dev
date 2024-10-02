@@ -1,0 +1,10 @@
+owner = B47
+base_tax = 2
+base_manpower = 1
+base_production = 1
+trade_goods = livestock
+religion = chaos_undivided_religion
+controller = B47
+is_city = yes
+culture = dolgan
+add_core = B47

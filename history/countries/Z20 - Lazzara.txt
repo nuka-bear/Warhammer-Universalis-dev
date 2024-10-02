@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = pirate_arabyn
+religion = the_one_faith
+technology_group = tech_arabyn
+capital = 1049
+setup_vision = yes
+government_rank = 1

@@ -1,0 +1,8 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+primary_culture = assassin_arabic
+religion = the_one_faith
+technology_group = tech_arabyn
+capital = 1015# Gao
+government_rank = 1
+setup_vision = yes

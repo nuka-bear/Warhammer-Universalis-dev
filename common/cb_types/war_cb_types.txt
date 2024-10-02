@@ -1,0 +1,98 @@
+# INSTRUCTIONS:
+# -------------
+# is_triggered_only - Triggered from within the code or by event effects. DO NOT REMOVE THE STOCK ONES.
+# months - The number of months this CB will be valid. Only works for triggered CBs.
+# prerequisites - A condition that automatically activates a CB. Does not work for triggered CBs.
+# no_opinion_hit - If yes you get no negative opinion from this
+#
+# ROOT = attacker
+# FROM = target
+#
+# NOTE: The order in which the peace options are listed is the order in which the AI will normally prioritize them in peace treaties
+#
+# TRIGGERED - Triggered from within the code or by event effects
+# --------------------------------------------------------------
+
+# Reunification of Bretonnia
+cb_bretonnian_unification = {
+	valid_for_subject = no
+
+	prerequisites = {		
+		has_global_flag = bretonnian_kingdom_dismantled
+		is_neighbor_of = FROM
+		FROM = { 
+			any_owned_province = {
+					region = bretonnia_region
+			}
+		}
+	}
+
+	war_goal = superiority_bretonnian_unification
+}
+
+# Establish Dukedom
+cb_bretonnian_subjucgation  = {
+	valid_for_subject = no
+	
+	prerequisites_self = {
+		has_reform = bretonnian_royarch_reform
+		capital_scope = { region = bretonnia_region }
+	}
+	
+	prerequisites = {
+		FROM = {
+			capital_scope = { region = bretonnia_region }
+			culture_group = bretonnian_group
+			NOT = { 
+				is_subject_of = ROOT
+			}
+		}
+	}
+
+	war_goal = bretonnia_subjugation
+}
+
+cb_monster_vs_civ = { 
+	valid_for_subject = no 
+
+	prerequisites_self = {
+		has_country_modifier = destruction_nation
+	}
+
+	prerequisites = { 
+		is_neighbor_of = FROM 
+	} 
+
+	war_goal = superiority_destruction
+}
+
+cb_civ_vs_monster = { 
+	valid_for_subject = no 
+
+	prerequisites_self = {
+		NOT = { has_country_modifier = destruction_nation }
+	}
+
+	prerequisites = { 
+		is_neighbor_of = FROM 
+		FROM = { has_country_modifier = destruction_nation }
+	} 
+
+	war_goal = superiority_anti_destruction
+} 
+
+cb_gs_tribal_confederation = { 
+	valid_for_subject = no 
+
+	prerequisites_self = {
+		has_country_modifier = destruction_nation
+	}
+
+	prerequisites = { 
+		is_neighbor_of = FROM 
+		FROM = { has_country_modifier = destruction_nation }
+	} 
+
+	war_goal = wgt_gs_tribal_confederation
+} 
+

@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = gospodar
+religion = ursun
+technology_group = tech_imperial
+capital = 792
+government_rank = 1
+setup_vision = yes

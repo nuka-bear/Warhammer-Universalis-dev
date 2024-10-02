@@ -1,0 +1,21 @@
+
+owner = A45
+controller = A45
+add_core = A45
+culture = obregese
+religion = myrmidia
+ 
+
+base_tax = 4
+base_production = 4
+trade_goods = cloth
+base_manpower = 4
+
+is_city = yes
+
+
+
+
+
+
+

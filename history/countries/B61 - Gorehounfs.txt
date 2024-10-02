@@ -1,0 +1,9 @@
+government = tribal
+add_government_reform = hordes_of_chaos
+government_rank = 1
+primary_culture = tahmaks
+religion = khornate_religion
+technology_group = tech_chaos_warrior
+capital = 2672
+setup_vision = yes
+

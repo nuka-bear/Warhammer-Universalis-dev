@@ -1,0 +1,183 @@
+country_decisions = {
+	araby_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = {
+				has_country_flag = formed_araby_flag
+			}
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = {
+				exists = Z98
+			}
+			culture_group = arabyan_group
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 60
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					or = { 
+						region = araby_region
+						region = sudron_region
+					}
+					root = {
+						NOT = {
+							num_of_owned_provinces_with = {
+								value = 60
+								or = { 
+									region = araby_region
+									region = sudron_region
+								}
+								is_core = root
+							}
+						}
+						owns_core_province = 974						#al-haikk
+						owns_core_province = 988						#martek
+						owns_core_province = 4168						#copher
+						owns_core_province = 1746						#lashiek
+						owns_core_province = 1007						#palace of the wizard caliph
+
+					}
+				}
+				province_id = 974				#al-haikk
+				province_id = 988				#martek
+				province_id = 4168				#copher
+				province_id = 1746				#lashiek
+				province_id = 1007				#palace of the wizard caliph
+			}
+			OR = {
+				NOT = {
+					owned_by = ROOT
+				}
+				NOT = {
+					is_core = ROOT
+				}
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 974			#al-haikk
+			owns_core_province = 988			#martek
+			owns_core_province = 4168			#copher
+			owns_core_province = 1746			#lashiek
+			owns_core_province = 1007			#palace of the wizard caliph
+			num_of_owned_provinces_with = {
+				value = 60
+				or = { 
+					region = araby_region
+					region = sudron_region
+				}
+				is_core = root
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				emperor = {
+					add_opinion = {
+						who = root
+						modifier = opinion_left_empire
+					}
+				}
+				set_in_empire = no
+				emperor = {
+					country_event = {
+						id = hre_event.5
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 3
+					}
+				}
+				hidden_effect = {
+					set_in_empire = no
+				}
+				set_government_rank = 3
+			}
+			change_tag = Z98
+			on_change_tag_effect = yes
+			#this is so that a tier 1 reform is always selected, preventing the user from just never selecting one and enjoying loads of absolutism
+			araby_region = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+				add_permanent_claim = Z98
+			}
+			sudron_region = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+				add_permanent_claim = Z98
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = {
+					id = ideagroups.1
+				}
+				#Swap Ideas
+			}
+			swap_non_generic_missions = yes
+			set_country_flag = formed_araby_flag
+		}
+		ai_will_do = {
+			factor = 400
+			modifier = {
+				factor = 0
+				NOT = {
+					calc_true_if = {
+						owns_core_province = 974						#al-haikk
+						owns_core_province = 988						#martek
+						owns_core_province = 4168						#copher
+						owns_core_province = 1746						#lashiek
+						owns_core_province = 1007						#palace of the wizard caliph
+
+						amount = 3
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					num_of_cities = 50
+				}
+			}
+		}
+	}
+}

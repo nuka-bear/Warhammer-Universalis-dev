@@ -1,0 +1,91 @@
+﻿l_english:
+
+#################
+#Dieites
+################
+ olric:0 "Olric"
+ the_hound:0 "Hound"
+ the_raven:0 "Raven"
+ the_crow:0 "Crow"
+ the_serpent:0 "Serpeant"
+ the_bear:0 "Bear"
+ mermedus:0 "Mermedus"
+
+#################
+#Decisions
+################
+ decision_norscan_hunt_start_title:0 "Start a Monster Hunt"
+ decision_norscan_hunt_start_desc:0 "As a follower of the Norscan faith, hunting is holy. For the World is a strange and dangerous land, filled with equally strange and dangerous beasts and beings. A warrior must always be trained through combat for when the time of the Final War comes. Whether it comes in this life, or when the dead are called to fight in the next.\n\n§YThis decision will allow our ruler to go on a monster hunt, there will be great perils but great rewards!§""
+ norscan_flexible_god_decision_title:0 "Change Diety"
+ norscan_flexible_god_decisio_desc:0 "Whispers of dark and malevolent deities echo through the fjords and valleys, tempting the faithful with promises of power and glory. The time has come for a new patron that will better reward us."
+
+#################
+#Events
+################
+ religion_norscan_events.1.t:0 "Making Our Choice."
+ religion_norscan_events.1.d:0 "Our [Root.Monarch.GetTitle] has called a meeting of [Root.GetName]'s top religious officials to decide which of the many gods we will follow. Who should we choose?\n\n§P(There's a scrollbar for the options here, by the way)§!"
+ religion_norscan_events.1.a:0 "Back"
+ religion_norscan_events.1.b:0 "Olric"
+ religion_norscan_events.1.c:0 "Hound"
+ religion_norscan_events.1.e:0 "Raven"
+ religion_norscan_events.1.f:0 "Crow"
+ religion_norscan_events.1.g:0 "Serpent"
+ religion_norscan_events.1.h:0 "Bear"
+ religion_norscan_events.1.i:0 "Mermedus"
+
+#################
+#Monster Hunting
+################
+ #events
+ religion_norscan_events.100.t: "Fantastic Beasts and Where to Kill Them"
+ religion_norscan_events.100.d: "Their heads will go nicely on your trophy collection"
+ religion_norscan_events.100.a: "On second thought. . . I'd rather not"
+ religion_norscan_events.100.b: "Norsca" 
+
+ religion_norscan_events.101.t: "Selecting our Query"
+ religion_norscan_events.101.d: "Far to the north of The Empire, lies a cold, savage, and brutal land. A land where the ground is permanently frozen and blistering winters ravage the land for 8 months of the year. A land where there are as many monsters as there are men. Soon there will be one less."
+ religion_norscan_events.101.a: "Exit"
+ religion_norscan_events.101.b: "A Mammoth"
+ religion_norscan_events.101.c: "A Chaos Spawn"
+ religion_norscan_events.101.c: "A Norscan Giant"
+
+ religion_norscan_events.102.t: "Success!"
+ religion_norscan_events.102.d: "In a titanic struggle that tests the limits of your strength and courage, you and your warriors fight with all your might, each blow striking true. With a final, mighty roar that echoes across the frozen landscape, the creature collapses to the ground, defeated at last by your indomitable will and unyielding resolve.As the dust settles and the echoes of battle fade into the distance, you stand victorious over your fallen foe, its colossal form sprawled out before you in a testament to your bravery and skill. With a triumphant shout that rings out across the lands, you claim your prize and return to your people as a hero, your name forever enshrined in the annals of Norscan legend!"
+ religion_norscan_events.102.a: "A fine addition to my Collection"
+
+ religion_norscan_events.103.t: "Failure!"
+ religion_norscan_events.103.d: "In a desperate battle against overwhelming odds, you fought with all your strength and valor. Now your body lies broken, covered in blood, limbs at odd angles, [Root.Monarch.GetName] has been slain by his foe. As your vision fades and your strength wanes welcoming the embrace of oblivion as death claims you at last, you utter a final prayer to the gods. All you hear in response is the mocking laughter of the Dark Gods."
+ religion_norscan_events.103.a: "The gods have abandoned us!"
+
+
+ religion_norscan_events.110.t: "Tracking the Beast!"
+ religion_norscan_events.110.d: "With the bitter winds of the north howling around you and the stench of Chaos thick in the air, you lead your party into the frozen wilderness in pursuit of the foul abomination that has defiled your lands. Born of mortals too weak to withstand the nany gifts of the gods. Tales of its monstrous deeds have spread fear and despair among your people, and you know that only by facing it in battle can you restore honor to your name and reclaim your territory from its grip. The frozen landscape offers little respite from the biting cold and treacherous terrain, but you press on undeterred, driven by the promise of glory and vengeance."
+ religion_norscan_events.110.a: "Follow it's footprints"
+
+ religion_norscan_events.111.t: "Now That's Ugly!"
+ religion_norscan_events.111.d: "Finally, after a grueling journey fraught with peril, you come upon the lair of the Chaos Spawn, a twisted cavern of ice and darkness where the creature lurks in the shadows, awaiting its next victim. The Chaos Spawn is a monstrous sight to behold, its writhing form twisted and contorted by the corrupting influence of Chaos. With each blow you land, it thrashes and wriggles in agony, its unearthly shrieks echoing through the frozen wasteland. But you are undaunted, fueled by the rage of your ancestors and the determination to see this foul creature vanquished once and for all. \n\nWith a fierce battle cry, you charge into the fray, your weapons flashing in the dim light as you clash with the abomination in a desperate struggle for survival. "
+ religion_norscan_events.111.a: "Such a fate does not await me!"
+ 
+ religion_norscan_events.120.t: "Tracking the Giant!"
+ religion_norscan_events.120.d: "With the clamor of war drums echoing through the frosty air and the howls of your warband rising in fierce anticipation, you lead your warriors on a perilous hunt for the monstrous Giant that has been terrorizing your people. Towering over the tallest trees and casting a long shadow across the landscape, the creature's presence looms large in the minds of your tribe, driving you to seek vengeance for its wanton destruction. For days, you and your warriors track the trail of devastation left in the Giant's wake, following the telltale signs of crushed trees, trampled villages, and scattered bones. Each step brings you closer to the creature's lair, your senses sharp and your weapons at the ready as you prepare to face this formidable foe."
+ religion_norscan_events.120.a: "Shouldn't be hard to find then"
+
+ religion_norscan_events.121.t: "A Titantic Struggle"
+ religion_norscan_events.121.d: "Finally, as the sun begins to set on the horizon, you come upon the Giant's lair, a desolate valley shrouded in mist and shadow. With a thunderous roar that shakes the earth beneath your feet, the Giant emerges from its hiding place, its massive form silhouetted against the fading light as it prepares to defend its territory against intruders Undaunted by the creature's immense size and ferocious demeanor, you and your warriors charge into battle with reckless abandon, your weapons gleaming in the dim light as you unleash a barrage of arrows, spears, and axes upon the Giant's towering form. The earth trembles with each thunderous blow, but you press on undeterred, driven by the promise of glory and the thirst for victory."
+ religion_norscan_events.121.a: "Fight on!"
+
+ religion_norscan_events.130.t: "The Mammoth Hunt: A Quest for Glory!"
+ religion_norscan_events.130.d: "Amidst the howling winds and biting cold of the northern wastes, you gather your warriors and prepare for the hunt of a lifetime. Tales of the colossal Mammoth have spread far and wide, its massive tusks and thunderous footsteps striking fear into the hearts of even the bravest Norscan warriors. But you are undaunted, fueled by the primal desire for glory and the promise of a mighty trophy to adorn your hall."
+ religion_norscan_events.130.a: "Shouldn't be hard to find then"
+
+ religion_norscan_events.131.t: "A Titantic Struggle"
+ religion_norscan_events.131.d: "For days, you and your warband track the Mammoth's trail through the snow-covered landscape, following its massive footprints and the telltale signs of its passing. Each step brings you closer to your quarry, your senses sharp and your weapons at the ready as you prepare to face this formidable foe.\n\nFinally, as the sun sets on the horizon and the icy winds whip through the air, you come upon the Mammoth's lair, a desolate expanse of frozen tundra where the beast lies in wait. With a thunderous roar that shakes the earth beneath your feet, the Mammoth emerges from its icy domain, its massive form towering over you like a living mountain.\n\nWith a fierce battle cry that echoes across the frozen wasteland, you and your warriors charge into battle, your weapons gleaming in the dim light as you unleash a barrage of arrows, spears, and axes upon the Mammoth's colossal form. The ground trembles with each thunderous blow, but you press on undeterred, driven by the promise of glory and the thirst for victory."
+ religion_norscan_events.131.a: "Fight on!"
+
+ #modifiers
+ norscan_monster_hunt:0 "On a Monster Hunt"
+ desc_norscan_monster_hunt:0 ""
+ norscan_successful_tracking:0 "§Y[Root.Monarch.GetTitle] [Root.Monarch.GetName]§! will find the beast §Gfaster§! and have a §Ghigher§! chance to slay it"
+ norscan_failed_tracking:0 "§Y[Root.Monarch.GetTitle] [Root.Monarch.GetName]§! will have a §Rharder time finding the beast§!"
+ norscan_hunt_prep_success:0 "§Y[Root.Monarch.GetTitle] [Root.Monarch.GetName]§! will have §Ghigher§! chance to slay the beast"
+ norscan_prep_failure:0 "§Y[Root.Monarch.GetTitle] [Root.Monarch.GetName]§! will have §Rlower§! chance to slay the beast"

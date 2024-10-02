@@ -1,0 +1,45 @@
+
+# Order here is the priority for taking them, if trigger is true.
+
+A01 = { #reikland
+	always = yes
+}
+
+A13 = { #Slyvania
+	always = yes
+}
+
+A15 = { #Courronne
+	always = yes
+}
+
+I01 = { #Gold Tooth
+	always = yes
+}
+
+H06 = { #Eataine
+	always = yes
+}
+
+V04 = { #Hexoatl
+	always = yes
+}
+
+B17 = { #Zharr-Naggarund
+	always = yes
+}
+
+B55 = { #Raven Host
+	always = yes
+}
+
+
+#9 onwards
+
+G24 = { #Red fangs
+	always = yes
+}
+
+U26 = { #Srkyre
+	always = yes
+}

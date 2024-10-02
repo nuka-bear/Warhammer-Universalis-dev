@@ -1,0 +1,12 @@
+owner = Z27
+base_tax = 3
+base_manpower = 5
+base_production = 5
+trade_goods = gems
+religion = the_one_faith
+controller = Z27
+is_city = yes
+culture = sudron_arabyn
+add_core = Z27
+fort_15th = yes
+center_of_trade = 2

@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = sudenlander
+religion = cult_of_sigmar
+technology_group = tech_imperial
+capital = 872
+setup_vision = yes
+government_rank = 1

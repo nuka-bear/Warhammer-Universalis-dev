@@ -1,0 +1,11 @@
+base_tax = 7
+base_manpower = 9
+base_production = 7
+trade_goods = gems
+religion = gork_n_mork_religion
+is_city = yes
+add_core = G24
+owner = G24
+culture = common_orc
+controller = G24
+fort_15th = yes

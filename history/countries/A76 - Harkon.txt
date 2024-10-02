@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = reiklander
+religion = cult_of_sigmar
+technology_group = tech_imperial
+capital = 629
+setup_vision = yes

@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = norsan_jarldom_reform
+primary_culture = baersonling
+religion = norscan
+technology_group = tech_norscan
+capital = 486
+government_rank = 1
+setup_vision = yes

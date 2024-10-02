@@ -1,0 +1,10 @@
+owner = B37
+base_tax = 2
+base_manpower = 3
+base_production = 3
+trade_goods = slaves
+religion = tzeentchian_religion
+controller = B37
+
+culture = aghols
+add_core = B37

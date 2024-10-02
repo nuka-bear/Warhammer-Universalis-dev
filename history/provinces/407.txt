@@ -1,0 +1,12 @@
+owner = A87#Order of the Blazing Sun
+controller = A87
+culture = bjornling
+religion = myrmidia
+base_tax = 4
+base_production = 4
+trade_goods = fish
+base_manpower = 5
+is_city = yes
+add_core = A87
+
+fort_15th = yes

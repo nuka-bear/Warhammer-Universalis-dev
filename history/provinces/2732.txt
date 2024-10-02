@@ -1,0 +1,10 @@
+owner = B55
+base_tax = 2
+base_manpower = 3
+base_production = 1
+trade_goods = slaves
+religion = tzeentchian_religion
+controller = B55
+is_city = yes
+culture = avags
+add_core = B55

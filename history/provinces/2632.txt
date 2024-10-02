@@ -1,0 +1,10 @@
+owner = B44
+base_tax = 1
+base_manpower = 2
+base_production = 1
+trade_goods = salt
+religion = ursun
+controller = B44
+is_city = yes
+culture = gospodar
+add_core = B44

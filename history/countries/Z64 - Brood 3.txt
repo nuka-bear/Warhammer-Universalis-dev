@@ -1,0 +1,7 @@
+government = tribal
+technology_group = tech_khureshi
+capital = 4428
+setup_vision = yes
+government_rank = 1
+primary_culture = khureshi_snakefolk
+

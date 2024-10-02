@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = miraglianese
+religion = myrmidia
+capital = 118		# Roma
+setup_vision = yes
+

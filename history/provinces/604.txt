@@ -1,0 +1,23 @@
+
+owner = A51
+controller = A51
+add_core = A51
+culture = luccian
+religion = myrmidia
+ 
+hre = no
+
+
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+
+is_city = yes
+
+
+
+
+
+
+

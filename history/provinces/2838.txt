@@ -1,0 +1,12 @@
+base_tax = 15
+base_manpower = 14
+base_production = 13
+trade_goods = chinaware
+religion = yin_yang
+is_city = yes
+owner = I25
+controller = I25
+center_of_trade = 2
+add_core = I25
+fort_15th = yes
+culture = north_cathayan

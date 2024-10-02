@@ -1,0 +1,11 @@
+base_tax = 3
+base_manpower = 4
+base_production = 4
+trade_goods = warpstone
+religion = horned_rat
+is_city = yes
+owner = U34
+controller = U34
+culture = crooktail_skaven
+add_core = U34
+fort_15th = yes

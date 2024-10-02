@@ -1,0 +1,10 @@
+base_tax = 1
+base_manpower = 1
+base_production = 1
+trade_goods = livestock
+religion = khornate_religion
+is_city = yes
+owner = B39
+culture = kvellig
+controller = B39
+add_core = B39

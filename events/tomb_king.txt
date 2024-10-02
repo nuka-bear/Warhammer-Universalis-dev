@@ -1,0 +1,180 @@
+
+namespace = tomb_king
+#Lich Death - Regency Council
+country_event = {
+	id = tomb_king.1
+	title = tomb_king.1.t
+	desc = "tomb_king.1.d"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes	#this should be triggered by other events like adventurers destroying phylactery
+	
+	#hidden = yes
+	
+	trigger = {
+		has_country_flag = tomb_king_ruler
+		has_reform = nehekharan_government_reform
+		NOT = { has_country_flag = interregnum }
+
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = interregnum
+			if = {
+				limit = {
+					has_regency = no
+				}
+				exile_ruler_as = { name = old_heir }
+			}
+			if = {
+				limit = {
+					has_heir = yes
+				}
+				exile_heir_as = old_heir
+			}
+			
+			# Ruler is revived here
+			if = {
+				limit = { has_country_flag = z01_settra_ruler }
+				define_ruler = {
+					age = 33
+					name = "Settra 'the Imperishable'"
+					male = yes
+					max_random_adm  = 0
+					max_random_dip  = 0
+					max_random_mil  = 0
+					hide_skills = yes
+				}
+			}
+			else_if = {
+				limit = { has_country_flag = z02_arkhan_ruler }
+				define_ruler = {
+					age = 33
+					name = "Arkhan 'The Black'"
+					male = yes
+					max_random_adm  = 0
+					max_random_dip  = 0
+					max_random_mil  = 0
+					hide_skills = yes
+				}
+			}
+			else_if = {
+				limit = { has_country_flag = z03_khalida_ruler }
+				define_ruler = {
+					age = 33
+					name = "Khalida"
+					dynasty = "Neferher"
+					max_random_adm  = 0
+					max_random_dip  = 0
+					max_random_mil  = 0
+					hide_skills = yes
+				}
+			}
+			else = {
+				if = {
+					limit = { has_country_flag = tomb_king_ruler_female }
+					define_ruler = {
+						age = 33
+						dynasty = " "
+						female = yes
+						max_random_adm  = 0
+						max_random_dip  = 0
+						max_random_mil  = 0
+						hide_skills = yes
+					}
+				}
+				else = {
+					define_ruler = {
+						age = 33
+						dynasty = " "
+						male = yes
+						max_random_adm  = 0
+						max_random_dip  = 0
+						max_random_mil  = 0
+						hide_skills = yes
+					}
+				}
+			}
+		}
+	}
+	
+	# Revive Ruler
+	option = {
+		name = tomb_king.1.a
+		ai_chance = {
+			factor = 50
+		}
+		
+		# Revied Rulers are slighlty worse than normal ones, you don't want your ruler to die
+		tooltip = {
+			define_ruler = {
+				age = 33
+				dynasty = " "
+				male = yes
+				max_random_adm  = 0
+				max_random_dip  = 0
+				max_random_mil  = 0
+				hide_skills = yes
+			}
+		}
+		
+		restore_ruler_stats = yes
+		revival_stat_loss = yes
+		
+		set_heir = old_heir
+		
+		set_ruler_flag = is_a_tomb_king
+		set_ruler_flag = new_tomg_king_setup
+		clr_country_flag = interregnum
+		hidden_effect = { country_event = { id = tomb_king.2 } }
+
+	}
+
+	
+}
+
+#
+country_event = {
+	id = tomb_king.2
+	title = tomb_king.2.t
+	desc = tomb_king.2.d
+	picture = END_OF_TIME_eventPicture
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	trigger = {
+		has_ruler_flag = is_a_tomb_king
+	}
+	
+	option = {
+		name = magic_project_lichdom.2.a
+		ai_chance = {
+			factor = 50
+		}
+		clr_country_flag = interregnum
+		
+		clr_ruler_flag = new_tomg_king_setup
+		
+		set_ruler_flag = long_lived_ruler
+		make_ruler_immortal = yes
+
+		hidden_effect = {
+			#clear first in case player lets a month go by before clicking
+			clear_ruler_personalities = yes
+		}
+		apply_saved_persistent_ruler_personalities = yes
+		add_ruler_personality = immortal_personality
+
+		save_ruler_stats = yes
+
+			add_ruler_modifier = {
+				name = tomb_king_ruler
+				duration = -1
+			}
+	}
+}
+
+

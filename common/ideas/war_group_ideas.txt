@@ -1,0 +1,918 @@
+norse_group_ideas = {
+	start = {
+		may_perform_slave_raid = yes
+		global_manpower_modifier = 0.10
+		may_recruit_female_generals = yes
+	}
+	bonus = {
+		shock_damage_received = -0.10
+	}
+	trigger = {
+		culture_group = norse_group
+	}
+	free = yes
+	
+	norse_group_idea_1 = {
+		infantry_power = 0.10
+	}
+	norse_group_idea_2 = {
+		global_unrest = -1.0
+	}
+	norse_group_idea_3 = {
+		sailors_recovery_speed = 0.05
+		manpower_recovery_speed = 0.10
+	}
+	norse_group_idea_4 = {
+		war_exhaustion_cost = -0.15
+	}
+	norse_group_idea_5 = {
+		global_ship_cost = -0.10
+		light_ship_power = 0.10
+	}
+	norse_group_idea_6 = {
+		trade_efficiency = 0.10
+	}
+	norse_group_idea_7 = {
+		naval_forcelimit_modifier = 0.25
+	}
+}
+
+border_princes_ideas = {
+	start = {
+		land_maintenance_modifier = -0.10
+		land_attrition = -0.1
+		may_recruit_female_generals = yes
+	}
+	bonus = {
+		manpower_recovery_speed = 0.1
+	}
+	trigger = {
+		capital_scope = {
+			region = border_princes_region
+		}
+		technology_group = tech_imperial
+	}
+	free = yes
+	
+	border_princes_idea_1 = {
+		global_manpower_modifier = 0.1
+	}
+	border_princes_idea_2 = {
+		cavalry_power = 0.15
+	}
+	border_princes_idea_3 = {
+		land_morale = 0.1
+	}
+	border_princes_idea_4 = {
+		culture_conversion_cost = -0.2
+		war_exhaustion = -0.02
+	}
+	border_princes_idea_5 = {
+		leader_land_shock = 1
+	}
+	border_princes_idea_6 = {
+		reform_progress_growth = 0.15
+	}
+	border_princes_idea_7 = {
+		tolerance_heretic = 3
+	}
+}
+
+bretonnian_group_ideas = {
+	start = {
+		cavalry_power = 0.20
+	}
+
+	bonus = { 
+		cb_on_religious_enemies = yes
+	} 
+	
+	trigger = {
+			culture_group = bretonnian_group
+	}
+	free = yes
+	
+	bretonnian_group_idea_1 = {
+		leader_land_shock = 1
+	}
+	bretonnian_group_idea_2 = {
+		build_cost = -0.1
+	}
+	bretonnian_group_idea_3 = {
+		war_exhaustion = -0.03
+	} 
+	bretonnian_group_idea_4 = { 
+		shock_damage = 0.10
+	}
+	bretonnian_group_idea_5 = {
+		yearly_corruption = -0.10
+	} 
+	bretonnian_group_idea_6 = {
+		diplomatic_reputation = 1
+	} 
+	bretonnian_group_idea_7 = {
+		global_tax_modifier = 0.1
+	}
+}	
+
+imperial_group_ideas = {
+	start = {
+		infantry_power = 0.1
+		merc_maintenance_modifier = -0.15
+	}
+	
+	bonus = {
+		technology_cost = -0.05
+	}
+	
+	trigger = {
+		culture_group = imperial_group
+	}
+	free = yes        #will be added at load.
+	
+	imperial_group_idea_1 = {
+		global_missionary_strength = 0.03
+	}
+	imperial_group_idea_2 = {
+		production_efficiency = 0.10
+	}
+	imperial_group_idea_3 = {
+		fire_damage = 0.1
+	}
+	imperial_group_idea_4 = {
+		global_own_trade_power = 0.10
+		trade_efficiency = 0.05
+	}
+	imperial_group_idea_5 = {
+		diplomatic_reputation = 1	
+	}
+	imperial_group_idea_6 = {
+		yearly_corruption = -0.10
+	}
+	imperial_group_idea_7 = {
+		global_manpower_modifier = 0.25
+		global_regiment_recruit_speed = -0.10
+	}
+}
+
+estalian_group_ideas = {
+	start = {
+		global_trade_power = 0.10
+	}
+
+	bonus = {
+		prestige_decay = -0.01
+	}
+	
+	trigger = {
+		culture_group = estalian_group
+	}
+	free = yes		#will be added at load.
+	
+	estalian_group_idea_1 = {
+		defensiveness = 0.20
+		fort_maintenance_modifier = -0.10
+	}
+	estalian_group_idea_2 = {
+		discipline = 0.05
+	}
+	estalian_group_idea_3 = {
+		naval_morale = 0.10
+		global_sailors_modifier = 0.10
+	}
+	estalian_group_idea_4 = {
+	  merc_maintenance_modifier = -0.4
+      mercenary_manpower = 0.25
+	}
+	estalian_group_idea_5 = {
+		heavy_ship_power = 0.1
+		galley_power = 0.1
+	}
+	estalian_group_idea_6 = {
+		land_attrition = -0.10
+		naval_attrition = -0.10
+	}
+	estalian_group_idea_7 = {
+		global_missionary_strength = 0.02
+	}
+}
+
+tilean_group_ideas = {
+	start = {
+		merc_maintenance_modifier = -0.15
+		infantry_power = 0.1
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		culture_group = tilean_group
+	}
+	free = yes  #will be triggered at load
+	
+	tilean_group_idea_1 = {
+		mercenary_discipline = 0.05
+		mercenary_manpower = 0.5
+	}
+	tilean_group_idea_2 = {
+		trade_efficiency = 0.1
+	}
+	tilean_group_idea_3 = {
+		advisor_cost = -0.10
+	}
+	tilean_group_idea_4 = {
+		fort_maintenance_modifier = -0.2
+		defensiveness = 0.25
+	}
+	tilean_group_idea_5 = {
+		development_cost = -0.1
+	}
+	tilean_group_idea_6 = {
+		merchants = 1
+	}
+	tilean_group_idea_7 = {
+		production_efficiency = 0.1
+	}
+}
+
+kislevite_group_ideas = {
+	start = {
+		global_regiment_cost = -0.15
+		global_manpower_modifier = 0.2
+	}
+	
+	bonus = {
+		infantry_power = 0.10
+	}
+	
+	trigger = {
+		culture_group = kislevite_group
+	}
+	free = yes
+
+	kislevite_group_idea_1 = {
+		manpower_recovery_speed = 0.2
+	}
+	kislevite_group_idea_2 = {
+		prestige_decay = -0.01
+		land_forcelimit_modifier = 0.2
+	}
+	kislevite_group_idea_3 = {
+		cavalry_power = 0.1
+		cavalry_flanking = 0.5
+	}
+	kislevite_group_idea_4 = {
+		fort_maintenance_modifier = -0.2
+	}
+	kislevite_group_idea_5 = {
+		land_morale = 0.1
+	}
+	kislevite_group_idea_6 = {
+		hostile_attrition = 1
+	}
+	kislevite_group_idea_7 = {
+		technology_cost = -0.05
+	}
+}
+
+#Fire damage/Artillery based orcs
+
+dark_land_orc_ideas = {
+	start = {
+		fire_damage_received = -0.1
+		defensiveness = 0.20
+	}
+	
+	bonus = {
+
+	}
+	
+	trigger = {
+		culture = dark_land_orc
+	}
+	free = yes
+	
+	dark_land_orc_idea_1 = {
+		artillery_power = 0.1
+	}
+	dark_land_orc_idea_2 = {
+		fire_damage = 0.15
+	}
+	dark_land_orc_idea_3 = {
+		siege_ability = 0.1
+	}
+	dark_land_orc_idea_4 = {
+		global_unrest = -1
+	}
+	dark_land_orc_idea_5 = {
+		production_efficiency = 0.10
+	}
+	dark_land_orc_idea_6 = {
+		land_attrition = -0.15
+	}
+	dark_land_orc_idea_7 = {
+		global_institution_spread = 0.1
+		movement_speed = 0.1
+	}
+}
+
+#naval orcs/slightly fire damage based
+freeboota_orc_ideas = {
+	start = {
+		capture_ship_chance = 0.1
+		#Might be too high but lets them be mercs
+		diplomatic_reputation = 3
+	}
+	
+	bonus = {
+		own_coast_naval_combat_bonus = 1
+	}
+	
+	trigger = {
+		culture = freeboota_orc
+	}
+	free = yes
+	
+	freeboota_orc_idea_1 = {
+		global_sailors_modifier = 0.2
+        sailor_maintenance_modifer = -0.1
+	}
+	freeboota_orc_idea_2 = {
+		heavy_ship_power = 0.1
+		flagship_cost = -0.25
+	}
+	freeboota_orc_idea_3 = {
+		naval_forcelimit_modifier = 0.2
+	}
+	freeboota_orc_idea_4 = {
+		ship_durability = 0.05
+	}
+	freeboota_orc_idea_5 = {
+		infantry_fire = 0.2
+		possible_condottieri = 1
+	}
+	freeboota_orc_idea_6 = {
+        leader_naval_shock  = 1
+	}
+	freeboota_orc_idea_7 = {
+		navy_tradition = 1.0
+	}
+}
+
+greenskin_group_ideas = {
+	start = {
+		ae_impact = -0.10
+		years_of_nationalism = -5
+	}
+	
+	bonus = {
+		stability_cost_modifier = -0.10
+	}
+	
+	trigger = {
+		culture_group = greenskins_group
+	}
+	free = yes
+	
+	greenskin_group_idea_1 = {
+		land_attrition = -0.20 
+	}
+	greenskin_group_idea_2 = {
+		shock_damage = 0.10
+	}
+	greenskin_group_idea_3 = {
+		land_maintenance_modifier = -0.05
+	}
+	greenskin_group_idea_4 = {
+		leader_land_shock = 1
+	}
+	greenskin_group_idea_5 = {
+		core_creation = -0.15
+	}
+	greenskin_group_idea_6 = {
+		manpower_recovery_speed = 0.2
+	}
+	greenskin_group_idea_7 = {
+		global_manpower_modifier = 0.25
+	}
+}
+
+#nehekharan Ideas
+nehekharan_group_ideas = {
+	start = {
+		production_efficiency = 0.15
+		development_cost = -0.1
+	}
+
+	bonus = {
+		global_autonomy = -0.05
+	}
+
+	trigger = {
+		culture_group = nehekharan_group
+	}
+	free = yes
+
+	nehekharan_group_idea_1 = {
+		build_cost = -0.1
+		great_project_upgrade_cost = -0.15
+	}
+	nehekharan_group_idea_2 = {
+		monarch_admin_power = 1
+	}
+	nehekharan_group_idea_3 = {
+		hostile_attrition = 1
+	}
+	nehekharan_group_idea_4 = {
+		land_morale = 0.1
+	}
+	nehekharan_group_idea_5 = {
+		cavalry_power = 0.15
+	}
+	nehekharan_group_idea_6 = {
+		caravan_power = 0.20
+		global_foreign_trade_power = 0.05
+	}
+	nehekharan_group_idea_7 = {
+		stability_cost_modifier = -0.25
+	}
+}
+
+#dark elf
+druchii_group_ideas = {
+	start = {
+		colonists = 1
+		global_colonial_growth = 20
+	}
+	bonus = {
+		ship_durability = 0.15
+	}
+
+	trigger = {
+		culture_group = druchii_group
+	}
+	free = yes		#will be added at load.
+
+	druchii_group_idea_1 = {
+		heavy_ship_power = 0.15
+		own_coast_naval_combat_bonus = 1
+	}
+	druchii_group_idea_2 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	druchii_group_idea_3 = {
+		monarch_military_power = 1
+	}
+	druchii_group_idea_4 = {
+		discipline = 0.05
+	}
+	druchii_group_idea_5 = {
+		global_missionary_strength = 0.03
+		culture_conversion_cost = -0.25
+	}
+	druchii_group_idea_6 = {
+		infantry_power = 0.1
+	}
+	druchii_group_idea_7 = {
+		naval_forcelimit_modifier = 0.33
+	}
+}
+
+asur_group_ideas = {
+	start = {
+		discipline = 0.05
+		naval_forcelimit_modifier = 0.33
+	}
+	bonus = {
+		naval_morale = 0.15
+	}
+	trigger = {
+		culture_group = asur_group
+	}
+	free = yes
+
+	asur_group_idea_1 = {
+		infantry_fire = 0.15
+	}
+	asur_group_idea_2 = { 
+		morale_damage_received = -0.10
+	}
+	asur_group_idea_3 = { 
+		global_trade_power = 0.15 
+	}
+	asur_group_idea_4 = { 
+		drill_decay_modifier = -0.1
+		army_tradition = 0.5
+	}
+	asur_group_idea_5 = {
+		heavy_ship_power = 0.20
+	}
+	asur_group_idea_6 = {
+		diplomatic_reputation = 1
+	}
+	asur_group_idea_7 = {
+		leader_naval_manuever = 1
+		blockade_efficiency = 0.33
+	}
+}
+
+
+ogre_group_ideas = {
+	start = {
+		defensiveness = 0.1
+		build_cost = -0.1
+	}
+	bonus = {
+		siege_ability = 0.1
+	}
+	trigger = {
+		culture_group = ogre_group
+	}
+	free = yes
+	
+	ogre_idea_1 = {
+		prestige = 1
+	}
+	ogre_idea_2 = {
+		warscore_cost_vs_other_religion = -0.2
+		power_projection_from_insults = 0.5
+	}
+	ogre_idea_3 = {
+		fort_maintenance_modifier = -0.1
+	}
+	ogre_idea_4 = {
+		land_morale = 0.1
+	}
+	ogre_idea_5 = {
+		land_attrition = -0.1
+		infantry_power = 0.075
+	}
+	ogre_idea_6 = {
+		free_leader_pool = 2
+	}
+	ogre_idea_7 = {
+		global_manpower_modifier = 0.1
+	}
+}
+
+
+arabyans_ideas = {
+	start = {
+		global_manpower_modifier = 0.15
+		land_attrition = -0.15
+	}
+	
+	bonus = {
+		leader_land_shock = 1
+	}
+	
+	trigger = {
+		culture_group = arabyan_group
+	}
+	free = yes
+	
+	arabyans_idea_1 = {
+		trade_steering = 0.15
+	}
+	arabyans_idea_2 = {
+		cavalry_cost = -0.1
+		cavalry_flanking = 0.25
+	}
+	arabyans_idea_3 = {
+		global_unrest = -1
+	}
+	arabyans_idea_4 = {
+		global_missionary_strength = 0.01
+	}
+	arabyans_idea_5 = {
+		global_trade_power = 0.1
+	}
+	arabyans_idea_6 = {
+		leader_land_manuever = 1
+	}
+	arabyans_idea_7 = {
+		prestige = 1
+	}
+}
+
+
+#chaos dwarf
+chaos_dwarf_ideas = {
+	start = {
+		infantry_power = 0.1
+		global_autonomy = -0.05
+	}
+	bonus = {
+		war_exhaustion = -0.03
+	}
+	trigger = {
+		culture_group = chaos_dwarf_group
+	}
+	free = yes		#will be added at load.
+
+	chaos_dwarf_idea_1 = {
+		leader_land_shock = 1
+		free_leader_pool = 1
+	}
+	chaos_dwarf_idea_2 = {
+		stability_cost_modifier = -0.2
+	}
+	chaos_dwarf_idea_3 = {
+		land_morale = 0.1
+	}
+	chaos_dwarf_idea_4 = {
+		discipline = 0.05
+	}
+	chaos_dwarf_idea_5 = {
+		siege_ability = 0.15
+	}
+	chaos_dwarf_idea_6 = {
+		prestige = 1
+		prestige_decay = -0.005
+	}
+	chaos_dwarf_idea_7 = {
+		core_creation = -0.10
+	}
+}
+
+
+woodelf_ideas = {
+	start = {
+		leader_land_manuever = 1
+		hostile_attrition = 1
+	}
+	bonus = {
+		innovativeness_gain = 0.5
+	}
+	trigger = {
+		culture_group = asrai_group
+	}
+	free = yes
+	
+	woodelf_idea_1 = {
+		movement_speed = 0.1
+		supply_limit_modifier = 0.25
+	}
+	woodelf_idea_2 = {
+		shock_damage = 0.1
+	}
+	woodelf_idea_3 = {
+		build_cost = -0.15
+ 	}
+	 woodelf_idea_4 = {
+		diplomatic_reputation = 1
+	}
+	woodelf_idea_5 = {
+		army_tradition = 1
+	}
+	woodelf_idea_6 = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	woodelf_idea_7 = {
+		global_institution_spread = 0.1
+	}
+}
+
+
+dwarfen_ideas = {
+	start = {
+		development_cost = -0.1
+		infantry_power = 0.1
+	}
+	bonus = {
+		global_own_trade_power = 0.1
+	}
+	trigger = {
+		culture_group = dwarf_group
+	}
+	free = yes		#will be added at load.
+	
+	dwarfen_idea_1  = {
+		discipline = 0.05
+	}
+	dwarfen_idea_2 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	dwarfen_idea_3 = {
+		defensiveness = 0.2
+	}
+	dwarfen_idea_4 = {
+		mil_tech_cost_modifier = -0.1 
+	}
+	dwarfen_idea_5 = {
+		shock_damage_received = -0.05
+		fire_damage_received = -0.05
+	}
+	dwarfen_idea_6 = {
+		global_spy_defence = 0.20
+		land_morale = 0.025
+	}
+	dwarfen_idea_7 = {
+		siege_ability = 0.05
+		build_time = -0.05
+	}
+}
+
+skaven_ideas = {
+	start = {
+		colonists = 1
+		mil_advisor_cost = -0.25
+	}
+	bonus = {
+		global_trade_power = 0.1
+	}
+	trigger = {
+		culture_group = skaven_group
+	}
+	free = yes
+	
+	skaven_idea_1 = {
+		shock_damage_received = -0.10
+	}
+	skaven_idea_2 = {
+		global_unrest = -2
+	}
+	skaven_idea_3 = {
+		technology_cost = -0.025
+		idea_cost = -0.05
+	}
+	skaven_idea_4 = {
+		trade_efficiency = 0.1
+	}
+	skaven_idea_5 = {
+		army_tradition_decay = -0.01
+	}
+	skaven_idea_6 = {
+		legitimacy = 0.5
+		hostile_attrition = 1
+	}
+	skaven_idea_7 = {
+		infantry_cost = -0.1
+		manpower_recovery_speed = 0.1
+	}
+}	
+
+indish_ideas = {
+	start = {
+		land_morale = 0.1
+		leader_land_shock = 1
+	}
+	bonus = {
+		morale_damage_received = -0.1
+	}
+	trigger = {
+		culture_group = indish_cg
+	}
+	free = yes
+	
+	#Tigerkin warriors
+	indish_idea_1 = {
+		shock_damage = 0.10
+	}
+	#Spice Trade Routes
+	indish_idea_2 = {
+		trade_efficiency = 0.10
+	}
+	#Indic Philosophy
+	indish_idea_3 = {
+		idea_cost = -0.05
+	}
+	indish_idea_4 = {
+		tolerance_heathen = 1
+		production_efficiency = 0.05
+	}
+	indish_idea_5 = {
+		cavalry_power = 0.20
+	}
+	indish_idea_6 = {
+		improve_relation_modifier = 0.15
+	}
+	indish_idea_7 = {
+		reform_progress_growth = 0.2
+	}
+}	
+
+cathayan_ideas = {
+	start = {
+		global_unrest = -2
+		governing_capacity_modifier = 0.1
+	}
+	bonus = {
+		global_regiment_cost = -0.1
+	}
+	trigger = {
+		culture_group = cathayan_cg
+	}
+	free = yes
+	
+	#Harmony
+	cathayan_idea_1 = {
+		state_maintenance_modifier = -0.25
+		advisor_pool = 1
+	}
+	cathayan_idea_2 = {
+		yearly_corruption = -0.1
+	}
+	#Great Bastion
+	cathayan_idea_3 = {
+		defensiveness = 0.05
+		garrison_size = 0.25
+	}
+	cathayan_idea_4 = {
+		discipline = 0.05
+	}
+	cathayan_idea_5 = {
+		technology_cost = -0.05
+	}
+	#ivory road
+	cathayan_idea_6 = {
+		global_tax_modifier = 0.10
+	}
+	cathayan_idea_7 = {
+		artillery_power = 0.10
+	}
+}	
+
+#warriors of chaos
+chaos_warrior_ideas = {
+	start = {
+		leader_land_shock = 1
+		land_morale = 0.1
+	}
+	bonus = {
+		land_forcelimit_modifier = 0.2
+	}
+	trigger = {
+		technology_group = tech_chaos_warrior
+	}
+	free = yes		#will be added at load.
+
+	chaos_warrior_idea_1 = {
+		raze_power_gain = 0.25
+		war_exhaustion = -0.01
+	}
+	chaos_warrior_idea_2 = {
+		cavalry_power = 0.20
+	}
+	chaos_warrior_idea_3 = {
+		reduced_liberty_desire  = 10
+	}
+	chaos_warrior_idea_4 = {
+		global_missionary_strength = 0.03
+	}
+	chaos_warrior_idea_5 = {
+		siege_ability = 0.10
+	}
+	chaos_warrior_idea_6 = { 
+		core_creation = -0.10
+	}
+	chaos_warrior_idea_7 = {
+		prestige_from_land = 0.5
+		army_tradition_from_battle = 0.5
+	}
+}
+
+
+lizardmen_ideas = {
+	start = {
+		warscore_cost_vs_other_religion = -0.2
+        yearly_corruption = -0.1
+	}
+
+	bonus = {
+		tolerance_own = 3
+	}
+	
+	trigger = {
+		culture_group = lizardmen_group
+	}
+	free = yes		
+	
+	lizardmen_ideas_1 = {
+		prestige = 1.0
+	}
+	lizardmen_ideas_2 = {
+		manpower_in_true_faith_provinces = 0.25
+	}
+	lizardmen_ideas_3 = {
+		defensiveness = 0.15
+        hostile_attrition = 1
+	}
+	lizardmen_ideas_4 = {
+		war_exhaustion = -0.05
+        land_morale = 0.1
+	}
+	lizardmen_ideas_5 = {
+		advisor_cost = -0.10
+        advisor_pool = 1
+	}
+	lizardmen_ideas_6 = {
+        build_cost = -0.1
+	}
+    # Temporal Mastery
+	lizardmen_ideas_7 = {
+		global_monthly_devastation = -0.1
+	}
+}

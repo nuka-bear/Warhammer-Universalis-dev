@@ -1,0 +1,8 @@
+﻿l_english:
+ religious_tension_bar_tt: "§YReligious Tension§! is currently [Root.ReligiousTensionText]"
+ religious_tension_value_red: "§R[1.emp_religious_tension_counting_variable.GetValue]§!"
+ religious_tension_value_yellow: "§Y[1.emp_religious_tension_counting_variable.GetValue]§!"
+ religious_tension_zero: "§Y0§!"
+ emperor_expand_witch_hunters_title:0 "Expand Witch Hunters"
+ emperor_expand_witch_hunters_desc:0 ""
+ emp_religious_tension_1: "Religious Tension in the Empire - Low"

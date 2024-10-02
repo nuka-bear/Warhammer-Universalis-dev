@@ -1,0 +1,13 @@
+owner = A02
+controller = A02
+hre = yes
+culture = wissenlander
+religion = myrmidia
+base_tax = 4
+base_production = 3
+base_manpower = 3
+trade_goods = iron
+capital = ""
+is_city = yes
+hre = yes
+add_core = A02

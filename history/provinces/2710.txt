@@ -1,0 +1,10 @@
+owner = B49
+base_tax = 4
+base_manpower = 3
+base_production = 1
+trade_goods = livestock
+religion = chaos_undivided_religion
+controller = B49
+is_city = yes
+culture = khazags
+add_core = B49

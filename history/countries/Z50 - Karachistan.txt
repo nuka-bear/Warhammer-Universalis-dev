@@ -1,0 +1,7 @@
+government = monarchy
+religion = the_thousand_gods
+technology_group = tech_indish
+primary_culture = west_indish_c
+capital = 4065
+setup_vision = yes
+government_rank = 1

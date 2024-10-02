@@ -1,0 +1,49 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_holy_site_default"
+		texturefile = "gfx//interface//holy_sites//hexoatl.dds"
+	}
+
+	spriteType = {
+		name = "GFX_holy_site_2312"
+		texturefile = "gfx//interface//holy_sites//hexoatl.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_holy_site_2466"
+		texturefile = "gfx//interface//holy_sites//itza.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_holy_site_2442"
+		texturefile = "gfx//interface//holy_sites//quetza.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_holy_site_4296"
+		texturefile = "gfx//interface//holy_sites//zlatlan.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_holy_site_4807"
+		texturefile = "gfx//interface//holy_sites//khuresh.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_holy_site_4383"
+		texturefile = "gfx//interface//holy_sites//city_of_the_dead.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_holy_site_4265"
+		texturefile = "gfx//interface//holy_sites//dragon_isles.dds"
+		loadType = "INGAME"
+	}
+	
+}

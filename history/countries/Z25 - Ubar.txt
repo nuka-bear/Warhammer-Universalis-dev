@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = assassin_arabic
+religion = the_one_faith
+technology_group = tech_arabyn
+capital = 1007
+setup_vision = yes
+government_rank = 1

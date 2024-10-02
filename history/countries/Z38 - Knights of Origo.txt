@@ -1,0 +1,8 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = outremer
+religion = lady_of_the_lake
+technology_group = tech_imperial
+capital = 958# Gao
+government_rank = 1
+setup_vision = yes

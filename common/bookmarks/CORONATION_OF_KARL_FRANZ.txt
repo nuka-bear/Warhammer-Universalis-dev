@@ -1,0 +1,21 @@
+bookmark = {
+	name = "bookmark_karl_franz"
+	desc = "bookmark_karl_franz_desc"
+	date = 2502.11.11
+	
+	center = 2
+	default = yes
+	
+	country = A01
+	country = A04
+	country = A16
+	country = A57
+	country = A41
+	country = A29
+	country = A12
+	country = A71
+	country = A13
+	
+	
+	default = yes 
+}

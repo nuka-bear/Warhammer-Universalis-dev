@@ -1,0 +1,10 @@
+base_tax = 3
+base_manpower = 3
+base_production = 2
+trade_goods = fish
+religion = cadai
+culture = colonial_asur
+is_city = yes
+owner = H29
+controller = H29
+add_core = H29

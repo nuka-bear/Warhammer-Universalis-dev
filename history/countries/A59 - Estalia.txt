@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = asturian
+religion = myrmidia
+technology_group = tech_imperial
+capital = 118 
+setup_vision = yes

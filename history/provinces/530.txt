@@ -1,0 +1,22 @@
+
+owner = A43
+controller = A43
+add_core = A43
+culture = tigarrian
+religion = myrmidia
+ 
+hre = no
+
+base_tax = 4
+base_production = 5
+trade_goods = dyes	
+base_manpower = 4
+
+is_city = yes
+
+
+
+
+
+
+

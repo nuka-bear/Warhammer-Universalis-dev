@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = nordlander
+religion = nagash_worship
+technology_group = tech_vampire_count
+capital = 877
+setup_vision = yes
+
+2502.1.1 = {
+	monarch = {
+		name = "Bragthorn"
+		birth_date = 2445.12.22
+		adm = 3
+		dip = 3
+		mil = 4
+		religion = nagash_worship       
+		culture = nordlander    
+	}
+
+
+}

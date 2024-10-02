@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = scythan
+religion = dragon_cult
+technology_group = tech_imperial
+capital = 4080
+setup_vision = yes
+government_rank = 1

@@ -1,0 +1,10 @@
+base_tax = 3
+base_manpower = 1
+base_production = 1
+trade_goods = salt
+religion = nehekharan_pantheon
+is_city = yes
+owner = Z43
+controller = Z43
+culture = nehekharan_culture
+add_core = Z43

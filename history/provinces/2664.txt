@@ -1,0 +1,10 @@
+base_tax = 2
+base_manpower = 1
+base_production = 2
+culture = tahmaks
+trade_goods = ivory
+religion = tzeentchian_religion
+is_city = yes
+owner = B56
+controller = B56
+add_core = B56

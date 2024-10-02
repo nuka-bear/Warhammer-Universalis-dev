@@ -1,0 +1,10 @@
+owner = G36
+base_tax = 1
+base_manpower = 2
+base_production = 2
+trade_goods = slaves
+religion = gork_n_mork_religion
+controller = G36
+is_city = yes
+culture = steppe_hobgoblin
+add_core = G36

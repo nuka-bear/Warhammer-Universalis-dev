@@ -1,0 +1,17 @@
+government = monarchy
+primary_culture = north_cathayan
+religion = yin_yang
+technology_group = tech_cathayan
+capital = 2826
+government_rank = 1
+setup_vision = yes
+
+2502.1.1 = {
+	monarch = {
+		name = "Yuanshan Fu"
+		birth_date = 22.2.12
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

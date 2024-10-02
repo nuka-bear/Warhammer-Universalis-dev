@@ -1,0 +1,22 @@
+
+owner = A39
+controller = A39
+add_core = A39
+culture = tigarrian
+religion = myrmidia
+ 
+hre = no
+
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 2
+
+is_city = yes
+
+
+
+
+
+
+

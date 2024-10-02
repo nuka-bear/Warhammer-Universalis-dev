@@ -1,0 +1,11 @@
+owner = B35
+base_tax = 4
+base_manpower = 3
+base_production = 4
+trade_goods = gems
+religion = slaaneshi_religion
+controller = B35
+is_city = yes
+culture = mung
+add_core = B35
+fort_15th = yes

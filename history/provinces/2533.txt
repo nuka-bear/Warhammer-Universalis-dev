@@ -1,0 +1,10 @@
+owner = B34
+base_tax = 1
+base_manpower = 2
+base_production = 1
+trade_goods = fur
+religion = chaos_undivided_religion
+controller = B34
+is_city = yes
+culture = mung
+add_core = B34

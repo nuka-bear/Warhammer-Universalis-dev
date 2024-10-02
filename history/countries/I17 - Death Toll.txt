@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = songhai
+religion = the_great_maw_religion
+technology_group = tech_arabyn
+capital = 2794# Gao
+government_rank = 1
+setup_vision = yes

@@ -1,0 +1,11 @@
+base_tax = 1
+base_manpower = 2
+base_production = 4
+trade_goods = gems
+religion = the_thousand_gods
+culture = tigerkin_c
+is_city = yes
+owner = Z61
+controller = Z61
+add_core = Z61
+fort_15th = yes

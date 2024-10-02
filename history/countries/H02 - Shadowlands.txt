@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = feudal_monarchy
+primary_culture = nagarythi
+religion = cadai
+technology_group = tech_high_elven
+capital = 1879
+government_rank = 2
+setup_vision = yes
+
+
+1.1.1 = {
+	clear_scripted_personalities = yes
+	set_ruler_flag = immortal_ruler
+	add_ruler_personality = immortal_personality
+	monarch = {
+		name = "Alith"
+		dynasty = "Anar"
+		birth_date = 22.2.12
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}

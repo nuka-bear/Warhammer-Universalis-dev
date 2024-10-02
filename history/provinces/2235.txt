@@ -1,0 +1,12 @@
+owner = G33
+base_tax = 3
+base_manpower = 5
+base_production = 5
+trade_goods = slaves
+religion = hashut
+controller = G33
+
+culture = dark_land_orc
+center_of_trade = 1
+add_core = G33
+fort_15th = yes

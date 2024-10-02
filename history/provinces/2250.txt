@@ -1,0 +1,10 @@
+
+
+
+trade_goods = livestock
+religion = gork_n_mork_religion
+
+owner = G32
+controller = G32
+culture = common_goblin
+add_core = G32

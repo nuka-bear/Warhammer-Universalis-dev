@@ -1,0 +1,8 @@
+#exiles of Nehek
+government = theocracy
+primary_culture = nehekharan_culture
+religion = nehekharan_pantheon
+technology_group = tech_orcish
+capital = 2130
+setup_vision = yes
+government_rank = 1

@@ -1,0 +1,10 @@
+owner = B54
+base_tax = 1
+base_manpower = 2
+base_production = 2
+trade_goods = livestock
+religion = chaos_undivided_religion
+controller = B54
+is_city = yes
+culture = manchu_warhammer
+add_core = B54

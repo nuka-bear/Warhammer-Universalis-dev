@@ -1,0 +1,56 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_great_project_imperial_gunnery_school"	
+		texturefile = "gfx//interface//great_projects//great_project_imperial_gunnery_school.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_pfeildorf_wine_market"
+		texturefile = "gfx//interface//great_projects//great_project_pfeildorf_wine_market.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_grand_cauldron"
+		texturefile = "gfx//interface//great_projects//great_project_grand_cauldron.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_holy_temple_of_sigmar"	
+		texturefile = "gfx//interface//great_projects//great_project_holy_temple_of_sigmar.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_imperial_palace"
+		texturefile = "gfx//interface//great_projects//great_project_imperial_palace.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_altdorf_college_of_mages"
+		texturefile = "gfx//interface//great_projects//great_project_altdorf_college_of_mages.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_great_lighthouse"
+		texturefile = "gfx//interface//great_projects//great_project_great_lighthouse.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_great_lighthouse"
+		texturefile = "gfx//interface//great_projects//great_project_great_lighthouse.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_great_temple_ulric"
+		texturefile = "gfx//interface//great_projects//great_project_great_temple_ulric.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_great_temple_of_taal_rhya"
+		texturefile = "gfx//interface//great_projects//great_project_great_temple_of_taal_rhya.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_averburg"
+		texturefile = "gfx//interface//great_projects//great_project_averburg.dds"
+	}	
+	spriteType = {
+		name = "GFX_great_project_citadel_of_lead"
+		texturefile = "gfx//interface//great_projects//great_project_citadel_of_lead.dds"
+	}	
+	spriteType = {
+		name = "GFX_great_project_the_great_ogham"
+		texturefile = "gfx//interface//great_projects//great_project_the_great_ogham.dds"
+	}		
+	
+}

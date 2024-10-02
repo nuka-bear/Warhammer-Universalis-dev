@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = bjornling
+religion = norscan
+technology_group = tech_norscan
+setup_vision = yes

@@ -1,0 +1,26 @@
+government = monarchy
+add_government_reform = bretonnian_dukedom_reform
+primary_culture = aquitaine_warhammer
+religion = lady_of_the_lake
+technology_group = tech_imperial
+capital = 231
+government_rank = 1
+setup_vision = yes
+set_country_flag = bretonnian_duke_cf
+set_country_flag = bretonnian_kingdom_pot_candidate
+
+2502.1.1 = {
+	monarch = {
+		name = "Armand"
+		dynasty = "d'aquitaine"
+		birth_date = 2470.12.3
+		adm = 2
+		dip = 2
+		mil = 5
+	}
+	add_ruler_personality = grail_knight_personality
+	set_variable = {
+		which = royarch_vote
+		value = 0
+	}
+}

@@ -1,0 +1,7 @@
+government = tribal
+primary_culture = sudron_arabyn
+religion = animism
+technology_group = tech_arabyn
+capital = 1004
+setup_vision = yes
+government_rank = 1

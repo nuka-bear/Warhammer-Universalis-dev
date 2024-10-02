@@ -1,0 +1,20 @@
+
+owner = A41
+controller = A41
+add_core = A41
+culture = asturian
+religion = myrmidia
+
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 2
+
+is_city = yes
+
+
+
+
+
+
+

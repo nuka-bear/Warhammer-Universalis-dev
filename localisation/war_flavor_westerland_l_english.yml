@@ -1,0 +1,15 @@
+﻿l_english:
+ ##############
+ ###MISSIONS###
+ ##############
+ 
+ ############
+ ###EVENTS###
+ ############
+
+
+ #################
+ ###GOV REFORMS###
+ #################
+ grand_barony_of_westerland_reform:0 "Grand Barony of Westerland"
+ grand_barony_of_westerland_reform_desc:0 "The Grand Baron shares power with Westerland's advisory council, the Stadsraad. The Stadsraad primarily represents the interests of the burghers, and select clergy and noblity."

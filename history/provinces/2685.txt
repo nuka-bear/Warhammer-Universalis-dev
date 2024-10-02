@@ -1,0 +1,10 @@
+owner = B58
+base_tax = 1
+base_manpower = 1
+base_production = 3
+trade_goods = iron
+religion = nurglite_religion
+controller = B58
+is_city = yes
+culture = tahmaks
+add_core = B58

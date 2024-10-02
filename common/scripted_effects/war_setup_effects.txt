@@ -1,0 +1,2862 @@
+setup_vision = {
+	if = {
+		limit = {
+			exists = yes
+		}
+		set_country_flag = init_vision
+		#Everybody in the Old World
+		if = {
+			limit = {
+				capital_scope = {
+					continent = europe
+				}
+				NOT = {
+					culture_group = greenskins_group
+					capital_scope = {
+						region = albion_region
+					}
+				}
+			}
+			#Discover civilized realms of men
+			tilea_region = {
+				discover_country = ROOT
+			}
+			bretonnia_region = {
+				discover_country = ROOT
+			}
+			the_empire_superregion = {
+				discover_country = ROOT
+			}
+			estalia_region = {
+				discover_country = ROOT
+			}
+			kislev_heartlands_region = {
+				discover_country = ROOT
+			}
+			grey_mountains_region = {
+				discover_country = ROOT
+			}
+			troll_country_region = {
+				discover_country = ROOT
+			}
+			wheatlands_region = {
+				discover_country = ROOT
+			}
+			border_princes_region = {
+				discover_country = ROOT
+			}
+			#discover Old World seas
+			sea_of_claws_region = {
+				discover_country = ROOT
+			}
+			middle_sea_region = {
+				discover_country = ROOT
+			}
+			southern_sea_region = {
+				discover_country = ROOT
+			}
+			#Discover coastal  norsca
+			taaketskog_area = {
+				discover_country = ROOT
+			}
+			tashnar_area = {
+				discover_country = ROOT
+			}
+			icedrake_area = {
+				discover_country = ROOT
+			}
+			longship_graveyard_area = {
+				discover_country = ROOT
+			}
+			iron_mountains_area = {
+				discover_country = ROOT
+			}
+			trollheim_area = {
+				discover_country = ROOT
+			}
+			#Discover coastal  araby
+			nehekhara_area_21 = {
+				discover_country = root
+			}
+			araby_area_1 = {
+				discover_country = root
+			}
+			araby_area_3 = {
+				discover_country = root
+			}
+			araby_area_4 = {
+				discover_country = root
+			}
+			araby_area_6 = {
+				discover_country = root
+			}
+			araby_area_7 = {
+				discover_country = root
+			}
+			araby_area_10 = {
+				discover_country = root
+			}
+			araby_20_area = {
+				discover_country = root
+			}
+			araby_area_14 = {
+				discover_country = root
+			}
+			araby_area_19 = {
+				discover_country = root
+			}
+			araby_area_14 = {
+				discover_country = root
+			}
+			1472 = {
+				discover_country = root
+			}
+			1457 = {
+				discover_country = root
+			}
+			araby_area_9 = {
+				discover_country = root
+			}
+			4155 = {
+				discover_country = root
+			}
+			#Discover coastal  badlands
+			badlands_area_10 = {
+				discover_country = ROOT
+			}
+			badlands_area_5 = {
+				discover_country = ROOT
+			}
+			badlands_area_17 = {
+				discover_country = ROOT
+			}
+			badlands_area_6 = {
+				discover_country = ROOT
+			}
+			badlands_area_4 = {
+				discover_country = ROOT
+			}
+			badlands_area_1 = {
+				discover_country = ROOT
+			}
+			sea_of_claws_region = {
+				discover_country = ROOT
+			}
+			middle_sea_region = {
+				discover_country = root
+			}
+			southern_sea_region = {
+				discover_country = root
+			}
+			659 = {
+				discover_country = ROOT
+			}
+			207 = {
+				discover_country = ROOT
+			}
+			820 = {
+				discover_country = ROOT
+			}
+			4160 = {
+				discover_country = ROOT
+			}
+			2952 = {
+				discover_country = ROOT
+			}
+			2475 = {
+				discover_country = ROOT
+			}
+			4160 = {
+				discover_country = ROOT
+			}
+			4151 = {
+				discover_country = ROOT
+			}
+			4154 = {
+				discover_country = ROOT
+			}
+			4154 = {
+				discover_country = ROOT
+			}
+			4951 = {
+				discover_country = ROOT
+			}
+			2101 = {
+				discover_country = ROOT
+			}
+			118 = {
+				discover_country = ROOT
+			}
+			206 = {
+				discover_country = ROOT
+			}
+			117 = {
+				discover_country = ROOT
+			}
+			515 = {
+				discover_country = ROOT
+			}
+			1885 = {
+				discover_country = ROOT
+			}
+			4161 = {
+				discover_country = ROOT
+			}
+			565 = {
+				discover_country = ROOT
+			}
+			#dwarf stuff
+			karaz_a_karak_area = {
+				discover_country = ROOT
+			}
+			karak_kadrin_area = {
+				discover_country = ROOT
+			}
+			zhufbar_area = {
+				discover_country = ROOT
+			}
+			karak_izor_area = {
+				discover_country = ROOT
+			}
+			karak_eksfilaz_area = {
+				discover_country = ROOT
+			}
+			4159 = {
+				discover_country = ROOT
+			}
+			4157 = {
+				discover_country = ROOT
+			}
+			karak_hirn_area = {
+				discover_country = ROOT
+			}
+			peak_pass_area = {
+				discover_country = ROOT
+			}
+			25 = {
+				discover_country = ROOT
+			}
+			the_silver_road_area = {
+				discover_country = ROOT
+			}
+			mad_dog_pass_area = {
+				discover_country = ROOT
+			}
+			blasted_wastes_4_area = {
+				discover_country = ROOT
+			}
+			blasted_wastes_6_area = {
+				discover_country = ROOT
+			}
+			southern_wastes_10_area = {
+				discover_country = ROOT
+			}
+			southern_wastes_9_area = {
+				discover_country = ROOT
+			}
+			#Norscans undiscover some of the border princes and grey mountains
+			if = {
+				limit = {
+					capital_scope = {
+						region = norsca_region
+					}
+				}
+				grey_mountains_region = {
+					undiscover_country = ROOT
+				}
+				forest_of_gloom_area = {
+					discover_country = ROOT
+				}
+			}
+		}
+		#Norscans know Norsca
+		else_if = {
+			limit = {
+				capital_scope = {
+					region = norsca_region
+				}
+			}
+			norsca_region = {
+				discover_country = ROOT
+			}
+			sea_of_chaos_region = {
+				discover_country = root
+			}
+			the_far_wastes_region = {
+				discover_country = root
+			}
+			the_western_wastes_region = {
+				discover_country = root
+			}
+			sea_of_chaos_region = {
+				discover_country = root
+			}
+			4944 = {
+				discover_country = root
+			}
+			4948 = {
+				discover_country = root
+			}
+		}
+		#wood elves know Athel loren
+		else_if = {
+			limit = {
+				capital_scope = {
+					region = athel_loren_region
+				}
+			}
+			athel_loren_region = {
+				discover_country = ROOT
+			}
+		}
+		#border princes know badlands
+		if = {
+			limit = {
+				capital_scope = {
+					region = border_princes_region
+				}
+			}
+			badlands_region = {
+				discover_country = ROOT
+			}
+			699 = {
+				discover_country = root
+			}
+			death_pass_area = {
+				discover_country = root
+			}
+		}
+		#Albionics know Albion
+		else_if = {
+			limit = {
+				capital_scope = {
+					region = albion_region
+				}
+			}
+			albion_region = {
+				discover_country = ROOT
+			}
+			1203 = {
+				discover_country = root
+			}
+			4347 = {
+				discover_country = root
+			}
+			1267 = {
+				discover_country = root
+			}
+			4233 = {
+				discover_country = root
+			}
+			4225 = {
+				discover_country = root
+			}
+			4226 = {
+				discover_country = root
+			}
+		}
+		else_if = {
+			limit = {
+				tag = G17
+			}
+			bretonnia_region = {
+				discover_country = ROOT
+			}
+			207 = {
+				discover_country = root
+			}
+		}
+		#badland greenskins know the badlands and Borderlanders
+		if = {
+			limit = {
+				capital_scope = {
+					region = badlands_region
+				}
+			}
+			badlands_region = {
+				discover_country = ROOT
+			}
+			border_princes_region = {
+				discover_country = root
+			}
+		}
+		#araby/Nehekhara/sudron
+		if = {
+			limit = {
+				capital_scope = {
+					or = {
+						superregion = northern_south_lands_superregion
+						region = sudron_region
+						region = gulf_of_medes_region
+					}
+				}
+				not = {
+					technology_group = tech_orcish
+				}
+			}
+			northern_south_lands_superregion = {
+				discover_country = ROOT
+			}
+			southern_old_world_superregion = {
+				discover_country = ROOT
+			}
+			western_southlands_region = {
+				discover_country = ROOT
+			}
+			southern_sea_region = {
+				discover_country = ROOT
+			}
+			sudron_region = {
+				discover_country = ROOT
+			}
+			gulf_of_medes_region = {
+				discover_country = root
+			}
+			plain_of_tuskers_region = {
+				discover_country = root
+			}
+			bitter_sea_area = {
+				discover_country = ROOT
+			}
+			1000 = {
+				discover_country = ROOT
+			}
+			1027 = {
+				discover_country = ROOT
+			}
+			2316 = {
+				discover_country = ROOT
+			}
+			699 = {
+				discover_country = ROOT
+			}
+			4165 = {
+				discover_country = ROOT
+			}
+			4162 = {
+				discover_country = ROOT
+			}
+			1067 = {
+				discover_country = ROOT
+			}
+			1767 = {
+				discover_country = ROOT
+			}
+			4164 = {
+				discover_country = ROOT
+			}
+			4163 = {
+				discover_country = ROOT
+			}
+			1797 = {
+				discover_country = root
+			}
+			4086 = {
+				discover_country = root
+			}
+			2200 = {
+				discover_country = root
+			}
+			4156 = {
+				discover_country = root
+			}
+			4950 = {
+				discover_country = root
+			}
+			karak_zorn_area = {
+				discover_country = root
+			}
+			#arabyans undiscover some parts of the east
+			if = {
+				limit = {
+					not = {
+						technology_group = tech_tomb_kings
+					}
+				}
+				lahmia_region = {
+					undiscover_country = ROOT
+				}
+				desolation_of_nagash_region = {
+					undiscover_country = ROOT
+				}
+				bitter_sea_area = {
+					undiscover_country = ROOT
+				}
+				kingdom_of_the_beasts_region = {
+					undiscover_country = root
+				}
+				4161 = {
+					undiscover_country = root
+				}
+				1067 = {
+					undiscover_country = root
+				}
+				1797 = {
+					undiscover_country = root
+				}
+				4162 = {
+					undiscover_country = root
+				}
+			}
+		}
+		#Norscans know Norsca
+		else_if = {
+			limit = {
+				capital_scope = {
+					region = araby_region
+				}
+			}
+			norsca_region = {
+				discover_country = ROOT
+			}
+			sea_of_chaos_region = {
+				discover_country = root
+			}
+			the_far_wastes_region = {
+				discover_country = root
+			}
+			the_western_wastes_region = {
+				discover_country = root
+			}
+			sea_of_chaos_region = {
+				discover_country = root
+			}
+			4944 = {
+				discover_country = root
+			}
+			4948 = {
+				discover_country = root
+			}
+		}
+		#dark lands
+		if = {
+			limit = {
+				capital_scope = {
+						superregion = darklands_superregion
+					
+				}
+			}
+			#Discover civilized divenhal
+			darklands_superregion = {
+				discover_country = ROOT
+			}
+			mountains_of_mourn_superregion = {
+				discover_country = ROOT
+			}
+			4157 = {
+				discover_country = ROOT
+			}
+			471 = {
+				discover_country = ROOT
+			}
+			1787 = {
+				discover_country = ROOT
+			}
+			456 = {
+				discover_country = ROOT
+			}
+			2194 = {
+				discover_country = ROOT
+			}
+			1984 = {
+				discover_country = ROOT
+			}
+			2783 = {
+				discover_country = ROOT
+			}
+			2781 = {
+				discover_country = ROOT
+			}
+			2760 = {
+				discover_country = ROOT
+			}
+			2779 = {
+				discover_country = ROOT
+			}
+			4138 = {
+				discover_country = ROOT
+			}
+			2952 = {
+				discover_country = ROOT
+			}
+			4154 = {
+				discover_country = ROOT
+			}
+			4155 = {
+				discover_country = ROOT
+			}
+			4167 = {
+				discover_country = ROOT
+			}
+			4156 = {
+				discover_country = ROOT
+			}
+			river_of_ruin_region = {
+				discover_country = ROOT
+			}
+			bitter_sea_area = {
+				discover_country = root
+			}
+			world_edge_mountains_region = {
+				discover_country = root
+			}
+			desolation_of_nagash_region = {
+				discover_country = root
+			}
+			1168 = {
+				discover_country = root
+			}
+			2200 = {
+				discover_country = root
+			}
+			lizard_sea_area = {
+				discover_country = root
+			}
+		}
+		#dark lands
+		if = {
+			limit = {
+				capital_scope = {
+					region = wheatlands_region
+				}
+			}
+			the_western_wastes_region = {
+				discover_country = root
+			}
+			troll_country_region = {
+				discover_country = root
+			}
+			kislev_heartlands_region = {
+				discover_country = root
+			}
+			sea_of_chaos_area = {
+				discover_country = root
+			}
+			1168 = {
+				discover_country = root
+			}
+			the_goromandy_area = {
+				discover_country = root
+			}
+			black_blood_pass_area = {
+				discover_country = root
+			}
+			hellands_area = {
+				discover_country = root
+			}
+			eisgard_area = {
+				discover_country = root
+			}
+			norscveg_area = {
+				discover_country = root
+			}
+		}
+		#ogre kingdoms
+		if = {
+			limit = {
+				capital_scope = {
+					superregion = mountains_of_mourn_superregion
+				}
+			}
+			#
+			darklands_superregion = {
+				discover_country = ROOT
+			}
+			cathay_superregion = {
+				discover_country = ROOT
+			}
+			mountains_of_mourn_superregion = {
+				discover_country = ROOT
+			}
+			4157 = {
+				discover_country = ROOT
+			}
+			471 = {
+				discover_country = ROOT
+			}
+			1787 = {
+				discover_country = ROOT
+			}
+			456 = {
+				discover_country = ROOT
+			}
+			2194 = {
+				discover_country = ROOT
+			}
+			1984 = {
+				discover_country = ROOT
+			}
+			2783 = {
+				discover_country = ROOT
+			}
+			2781 = {
+				discover_country = ROOT
+			}
+			2760 = {
+				discover_country = ROOT
+			}
+			2779 = {
+				discover_country = ROOT
+			}
+			2880 = {
+				discover_country = ROOT
+			}
+			2793 = {
+				discover_country = ROOT
+			}
+			1215 = {
+				discover_country = ROOT
+			}
+			2942 = {
+				discover_country = ROOT
+			}
+			4211 = {
+				discover_country = ROOT
+			}
+			1168 = {
+				discover_country = ROOT
+			}
+			river_of_ruin_region = {
+				discover_country = ROOT
+			}
+			chaos_wastes_10_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_6_area = {
+				discover_country = root
+			}
+			chaos_wastes_2_area = {
+				discover_country = root
+			}
+			chaos_wastes_5_area = {
+				discover_country = root
+			}
+			chaos_wastes_15_area = {
+				discover_country = root
+			}
+			ihan_region = {
+				undiscover_country = root
+			}
+		}
+		#gnoblar country
+		if = {
+			limit = {
+				capital_scope = {
+					region = gnoblar_country_region
+				}
+			}
+			western_ind_region = {
+				discover_country = root
+			}
+			lizard_sea_area = {
+				discover_country = root
+			}
+			dragon_isles_region = {
+				discover_country = root
+			}
+			bitter_sea_area = {
+				discover_country = root
+			}
+			desolation_of_nagash_region = {
+				discover_country = root
+			}
+			1521 = {
+				discover_country = root
+			}
+			1519 = {
+				discover_country = root
+			}
+		}
+		#dark elves
+		if = {
+			limit = {
+				technology_group = tech_dark_elven
+			}
+			#Discover civilized divenhal
+			north_america = {
+				discover_country = ROOT
+			}
+			oceania = {
+				discover_country = root
+			}
+			gulf_of_naggaroth_region = {
+				discover_country = ROOT
+			}
+			sea_of_feuds_region = {
+				discover_country = root
+			}
+			western_naggaroth_coast_region = {
+				discover_country = root
+			}
+			central_great_ocean_region = {
+				discover_country = root
+			}
+			the_far_wastes_region = {
+				discover_country = ROOT
+			}
+			481 = {
+				discover_country = root
+			}
+			1916 = {
+				discover_country = root
+			}
+			1921 = {
+				discover_country = root
+			}
+			1814 = {
+				discover_country = root
+			}
+			4055 = {
+				discover_country = root
+			}
+			western_sea_of_chaos_area = {
+				discover_country = root
+			}
+			sea_of_serpeants = {
+				discover_country = root
+			}
+			sea_of_squalls_area = {
+				discover_country = root
+			}
+			isthmus_of_lustria_region = {
+				discover_country = root
+			}
+			sea_of_mist_area = {
+				discover_country = root
+			}
+		}
+		#Naggaroth
+		if = {
+			limit = {
+				capital_scope = {
+					continent = north_america
+				}
+			}
+			#Discover civilized divenhal
+			north_america = {
+				discover_country = ROOT
+			}
+			gulf_of_naggaroth_region = {
+				discover_country = ROOT
+			}
+			sea_of_feuds_region = {
+				discover_country = root
+			}
+			western_naggaroth_coast_region = {
+				discover_country = root
+			}
+			central_great_ocean_region = {
+				discover_country = root
+			}
+			the_far_wastes_region = {
+				discover_country = ROOT
+			}
+			481 = {
+				discover_country = root
+			}
+			4725 = {
+				discover_country = root
+			}
+			land_of_chill_region = {
+				discover_country = root
+			}
+			1916 = {
+				discover_country = root
+			}
+			1921 = {
+				discover_country = root
+			}
+			1814 = {
+				discover_country = root
+			}
+			4055 = {
+				discover_country = root
+			}
+		}
+		#uthuan/high elves
+		if = {
+			limit = {
+				technology_group = tech_high_elven
+			}
+			land_of_chill_region = {
+				discover_country = ROOT
+			}
+			black_forest_region = {
+				discover_country = ROOT
+			}
+			doom_glades_region = {
+				discover_country = ROOT
+			}
+			oceania = {
+				discover_country = root
+			}
+			gulf_of_naggaroth_region = {
+				discover_country = ROOT
+			}
+			sea_of_feuds_region = {
+				discover_country = root
+			}
+			central_great_ocean_region = {
+				discover_country = root
+			}
+			481 = {
+				discover_country = root
+			}
+			4055 = {
+				discover_country = root
+			}
+			eastern_great_ocean_region = {
+				discover_country = root
+			}
+			#Discover civilized realms of men
+			tilea_region = {
+				discover_country = ROOT
+			}
+			bretonnia_region = {
+				discover_country = ROOT
+			}
+			the_empire_superregion = {
+				discover_country = ROOT
+			}
+			estalia_region = {
+				discover_country = ROOT
+			}
+			kislev_heartlands_region = {
+				discover_country = ROOT
+			}
+			grey_mountains_region = {
+				discover_country = ROOT
+			}
+			troll_country_region = {
+				discover_country = ROOT
+			}
+			border_princes_region = {
+				discover_country = ROOT
+			}
+			#discover Old World seas
+			sea_of_claws_region = {
+				discover_country = ROOT
+			}
+			middle_sea_region = {
+				discover_country = ROOT
+			}
+			southern_sea_region = {
+				discover_country = ROOT
+			}
+			#Discover coastal  norsca
+			taaketskog_area = {
+				discover_country = ROOT
+			}
+			tashnar_area = {
+				discover_country = ROOT
+			}
+			icedrake_area = {
+				discover_country = ROOT
+			}
+			longship_graveyard_area = {
+				discover_country = ROOT
+			}
+			iron_mountains_area = {
+				discover_country = ROOT
+			}
+			trollheim_area = {
+				discover_country = ROOT
+			}
+			##Discover coastal  araby
+			nehekhara_area_21 = {
+				discover_country = root
+			}
+			araby_area_1 = {
+				discover_country = root
+			}
+			araby_area_3 = {
+				discover_country = root
+			}
+			araby_area_4 = {
+				discover_country = root
+			}
+			araby_area_6 = {
+				discover_country = root
+			}
+			araby_area_7 = {
+				discover_country = root
+			}
+			araby_area_10 = {
+				discover_country = root
+			}
+			araby_20_area = {
+				discover_country = root
+			}
+			araby_area_14 = {
+				discover_country = root
+			}
+			araby_area_19 = {
+				discover_country = root
+			}
+			araby_area_14 = {
+				discover_country = root
+			}
+			1472 = {
+				discover_country = root
+			}
+			1457 = {
+				discover_country = root
+			}
+			araby_area_9 = {
+				discover_country = root
+			}
+			#Discover coastal  badlands
+			badlands_area_10 = {
+				discover_country = ROOT
+			}
+			badlands_area_5 = {
+				discover_country = ROOT
+			}
+			badlands_area_17 = {
+				discover_country = ROOT
+			}
+			badlands_area_6 = {
+				discover_country = ROOT
+			}
+			badlands_area_4 = {
+				discover_country = ROOT
+			}
+			badlands_area_1 = {
+				discover_country = ROOT
+			}
+			sea_of_claws_region = {
+				discover_country = ROOT
+			}
+			middle_sea_region = {
+				discover_country = root
+			}
+			southern_sea_region = {
+				discover_country = root
+			}
+			659 = {
+				discover_country = ROOT
+			}
+			207 = {
+				discover_country = ROOT
+			}
+			820 = {
+				discover_country = ROOT
+			}
+			4160 = {
+				discover_country = ROOT
+			}
+			2952 = {
+				discover_country = ROOT
+			}
+			2475 = {
+				discover_country = ROOT
+			}
+			4160 = {
+				discover_country = ROOT
+			}
+			4151 = {
+				discover_country = ROOT
+			}
+			4154 = {
+				discover_country = ROOT
+			}
+			4154 = {
+				discover_country = ROOT
+			}
+			4951 = {
+				discover_country = ROOT
+			}
+			2101 = {
+				discover_country = ROOT
+			}
+			118 = {
+				discover_country = ROOT
+			}
+			206 = {
+				discover_country = ROOT
+			}
+			117 = {
+				discover_country = ROOT
+			}
+			515 = {
+				discover_country = ROOT
+			}
+			1885 = {
+				discover_country = ROOT
+			}
+			4161 = {
+				discover_country = ROOT
+			}
+			565 = {
+				discover_country = ROOT
+			}
+			western_lustrian_coast_region = {
+				discover_country = ROOT
+			}
+			southern_great_ocean_region = {
+				discover_country = ROOT
+			}
+			western_southlands_region = {
+				discover_country = ROOT
+			}
+			sea_of_dread_region = {
+				discover_country = ROOT
+			}
+			sea_of_eltihis_area = {
+				discover_country = root
+			}
+			elithis_region = {
+				discover_country = root
+			}
+			khuresh_14_area = {
+				discover_country = root
+			}
+			south_wastes_1_area = {
+				discover_country = root
+			}
+			eastern_colonies_region = {
+				discover_country = root
+			}
+			dawns_light_region = {
+				discover_country = root
+			}
+			citadel_of_dusk_area = {
+				discover_country = root
+			}
+			#undiscvoer naggaroth
+			naggaroth_23_area = {
+				undiscover_country = root
+			}
+			naggaroth_22_area = {
+				undiscover_country = root
+			}
+			land_of_chill_6_area = {
+				undiscover_country = root
+			}
+			land_of_chill_7_area = {
+				undiscover_country = root
+			}
+			naggaroth_12_area = {
+				undiscover_country = root
+			}
+			black_forest_1_area = {
+				undiscover_country = root
+			}
+			land_of_chill_8_area = {
+				undiscover_country = root
+			}
+		}
+		#lustria
+		if = {
+			limit = {
+				capital_scope = {
+					continent = south_america
+				}
+			}
+			south_america = {
+				discover_country = root
+			}
+			western_lustrian_coast_region = {
+				discover_country = root
+			}
+			eastern_lustrian_coast_region = {
+				discover_country = root
+			}
+		}
+		#far wastes
+		if = {
+			limit = {
+				capital_scope = {
+					region = the_far_wastes_region
+				}
+			}
+			the_far_wastes_region = {
+				discover_country = root
+			}
+			dark_elven_naggaroth_superregion = {
+				discover_country = root
+			}
+			sea_of_chaos_region = {
+				discover_country = root
+			}
+			norsca_region = {
+				discover_country = root
+			}
+			the_western_wastes_region = {
+				discover_country = root
+			}
+			gulf_of_naggaroth_region = {
+				discover_country = root
+			}
+			4724 = {
+				discover_country = root
+			}
+			4725 = {
+				discover_country = root
+			}
+		}
+		#western wastes
+		if = {
+			limit = {
+				capital_scope = {
+					region = the_western_wastes_region
+				}
+			}
+			the_far_wastes_region = {
+				discover_country = root
+			}
+			great_bastion_area = {
+				discover_country = root
+			}
+			sea_of_chaos_region = {
+				discover_country = root
+			}
+			norsca_region = {
+				discover_country = root
+			}
+			the_western_wastes_region = {
+				discover_country = root
+			}
+			the_eastern_steppes_region = {
+				discover_country = root
+			}
+			wheatlands_region = {
+				discover_country = root
+			}
+			1168 = {
+				discover_country = root
+			}
+			2952 = {
+				discover_country = root
+			}
+			4944 = {
+				discover_country = root
+			}
+			4948 = {
+				discover_country = root
+			}
+			4945 = {
+				discover_country = root
+			}
+			4946 = {
+				discover_country = root
+			}
+			hell_pit_1_area = {
+				discover_country = root
+			}
+			hell_pit_2_area = {
+				discover_country = root
+			}
+			hell_pit_3_area = {
+				discover_country = root
+			}
+			troll_country_region = {
+				discover_country = root
+			}
+		}
+		#eastern steppes		
+		if = {
+			limit = {
+				capital_scope = {
+					region = the_eastern_steppes_region
+				}
+			}
+			the_western_wastes_region = {
+				discover_country = root
+			}
+			ihan_region = {
+				discover_country = root
+			}
+			the_eastern_steppes_region = {
+				discover_country = root
+			}
+			mountains_of_mourn_region = {
+				discover_country = root
+			}
+			northern_cathay_region = {
+				discover_country = root
+			}
+			seagrave_area = {
+				discover_country = root
+			}
+			2793 = {
+				discover_country = root
+			}
+			2760 = {
+				discover_country = root
+			}
+			2781 = {
+				discover_country = root
+			}
+			2783 = {
+				discover_country = root
+			}
+			1168 = {
+				discover_country = root
+			}
+			1575 = {
+				discover_country = root
+			}
+			1573 = {
+				discover_country = root
+			}
+			2779 = {
+				discover_country = root
+			}
+			4137 = {
+				discover_country = root
+			}
+		}
+		#gulf of medes	
+		if = {
+			limit = {
+				capital_scope = {
+					region = gulf_of_medes_region
+				}
+			}
+			gulf_of_medes_region = {
+				discover_country = root
+			}
+			araby_region = {
+				discover_country = root
+			}
+			nehekhara_region = {
+				discover_country = root
+			}
+			plain_of_tuskers_region = {
+				discover_country = root
+			}
+			shark_straits_area = {
+				discover_country = root
+			}
+			gulf_of_medes_sea_area = {
+				discover_country = root
+			}
+			sudron_region = {
+				discover_country = root
+			}
+			4165 = {
+				discover_country = root
+			}
+			4164 = {
+				discover_country = root
+			}
+		}
+		#South lands Lizardmen know surronding areas
+		if = {
+			limit = {
+				capital_scope = {
+					or = {
+						region = new_coast_region
+						region = gulf_of_medes_region
+					}
+				}
+				technology_group = tech_lizardmen
+			}
+			gulf_of_medes_region = {
+				discover_country = root
+			}
+			new_coast_region = {
+				discover_country = root
+			}
+			araby_region = {
+				discover_country = root
+			}
+			nehekhara_region = {
+				discover_country = root
+			}
+			plain_of_tuskers_region = {
+				discover_country = root
+			}
+			shark_straits_area = {
+				discover_country = root
+			}
+			gulf_of_medes_sea_area = {
+				discover_country = root
+			}
+			sudron_region = {
+				discover_country = root
+			}
+			4165 = {
+				discover_country = root
+			}
+			4164 = {
+				discover_country = root
+			}
+			4088 = {
+				discover_country = root
+			}
+			4094 = {
+				discover_country = root
+			}
+			southern_straits_area = {
+				discover_country = root
+			}
+		}
+		#world edge mountain region
+		if = {
+			limit = {
+				capital_scope = {
+					region = world_edge_mountains_region
+				}
+			}
+			world_edge_mountains_region = {
+				discover_country = ROOT
+			}
+			western_mountains_superregion = {
+				discover_country = root
+			}
+			4138 = {
+				discover_country = ROOT
+			}
+			2952 = {
+				discover_country = ROOT
+			}
+			4154 = {
+				discover_country = ROOT
+			}
+			4155 = {
+				discover_country = ROOT
+			}
+			4167 = {
+				discover_country = ROOT
+			}
+			4156 = {
+				discover_country = ROOT
+			}
+			4951 = {
+				discover_country = ROOT
+			}
+			659 = {
+				discover_country = ROOT
+			}
+			4160 = {
+				discover_country = ROOT
+			}
+			4159 = {
+				discover_country = ROOT
+			}
+			2101 = {
+				discover_country = ROOT
+			}
+			the_empire_superregion = {
+				discover_country = ROOT
+			}
+			southern_old_world_superregion = {
+				discover_country = ROOT
+			}
+			badlands_region = {
+				discover_country = ROOT
+			}
+			kislev_heartlands_region = {
+				discover_country = ROOT
+			}
+		}
+		#south world edge mountain region
+		if = {
+			limit = {
+				capital_scope = {
+					region = southern_world_edge_mountains_region
+				}
+			}
+			southern_world_edge_mountains_region = {
+				discover_country = ROOT
+			}
+			badlands_region = {
+				discover_country = root
+			}
+			nehekhara_region = {
+				discover_country = root
+			}
+			lahmia_region = {
+				discover_country = root
+			}
+			desolation_of_nagash_region = {
+				discover_country = root
+			}
+			plain_of_tuskers_region = {
+				discover_country = root
+			}
+			2200 = {
+				discover_country = root
+			}
+			4163 = {
+				discover_country = root
+			}
+			4086 = {
+				discover_country = root
+			}
+			4162 = {
+				discover_country = root
+			}
+			2471 = {
+				discover_country = root
+			}
+			1067 = {
+				discover_country = root
+			}
+			699 = {
+				discover_country = root
+			}
+			2316 = {
+				discover_country = root
+			}
+			bitter_sea_area = {
+				discover_country = root
+			}
+			karak_eight_peaks_region = {
+				discover_country = root
+			}
+			4156 = {
+				discover_country = root
+			}
+			southern_wastes_10_area = {
+				discover_country = root
+			}
+			southern_wastes_11_area = {
+				discover_country = root
+			}
+			plain_of_bones_4_area = {
+				discover_country = root
+			}
+			broken_teeth_area = {
+				discover_country = root
+			}
+			plain_of_bones_3_area = {
+				discover_country = root
+			}
+
+		}	
+		#western mountains
+		if = {
+			limit = {
+				capital_scope = {
+					superregion = western_mountains_superregion
+				}
+			}
+			world_edge_mountains_region = {
+				discover_country = ROOT
+			}
+			western_mountains_superregion = {
+				discover_country = root
+			}
+			southern_old_world_superregion = {
+				discover_country = root
+			}
+			the_empire_superregion = {
+				discover_country = root
+			}
+			kislev_heartlands_region = {
+				discover_country = root
+			}
+			4160 = {
+				discover_country = ROOT
+			}
+			659 = {
+				discover_country = ROOT
+			}
+			4951 = {
+				discover_country = ROOT
+			}
+			4155 = {
+				discover_country = ROOT
+			}
+			4167 = {
+				discover_country = ROOT
+			}
+			4156 = {
+				discover_country = ROOT
+			}
+			tilea_region = {
+				discover_country = root
+			}
+			border_princes_region = {
+				discover_country = root
+			}
+		}
+		#K8P
+		if = {
+			limit = {
+				capital_scope = {
+					region = karak_eight_peaks_region
+				}
+			}
+			karak_eight_peaks_region = {
+				discover_country = root
+			}
+			4156 = {
+				discover_country = root
+			}
+		}
+		#Skavenblight region
+		if = {
+			limit = {
+				capital_scope = {
+					region = skavenblight_region
+				}
+			}
+			skavenblight_region = {
+				discover_country = ROOT
+			}
+			estalia_region = {
+				discover_country = root
+			}
+			tilea_region = {
+				discover_country = root
+			}
+			world_edge_mountain_superregion = {
+				discover_country = ROOT
+			}
+			western_mountains_superregion = {
+				discover_country = root
+			}
+			4138 = {
+				discover_country = ROOT
+			}
+			2952 = {
+				discover_country = ROOT
+			}
+			4154 = {
+				discover_country = ROOT
+			}
+			4155 = {
+				discover_country = ROOT
+			}
+			4167 = {
+				discover_country = ROOT
+			}
+			4156 = {
+				discover_country = ROOT
+			}
+			4160 = {
+				discover_country = ROOT
+			}
+			659 = {
+				discover_country = ROOT
+			}
+			4951 = {
+				discover_country = ROOT
+			}
+		}
+		#uthuan/high elves
+		if = {
+			limit = {
+				technology_group = tech_high_elven
+			}
+			land_of_chill_region = {
+				discover_country = ROOT
+			}
+			black_forest_region = {
+				discover_country = ROOT
+			}
+			doom_glades_region = {
+				discover_country = ROOT
+			}
+			oceania = {
+				discover_country = root
+			}
+			gulf_of_naggaroth_region = {
+				discover_country = ROOT
+			}
+			sea_of_feuds_region = {
+				discover_country = root
+			}
+			central_great_ocean_region = {
+				discover_country = root
+			}
+			481 = {
+				discover_country = root
+			}
+			4055 = {
+				discover_country = root
+			}
+			eastern_great_ocean_region = {
+				discover_country = root
+			}
+			#Discover civilized realms of men
+			tilea_region = {
+				discover_country = ROOT
+			}
+			bretonnia_region = {
+				discover_country = ROOT
+			}
+			the_empire_superregion = {
+				discover_country = ROOT
+			}
+			estalia_region = {
+				discover_country = ROOT
+			}
+			kislev_heartlands_region = {
+				discover_country = ROOT
+			}
+			grey_mountains_region = {
+				discover_country = ROOT
+			}
+			troll_country_region = {
+				discover_country = ROOT
+			}
+			border_princes_region = {
+				discover_country = ROOT
+			}
+			#discover Old World seas
+			sea_of_claws_region = {
+				discover_country = ROOT
+			}
+			middle_sea_region = {
+				discover_country = ROOT
+			}
+			southern_sea_region = {
+				discover_country = ROOT
+			}
+			#Discover coastal  norsca
+			taaketskog_area = {
+				discover_country = ROOT
+			}
+			tashnar_area = {
+				discover_country = ROOT
+			}
+			icedrake_area = {
+				discover_country = ROOT
+			}
+			longship_graveyard_area = {
+				discover_country = ROOT
+			}
+			iron_mountains_area = {
+				discover_country = ROOT
+			}
+			trollheim_area = {
+				discover_country = ROOT
+			}
+			##Discover coastal  araby
+			nehekhara_area_21 = {
+				discover_country = root
+			}
+			araby_area_1 = {
+				discover_country = root
+			}
+			araby_area_3 = {
+				discover_country = root
+			}
+			araby_area_4 = {
+				discover_country = root
+			}
+			araby_area_6 = {
+				discover_country = root
+			}
+			araby_area_7 = {
+				discover_country = root
+			}
+			araby_area_10 = {
+				discover_country = root
+			}
+			araby_20_area = {
+				discover_country = root
+			}
+			araby_area_14 = {
+				discover_country = root
+			}
+			araby_area_19 = {
+				discover_country = root
+			}
+			araby_area_14 = {
+				discover_country = root
+			}
+			1472 = {
+				discover_country = root
+			}
+			1457 = {
+				discover_country = root
+			}
+			araby_area_9 = {
+				discover_country = root
+			}
+			#Discover coastal  badlands
+			badlands_area_10 = {
+				discover_country = ROOT
+			}
+			badlands_area_5 = {
+				discover_country = ROOT
+			}
+			badlands_area_17 = {
+				discover_country = ROOT
+			}
+			badlands_area_6 = {
+				discover_country = ROOT
+			}
+			badlands_area_4 = {
+				discover_country = ROOT
+			}
+			badlands_area_1 = {
+				discover_country = ROOT
+			}
+			sea_of_claws_region = {
+				discover_country = ROOT
+			}
+			middle_sea_region = {
+				discover_country = root
+			}
+			southern_sea_region = {
+				discover_country = root
+			}
+			659 = {
+				discover_country = ROOT
+			}
+			207 = {
+				discover_country = ROOT
+			}
+			820 = {
+				discover_country = ROOT
+			}
+			4160 = {
+				discover_country = ROOT
+			}
+			2952 = {
+				discover_country = ROOT
+			}
+			2475 = {
+				discover_country = ROOT
+			}
+			4160 = {
+				discover_country = ROOT
+			}
+			4151 = {
+				discover_country = ROOT
+			}
+			4154 = {
+				discover_country = ROOT
+			}
+			4154 = {
+				discover_country = ROOT
+			}
+			4951 = {
+				discover_country = ROOT
+			}
+			2101 = {
+				discover_country = ROOT
+			}
+			118 = {
+				discover_country = ROOT
+			}
+			206 = {
+				discover_country = ROOT
+			}
+			117 = {
+				discover_country = ROOT
+			}
+			515 = {
+				discover_country = ROOT
+			}
+			1885 = {
+				discover_country = ROOT
+			}
+			4161 = {
+				discover_country = ROOT
+			}
+			565 = {
+				discover_country = ROOT
+			}
+			western_lustrian_coast_region = {
+				discover_country = ROOT
+			}
+			southern_great_ocean_region = {
+				discover_country = ROOT
+			}
+			western_southlands_region = {
+				discover_country = ROOT
+			}
+			sea_of_dread_region = {
+				discover_country = ROOT
+			}
+			sea_of_eltihis_area = {
+				discover_country = root
+			}
+			elithis_region = {
+				discover_country = root
+			}
+			khuresh_14_area = {
+				discover_country = root
+			}
+			south_wastes_1_area = {
+				discover_country = root
+			}
+			eastern_colonies_region = {
+				discover_country = root
+			}
+			dawns_light_region = {
+				discover_country = root
+			}
+			citadel_of_dusk_area = {
+				discover_country = root
+			}
+			#undiscvoer naggaroth
+			naggaroth_23_area = {
+				undiscover_country = root
+			}
+			naggaroth_22_area = {
+				undiscover_country = root
+			}
+			land_of_chill_6_area = {
+				undiscover_country = root
+			}
+			land_of_chill_7_area = {
+				undiscover_country = root
+			}
+			naggaroth_12_area = {
+				undiscover_country = root
+			}
+			black_forest_1_area = {
+				undiscover_country = root
+			}
+			land_of_chill_8_area = {
+				undiscover_country = root
+			}
+		}
+		#cathayan
+		if = {
+			limit = {
+				technology_group = tech_cathayan
+				capital_scope = {
+					superregion = cathay_superregion
+				}
+			}
+			cathay_superregion = {
+				discover_country = ROOT
+			}
+			ihan_region = {
+				discover_country = ROOT
+			}
+			mountains_of_mourn_region = {
+				discover_country = ROOT
+			}
+			nippon_region = {
+				discover_country = root
+			}
+			#eatern stepps
+			eastern_steppes_7_area = {
+				discover_country = ROOT
+			}
+			eastern_steppes_8_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_28_area = {
+				discover_country = ROOT
+			}
+			eastern_steppes_3_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_30_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_31_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_22_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_27_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_29_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_26_area = {
+				discover_country = ROOT
+			}
+			ind_superregion = {
+				discover_country = root
+			}
+			cathay_coast_area = {
+				discover_country = ROOT
+			}
+			1574 = {
+				discover_country = ROOT
+			}
+			1497 = {
+				discover_country = ROOT
+			}
+			sea_of_nippon_area = {
+				discover_country = ROOT
+			}
+			eastern_coast_of_khuresh_area = {
+				discover_country = ROOT
+			}
+			western_coast_of_khuresh_area = {
+				discover_country = ROOT
+			}
+			eastern_ind_coast_area = {
+				discover_country = ROOT
+			}
+			western_ind_coast_area = {
+				discover_country = ROOT
+			}
+			gnoblar_country_region = {
+				discover_country = ROOT
+			}
+			2880 = {
+				discover_country = ROOT
+			}
+			2942 = {
+				discover_country = ROOT
+			}
+			4211 = {
+				discover_country = ROOT
+			}
+			2364 = {
+				discover_country = ROOT
+			}
+			4790 = {
+				discover_country = ROOT
+			}
+			2793 = {
+				discover_country = ROOT
+			}
+			2783 = {
+				discover_country = ROOT
+			}
+			2779 = {
+				discover_country = ROOT
+			}
+			2760 = {
+				discover_country = ROOT
+			}
+			2849 = {
+				discover_country = ROOT
+			}
+			1608 = {
+				discover_country = ROOT
+			}
+			1686 = {
+				discover_country = ROOT
+			}
+			4129 = {
+				discover_country = ROOT
+			}
+			chaos_wastes_21_area = {
+				discover_country = ROOT
+			}
+			eastern_steppes_9_area = {
+				discover_country = ROOT
+			}
+			eastern_isles_sea_area = {
+				discover_country = ROOT
+			}
+			elithis_region = {
+				discover_country = ROOT
+			}
+			sea_of_eltihis_area = {
+				discover_country = ROOT
+			}
+			khuresh_1_area = {
+				discover_country = root
+			}
+			khuresh_8_area = {
+				discover_country = root
+			}
+			2515 = {
+				discover_country = root
+			}
+			2867 = {
+				discover_country = root
+			}
+			2781 = {
+				discover_country = root
+			}
+			1215 = {
+				discover_country = root
+			}
+			4429 = {
+				discover_country = root
+			}
+			2873 = {
+				discover_country = root
+			}
+			khuresh_4_area = {
+				discover_country = root
+			}
+			khuresh_5_area = {
+				discover_country = root
+			}
+			khuresh_3_area = {
+				discover_country = root
+			}
+			khuresh_10_area = {
+				discover_country = root
+			}
+			khuresh_11_area = {
+				discover_country = root
+			}
+			khuresh_14_area = {
+				discover_country = root
+			}
+			khuresh_13_area = {
+				discover_country = root
+			}
+			khuresh_5_area = {
+				discover_country = root
+			}
+			sea_of_weird_waves_area = {
+				discover_country = root
+			}
+			sea_of_fear_area = {
+				discover_country = root
+			}
+			khuresh_6_area = {
+				discover_country = root
+			}
+			great_river_region = {
+				discover_country = root
+			}
+			jade_river_area = {
+				discover_country = root
+			}
+			river_of_ruin_region = {
+				discover_country = root
+			}
+		}
+		#indish
+		if = {
+			limit = {
+				capital_scope = {
+					superregion = ind_superregion
+				}
+			}
+			ind_superregion = {
+				discover_country = root
+			}
+			gnoblar_country_region = {
+				discover_country = root
+			}
+			western_provinces_region = {
+				discover_country = root
+			}
+			southern_provinces_region = {
+				discover_country = root
+			}
+			khuresh_1_area = {
+				discover_country = root
+			}
+			khuresh_8_area = {
+				discover_country = root
+			}
+			2515 = {
+				discover_country = root
+			}
+			2867 = {
+				discover_country = root
+			}
+			eastern_isles_sea_area = {
+				discover_country = root
+			}
+			western_coast_of_khuresh_area = {
+				discover_country = root
+			}
+			western_ind_coast_area = {
+				discover_country = root
+			}
+			eastern_ind_coast_area = {
+				discover_country = root
+			}
+			sea_of_fear_area = {
+				discover_country = root
+			}
+			1493 = {
+				discover_country = root
+			}
+			1495 = {
+				discover_country = root
+			}
+			lizard_sea_area = {
+				discover_country = root
+			}
+			1215 = {
+				discover_country = root
+			}
+			bitter_sea_area = {
+				discover_country = root
+			}
+			sea_of_weird_waves_area = {
+				discover_country = root
+			}
+			bitter_coast_area = {
+				discover_country = root
+			}
+			broken_teeth_area = {
+				discover_country = root
+			}
+			desolation_of_nagash_1_area = {
+				discover_country = root
+			}
+			desolation_of_nagash_2_area = {
+				discover_country = root
+			}
+			desolation_of_nagash_3_area = {
+				discover_country = root
+			}
+			desolation_of_nagash_4_area = {
+				discover_country = root
+			}
+			desolation_of_nagash_5_area = {
+				discover_country = root
+			}
+			desolation_of_nagash_6_area = {
+				discover_country = root
+			}
+			lahmia_1_area = {
+				discover_country = root
+			}
+			lahmia_4_area = {
+				discover_country = root
+			}
+			lahmia_5_area = {
+				discover_country = root
+			}
+			kingdom_of_the_beasts_1_area = {
+				discover_country = root
+			}
+			mangrove_coast_2_area = {
+				discover_country = root
+			}
+			4351 = {
+				discover_country = root
+			}
+			1052 = {
+				discover_country = root
+			}
+			1503 = {
+				discover_country = root
+			}
+			dragon_isles_region = {
+				discover_country = root
+			}
+			1333 = {
+				discover_country = root
+			}
+			705 = {
+				discover_country = root
+			}
+			2880 = {
+				discover_country = root
+			}
+			mountains_of_mourn_19_area = {
+				discover_country = root
+			}
+			mountains_of_mourn_15_area = {
+				discover_country = root
+			}
+			4429 = {
+				discover_country = root
+			}
+			2942 = {
+				discover_country = root
+			}
+		}
+		#world edge mountain region
+		if = {
+			limit = {
+				capital_scope = {
+					region = world_edge_mountains_region
+				}
+			}
+			world_edge_mountains_region = {
+				discover_country = ROOT
+			}
+			western_mountains_superregion = {
+				discover_country = root
+			}
+			4138 = {
+				discover_country = ROOT
+			}
+			2952 = {
+				discover_country = ROOT
+			}
+			4154 = {
+				discover_country = ROOT
+			}
+			4155 = {
+				discover_country = ROOT
+			}
+			4167 = {
+				discover_country = ROOT
+			}
+			4156 = {
+				discover_country = ROOT
+			}
+			4951 = {
+				discover_country = ROOT
+			}
+			659 = {
+				discover_country = ROOT
+			}
+			4160 = {
+				discover_country = ROOT
+			}
+			4159 = {
+				discover_country = ROOT
+			}
+			2101 = {
+				discover_country = ROOT
+			}
+			the_empire_superregion = {
+				discover_country = ROOT
+			}
+			southern_old_world_superregion = {
+				discover_country = ROOT
+			}
+			badlands_region = {
+				discover_country = ROOT
+			}
+			kislev_heartlands_region = {
+				discover_country = ROOT
+			}
+		}
+		#bespoke skaven stuff
+		if = {
+			limit = {
+				technology_group = tech_skaven
+			}
+			underempire = {
+				discover_country = root
+			}
+			underempire_region = {
+				discover_country = root
+			}
+			skavenblight_region = {
+				discover_country = root
+			}
+			world_edge_mountains_region = {
+				discover_country = ROOT
+			}
+			western_mountains_superregion = {
+				discover_country = root
+			}
+			2332 = {
+				discover_country = ROOT
+			}
+			4138 = {
+				discover_country = ROOT
+			}
+			2952 = {
+				discover_country = ROOT
+			}
+			4154 = {
+				discover_country = ROOT
+			}
+			4155 = {
+				discover_country = ROOT
+			}
+			4167 = {
+				discover_country = ROOT
+			}
+			4156 = {
+				discover_country = ROOT
+			}
+			4951 = {
+				discover_country = ROOT
+			}
+			659 = {
+				discover_country = ROOT
+			}
+			4160 = {
+				discover_country = ROOT
+			}
+			4159 = {
+				discover_country = ROOT
+			}
+			2101 = {
+				discover_country = ROOT
+			}
+			the_empire_superregion = {
+				discover_country = ROOT
+			}
+			southern_old_world_superregion = {
+				discover_country = ROOT
+			}
+			badlands_region = {
+				discover_country = ROOT
+			}
+			northern_old_world_superregion = {
+				discover_country = ROOT
+			}
+			albion_region = {
+				undiscover_country = root
+			}
+		}
+		#khuresh
+		if = {
+			limit = {
+				capital_scope = {
+					region = khuresh_region
+				}
+			}
+			khuresh_region = {
+				discover_country = root
+			}
+			western_coast_of_khuresh_area = {
+				discover_country = root
+			}
+			eastern_ind_coast_area = {
+				discover_country = root
+			}
+			southern_provinces_region = {
+				discover_country = root
+			}
+			2873 = {
+				discover_country = root
+			}
+			4433 = {
+				discover_country = root
+			}
+			gates_of_calith_area = {
+				discover_country = root
+			}
+			eastern_coast_of_khuresh_area = {
+				discover_country = root
+			}
+			eastern_ind_region = {
+				discover_country = root
+			}
+			2880 = {
+				discover_country = root
+			}
+			2849 = {
+				discover_country = root
+			}
+			2942 = {
+				discover_country = root
+			}
+			1541 = {
+				discover_country = root
+			}
+			1543 = {
+				discover_country = root
+			}
+			great_river_region = {
+				discover_country = root
+			}
+		}
+		#nippon
+		if = {
+			limit = {
+				capital_scope = {
+					region = nippon_region
+				}
+			}
+			cathay_superregion = {
+				discover_country = ROOT
+			}
+			ihan_region = {
+				discover_country = ROOT
+			}
+			nippon_region = {
+				discover_country = ROOT
+			}
+			nippon_region = {
+				discover_country = root
+			}
+			#eatern stepps
+			eastern_steppes_7_area = {
+				discover_country = ROOT
+			}
+			eastern_steppes_8_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_28_area = {
+				discover_country = ROOT
+			}
+			eastern_steppes_3_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_30_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_31_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_22_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_27_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_29_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_26_area = {
+				discover_country = ROOT
+			}
+			ind_superregion = {
+				discover_country = root
+			}
+			cathay_coast_area = {
+				discover_country = ROOT
+			}
+			1574 = {
+				discover_country = ROOT
+			}
+			1497 = {
+				discover_country = ROOT
+			}
+			sea_of_nippon_area = {
+				discover_country = ROOT
+			}
+			eastern_coast_of_khuresh_area = {
+				discover_country = ROOT
+			}
+			western_coast_of_khuresh_area = {
+				discover_country = ROOT
+			}
+			eastern_ind_coast_area = {
+				discover_country = ROOT
+			}
+			western_ind_coast_area = {
+				discover_country = ROOT
+			}
+			gnoblar_country_region = {
+				discover_country = ROOT
+			}
+			2880 = {
+				discover_country = ROOT
+			}
+			2942 = {
+				discover_country = ROOT
+			}
+			4211 = {
+				discover_country = ROOT
+			}
+			2364 = {
+				discover_country = ROOT
+			}
+			4790 = {
+				discover_country = ROOT
+			}
+			2793 = {
+				discover_country = ROOT
+			}
+			2783 = {
+				discover_country = ROOT
+			}
+			2779 = {
+				discover_country = ROOT
+			}
+			2760 = {
+				discover_country = ROOT
+			}
+			2849 = {
+				discover_country = ROOT
+			}
+			1608 = {
+				discover_country = ROOT
+			}
+			1686 = {
+				discover_country = ROOT
+			}
+			4129 = {
+				discover_country = ROOT
+			}
+			chaos_wastes_21_area = {
+				discover_country = ROOT
+			}
+			eastern_steppes_9_area = {
+				discover_country = ROOT
+			}
+			eastern_isles_sea_area = {
+				discover_country = ROOT
+			}
+			elithis_region = {
+				discover_country = ROOT
+			}
+			sea_of_eltihis_area = {
+				discover_country = ROOT
+			}
+			khuresh_1_area = {
+				discover_country = root
+			}
+			khuresh_8_area = {
+				discover_country = root
+			}
+			2515 = {
+				discover_country = root
+			}
+			2867 = {
+				discover_country = root
+			}
+			2781 = {
+				discover_country = root
+			}
+			1215 = {
+				discover_country = root
+			}
+			4429 = {
+				discover_country = root
+			}
+			2873 = {
+				discover_country = root
+			}
+			khuresh_4_area = {
+				discover_country = root
+			}
+			khuresh_5_area = {
+				discover_country = root
+			}
+			khuresh_3_area = {
+				discover_country = root
+			}
+			khuresh_10_area = {
+				discover_country = root
+			}
+			khuresh_11_area = {
+				discover_country = root
+			}
+			khuresh_14_area = {
+				discover_country = root
+			}
+			khuresh_13_area = {
+				discover_country = root
+			}
+			khuresh_5_area = {
+				discover_country = root
+			}
+			sea_of_weird_waves_area = {
+				discover_country = root
+			}
+			sea_of_fear_area = {
+				discover_country = root
+			}
+			khuresh_6_area = {
+				discover_country = root
+			}
+			great_river_region = {
+				discover_country = root
+			}
+			jade_river_area = {
+				discover_country = root
+			}
+			river_of_ruin_region = {
+				discover_country = root
+			}
+		}
+		#elthis
+		if = {
+			limit = {
+				capital_scope = {
+					region = elithis_region
+				}
+			}
+			cathay_superregion = {
+				discover_country = ROOT
+			}
+			ihan_region = {
+				discover_country = ROOT
+			}
+			nippon_region = {
+				discover_country = ROOT
+			}
+			nippon_region = {
+				discover_country = root
+			}
+			#eatern stepps
+			eastern_steppes_7_area = {
+				discover_country = ROOT
+			}
+			eastern_steppes_8_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_28_area = {
+				discover_country = ROOT
+			}
+			eastern_steppes_3_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_30_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_31_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_22_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_27_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_29_area = {
+				discover_country = ROOT
+			}
+			chaos_wastes_26_area = {
+				discover_country = ROOT
+			}
+			ind_superregion = {
+				discover_country = root
+			}
+			cathay_coast_area = {
+				discover_country = ROOT
+			}
+			1574 = {
+				discover_country = ROOT
+			}
+			1497 = {
+				discover_country = ROOT
+			}
+			sea_of_nippon_area = {
+				discover_country = ROOT
+			}
+			eastern_coast_of_khuresh_area = {
+				discover_country = ROOT
+			}
+			western_coast_of_khuresh_area = {
+				discover_country = ROOT
+			}
+			eastern_ind_coast_area = {
+				discover_country = ROOT
+			}
+			western_ind_coast_area = {
+				discover_country = ROOT
+			}
+			gnoblar_country_region = {
+				discover_country = ROOT
+			}
+			2880 = {
+				discover_country = ROOT
+			}
+			2942 = {
+				discover_country = ROOT
+			}
+			4211 = {
+				discover_country = ROOT
+			}
+			2364 = {
+				discover_country = ROOT
+			}
+			4790 = {
+				discover_country = ROOT
+			}
+			2793 = {
+				discover_country = ROOT
+			}
+			2783 = {
+				discover_country = ROOT
+			}
+			2779 = {
+				discover_country = ROOT
+			}
+			2760 = {
+				discover_country = ROOT
+			}
+			2849 = {
+				discover_country = ROOT
+			}
+			1608 = {
+				discover_country = ROOT
+			}
+			1686 = {
+				discover_country = ROOT
+			}
+			4129 = {
+				discover_country = ROOT
+			}
+			chaos_wastes_21_area = {
+				discover_country = ROOT
+			}
+			eastern_steppes_9_area = {
+				discover_country = ROOT
+			}
+			eastern_isles_sea_area = {
+				discover_country = ROOT
+			}
+			elithis_region = {
+				discover_country = ROOT
+			}
+			sea_of_eltihis_area = {
+				discover_country = ROOT
+			}
+			khuresh_1_area = {
+				discover_country = root
+			}
+			khuresh_8_area = {
+				discover_country = root
+			}
+			2515 = {
+				discover_country = root
+			}
+			2867 = {
+				discover_country = root
+			}
+			2781 = {
+				discover_country = root
+			}
+			1215 = {
+				discover_country = root
+			}
+			4429 = {
+				discover_country = root
+			}
+			2873 = {
+				discover_country = root
+			}
+			khuresh_4_area = {
+				discover_country = root
+			}
+			khuresh_5_area = {
+				discover_country = root
+			}
+			khuresh_3_area = {
+				discover_country = root
+			}
+			khuresh_10_area = {
+				discover_country = root
+			}
+			khuresh_11_area = {
+				discover_country = root
+			}
+			khuresh_14_area = {
+				discover_country = root
+			}
+			khuresh_13_area = {
+				discover_country = root
+			}
+			khuresh_5_area = {
+				discover_country = root
+			}
+			sea_of_weird_waves_area = {
+				discover_country = root
+			}
+			sea_of_fear_area = {
+				discover_country = root
+			}
+			khuresh_6_area = {
+				discover_country = root
+			}
+			great_river_region = {
+				discover_country = root
+			}
+			jade_river_area = {
+				discover_country = root
+			}
+			river_of_ruin_region = {
+				discover_country = root
+			}
+		}
+	}
+	#Discover allies capitals
+	every_ally = {
+		capital_scope = {
+			discover_country = ROOT
+		}
+	}
+	# Resets prestige from being the first in the tech group to discover a province
+	add_prestige = -200
+	add_prestige = 100
+}
+
+setup_ai_attitude = {
+	# Set everyone's attitude to neutral towards one another
+	every_known_country = {
+		ROOT = {
+			set_ai_attitude = {
+				attitude = attitude_neutral
+				who = PREV
+				locked = no
+			}
+		}
+	}
+}

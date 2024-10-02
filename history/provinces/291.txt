@@ -1,0 +1,22 @@
+
+owner = A17
+controller = A17
+add_core = A17
+culture = mousillonian
+religion = lady_of_the_lake
+ 
+hre = no
+
+base_tax = 2
+base_production = 2
+trade_goods = wool
+base_manpower = 2
+
+is_city = yes
+
+
+
+
+
+
+

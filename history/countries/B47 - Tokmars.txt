@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = hordes_of_chaos
+government_rank = 1
+primary_culture = tokmar
+religion = chaos_undivided_religion
+technology_group = tech_chaos_warrior
+capital = 2655
+setup_vision = yes

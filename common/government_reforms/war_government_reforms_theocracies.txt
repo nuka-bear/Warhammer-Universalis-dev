@@ -1,0 +1,276 @@
+grand_order_blazing_sun_reform = {
+	potential = {
+		OR = {
+			has_unlocked_government_reform = {
+				government_reform = grand_order_blazing_sun_reform
+			}
+			have_had_reform = grand_order_blazing_sun_reform
+		}
+	}
+	trigger = {
+		or = {
+			religion = myrmidia
+			religion = cult_of_sigmar
+		}
+	}
+	modifiers = {
+		global_missionary_strength = 0.01
+		army_tradition_from_battle = 0.25
+		discipline = 0.025
+		may_recruit_female_generals = yes
+	}
+	lock_level_when_selected = yes
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+	valid_for_nation_designer = no
+	icon = "soldiers"
+	allow_normal_conversion = no
+	monastic = yes
+	fixed_rank = 2
+	custom_attributes = {
+		monastic_order = yes
+	}
+}
+
+empire_order_blazing_sun_reform = {
+	potential = {
+		tag = A87
+		OR = {
+			has_reform = empire_order_blazing_sun_reform
+			have_had_reform = empire_order_blazing_sun_reform
+		}
+	}
+	trigger = {
+		or = {
+			religion = myrmidia
+			religion = cult_of_sigmar
+		}
+	}
+	modifiers = {
+		global_missionary_strength = 0.02
+		manpower_in_true_faith_provinces = 0.33
+		cb_on_religious_enemies = yes
+		tolerance_own = 2
+		governing_capacity_modifier = -0.5
+		may_recruit_female_generals = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Rights of Man"
+		}
+		government_abilities = {
+			militarization_mechanic
+		}
+	}
+	lock_level_when_selected = yes
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+	valid_for_nation_designer = no
+	icon = "soldiers"
+	allow_normal_conversion = no
+	monastic = yes
+	fixed_rank = 3
+	custom_attributes = {
+		monastic_order = yes
+	}
+}
+
+
+cult_of_sigmar_reform = {
+	icon = "sigmar"
+	allow_normal_conversion = yes
+	potential = {
+		or = {
+			tag = A80
+			was_tag = A80
+		}
+	}
+
+	valid_for_nation_designer = no
+	allow_convert = no
+	lock_level_when_selected = yes
+
+	nation_designer_cost = 20
+	modifiers = {
+		yearly_harmony = 0.25
+		yearly_karma_decay = 0.002
+		tolerance_own = 1
+		production_efficiency = 0.1
+		land_morale = 0.05
+		global_missionary_strength = 0.02
+	}
+	effect = {
+	
+	}
+	removed_effect = {
+		
+	}
+	custom_attributes = {
+		can_see_theocratic_heir_stats = yes
+	}
+}
+
+
+cult_of_ulric_reform = {
+	icon = "ulric"
+	allow_normal_conversion = yes
+	potential = {
+		or = {
+			tag = A82
+			was_tag = A82
+		}
+	}
+
+	valid_for_nation_designer = no
+	allow_convert = no
+	lock_level_when_selected = yes
+
+	nation_designer_cost = 20
+	modifiers = {
+		yearly_harmony = 0.25
+		yearly_karma_decay = 0.002
+		tolerance_own = 1
+		production_efficiency = 0.1
+		land_morale = 0.05
+		global_missionary_strength = 0.02
+	}
+	effect = {
+	
+	}
+	removed_effect = {
+		
+	}
+	custom_attributes = {
+		can_see_theocratic_heir_stats = yes
+	}
+}
+
+truthsayer_order_reform	 = {
+		icon = "soldiers"
+	potential = {
+		religion = druidism
+	}
+	modifiers = {
+		advisor_pool = 1
+		improve_relation_modifier = 0.1
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		religion = druidism
+	}
+	icon = "man_on_podium"
+	allow_normal_conversion = no
+	lock_level_when_selected = no
+	rulers_can_be_generals = no
+	heirs_can_be_generals = yes
+}
+
+dark_embassy_order_reform	= {
+		icon = "soldiers"
+	potential = {
+		and = {
+			culture_group = albionise_group
+			religion_group = ruinous_powers_denominations
+		}
+	}
+	modifiers = {
+		advisor_pool = 1
+		improve_relation_modifier = 0.1
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		and = {
+			culture_group = albionise_group
+			religion_group = ruinous_powers_denominations
+		}
+	}
+	icon = "man_on_podium"
+	allow_normal_conversion = no
+	lock_level_when_selected = no
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+}
+
+nehekharan_government_reform = {
+	icon = "nehekhara"
+	allow_normal_conversion = yes
+	potential = {
+		or = {
+			have_had_reform = nehekharan_government_reform
+			has_reform = nehekharan_government_reform
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		culture_group = nehekharan_group
+	}
+
+	lock_level_when_selected = yes
+	modifiers = {
+		church_privilege_slots = 2
+		church_influence_modifier = 0.1
+		manpower_in_accepted_culture_provinces = 0.20
+		governing_capacity = 50
+	}
+	heir = no
+	rulers_can_be_generals = yes
+	allow_normal_conversion = no
+	custom_attributes = {
+		locked_government_type = yes
+		enables_aristocratic_idea_group = yes
+	}
+}
+
+
+lizardmen_government_reform = {
+	icon = "lizardmen"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	potential = {
+		culture_group = lizardmen_group
+		religion = old_ones
+	}
+	nation_designer_trigger = {
+		culture_group = lizardmen_group
+		religion = old_ones
+	}
+
+	lock_level_when_selected = yes
+	modifiers = {
+
+	}
+	rulers_can_be_generals = yes
+	allow_normal_conversion = no
+}
+
+
+nagash_reform = {
+	potential = {
+		tag = U24
+	}
+
+	modifiers = {	#for better spellcasting
+		all_power_cost = -0.025
+		
+	}
+	custom_attributes = {
+		enables_divine_idea_group = no
+	}
+	valid_for_nation_designer = no
+	nation_designer_cost = 666
+	icon = "soldiers"
+	allow_normal_conversion = no
+	# legacy_equivalent = magocracy
+	lock_level_when_selected = yes
+	
+	rulers_can_be_generals = no
+	heir = no
+
+}
+
+
+

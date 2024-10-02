@@ -1,0 +1,10 @@
+base_tax = 2
+base_manpower = 2
+base_production = 4
+trade_goods = livestock
+religion = cadai
+is_city = yes
+owner = H25
+culture = colonial_asur
+controller = H25
+add_core = H25

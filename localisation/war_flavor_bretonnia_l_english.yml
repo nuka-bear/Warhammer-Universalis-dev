@@ -1,0 +1,73 @@
+﻿l_english:
+ ##############
+ ###MISSIONS###
+ ##############
+ 
+ ############
+ ###EVENTS###
+ ############
+ flavor_bretonnia.1.t: "The Grail Council of Bastonne!"
+ flavor_bretonnia.1.d: "In the wake of the passing of our beloved Royarch, the time has come for the Grail Council of Bastonne to convene once more. Assembled within the sacred halls of the Grail Cathedral, as many Grail Knights as can attend gather to fulfill their solemn duty in selecting the next ruler of Bretonnia. \n\n Amidst the hallowed whispers of ancient rites and the solemn prayers to the Lady of the Lake, the Grail Knights deliberate with unwavering resolve. Each voice carries the weight of tradition and honor as they seek to discern the candidate most worthy of wielding the mantle of kingship. \n\n Once a unanimous decision is reached, the chosen successor is presented to the Fay Enchantress, the holy representative of the Lady of the Lake. With her divine blessing, the election is solemnized, and the chosen Grail Knight is crowned as the new Royarch, tasked with guiding our noble realm with wisdom and valor for life.\n\nWho do the Grail knights of our fair realm determine is most worthy?"
+ flavor_bretonnia.1.a: "The Duke of Lyonesse"
+ flavor_bretonnia.1.b: "The Duke of Courronne" 
+ flavor_bretonnia.1.c: "The Duke of L'anguille"
+ flavor_bretonnia.1.e: "The Duke of Artois" 
+ flavor_bretonnia.1.f: "The Duke of Bordelaux"
+ flavor_bretonnia.1.g: "The Duke of Mousillion" 
+ flavor_bretonnia.1.h: "The Duke of Gisoreux"
+ flavor_bretonnia.1.i: "The Duke of bastonne" 
+ flavor_bretonnia.1.j: "The Duke of Aquitane"
+ flavor_bretonnia.1.k: "The Duke of Brionne" 
+ flavor_bretonnia.1.l: "The Duke of Qunelles"
+ flavor_bretonnia.1.m: "The Duke of Parravon" 
+ flavor_bretonnia.1.n: "The Duke of Carcassone" 
+ flavor_bretonnia.1.o: "The Duke of Montfont" 
+ 
+ flavor_bretonnia.3.t: "Death of the Royarch!"
+ flavor_bretonnia.3.d: "The realm of Bretonnia is shrouded in sorrow as news spreads of the passing of our beloved Royarch. The noble ruler who has guided our kingdom with wisdom and valor now departs this world, leaving behind a legacy of honor and chivalry that shall be forever cherished.. May the Lady of the Lake guide us in this time of transition, and may the spirit of our departed Royarch watch over us."
+ flavor_bretonnia.3.a: "Alas!"
+
+ flavor_bretonnia.4.t: "Elected Royarch!"
+ flavor_bretonnia.4.d: "[Root.GetName] has been crowned Royarch of Bretonnia!"
+ flavor_bretonnia.4.a: "A new era begins!"
+
+ flavor_bretonnia.5.t: "Newly Selected Royarch!"
+ flavor_bretonnia.5.d: "Amidst whispers of anticipation and reverence, you stand before the assembled nobility, chosen by the divine will of the Lady of the Lake to ascend to the throne as the new Royarch. With a mixture of awe and humility, you stand before the assembled nobles feeling the weight of centuries of tradition and the Lady's divine favor resting upon your brow."
+ flavor_bretonnia.5.a: "A new era begins"
+
+ flavor_bretonnia.7.t: "The Coronation of the New Royarch"
+ flavor_bretonnia.7.d: "Amidst great pomp and ceremony, the time has come for the coronation of our new Royarch. Within the hallowed halls of the Grail Cathedral of Bastonne, the realm of Bretonnia stands witness to a sacred ritual that will usher in a new era of leadership and stewardship. \n\nWith reverence and solemnity, the Fay Enchantress, the holy representative of the Lady of the Lake, presides over the proceedings. As the divine voice of our beloved goddess, she blesses the chosen successor and bestows upon him the sacred crown of kingship. \n\nWith the weight of tradition and the Lady's divine favor upon him, the [root.GetName] ascends to the throne, symbolizing the continuation of Bretonnia's noble legacy. As the realm holds its breath in anticipation, the dukes of Bretonnia step forward, one by one, to pledge their allegiance and fealty to their rightful ruler.\n\nWith hands raised and hearts bound in loyalty, the dukes swear solemn oaths to uphold the honor and sovereignty of Bretonnia, pledging their unwavering support to their new liege lord. Amidst cheers and applause from the assembled nobility, the unity of the realm is reaffirmed, and the kingdom stands united under the banner of its new Royarch.\n\n Let the trumpets sound and the banners wave high, for a new chapter in the history of Bretonnia has begun. Long live the Royarch! Long live Bretonnia!"
+ flavor_bretonnia.7.a: "Long Live [root.GetName]!"
+
+
+ flavor_bretonnia.900.t: "[Root.grail_quest_heir_name.GetName] Embarks on the Grail Quest"
+ flavor_bretonnia.900.d: "\n\nAmidst whispers of anticipation and reverence, [Root.grail_quest_heir_name.GetName] stands before you, their eyes filled with determination and resolve. With a solemn voice, they declare their intention to embark on the Grail Quest, a sacred pilgrimage in search of the legendary Grail that has long been the symbol of Bretonnian honor and chivalry.\n\nAs a ruler of Bretonnia, you are faced with a momentous decision. Will you grant [Root.grail_quest_heir_name.GetName] your blessing and support in their noble quest, knowing that they may face dangers and trials beyond imagination? Or will you counsel caution, urging them to remain by your side and fulfill their duties to the realm?\n\nChoose wisely, for the fate of your heir and the future of Bretonnia hang in the balance. Should you grant your blessing, your heir will set forth on a journey of epic proportions, seeking to prove themselves worthy of the Grail and the divine favor of the Lady of the Lake. But be warned - the road ahead is fraught with peril, and not all who embark on the Grail Quest return unchanged.\n\nConsider your decision carefully, for the choices you make now will shape the destiny of [Root.grail_quest_heir_name.GetName] and the kingdom of Bretonnia for generations to come. Will they emerge victorious, bathed in the light of the Lady's grace? Or will they be lost to the mists of legend, their fate forever intertwined with the mysteries of the Grail?"
+ flavor_bretonnia.900.a: "May the Lady guide and protect you on your noble quest!"
+
+ flavor_bretonnia.901.t: "[Root.grail_quest_heir_name.GetName] Returns!"
+ flavor_bretonnia.901.d: "With banners waving high and trumpets sounding, the realm of Bretonnia welcomes the triumphant return of [Root.grail_quest_heir_name.GetName], who emerges from the mists of legend as a true champion of the Lady's grace. Their successful completion of the sacred Grail Quest fills the hearts of all with hope and inspiration, as tales of their valor and virtue spread far and wide throughout the kingdom. Long live [Root.grail_quest_heir_name.GetName], the embodiment of Bretonnian chivalry and honor!"
+ flavor_bretonnia.901.a: "[Root.grail_quest_heir_name.GetName] triumphant return fills our hearts with joy and our realm with hope!"
+ flavor_bretonnia.901.b: "[Root.grail_quest_heir_name.GetName] is the rightful ruler!"
+ 
+
+
+ #################
+ ###GOV REFORMS###
+ #################
+ bretonnian_royarch_reform: "Bretonnian Royarch"
+ bretonnian_royarch_reform_desc: "The royarch is chosen from either the senior-most hereditary successor to the original royal bloodline or from one of the dukes of the twelve dukedoms that comprise Bretonnia."
+ bretonnian_dukedom_reform: "Bretonnian Duke"
+ bretonnian_dukedom_reform_desc: "One of the highest-ranking nobles within Bretonnian society, second only to the King himself. Each duke rules one of the feudal provinces of the Kingdom of and maintains a large number of other Bretonnian lords who serve as feudal vassals beneath them. "
+ indep_bretonnian_dukedom_reform:0 "Exile Bretonnian Dukedom"
+ indep_bretonnian_dukedom_reform_desc:0 "It is not uncommon to find outposts of Bretonnian society and culture scattered far and wide - tiny feudalistic realms where the Lady of the Lake is revered and in which the traditions of the Code Chivalric are upheld, to a greater or lesser extent, by knightly lords of often questionable honour."
+ 
+ #################
+ ### misc ###
+ #################
+ is_bretonnian_royarch_tooltip:0 "§MIs The Royarch of Bretonnia§!"
+ bretonnian_succession_tt:0 "The Loyal Dukes of Bretonnia will swear alliegnence to their new King!"
+
+ grail_knight_personality: "Grail Knight"
+ desc_grail_knight_personality: "This ruler is a Grail knight.\nOne of the virtuous few who had long quested for the Grail, driven ever onwards by visions of the Lady of the Lake to seek for her chalice in far-off lands, to vanquish evil, to aid the needy and forever prove his virtuous heart in the heat of battle. A saint amongst men, a warrior beyond compare who had slain great monsters, fought in wars beyond number, vanquished the most dreaded of foes and who had been granted powers beyond the ken of mere mortals."
+ grail_knight_personality_die_desc: "Returned to the Lady"
+ grail_knight_personality_modifier: "Grail Knight"

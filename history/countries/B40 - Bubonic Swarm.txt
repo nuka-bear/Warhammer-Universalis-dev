@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = norsan_jarldom_reform
+government_rank = 1
+primary_culture = dakota
+religion = totemism
+technology_group = north_american
+capital = 2517
+ setup_vision = yes

@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = hordes_of_chaos
+primary_culture = dolgan
+religion = chaos_undivided_religion
+technology_group = tech_chaos_warrior
+capital = 789
+government_rank = 1
+setup_vision = yes

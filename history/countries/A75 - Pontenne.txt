@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = marcheur
+religion = lady_of_the_lake
+technology_group = tech_imperial
+setup_vision = yes
+capital = 647
+government_rank = 1

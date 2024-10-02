@@ -1,0 +1,25 @@
+government = monarchy
+add_government_reform = bretonnian_dukedom_reform
+primary_culture = carcassonnian
+religion = lady_of_the_lake
+technology_group = tech_imperial
+government_rank = 1
+capital = 267
+setup_vision = yes
+set_country_flag = bretonnian_duke_cf
+set_country_flag = bretonnian_kingdom_pot_candidate
+
+2502.1.1 = {
+	monarch = {
+		name = "Tancred II"
+		dynasty = "d'Quenelles"
+		birth_date = 2470.12.3
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+	set_variable = {
+		which = royarch_vote
+		value = 0
+	}
+}

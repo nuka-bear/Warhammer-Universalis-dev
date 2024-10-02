@@ -1,0 +1,470 @@
+﻿l_english:
+ #old world
+ ############
+ #OLD WORLD #
+ ############
+ old_world_denominations:0 "Old World Pantheon"
+ 
+ ###############
+ #Sigmar#
+ ###############
+ cult_of_sigmar:0 "Sigmarite"
+ cult_of_sigmar_religion_desc:0 "Represents the various gods worshiped by the humans of the Empire. Emphasis is on the patron god of the Empire, Sigmar, but Ulric and Taal are heavily worshiped in different provinces."
+ cult_of_sigmar_rebels_demand:0 "Convert $COUNTRYNAME$"
+ cult_of_sigmar_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ cult_of_sigmar_rebels_title:0 "Religious"
+ cult_of_sigmar_rebels_name:0 "$RELIGION$ Zealots"
+ cult_of_sigmar_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ cult_of_sigmar_rebels_army:0 "$RELIGION$ Army"  
+ SIGMAR_HERETIC:0 "Sigmar Heretic"
+ 
+ ##################
+ #LADY OF THE LAKE#
+ ##################
+ lady_of_the_lake:0 "Grail"
+ lady_of_the_lake_religion_desc:0 "Patron diety of Bretonnia, She demands nobility, honour, courage, and absolute steadfast approach to all things."
+ lady_of_the_lake_rebels_demand:0 "Convert $COUNTRYNAME$"
+ lady_of_the_lake_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ lady_of_the_lake_rebels_title:0 "Religious"
+ lady_of_the_lake_rebels_name:0 "$RELIGION$ Zealots"
+ lady_of_the_lake_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers"
+ lady_of_the_lake_rebels_army:0 "$RELIGION$ Army"
+ BLACK_GRAIL:0 "Black Grail"
+ FALSE_GRAIL:0 "False Grail"
+ noble_isolation:0 "Noble"
+ noble_isolation_desc:0 ""
+ noble_isolation_title:0 "Noble"
+ honorable_isolation:0 "Honorable"
+ honorable_isolation_desc:0 ""
+ honorable_isolation_title:0 "Honorable"
+ knightly_isolation:0 "Knightly"
+ knightly_isolation_desc:0 ""
+ knightly_isolation_title:0 "Knightly"
+ virtuous_isolation:0 "Virtuous"
+ virtuous_isolation_desc:0 ""
+ virtuous_isolation_title:0 "Virtuous"
+ chivalrous_isolation:0 "Chivalrous"
+ chivalrous_isolation_desc:0 ""
+ chivalrous_isolation_title:0 "Chivalrous"
+ 
+ ###########
+ #Myrmidian#
+ ###########
+ myrmidia:0 "Myrmidian"
+ myrmidia_religion_desc:0 "Myrmidia is the primary and patron goddess of Tilea and Estalia. She is the goddess of honourable war, civilisation, strategy, soldiers, vengeance, beauty, art and honour. In the year 2502 IC, the Cult of Myrmidia is experiencing a schism between the Tilean and Estallian branchs of the Cult. They each have very different perspectives on several major views about the goddess and her lore, not helped by the fact that her three holy books each present very all different accounts of her origins and place varying emphasis on the importance of her story. \n\nMyrmidia is reported by some sacred texts to once have walked the earth clad in mortal flesh. Myrmidia would allegedly grow into a warrior maiden and rally the people of the southern Old World against all enemies. Tileans claim she was born in Remas and conquered Estalia, while the Estalians claim she was born in Magritta and conquered Tilea. Regardless of which version is true, she united the southern civilisations. The day she was crowned queen of the southern realms, however, she was assassinated. When Myrmidia lay dying from her wounds, she ordered a great ship be built, and, it is said, sailed west upon it, there to return to her home amongst the gods, known now, and forever after, as a goddess of war."
+ myrmidia_rebels_demand:0 "Convert $COUNTRYNAME$"
+ myrmidia_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ myrmidia_rebels_title:0 "Religious"
+ myrmidia_rebels_name:0 "$RELIGION$ Zealots"
+ myrmidia_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ myrmidia_rebels_army:0 "$RELIGION$ Army"
+ MYRMIDIA_HERETIC:0 "Myrmidia Heretics"
+ 
+ ##########
+ #Ursunite/Great Orthodxy#
+ ##########
+ ursun:0 "Great Orthodoxy"
+ ursun_religion_desc:0 "The Great Orthodoxy is the organised state religion of Kislev, founded by Tzar Boris Bokha around 2480 IC.  Tzar Boris was concerned that the nature of religion in Kislev -- often taking the form of informal, widely divergent shamanistic rites overseen by wise women, witches and hags in rural areas -- put it at risk of being easily infiltrated and subsumed by the Dark Gods, thus allowing Chaos Cults to flourish. The Great Orthodoxy was thus formed as an attempt to organise, formalise, centralise and regulate traditional religion in Kislev, keeping the various religious cultsunder the strict and watchful eye of the centralised -- and government controlled -- Great Orthodoxy."
+ ursun_rebels_demand:0 "Convert $COUNTRYNAME$"
+ ursun_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ ursun_rebels_title:0 "Religious"
+ ursun_rebels_name:0 "$RELIGION$ Zealots"
+ ursun_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ ursun_rebels_army:0 "$RELIGION$ Army"
+ OLD_GODS:0 "Old Gods"
+ OLD_FAITH:0 "Old Faiths"
+ 
+ ########################################
+ #cult_of_ulric_religion #
+ ########################################
+ cult_of_ulric_religion:0 "Ulrican"
+ cult_of_ulric_religion_religion_desc:0 "Ulric is the god of war, winter and wolves in the Old World Pantheon."
+ cult_of_ulric_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
+ cult_of_ulric_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ cult_of_ulric_religion_rebels_title:0 "Religious"
+ cult_of_ulric_religion_rebels_name:0 "$RELIGION$ Zealots"
+ cult_of_ulric_religion_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ cult_of_ulric_religion_rebels_army:0 "$RELIGION$ Army"
+ ULRIC_HERETIC:0 "Ulric Heretics"
+
+ ########################################
+ #cult_of_taal_religion #
+ ########################################
+ cult_of_taal_religion:0 "Taalite"
+ cult_of_taal_religion_religion_desc:0 "The Cult of Taal and Rhya is among the most ancient and pervasive in the Old World, tracing a direct line to the primal gods from the depths of Human history."
+ cult_of_taal_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
+ cult_of_taal_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ cult_of_taal_religion_rebels_title:0 "Religious"
+ cult_of_taal_religion_rebels_name:0 "$RELIGION$ Zealots"
+ cult_of_taal_religion_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ cult_of_taal_religion_rebels_army:0 "$RELIGION$ Army"
+ TAAL_HERETIC:0 "Taalite Heretic"
+
+ ########################################
+ #Old World Pantheon#
+ ########################################
+ old_world_cults_religion:0 "Old World Pantheon"
+ old_world_cults_religion_religion_desc:0 "The Old World Pantheon refers to a collection of deities worshipped by the realms of Mankind on the Old World continent.\n\nIn the game this religion is used to cover a wide variety of cults praciticed by denizens of the old world."
+ old_world_cults_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
+ old_world_cults_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ old_world_cults_religion_rebels_title:0 "Religious"
+ old_world_cults_religion_rebels_name:0 "$RELIGION$ Zealots"
+ old_world_cults_religion_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ old_world_cults_religion_rebels_army:0 "$RELIGION$ Army"
+
+ #######
+ #CHAOS#
+ #######
+ ruinous_powers_denominations:0 "Ruinous Powers"
+ DARK_CRUSADE:0 "Dark Crusade"
+ CHAOS_HERETIC:0 "Chaos Heretics"
+
+ #################
+ #CHAOS UNDIVIDED#
+ #################
+  
+ chaos_undivided_religion:0 "Chaos Undivided"
+ chaos_undivided_religion_religion_desc:0 "Chaos Undivided worshipers pay homage to the pantheon of the major Chaos Gods as a whole rather than owing complete fealty to one over the others."
+ chaos_undivided_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
+ chaos_undivided_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ chaos_undivided_religion_rebels_title:0 "Religious"
+ chaos_undivided_religion_rebels_name:0 "$RELIGION$ Zealots"
+ chaos_undivided_religion_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ chaos_undivided_religion_rebels_army:0 "$RELIGION$ Army"
+
+ MALAL:0 "Malal"
+ BELAKOR:0 "Be'lakor"
+ 
+ mark_of_nurgle_order:0 "Mark of Nurgle"
+ mark_of_tzeentch_order:0 "Mark of Tzeentch"
+ mark_of_khrone_order:0 "Mark of Khrone"
+ mark_of_slaanesh_order:0 "Mark of Slaanesh"
+ mark_of_khrone_order_desc:0 ""
+ mark_of_nurgle_order_desc:0 ""
+ mark_of_slaanesh_order_desc:0 ""
+ mark_of_tzeentch_order_desc:0 ""
+
+
+ ##########
+ #Tzeentch#
+ ##########
+
+ tzeentchian_religion:0 "Tzeentchian"
+ tzeentchian_religion_religion_desc:0 "Tzeeentch, also know as the "Changer of Ways" is the Chaos God of change, evolution, ambition, destiny, lies, trickery, sorcery, knowledge, and mutation."
+ tzeentchian_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
+ tzeentchian_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ tzeentchian_religion_rebels_title:0 "Religious"
+ tzeentchian_religion_rebels_name:0 "$RELIGION$ Zealots"
+ tzeentchian_religion_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ tzeentchian_religion_rebels_army:0 "$RELIGION$ Army"
+
+ ########
+ #Khorne#
+ ########
+ khornate_religion:0 "Khornate"
+ khornate_religion_religion_desc:0 "Khorne, also known as the "Blood God" is the Chaos God of war, hatred, wrath, rage, murder, blood, strength, courage and martial honour."
+ khornate_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
+ khornate_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ khornate_religion_rebels_title:0 "Religious"
+ khornate_religion_rebels_name:0 "$RELIGION$ Zealots"
+ khornate_religion_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ khornate_religion_rebels_army:0 "$RELIGION$ Army"
+
+ champion_of_khorne_aspect:0 "Champion of Khrone!"
+ drawn_to_destruction_aspect:0 "Drawn to Destruction!"
+ skulls_for_the_skull_throne_aspect:0 "Skulls for the skull throne!"
+ blade_of_khorne_aspect:0 "Blade of Khrone!"
+
+ desc_champion_of_khorne_aspect:0 "A great champion of Khorne arises, ready to slaughter in the blood god's name."
+ desc_drawn_to_destruction_aspect:0 "Khorne desires skulls, so gifts His followers with the initiative to find them. Every. Single. One."
+ desc_skulls_for_the_skull_throne_aspect:0 "SKULLS FOR THE SKULL THRONE! BLOOD FOR THE BLOOD GOD! LET! THE GALAXY! BURN!."
+ desc_blade_of_khorne_aspect:0 "Walls are no defense aganist the unbridled fury of Khorne"
+
+ 
+
+ ########
+ #Nurgle#
+ ########
+  
+ nurglite_religion:0 "Nurglite"
+ nurglite_religion_religion_desc:0 "Nurgle, also known as the "Plague Lord" is the Chaos God of disease, decay, despair, destruction, death and rebirth."
+ nurglite_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
+ nurglite_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ nurglite_religion_rebels_title:0 "Religious"
+ nurglite_religion_rebels_name:0 "$RELIGION$ Zealots"
+ nurglite_religion_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ nurglite_religion_rebels_army:0 "$RELIGION$ Army"
+
+ ########
+ #Slaaneshi#
+ ########
+  
+ slaaneshi_religion:0 "Slaaneshi"
+ slaaneshi_religion_religion_desc:0 "Slaanesh, also known as the "Dark Prince" is the Chaos God of pleasure, passion, obsession, excess, hedonism, decadence and pain. "
+ slaaneshi_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
+ slaaneshi_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ slaaneshi_religion_rebels_title:0 "Religious"
+ slaaneshi_religion_rebels_name:0 "$RELIGION$ Zealots"
+ slaaneshi_religion_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ slaaneshi_religion_rebels_army:0 "$RELIGION$ Army"
+
+ ########
+ #norscan#
+ ########
+
+ norscan:0 "Norscan Gods"
+ norscan_religion_desc:0 "Although characterized as worshippers of the Ruinious Powers, the tribes of Norsca pay homage to a variety of spirits and enteities."
+ norscan_rebels_demand:0 "Convert $COUNTRYNAME$"
+ norscan_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ norscan_rebels_title:0 "Religious"
+ norscan_rebels_name:0 "$RELIGION$ Zealots"
+ norscan_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ norscan_rebels_army:0 "$RELIGION$ Army"
+ NORSCAN_HERETIC:0 "Norscan heretics"
+ 
+ #################
+ #Hashut#
+ #################
+ 
+ hashut:0 "Hashut"
+ hashut_religion_desc:0 "Hashut is the Dark Father of Chaos Dwarfs, a cruel and violent deity, His idols usually depict him as a brazen bull. To this day, scholars still discuss whether Hashut is a true Chaos God, an upstart Great Daemon or something else, a primordial force that was spawned in the dawn of time. During the Great Cataclysm, the Ancestor Gods abandoned those that would become the Chaos Dwarfs, who found salvation in a new master, Hashut. In reward for centuries of devotion, He has gifted the Chaos Dwarfs with dark, sorcerous secrets. Sacrifices to Hashut are usually thrown into great, bull-shaped furnaces, where they burn to the death in His honour."
+ hashut_rebels_demand:0 "Convert $COUNTRYNAME$"
+ hashut_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ hashut_rebels_title:0 "Religious"
+ hashut_rebels_name:0 "$RELIGION$ Zealots"
+ hashut_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ hashut_rebels_army:0 "$RELIGION$ Army"
+ 
+
+ ###############
+ #necro-daddies#
+ ###############
+ necromantic_denominations:0 "Necromantic"
+  
+ vampiric:0 "Vampiric"
+ vampiric_religion_desc:0 "Vampires have little interest in devoting themselves or their minions to another power. Even if, the processes of becoming a vampire and being a vampires has every god curse them. Instead most are uttterly devoted to the founders of their bloodlines, and while they have not yet ascended to Godhood, they expect to be worshipped as ones."
+ vampiric_rebels_demand:0 "Convert $COUNTRYNAME$"
+ vampiric_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ vampiric_rebels_title:0 "Religious"
+ vampiric_rebels_name:0 "$RELIGION$ Zealots"
+ vampiric_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ vampiric_rebels_army:0 "$RELIGION$ Army"
+  
+ nagash_worship:0 "Nagashi"
+ nagash_worship_religion_desc:0 "Nagash was the father and creator of the foul art of necromancy, whose machinations almost saw him become one of the most powerful beings in the world. \n\nThough not yet strictly a god, some madmen and necromancers worship Nagash as if he was one.\n\nAnd he expects to be worshipped as one."
+ nagash_worship_rebels_demand:0 "Convert $COUNTRYNAME$"
+ nagash_worship_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ nagash_worship_rebels_title:0 "Religious"
+ nagash_worship_rebels_name:0 "$RELIGION$ Zealots"
+ nagash_worship_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ nagash_worship_rebels_army:0 "$RELIGION$ Army"
+ NAGASH_HERETICS:0 "Nagash Heretics"
+ 
+ #greenskins
+ greenskin_denominations:0 "Greenskin Faiths"
+ 
+ gork_n_mork_religion:0 "Gork n' Mork"
+ gork_n_mork_religion_religion_desc:0 "Gork and Mork are the twin Gods of the Greenskin race, each one representing two of the most defining characteristics of the Orcs and Goblins. In the Greenskins use of words, Gork is brutally cunning, while Mork is cunningly brutal. The core "difference" between the two is that Mork will hit you when you aren't looking, while Gork will hit you harder when you are.\n\nIn game this religion represents the religious beliefs of the greenskins"
+ gork_n_mork_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
+ gork_n_mork_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ gork_n_mork_religion_rebels_title:0 "Religious"
+ gork_n_mork_religion_rebels_name:0 "$RELIGION$ Zealots"
+ gork_n_mork_religion_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ gork_n_mork_religion_rebels_army:0 "$RELIGION$ Army"
+ MORK:0 "Mork"
+ GORK:0 "Gork"
+ 
+
+ #spider cult, forest gobbos
+ spider_cult_religion:0 "Spider Cult"
+ spider_cult_religion_religion_desc:0 "Centered on the being known as the Feaster from Beyond, the spider cult is primarily worshiped by the Forest Goblins.\n\nWhen the goblins arrived in the woodlands, they discovered the Arachnarok Spiders, largest of all spiders. Arachnarok Spiders eluded any attempt to tame or defeat them and so, the goblins took on to worshipping them."
+ spider_cult_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
+ spider_cult_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ spider_cult_religion_rebels_title:0 "Religious"
+ spider_cult_religion_rebels_name:0 "$RELIGION$ Zealots"
+ spider_cult_religion_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ spider_cult_religion_rebels_army:0 "$RELIGION$ Army"
+ 
+ # ogres
+ ogre_denominations:0 "Ogre Religions"
+ 
+ the_great_maw_religion:0 "The Great Maw"
+ the_great_maw_religion_religion_desc:0 "The Great Maw is the primary god of the Ogres. The Ogres fear their dreadful 'god', waging war and preying on every other civilisation and species in the name of that horrific deity. "
+ the_great_maw_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
+ the_great_maw_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ the_great_maw_religion_rebels_title:0 "Religious"
+ the_great_maw_religion_rebels_name:0 "$RELIGION$ Zealots"
+ the_great_maw_religion_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ the_great_maw_religion_rebels_army:0 "$RELIGION$ Army"
+ OGRE_CRUSADE:0 "The Big Migration"
+ GREAT_MAW_HERETIC:0 "Great Maw Heretics"
+
+ # elfish
+ elven_denominations:0 "Elf Denominations"
+ 
+ asrai_cadai:0 "The Asrai Pantheon"
+ asrai_cadai_religion_desc:0 "The Wood Elves hold Kurnous and Isha above all other beings. Unlike their High and Dark Elven breathern they make little distinction between the Gods of the Heavens and the Gods of the Underworld. In addition, they also worship ancient spirits of the forest, for it was they who spoke on behalf of Athel Loren when the pact between forest and elf was made."
+ asrai_cadai_rebels_demand:0 "Convert $COUNTRYNAME$"
+ asrai_cadai_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ asrai_cadai_rebels_title:0 "Religious"
+ asrai_cadai_rebels_name:0 "$RELIGION$ Zealots"
+ asrai_cadai_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ asrai_cadai_rebels_army:0 "$RELIGION$ Army"
+ ASRAI_HERETICS:0 "Asrai Pantheonic Heretics"
+ 
+ cytharai:0 "The Cytharai"
+ cytharai_religion_desc:0 "The Cytharai are the Elven Gods of the Mirai, the Underworld, they are headed by Ereth Khial, the Pale Queen. While in Ulthuan and Athel Loren they are only to be appeased in small ceremonies, the Dark Elves of Naggaroth openly worship these deities. The most widely spread religion amongst them is the worship of Khaine, a God of many aspects, but especially, War and Murder. Many small cults and covens worship him, but none are better known than the Witch Elves, which constantly sacrifice prisoners to curry favour with their Bloody God. Other popular gods include, Hekarti, Mistress of Magic, Atharti, Lady of Desire and Anath Raema, the Savage Huntress."
+ cytharai_rebels_demand:0 "Convert $COUNTRYNAME$"
+ cytharai_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ cytharai_rebels_title:0 "Religious"
+ cytharai_rebels_name:0 "$RELIGION$ Zealots"
+ cytharai_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ cytharai_rebels_army:0 "$RELIGION$ Army"
+ 
+ cadai:0 "The Cadai"
+ cadai_religion_desc:0 "The Cadai are the Elven Gods of the Heavens, headed by Asuryan, the Creator. The cult of Asuryan is the most popular with the Elves of Ulthuan, as he is worshipped by all independently of their profession and class. All Asur must make a pilgrimage to the main temple of Asuryan in the Isle of Flame in Ulthuan at least once. The Isle of Flame is where the Phoenix King is crowned and made to pass the test of the flames of Asuryan. Besides Asuryan, the High Elves also worship the other gods of their pantheon depending on their professions. For example, mages tend to favour Hoeth, the Lord of Wisdom and Knowledge, while smiths worship Vaul, the Maker. The Dark Elves entirely ignore the Cadai pantheon, while the Wood Elves favour Kurnous, the Hunter, over Asuryan."
+ cadai_rebels_demand:0 "Convert $COUNTRYNAME$"
+ cadai_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ cadai_rebels_title:0 "Religious"
+ cadai_rebels_name:0 "$RELIGION$ Zealots"
+ cadai_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ cadai_rebels_army:0 "$RELIGION$ Army"
+ 
+ ###########
+ #Nehekhara
+ ###########
+ nehekharan_denominations:0 "Nehekharan Pantheon"
+ nehekharan_pantheon:0 "The Nehekharan Pantheon"
+ nehekharan_pantheon_religion_desc:0 "There are many Gods and Goddesses in the Nehekharan pantheon, taking hundreds of different forms. These include natural phenomena (stars, moon, sun etc.) or animals of the desert. Some of the most important Gods are: Ptra the God of the Sun, Asaph the Goddess of Magic and Usirian, God of the Underworld. Most of their gods are only remembered because of their blessings on the Nehekharan armies, as all gods relating to average life have been nullified since "proper life" was destroyed by the curse of Nagash. Despite everything, the gods of old Nehekhara have continued to guide and aid their charges."
+ nehekharan_pantheon_rebels_demand:0 "Convert $COUNTRYNAME$"
+ nehekharan_pantheon_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ nehekharan_pantheon_rebels_title:0 "Religious"
+ nehekharan_pantheon_rebels_name:0 "$RELIGION$ Zealots"
+ nehekharan_pantheon_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ nehekharan_pantheon_rebels_army:0 "$RELIGION$ Army"
+ 
+  
+ ###########
+ #skaven
+ ###########
+ skaven_denominations:0 "Skaven"
+ horned_rat:0 "Horned Rat"
+ horned_rat_religion_desc:0 "The supreme god of the Skaven, and he brooks no other gods before him among the ratmen. Even though he is not a major Chaos Gods, he is undoubtedly one of them."
+ horned_rat_rebels_demand:0 "Convert $COUNTRYNAME$"
+ horned_rat_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace. The Horned Rat is an embodiment of decay, ruin, pestilence, strife, hunger, ambition and all the other ignoble characteristics that represent the sum total of all the Skaven race is and all the ratmen hope to be."
+ horned_rat_rebels_title:0 "Religious"
+ horned_rat_rebels_name:0 "$RELIGION$ Zealots"
+ horned_rat_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ horned_rat_rebels_army:0 "$RELIGION$ Army"
+ VERMINTIDE:0 "Vermintide"
+ 
+ ###########
+ #Lizardmen/ Old Ones
+ ###########
+ lizardmen_denominations:0 "Lizardmen"
+ old_ones:0 "Old Ones"
+ old_ones_religion_desc:0 "The Old Ones represents the religion of the Lustrian and Southland Lizardmen. The 'Old Ones' were am ancient race of beings who came from the stars, with a power so great that it could shape worlds to their whims. The Lizardmen, one of their many creations, now venerate the Old Ones as their gods and long-gone masters, and try to carry out and interpret their 'Great Plan'. The Slann Mage Priests are at the head of the most important rituals and sacrifices, while Skink Shamans usually conduct the lesser divinations."
+ old_ones_rebels_demand:0 "Convert $COUNTRYNAME$"
+ old_ones_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ old_ones_rebels_title:0 "Religious"
+ old_ones_rebels_name:0 "$RELIGION$ Zealots"
+ old_ones_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ old_ones_rebels_army:0 "$RELIGION$ Army"
+ OLD_ONES_HERETIC:0 "Old Ones Heretics"
+ 
+ ###########
+ #Eastern/ Yin and Yang
+ ###########
+ eastern_denominations:0 "Eastern"
+ yin_yang:0 "Harmony"
+ yin_yang_religion_desc:0 "Harmony represents the practices of the men inhabiting the Far East, primarily in Grand Cathay. While the The Dragon Emperor and Moon Empress are revered throughout Grand Cathay as great leaders worthy of obedience and adoration, they do not claim to be gods and do not wish to be worshipped in a religious sense.\n\nIn it's stead Harmony is the driving force behind Cathayan society. The teachings of the Dragon Emperor are such that everyone must work in concert with themselves and the land for the betterment of all and to find their natural place. This quest for harmony drives everything in Cathay."
+ yin_yang_rebels_demand:0 "Convert $COUNTRYNAME$"
+ yin_yang_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ yin_yang_rebels_title:0 "Religious"
+ yin_yang_rebels_name:0 "$RELIGION$ Zealots"
+ yin_yang_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ yin_yang_rebels_army:0 "$RELIGION$ Army"
+ YIN_YANG_HERETIC:0 "Disharmony Heretics"
+ 
+ ###########
+ #Indish
+ ###########
+ indish_denominations:0 "Indish"
+ the_thousand_gods:0 "The Thousand Gods"
+ the_thousand_gods_religion_desc:0 ""
+ the_thousand_gods_rebels_demand:0 "Convert $COUNTRYNAME$"
+ the_thousand_gods_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ the_thousand_gods_rebels_title:0 "Religious"
+ the_thousand_gods_rebels_name:0 "$RELIGION$ Zealots"
+ the_thousand_gods_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ the_thousand_gods_rebels_army:0 "$RELIGION$ Army"
+ IND_HERETIC:0 "Indish Heretics"
+ 
+ ###########
+ # kislev_old_faith
+ ###########
+ kislev_old_faith:0 "The Old Faiths"
+ kislev_old_faith_religion_desc:0 "The Old Faiths represents the loose collection of deities, minor spirits and other beings that were widely worshipped by Kislevites. While the Great Orthodoxy is popular in Kislev, many Kislevites still prefer the old ways of the traditional cults and utterly reject the centralisation of their faiths under the Great Orthodoxy."
+ kislev_old_faith_rebels_demand:0 "Convert $COUNTRYNAME$"
+ kislev_old_faith_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ kislev_old_faith_rebels_title:0 "Religious"
+ kislev_old_faith_rebels_name:0 "$RELIGION$ Zealots"
+ kislev_old_faith_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ kislev_old_faith_rebels_army:0 "$RELIGION$ Army"
+ 
+ #dwarf
+ dawi_denominations:0 "Dwarf Denominations"
+ ancestor_gods:0 "Ancestor Gods"
+ ancestor_gods_religion_desc:0 "The Ancestor Gods represent the chief deities worshipped by the Dwarfs. The Dwarfs venerate their once-mortal legendary ancestors instead of worshipping distant otherworldly gods like Men and Elves. Dwarfs believe that the spirits of the Ancestors watch over them, guide their actions, judge their achievements and determine if they have led worthy lives.\n\n Of these gods, Grungni, Valaya, and Grimnir are the most important. According to Dwarflore, the three were born from deep within the hearts of the first mountains of the mortal world, and the entire Dwarf race are descended from them."
+ ANCESTOR_GODS_HERETICS:0 "Ancestor God Heretics"
+ 
+ #albion
+ the_old_faith:0 "The Old Faiths"
+ druidism:0 "Druidism"
+ 
+ #arabyn
+ arabyn_denominations:0 "Arabyn Denominations"
+ the_one_faith:0 "The One Faith"
+ the_one_faith_religion_desc:0 "The One Faith represents a monotheist religion primarily practiced by the humans inhabiting the Northern Southlands. The One is the solar god, king of the heavens and protector of men, who enlightens them with his blessings but also with his anger. The humble and reasonable man will be able to attract his favours, but the unruly and reckless will only attract his wrath."
+ HERETIC:0 "Arabyn Heretic"
+ 
+ #draconic
+ draconic_denominations:0 "Dragon Cults"
+ dragon_cult:0 "Dragon Cults"
+ dragon_cult_religion_desc:0 "Abandoned and ignored by distant gods, some people have turned to worshipping the great dragons who once owned the lands and now mostly lie dormant. It is not a unified faith but a collect of many different minor cults devoted to different dragons. All agree that the dragons themselves are divine, and find their draconic deities to be much more acceptable than empty prayers offered in temples. All seek to awaken the dragons and see them wreak havoc on their enemies."
+
+ #harominzed
+ harmonized_old_world:0 "Harmonized Old World"
+ desc_harmonized_old_world:0 ""
+ harmonized_necromantic:0 "Harmonized Necromantic"
+ desc_harmonized_necromantic:0 ""
+ harmonized_greenskin:0 "Harmonized Greenskin"
+ desc_harmonized_greenskin:0 ""
+ harmonized_ogre:0 "Harmonized Ogre"
+ desc_harmonized_ogre:0 ""
+ harmonized_elven:0 "Harmonized Elven"
+ desc_harmonized_elven:0 ""
+ harmonized_chaos:0 "Harmonized Chaos"
+ desc_harmonized_chaos:0 ""
+ harmonized_dwarf:0 "Haromized Dwarf"
+ desc_harmonized_dwarf:0 ""
+ harmonized_old_faith:0 "Harmonized Old Faith"
+ desc_harmonized_old_faith:0 ""
+ harmonized_arabyn:0 "Harmonized Arabyn"
+ desc_harmonized_arabyn:0 ""
+ harmonized_draconic:0 "Harmonized Draconic"
+ desc_harmonized_draconic:0 ""
+ harmonized_nehekharan:0 "Harmonized Nehekharan"
+ desc_harmonized_nehekharan:0 ""
+ harmonized_skaven:0 "Harmonized Skaven"
+ desc_harmonized_skaven:0 ""
+ 
+ harmonized_indish:0 "Harmonized Indish"
+ desc_harmonized_indish:0 ""
+ 
+ harmonized_eastern:0 "Harmonized Eastern"
+ desc_harmonized_eastern:0 ""
+ 
+ harmonized_lizardmen:0 "Harmonized Lizardmen"
+ desc_harmonized_lizardmen:0 ""
+ 

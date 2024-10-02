@@ -1,0 +1,10 @@
+base_tax = 2
+base_manpower = 1
+base_production = 1
+trade_goods = fish
+religion = chaos_undivided_religion
+is_city = yes
+owner = B53
+controller = B53
+culture = yin
+add_core = B53

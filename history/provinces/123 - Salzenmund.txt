@@ -1,0 +1,22 @@
+owner = A10
+controller = A10
+add_core = A10
+culture = nordlander
+religion = cult_of_ulric_religion
+center_of_trade = 1
+fort_15th = yes
+hre = yes
+ 
+base_tax = 5
+base_production = 5
+trade_goods = gold
+base_manpower = 4
+
+is_city = yes
+
+
+
+
+
+
+

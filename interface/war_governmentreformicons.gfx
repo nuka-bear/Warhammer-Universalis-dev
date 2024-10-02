@@ -1,0 +1,72 @@
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_viking"
+		texturefile = "gfx//interface//government_reform_icons//viking.dds"
+	}
+	spriteType = {
+		name = "government_reform_bretonnian_king"
+		texturefile = "gfx//interface//government_reform_icons//bretonnian_king.dds"
+	}
+	spriteType = {
+		name = "government_reform_bretonnian_duke"
+		texturefile = "gfx//interface//government_reform_icons//bretonnian_duke.dds"
+	}
+	spriteType = {
+		name = "government_reform_malekith"
+		texturefile = "gfx//interface//government_reform_icons//malekith.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_chaos_warriors"
+		texturefile = "gfx//interface//government_reform_icons//chaos_warriors.dds"
+	}
+	spriteType = {
+		name = "government_reform_sigmar"
+		texturefile = "gfx//interface//government_reform_icons//sigmar.dds"
+	}
+	spriteType = {
+		name = "government_reform_greenskin"
+		texturefile = "gfx//interface//government_reform_icons//greenskin.dds"
+	}
+	spriteType = {
+		name = "government_reform_ulric"
+		texturefile = "gfx//interface//government_reform_icons//ulric.dds"
+	}
+	spriteType = {
+		name = "government_reform_lizardmen"
+		texturefile = "gfx//interface//government_reform_icons//lizardmen.dds"
+	}
+	spriteType = {
+		name = "government_reform_vampire"
+		texturefile = "gfx//interface//government_reform_icons//vampire.dds"
+	}
+	spriteType = {
+		name = "government_reform_nehekhara"
+		texturefile = "gfx//interface//government_reform_icons//nehekhara.dds"
+	}
+	spriteType = {
+		name = "government_reform_eshin"
+		texturefile = "gfx//interface//government_reform_icons//eshin.dds"
+	}
+	spriteType = {
+		name = "government_reform_vermintide"
+		texturefile = "gfx//interface//government_reform_icons//vermintide.dds"
+	}
+	spriteType = {
+		name = "government_reform_skryre"
+		texturefile = "gfx//interface//government_reform_icons//skryre.dds"
+	}
+	spriteType = {
+		name = "government_reform_moulder"
+		texturefile = "gfx//interface//government_reform_icons//moulder.dds"
+	}
+	spriteType = {
+		name = "government_reform_pestilens"
+		texturefile = "gfx//interface//government_reform_icons//pestilens.dds"
+	}
+	spriteType = {
+		name = "government_reform_grey_seer"
+		texturefile = "gfx//interface//government_reform_icons//grey_seer.dds"
+	}
+	
+}

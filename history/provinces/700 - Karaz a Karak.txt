@@ -1,0 +1,15 @@
+#Uppland, contains Stockholm, Uppsala & Nyk�ping.
+#lol
+owner = U04
+controller = U04
+culture = common_dwarf
+religion = ancestor_gods
+base_tax = 10
+base_production = 10
+base_manpower = 10
+trade_goods = cloth
+capital = ""
+is_city = yes
+center_of_trade = 1
+add_core = U04
+fort_15th = yes

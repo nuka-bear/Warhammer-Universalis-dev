@@ -1,0 +1,22 @@
+
+owner = A26
+controller = A26
+add_core = A26
+culture = carcassonnian
+religion = lady_of_the_lake
+ 
+hre = no
+
+base_tax = 5
+base_production = 4
+trade_goods = iron
+base_manpower = 6
+
+is_city = yes
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+owner = A13
+controller = A13
+add_core = A13
+culture = sylvanian 
+religion = vampiric
+ 
+hre = no
+
+base_tax = 1
+base_production = 1
+trade_goods = livestock
+base_manpower = 2
+
+is_city = yes
+
+
+
+
+
+
+

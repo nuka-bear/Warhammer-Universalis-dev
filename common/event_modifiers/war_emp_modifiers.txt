@@ -1,0 +1,31 @@
+#Religious Tension Modifiers
+
+emp_religious_tension_1 = {
+	improve_relation_modifier = 0.2
+	relation_with_heretics = 25
+	tolerance_heretic = 3
+}
+
+emp_religious_tension_2 = {
+	improve_relation_modifier = 0.1
+	global_heretic_missionary_strength = -0.01
+	relation_with_heretics = 10
+}
+
+emp_religious_tension_3 = {
+	relation_with_heretics = 5
+}
+
+emp_religious_tension_4 = {
+	imperial_authority = -0.2
+	global_heretic_missionary_strength = -0.03
+	religious_unity = -0.25
+	relation_with_heretics = -25
+}
+
+emp_religious_tension_5 = {
+	imperial_authority = -0.3
+	global_heretic_missionary_strength = -0.05
+	religious_unity = -0.25
+	relation_with_heretics = -50
+}

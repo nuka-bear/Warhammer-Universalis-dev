@@ -1,0 +1,101 @@
+country_decisions = {
+
+	restore_the_empire = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = restored_the_empire_flag }
+			owns = 2
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { tag = A99 } #empire does not exist
+			NOT = { exists = A99 }
+			OR = {
+				culture_group = imperial_group
+				culture = halfling
+			}
+			is_part_of_hre = no
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						region = southern_empire_region
+						region = central_empire_region
+						region = northern_empire_region
+					}
+					root = {
+						NOT = {
+							num_of_owned_provinces_with = {
+								is_core = ROOT
+								OR = {
+									region = southern_empire_region
+									region = central_empire_region
+									region = northern_empire_region
+								}
+								value = 100
+							}
+						}
+					}
+				}
+				province_id = 2
+				province_id = 31
+				province_id = 116
+				province_id = 162
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_part_of_hre = no
+			#Requires provinces
+			owns_core_province = 2		#Altdof
+			owns_core_province = 31
+			owns_core_province = 116	#Middenhelm
+			owns_core_province = 162	#Talabheim
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				OR = {
+					region = southern_empire_region
+					region = central_empire_region
+					region = northern_empire_region
+				}
+				value = 100
+			}
+		}
+		effect = {
+			restore_country_name = yes
+			change_tag = A99
+			on_change_tag_effect = yes
+			set_government_rank = 3
+			set_country_flag = restored_the_empire_flag
+			add_prestige_or_monarch_power = { amount = 50 }
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = restored_the_empire_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

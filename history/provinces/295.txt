@@ -1,0 +1,13 @@
+owner = A16
+controller = A16
+capital = "L’Anguille"
+culture = bretoni
+religion = lady_of_the_lake
+center_of_trade = 2
+base_tax = 8
+base_production = 8
+trade_goods = paper
+base_manpower = 7
+is_city = yes
+add_core = A16
+fort_15th = yes

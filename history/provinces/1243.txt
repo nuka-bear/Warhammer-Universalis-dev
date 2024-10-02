@@ -1,0 +1,10 @@
+owner = Z27
+base_tax = 1
+base_manpower = 3
+base_production = 2
+trade_goods = salt
+religion = the_one_faith
+controller = Z27
+is_city = yes
+culture = sudron_arabyn
+add_core = Z27

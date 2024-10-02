@@ -1,0 +1,9 @@
+#exiles of Nehek
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = nehekharan_culture
+religion = nehekharan_pantheon
+technology_group = tech_tomb_kings
+capital = 1789
+setup_vision = yes
+government_rank = 1

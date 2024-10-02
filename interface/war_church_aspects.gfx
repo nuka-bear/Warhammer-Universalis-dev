@@ -1,0 +1,29 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_blade_of_khorne"
+		texturefile = "gfx/interface/church_aspects/blade_of_khorne_icon.dds"
+		legacy_lazy_load=no
+	}
+
+	spriteType = {
+		name = "GFX_champion_of_khorne"
+		texturefile = "gfx/interface/church_aspects/champion_of_khorne_icon.dds"
+		legacy_lazy_load=no
+	}
+
+	spriteType = {
+		name = "GFX_drawn_to_destruction"
+		texturefile = "gfx/interface/church_aspects/drawn_to_destruction_icon.dds"
+		legacy_lazy_load=no
+	}
+	
+	spriteType = {
+		name = "GFX_skulls_for_the_skull_throne"
+		texturefile = "gfx/interface/church_aspects/skulls_for_the_skull_throne_icon.dds"
+		legacy_lazy_load=no
+	}
+}	
+
+
+

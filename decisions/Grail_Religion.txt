@@ -1,0 +1,44 @@
+country_decisions = {
+	
+	heir_grail_quest = {
+		color = { 230 126 34 }
+		major = yes
+		potential = {
+			government = monarchy 
+			religion = lady_of_the_lake
+			is_lesser_in_union = no
+			has_heir = yes
+			NOT = {
+				OR = {
+					heir_has_personality = grail_knight_personality
+					has_heir_flag = heir_started_grail_quest
+				}
+			}
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = NOT_STARTED_HEIR_GRAIL_QUEST
+				AND = {
+					NOT = {
+						has_heir_flag = heir_started_grail_quest
+					}
+					NOT = {
+						heir_has_personality = grail_knight_personality
+					}
+				}
+				heir_age = 16 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		effect = {
+			country_event = {
+				id = flavor_bretonnia.900
+			}
+			hidden_effect = {
+				set_heir_flag = heir_started_grail_quest
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+government = monarchy
+primary_culture = skryre_skaven
+religion = horned_rat
+technology_group = tech_skaven
+capital = 4606# Gao
+government_rank = 1
+setup_vision = yes
+add_government_reform = autocracy_reform
+1900.10.15 = {
+	monarch = {
+		name = "Morskittar"
+		dynasty = "Skryre"
+		birth_date = 1900.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

@@ -1,0 +1,8 @@
+government = monarchy
+setup_vision = yes
+add_government_reform = autocracy_reform 
+primary_culture = common_dwarf
+religion = ancestor_gods
+technology_group = tech_dwarf
+capital = 1088 
+government_rank = 2

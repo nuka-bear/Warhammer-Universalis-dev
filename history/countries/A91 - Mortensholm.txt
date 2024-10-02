@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = noble_elite_reform
+primary_culture = middenlander
+religion = cult_of_ulric_religion
+technology_group = tech_imperial
+capital = 655
+fixed_capital = 655
+setup_vision = yes
+government_rank = 1
