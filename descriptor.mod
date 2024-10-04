@@ -1,4 +1,4 @@
-name="Warhammer Universalis"
+name="Warhammer Universalis dev"
 tags={
 	"Alternative History"
 	"Total Conversion"
@@ -28,4 +28,4 @@ replace_path="history/advisors"
 replace_path="gfx/loadingscreens"
 picture="thumbnail.png"
 supported_version="v1.37.*"
-path="C:/Users/NAMEHERE/Documents/Paradox Interactive/Europa Universalis IV/mod/Warhammer Universalis dev"
+path="C:/Users/daniel/Documents/Paradox Interactive/Europa Universalis IV/mod/Warhammer Universalis dev"

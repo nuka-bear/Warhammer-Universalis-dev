@@ -1,0 +1,13 @@
+owner = B71
+controller = B71
+add_core = B71
+
+culture = eonir
+religion = asrai_cadai
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = wine
+
+is_city = yes

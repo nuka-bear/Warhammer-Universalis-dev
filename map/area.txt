@@ -106,6 +106,9 @@ forest_of_shadows_area = {
 misty_hills_area = {
 	209 128 208 
 }
+laurelorn_forest = {
+	610 743 744 4892 4932
+}
 #Averland
 averheim_area = {
 	51 52 54 23 27 
@@ -154,7 +157,7 @@ marreinburg_area = {
 	79 81 83 84 
 }
 tumble_downs_area = {
-	80 87 88 89 
+	80 87 88 89 4933
 }
 bitter_moors_area = {
 	82 86 
@@ -211,7 +214,10 @@ grismerie_area = {
 	272 274 279 278 
 }
 parravon_area = {
-	205 263 267 268 266 
+	267 268 266 
+}
+grey_lady_pass_area = {
+	205 577 263 
 }
 couronne_marches_area = {
 	90 305 306 
@@ -376,7 +382,7 @@ hellands_area = {
 	418 419 476 416 414 
 }
 gates_of_hel_area = {
-	1165 1160 1161 1162 
+	1165 1160 1161 1162 448 
 }
 fimbul_area = {
 	460 462 466 457 468 
@@ -478,7 +484,7 @@ feroz_area = {
 }
 #tilea
 miragliano_area = {
-	566 567 568 569 
+	566 568 569 
 }
 iseo_valley_area = {
 	573 575 576 
@@ -587,16 +593,16 @@ treblecz_area = {
 	656 657 658 823 415 
 }
 eagle_confederacy_area = {
-	826 827 856 855 866 
+	826 827 856 855 
 }
 black_venom_run_area = {
-	865 872 873 878 
+	865 872 873 878 866
 }
 blood_river_area = {
 	888 890 891 
 }
 howling_river_area = {
-	885 883 880 881 882 
+	4837 883 880 881 882 
 }
 skull_river_area = {
 	875 874 877 867 879 
@@ -608,7 +614,7 @@ barak_varr_area = {
 	754 753 
 }
 varenka_hills_area = {
-	756 758 818 757 
+	756 758 818 757 885
 }
 #wheatlands
 wheatland_area_1 = {
@@ -670,7 +676,7 @@ mad_dog_pass_area = {
 }
 #Grey Mountains
 pale_sisters_area = {
-	695 
+	695 324 388 346
 }
 karak_norn_area = {
 	4486 4426 4487 4488 4489 
@@ -710,7 +716,7 @@ talsyn_area = {
 	771 770 683 665 662 
 }
 wydrioth_area = {
-	671 677 766 767 
+	671 677 766 767 593
 }
 atylwyth_area = {
 	670 769 
@@ -723,7 +729,7 @@ badlands_area_1 = {
 	694 689 698 64 752 
 }
 badlands_area_2 = {
-	690 697 695 696 739 
+	690 697 696 739 
 }
 badlands_area_3 = {
 	692 691 693 4080 
@@ -907,12 +913,12 @@ desolation_of_nagash_5_area = {
 desolation_of_nagash_6_area = {
 	1183 1185 1221 1200 
 }
-#Lahmia
+#Lahmia-Lybaras
 charnal_valley_area = {
 	970 
 }
 lahmia_1_area = {
-	1187 1188 1189 
+	1187 1188 1189 609
 }
 lahmia_2_area = {
 	1194 1222 1075 
@@ -923,7 +929,7 @@ lahmia_3_area = {
 lahmia_4_area = {
 	1190 1191 1192 1186 1061 
 }
-#lahmia city
+#Lybaras city
 lahmia_5_area = {
 	1058 1057 1193 1059 1060 
 }
@@ -1006,6 +1012,9 @@ araby_20_area = {
 }
 antoch_area = {
 	1113 1114 1115 1116 1117 1118 
+}
+scorpion_road_area = {
+	570 574 586 587 387
 }
 #
 #Sudron
@@ -4327,9 +4336,10 @@ chaos_wastes_8_area = {
 	2659 2667 2666 2665 2660 
 }
 chaos_wastes_9_area = {
+	4938 2658
 }
 chaos_wastes_10_area = {
-	2661 2662 2663 2664 2658 
+	2661 2662 2663 2664 
 }
 chaos_wastes_11_area = {
 	2673 2674 2675 2677 2687 
@@ -4573,7 +4583,7 @@ mountains_of_mourn_5_area = {
 	2756 2758 2757 
 }
 mountains_of_mourn_6_area = {
-	2761 2759 2762 2763 
+	2761 2759 2762 2763 599
 }
 mountains_of_mourn_7_area = {
 	2784 2786 2787 2785 2788 
@@ -4585,7 +4595,7 @@ mountains_of_mourn_9_area = {
 	2766 2770 2768 2769 2791 
 }
 mountains_of_mourn_10_area = {
-	2767 2765 2764 1208 
+	2767 2765 2764 1208 4936
 }
 mountains_of_mourn_11_area = {
 	2772 2771 2798 2799 2801 
@@ -4996,7 +5006,7 @@ karak_hirn_area = {
 	4481 4480 4479 4477 4478 
 }
 mighdal_vongalbarak_area = {
-	4473 4474 4475 4476 
+	4473 4474 4475 4476 340
 }
 karak_izor_area = {
 	4503 4502 4504 
@@ -5017,16 +5027,16 @@ fester_spike_area = {
 	4494 4493 4495 
 }
 putrid_stump_area = {
-	4490 4491 4496 
+	4490 4491 4496 4497
 }
 vault_1_area = {
-	4507 4508 4509 
+	4507 4508 4509 334
 }
 vault_2_area = {
-	4497 4498 4492 4499 4500 
+	4498 4492 4499 4500 337
 }
 zhufbar_area = {
-	4472 4471 4470 4531 
+	4472 4471 4470 4531 4533
 }
 karak_kadrin_area = {
 	4537 4538 
@@ -5035,7 +5045,7 @@ peak_pass_area = {
 	4539 4540 
 }
 kings_way_area = {
-	4542 4532 4543 4541 4533 
+	4542 4532 4543 4541 
 }
 grom_peak_area = {
 	4549 4548 4550 
@@ -5064,20 +5074,28 @@ south_king_way_area = {
 mount_grimfang_area = {
 	4458 4457 4456 4461 4455 
 }
-silverspear_junction_area = {
-	4452 4451 4453 4454 
+mount_squighorn_area = {
+	353 359 360 361
 }
+silverspear_junction_area = {
+	4452 4451 4453 4454 4838
+}
+
+iron_rock_outstricts_area = {
+	372 371
+}
+
 thunder_junction_area = {
-	4447 4444 4445 4443 
+	4447 4444 4445 370 369
 }
 clan_rictus_tunnels = {
 	4450 4449 4448 4446 
 }
 black_crag_area = {
-	4440 4442 
+	4440 4442 4443 364
 }
 clan_moulder_tunnels = {
-	4572 4570 4569 4568 
+	4572 4570 4569 
 }
 foecleaver_swan_song_area = {
 	4556 4559 4565 4566 
@@ -5089,7 +5107,7 @@ karag_dronar_area = {
 	4466 4467 
 }
 karak_vlag_area = {
-	4577 4567 
+	4577 4567 4568
 }
 kvinn_wyr_area = {
 	4410 4411 4436 4730 
@@ -5101,10 +5119,10 @@ karag_nar_area = {
 	4412 4413 4439 
 }
 karag_lhune_area = {
-	4434 4749 4738 4423 
+	4434 4749 4738 
 }
 karagril_area = {
-	4530 4424 4435 
+	4530 4424 4435 4423
 }
 karag_zilfin_area = {
 	4420 4425 4438 
@@ -5119,7 +5137,7 @@ cripple_peak_area = {
 	4388 4389 666 
 }
 spitepak_area = {
-	4391 4390 
+	4391 4390 377 374
 }
 skull_crag_area = {
 	4395 4394 
@@ -5131,7 +5149,7 @@ karak_azul_area = {
 	4409 
 }
 crooked_fang_area = {
-	4406 4407 4405 
+	4406 4407 4405 4597
 }
 karak_azgal_area = {
 	4408 4574 
@@ -5302,7 +5320,7 @@ southern_underway_4_area = {
 	4399 4396 4400 4397 4596 
 }
 southern_underway_5_area = {
-	4404 4403 4597 
+	4404 4403 567
 }
 southern_underway_6_area = {
 	4401 4729 4731 
@@ -5425,10 +5443,10 @@ elithis_5_area = {
 	4757 4756 4754 
 }
 flayed_rock_area = {
-	2271 2272 2270 
+	2271 2272 2270 2276
 }
 gnoblar_hills_area = {
-	2276 2280 2282 
+	2280 2282 601
 }
 jade_river_area = {
 	1514 1469 1506 
@@ -5440,7 +5458,7 @@ great_river_area = {
 	1505 1383 1418 
 }
 misty_mountain_area = {
-	4815 4814 
+	4815 4814 385 382
 }
 southern_underway_7_area = {
 	4590 4588 
@@ -5454,6 +5472,7 @@ kamalaya_area = {
 warpstone_hills_area = {
 	1220 4832 4833 
 }
-tomb_valley_area = {
-	4837 4838 
+blizzard_peaks_area = {
+	4935 4934
 }
+

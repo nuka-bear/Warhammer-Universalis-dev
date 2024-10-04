@@ -1,10 +1,10 @@
-base_tax = 1
-base_manpower = 2
-base_production = 1
-trade_goods = unknown
+owner = G02
+controller = G02
 religion = gork_n_mork_religion
-native_size = 5
-native_ferocity = 7
-native_hostileness = 10
 culture = common_orc
-
+base_tax = 1
+base_production = 1
+trade_goods = iron
+base_manpower = 2
+is_city = yes
+add_core = G02
