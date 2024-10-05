@@ -5,7 +5,7 @@ religion = asrai_cadai
 technology_group = tech_wood_elf
 capital = 4892
 setup_vision = yes
-government_rank = 3
+government_rank = 2
 
 2502.1.1 = {
 	monarch = {

@@ -8,6 +8,3 @@ controller = Z80
 is_city = yes
 culture = bedouin_arabyan
 add_core = Z80
-
-
-

@@ -4,7 +4,7 @@
 #Skaven
 graphical_culture = westerngfx
 
-color = { 223 247 44   }
+color = { 80 110 51   }
 
 
 

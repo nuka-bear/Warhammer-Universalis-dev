@@ -1,6 +1,8 @@
 base_tax = 3
 base_manpower = 3
 base_production = 6
-trade_goods = unknown
-religion = nurglite_religion
 
+trade_goods = unknown
+
+religion = nurglite_religion
+culture = bjornling

@@ -64,6 +64,7 @@
  A59: "Estalia"
  A60: "Reman Empire"
  A61:0 "Monte Castello"
+ A62:0 "Sitges"
  A63: "Nuln"
  A64: "Argalis"
  A65: "Vardanos"
@@ -162,6 +163,7 @@
  A59_ADJ: "Estalian"
  A60_ADJ: "Reman"
  A61_ADJ:0 "Castellian"
+ A62_ADJ:0 "Sitges"
  A63_ADJ: "Nulner"
  A64_ADJ: "Argalies"
  A65_ADJ: "Vardanos"
@@ -265,6 +267,7 @@
  B68:0 "Praag"
  B69:0 "Erengard"
  B70:0 "Ropsmannia"
+ B71:0 "Laurelon"
  
  B01_ADJ:0 "Wood Elven"
  B02_ADJ:0 "Drak"
@@ -332,6 +335,7 @@
  B68_ADJ:0 "Praagite"
  B69_ADJ:0 "Erengardian"
  B70_ADJ:0 "Ropsmann"
+ B71_ADJ:0 "Eonir"
  
  G01:0 "Grimfangz"
  G02:0 "Bad Axes"
@@ -378,7 +382,9 @@
  G43:0 "Leaf Cutterz"
  G44:0 "Snake Eaterz"
  G45:0 "Speakin' Treez"
- G46:0 "Burnin’ Face"
+ G46:0 "Red Cloud"
+ G47:0 "Yellow Eye"
+ G48:0 "Broken Axe"
  
  G01_ADJ:0 "Grimfangz"
  G02_ADJ:0 "Bad Axe"
@@ -425,7 +431,9 @@
  G43_ADJ:0 "Leaf Cutterz"
  G44_ADJ:0 "Snake Eaterz"
  G45_ADJ:0 "Speakin' Treez"
- G46_ADJ:0 "Burnin’ Face"
+ G46_ADJ:0 "Red Cloud"
+ G47_ADJ:0 "Yellow Eye"
+ G48_ADJ:0 "Broken Axe"
  
  H01:0 "Tiranoc"
  H02:0 "Nagarythe"
@@ -605,6 +613,7 @@
  U46:0 "Clan Vrrtkin"
  U47:0 "Clan Klaw"
  U48:0 "Clan Treecherik"
+ U48:0 "Clan Flem"
 
  U98:0 "Under-Empire"
  U99:0 "Karaz Ankor"

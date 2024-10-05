@@ -1,4 +1,9 @@
-
-
-
-
+base_tax = 0
+base_manpower = 0
+base_production = 0
+trade_goods = nothing
+religion = NoReligion
+is_city = yes
+add_core = U49
+owner = U49
+controller = U49

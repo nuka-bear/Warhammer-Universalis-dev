@@ -8,3 +8,5 @@ owner = I33
 controller = I33
 culture = east_cathayan
 add_core = I33
+
+is_city = yes

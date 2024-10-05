@@ -1,4 +1,3 @@
-
 culture = nehekharan_culture
 religion = vampiric
 base_tax = 5
@@ -6,5 +5,4 @@ base_production = 5
 trade_goods = unknown
 base_manpower = 5
 center_of_trade = 2
-
-
+is_city = no

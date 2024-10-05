@@ -3743,10 +3743,10 @@ grail_knight_personality = {
 	land_morale = 0.05
     monarch_lifespan = 0.5
 
-	nation_designer_cost = 800
-	enemy_strength_multiplier = 0.75 # Mongoose shifters are bold
-	easy_war_chance_multiplier = 1.5 # Wants to go fight
-	war_chance_multiplier = 8 # wants to go fight
-	gift_chance = 50 # helps others
-	wants_land = yes #ambitious
+	nation_designer_cost = 100
+	enemy_strength_multiplier = 0.75 
+	easy_war_chance_multiplier = 1.5
+	war_chance_multiplier = 8 
+	gift_chance = 50 
+	wants_land = yes
 }

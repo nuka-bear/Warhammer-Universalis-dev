@@ -236,16 +236,29 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_combat_terrain_urban_terrain"
-		texturefile = "gfx/interface/combat_terrain_urban_terrain.dds"
+		texturefile = "gfx/interface/terrain/combat_terrain_urban_terrain.dds"
 	}	
 	spriteType = {
 		name = "GFX_combat_terrain_magical_forest_terrain"
-		texturefile = "gfx/interface/combat_terrain_magical_forest_terrain.dds"
+		texturefile = "gfx/interface/terrain/combat_terrain_magical_forest_terrain.dds"
 	}
 	spriteType = {
 		name = "GFX_combat_terrain_temple_city_terrain"
 		texturefile = "gfx/interface/terrain/combat_terrain_temple_city_terrain.dds"
 	}		
+	spriteType = {
+		name = "GFX_combat_terrain_subterranean_terrain"
+		texturefile = "gfx/interface/terrain/combat_terrain_subterranean_terrain.dds"
+	}			
+	spriteType = {
+		name = "GFX_combat_terrain_wasteland"
+		texturefile = "gfx/interface/terrain/combat_terrain_wasteland_terrain.dds"
+	}	
+	spriteType = {
+		name = "GFX_combat_terrain_subterranean_city_terrain"
+		texturefile = "gfx/interface/terrain/combat_terrain_subterranean_city_terrain.dds"
+	}		
+	
 	
 #############################################
 
