@@ -10,6 +10,5 @@ trade_goods = fur
 capital = ""
 is_city = yes
 add_core = A02
-fort_15th = yes
 add_core = A11
 

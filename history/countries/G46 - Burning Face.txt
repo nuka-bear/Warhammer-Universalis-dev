@@ -3,7 +3,6 @@ add_government_reform = greenskin_tribe
 primary_culture = night_goblin
 religion = gork_n_mork_religion
 technology_group = tech_orcish
-capital = 4420
+capital = 4812
 setup_vision = yes
 government_rank = 1
-

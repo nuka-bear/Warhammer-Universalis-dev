@@ -10,6 +10,6 @@ trade_goods = iron
 capital = ""
 is_city = yes
 add_core = A02
-add_core = A11
+
 
 

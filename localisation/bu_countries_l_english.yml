@@ -613,7 +613,7 @@
  U46:0 "Clan Vrrtkin"
  U47:0 "Clan Klaw"
  U48:0 "Clan Treecherik"
- U48:0 "Clan Flem"
+ U49:0 "Clan Flem"
 
  U98:0 "Under-Empire"
  U99:0 "Karaz Ankor"
@@ -665,6 +665,7 @@
  U46_ADJ:0 "Vrrtkin"
  U47_ADJ:0 "Klaw"
  U48_ADJ:0 "Treecherik"
+ U49_ADJ:0 "Flem"
 
  U98_ADJ:0 "Skaven"
  U99_ADJ:0 "Dawi"
