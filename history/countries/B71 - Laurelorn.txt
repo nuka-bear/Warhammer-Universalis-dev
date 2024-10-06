@@ -7,6 +7,8 @@ capital = 4892
 setup_vision = yes
 government_rank = 2
 
+historical_friend = A10 #Nordland 
+
 2502.1.1 = {
 	monarch = {
 		name = "Marrisith"
@@ -17,4 +19,6 @@ government_rank = 2
 		mil = 3
 		female = yes
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
 }
