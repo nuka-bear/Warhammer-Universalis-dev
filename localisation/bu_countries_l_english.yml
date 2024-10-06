@@ -615,6 +615,7 @@
  U48:0 "Clan Treecherik"
  U49:0 "Clan Flem"
 
+ U97:0 "Ankhor Dumbaraz"
  U98:0 "Under-Empire"
  U99:0 "Karaz Ankor"
  
@@ -667,6 +668,7 @@
  U48_ADJ:0 "Treecherik"
  U49_ADJ:0 "Flem"
 
+ U97_ADJ:0 "Norse Dawi"
  U98_ADJ:0 "Skaven"
  U99_ADJ:0 "Dawi"
 
@@ -787,6 +789,7 @@
  Z77:0 "Shisuma"
  Z78:0 "Takai"
  Z79:0 "Janarjaya"
+ Z80:0 "Turjuks"
  
  Z96:0 "Nippon"
  Z97:0 "Strygos"
@@ -872,6 +875,7 @@
  Z77_ADJ:0 "Shisuma"
  Z78_ADJ:0 "Takai"
  Z79_ADJ:0 "Janarjaya"
+ Z80_ADJ:0 "Turjuk"
  
   
  Z96_ADJ:0 "Nipponese"
