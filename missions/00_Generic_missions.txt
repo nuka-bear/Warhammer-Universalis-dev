@@ -63,9 +63,23 @@ military_missions = { #Series name is displayed over the slot?
 		required_missions = { conquer_states }
 		trigger = { army_size = 80 }
 		effect = {
+			add_army_tradition_or_mil_power = { amount = 20 }
 			add_country_modifier = {
 				name = "army_enthusiasm"
 				duration = 9125 #25 years
+			}
+			custom_tooltip = perma_claim_home_region
+			hidden_effect = {
+				capital_scope = {
+					every_province = {
+						limit = {
+							region = PREV
+							NOT = { owned_by = ROOT }
+							NOT = { is_core = ROOT }
+						}
+						add_permanent_claim = ROOT
+					}
+				}
 			}
 		}
 	}

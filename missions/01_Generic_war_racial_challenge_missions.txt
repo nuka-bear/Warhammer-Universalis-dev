@@ -1,0 +1,547 @@
+
+
+race_relations_1_missions = {
+	slot = 1
+	generic = yes
+	ai = yes
+	potential = {
+		always = yes
+	}
+	
+
+### Humans ###
+
+	challenge_humans = { 
+		icon = mission_cannons_firing
+		required_missions = {  } 
+		position = 7
+		trigger = {
+			any_country = { 
+				has_country_modifier = human_military
+
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 100
+					}
+				}
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "challenged_humans"
+				duration = -1
+			}
+		}
+	}
+
+	trade_humans = {
+		icon = mission_war_chest
+		required_missions = { }
+		trigger = {
+			any_country = { 
+				has_country_modifier = human_administration
+				ROOT = {
+					trust = { who = PREV value = 80 }
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "traded_humans"
+				duration = -1
+			}
+		}
+	}
+
+### Orcs ###
+
+	challenge_orcs = { 
+		icon = mission_cannons_firing
+		required_missions = {  } 
+		trigger = {
+			any_country = { 
+				has_country_modifier = orcish_military
+
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 100
+					}
+				}
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "challenged_orcs"
+				duration = -1
+			}
+		}
+	}
+
+	trade_orcs = {
+		icon = mission_war_chest
+		required_missions = { }
+		trigger = {
+			any_country = { 
+				has_country_modifier = orcish_administration
+				ROOT = {
+					trust = { who = PREV value = 80 }
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "traded_orcs"
+				duration = -1
+			}
+		}
+	}
+}
+
+race_relations_2_missions = {
+	slot = 2
+	generic = yes
+	ai = yes
+	potential = {
+		always = yes
+	}
+
+### Dwarves ###
+
+	challenge_dwarves = { 
+		icon = mission_cannons_firing
+		required_missions = {  } 
+		position = 7
+		trigger = {
+			any_country = { 
+				has_country_modifier = dwarven_military
+
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 100
+					}
+				}
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "challenged_dwarves"
+				duration = -1
+			}
+		}
+	}
+
+	trade_dwarves = {
+		icon = mission_war_chest
+		required_missions = { }
+		trigger = {
+			any_country = { 
+				has_country_modifier = dwarven_administration
+				ROOT = {
+					trust = { who = PREV value = 80 }
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "traded_dwarves"
+				duration = -1
+			}
+		}
+	}
+
+### Elves ###
+
+	challenge_elves = { 
+		icon = mission_cannons_firing
+		required_missions = {  } 
+		trigger = {
+			any_country = { 
+				has_country_modifier = elven_military
+
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 100
+					}
+				}
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "challenged_elves"
+				duration = -1
+			}
+		}
+	}
+
+	trade_elves = {
+		icon = mission_war_chest
+		required_missions = { }
+		trigger = {
+			any_country = { 
+				has_country_modifier = elven_administration
+				ROOT = {
+					trust = { who = PREV value = 80 }
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "traded_elves"
+				duration = -1
+			}
+		}
+	}
+}
+
+race_relations_3_missions = {
+	slot = 3
+	generic = yes
+	ai = yes
+	potential = {
+		always = yes
+	}
+
+
+### Lizardmen ###
+
+	challenge_lizardmen = { 
+		icon = mission_cannons_firing
+		required_missions = {  } 
+		position = 7
+		trigger = {
+			any_country = { 
+				has_country_modifier = lizardmen_military
+
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 100
+					}
+				}
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "challenged_lizardmen"
+				duration = -1
+			}
+		}
+	}
+
+	trade_lizardmen = {
+		icon = mission_war_chest
+		required_missions = { }
+		trigger = {
+			any_country = { 
+				has_country_modifier = lizardmen_administration
+				ROOT = {
+					trust = { who = PREV value = 80 }
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "traded_lizardmen"
+				duration = -1
+			}
+		}
+	}
+
+
+### Fimir ###
+
+	challenge_fimir = { 
+		icon = mission_cannons_firing
+		required_missions = {  } 
+		trigger = {
+			any_country = { 
+				has_country_modifier = fimir_military
+
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 100
+					}
+				}
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "challenged_fimir"
+				duration = -1
+			}
+		}
+	}
+
+	trade_fimir = {
+		icon = mission_war_chest
+		required_missions = { }
+		trigger = {
+			any_country = { 
+				has_country_modifier = fimir_administration
+				ROOT = {
+					trust = { who = PREV value = 80 }
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "traded_fimir"
+				duration = -1
+			}
+		}
+	}
+}
+
+race_relations_4_missions = {
+	slot = 4
+	generic = yes
+	ai = yes
+	potential = {
+		always = yes
+	}
+
+### Ogre ###
+
+	challenge_ogres = { 
+		icon = mission_cannons_firing
+		required_missions = {  } 
+		position = 7
+		trigger = {
+			any_country = { 
+				has_country_modifier = ogre_military
+
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 100
+					}
+				}
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "challenged_ogre"
+				duration = -1
+			}
+		}
+	}
+
+	trade_ogres = {
+		icon = mission_war_chest
+		required_missions = { }
+		trigger = {
+			any_country = { 
+				has_country_modifier = ogre_administration
+				ROOT = {
+					trust = { who = PREV value = 80 }
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "traded_ogre"
+				duration = -1
+			}
+		}
+	}
+
+### Skaven ###
+
+	challenge_skaven = { 
+		icon = mission_cannons_firing
+		required_missions = {  } 
+		trigger = {
+			any_country = { 
+				has_country_modifier = skaven_military
+
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 100
+					}
+				}
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "challenged_skaven"
+				duration = -1
+			}
+		}
+	}
+
+	trade_skaven = {
+		icon = mission_war_chest
+		required_missions = { }
+		trigger = {
+			any_country = { 
+				has_country_modifier = skaven_administration
+				ROOT = {
+					trust = { who = PREV value = 80 }
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "traded_skaven"
+				duration = -1
+			}
+		}
+	}
+}
+
+race_relations_5_missions = {
+	slot = 5
+	generic = yes
+	ai = yes
+	potential = {
+		always = yes
+	}
+
+
+### Beastfolk ###
+
+	challenge_beastfolk = { 
+		icon = mission_cannons_firing
+		required_missions = {  }
+		position = 7
+		trigger = {
+			any_country = { 
+				has_country_modifier = beastfolk_military
+
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 100
+					}
+				}
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "challenged_beastfolk"
+				duration = -1
+			}
+		}
+	}
+
+	trade_beastfolk = {
+		icon = mission_war_chest
+		required_missions = { }
+		trigger = {
+			any_country = { 
+				has_country_modifier = beastfolk_administration
+				ROOT = {
+					trust = { who = PREV value = 80 }
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "traded_beastfolk"
+				duration = -1
+			}
+		}
+	}
+
+### Undead ###
+
+	challenge_undead = { 
+		icon = mission_cannons_firing
+		required_missions = {  } 
+		trigger = {
+			any_country = { 
+				has_country_modifier = undead_military
+
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 100
+					}
+				}
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "challenged_undead"
+				duration = -1
+			}
+		}
+	}
+
+## There is no undead administration now, but could be useful later
+#	trade_undead = {
+#		icon = mission_war_chest
+#		required_missions = { }
+#		trigger = {
+#			any_country = { 
+#				has_country_modifier = undead_administration
+#				ROOT = {
+#					trust = { who = PREV value = 80 }
+#					has_opinion = {
+#						who = ROOT
+#						value = 150
+#					}
+#				}
+#			}
+#		}
+#		effect = { 
+#			add_country_modifier = {
+#				name = "traded_undead"
+#				duration = -1
+#			}
+#		}
+#	}
+
+}

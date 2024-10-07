@@ -1,0 +1,37 @@
+﻿l_english:
+
+ ####################
+ #Nehehara
+ ####################
+
+# Tomb of Settra
+tomb_of_settra:0 "Tomb of Settra"
+tomb_of_settra_desc:0 "The Tomb of Settra stands as a testament to the will and glory of Settra the Imperishable, the greatest of all Tomb Kings. Guarded by elite warriors and imbued with ancient magic, the tomb is meticulously maintained to reflect Settra’s unyielding dominance. It serves both as a symbol of his eternal rule and as a constant reminder that Settra does not serve—he rules."
+
+# The Black Pyramid of Nagash
+black_pyramid_of_nagash:0 "The Black Pyramid of Nagash"
+black_pyramid_of_nagash_desc:0 "The Black Pyramid, constructed by the dark sorcerer Nagash, is one of the most imposing and feared monuments in all of Nehekhara. Though its power has waned since the departure of Nagash, it remains a focal point of necromantic magic, radiating dark energies across the land. Now under the control of the Tomb Kings, the pyramid still holds immense potential for any who dare to wield its sinister power."
+
+# The Great Necropolis of Khemri
+great_necropolis_of_khemri:0 "The Great Necropolis of Khemri"
+great_necropolis_of_khemri_desc:0 "The Great Necropolis of Khemri is the heart of Nehekhara’s ancient royal burial grounds, housing the tombs of the greatest kings and warriors. Within its labyrinthine passages lie untold riches and the mummified remains of long-dead rulers, each guarded by eternal sentinels. Restoring and maintaining this vast necropolis is key to the continued prestige and power of Nehekhara’s ruling class."
+
+# The Mortuary Temple of Qu’aph
+mortuary_temple_of_quaph:0 "The Mortuary Temple of Qu’aph"
+mortuary_temple_of_quaph_desc:0 "The Mortuary Temple of Qu’aph is a sacred site dedicated to the worship of the Nehekharan gods and the embalming of the dead. Here, the priests of the Mortuary Cult perform the ancient rituals that sustain the undead legions of the Tomb Kings. Although still influential, the temple’s power has diminished, and efforts to restore it are crucial to maintaining the spiritual and magical strength of Nehekhara."
+
+# The Great Sphinx of Numasis
+great_sphinx_of_numasis:0 "The Great Sphinx of Numasis"
+great_sphinx_of_numasis_desc:0 "Carved from a single block of stone, the Great Sphinx of Numasis was once a grand symbol of the might and wisdom of the Tomb Kings. Erosion and neglect have left the monument in a state of disrepair, though it still stands as a symbol of eternal guardianship over the desert. Efforts to restore the sphinx would be seen as a gesture of strength and reverence for Nehekhara’s proud past."
+
+# The Oasis of the Gods
+oasis_of_the_gods:0 "Oasis of the Gods"
+oasis_of_the_gods_desc:0 "The Oasis of the Gods is an ancient site of great religious and spiritual significance, said to have been blessed by the gods of Nehekhara. Once a vital location for worship and rest, the oasis has fallen into neglect under the rule of the undead. Though diminished, it remains a sacred place, and restoring it could reinvigorate the faith of the Nehekharan people and strengthen their connection to the divine."
+
+# The Valley of Kings
+valley_of_kings:0 "The Valley of Kings"
+valley_of_kings_desc:0 "The Valley of Kings is the vast burial ground of Nehekhara’s greatest rulers, filled with monumental tombs and pyramids. Though time and war have worn away at the valley’s grandeur, it remains a critical site for the legacy of the Tomb Kings. Restoring the tombs and reclaiming the treasures buried within will bolster the strength of Nehekhara and assert its dominion over the desert once again."
+
+# The Obelisk of Eternity
+obelisk_of_eternity:0 "The Obelisk of Eternity"
+obelisk_of_eternity_desc:0 "The Obelisk of Eternity was erected by the first kings of Nehekhara to mark their eternal reign and connection to the gods. Once a powerful symbol of divine favor, the obelisk now stands largely forgotten and eroded by the sands of time. Restoring its glory would reconnect the Tomb Kings with the lost power of their ancient gods, solidifying their claim to rule the desert forever."

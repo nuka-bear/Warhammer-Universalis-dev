@@ -1,0 +1,179 @@
+﻿l_english:
+ 
+# Race Relations
+
+  race_relations_missions:0 "Race Relations"
+
+
+# Humans
+challenge_humans_title:0 "Challenge the Humans"
+challenge_humans_desc:0 "Humans have long festered in the empire and beyond. It is time to put them in their place."
+
+trade_humans_title:0 "Learn from the Humans"
+trade_humans_desc:0 "Humans may seem strange to us, but their innovation is worth studying. Establishing trade routes with a human nation could help us improve our own."
+
+# Orcs
+challenge_orcs_title:0 "Push Back the Orcs"
+challenge_orcs_desc:0 "The Orcs’ rampant destruction threatens everything in their path. We must challenge their brutality with superior tactics and strength."
+
+trade_orcs_title:0 "Embrace the Waaagh"
+trade_orcs_desc:0 "While crude and violent, the Orcs endure war in ways that we can learn from. Trading with them may provide insight into better wartime resilience."
+
+# Dwarves
+challenge_dwarves_title:0 "Start a Grudge"
+challenge_dwarves_desc:0 "The Dwarves’ mastery of war machines and fortifications makes them formidable. By challenging their might, we will sharpen our artillery skills."
+
+trade_dwarves_title:0 "Study Dwarven Factories"
+trade_dwarves_desc:0 "Dwarves are known for their efficient production and craftsmanship. Trading with them will improve our own manufacturing and output."
+
+# Elves
+challenge_elves_title:0 "Humble the Elves"
+challenge_elves_desc:0 "The Elves believe they are the finest warriors, but we will prove otherwise. Testing ourselves against them will strengthen the discipline of our forces."
+
+trade_elves_title:0 "Visit the Elven Courts"
+trade_elves_desc:0 "The Elves’ long experience with diplomacy offers much to learn. Trading with them will enhance our standing in the diplomatic arena."
+
+# Undead
+challenge_undead_title:0 "Unmake the Undead"
+challenge_undead_desc:0 "The Undead are an abomination to the living, and their relentless numbers are a challenge in themselves. We must learn how to fight more efficiently against these unnatural forces."
+
+# Fimir
+challenge_fimir_title:0 "Overhwhelm the Fimir"
+challenge_fimir_desc:0 "The monstrous Fimir are terrifying foes, but by defeating them, we will learn how to crush the morale of our enemies even more effectively."
+
+trade_fimir_title:0 "Seek Fimir Towns"
+trade_fimir_desc:0 "The Fimir may be dark creatures, but there is knowledge to be gained from them. Trading with them will allow us to reinforce our fortifications more cheaply."
+
+# Ogres
+challenge_ogres_title:0 "Decimate the Ogres"
+challenge_ogres_desc:0 "Ogres are brutal giants who dominate the battlefield with sheer power. By taking the fight to them, we will learn how to survive the harshest of conditions."
+
+trade_ogres_title:0 "Join Ogre Caravans"
+trade_ogres_desc:0 "Ogres’ vast appetites fuel massive trade networks. Establishing trade with them will boost the value of our own goods in foreign markets."
+
+# Skaven
+challenge_skaven_title:0 "Repell the Skaven"
+challenge_skaven_desc:0 "The Skaven's swarming hordes and underhanded tactics are a menace. By challenging them, we can strengthen our ability to recover after heavy losses."
+
+trade_skaven_title:0 "Approach Skaven Spies"
+trade_skaven_desc:0 "Skaven excel in subterfuge and deception. By trading with them, we will gain valuable insights into improving our espionage operations."
+
+# Lizardmen
+challenge_lizardmen_title:0 "Humiliate the Lizardmen"
+challenge_lizardmen_desc:0 "The ancient Lizardmen guard their jungles fiercely. By challenging them, we can learn to withstand the harshest of battles with reduced morale loss."
+
+trade_lizardmen_title:0 "Study the Geometries"
+trade_lizardmen_desc:0 "The Lizardmen’s mastery of order and ancient knowledge can be of use. Establishing trade with them will help us maintain peace in our lands by reducing unrest."
+
+# Beastfolk
+challenge_beastfolk_title:0 "Crush the Beastfolk"
+challenge_beastfolk_desc:0 "The wild Beastfolk threaten to overrun the land with savagery. Defeating them in battle will earn us great prestige among the civilized peoples."
+
+trade_beastfolk_title:0 "Trade with Beastfolk"
+trade_beastfolk_desc:0 "The chaotic Beastfolk may seem like unlikely trading partners, but there are hidden efficiencies to be gained from their untamed ways."
+
+
+## Race relations bonuses
+
+  # Humans
+traded_humans:0 "Trade with Humans"
+desc_traded_humans:0 "We have learned from the humans to be far more efficient in our governance."
+
+challenged_humans:0 "Challenged Humans"
+desc_challenged_humans:0 "Our armies have tested the strength of human forces, and in doing so, we have bolstered the resolve of our land and naval troops."
+
+# Orcs
+traded_orcs:0 "Trade with Orcs"
+desc_traded_orcs:0 "Though brutish, the orcs have taught us methods to endure the hardships of war, lessening our war exhaustion."
+
+challenged_orcs:0 "Challenged Orcs"
+desc_challenged_orcs:0 "By battling the orcs, we have sharpened our fighting tactics, striking harder and faster in combat."
+
+# Dwarves
+traded_dwarves:0 "Trade with Dwarves"
+desc_traded_dwarves:0 "From the dwarves, we have gained advanced techniques in production, greatly improving our efficiency."
+
+challenged_dwarves:0 "Challenged Dwarves"
+desc_challenged_dwarves:0 "Facing the dwarven artillery has taught us how to better utilize our own, improving our artillery’s backline damage."
+
+# Elves
+traded_elves:0 "Trade with Elves"
+desc_traded_elves:0 "In our dealings with the elves, we have refined our diplomatic standing and influence over other nations."
+
+challenged_elves:0 "Challenged Elves"
+desc_challenged_elves:0 "The precision and discipline of elven warriors have inspired us to improve the discipline of our own armies."
+
+# Undead
+challenged_undead:0 "Challenged Undead"
+desc_challenged_undead:0 "Battling the undead has shown us how to conserve resources, significantly reducing the cost of maintaining our infantry."
+
+# Fimir
+traded_fimir:0 "Trade with Fimir"
+desc_traded_fimir:0 "Through our transactions with the Fimir, we have learned how to fortify our lands at a lower cost, reducing fort maintenance expenses."
+
+challenged_fimir:0 "Challenged Fimir"
+desc_challenged_fimir:0 "Confronting the Fimir in battle has taught us how to break the morale of enemies more effectively."
+
+# Ogres
+traded_ogre:0 "Trade with Ogres"
+desc_traded_ogre:0 "The Ogres have introduced us to larger markets, increasing the value and size of our trade goods."
+
+challenged_ogre:0 "Challenged Ogres"
+desc_challenged_ogre:0 "Our encounters with the Ogres have toughened our forces, allowing us to better withstand harsh conditions and reduce land attrition."
+
+# Skaven
+traded_skaven:0 "Trade with Skaven"
+desc_traded_skaven:0 "The devious methods of the Skaven have enhanced our espionage capabilities, improving our spy network’s effectiveness."
+
+challenged_skaven:0 "Challenged Skaven"
+desc_challenged_skaven:0 "By battling the Skaven’s swarming hordes, we have honed our ability to recover manpower faster and more efficiently."
+
+# Lizardmen
+traded_lizardmen:0 "Trade with Lizardmen"
+desc_traded_lizardmen:0 "Dealing with the Lizardmen has granted us a deeper understanding of how to maintain order, reducing unrest in our lands."
+
+challenged_lizardmen:0 "Challenged Lizardmen"
+desc_challenged_lizardmen:0 "Our warriors have learned resilience from the Lizardmen, reducing the morale damage we suffer in combat."
+
+# Beastfolk
+traded_beastfolk:0 "Trade with Beastfolk"
+desc_traded_beastfolk:0 "From the chaotic ways of the Beastfolk, we have surprisingly learned to streamline our governance, increasing our administrative efficiency."
+
+challenged_beastfolk:0 "Challenged Beastfolk"
+desc_challenged_beastfolk:0 "Defeating the wild Beastfolk has brought great renown to our warriors, earning us more prestige from our conquests."
+
+
+
+
+ #empire missions
+
+ gen_war_hre:0 "Empire Missions"
+
+ gen_war_hre_electors_title:0 "Imperial Ambition"
+ gen_war_hre_electors_desc:0 "Like all Princes of the Empire, we have our eye on the throne. We should stir up some support from the electorate."
+ gen_war_hre_electors.tooltip:2 " Electors backing §Y[Root.GetName]§! to become Emperor."
+ gen_war_hre_emperor_title:0 "Signmar's Legacy"
+ gen_war_hre_emperor_desc:1 "In times immemorial, the Sigmar ruled over the great and Empire. His legacy has not been forgotten, and neither has his ambition. We must be crowned Emperor."
+ gen_war_hre_imperial_ban_title:0 "Defend the Empire"
+ gen_war_hre_imperial_ban_desc:0 "Over the course of time, many of our Princes have foolishly lost territory to the uncivilized nations beyond the Imperial borders. Unfortunately, that makes us look weak. Recover them."
+
+ gen_war_hre_theocracy_house_of_god_title:0 "The House of God"
+ gen_war_hre_theocracy_house_of_god_desc:0 "We must ensure that our Lord is properly honored across our lands, in churches worthy of His name."
+ gen_war_hre_theocracy_lords_army_title:0 "The Lord's Army"
+ gen_war_hre_theocracy_lords_army_desc:0 "If we do not protect our faith, then no one will. We must build a mighty army to strike fear into the unbelievers!"
+ theocracy_lords_army_mod:0 "The Lord's Army"
+ desc_theocracy_lords_army_mod:0 "Our army stands ready to protect our faith!"
+
+ #HRE Republics
+ gen_war_hre_relations_with_emperor_title:0 "Relations with the Emperor"
+ gen_war_hre_relations_with_emperor_desc:0 "As one of the Empire's smaller nations, we would be well-advised to seek the friendship of the Emperor to secure our continued survival."
+ gen_war_hre_financial_centre_title:0 "A Center of Commerce"
+ gen_war_hre_financial_centre_desc:0 "We must fashion [Root.Capital.GetCapitalName] into a center of all manner of commercial activities so that the most talented and wealthiest burghers from across Germany choose to settle in our city."
+ gen_war_hre_republic_reform_government_title:0 "Reform the Administration"
+ gen_war_hre_republic_reform_government_desc:0 "We must take up new ways and reform our administration into a modern [Root.GovernmentName] if it is to survive the changes sweeping across Europe."
+ imperial_beneficience:0 "Imperial Beneficence"
+ desc_imperial_beneficience:0 "The Emperor has bestowed many benefits on our city in return for our faithful support of his rule."
+ republic_bourgeois_center:0 "Bourgeois City"
+ desc_republic_bourgeois_center:0 "Our city is a center of all manner of commercial activities and draws the most talented and wealthiest burghers from across Germany to settle in it."
+ republic_reformed_government:0 "Reformed Administration"
+ desc_republic_reformed_government:0 "We have adopted new ways and reformed our administration into an effective machine for governing our state."

@@ -1,0 +1,108 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+
+### Bonuses are generally related to the target, maybe 1/4 of an idea. Challenges are mil, Traded are economic/diplomatic
+
+traded_humans = {
+	all_power_cost = -0.001	
+}
+
+challenged_humans = {
+	land_morale = 0.01
+	naval_morale = 0.01
+}
+
+# Orcs
+
+traded_orcs = {
+	war_exhaustion = -0.025
+}
+
+challenged_orcs = {
+	shock_damage = 0.025
+}
+
+# Dwarves
+
+traded_dwarves = {
+	production_efficiency = 0.025
+}
+
+challenged_dwarves = {
+	backrow_artillery_damage = 0.05
+}
+
+
+# Elves
+
+traded_elves = {
+	diplomatic_reputation = 0.5
+}
+
+challenged_elves = {
+	discipline = 0.01
+}
+
+
+# Undead - There's no udnead administration
+
+challenged_undead = {
+	infantry_cost = -0.1
+}
+
+# Fimir
+
+traded_fimir = {
+	fort_maintenance_modifier = -0.05
+}
+
+challenged_fimir = {
+	morale_damage = 0.025
+}
+
+# Ogre
+
+traded_ogre = {
+	global_trade_goods_size_modifier = 0.025
+}
+
+challenged_ogre = {
+    land_attrition = -0.05
+}
+
+
+# Skaven
+
+traded_skaven = {
+	spy_offence = 0.2
+}
+
+challenged_skaven = {
+    manpower_recovery_speed = 0.05
+}
+
+
+# Lizardmen
+
+traded_lizardmen = {
+	global_unrest = -0.5
+}
+
+challenged_lizardmen = {
+    morale_damage_received = -0.05	
+}
+
+
+# Beastfolk
+
+traded_beastfolk = {
+	administrative_efficiency = 0.025
+}
+
+challenged_beastfolk = {
+	prestige_from_land = 0.1
+}
+
+

@@ -1,0 +1,92 @@
+
+JG To Do & Thoughts
+
+Build out Generic Missions based on location/religion/race
+
+Focus on Nehekara to start
+	Custom Ideas
+	Monuments - Give all small minus liberty (maybe +liberty for you) and plus vassalization acceptance + same religion warscore
+	Custom Estates
+	Nekehara should be weaker, but with very powerful Monuments
+	Upset Estates with a frozen privilage - "Fractured Society" or something like that that gives them -loyalty. And each monument gives an estate + loyalty
+	Dependent State System
+	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
+	Settra has +100% liberty desire lol
+	tomb_king in the event folder has the respawning event for tomb kings
+	Province modifiers across the area to make development and buildings more expensive - representing how hard it is to build on the crumbling emire. Mission reward for controlling all monuments that removes this. Or maybe that's just part of undead administration?
+	Decision to improve ruler's stats
+
+
+
+Make fun to play subject for racial confederation - "Dependent State?"
+	They have a lot of freedom
+	They can challenge their overlord for authority over the convederation?
+	Base off Apange System
+	Make a CB to subjugate people in your same tech group
+
+
+Give Sylvania "Blood Kiss" to convert other humans to vamprism
+
+
+Should it be possible to change or have multiple racial administrations & militaries?
+	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)
+
+A basic spell or two? Is mana = spell resource?
+	Undead Spend 100 mil mana to gain a 10,000 manpower?
+
+
+
+The Empire of Man
+Faction: Reikland
+Why play: The Empire is one of the most recognizable and pivotal factions in the Warhammer world. Players would be drawn to the Reikland, the heart of the Empire, ruled by Emperor Karl Franz. Players could engage in internal politics, defend against Chaos, and pursue Imperial reforms, making it a dynamic experience with military, political, and religious challenges.
+Key Mechanics: Elector Counts, religious turmoil (Sigmarite vs. Ulrican), political reforms, and military innovations.
+
+Bretonnia
+Faction: Duchy of Couronne
+Why play: Bretonnia offers a feudal, chivalric fantasy with a stark contrast to the more centralized and advanced Empire. Playing as the Duchy of Couronne, ruled by King Louen Leoncoeur, players could lead knightly crusades, maintain strict social order, and manage complex vassal relations. They could also engage with the Lady of the Lake as a spiritual guide.
+Key Mechanics: Vassal management, chivalric code, peasant revolts, quests for the Grail.
+
+The High Elves (Ulthuan)
+Faction: Eataine (Kingdom of Lothern)
+Why play: The High Elves of Ulthuan offer players a unique naval, magical, and diplomatic powerhouse. Eataine, led by Finubar the Seafarer, provides mastery over trade and maritime influence. Defending Ulthuan from Chaos, Dark Elves, and other threats would appeal to players interested in a delicate balance of expansion and defense.
+Key Mechanics: Phoenix King election, magic, naval supremacy, intricate diplomacy, and influence over world trade. 
+The Dark Elves (Naggaroth)
+Faction: Naggarond
+Why play: The Dark Elves of Naggarond, ruled by Malekith, offer a chance to play as a brutal, expansionist faction focused on slavery, raiding, and cruelty. The harsh environments of Naggaroth and the eternal quest to reclaim Ulthuan would make this a faction for players who enjoy aggressive tactics and subjugating enemies.
+Key Mechanics: Raiding, slavery economy, Black Arks (floating fortresses), political intrigue (rivalries between noble houses), and expansion.
+
+The Vampire Counts (Sylvania)
+Faction: Von Carstein Dynasty
+Why play: The Vampire Counts provide a dark, undead-focused playstyle where raising legions of the dead and corrupting lands are central themes. Led by Mannfred von Carstein, the Counts offer players a chance to spread undeath across the Old World, subjugating human factions through fear and necromantic power.
+Key Mechanics: Undead armies, necromancy, corruption (spreading vampiric influence), and internal power struggles within the Von Carsteins.
+
+Chaos (Norsca)
+Faction: Warriors of Chaos
+Why play: The Warriors of Chaos, particularly under Archaon the Everchosen, provide a nomadic, war-driven playstyle focused on spreading chaos and destruction. Conquering the Old World, triggering the End Times, and growing ever stronger through dark pacts would appeal to players who enjoy relentless expansion.
+Key Mechanics: Chaos invasions, corruption, religious devotion to the Chaos Gods (Khorne, Nurgle, Tzeentch, and Slaanesh), and raiding human, dwarf, and elf lands.
+The Dwarfs (Karaz Ankor)
+Faction: Karaz-a-Karak
+Why play: The Dwarfs of Karaz-a-Karak, led by High King Thorgrim Grudgebearer, offer a slower, defensive playstyle that emphasizes technological superiority, strong fortresses, and unyielding resistance. Dwarfs provide rich mechanics around grudges and ancient alliances, and players would work to reclaim lost holds from Orcs, Skaven, and Chaos.
+Key Mechanics: Grudges, technology (runecraft and engineering), defense of holds, and economy based on mining and industry.
+
+Skaven (Under-Empire)
+Faction: Clan Skryre
+Why play: The Skaven are a unique faction that specializes in subterfuge, massive armies, and bizarre technologies. Clan Skryre would appeal to players who enjoy unpredictability, as the clan focuses on warpstone-based weaponry and machines of war. Spreading the Under-Empire across the world and causing mayhem would be core themes.
+Key Mechanics: Warpstone resources, ambush tactics, corruption, massive armies, and risky technology development.
+
+Lizardmen (Lustria)
+Faction: Hexoatl
+Why play: The Lizardmen of Hexoatl, ruled by the powerful mage-priest Lord Mazdamundi, offer a faction with a focus on defending the natural world and enacting the will of the Old Ones. Players would balance exploration of ancient ruins, magical dominance, and the defense of their jungle homeland from Chaos, Skaven, and others.
+Key Mechanics: Magic, beast mastery, geomantic web (ancient energy network), and war against corrupting forces.
+
+Orcs & Goblins (Greenskins)
+Faction: Grimgor’s 'Ardboyz
+Why play: The Greenskins, under the leadership of Grimgor Ironhide, offer a fast-paced, aggressive playstyle focused on constant warfare and expansion. Players would enjoy leading devastating Waaagh! campaigns across the Old World, conquering and pillaging. Internal strife and a focus on orcish culture would add layers of challenge.
+Key Mechanics: Waaagh! system, tribal infighting, hordes of goblins and orcs, and the looting economy.
+
+Tomb Kings (Nehekhara)
+Faction: Khemri
+Why play: The Tomb Kings represent ancient Nehekhara, with a unique undead flavor, but focusing more on honor, kingdom-building, and the restoration of a fallen empire. Khemri, ruled by Settra the Imperishable, offers a different undead playstyle compared to the Vampire Counts, where territorial control and military might are prioritized over corruption.
+Key Mechanics: Constructing colossal monuments, undead legions, limited unit recruitment tied to ancient rituals, and reclamation of lost lands.
+
+Kislev!
