@@ -1,0 +1,387 @@
+namespace = disaster_no_waaagh
+
+# Orc Waaagh Events
+
+#No Waagh Disaster Start
+country_event = {
+	id = disaster_no_waaagh.1
+	title = disaster_no_waaagh.1.t
+	desc = disaster_no_waaagh.1.d
+	picture = ARTWORK_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+
+	# Declare War on Somebody
+
+	option = {
+		name = disaster_no_waaagh.1.option_1
+		ai_chance = { factor = 100 }
+		add_yearly_manpower = 0.5	
+		random_neighbor_country = {
+			LIMIT = {
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+			}
+
+			ROOT = {
+				declare_war_with_cb = {
+		  			who = PREV
+		    		casus_belli = cb_annex
+				}
+			}
+		}
+	}
+
+
+	# Declare War on Somebody
+
+	option = {
+		name = disaster_no_waaagh.1.option_2
+		ai_chance = { factor = 100 }
+		random_owned_province = {
+			spawn_rebels = {
+				size = 1
+				type = pretender_rebels
+			}
+		}
+	}
+}
+
+
+#No Waagh Disaster ends
+country_event = {
+	id = disaster_no_waaagh.2
+	title = disaster_no_waaagh.2.t
+	desc = disaster_no_waaagh.2.d
+	picture = ARTWORK_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+
+	# Declare War on Somebody
+
+	option = {
+		name = disaster_no_waaagh.2.option_1
+		ai_chance = { factor = 100 }
+	}
+}
+
+
+#No Waagh Declare War Event
+country_event = {
+	id = disaster_no_waaagh.3
+	title = disaster_no_waaagh.3.t
+	desc = disaster_no_waaagh.3.d
+	picture = ARTWORK_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+
+	# Declare War on Somebody
+
+	option = {
+		name = disaster_no_waaagh.3.option_1
+		ai_chance = { factor = 100 }
+		add_yearly_manpower = 0.5	
+		random_neighbor_country = {
+			LIMIT = {
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+			}
+
+			ROOT = {
+				declare_war_with_cb = {
+		  			who = PREV
+		    		casus_belli = cb_annex
+				}
+			}
+		}
+	}
+
+
+	# Rebels
+
+	option = {
+		name = disaster_no_waaagh.3.option_2
+		ai_chance = { factor = 100 }
+		random_owned_province = {
+			spawn_rebels = {
+				size = 1
+				type = pretender_rebels
+			}
+		}
+	}
+}
+
+
+#No Waagh Overeager Troops
+country_event = {
+	id = disaster_no_waaagh.4
+	title = disaster_no_waaagh.4.t
+	desc = disaster_no_waaagh.4.d
+	picture = ARTWORK_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+
+	# Get unstable troops
+
+	option = {
+		name = disaster_no_waaagh.4.option_1
+		ai_chance = { factor = 100 }
+		add_yearly_manpower = 1
+		add_stability = -1
+	}
+
+
+	# Declare War on Somebody
+
+	option = {
+		name = disaster_no_waaagh.4.option_2
+		ai_chance = { factor = 100 }
+		add_yearly_manpower = 2.0
+		random_owned_province = {
+			spawn_rebels = {
+				size = 1
+				type = pretender_rebels
+			}
+		}
+	}
+}
+
+
+#No Waagh Coup
+country_event = {
+	id = disaster_no_waaagh.5
+	title = disaster_no_waaagh.5.t
+	desc = disaster_no_waaagh.5.d
+	picture = ARTWORK_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+
+	# Declare War on Somebody
+
+	option = {
+		name = disaster_no_waaagh.5.option_1
+		ai_chance = { factor = 100 }
+		kill_ruler = yes
+	}
+
+
+	# Declare War on Somebody
+
+	option = {
+		name = disaster_no_waaagh.5.option_2
+		ai_chance = { factor = 100 }
+		create_general = { tradition = 75 }
+		add_yearly_manpower = 2.0
+		random_owned_province = {
+			spawn_rebels = {
+				size = 1
+				type = pretender_rebels
+			}
+		}
+	}
+}
+
+
+
+namespace = disaster_waaagh
+
+#Waagh Disaster Start
+country_event = {
+	id = disaster_waaagh.1
+	title = disaster_waaagh.1.t
+	desc = disaster_waaagh.1.d
+	picture = ARTWORK_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+
+	# The Waaagh Begins
+
+	option = {
+		name = disaster_waaagh.1.option_1
+		ai_chance = { factor = 100 }
+		add_yearly_manpower = 0.5	
+		add_army_tradition = 10
+		create_general = { tradition = 50 }
+	}
+}
+
+
+
+#The WAAAGH Ends
+country_event = {
+	id = disaster_waaagh.2
+	title = disaster_waaagh.2.t
+	desc = disaster_waaagh.2.d
+	picture = ARTWORK_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	# The Waaagh Ends
+
+	option = {
+		name = disaster_waaagh.2.option_1
+		add_army_professionalism = 0.05
+		add_yearly_manpower = -0.5
+
+	}
+}
+
+# Grow the WAAAGH
+country_event = {
+	id = disaster_waaagh.3
+	title = disaster_waaagh.3.t
+	desc = disaster_waaagh.3.d
+	picture = ARTWORK_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+
+	# Declare War on Somebody
+
+	option = {
+		name = disaster_waaagh.3.option_1
+		ai_chance = { factor = 100 }
+		add_yearly_manpower = 0.5	
+		random_neighbor_country = {
+			LIMIT = {
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+			}
+
+			ROOT = {
+				declare_war_with_cb = {
+		  			who = PREV
+		    		casus_belli = cb_annex
+				}
+			}
+		}
+	}
+
+
+	# Declare War on Somebody
+
+	option = {
+		name = disaster_waaagh.3.option_2
+		ai_chance = { factor = 100 }
+		random_owned_province = {
+			spawn_rebels = {
+				size = 1
+				type = pretender_rebels
+			}
+		}
+	}
+}
+
+
+#Over Eager Recruits
+country_event = {
+	id = disaster_waaagh.4
+	title = disaster_waaagh.4.t
+	desc = disaster_waaagh.4.d
+	picture = ARTWORK_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+
+	# Get unstable troops
+
+	option = {
+		name = disaster_waaagh.4.option_1
+		ai_chance = { factor = 100 }
+		add_yearly_manpower = 2
+		add_stability = -1
+	}
+
+
+	# Declare War on Somebody
+
+	option = {
+		name = disaster_waaagh.4.option_2
+		ai_chance = { factor = 100 }
+		add_yearly_manpower = 0.5
+	}
+}
+
+
+#Over Eager Recruits
+country_event = {
+	id = disaster_waaagh.5
+	title = disaster_waaagh.5.t
+	desc = disaster_waaagh.5.d
+	picture = ARTWORK_eventPicture
+	
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+
+	# Get unstable troops
+
+	option = {
+		name = disaster_waaagh.5.option_1
+		ai_chance = { factor = 100 }
+		create_general = { tradition = 75 }
+	}
+
+
+	# Declare War on Somebody
+
+	option = {
+		name = disaster_waaagh.5.option_2
+		ai_chance = { factor = 100 }
+		change_mil = 1
+	}
+}
+
+
+

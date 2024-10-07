@@ -4,7 +4,6 @@ JG To Do & Thoughts
 Build out Generic Missions based on location/religion/race
 
 Focus on Nehekara to start
-	Custom Ideas
 	Monuments - Give all small minus liberty (maybe +liberty for you) and plus vassalization acceptance + same religion warscore
 	Custom Estates
 	Nekehara should be weaker, but with very powerful Monuments
@@ -15,7 +14,12 @@ Focus on Nehekara to start
 	tomb_king in the event folder has the respawning event for tomb kings
 	Province modifiers across the area to make development and buildings more expensive - representing how hard it is to build on the crumbling emire. Mission reward for controlling all monuments that removes this. Or maybe that's just part of undead administration?
 	Decision to improve ruler's stats
+	Tension between the Nekeharan Pantheon and Nagashi
 
+
+Make Undead Administration
+	Penalty for dev cost and building cost
+	Bonus admin/mil power (or all three)
 
 
 Make fun to play subject for racial confederation - "Dependent State?"
@@ -35,6 +39,12 @@ A basic spell or two? Is mana = spell resource?
 	Undead Spend 100 mil mana to gain a 10,000 manpower?
 
 
+Done
+	Waaagh & No Waaagh Disasters for Orks
+
+
+
+Tier 1 Groups
 
 The Empire of Man
 Faction: Reikland
