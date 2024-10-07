@@ -1,36 +1,54 @@
 ﻿l_english:
  human_administration:0 "Human Administration"
- desc_human_administration:0 ""
- undead_military:0 "Undead Military"
- desc_undead_military:0 ""
+ desc_human_administration:0 "The humans possess a balanced administrative structure, using versatility and adaptability to govern effectively. Their focus on all-around efficiency enables them to manage resources well, reducing the costs of various administrative tasks and decisions."
+
  human_military:0 "Human Military"
- desc_human_military:0 ""
+ desc_human_military:0 "The human military is well-rounded, boasting disciplined land forces with high morale and a competent navy. This spirit and versatility allow human armies to adapt to diverse combat scenarios, holding strong on both land and sea."
+
  orcish_administration:0 "Orcish Administration"
- desc_orcish_administration:0 ""
+ desc_orcish_administration:0 "Orcish administration is focused almost exclusively on war, prioritizing cost reductions for military leaders and harsh policies. However, their lack of interest in governance leads to difficulty with diplomacy, technological advancement, and development."
+
  orcish_military:0 "Orcish Military"
- desc_orcish_military:0 ""
+ desc_orcish_military:0 "Orcish armies are fearsome, emphasizing raw power, manpower, and ferocity in battle. Although their forces can devastate the enemy with overwhelming shock damage and morale recovery, their focus on brute force results in weaknesses in defensive tactics and firepower."
+
+ dwarven_administration:0 "Dwarven Administration"
+ desc_dwarven_administration:0 "The dwarven administration is focused on efficiency and resource management, making them masters of production and construction. However, their traditional ways lead to challenges in diplomacy and cultural assimilation, and they struggle with colonial expansion."
+
+ dwarven_military:0 "Dwarven Military"
+ desc_dwarven_military:0 "Dwarven military forces are known for their resilience, with durable troops and powerful artillery. While they are strong in sieges and defense, they suffer from slower movement, limited cavalry, and an overall focus on infantry over mobility."
+
  elven_administration:0 "Elven Administration"
- desc_elven_administration:0 ""
+ desc_elven_administration:0 "Elven administration is refined, centered around culture, diplomacy, and intellectual pursuits. While their society excels in governance and tax revenue, their focus on high culture results in higher costs for technology and slower institution spread."
+
  elven_military:0 "Elven Military"
- desc_elven_military:0 ""
- dwarven_military:0 "Dwarfen Military"
- desc_dwarven_military:0 ""
- dwarven_administration:0 "Dwarfen Administration"
- desc_dwarven_administration:0 ""
+ desc_elven_military:0 "Elven militaries are well-disciplined and agile, known for their elite soldiers and advanced training. Despite their combat prowess and high discipline, elven armies have limited manpower and struggle to reinforce quickly, especially with mercenary forces."
+
+ undead_administration:0 "Undead Administration"
+ desc_undead_administration:0 "The undead administration is a rigid, necromantic system focused on absolute control and reducing administrative costs. However, the undead struggle with construction and development, relying heavily on dark magic to maintain their forces rather than material growth."
+
+ undead_military:0 "Undead Military"
+ desc_undead_military:0 "Undead armies are tireless and highly numerous, with massive bonuses to manpower and quick reinforcement speed. However, they suffer from slow movement and a lack of artillery support, and their power is offset by lower resilience to attrition and morale recovery."
+
  fimir_administration:0 "Fimir Administration"
- desc_fimir_administration:0 ""
+ desc_fimir_administration:0 "Fimir administration is designed to capitalize on their raiding and fortification skills, with a focus on tax revenue and power projection. They tend to isolate themselves, struggling with foreign relations and innovation, which results in higher costs for technology and institutional adoption."
+
  fimir_military:0 "Fimir Military"
- desc_fimir_military:0 ""
+ desc_fimir_military:0 "Fimir military tactics center around shock and guerilla warfare, with high morale recovery and defensiveness in battle. However, they are restricted in their military organization and manpower, struggling to field large forces and maintain a strong naval presence."
+
  ogre_administration:0 "Ogre Administration"
- desc_ogre_administration:0 ""
+ desc_ogre_administration:0 "Ogre administration is straightforward, focused on maintaining order and reducing unrest through sheer power. While ogres reduce their reliance on diplomacy and spy tactics, they lack efficiency in governance, leading to higher costs in technology and state maintenance."
+
  ogre_military:0 "Ogre Military"
- desc_ogre_military:0 ""
+ desc_ogre_military:0 "Ogre armies are brutal, specializing in shock tactics and withstanding attrition. However, their units are more costly to recruit and maintain, and their slower movement reflects their reliance on heavy infantry, with limited use of cavalry."
+
  skaven_administration:0 "Skaven Administration"
- desc_skaven_administration:0 ""
+ desc_skaven_administration:0 "Skaven administration is chaotic and treacherous, focused on rapid development and espionage. Their erratic methods lead to instability and inefficiency, with high corruption and challenges in maintaining stability and tax income."
+
  skaven_military:0 "Skaven Military"
- desc_skaven_military:0 ""
- 
+ desc_skaven_military:0 "The Skaven military relies on vast hordes of expendable troops, favoring numbers over quality. While they have strong siege abilities and cheap artillery, their forces suffer from low morale and are prone to taking heavy losses in battle."
+
  lizardmen_administration:0 "Lizardmen Administration"
- desc_lizardmen_administration:0 ""
+ desc_lizardmen_administration:0 "Lizardmen administration is efficient and focused on maintaining stability, with a preference for isolation and limited trade. They are highly autonomous, able to control unrest effectively but struggle with technological costs and institution spread."
+
  lizardmen_military:0 "Lizardmen Military"
- desc_lizardmen_military:0 ""
+ desc_lizardmen_military:0 "Lizardmen armies are disciplined and resilient, adept at minimizing morale loss and retaining their combat effectiveness. However, they avoid mercenaries and struggle with reinforcing their troops quickly, relying on disciplined Saurus and Skink warriors to hold the line."

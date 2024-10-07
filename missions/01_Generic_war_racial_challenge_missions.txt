@@ -520,28 +520,28 @@ race_relations_5_missions = {
 		}
 	}
 
-## There is no undead administration now, but could be useful later
-#	trade_undead = {
-#		icon = mission_war_chest
-#		required_missions = { }
-#		trigger = {
-#			any_country = { 
-#				has_country_modifier = undead_administration
-#				ROOT = {
-#					trust = { who = PREV value = 80 }
-#					has_opinion = {
-#						who = ROOT
-#						value = 150
-#					}
-#				}
-#			}
-#		}
-#		effect = { 
-#			add_country_modifier = {
-#				name = "traded_undead"
-#				duration = -1
-#			}
-#		}
-#	}
+
+	trade_undead = {
+		icon = mission_war_chest
+		required_missions = { }
+		trigger = {
+			any_country = { 
+				has_country_modifier = undead_administration
+				ROOT = {
+					trust = { who = PREV value = 80 }
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "traded_undead"
+				duration = -1
+			}
+		}
+	}
 
 }

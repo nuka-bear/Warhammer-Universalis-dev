@@ -145,6 +145,14 @@ elven_military = {
 }
 
 #welcome to the bonezone
+undead_administration = {
+	all_power_cost = -0.1
+	# Negatives
+	build_cost = 0.15
+	development_cost = 0.15
+}
+
+
 undead_military = {
 	global_manpower_modifier = 1.5	
 	infantry_cost = -0.5	

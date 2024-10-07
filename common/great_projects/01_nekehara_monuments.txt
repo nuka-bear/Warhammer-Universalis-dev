@@ -740,7 +740,7 @@ great_sphinx_of_numasis = {
 
 oasis_of_the_gods = {
 	# province it starts in
-	start = 830
+	start = 946
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 01.01.01

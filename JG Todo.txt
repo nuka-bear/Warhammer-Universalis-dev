@@ -39,7 +39,7 @@ A basic spell or two? Is mana = spell resource?
 	Undead Spend 100 mil mana to gain a 10,000 manpower?
 
 
-Done
+##### Done #####
 	Waaagh & No Waaagh Disasters for Orks
 
 
