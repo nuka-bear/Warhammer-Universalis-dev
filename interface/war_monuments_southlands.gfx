@@ -1,0 +1,56 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_great_project_tomb_of_settra"	
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_black_pyramid_of_nagash"	
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_great_necropolis_of_khemri"	
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_mortuary_temple_of_quaph"	
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_great_sphinx_of_numasis"	
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_oasis_of_the_gods	
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_valley_of_kings"	
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_obelisk_of_eternity"	
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_colossus_of_zandri"	
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_crater_ritual_site"	
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_valley_of_kings"	
+		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+	}
+}

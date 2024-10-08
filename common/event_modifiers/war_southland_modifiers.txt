@@ -1,0 +1,14 @@
+nehekharan_trade_empire = {
+	center_of_trade_upgrade_cost = -0.25
+	global_ship_trade_power = 0.25
+}
+
+nehekharan_monument_builders = {
+	great_project_upgrade_time = -0.25
+	great_project_upgrade_cost = -0.25
+}
+
+nagash_ritual = {
+	land_morale = 0.20
+	manpower_recovery_speed = 0.50
+}

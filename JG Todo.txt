@@ -3,6 +3,7 @@ JG To Do & Thoughts
 
 Build out Generic Missions based on location/religion/race
 	https://www.reddit.com/r/EU4mods/comments/1fxdsml/overhaul_of_generic_missions/
+	https://docs.google.com/spreadsheets/d/1QBsXSZuVjoy4udNXUD1MePNGmrVYx8ADi-SAVw4hF6Y/edit?gid=0#gid=0
 
 Focus on Nehekara to start
 	Monuments - Give all small minus liberty (maybe +liberty for you) and plus vassalization acceptance + same religion warscore

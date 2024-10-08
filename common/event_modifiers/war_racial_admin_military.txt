@@ -21,7 +21,7 @@ orcish_administration = {
 	improve_relation_modifier = -0.25
 	spy_offence = -0.2
 	build_cost = 0.25
-	all_power_cost = -0.05
+	all_power_cost = 0.05
 }
 
 orcish_military = {

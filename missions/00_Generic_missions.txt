@@ -1,11 +1,10 @@
 #These are Generic missions, available to all tags that don't have an override.
 
-#Below are mission series, within them are the actual missions.
-
+#Expansion Missions
 military_missions = { #Series name is displayed over the slot?
 	slot = 2 #ie, second upper left column
 	generic = yes #if a mission without generic = yes wants this slot then it overrides this.
-	ai = no #Can exist under the series itself or within individual missions.
+	ai = yes #Can exist under the series itself or within individual missions.
 	potential = {
 		always = yes
 	} #These are triggers for the entire series
@@ -23,6 +22,22 @@ military_missions = { #Series name is displayed over the slot?
 				name = "thriving_arms_industry"
 				duration = 9125 #25 years
 			}
+			custom_tooltip = claim_neighbor_province
+			hidden_effect = {
+				every_owned_province = {
+					every_neighbor_province = {
+						limit = {
+							NOT = { owned_by = ROOT }
+							NOT = { is_permanent_claim = ROOT	}
+							NOT = { is_core = ROOT	}
+						}
+						add_claim = ROOT
+					}
+				}
+			}
+		}
+		ai_weight = {
+			factor = 10 # AI will go (up to) this many percent above army budget in order to reach the army size needed
 		}
 	}
 	#2nd tier: (second because it is the second mission to be listed)
@@ -43,6 +58,19 @@ military_missions = { #Series name is displayed over the slot?
 					}
 				}
 			}
+			custom_tooltip = claim_neighbor_province
+			hidden_effect = {
+				every_owned_province = {
+					every_neighbor_province = {
+						limit = {
+							NOT = { owned_by = ROOT }
+							NOT = { is_permanent_claim = ROOT	}
+							NOT = { is_core = ROOT	}
+						}
+						add_claim = ROOT
+					}
+				}
+			}
 		}
 	}
 	#3d Tier: (not actually scripted as third, it's third as it is the 3rd one in this mission series)
@@ -51,9 +79,25 @@ military_missions = { #Series name is displayed over the slot?
 		required_missions = { expand_country_mission }
 		trigger = { grown_by_states = 5 }
 		effect = {
+			add_mil_power = 100
 			add_country_modifier = {
 				name = "expansionist_country"
 				duration = 9125 #25 years
+			}
+			custom_tooltip = perma_claim_neighbor_area
+			hidden_effect = {
+				every_owned_province = {
+					every_neighbor_province = {
+						area = {
+							limit = {
+								NOT = { owned_by = ROOT }
+								NOT = { is_permanent_claim = ROOT    }
+								NOT = { is_core = ROOT    }
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+				}
 			}
 		}
 	}
@@ -105,12 +149,39 @@ military_missions = { #Series name is displayed over the slot?
 			}
 		}
 		effect = {
-			add_dip_power = 50
-			add_adm_power = 50
-			add_mil_power = 50
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 25
+			}
 			add_country_modifier = {
 				name = "hegemonic_ambition"
 				duration = 9125 #25 years
+			}
+			custom_tooltip = home_region_generic_reward
+			tooltip = {
+				add_nationalism = -10
+			}
+			custom_tooltip = " "
+			custom_tooltip = perma_claim_neighbor_area
+			hidden_effect = {
+				every_owned_province = {
+					every_neighbor_province = {
+						area = {
+							limit = {
+								NOT = { owned_by = ROOT }
+								NOT = { is_permanent_claim = ROOT    }
+								NOT = { is_core = ROOT    }
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+				}
+				every_owned_province = {
+					limit = {
+						region = capital
+					}
+					add_nationalism = -10
+				}
 			}
 		}
 	}

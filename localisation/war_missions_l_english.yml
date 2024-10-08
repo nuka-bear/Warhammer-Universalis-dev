@@ -177,3 +177,67 @@ desc_challenged_beastfolk:0 "Defeating the wild Beastfolk has brought great reno
  desc_republic_bourgeois_center:0 "Our city is a center of all manner of commercial activities and draws the most talented and wealthiest burghers from across Germany to settle in it."
  republic_reformed_government:0 "Reformed Administration"
  desc_republic_reformed_government:0 "We have adopted new ways and reformed our administration into an effective machine for governing our state."
+
+
+
+ ### Southlands Missions
+
+ ##### Nehekharan Culture
+
+### Access to the Sea
+gen_nekekhara_missions_1_title:0 "Access the Sea"
+gen_nekekhara_missions_1_desc:0 "The sea holds riches and power for those who control it. By establishing a formidable navy, we can expand our influence beyond the deserts and into foreign lands."
+
+### Build Capital
+gen_nekekhara_missions_2_title:0 "Build the Capital"
+gen_nekekhara_missions_2_desc:0 "Our capital is the heart of our kingdom and a testament to the power of Nehekhara. By expanding its greatness, we honor the gods and display our strength."
+
+### Rebuild Monument
+gen_nekekhara_missions_3_title:0 "Rebuild the Monuments"
+gen_nekekhara_missions_3_desc:0 "The ancient monuments are the legacy of our forebears, and they remain a potent symbol of our divine right to rule. We must restore these structures to their former glory."
+
+### Retake Symbols of Power
+gen_nekekhara_missions_4_title:0 "Symbols of Power"
+gen_nekekhara_missions_4_desc:0 "The Valley of Kings, the Tomb of Settra, and the Great Sphinx of Numasis are the very symbols of our power. Reclaim them to reaffirm our dominion over Nehekhara."
+
+### Claimant
+gen_nekekhara_missions_5_title:0 "Reclaim Nehekhara"
+gen_nekekhara_missions_5_desc:0 "With our prestige and power solidified, it is time to proclaim our dominion over the lands of Nehekhara. None shall challenge our right to rule as the true heirs of Nehekhara."
+
+### Please the Mortuary Cults
+gen_nehekharan_pantheon_missions_1_title:0 "Please the Mortuary Cults"
+gen_nehekharan_pantheon_missions_1_desc:0 "The Mortuary Cults hold great influence over Nehekhara. By appeasing them, they shall open up the ancient tombs and unleash an undead army."
+
+### Construct Temples
+gen_nehekharan_pantheon_missions_2_title:0 "Construct Temples"
+gen_nehekharan_pantheon_missions_2_desc:0 "Temples are the homes of our gods on earth. By building more sacred sites, we ensure that our gods are honored and our realm blessed."
+
+### Retake Symbols of Religion
+gen_nehekharan_pantheon_missions_3_title:0 "Symbols of Religion"
+gen_nehekharan_pantheon_missions_3_desc:0 "The Great Necropolis of Khemri, the Mortuary Temple of Quaph, and the Oasis of the Gods are all holy sites that we must restore to rekindle our people's faith."
+
+### Convert Religion
+gen_nehekharan_pantheon_missions_4_title:0 "Convert the Realm"
+gen_nehekharan_pantheon_missions_4_desc:0 "Our lands must be united in worship under the true gods of Nehekhara. Convert all provinces to our religion to ensure the eternal loyalty of our subjects."
+
+
+### Perform the Dark Ritual
+gen_nehekharan_pantheon_missions_5_title:0 "Perform the Dark Ritual"
+gen_nehekharan_pantheon_missions_5_desc:0 "With the might of the Black Pyramid of Nagash, we have the power to summon forces that defy life and death. Performing this ritual will grant us untold power but will come at a great cost."
+
+
+### Southlands Modifiers
+
+# Modifier: Nehekharan Trade Empire
+nehekharan_trade_empire:0 "Nehekharan Trade Empire"
+desc_nehekharan_trade_empire:0 "Through mastery over desert routes and control of coastal trade, our influence extends across the known world. With our vast network, trade flows into our ports, empowering our fleets and our economy."
+
+# Modifier: Nehekharan Monument Builders
+nehekharan_monument_builders:0 "Nehekharan Monument Builders"
+desc_nehekharan_monument_builders:0 "Our people are renowned for their skill in constructing grand monuments. By tapping into this ancient expertise, we can restore our greatest monuments with remarkable speed and efficiency."
+
+# Modifier: Nagash's Ritual
+nagash_ritual:0 "Power of Nagash's Ritual"
+desc_nagash_ritual:0 "The Black Pyramid of Nagash grants us access to ancient necromantic power, strengthening our forces beyond mortal limits and accelerating the recovery of our armies."
+
+
