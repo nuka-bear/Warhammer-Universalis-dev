@@ -132,7 +132,7 @@ gen_nehekharan_pantheon_missions = {
 
 ### Please the Mortuary Cults
 	gen_nehekharan_pantheon_missions_1 = { 
-		icon = gain_mana
+		icon = mission_impaled_soldies
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {

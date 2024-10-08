@@ -14,10 +14,9 @@ Focus on Nehekara to start
 	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
 	Settra has +100% liberty desire lol
 	tomb_king in the event folder has the respawning event for tomb kings
-	Province modifiers across the area to make development and buildings more expensive - representing how hard it is to build on the crumbling emire. Mission reward for controlling all monuments that removes this. Or maybe that's just part of undead administration?
 	Decision to improve ruler's stats
 	Tension between the Nekeharan Pantheon and Nagashi
-	Cawa as Zombies? Really struggling with this.
+	Cawa as Zombies? Really struggling with making this happen this
 	Nagashi religion to ressurect Nagash
 
 

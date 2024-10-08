@@ -239,7 +239,7 @@ black_pyramid_of_nagash = {
 		}
 		country_modifiers = {
 			infantry_cost = -0.10
-			prestige = 0.25
+				infantry_power = 0.10
 		}
 		on_upgraded = {
 
@@ -260,8 +260,8 @@ black_pyramid_of_nagash = {
 			
 		}
 		country_modifiers = {
-			infantry_cost = -0.20
-			prestige = 0.5
+			infantry_cost = -0.15
+			infantry_power = 0.15
 		
 		}
 		on_upgraded = {
@@ -285,8 +285,8 @@ black_pyramid_of_nagash = {
 			allowed_num_of_buildings = 1
 		}
 		country_modifiers = {
-			infantry_cost = -0.40
-			prestige = 0.1
+			infantry_cost = -0.20
+			infantry_power = 0.20
 			all_power_cost = -0.025
 		}
 		on_upgraded = {
