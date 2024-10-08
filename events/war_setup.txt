@@ -65,27 +65,13 @@ country_event = {
 	}
 	option = {
 		name = warhammer_setup.2.a
-		#vampire counts
+		#undead
 		every_country = {
 			limit = {
 				or = {
 					technology_group = tech_vampire_count
+					technology_group = tech_tomb_kings
 					technology_group = tech_vampire_coast
-				}
-			}
-			add_country_modifier = {
-				name = human_administration
-				duration = -1
-			}
-			add_country_modifier = {
-				name = undead_military
-				duration = -1
-			}
-		}
-		every_country = {
-			limit = {
-				or = {
-\					technology_group = tech_tomb_kings
 				}
 			}
 			add_country_modifier = {
@@ -97,8 +83,6 @@ country_event = {
 				duration = -1
 			}
 		}
-
-
 		every_country = {
 			#humans
 			limit = {

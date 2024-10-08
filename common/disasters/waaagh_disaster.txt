@@ -100,8 +100,10 @@ waaagh = {
 	}
 	
 	can_end = {
-		is_at_war = no
-		war_exhaustion = 3
+		OR = {
+			is_at_war = no
+			war_exhaustion = 3
+		}
 	}
 	
 

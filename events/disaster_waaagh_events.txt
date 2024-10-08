@@ -40,11 +40,11 @@ country_event = {
 	}
 
 
-	# Declare War on Somebody
+	# Rebels instead
 
 	option = {
 		name = disaster_no_waaagh.1.option_2
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 10 }
 		random_owned_province = {
 			spawn_rebels = {
 				size = 1
@@ -120,7 +120,7 @@ country_event = {
 
 	option = {
 		name = disaster_no_waaagh.3.option_2
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 10 }
 		random_owned_province = {
 			spawn_rebels = {
 				size = 1
@@ -155,7 +155,7 @@ country_event = {
 	}
 
 
-	# Declare War on Somebody
+	# Rebels instead
 
 	option = {
 		name = disaster_no_waaagh.4.option_2
@@ -185,7 +185,7 @@ country_event = {
 	}
 	
 
-	# Declare War on Somebody
+	# Kill Ruler
 
 	option = {
 		name = disaster_no_waaagh.5.option_1
@@ -194,7 +194,7 @@ country_event = {
 	}
 
 
-	# Declare War on Somebody
+	# Rebels instead
 
 	option = {
 		name = disaster_no_waaagh.5.option_2
@@ -282,7 +282,7 @@ country_event = {
 
 	option = {
 		name = disaster_waaagh.3.option_1
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 1 }
 		add_yearly_manpower = 0.5	
 		random_neighbor_country = {
 			LIMIT = {
@@ -302,7 +302,7 @@ country_event = {
 	}
 
 
-	# Declare War on Somebody
+	# Rebels instead
 
 	option = {
 		name = disaster_waaagh.3.option_2

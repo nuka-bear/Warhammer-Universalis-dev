@@ -13,52 +13,27 @@ human_military = {
 #Orcses Were Made for Fightin' an' Winnin'
 orcish_administration = {
 	#Positives
-	mil_advisor_cost = -0.33
-	harsh_treatment_cost = -0.25
-	unjustified_demands = -0.2
-	general_cost = -0.15
-	free_leader_pool = 1
-	war_exhaustion = -0.03
-	war_taxes_cost_modifier = -0.5
-	mil_tech_cost_modifier = 0.1
+	mil_advisor_cost = -0.90
+	war_exhaustion = -0.10
+	war_taxes_cost_modifier = -1.0
+	country_military_power = 1
 	#Negatives
 	improve_relation_modifier = -0.25
-	development_cost = 0.1
 	spy_offence = -0.2
-	technology_cost = 0.05
-	embracement_cost = 0.3
-	
+	build_cost = 0.25
+	all_power_cost = -0.05
 }
-
-test_buff = {
-	# land_forcelimit = 5
-	# global_manpower = 5
-    #land_forcelimit_modifier = 0.15
-    #global_regiment_cost = -0.15
-    #global_manpower_modifier = 0.15
-    #global_supply_limit_modifier = 0.25
-    #global_institution_spread = -3
-    #embracement_cost = 5
-    #relation_with_same_religion = -50
-	#production_efficiency = -0.25
-}
-
 
 orcish_military = {
 	global_manpower_modifier = 0.2
-	manpower_recovery_speed = 0.1
 	army_tradition_from_battle = 0.5
-	recover_army_morale_speed = 0.25
-	reinforce_speed = 0.25
-	shock_damage = 0.15	
-	fire_damage_received = -0.05
-	shock_damage_received = -0.15	
-	loot_amount = 0.33	
+	land_morale = 0.10
+	loot_amount = 1.0
 	#Negatives
-	fire_damage = -0.15
+	yearly_army_professionalism = -0.01
+	army_tradition = 1
 	artillery_power = -0.20	
 	defensiveness = -0.25
-	fort_maintenance_modifier = 0.25
 	siege_ability = -0.1
 }
 
@@ -155,35 +130,23 @@ undead_administration = {
 
 undead_military = {
 	global_manpower_modifier = 1.5	
+	land_forcelimit_modifier = 1.5
+	
+	land_attrition = -0.75
+	movement_speed = -0.20
+
 	infantry_cost = -0.5	
-	mercenary_manpower = -0.25
-	land_forcelimit_modifier = 1.5	
-	land_attrition = -0.75	
-	manpower_recovery_speed = 0.1	
-	sailors_recovery_speed = 0.5
+	infantry_power = -0.5
+
+	land_morale = 0.1
+	discipline = -0.1
+	morale_damage = 0.05
+
 	reinforce_speed = 3	
 	reinforce_cost_modifier = -0.5
-	movement_speed = -0.4
-	drill_gain_modifier = -0.75
-	# infantry_power = -0.2
-	# cavalry_power = 0.2
-	artillery_power = -0.1
-	land_morale = 0.1
-	naval_morale = 0.1
-	# discipline = -0.1
-	movement_speed_onto_off_boat_modifier = 0.5
-	sunk_ship_morale_hit_recieved = -0.33
 	recover_army_morale_speed = 0.5	
-	recover_navy_morale_speed = 0.5
-	reserves_organisation = 4	
-	# morale_damage_received = -0.9
-	# shock_damage_received = -0.3
-	shock_damage = -0.3
-	fire_damage = -0.3
-	# fire_damage_received = -0.3
-	war_exhaustion = -0.02	
-	hostile_attrition = 2	
-	global_unrest = 2
+
+	hostile_attrition = 2
 }
 
 #" The Fimir inhabit the wetlands of the Warhammer world, typically within crudely constructed fortifications resembling nothing more than a pile of rocks. 
@@ -334,8 +297,6 @@ lizardmen_military = {
 	drill_gain_modifier = 1			
 	drill_decay_modifier = -0.25		
 	
-	
-	
 	#Negatives	
 	capped_by_forcelimit = yes
 	merc_maintenance_modifier = 0.5		
@@ -360,6 +321,7 @@ eastern_beastfolk_administration = {
 	yearly_corruption = 0.1		
 	global_ship_trade_power = -0.3	
 }
+
 eastern_beastfolk_military = {			
 	#Positives
 	shock_damage = 0.2			
@@ -374,4 +336,17 @@ eastern_beastfolk_military = {
 	naval_morale = -0.1			
 	global_supply_limit_modifier = -0.3	
 
+}
+
+test_buff = {
+	# land_forcelimit = 5
+	# global_manpower = 5
+    #land_forcelimit_modifier = 0.15
+    #global_regiment_cost = -0.15
+    #global_manpower_modifier = 0.15
+    #global_supply_limit_modifier = 0.25
+    #global_institution_spread = -3
+    #embracement_cost = 5
+    #relation_with_same_religion = -50
+	#production_efficiency = -0.25
 }

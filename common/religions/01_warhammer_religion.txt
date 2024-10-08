@@ -225,6 +225,7 @@ necromantic_denominations = {
 		country = {
 			max_absolutism = 10
 			global_tax_modifier = 0.1
+
 		}
 		country_as_secondary = {
 			global_tax_modifier = 0.15

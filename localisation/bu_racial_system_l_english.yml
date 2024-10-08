@@ -27,7 +27,7 @@
  desc_undead_administration:0 "The undead administration is a rigid, necromantic system focused on absolute control and reducing administrative costs. However, the undead struggle with construction and development, relying heavily on dark magic to maintain their forces rather than material growth."
 
  undead_military:0 "Undead Military"
- desc_undead_military:0 "Undead armies are tireless and highly numerous, with massive bonuses to manpower and quick reinforcement speed. However, they suffer from slow movement and a lack of artillery support, and their power is offset by lower resilience to attrition and morale recovery."
+ desc_undead_military:0 "Undead armies are tireless and highly numerous, with massive bonuses to manpower and quick reinforcement speed. Thier masses of zombie infantry are cheap, but very weak."
 
  fimir_administration:0 "Fimir Administration"
  desc_fimir_administration:0 "Fimir administration is designed to capitalize on their raiding and fortification skills, with a focus on tax revenue and power projection. They tend to isolate themselves, struggling with foreign relations and innovation, which results in higher costs for technology and institutional adoption."
