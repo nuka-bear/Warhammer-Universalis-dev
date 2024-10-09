@@ -52,6 +52,10 @@ challenged_undead = {
 	infantry_cost = -0.1
 }
 
+traded_undead = {
+	global_tax_modifier = 0.05
+}
+
 # Fimir
 
 traded_fimir = {

@@ -22,10 +22,11 @@ Focus on Nehekara to start
 	Decisions
 	Rename Estates
 
-Monstrous Units that only some races have access to - undead and dark elves?
-	3x more expensive
-	2x more powerful
-	Additional morale damage
+Fix Monstrous Unit Cost
+
+Fix Trade with Race Mission
+
+Mission for controlling whole subcontinent which triggers the end times?
 
 Make fun to play subject for racial confederation - "Dependent State?"
 	They have a lot of freedom

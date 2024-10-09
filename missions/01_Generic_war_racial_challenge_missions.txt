@@ -42,12 +42,10 @@ race_relations_1_missions = {
 		trigger = {
 			any_country = { 
 				has_country_modifier = human_administration
-				ROOT = {
-					trust = { who = PREV value = 80 }
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
+				trust = { who = ROOT value = 80 }
+				has_opinion = {
+					who = ROOT
+					value = 150
 				}
 			}
 		}
@@ -91,12 +89,10 @@ race_relations_1_missions = {
 		trigger = {
 			any_country = { 
 				has_country_modifier = orcish_administration
-				ROOT = {
-					trust = { who = PREV value = 80 }
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
+				trust = { who = ROOT value = 80 }
+				has_opinion = {
+					who = ROOT
+					value = 150
 				}
 			}
 		}
@@ -150,12 +146,10 @@ race_relations_2_missions = {
 		trigger = {
 			any_country = { 
 				has_country_modifier = dwarven_administration
-				ROOT = {
-					trust = { who = PREV value = 80 }
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
+				trust = { who = ROOT value = 80 }
+				has_opinion = {
+					who = ROOT
+					value = 150
 				}
 			}
 		}
@@ -199,12 +193,10 @@ race_relations_2_missions = {
 		trigger = {
 			any_country = { 
 				has_country_modifier = elven_administration
-				ROOT = {
-					trust = { who = PREV value = 80 }
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
+				trust = { who = ROOT value = 80 }
+				has_opinion = {
+					who = ROOT
+					value = 150
 				}
 			}
 		}
@@ -259,12 +251,10 @@ race_relations_3_missions = {
 		trigger = {
 			any_country = { 
 				has_country_modifier = lizardmen_administration
-				ROOT = {
-					trust = { who = PREV value = 80 }
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
+				trust = { who = ROOT value = 80 }
+				has_opinion = {
+					who = ROOT
+					value = 150
 				}
 			}
 		}
@@ -309,12 +299,10 @@ race_relations_3_missions = {
 		trigger = {
 			any_country = { 
 				has_country_modifier = fimir_administration
-				ROOT = {
-					trust = { who = PREV value = 80 }
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
+				trust = { who = ROOT value = 80 }
+				has_opinion = {
+					who = ROOT
+					value = 150
 				}
 			}
 		}
@@ -368,12 +356,10 @@ race_relations_4_missions = {
 		trigger = {
 			any_country = { 
 				has_country_modifier = ogre_administration
-				ROOT = {
-					trust = { who = PREV value = 80 }
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
+				trust = { who = ROOT value = 80 }
+				has_opinion = {
+					who = ROOT
+					value = 150
 				}
 			}
 		}
@@ -417,12 +403,10 @@ race_relations_4_missions = {
 		trigger = {
 			any_country = { 
 				has_country_modifier = skaven_administration
-				ROOT = {
-					trust = { who = PREV value = 80 }
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
+				trust = { who = ROOT value = 80 }
+				has_opinion = {
+					who = ROOT
+					value = 150
 				}
 			}
 		}
@@ -477,12 +461,10 @@ race_relations_5_missions = {
 		trigger = {
 			any_country = { 
 				has_country_modifier = beastfolk_administration
-				ROOT = {
-					trust = { who = PREV value = 80 }
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
+				trust = { who = ROOT value = 80 }
+				has_opinion = {
+					who = ROOT
+					value = 150
 				}
 			}
 		}
@@ -527,12 +509,10 @@ race_relations_5_missions = {
 		trigger = {
 			any_country = { 
 				has_country_modifier = undead_administration
-				ROOT = {
-					trust = { who = PREV value = 80 }
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
+				trust = { who = ROOT value = 80 }
+				has_opinion = {
+					who = ROOT
+					value = 150
 				}
 			}
 		}

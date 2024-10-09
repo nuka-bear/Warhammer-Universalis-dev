@@ -112,6 +112,9 @@ desc_challenged_elves:0 "The precision and discipline of elven warriors have ins
 challenged_undead:0 "Challenged Undead"
 desc_challenged_undead:0 "Battling the undead has shown us how to conserve resources, significantly reducing the cost of maintaining our infantry."
 
+traded_undead:0 "Traded with Undead"
+desc_traded_undead:0 "The undead closely control their populace, extracting every ounce of gold from their pockets. We should learn to do the same."
+
 # Fimir
 traded_fimir:0 "Trade with Fimir"
 desc_traded_fimir:0 "Through our transactions with the Fimir, we have learned how to fortify our lands at a lower cost, reducing fort maintenance expenses."
