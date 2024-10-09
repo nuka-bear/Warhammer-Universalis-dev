@@ -14,3 +14,11 @@ nagash_ritual = {
 	manpower_recovery_speed = 0.50
 	global_unrest = 4
 }
+
+
+true_successor = {
+	diplomatic_reputation = 1
+	prestige_decay = -0.05
+	devotion = 0.1
+	legitimacy = 0.1
+}

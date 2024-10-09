@@ -98,7 +98,7 @@ gen_nekekhara_missions = {
 
 
 
-### Claimant - Change this, they already get it from generic missions
+### True Successor
 	gen_nekekhara_missions_5 = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_nekekhara_missions_4 } 
@@ -112,8 +112,9 @@ gen_nekekhara_missions = {
 		}
 
 		effect = { 
-			nehekhara_region = {
-				add_permanent_claim = ROOT
+			add_country_modifier = { 
+ 				name = true_successor
+				duration = -1
 			}
 		}
 	}

@@ -246,3 +246,6 @@ nagash_ritual:0 "Power of Nagash's Ritual"
 desc_nagash_ritual:0 "The Black Pyramid of Nagash grants us access to ancient necromantic power, strengthening our forces beyond mortal limits and accelerating the recovery of our armies."
 
 
+# Modifier: True Successor
+true_successor:0 "True Successor"
+desc_true_successor:0 "Our glory is undying. Our armies are unending. None can now question, we are the True Successor. We rule over Nekekhara. We do not serve."
