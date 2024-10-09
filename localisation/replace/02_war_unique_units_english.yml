@@ -1,0 +1,9 @@
+﻿l_english:
+  REGCAT_cossacks:0 "Monsters"
+  COSSACKS_NAME:0 "$HOME$'s $NUM$$ORDER$ Monsters"
+  COSSACKS_REGIMENT:1 "Monsters Regiment\n$EFFECT$"
+  cossacks_regiment:0 "Monsters Regiment" 
+  COSSACKS_REGIMENT_TYPE:0 "Monster"
+  COSSACKS_DESC:2 "We can tame monsters and put them to use in the field."
+
+

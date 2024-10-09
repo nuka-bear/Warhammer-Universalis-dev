@@ -37,6 +37,11 @@ trade_elves_desc:0 "The Elves’ long experience with diplomacy offers much to l
 challenge_undead_title:0 "Unmake the Undead"
 challenge_undead_desc:0 "The Undead are an abomination to the living, and their relentless numbers are a challenge in themselves. We must learn how to fight more efficiently against these unnatural forces."
 
+# Undead
+trade_undead_title:0 "Seek Undead Trade"
+trade_undead_desc:0 "The Undead have a certain way with coin that turn the living to shame. We should learn to treat our subjects more like zombies."
+
+
 # Fimir
 challenge_fimir_title:0 "Overhwhelm the Fimir"
 challenge_fimir_desc:0 "The monstrous Fimir are terrifying foes, but by defeating them, we will learn how to crush the morale of our enemies even more effectively."

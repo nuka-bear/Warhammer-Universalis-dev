@@ -2101,7 +2101,8 @@ voc_indiamen_ship = {
 
 
 cossacks_regiment = {
-    shock_damage = 0.15
+	land_maintenance_modifier = 2.0
+	discipline = 1.0
 }
 
 carolean_regiment = {

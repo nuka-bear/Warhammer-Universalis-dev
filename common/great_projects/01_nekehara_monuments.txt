@@ -133,7 +133,6 @@ tomb_of_settra = {
 		area_modifier = {			
 		}
 		region_modifier = {
-			allowed_num_of_buildings = 1
 		}
 		country_modifiers = {
 			administrative_efficiency = 0.05
@@ -282,7 +281,6 @@ black_pyramid_of_nagash = {
 		area_modifier = {			
 		}
 		region_modifier = {
-			allowed_num_of_buildings = 1
 		}
 		country_modifiers = {
 			infantry_cost = -0.20
@@ -428,7 +426,6 @@ great_necropolis_of_khemri = {
 		area_modifier = {			
 		}
 		region_modifier = {
-			allowed_num_of_buildings = 1
 		}
 		country_modifiers = {
 			leader_land_fire = 1

@@ -50,11 +50,12 @@ gen_nekekhara_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_nekekhara_missions_2 } 
 		trigger = {
-			has_great_project = {
-				type = any
-				tier = 3
+			any_owned_province = { 
+				has_great_project = {
+					type = any
+					tier = 3
+				}
 			}
-
 		}
 
 		effect = { 
@@ -68,18 +69,23 @@ gen_nekekhara_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_nekekhara_missions_3 } 
 		trigger = {
-			has_great_project = {
-				type = valley_of_kings
-				tier = 1
+			any_owned_province = { 
+				has_great_project = {
+					type = valley_of_kings
+					tier = 1
+				}
 			}
-			has_great_project = {
-				type = tomb_of_settra
-				tier = 1
+			any_owned_province = {
+				has_great_project = {
+					type = tomb_of_settra
+					tier = 1
+				}
 			}
-
-			has_great_project = {
-				type = great_sphinx_of_numasis
-				tier = 1
+			any_owned_province = {
+				has_great_project = {
+					type = great_sphinx_of_numasis
+					tier = 1
+				}
 			}
 		}
 
@@ -92,7 +98,7 @@ gen_nekekhara_missions = {
 
 
 
-### Claimant
+### Claimant - Change this, they already get it from generic missions
 	gen_nekekhara_missions_5 = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_nekekhara_missions_4 } 
@@ -163,18 +169,23 @@ gen_nehekharan_pantheon_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_nehekharan_pantheon_missions_2 } 
 		trigger = {
-			has_great_project = {
-				type = great_necropolis_of_khemri
-				tier = 1
+			any_owned_province = {
+				has_great_project = {
+					type = great_necropolis_of_khemri
+					tier = 1
+				}
 			}
-			has_great_project = {
-				type = mortuary_temple_of_quaph
-				tier = 1
+			any_owned_province = {
+				has_great_project = {
+					type = mortuary_temple_of_quaph
+					tier = 1
+				}
 			}
-
-			has_great_project = {
-				type = oasis_of_the_gods
-				tier = 1
+			any_owned_province = {
+				has_great_project = {
+					type = oasis_of_the_gods
+					tier = 1
+				}
 			}
 		}
 
@@ -188,11 +199,17 @@ gen_nehekharan_pantheon_missions = {
 	### Unify Religion
 	gen_nehekharan_pantheon_missions_4 = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_nehekharan_pantheon_missions_3 } 
+		required_missions = { } 
 		trigger = {
 			nehekhara_region = {
 				all_province = {
 					religion = ROOT
+				}
+			}
+			any_owned_province = {
+				has_great_project = {
+					type = black_pyramid_of_nagash
+					tier = 0
 				}
 			}
 		}
@@ -210,9 +227,11 @@ gen_nehekharan_pantheon_missions = {
 		icon = mission_impaled_soldies
 		required_missions = {  } 
 		trigger = {
-			has_great_project = {
-				type = black_pyramid_of_nagash
-				tier = 3
+			any_owned_province = {
+				has_great_project = {
+					type = black_pyramid_of_nagash
+					tier = 3
+				}
 			}
 			adm_power = 500
 			dip_power = 500

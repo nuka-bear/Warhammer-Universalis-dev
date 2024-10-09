@@ -258,8 +258,7 @@ country_event = {
 
 	option = {
 		name = disaster_waaagh.2.option_1
-		add_army_professionalism = 0.05
-		add_yearly_manpower = -0.5
+		add_yearly_manpower = -1.0
 
 	}
 }
@@ -341,7 +340,7 @@ country_event = {
 	}
 
 
-	# Declare War on Somebody
+	# Gain some manpower
 
 	option = {
 		name = disaster_waaagh.4.option_2

@@ -117,6 +117,9 @@ elven_military = {
 	merc_maintenance_modifier = 0.3	
 	mercenary_manpower = -0.5	
 	sailors_recovery_speed = -0.25
+
+	can_recruit_cossacks = yes
+	allowed_cossack_fraction = 0.1
 }
 
 #welcome to the bonezone
@@ -131,6 +134,7 @@ undead_administration = {
 undead_military = {
 	global_manpower_modifier = 1.5	
 	land_forcelimit_modifier = 1.5
+	global_supply_limit_modifier = 1.5
 	
 	land_attrition = -0.75
 	movement_speed = -0.20
@@ -147,6 +151,9 @@ undead_military = {
 	recover_army_morale_speed = 0.5	
 
 	hostile_attrition = 2
+
+	can_recruit_cossacks = yes
+	allowed_cossack_fraction = 0.1
 }
 
 #" The Fimir inhabit the wetlands of the Warhammer world, typically within crudely constructed fortifications resembling nothing more than a pile of rocks. 
@@ -268,7 +275,10 @@ skaven_military = {
 	shock_damage_received = 0.1	
 
 	galley_power = -0.2			
-	cavalry_cost = 0.2					
+	cavalry_cost = 0.2
+
+	can_recruit_cossacks = yes
+	allowed_cossack_fraction = 0.1				
 }
 
 

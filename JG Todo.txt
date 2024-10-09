@@ -18,7 +18,14 @@ Focus on Nehekara to start
 	Tension between the Nekeharan Pantheon and Nagashi
 	Cawa as Zombies? Really struggling with making this happen this
 	Nagashi religion to ressurect Nagash
+	Events
+	Decisions
+	Rename Estates
 
+Monstrous Units that only some races have access to - undead and dark elves?
+	3x more expensive
+	2x more powerful
+	Additional morale damage
 
 Make fun to play subject for racial confederation - "Dependent State?"
 	They have a lot of freedom
@@ -36,8 +43,12 @@ A basic spell or two? Is mana = spell resource?
 	Undead Spend 100 mil mana to gain a 10,000 manpower?
 
 
+Add Lucky Nations
+
 ##### Done #####
 	Waaagh & No Waaagh Disasters for Orks
+
+
 
 
 

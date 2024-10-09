@@ -10,5 +10,7 @@ nehekharan_monument_builders = {
 
 nagash_ritual = {
 	land_morale = 0.20
+	morale_damage = 0.20
 	manpower_recovery_speed = 0.50
+	global_unrest = 4
 }
