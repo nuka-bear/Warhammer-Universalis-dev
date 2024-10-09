@@ -8,3 +8,4 @@ owner = G38
 controller = G38
 culture = common_goblin
 add_core = G38
+center_of_trade = 2

@@ -70,7 +70,7 @@ country_event = {
 			limit = {
 				or = {
 					technology_group = tech_vampire_count
-					technology_group = tech_tomb_kings
+					technology_group = tech_eastern_undead
 					technology_group = tech_vampire_coast
 				}
 			}
@@ -83,8 +83,24 @@ country_event = {
 				duration = -1
 			}
 		}
+		#tomb kings
 		every_country = {
-			#humans
+			limit = {
+				or = {
+					technology_group = tech_tomb_kings
+				}
+			}
+			add_country_modifier = {
+				name = human_administration
+				duration = -1
+			}
+			add_country_modifier = {
+				name = undead_military
+				duration = -1
+			}
+		}
+		#humans
+		every_country = {
 			limit = {
 				or = {
 					technology_group = tech_imperial
@@ -112,6 +128,7 @@ country_event = {
 				or = {
 					technology_group = tech_orcish
 					technology_group = tech_hobgoblin
+					technology_group = tech_eastern_greenskin
 				}
 			}
 			add_country_modifier = {

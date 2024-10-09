@@ -1,0 +1,9 @@
+base_tax = 0
+base_manpower = 0
+base_production = 0
+trade_goods = nothing
+religion = khornate_religion
+is_city = yes
+add_core = B59
+owner = B59
+controller = B59

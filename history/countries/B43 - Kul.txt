@@ -4,5 +4,5 @@ government_rank = 1
 primary_culture = kul
 religion = chaos_undivided_religion
 technology_group = tech_chaos_warrior
-capital = 2638
+capital = 2639
 setup_vision = yes

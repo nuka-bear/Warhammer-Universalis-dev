@@ -1,0 +1,8 @@
+﻿l_english:
+ ##############
+ # Greenskins #
+ ##############
+ k8p_cant_offer_alliance_trigger_tt:0 "While the war for Karak Eight Peaks is ongoing, claimants cannot offer alliances."
+ NOT_k8p_claimant:0 "[Root.GetName] must not be an Karak Eight Peaks claimants"  
+ NOT_k8p_claimant_FROM:0 "[From.GetName] must not be an Karak Eight Peaks claimants"
+ k8p_cant_dec_cb_war_trigger_tt:0 "While the war for Karak Eight Peaks is ongoing, claimants cannot declare war outside of the Karak Eight Peaks Region."

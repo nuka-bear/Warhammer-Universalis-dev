@@ -417,21 +417,48 @@
  ancestor_gods:0 "Ancestor Gods"
  ancestor_gods_religion_desc:0 "The Ancestor Gods represent the chief deities worshipped by the Dwarfs. The Dwarfs venerate their once-mortal legendary ancestors instead of worshipping distant otherworldly gods like Men and Elves. Dwarfs believe that the spirits of the Ancestors watch over them, guide their actions, judge their achievements and determine if they have led worthy lives.\n\n Of these gods, Grungni, Valaya, and Grimnir are the most important. According to Dwarflore, the three were born from deep within the hearts of the first mountains of the mortal world, and the entire Dwarf race are descended from them."
  ANCESTOR_GODS_HERETICS:0 "Ancestor God Heretics"
- 
+ ancestor_gods_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ ancestor_gods_rebels_name:0 "$RELIGION$ Zealots"
+ ancestor_gods_rebels_title:0 "Religious"
+ ancestor_gods_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ ancestor_gods_rebels_army:0 "$RELIGION$ Army"
+ ancestor_gods_rebels_demand:0 "Convert $COUNTRYNAME$"
+
  #albion
  the_old_faith:0 "The Old Faiths"
  druidism:0 "Druidism"
+ druidism_rebels_demand_desc:0 "REPLACE_ME"
+ druidism_rebels_name:0 "$RELIGION$ Zealots"
+ druidism_rebels_title:0 "Religious"
+ druidism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ druidism_rebels_army:0 "$RELIGION$ Army"
+ druidism_rebels_demand:0 "Convert $COUNTRYNAME$"
+
  
  #arabyn
  arabyn_denominations:0 "Arabyn Denominations"
  the_one_faith:0 "The One Faith"
  the_one_faith_religion_desc:0 "The One Faith represents a monotheist religion primarily practiced by the humans inhabiting the Northern Southlands. The One is the solar god, king of the heavens and protector of men, who enlightens them with his blessings but also with his anger. The humble and reasonable man will be able to attract his favours, but the unruly and reckless will only attract his wrath."
- HERETIC:0 "Arabyn Heretic"
+ the_one_faith_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ the_one_faith_rebels_name:0 "$RELIGION$ Zealots"
+ the_one_faith_rebels_title:0 "Religious"
+ the_one_faith_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ the_one_faith_rebels_army:0 "$RELIGION$ Army"
+ the_one_faith_rebels_demand:0 "Convert $COUNTRYNAME$"
+ 
+ HERETIC:0 "Heretic"
  
  #draconic
  draconic_denominations:0 "Dragon Cults"
  dragon_cult:0 "Dragon Cults"
  dragon_cult_religion_desc:0 "Abandoned and ignored by distant gods, some people have turned to worshipping the great dragons who once owned the lands and now mostly lie dormant. It is not a unified faith but a collect of many different minor cults devoted to different dragons. All agree that the dragons themselves are divine, and find their draconic deities to be much more acceptable than empty prayers offered in temples. All seek to awaken the dragons and see them wreak havoc on their enemies."
+ dragon_cult_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ dragon_cult_rebels_name:0 "$RELIGION$ Zealots"
+ dragon_cult_rebels_title:0 "Religious"
+ dragon_cult_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ dragon_cult_rebels_army:0 "$RELIGION$ Army"
+ dragon_cult_rebels_demand:0 "Convert $COUNTRYNAME$"
+
 
  #harominzed
  harmonized_old_world:0 "Harmonized Old World"

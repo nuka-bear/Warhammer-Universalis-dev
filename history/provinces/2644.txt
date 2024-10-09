@@ -1,10 +1,10 @@
-owner = B45
+ 
 base_tax = 1
 base_manpower = 1
 base_production = 3
 trade_goods = fur
 religion = chaos_undivided_religion
-controller = B45
+ 
 is_city = yes
 culture = tokmar
-add_core = B45
+ 

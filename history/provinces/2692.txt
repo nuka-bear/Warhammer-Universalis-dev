@@ -1,10 +1,10 @@
-owner = B59
 base_tax = 3
 base_manpower = 1
 base_production = 1
 trade_goods = livestock
-religion = khornate_religion
-controller = B59
+religion = chaos_undivided_religion
 is_city = yes
 culture = yusaks
-add_core = B59
+owner = B93
+controller = B93
+add_core = B93

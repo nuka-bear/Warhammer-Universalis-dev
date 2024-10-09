@@ -1,10 +1,10 @@
-owner = B54
 base_tax = 1
 base_manpower = 2
 base_production = 3
 trade_goods = ivory
 religion = chaos_undivided_religion
-controller = B54
-is_city = yes
 culture = manchu_warhammer
-add_core = B54
+add_core = B77
+owner = B77
+controller = B77
+is_city = yes

@@ -880,7 +880,7 @@ gov_iron_court = {
 	}
 
 	trigger = {
-		tag = I21
+		tag = I22
 	}
 }
 
@@ -918,7 +918,7 @@ gov_storm_court = {
 	}
 
 	trigger = {
-		tag = I22
+		tag = I21
 	}
 }
 

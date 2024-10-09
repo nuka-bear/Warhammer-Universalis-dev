@@ -1,10 +1,10 @@
-owner = B39
 base_tax = 1
 base_manpower = 2
 base_production = 3
 trade_goods = fish
 religion = chaos_undivided_religion
-controller = B39
-
 culture = kvellig
 add_core = B39
+owner = B39
+controller = B39
+is_city = yes

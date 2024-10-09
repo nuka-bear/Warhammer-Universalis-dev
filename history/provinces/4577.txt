@@ -9,3 +9,4 @@ is_city = yes
 culture = gritus_skaven
 add_core = U19
 fort_15th = yes
+center_of_trade = 2

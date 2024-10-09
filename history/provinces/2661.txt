@@ -1,10 +1,10 @@
-owner = B56
+
 base_tax = 1
 base_manpower = 1
 base_production = 1
 trade_goods = fur
 religion = chaos_undivided_religion
-controller = B56
+
 is_city = yes
 culture = tahmaks
-add_core = B56
+

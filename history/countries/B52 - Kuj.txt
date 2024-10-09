@@ -4,5 +4,5 @@ government_rank = 1
 primary_culture = kuj
 religion = khornate_religion
 technology_group = tech_chaos_warrior
-capital = 1964
+capital = 4459
 setup_vision = yes

@@ -1,0 +1,9 @@
+base_tax = 0
+base_manpower = 0
+base_production = 0
+trade_goods = nothing
+religion = tzeentchian_religion
+is_city = yes
+add_core = B57
+owner = B57
+controller = B57

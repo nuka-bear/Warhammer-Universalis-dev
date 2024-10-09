@@ -1,10 +1,10 @@
-owner = B50
 base_tax = 1
 base_manpower = 1
 base_production = 1
 trade_goods = livestock
 religion = slaaneshi_religion
-controller = B50
 is_city = yes
 culture = yusaks
-add_core = B50
+add_core = B91
+owner = B91
+controller = B91
