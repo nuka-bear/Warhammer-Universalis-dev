@@ -20,9 +20,10 @@ central_empire_region = {
 }
 bretonnia_region = {
 	areas = {
-		pale_sisters_area gisoreux_area parravon_area massif_orcal_area couronne_marches_area couronne_area mousillon_area arden_area brionne_area languille_area montfont_area
-		estalian_marches_area carcassone_area morency_area charboneau_area chalons_area aquitaine_warhammer_area bordeleaux_area quenelles_area lyonesse_area armorica_area
-		grey_lady_pass_area silent_isle_area pinot_area artois_area chablis_area nesleaux_area gamay_area bastonne_area grismerie_area merlot_area grave_of_cuileux_area
+		pale_sisters_area gisoreux_area parravon_area massif_orcal_area couronne_marches_area couronne_area mousillon_area arden_area brionne_area languille_area
+		montfont_area estalian_marches_area carcassone_area morency_area charboneau_area chalons_area aquitaine_warhammer_area bordeleaux_area quenelles_area lyonesse_area
+		armorica_area grey_lady_pass_area silent_isle_area pinot_area artois_area chablis_area nesleaux_area gamay_area bastonne_area grismerie_area
+		merlot_area grave_of_cuileux_area 
 	}
 }
 kislev_heartlands_region = {
@@ -32,7 +33,7 @@ kislev_heartlands_region = {
 }
 troll_country_region = {
 	areas = {
-		western_troll_country_area eastern_troll_country_area northern_oblast_area cursed_city_area grovod_wood_area kislev_goromandy_area  eastern_oblast_area high_pass_area 
+		western_troll_country_area eastern_troll_country_area northern_oblast_area cursed_city_area grovod_wood_area kislev_goromandy_area eastern_oblast_area high_pass_area 
 	}
 }
 norsca_region = {
@@ -56,21 +57,20 @@ estalia_region = {
 giant_home_mountains_region = {
 	areas = {
 		kraka_dorden_area kraka_drak kraka_ornsmotek_area kraka_ravnsvake_area giantshome_1_area giantshome_3_area giantshome_4_area giantshome_5_area giantshome_6_area giantshome_7_area
-		hell_pit_2_area hell_pit_3_area hell_pit_1_area clan_moulder_tunnels
+		hell_pit_2_area hell_pit_3_area hell_pit_1_area clan_moulder_tunnels 
 	}
 }
 border_princes_region = {
 	areas = {
 		forest_of_gloom_area black_peninsula_area apuccini_foothills_area lagoon_of_tears_area kharnos_area khypris_area lissa_area treblecz_area eagle_confederacy_area black_venom_run_area
 		skull_river_area howling_river_area blood_river_area monte_castello_area grey_stone_fortress_area argalis_area badlands_area_3 varenka_hills_area barak_varr_area 
-		tomb_valley_area
 	}
 }
 badlands_region = {
 	areas = {
-		death_pass_area badlands_area_1 badlands_area_2 badlands_area_4 badlands_area_5 badlands_area_6 badlands_area_7 badlands_area_8 badlands_area_9 badlands_area_10 badlands_area_11
-		badlands_area_12 badlands_area_13 badlands_area_14 badlands_area_15 badlands_area_16 badlands_area_17 badlands_area_18 badlands_area_19 badlands_area_20 badlands_area_21
-		badlands_area_29 badlands_area_22 badlands_area_23 badlands_area_24 badlands_area_25 badlands_area_26 badlands_area_27 badlands_area_28 
+		death_pass_area badlands_area_1 badlands_area_2 badlands_area_4 badlands_area_5 badlands_area_6 badlands_area_7 badlands_area_8 badlands_area_9 badlands_area_10
+		badlands_area_11 badlands_area_12 badlands_area_13 badlands_area_14 badlands_area_15 badlands_area_16 badlands_area_17 badlands_area_18 badlands_area_19 badlands_area_20
+		badlands_area_21 badlands_area_29 badlands_area_22 badlands_area_23 badlands_area_24 badlands_area_25 badlands_area_26 badlands_area_27 badlands_area_28 
 	}
 }
 wheatlands_region = {
@@ -108,7 +108,7 @@ araby_region = {
 	areas = {
 		araby_area_1 araby_area_2 araby_area_3 araby_area_4 araby_area_5 araby_area_6 araby_area_7 araby_area_8 araby_area_9 araby_area_10
 		araby_area_11 araby_area_12 araby_area_13 araby_area_14 araby_area_15 araby_area_16 araby_area_17 araby_area_18 araby_area_19 araby_20_area
-		scorpion_road_area
+		scorpion_road_area 
 	}
 }
 gulf_of_medes_region = {
@@ -129,7 +129,7 @@ new_coast_region = {
 }
 lahmia_region = {
 	areas = {
-		lahmia_1_area lahmia_2_area lahmia_3_area lahmia_4_area lahmia_5_area lahmia_6_area lahmia_7_area lahmia_8_area lost_plateau_area
+		lahmia_1_area lahmia_2_area lahmia_3_area lahmia_4_area lahmia_5_area lahmia_6_area lahmia_7_area lahmia_8_area lost_plateau_area 
 	}
 }
 sudron_region = {
@@ -225,7 +225,7 @@ southern_provinces_region = {
 #
 ind_end_region = {
 	areas = {
-		ind_10_area ind_12_area ind_11_area ind_29_area ind_26_area ind_9_area  ind_15_area 
+		ind_10_area ind_12_area ind_11_area ind_29_area ind_26_area ind_9_area ind_15_area 
 	}
 }
 eastern_ind_region = {
@@ -331,9 +331,9 @@ southern_jungle_region = {
 }
 northern_jungle_region = {
 	areas = {
-		lustria_19_area lustria_34_area lustria_21_area lustria_20_area lustria_8_area lustria_22_area lustria_9_area lustria_33_area  lustria_32_area
-		lustria_31_area lustria_36_area lustria_30_area lustria_53_area lustria_52_area lustria_10_area lustria_48_area lustria_51_area lustria_29_area lustria_25_area
-		lustria_26_area lustria_3_area lustria_4_area lustria_24_area lustria_23_area lustria_54_area warmblood_isles_area 
+		lustria_19_area lustria_34_area lustria_21_area lustria_20_area lustria_8_area lustria_22_area lustria_9_area lustria_33_area lustria_32_area lustria_31_area
+		lustria_36_area lustria_30_area lustria_53_area lustria_52_area lustria_10_area lustria_48_area lustria_51_area lustria_29_area lustria_25_area lustria_26_area
+		lustria_3_area lustria_4_area lustria_24_area lustria_23_area lustria_54_area warmblood_isles_area 
 	}
 }
 sotek_back_region = {
@@ -351,8 +351,8 @@ the_far_wastes_region = {
 }
 the_western_wastes_region = {
 	areas = {
-		chaos_wastes_9_area far_wastes_13_area far_wastes_14_area far_wastes_15_area chaos_wastes_1_area chaos_wastes_2_area chaos_wastes_3_area chaos_wastes_4_area chaos_wastes_5_area chaos_wastes_6_area chaos_wastes_7_area
-		chaos_wastes_8_area  chaos_wastes_10_area chaos_wastes_11_area chaos_wastes_12_area chaos_wastes_15_area 
+		chaos_wastes_9_area far_wastes_13_area far_wastes_14_area far_wastes_15_area chaos_wastes_1_area chaos_wastes_2_area chaos_wastes_3_area chaos_wastes_4_area chaos_wastes_5_area chaos_wastes_6_area
+		chaos_wastes_7_area chaos_wastes_8_area chaos_wastes_10_area chaos_wastes_11_area chaos_wastes_12_area chaos_wastes_15_area kdatha_area 
 	}
 }
 the_eastern_steppes_region = {
@@ -377,15 +377,14 @@ black_mountains_region = {
 world_edge_mountains_region = {
 	areas = {
 		blizzard_peaks_area karaz_a_karak_area mad_dog_pass_area the_silver_road_area cragmere_area foecleaver_swan_song_area silverspear_junction_area mount_grimfang_area south_king_way_area north_king_way_area
-		gnashrak_lair_area mount_gunbad_area silver_pinnacle_area grom_peak_area kings_way_area peak_pass_area karak_kadrin_area zhufbar_area red_eye_mountain_area
-		mount_squighorn_area iron_rock_outstricts_area karak_vlag_area iron_rock_area black_crag_area thunder_junction_area clan_rictus_tunnels 
+		gnashrak_lair_area mount_gunbad_area silver_pinnacle_area grom_peak_area kings_way_area peak_pass_area karak_kadrin_area zhufbar_area red_eye_mountain_area mount_squighorn_area
+		iron_rock_outstricts_area karak_vlag_area iron_rock_area black_crag_area thunder_junction_area clan_rictus_tunnels 
 	}
 }
 southern_world_edge_mountains_region = {
 	areas = {
 		karag_haraz_area karak_azgal_area crooked_fang_area karak_azul_area death_pass_area red_cloud_mountain_area skull_crag_area spitepak_area cripple_peak_area doom_mountain_area
-		southern_underway_2_area southern_underway_1_area southern_underway_3_area southern_underway_6_area southern_underway_4_area southern_underway_5_area blisterdeep_area karak_zorn_area misty_mountain_area
-		southern_underway_7_area 
+		southern_underway_2_area southern_underway_1_area southern_underway_3_area southern_underway_6_area southern_underway_4_area southern_underway_5_area blisterdeep_area karak_zorn_area misty_mountain_area southern_underway_7_area
 	}
 }
 karak_eight_peaks_region = {
@@ -879,7 +878,7 @@ great_river_region = {
 }
 jade_river_region = {
 	areas = {
-		jade_river_area
+		jade_river_area 
 	}
 }
 south_underempire_region = {

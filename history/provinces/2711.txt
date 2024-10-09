@@ -1,10 +1,10 @@
-owner = G36
 base_tax = 1
 base_manpower = 3
 base_production = 3
 trade_goods = livestock
-religion = slaaneshi_religion
-controller = G36
-is_city = yes
+religion = gork_n_mork_religion
 culture = steppe_hobgoblin
-add_core = G36
+is_city = yes
+owner = B76
+controller = B76
+add_core = B76

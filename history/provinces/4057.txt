@@ -1,10 +1,7 @@
-owner = B48
 base_tax = 3
 base_manpower = 3
 base_production = 4
 trade_goods = fur
 religion = chaos_undivided_religion
-controller = B48
 is_city = yes
-culture = avags
-add_core = B48
+culture = kuj

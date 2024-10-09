@@ -1,10 +1,13 @@
-owner = B49
+
 base_tax = 1
 base_manpower = 2
 base_production = 4
 trade_goods = beer
-religion = chaos_undivided_religion
-controller = B49
+religion = gork_n_mork_religion
+culture = steppe_hobgoblin
+
 is_city = yes
-culture = khazags
-add_core = B49
+
+add_core = B73
+owner = B73
+controller = B73

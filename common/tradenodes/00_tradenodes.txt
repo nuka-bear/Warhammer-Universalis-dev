@@ -2183,6 +2183,8 @@ south_skavendom_trade_node = {
 		path = {
 			4716
 		}
+		control = {
+		}
 	}
 	members = {
 		4645 4623 4714 4705 4691 4708 4834 4713 4715 4711
@@ -2202,6 +2204,8 @@ north_skavendom_trade_node = {
 		name = "skavenblight_trade_node"
 		path = {
 			4640
+		}
+		control = {
 		}
 	}
 	members = {

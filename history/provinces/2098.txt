@@ -1,10 +1,12 @@
-owner = B52
+
 base_tax = 1
 base_manpower = 1
 base_production = 1
 trade_goods = livestock
-religion = khornate_religion
-controller = B52
+religion = yin_yang
 is_city = yes
-culture = kuj
-add_core = B52
+owner = B63
+controller = B63
+add_core = B63
+culture = east_cathayan
+

@@ -1,10 +1,10 @@
-owner = B52
 base_tax = 2
 base_manpower = 2
 base_production = 1
 trade_goods = livestock
-religion = khornate_religion
-controller = B52
+religion = gork_n_mork_religion
+culture = steppe_hobgoblin
 is_city = yes
-culture = kuj
-add_core = B52
+owner = B75
+controller = B75
+add_core = B75

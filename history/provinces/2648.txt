@@ -1,10 +1,9 @@
-owner = B46
+ 
 base_tax = 2
 base_manpower = 2
 base_production = 1
 trade_goods = beer
 religion = chaos_undivided_religion
-controller = B46
-is_city = yes
+ 
 culture = dolgan
-add_core = B46
+ 

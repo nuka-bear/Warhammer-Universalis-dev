@@ -5,6 +5,4 @@ culture = tahmaks
 trade_goods = livestock
 religion = chaos_undivided_religion
 is_city = yes
-owner = B60
-controller = B60
-add_core = B60
+ 

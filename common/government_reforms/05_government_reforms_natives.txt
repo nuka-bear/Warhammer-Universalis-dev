@@ -493,3 +493,40 @@ native_remain_being_native_reform = {
 		}
 	}
 }
+
+hordes_of_chaos = {
+	allow_normal_conversion = no
+	potential = {
+		technology_group = tech_chaos_warrior
+	}
+	valid_for_nation_designer = yes
+	raze_province = yes
+	nation_designer_cost = 10
+	nation_designer_trigger = {
+			religion_group = ruinous_powers_denominations
+	}
+	icon = "chaos_warriors"
+	lock_level_when_selected = yes
+	modifiers = {
+		manpower_recovery_speed = 0.33
+		land_forcelimit_modifier = 0.33
+		
+		global_supply_limit_modifier = 0.5
+		global_institution_spread = -0.25
+		relation_with_heathens = -25
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		enables_horde_idea_group = yes
+		enables_aristocratic_idea_group = no
+		generals_become_rulers = yes
+	}
+
+	native_mechanic = yes
+	allow_migration = yes
+
+	has_term_election = no
+	queen = no
+	royal_marriage = no
+	heir = no
+}

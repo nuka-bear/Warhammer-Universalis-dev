@@ -990,7 +990,6 @@ tribal = {
 				#warhammer
 				greenskin_tribe
 				norsan_jarldom_reform
-				hordes_of_chaos
 				freeboota_fleet_reform
 			}
 		}
@@ -1119,6 +1118,7 @@ native = {
 				native_federation_reform
 				native_clan_council_reform
 				native_hereditary_reform
+				hordes_of_chaos
 			}
 		}
 		story_tradition = {

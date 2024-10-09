@@ -4,9 +4,8 @@ government_rank = 1
 primary_culture = avags
 religion = tzeentchian_religion
 technology_group = tech_chaos_warrior
-capital = 2723
+capital = 2716
 setup_vision = yes
-
 2502.1.1 = {
 	monarch = {
 		name = "Tchar'zanek"

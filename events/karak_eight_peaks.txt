@@ -1,0 +1,4 @@
+
+namespace = karak_eight_peaks
+
+#opening the passes

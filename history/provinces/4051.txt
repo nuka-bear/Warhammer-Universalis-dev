@@ -1,10 +1,8 @@
-owner = B51
+
 base_tax = 3
 base_manpower = 3
 base_production = 4
-trade_goods = slaves
-religion = tzeentchian_religion
-controller = B51
-is_city = yes
-culture = kuj
-add_core = B51
+trade_goods = unknown
+religion = gork_n_mork_religion
+culture = steppe_hobgoblin
+

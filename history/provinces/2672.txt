@@ -5,6 +5,6 @@ culture = tahmaks
 trade_goods = slaves
 religion = khornate_religion
 is_city = yes
-owner = B61
-controller = B61
-add_core = B61
+
+ 
+ 

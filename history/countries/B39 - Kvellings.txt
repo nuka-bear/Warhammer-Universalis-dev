@@ -6,4 +6,3 @@ religion = chaos_undivided_religion
 technology_group = tech_chaos_warrior
 capital = 2560
 setup_vision = yes
-

@@ -3,6 +3,6 @@ add_government_reform = norsan_jarldom_reform
 primary_culture = skaeling
 religion = nurglite_religion
 technology_group = tech_norscan
-capital = 325
+capital = 1752
 government_rank = 1
 setup_vision = yes

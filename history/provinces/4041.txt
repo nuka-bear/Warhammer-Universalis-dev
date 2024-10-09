@@ -1,10 +1,8 @@
-owner = B48
 base_tax = 2
 base_manpower = 2
 base_production = 1
 trade_goods = fur
-religion = chaos_undivided_religion
-controller = B48
-is_city = yes
-culture = avags
-add_core = B48
+religion = gork_n_mork_religion
+culture = steppe_hobgoblin
+
+

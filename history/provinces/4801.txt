@@ -2,9 +2,11 @@ base_tax = 2
 base_manpower = 1
 base_production = 3
 trade_goods = lumber
-religion = tzeentchian_religion
-is_city = yes
-owner = B62
-controller = B62
-add_core = B62
+
+religion = yin_yang
 culture = east_cathayan
+is_city = yes
+
+owner = B63
+controller = B63
+add_core = B63

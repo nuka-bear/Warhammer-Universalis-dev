@@ -4,5 +4,5 @@ government_rank = 1
 primary_culture = manchu_warhammer
 religion = chaos_undivided_religion
 technology_group = tech_chaos_warrior
-capital = 2153
+capital = 2824
 setup_vision = yes

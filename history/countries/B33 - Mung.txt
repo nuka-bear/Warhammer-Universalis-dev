@@ -4,6 +4,5 @@ government_rank = 1
 primary_culture = mung
 religion = chaos_undivided_religion
 technology_group = tech_chaos_warrior
-capital = 2579
+capital = 2532
 setup_vision = yes
-

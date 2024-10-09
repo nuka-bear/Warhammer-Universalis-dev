@@ -1,0 +1,9 @@
+base_tax = 0
+base_manpower = 0
+base_production = 0
+trade_goods = nothing
+religion = slaaneshi_religion
+is_city = yes
+add_core = B36
+owner = B36
+controller = B36

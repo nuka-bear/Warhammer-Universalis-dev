@@ -1,10 +1,9 @@
-owner = B38
+ 
 base_tax = 1
 base_manpower = 2
 base_production = 1
 trade_goods = fish
 religion = khornate_religion
-controller = B38
-is_city = yes
+ 
 culture = aghols
-add_core = B38
+ 

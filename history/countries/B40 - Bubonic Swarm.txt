@@ -5,4 +5,4 @@ primary_culture = dakota
 religion = totemism
 technology_group = north_american
 capital = 2517
- setup_vision = yes
+setup_vision = yes

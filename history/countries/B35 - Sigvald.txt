@@ -4,6 +4,5 @@ government_rank = 1
 primary_culture = mung
 religion = slaaneshi_religion
 technology_group = tech_chaos_warrior
-capital = 1750
+capital = 2536
 setup_vision = yes
-

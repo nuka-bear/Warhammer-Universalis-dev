@@ -34,7 +34,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4717;4575;;-1;-1;-1;-1;-1;Blisterdeep-undercity
 4718;981;;-1;-1;-1;-1;-1;Araby-undercity
 2442;4705;;-1;-1;-1;-1;-1;Quetza-undercity
-4716;4739;;-1;-1;-1;-1;-1;K8P-undercity
 4723;4836;;-1;-1;-1;-1;-1;Nippon-Undercity
 4832;4626;;-1;-1;-1;-1;-1;Khuresh-Undercity
 4639;2344;;-1;-1;-1;-1;-1;Skavenblight-Undercity
@@ -56,4 +55,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2933;4243;sea;1506;-1;-1;-1;-1;cathay
 3000;4243;sea;1506;-1;-1;-1;-1;cathay
 2938;2872;sea;1506;-1;-1;-1;-1;grand canal
+1284;1326;canal;804;-1;-1;-1;-1;uzkulak_canal
+4445;4435;;-1;-1;-1;-1;-1;death's crossing
 -1;-1;-1;-1;-1;-1;-1;-1;-1

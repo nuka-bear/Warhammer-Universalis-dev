@@ -1,5 +1,5 @@
-owner = A79
-controller = A79
+owner = A78
+controller = A78
 culture = baersonling
 religion = norscan
 base_tax = 2
@@ -7,5 +7,4 @@ base_production = 1
 trade_goods = fish
 base_manpower = 1
 is_city = yes
-add_core = A79
-
+add_core = A78
