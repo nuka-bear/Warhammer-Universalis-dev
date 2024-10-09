@@ -1324,7 +1324,7 @@ incense = {
 		factor = 25
 		modifier = {
 			factor = 0
-			continent = europe
+		#	continent = europe
 			has_climate = arctic
 		}
 		modifier = {
