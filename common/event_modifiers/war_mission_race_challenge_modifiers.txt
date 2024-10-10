@@ -6,7 +6,7 @@
 ### Bonuses are generally related to the target, maybe 1/4 of an idea. Challenges are mil, Traded are economic/diplomatic
 
 traded_humans = {
-	all_power_cost = -0.001	
+	all_power_cost = -0.01	
 }
 
 challenged_humans = {

@@ -101,14 +101,14 @@ gen_nekekhara_missions = {
 ### True Successor
 	gen_nekekhara_missions_5 = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_nekekhara_missions_4 } 
+		required_missions = { } 
 		trigger = {
-			prestige = 100
+			prestige = 99
 			OR = {
-				legitimacy = 100
-				devotion = 100
+				legitimacy = 99
+				devotion = 99
 			}
-			army_size = 100
+			army_size = 99
 		}
 
 		effect = { 
@@ -203,9 +203,8 @@ gen_nehekharan_pantheon_missions = {
 		required_missions = { } 
 		trigger = {
 			nehekhara_region = {
-				all_province = {
-					religion = ROOT
-				}
+				type = all
+				religion = ROOT
 			}
 			any_owned_province = {
 				has_great_project = {

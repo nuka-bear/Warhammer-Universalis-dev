@@ -16,11 +16,15 @@ Focus on Nehekara to start
 	tomb_king in the event folder has the respawning event for tomb kings
 	Decision to improve ruler's stats
 	Tension between the Nekeharan Pantheon and Nagashi
-	Cawa as Zombies? Really struggling with making this happen this
 	Nagashi religion to ressurect Nagash
 	Events
 	Decisions
 	Rename Estates
+	Lower Undead Manpower, Force limit to 1x?
+	Rename Some Areas
+	Mission for controlling and having forts on the passes? Maybe missions based on areas
+
+Change a lot of the "own" requirements to own or subject own
 
 Fix Monstrous Unit Cost
 

@@ -18,7 +18,7 @@ nagash_ritual = {
 
 true_successor = {
 	diplomatic_reputation = 1
-	prestige_decay = -0.05
+	prestige_decay = -0.005
 	devotion = 0.1
 	legitimacy = 0.1
 }
