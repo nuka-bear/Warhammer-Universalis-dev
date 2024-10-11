@@ -32,3 +32,8 @@
 
   recently_raided:0 "Recently Raided"
   recently_raided_desc:0 "Can't be raided again until it recovers, and more expensive to take in peace deals."
+
+demote_dominion_action: "Vassalize Dominion"
+demote_dominion_action_title: "Vassalize Dominion"
+demote_dominion_action_desc: "Demote a Dominion into a vassal, reducing its independence. Also reduces your trust with all other subjects."
+demote_dominion_action_tooltip: "Demote a Dominion into a vassal, reducing its independence. Also reduces your trust with all other subjects."
