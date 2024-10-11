@@ -4,51 +4,75 @@ JG To Do & Thoughts
 Build out Generic Missions based on location/religion/race
 	https://www.reddit.com/r/EU4mods/comments/1fxdsml/overhaul_of_generic_missions/
 	https://docs.google.com/spreadsheets/d/1QBsXSZuVjoy4udNXUD1MePNGmrVYx8ADi-SAVw4hF6Y/edit?gid=0#gid=0
+	Default Generic has something for impressing nobility/burghers/clergy
+	Make Default Generic 7 long + challenge/trade
+
+Make fun to play subject for racial confederation - "Dominion"
+	Can't be annexed, but can be reduced to Vassal?
+
+Add three wars: Racial Unification & Raiding & Assume Control of Race
+	Racial Unification is for people in tech group :technology_group = PREV
+		It gives the ability to turn them into a Dominion
+	Raiding is for people not in tech group
+		Expensive taking land, allows the Smash and Grab decision
+
+Smash N Grab decisions
+	When at high warscore with somebody who isn't in your culture group/tech group.
+	+ war exhaustion
+	+ AE
+	+ modifier that makes taking land 3x more expensive and prevents more smashes N grabs for 5 years (or until war is done?)
+	- Manpower
+	Raid all occupied but not owned land, lowering its dev, getting stuff from it, and increasing destruction
+	Smash and grab gives a modifier penalty to the provinces! Making them more expensive to take, because why would you want them? It stays around for 10 years.
 
 Focus on Nehekara to start
-	Monuments - Give all small minus liberty (maybe +liberty for you) and plus vassalization acceptance + same religion warscore
-	Custom Estates
-	Nekehara should be weaker, but with very powerful Monuments
+	Custom Estates - Mortuary Cult
 	Upset Estates with a frozen privilage - "Fractured Society" or something like that that gives them -loyalty. And each monument gives an estate + loyalty
-	Dependent State System
-	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
-	Settra has +100% liberty desire lol
-	tomb_king in the event folder has the respawning event for tomb kings
 	Decision to improve ruler's stats
 	Tension between the Nekeharan Pantheon and Nagashi
 	Nagashi religion to ressurect Nagash
 	Events
 	Decisions
-	Rename Estates
-	Lower Undead Manpower, Force limit to 1x?
-	Rename Some Areas
+	Rename Some States
 	Mission for controlling and having forts on the passes? Maybe missions based on areas
+	Change rewards for symbols of power & symbols of religion
+
+Cathay
+	Folks start out in Racial Dominions
+	Very low crownland
+	Estate prevents integration?
+	Mandate
+	Karma system
 
 Change a lot of the "own" requirements to own or subject own
 
 Fix Monstrous Unit Cost
 
-Fix Trade with Race Mission
-
 Mission for controlling whole subcontinent which triggers the end times?
 
-Make fun to play subject for racial confederation - "Dependent State?"
-	They have a lot of freedom
-	They can challenge their overlord for authority over the convederation?
-	Base off Apange System
-	Make a CB to subjugate people in your same tech group
 
 
-Give Sylvania "Blood Kiss" to convert other humans to vamprism
+Switch Orc religion usage? Instead of Waaagh disasters, use a scale.
+
+
 
 Should it be possible to change or have multiple racial administrations & militaries?
 	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)
+	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
+
+
+
+Add Lucky Nations
+
+
+##### Paused for now #####
+
+Give Sylvania "Blood Kiss" to convert other humans to vamprism
 
 A basic spell or two? Is mana = spell resource?
 	Undead Spend 100 mil mana to gain a 10,000 manpower?
 
 
-Add Lucky Nations
 
 ##### Done #####
 	Waaagh & No Waaagh Disasters for Orks

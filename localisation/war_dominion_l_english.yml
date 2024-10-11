@@ -4,12 +4,12 @@
  dominion_title:0 "Dominion"
  dominion_title_plural:0 "Dominions"
  dominion_is_our:0 "$NAME|Y$ is our Dominion."
- dominion_long_desc:0 "A dominion is a semi-independent vassal capable of forming alliances and attacking other dominions. Dominions may claim the throne of their overlord, and all of their overlord's subjects. Dominions can become vassals if enough trust exists between them and their overlords."
+ dominion_long_desc:0 "A dominion is a semi-independent vassal capable of forming alliances and attacking other dominions. Dominions may claim the throne of their overlord, and all of their overlord's subjects, by forcing their overlord into a dominion. Dominions can become vassals if enough trust exists between them and their overlords."
  dominion_no_overlord_dow: "You cannot declare war on your own Dominion."
  dominion_overlord_title: "Overlord" 
  
 
   PEACE_po_force_dominion: "Force Dominion"
-  po_force_dominion_desc: "Make [From.GetName] a Dominion of [This.GetName]"
+  po_force_dominion_desc: "Make [From.GetName] a Dominion of [This.GetName]. Take all of ther subjects as dominions for yourself. If you are a dominion, you become independent."
   CB_ALLOWED_po_force_dominion: "Force Dominion"
   PEACE_PO_dominion: "Force Dominion"
