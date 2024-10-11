@@ -1,0 +1,88 @@
+
+
+
+country_decisions = {
+	war_raid_province = {
+
+		color = { 125 0 0 }
+		potential = { always = yes }
+
+		allow = {
+
+			any_province = {
+
+				NOT = { owned_by = ROOT }
+				controlled_by = ROOT
+				NOT = { owner = { technology_group = ROOT } }
+				NOT = { has_province_modifier = recently_raided }
+
+			}
+
+		}
+
+		effect = {
+
+			every_province = {
+
+				limit = {
+					NOT = { owned_by = ROOT }
+					controlled_by = ROOT
+					NOT = { owner = { technology_group = ROOT } }
+					NOT = { has_province_modifier = recently_raided }
+
+				}
+
+
+				if = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+					controller = { add_treasury = 25 }
+
+					add_permanent_province_modifier = { 
+					    name = recently_raided
+					    duration = 3650  
+					}
+
+					controller = { add_war_exhaustion = 0.05 }
+				}
+
+
+				if = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+					controller = { add_treasury = 25 }
+
+					add_permanent_province_modifier = { 
+					    name = recently_raided
+					    duration = 3650  
+					}
+					controller = { add_war_exhaustion = 0.05 }
+				} 
+
+
+				if = {
+					limit = {
+						base_manpower = 2
+					}
+					add_base_manpower = -1
+					controller = { add_treasury = 25 }
+
+					add_permanent_province_modifier = { 
+					    name = recently_raided
+					    duration = 3650  
+					}
+					controller = { add_war_exhaustion = 0.05 }
+
+				}
+
+			}
+		}
+
+		ai_will_do = { factor = 1 }	
+	
+	}
+}

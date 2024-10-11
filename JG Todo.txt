@@ -7,17 +7,12 @@ Build out Generic Missions based on location/religion/race
 	Default Generic has something for impressing nobility/burghers/clergy
 	Make Default Generic 7 long + challenge/trade
 
-Make fun to play subject for racial confederation - "Dominion"
-	Can't be annexed, but can be reduced to Vassal?
+Diplomatic action to reduce dominion to vassal
 
-Add three wars: Racial Unification & Raiding & Assume Control of Race
-	Racial Unification is for people in tech group :technology_group = PREV
-		It gives the ability to turn them into a Dominion
-	Raiding is for people not in tech group
-		Expensive taking land, allows the Smash and Grab decision
+Prevent defender from taking land in racial raiding.
 
 Smash N Grab decisions
-	When at high warscore with somebody who isn't in your culture group/tech group.
+	When at high warscore with somebody who isn't in your culture group/tech group. Only works for provinces that aren't in your culture group.
 	+ war exhaustion
 	+ AE
 	+ modifier that makes taking land 3x more expensive and prevents more smashes N grabs for 5 years (or until war is done?)

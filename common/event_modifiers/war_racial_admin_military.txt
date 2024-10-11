@@ -132,9 +132,9 @@ undead_administration = {
 
 
 undead_military = {
-	global_manpower_modifier = 1.5	
-	land_forcelimit_modifier = 1.5
-	global_supply_limit_modifier = 1.5
+	global_manpower_modifier = 1.0	
+	land_forcelimit_modifier = 1.0
+	global_supply_limit_modifier = 1.0
 	
 	land_attrition = -0.75
 	movement_speed = -0.20

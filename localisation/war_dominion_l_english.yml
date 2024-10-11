@@ -26,3 +26,9 @@
   FORCE_DOMINION_WAR_NAME:0 "Racial Unification"
 
   RACIAL_RAIDING_WAR_NAME:0 "Racial Raiding"
+
+  war_raid_province_title:0 "Raid Enemy Race"
+  war_raid_province_desc:0 "Raid sieged provinces that are not within our tech group. This will provide an immediate boon to the economy and damage the provinces, but make them more expensive to take in peace deals. raided territories lose one of each development point, and you gain 25 gold for each development point lost"
+
+  recently_raided:0 "Recently Raided"
+  recently_raided_desc:0 "Can't be raided again until it recovers, and more expensive to take in peace deals."
