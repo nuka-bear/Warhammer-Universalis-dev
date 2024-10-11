@@ -40,7 +40,28 @@ obelisk_of_eternity_desc:0 "The Obelisk of Eternity was erected by the first kin
 colossus_of_zandri:0 "The Colossus of Zandri"
 colossus_of_zandri_desc:0 "The Colossus of Zandri is a massive statue of King Amenemhetum, towering over the harbor as a symbol of Nehekhara’s dominion over both land and sea. This colossal monument inspires loyalty and awe, reminding all who pass through Zandri that they tread upon the sacred lands of the Tomb Kings."
 
-
-# Colossus of Zandri
-crater_ritual_site:0 "Crater Ritual Site
+# Crater Ritual Site
+crater_ritual_site:0 "Crater Ritual Site"
 crater_ritual_site_desc:0 "The Crater of the Dead marks the site of one of the most catastrophic battles in Nehekhara's past. Long ago, Nagash, the infamous first necromancer and betrayer of Nehekhara, unleashed a devastating magical weapon—a spell of immense and corruptive power—that annihilated thousands in a single moment."
+
+
+karaz_a_karak:0 "Karaz-a-Karak"
+karaz_a_karak_desc:0 "The ancient capital of the Dwarven Empire, Karaz-a-Karak is a fortress that stands testament to Dwarven resilience. Known as the ‘Everpeak,’ it is filled with ancient forges, deep mines, and vast halls adorned with the treasures of the Old World. Controlling Karaz-a-Karak is the ultimate symbol of power and respect among the Dwarven clans."
+
+mount_bloodhorn:0 "Mount Bloodhorn"
+mount_bloodhorn_desc:0 "This towering mountain is a bastion of Greenskin power. At its peak lies an Orc fortress, filled with warbands and shamans ready to march on any who dare challenge the might of the Warclans."
+
+idol_of_gork:0 "Idol of Gork (or possibly Mork)"
+idol_of_gork_desc:0 "This enormous stone idol is carved to honor Gork and Mork, the brutal and cunning gods of the Greenskins. Orc shamans chant around the idol, invoking their gods’ favor before unleashing their warbands in a mighty Waaagh!"
+
+offices_of_karak_azul:0 "Administrative Offices of Karak Azul"
+offices_of_karak_azul_desc:0 "Karak Azul, the Iron Hold, is known for its unmatched forges, producing some of the finest Dwarven armor and weaponry in the Old World. Equally impressive are the vast administrative offices devoted to controlling these vast organizations."
+
+library_of_medes:0 "Library of Medes"
+library_of_medes_desc:0 "This library is a place of ancient knowledge and wisdom, holding countless tomes and scrolls from past ages. Scholars from all over the lands are drawn to its archives to uncover the secrets of the old world."
+
+martek_pilgrimage:0 "Martek Pilgrimage"
+martek_pilgrimage_desc:0 "This holy site is a beacon for the devout, a place where the faithful make pilgrimages to honor the One God. The spiritual power of Martek strengthens the resolve of those who visit it."
+
+bay_of_zlatlan:0 "Bay of Zlatlan"
+bay_of_zlatlan_desc:0 "This immense bay provides the perfect refuge for ships. A nation could hide a fleet here without anybody knowing."

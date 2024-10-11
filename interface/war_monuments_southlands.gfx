@@ -1,17 +1,17 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_great_project_tomb_of_settra"	
-		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
 	}
 
 	spriteType = {
 		name = "GFX_great_project_black_pyramid_of_nagash"	
-		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+		texturefile = "gfx//interface//great_projects//great_project_pyramid_of_cheops.dds"
 	}
 
 	spriteType = {
 		name = "GFX_great_project_great_necropolis_of_khemri"	
-		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
 	}
 
 	spriteType = {
@@ -26,12 +26,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_great_project_oasis_of_the_gods"
-		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+		texturefile = "gfx//interface//great_projects//great_project_mbanza_kongo.dds"
 	}
 
 	spriteType = {
 		name = "GFX_great_project_valley_of_kings"	
-		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
+		texturefile = "gfx//interface//great_projects//great_project_petra.dds"
 	}
 
 	spriteType = {
@@ -53,4 +53,41 @@ spriteTypes = {
 		name = "GFX_great_project_valley_of_kings"	
 		texturefile = "gfx//interface//great_projects//great_project_sankore_madrasah.dds"
 	}
+
+
+	spriteType = {
+		name = "GFX_great_project_karaz_a_karak"	
+		texturefile = "gfx//interface//great_projects//great_project_ellora_caves.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_idol_of_gork"	
+		texturefile = "gfx//interface//great_projects//great_project_easter_island_statues.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_mount_bloodhorn"	
+		texturefile = "gfx//interface//great_projects//great_project_qhapaq_nam.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_offices_of_karak_azul"	
+		texturefile = "gfx//interface//great_projects//great_project_ellora_caves.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_library_of_medes"	
+		texturefile = "gfx//interface//great_projects//great_project_harar_jugol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_martek_pilgrimage"	
+		texturefile = "gfx//interface//great_projects//great_project_aljaferia_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_bay_of_zlatlan"	
+		texturefile = "gfx//interface//great_projects//great_project_kilwa_city.dds"
+	}
+
 }
