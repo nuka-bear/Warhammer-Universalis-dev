@@ -13,3 +13,16 @@
   po_force_dominion_desc: "Make [From.GetName] a Dominion of [This.GetName]. Take all of ther subjects as dominions for yourself. If you are a dominion, you become independent."
   CB_ALLOWED_po_force_dominion: "Force Dominion"
   PEACE_PO_dominion: "Force Dominion"
+
+
+
+  cb_war_racial_unification:0 "Racial Unification"
+  cb_war_racial_unification_desc:0 "Unify your race by forcing another nation into a subject relationship."
+
+  cb_war_racial_raiding:0 "Racial Raiding"
+  cb_war_racial_raiding_desc:0 "You don't want their land, polluted as it is with their filthy kind. You only want their stuff!"
+
+
+  FORCE_DOMINION_WAR_NAME:0 "Racial Unification"
+
+  RACIAL_RAIDING_WAR_NAME:0 "Racial Raiding"
