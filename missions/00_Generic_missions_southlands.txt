@@ -90,18 +90,60 @@ gen_nekekhara_missions = {
 		}
 
 		effect = { 
-			add_stability = 2
-			add_legitimacy = 25
-			add_devotion = 25
+			add_stability = 1
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
 		}
 	}
 
+
+	gen_nehekharan_establish_alien_vassals = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			any_subject_country = {
+				NOT = { technology_group = ROOT } 
+
+			}
+		}
+
+		effect = { 
+			define_advisor = {
+			    type = statesman
+			    name = "Amentep the Golden Tongued"
+			    skill = 5
+			    cost_multiplier = -0.5
+			}
+		}
+	}
+
+
+	gen_nehekharan_please_nobility = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			estate_loyalty = {
+			    estate = estate_nobility
+			    loyalty = 95
+			}
+		}
+
+		effect = { 
+			define_general = {
+			    shock = 5
+			    fire = 4
+			    manuever = 5
+			    siege = 3
+			}
+		}
+	}
 
 
 ### True Successor
 	gen_nekekhara_missions_5 = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { } 
+		required_missions = {gen_nehekharan_please_nobility } 
 		trigger = {
 			prestige = 99
 			OR = {
@@ -191,9 +233,10 @@ gen_nehekharan_pantheon_missions = {
 		}
 
 		effect = { 
-			add_stability = 2
-			add_legitimacy = 25
-			add_devotion = 25
+			add_stability = 1
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
 		}
 	}
 
@@ -215,10 +258,31 @@ gen_nehekharan_pantheon_missions = {
 		}
 
 		effect = {
-			add_stability = 2
-			change_adm = 1
-			change_dip = 1
-			change_mil = 1
+			add_country_modifier = { 
+ 				name = nehekhara_religious_stability
+				duration = -1
+			}
+		}
+	}
+
+
+	### Expand Religion
+	gen_nehekharan_expand_religion = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_nehekharan_pantheon_missions_4 } 
+		trigger = {
+			102 = { religion = ROOT }
+			270 = { religion = ROOT }
+			4168 = { religion = ROOT }
+			1115 = { religion = ROOT }
+			4169 = { religion = ROOT }
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = nehekhara_religious_stability_2
+				duration = -1
+			}
 		}
 	}
 
@@ -249,6 +313,45 @@ gen_nehekharan_pantheon_missions = {
 			add_country_modifier = { 
  				name = nagash_ritual
 				duration = 3650 
+			}
+			add_great_project_tier = {
+ 				type = black_pyramid_of_nagash
+    			tier = -1
+			}
+		}
+	}
+
+### Perfect the Dark Ritual
+	gen_nehekharan_craft_new_ritual = { 
+		icon = mission_impaled_soldies
+		required_missions = { gen_nehekharan_pantheon_missions_5 } 
+		trigger = {
+			any_owned_province = {
+				has_great_project = {
+					type = black_pyramid_of_nagash
+					tier = 3
+				}
+			}
+			adm_power = 800
+			dip_power = 800
+			mil_power = 800
+		}
+
+		effect = { 
+			add_dip_power = -800
+			add_adm_power = -800
+			add_mil_power = -800
+			add_yearly_manpower = 5.0
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+			add_country_modifier = { 
+ 				name = nagash_ritual
+				duration = -1 
+			}
+			add_great_project_tier = {
+ 				type = black_pyramid_of_nagash
+    			tier = -1
 			}
 		}
 	}

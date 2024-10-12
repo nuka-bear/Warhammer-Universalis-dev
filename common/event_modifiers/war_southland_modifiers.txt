@@ -9,10 +9,11 @@ nehekharan_monument_builders = {
 }
 
 nagash_ritual = {
-	land_morale = 0.20
+	infantry_power = 0.20
 	morale_damage = 0.20
 	manpower_recovery_speed = 0.50
 	global_unrest = 4
+	all_power_cost = -0.05
 }
 
 
@@ -21,4 +22,16 @@ true_successor = {
 	prestige_decay = -0.005
 	devotion = 0.1
 	legitimacy = 0.1
+}
+
+nehekhara_religious_stability = {
+	missionaries = 1
+	stability_cost_modifier = -0.1
+
+}
+
+nehekhara_religious_stability_2  = {
+	global_missionary_strength = 0.03
+	stability_cost_modifier = -0.1
+
 }
