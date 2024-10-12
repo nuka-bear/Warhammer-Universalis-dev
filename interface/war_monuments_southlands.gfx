@@ -90,4 +90,22 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_kilwa_city.dds"
 	}
 
+#### To Change
+
+	spriteType = {
+		name = "GFX_great_project_orc_proving_pits"	
+		texturefile = "gfx//interface//great_projects//great_project_falun_copper_mine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_dwarven_mints"	
+		texturefile = "gfx//interface//great_projects//great_project_zacatecas_mine_city.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_university_of_alshir"	
+		texturefile = "gfx//interface//great_projects//great_project_fuerte_del_morro.dds"
+	}
+
+
 }

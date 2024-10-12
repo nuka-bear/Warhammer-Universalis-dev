@@ -7,6 +7,8 @@ Make the smash and grab decision automatic if in a raiding war? Or alwasy automa
 	Give a little AE for doing this
 	For bigger cities, can take more? Maybe like an additional dev for each 10
 
+get rid of the "You're old" events
+
 Focus on Nehekara to start
 	Custom Estates - Mortuary Cult
 	Upset Estates with a frozen privilage - "Fractured Society" or something like that that gives them -loyalty. And each monument gives an estate + loyalty
@@ -23,6 +25,16 @@ Focus on Nehekara to start
 Orcs
 	Need to stay at war at all times
 	Gork & Mork Scales
+	Missions
+		Get gork & mork scales to different places
+		3 different wars at the same time
+		Controlling dev 30+ places
+		Raid the empire
+		Mission choice at the end to improve professionalism or army tradition?
+		Raid each major capital: Karak, Khemri, Cathay, Empire
+		Give orcs Prussian militarization of state?
+		A certain number of subterranean provinces
+	Adjust starting vision
 
 Cathay
 	Very low crownland

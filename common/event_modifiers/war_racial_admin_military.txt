@@ -14,7 +14,7 @@ human_military = {
 orcish_administration = {
 	#Positives
 	mil_advisor_cost = -0.90
-	war_exhaustion = -0.10
+	war_exhaustion = -0.50
 	war_taxes_cost_modifier = -1.0
 	country_military_power = 1
 	loot_amount = 10.0
@@ -32,9 +32,8 @@ orcish_military = {
 	land_morale = 0.10
 
 	#Negatives
-	yearly_army_professionalism = -0.01
+	yearly_army_professionalism = -0.5
 	drill_gain_modifier = -0.5
-	army_tradition = 1
 	artillery_power = -0.20	
 	defensiveness = -0.25
 	siege_ability = -0.1

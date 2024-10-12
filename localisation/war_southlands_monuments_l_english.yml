@@ -44,9 +44,13 @@ colossus_of_zandri_desc:0 "The Colossus of Zandri is a massive statue of King Am
 crater_ritual_site:0 "Crater Ritual Site"
 crater_ritual_site_desc:0 "The Crater of the Dead marks the site of one of the most catastrophic battles in Nehekhara's past. Long ago, Nagash, the infamous first necromancer and betrayer of Nehekhara, unleashed a devastating magical weapon—a spell of immense and corruptive power—that annihilated thousands in a single moment."
 
+################
+### Orcs
+################
 
-karaz_a_karak:0 "Karaz-a-Karak"
-karaz_a_karak_desc:0 "The ancient capital of the Dwarven Empire, Karaz-a-Karak is a fortress that stands testament to Dwarven resilience. Known as the ‘Everpeak,’ it is filled with ancient forges, deep mines, and vast halls adorned with the treasures of the Old World. Controlling Karaz-a-Karak is the ultimate symbol of power and respect among the Dwarven clans."
+
+orc_proving_pits:0 "Da Provin' Pits"
+orc_proving_pits_desc:0 "Dis 'ere's da Provin' Pits, where da orcs fight an' bleed fer glory! Any orc lookin' ta move up da ranks gotta prove 'emselves 'ere – no weaklin's allowed! Da Pits churn wit' da strongest o' da lot, bashin' each other up good ta earn respect and da right ta lead. Da boyz watch, da bosses sneer, an' da mighty rise up, 'eads held high. Only da tuffest make it out on top, roight!"
 
 mount_bloodhorn:0 "Mount Bloodhorn"
 mount_bloodhorn_desc:0 "Dis ‘ere big mountain’s da home of da Greenskinz! At da top’s a fortress crammed wif Orc warbands an' shamanz, all ready ta stomp on anyone dumb enuff ta challenge da Warclans."
@@ -54,8 +58,28 @@ mount_bloodhorn_desc:0 "Dis ‘ere big mountain’s da home of da Greenskinz! At
 idol_of_gork:0 "Idol of Gork (or maybe Mork)"
 idol_of_gork_desc:0 "Dis massive stone idol’s carved up good fer Gork an' Mork, da biggest an’ baddest Greenskin gods. Da shamanz gather round, chantin' and shoutin' ta get da gods' favor before leadin' da boyz in a WAAAGH!"
 
+
+################
+### Dwarves
+################
+
+
+karaz_a_karak:0 "Karaz-a-Karak"
+karaz_a_karak_desc:0 "The ancient capital of the Dwarven Empire, Karaz-a-Karak is a fortress that stands testament to Dwarven resilience. Known as the ‘Everpeak,’ it is filled with ancient forges, deep mines, and vast halls adorned with the treasures of the Old World. Controlling Karaz-a-Karak is the ultimate symbol of power and respect among the Dwarven clans."
+
 offices_of_karak_azul:0 "Administrative Offices of Karak Azul"
 offices_of_karak_azul_desc:0 "Karak Azul, the Iron Hold, is known for its unmatched forges, producing some of the finest Dwarven armor and weaponry in the Old World. Equally impressive are the vast administrative offices devoted to controlling these vast organizations."
+
+dwarven_mints:0 "Dwarven Mints of Karak Azgal"
+dwarven_mints_desc:0 "The Dwarven Mints of Karak Azgal are among the most revered forges in the Old World. Here, master craftsmen shape and stamp gold with the precision and dedication only dwarves possess. These mints are central to Karak Azgal's wealth, reducing the risk of gold depletion and stabilizing the economy. Over the ages, they have produced countless coins of immaculate quality, each one a testament to the strength and resilience of Dwarven industry."
+
+
+################
+### Araby
+################
+
+university_of_alshir:0 "University of Al'Shir"
+university_of_alshir_desc:0 "The University of Al'Shir stands as a beacon of learning and innovation in naval strategy, cartography, and seafaring lore. Located in the heart of Araby, this institution trains navigators, explorers, and sailors from across the land. The University of Al'Shir is renowned for producing some of the finest sailors in the world, and its teachings allow Araby to extend its reach across the seas, exploring distant lands and unlocking new trade opportunities."
 
 library_of_medes:0 "Library of Medes"
 library_of_medes_desc:0 "This library is a place of ancient knowledge and wisdom, holding countless tomes and scrolls from past ages. Scholars from all over the lands are drawn to its archives to uncover the secrets of the old world."

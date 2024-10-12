@@ -149,6 +149,7 @@ military_missions = { #Series name is displayed over the slot?
 			}
 		}
 		effect = {
+			set_government_rank = 3
 			add_power_projection = {
 				type = mission_rewards_power_projection
 				amount = 25
@@ -259,7 +260,7 @@ diplomatic_missions = {
 	}
 
 	gen_building_trust = {
-		icon = mission_alliances
+		icon = mission_indian_stateman
 		required_missions = { building_alliances }
 		trigger = {
 			num_of_trusted_allies = 3
@@ -287,7 +288,7 @@ diplomatic_missions = {
 
 
 	gen_worthy_overlord = {
-		icon = mission_have_two_subjects
+		icon = mission_monarch_in_throne_room
 		required_missions = { have_two_subjects }
 		trigger = {
 			num_of_non_tributary_subjects = 3
@@ -303,7 +304,7 @@ diplomatic_missions = {
 
 
 	gen_stability_mission = {
-		icon = mission_have_two_subjects
+		icon = mission_mosque
 		required_missions = { }
 		trigger = {
 			stability = 3
@@ -315,20 +316,20 @@ diplomatic_missions = {
 	}
 
 	gen_happy_estates = {
-		icon = mission_have_two_subjects
+		icon = mission_asian_trader
 		required_missions = { gen_stability_mission }
 		trigger = {
 			estate_loyalty = {
     			estate = estate_burghers
-    			loyalty = 70
+    			loyalty = 65
 			}
 			estate_loyalty = {
     			estate = estate_church
-    			loyalty = 70
+    			loyalty = 65
 			}
 			estate_loyalty = {
     			estate = estate_nobility
-    			loyalty = 70
+    			loyalty = 65
 			}
 
 		}
@@ -342,7 +343,7 @@ diplomatic_missions = {
 
 
 	gen_beacon_on_a_hill = {
-		icon = mission_have_two_subjects
+		icon = mission_early_modern_university
 		required_missions = { gen_happy_estates }
 		trigger = {
 
@@ -459,6 +460,10 @@ administrative_missions = {
 		trigger = {
 			OR = { all_owned_province = { has_building = marketplace } }
 			marketplace = 5
+			estate_loyalty = {
+ 				estate = estate_burghers
+    			loyalty = 75
+			}
 		}
 		effect = {
 			add_country_modifier = {
