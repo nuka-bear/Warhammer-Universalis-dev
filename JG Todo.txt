@@ -1,24 +1,11 @@
 
 JG To Do & Thoughts
 
-Build out Generic Missions based on location/religion/race
-	https://www.reddit.com/r/EU4mods/comments/1fxdsml/overhaul_of_generic_missions/
-	https://docs.google.com/spreadsheets/d/1QBsXSZuVjoy4udNXUD1MePNGmrVYx8ADi-SAVw4hF6Y/edit?gid=0#gid=0
-	Default Generic has something for impressing nobility/burghers/clergy
-	Make Default Generic 7 long + challenge/trade
-
-Diplomatic action to reduce dominion to vassal
-
 Prevent defender from taking land in racial raiding.
 
-Smash N Grab decisions
-	When at high warscore with somebody who isn't in your culture group/tech group. Only works for provinces that aren't in your culture group.
-	+ war exhaustion
-	+ AE
-	+ modifier that makes taking land 3x more expensive and prevents more smashes N grabs for 5 years (or until war is done?)
-	- Manpower
-	Raid all occupied but not owned land, lowering its dev, getting stuff from it, and increasing destruction
-	Smash and grab gives a modifier penalty to the provinces! Making them more expensive to take, because why would you want them? It stays around for 10 years.
+Make the smash and grab decision automatic if in a raiding war? Or alwasy automatic?
+	Give a little AE for doing this
+	For bigger cities, can take more? Maybe like an additional dev for each 10
 
 Focus on Nehekara to start
 	Custom Estates - Mortuary Cult
@@ -31,30 +18,29 @@ Focus on Nehekara to start
 	Rename Some States
 	Mission for controlling and having forts on the passes? Maybe missions based on areas
 	Change rewards for symbols of power & symbols of religion
+	Increase missions to 7 long
+
+Orcs
+	Need to stay at war at all times
+	Gork & Mork Scales
 
 Cathay
-	Folks start out in Racial Dominions
 	Very low crownland
-	Estate prevents integration?
+	Estate prevents taking land outside tech group?
 	Mandate
-	Karma system
+	Karma system - bigger maluses (diplo rep?) for not being karmically aligned
 
 Change a lot of the "own" requirements to own or subject own
 
 Fix Monstrous Unit Cost
 
-Mission for controlling whole subcontinent which triggers the end times?
-
-
+Mission for controlling whole subcontinent?
 
 Switch Orc religion usage? Instead of Waaagh disasters, use a scale.
-
-
 
 Should it be possible to change or have multiple racial administrations & militaries?
 	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)
 	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
-
 
 
 Add Lucky Nations

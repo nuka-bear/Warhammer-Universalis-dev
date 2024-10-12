@@ -3,68 +3,68 @@
  # Orcs
  ############################
 
-no_waaagh: "No Waaagh?"
-desc_no_waaagh: "Only a poor leader has no Waaagh for this long. Declare some Waaagh, or we'll do it ourselves!"
+no_waaagh: "No WAAAGH?"
+desc_no_waaagh: "On’y a weak boss don’t got no WAAAGH fer dis long. Start a WAAAGH, or we’ll bash sumthin’!"
 
 waaagh: "WAAAGH!"
 desc_waaagh_desc: "WAAAAAAAAAAAAAAAGH!"
 
 
 # Event disaster_no_waaagh.1
-disaster_no_waaagh.1.t:0 "Tensions Boil Over"
-disaster_no_waaagh.1.d:0 "The Orcs grow restless, frustrated by the lack of an enemy to fight. With no Waaagh to fuel their bloodlust, they risk tearing themselves apart out of sheer boredom."
-disaster_no_waaagh.1.option_1:0 "Find someone to fight!"
-disaster_no_waaagh.1.option_2:0 "Let them brawl amongst themselves"
+disaster_no_waaagh.1.t:0 "Da Boyz Gettin' Krumpy"
+disaster_no_waaagh.1.d:0 "Da boyz is restless, got no enemy ta smash! No WAAAGH ta keep ‘em busy, so dey's bout ta start scrappin' wif each udda!"
+disaster_no_waaagh.1.option_1:0 "Find sumfink ta fight!"
+disaster_no_waaagh.1.option_2:0 "Let 'em bash each uddah"
 
 # Event disaster_no_waaagh.2
-disaster_no_waaagh.2.t:0 "Let the WAAAGH begin!"
-disaster_no_waaagh.2.d:0 "At long last, the war is begin! Let the warband charge for blood and glory!"
+disaster_no_waaagh.2.t:0 "Let da WAAAGH Begin!"
+disaster_no_waaagh.2.d:0 "Finally, it’s time fer WAAAGH! Da warband's ready ta charge fer blood an’ glory!"
 disaster_no_waaagh.2.option_1:0 "WAAAAGH!"
 
 # Event disaster_no_waaagh.3
-disaster_no_waaagh.3.t:0 "We Need a Fight!"
-disaster_no_waaagh.3.d:0 "The lack of a proper Waaagh has left the Orcs without purpose, and they’re growing dangerously volatile. A nearby target would give them something to focus their rage on."
-disaster_no_waaagh.3.option_1:0 "Start a new war!"
-disaster_no_waaagh.3.option_2:0 "Let them clash among themselves"
+disaster_no_waaagh.3.t:0 "Need a Scrap!"
+disaster_no_waaagh.3.d:0 "No proper WAAAGH makes da boyz grumpy an’ mad! We need a nearby target fer da bashin'!"
+disaster_no_waaagh.3.option_1:0 "Start a new scrap!"
+disaster_no_waaagh.3.option_2:0 "Let 'em fight amongst demselfs"
 
 # Event disaster_no_waaagh.4
-disaster_no_waaagh.4.t:0 "Reckless Recruits"
-disaster_no_waaagh.4.d:0 "Undisciplined recruits swarm into our armies, eager for a fight. However, they may be more trouble than they are worth."
-disaster_no_waaagh.4.option_1:0 "Integrate them into the Army"
-disaster_no_waaagh.4.option_2:0 "Kill them!"
+disaster_no_waaagh.4.t:0 "Da New Boyz"
+disaster_no_waaagh.4.d:0 "Da new ladz are floodin' in, lookin' fer a fight! But dey might be more trouble dan dey worth."
+disaster_no_waaagh.4.option_1:0 "Stick 'em in da mob"
+disaster_no_waaagh.4.option_2:0 "Smash 'em up!"
 
 # Event disaster_no_waaagh.5
-disaster_no_waaagh.5.t:0 "Leadership Crisis"
-disaster_no_waaagh.5.d:0 "Without a Waaagh to unify them, the Orcs’ focus has turned toward leadership. Warbosses are restless, and challenges to authority have grown. This could be an opportunity to strengthen leadership… or to find new blood."
-disaster_no_waaagh.5.option_1:0 "Take out the Warboss"
-disaster_no_waaagh.5.option_2:0 "Let the strong lead"
+disaster_no_waaagh.5.t:0 "Boss Fightin’"
+disaster_no_waaagh.5.d:0 "Widout a WAAAGH, da Orcs is startin' ta eye da boss. Da Warbosses gettin’ restless—might be time ta show who's da toughest!"
+disaster_no_waaagh.5.option_1:0 "Challenge da Warboss"
+disaster_no_waaagh.5.option_2:0 "Let da big boss lead"
 
 ### Namespace: disaster_waaagh
 
 # Event disaster_waaagh.1
-disaster_waaagh.1.t:0 "WAAAAAAAAAAAAAAAGH"
-disaster_waaagh.1.d:0 "The Orcs are rallying to a great Waaagh, their bloodlust growing with each chant and drumbeat. The greenskins prepare for a great conquest!"
-disaster_waaagh.1.option_1:0 "Raise the banners! Start the Waaagh!"
+disaster_waaagh.1.t:0 "WAAAAAAAAAAAAAAAGH!"
+disaster_waaagh.1.d:0 "Da Orcs is gatherin’ fer a big WAAAGH, dey’s all fired up an’ ready fer a good krumpin'! Da greenskins is gettin' ready ta conquer!"
+disaster_waaagh.1.option_1:0 "Raise da banners! Start da WAAAGH!"
 
 # Event disaster_waaagh.2
-disaster_waaagh.2.t:0 "The Waaagh Fizzles"
-disaster_waaagh.2.d:0 "Despite their enthusiasm, the Waaagh has run its course. With the warbands spent, the Orcs’ frenzied energy fades… for now."
-disaster_waaagh.2.option_1:0 "Return to preparations for the next Waaagh"
+disaster_waaagh.2.t:0 "WAAAGH Wuz Weak"
+disaster_waaagh.2.d:0 "Even wif all da yellin', dis WAAAGH went an' fizzled out. Da boyz is tuckered out… fer now."
+disaster_waaagh.2.option_1:0 "Get ready fer da next WAAAGH"
 
 # Event disaster_waaagh.3
-disaster_waaagh.3.t:0 "Expand the Waaagh"
-disaster_waaagh.3.d:0 "The Orcs are fired up and eager to expand their Waaagh. Their sights are set on new territories, and the greenskins roar for battle!"
-disaster_waaagh.3.option_1:0 "Find new targets for the Waaagh!"
-disaster_waaagh.3.option_2:0 "Let's not let things get out of hand..."
+disaster_waaagh.3.t:0 "Spread da WAAAGH!"
+disaster_waaagh.3.d:0 "Da boyz is all riled up, an' dey got dere eyes on new lands fer bashin'! Da greenskins roar fer more fightin'!"
+disaster_waaagh.3.option_1:0 "Find more fings ta krump!"
+disaster_waaagh.3.option_2:0 "Let’s not get too krumpy..."
 
 # Event disaster_waaagh.4
-disaster_waaagh.4.t:0 "Unruly Recruits"
-disaster_waaagh.4.d:0 "The fervor of the Waaagh has inspired Orcs to enlist in droves. However, these overeager recruits have little discipline and are prone to causing trouble."
-disaster_waaagh.4.option_1:0 "Encourage their wild energy"
-disaster_waaagh.4.option_2:0 "Take only the best"
+disaster_waaagh.4.t:0 "Unruly Boyz"
+disaster_waaagh.4.d:0 "Da WAAAGH’s got all da ladz lined up fer fightin’. But dese new boyz is wild an' cause trouble."
+disaster_waaagh.4.option_1:0 "Encourage da madness"
+disaster_waaagh.4.option_2:0 "Take only da toughest"
 
 # Event disaster_waaagh.5
-disaster_waaagh.5.t:0 "Warrior Ascension"
-disaster_waaagh.5.d:0 "A fierce Orc warrior has risen in the ranks, leading through sheer brutality. This warrior promises to take the Waaagh to new heights of destruction!"
-disaster_waaagh.5.option_1:0 "Hail the new leader"
-disaster_waaagh.5.option_2:0 "Learn from the warrior"
+disaster_waaagh.5.t:0 "New Big Boss"
+disaster_waaagh.5.d:0 "One brutal Orc’s risin' up, bashin' his way to da top! Dis warrior's gonna take da WAAAGH ta new heights of krumpin'!"
+disaster_waaagh.5.option_1:0 "Hail da new boss!"
+disaster_waaagh.5.option_2:0 "Learn from da krumpin’"

@@ -17,10 +17,12 @@ orcish_administration = {
 	war_exhaustion = -0.10
 	war_taxes_cost_modifier = -1.0
 	country_military_power = 1
+	loot_amount = 10.0
+	prestige_from_land = 0.25
 	#Negatives
 	improve_relation_modifier = -0.25
 	spy_offence = -0.2
-	build_cost = 0.25
+	build_cost = 0.10
 	all_power_cost = 0.05
 }
 
@@ -28,9 +30,10 @@ orcish_military = {
 	global_manpower_modifier = 0.2
 	army_tradition_from_battle = 0.5
 	land_morale = 0.10
-	loot_amount = 1.0
+
 	#Negatives
 	yearly_army_professionalism = -0.01
+	drill_gain_modifier = -0.5
 	army_tradition = 1
 	artillery_power = -0.20	
 	defensiveness = -0.25

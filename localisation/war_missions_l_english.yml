@@ -1,5 +1,59 @@
 ﻿l_english:
  
+### New Generic Missions
+
+# Naval Mission Chain
+gen_naval_1_title:0 "Establish a Flagship"
+gen_naval_1_desc:0 "To expand our dominance on the seas, we must build a flagship that will serve as a symbol of our growing might and naval ambitions."
+
+gen_naval_2_title:0 "Control the High Seas"
+gen_naval_2_desc:0 "Our naval power will be felt far and wide. With our flagship leading the way, we shall attract the attention of skilled explorers."
+
+# Diplomatic Mission Chain
+gen_building_trust_title:0 "Build Trust Among Allies"
+gen_building_trust_desc:0 "Allies can be powerful tools in times of war and peace. We must nurture relationships with those we trust, creating bonds that serve our interests."
+
+gen_worthy_overlord_title:0 "Prove Worth as Overlord"
+gen_worthy_overlord_desc:0 "To lead is to command respect. Our subjects must see us as a strong and just overlord, worthy of their unwavering loyalty and service."
+
+gen_stability_mission_title:0 "Achieve Stability"
+gen_stability_mission_desc:0 "A nation thrives when it is stable. We must ensure that our government is respected and that our people believe in our cause."
+
+gen_happy_estates_title:0 "Satisfy Estates"
+gen_happy_estates_desc:0 "To govern effectively, the loyalty of our estates is essential. By keeping them satisfied, we secure their continued support and resources."
+
+gen_beacon_on_a_hill_title:0 "A Beacon of Power"
+gen_beacon_on_a_hill_desc:0 "Our nation shall stand as a beacon, inspiring both envy and respect from those around us. Let us be a model of power and prestige that others strive to emulate."
+
+# Administrative Mission Chain
+gen_build_markets_title:0 "Construct Marketplaces"
+gen_build_markets_desc:0 "A thriving economy requires infrastructure. By building marketplaces, we expand our trade networks and enhance our economic reach."
+
+
+# Naval Modifier
+gen_mission_inspired_navy:0 "Inspired Navy"
+desc_gen_mission_inspired_navy:0 "Our navy is strengthened by the courage and skill of our sailors, who are driven by the pride of serving on our flagship."
+
+# Diplomatic Modifiers
+gen_trustworthy:0 "Trusted Allies"
+desc_gen_trustworthy:0 "Our allies trust us deeply, granting us favors more frequently as we maintain strong, reliable alliances."
+
+gen_worthy_overlord_modifier:0 "Worthy Overlord"
+desc_gen_worthy_overlord_modifier:0 "Our subjects respect our leadership, keeping their ambitions in check and fostering a smooth process of integration."
+
+# Administrative Modifiers
+gen_built_markets:0 "Developed Markets"
+desc_gen_built_markets:0 "Our investments in trade have reduced the cost of upgrading our centers of trade, allowing us to expand our economic influence."
+
+gen_happy_estates:0 "Loyal Estates"
+desc_gen_happy_estates:0 "Our efforts have earned the loyalty of our estates, increasing their equilibrium and the privileges they can grant us."
+
+gen_beacon_on_a_hill_modifier:0 "Beacon of Influence"
+desc_gen_beacon_on_a_hill_modifier:0 "Our reputation shines brightly, drawing diplomatic interest and respect from those who wish to align themselves with a strong nation."
+
+
+
+
 # Race Relations
 
   race_relations_missions:0 "Race Relations"
@@ -185,6 +239,12 @@ desc_challenged_beastfolk:0 "Defeating the wild Beastfolk has brought great reno
  desc_republic_bourgeois_center:0 "Our city is a center of all manner of commercial activities and draws the most talented and wealthiest burghers from across Germany to settle in it."
  republic_reformed_government:0 "Reformed Administration"
  desc_republic_reformed_government:0 "We have adopted new ways and reformed our administration into an effective machine for governing our state."
+
+
+
+
+
+
 
 
 

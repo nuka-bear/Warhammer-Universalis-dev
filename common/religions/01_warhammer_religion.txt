@@ -250,11 +250,11 @@ necromantic_denominations = {
 		}
 		icon = 19
 		country = {
-			global_spy_defence = 0.15
-			war_exhaustion = -0.03
+			hostile_attrition = 1
+			missionaries = 1
 		}
 		country_as_secondary = {
-			hostile_attrition = 2
+			global_spy_defence = 0.15
 			war_exhaustion = -0.03
 		}
 		heretic = {
