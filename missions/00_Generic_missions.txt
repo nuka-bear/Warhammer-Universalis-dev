@@ -192,9 +192,11 @@ military_missions = { #Series name is displayed over the slot?
 	gen_naval_1 = { 
 		icon = mission_galleys_in_port
 		required_missions = {  } 
+		position = 7
 		trigger = {
 			has_flagship = yes
 		}
+
 
 		effect = { 
 			add_yearly_sailors = 1
@@ -306,6 +308,7 @@ diplomatic_missions = {
 	gen_stability_mission = {
 		icon = mission_mosque
 		required_missions = { }
+		position = 6
 		trigger = {
 			stability = 3
 			legitimacy_equivalent = 99
@@ -350,7 +353,6 @@ diplomatic_missions = {
 			all_neighbor_country = {
 				ROOT = { tech_difference = 3 }
 				NOT = { prestige = ROOT }
-				NOT = { legitimacy_equivalent = ROOT }
 			}
 
 		}
@@ -457,6 +459,7 @@ administrative_missions = {
 	gen_build_markets = {
 		icon = mission_trade_company_region_abroad
 		required_missions = {  }
+		position = 7
 		trigger = {
 			OR = { all_owned_province = { has_building = marketplace } }
 			marketplace = 5

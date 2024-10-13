@@ -3,8 +3,90 @@
 
  ### Southlands Missions
 
- ##### Nehekharan Culture
 
+#### Greenskin Missions
+
+gen_greenskin_please_nobility_title:0 "Make Da Bosses ‘Appy"
+gen_greenskin_please_nobility_desc:0 "Da Nobz need ta see we got da biggest ladz leadin’ da charge! Giv’ ‘em a Boss dey can cheer fer."
+
+gen_greenskin_impress_nobility_title:0 "Show Da Nobz Who'z Da Boss!"
+gen_greenskin_impress_nobility_desc:0 "We’z at war, an' da Nobz need a show! We’ll give ‘em a real fight wiv da best o’ da best leadin’ us!"
+
+gen_greenskin_bring_the_loot_title:0 "Bring Da Loot!"
+gen_greenskin_bring_the_loot_desc:0 "We’z gotta show da tribe da loot we got from da stompins! Dey’ll calm down fer a bit if dey see da shinies!"
+
+gen_greenskin_grow_title:0 "Grow Da Tribes!"
+gen_greenskin_grow_desc:0 "Time fer da tribes ta swell an’ get strong. We’z takin' da land an’ grabbin' new mobs!"
+
+gen_greenskin_claim_horde_title:0 "Claim Da Horde!"
+gen_greenskin_claim_horde_desc:0 "We’z big now! Time ta claim da right as da biggest horde an’ let da world know!"
+
+gen_greenskin_bridge_the_divide_title:0 "Bridge Da Badlands"
+gen_greenskin_bridge_the_divide_desc:0 "We’z takin’ all da landz from da Badlands ta da Mountains! Show ‘em we’z unstoppable!"
+
+gen_greenskin_spread_like_fire_title:0 "Spread Da Waaagh!"
+gen_greenskin_spread_like_fire_desc:0 "Da Waaagh! grows an' da boyz spread ta new places, stompin' all in dere way!"
+
+
+#### Gork Missions
+
+gen_gork_happy_priest_title:0 "Make Da Shamanz ‘Appy"
+gen_gork_happy_priest_desc:0 "Da Shamanz are yellin' fer a proper fire ritual! If dey ‘appy, we’z all fight stronger!"
+
+gen_gork_try_mork_title:0 "Try Da Sneaky Path"
+gen_gork_try_mork_desc:0 "Da boyz needs ta learn from Mork an’ start bein’ sneaky! No one’ll see us comin'!"
+
+gen_gork_try_gork_title:0 "Try Da Smashin’ Path"
+gen_gork_try_gork_desc:0 "Da boyz need ta smash fer Gork an' leave da enemy in bits! No onez gonna stop us wiv Gork on our side!"
+
+gen_greenskin_raid_20_title:0 "Raid Da Villages!"
+gen_greenskin_raid_20_desc:0 "Find da weak lands, stomp ‘em, an’ take all da shinies! Time fer dem ta fear da Waaagh!"
+
+gen_greenskin_raid_30_title:0 "Loot Da Towns!"
+gen_greenskin_raid_30_desc:0 "We’z goin' after da bigga lands, takin' wot’s rightfully ours! Da shinies are callin' ta us!"
+
+gen_greenskin_raid_40_title:0 "Stomp Da Tall Cities!"
+gen_greenskin_raid_40_desc:0 "Day think dey safe in da tall places! We’z gonna show 'em no walls can stop da boyz!"
+
+gen_greenskin_raid_50_title:0 "Take All Da Loot!"
+gen_greenskin_raid_50_desc:0 "No land is safe! We’z gonna smash dem an’ take dere bestest stuff! Waaagh!"
+
+
+
+
+
+ ##### Greenskin & Gork modifiers
+
+greenskin_claimant:0 "Claim’d Da Lands"
+desc_greenskin_claimant:0 "Da boyz get ‘igh pride an’ power when dey claim more lands! Da mobs be growin' too, dey iz."
+
+greenskin_khan:0 "Greenskin Khan"
+desc_greenskin_khan:0 "Da Khan'z got power! Boyz is fightin' wit’ extra oomph an’ makes more frendz wiv other boyz!"
+
+greenskin_scourge:0 "Scourge o’ Da World"
+desc_greenskin_scourge:0 "Da enemy’s lands fall easier ta us! Dey can't 'old back da might o' da boyz!"
+
+greenskin_great_generals:0 "Da Biggest, Da Baddest"
+desc_greenskin_great_generals:0 "Da Bosses lead da charge, blowin’ up da field wiv fire an' shock! Dem boyz got da strength o’ Gork an' Mork!"
+
+greenskin_calmed_down:0 "Da Boyz Calmed... Fer Now"
+desc_greenskin_calmed_down:0 "Wiv da loot brought in, da boyz is a bit less killy... Fer now."
+
+greenskin_rituals:0 "Fire Rites o’ Da Greenskins"
+desc_greenskin_rituals:0 "Da boyz unleash da power o’ da fire spirits in battle, bringin' burny doom ta all dey see!"
+
+greenskin_tried_mork:0 "Tried Da Sneaky Path"
+desc_greenskin_tried_mork:0 "Da boyz done some sneakin’ fer Mork. Now, dey knowz how ta keep da enemy’s eyes off us!"
+
+greenskin_tried_gork:0 "Tried Da Smashin’ Path"
+desc_greenskin_tried_gork:0 "Da boyz got strong on da stomp of Gork! Dey punch harder now an' leave a trail o' bones behind!"
+
+
+
+
+
+
+ ##### Nehekharan Culture
 
 ### Access to the Sea
 gen_nekekhara_missions_1_title:0 "Command the Endless Seas"

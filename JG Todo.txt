@@ -1,13 +1,19 @@
 
 JG To Do & Thoughts
 
-Ultimate for each that requires finishing 5 others
+Ultimate misison that requires the finishing 5 others
+
+Add some breathing room space in the mission
 
 Fix coronation of Karl Franz event!
 
 Prevent defender from taking land in racial raiding.
 
-Make the smash and grab decision automatic if in a raiding war? Or alwasy automatic?
+Add offer domination diplomatic action
+
+
+
+Make the smash and grab decision automatic if in a raiding war? Or always automatic?
 	Give a little AE for doing this
 	For bigger cities, can take more? Maybe like an additional dev for each 10
 
@@ -24,21 +30,22 @@ Focus on Nehekara to start
 	Rename Some States
 	Mission for controlling and having forts on the passes? Maybe missions based on areas
 	Change rewards for symbols of power & symbols of religion
-	Increase missions to 7 long
 
 Orcs
 	Need to stay at war at all times
 	Gork & Mork Scales
 	Missions
-		Get gork & mork scales to different places
-		3 different wars at the same time
-		Controlling dev 30+ places
-		Raid the empire
+		A certain number of subterranean provinces
+		Raid the emperor
 		Mission choice at the end to improve professionalism or army tradition?
 		Raid each major capital: Karak, Khemri, Cathay, Empire
-		Give orcs Prussian militarization of state?
-		A certain number of subterranean provinces
+	Give orcs Prussian militarization of state?
 	Adjust starting vision
+	Decisions to give up gold, increase siege ability, and move towards Mork
+	Decision to give up manpower, increase shock, move towards Gork
+	5 pulse events to move towards mork or gork
+	Add mork or gork to waagh events
+
 
 Cathay
 	Very low crownland
