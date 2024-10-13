@@ -51,6 +51,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_great_project_the_great_ogham"
 		texturefile = "gfx//interface//great_projects//great_project_the_great_ogham.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_suiddock_gp"
+		texturefile = "gfx//interface//great_projects//great_project_suiddock_gp.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_bokha_palace_gp"
+		texturefile = "gfx//interface//great_projects//great_project_bokha_palace_gp.dds"
 	}		
-	
+	spriteType = {
+		name = "GFX_great_project_citadel_of_praag_gp"
+		texturefile = "gfx//interface//great_projects//great_project_citadel_of_praag_gp.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_erengrad_port_gp"
+		texturefile = "gfx//interface//great_projects//great_project_erengrad_port_gp.dds"
+	}
 }
