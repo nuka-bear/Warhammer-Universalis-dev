@@ -11,6 +11,12 @@ destruction_nation = {
 	unjustified_demands = -0.5
 }
 
+order_nation = {
+}
+
+neutral_nation = {
+}
+
 
 sigmarsheim_mod = {
 	religion = yes
@@ -30,13 +36,6 @@ karak_eight_peaks_claimant = {
 	land_forcelimit = 10
 	land_morale = 0.3
 	global_supply_limit_modifier = 0.5
-	
-	colonists = 2
-	global_colonial_growth = 100
-	global_tax_income = 48
-	
-	native_uprising_chance = 0.5
-	native_assimilation = -1.5
 }
 
 #under Empire Tunnels

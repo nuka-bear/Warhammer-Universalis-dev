@@ -23,6 +23,24 @@ country_event = {
 		}
 		every_country = {
 			limit = {
+				order_culture = yes
+			}
+			add_country_modifier = {
+				name = order_nation
+				duration = -1
+			}
+		}
+		every_country = {
+			limit = {
+				neutral_culture = yes
+			}
+			add_country_modifier = {
+				name = neutral_nation
+				duration = -1
+			}
+		}
+		every_country = {
+			limit = {
 				has_country_modifier = destruction_nation
 			}
 			set_country_flag = setup_destruction_opinion

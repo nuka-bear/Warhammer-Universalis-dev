@@ -2,7 +2,7 @@
 
 graphical_culture = northamericagfx
 #chaos Wastes
-color = { 31 239 121 }
+color = { 31 121 121 }
 
 revolutionary_colors = { 0 10 0 }
 

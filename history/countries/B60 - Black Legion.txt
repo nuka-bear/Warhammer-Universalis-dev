@@ -4,6 +4,5 @@ government_rank = 1
 primary_culture = tahmaks
 religion = chaos_undivided_religion
 technology_group = tech_chaos_warrior
-capital = 2674
+capital = 4929
 setup_vision = yes
-

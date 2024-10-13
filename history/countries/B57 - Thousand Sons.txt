@@ -4,5 +4,5 @@ government_rank = 1
 primary_culture = dakota
 religion = chaos_undivided_religion
 technology_group = north_american
-capital = 2638
+capital = 4926
 setup_vision = yes

@@ -2,7 +2,7 @@
 #chaos Wastes
 graphical_culture = muslimgfx
 
-color = { 25  25  25 } 
+color = { 140 58 58 } 
 
 
 historical_idea_groups = {

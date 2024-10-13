@@ -1,9 +1,5 @@
 ﻿l_english:
 
  #placeholder loc file for Orcs and Goblins
- destruction_nation:0 "Forces of Destruction"
- desc_destruction_nation:0 "The Orcs and Goblins have difficulties with diplomancy aside with other Orcs and Goblins"
-
- root_destruction:0 "Racial Amnity"
  test_buff:0 "Greenskin Buff"
  desc_test_buff:0 ""

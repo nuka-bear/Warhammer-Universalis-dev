@@ -4,5 +4,5 @@ government_rank = 1
 primary_culture = gospodar
 religion = nurglite_religion
 technology_group = tech_chaos_warrior
-capital = 2670
+capital = 4928
 setup_vision = yes

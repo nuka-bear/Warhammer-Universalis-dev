@@ -26,6 +26,13 @@ order_culture = {
 		technology_group = tech_indish
 		technology_group = tech_amazon
 	}
+	not = {
+		or = {
+			religion_group = ruinous_powers_denominations
+			religion = nagash_worship
+		}
+
+	}
 }
 
 neutral_culture = {
@@ -35,6 +42,12 @@ neutral_culture = {
 		technology_group = tech_norscan
 		technology_group = tech_arabyn
 		technology_group = tech_hobgoblin
+	}
+	not = {
+		or = {
+			religion_group = ruinous_powers_denominations
+			religion = nagash_worship
+		}
 	}
 }
 

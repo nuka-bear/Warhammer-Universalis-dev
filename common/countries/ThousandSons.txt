@@ -2,8 +2,8 @@
 #chaos Wastes
 graphical_culture = asiangfx
 
-color = { 126  87  198 }
-revolutionary_colors = { 16 1 16 }
+color = { 91 195 230  }
+
 
 historical_idea_groups = {
 	trade_ideas
