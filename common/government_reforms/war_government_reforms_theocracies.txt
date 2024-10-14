@@ -89,7 +89,7 @@ cult_of_sigmar_reform = {
 	valid_for_nation_designer = no
 	allow_convert = no
 	lock_level_when_selected = yes
-
+	is_eligible_for_hre_emperor = yes
 	nation_designer_cost = 20
 	modifiers = {
 		yearly_harmony = 0.25
@@ -124,6 +124,7 @@ cult_of_ulric_reform = {
 	valid_for_nation_designer = no
 	allow_convert = no
 	lock_level_when_selected = yes
+	is_eligible_for_hre_emperor = yes
 
 	nation_designer_cost = 20
 	modifiers = {
@@ -167,11 +168,11 @@ truthsayer_order_reform	 = {
 }
 
 dark_embassy_order_reform	= {
-		icon = "soldiers"
+	icon = "soldiers"
 	potential = {
-		and = {
-			culture_group = albionise_group
-			religion_group = ruinous_powers_denominations
+		or = {
+			have_had_reform = dark_embassy_order_reform
+			has_reform = dark_embassy_order_reform
 		}
 	}
 	modifiers = {
@@ -179,12 +180,10 @@ dark_embassy_order_reform	= {
 		improve_relation_modifier = 0.1
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 0
+	nation_designer_cost = 20
 	nation_designer_trigger = {
-		and = {
 			culture_group = albionise_group
 			religion_group = ruinous_powers_denominations
-		}
 	}
 	icon = "man_on_podium"
 	allow_normal_conversion = no
@@ -253,7 +252,7 @@ nagash_reform = {
 		tag = U24
 	}
 
-	modifiers = {	#for better spellcasting
+	modifiers = {	
 		all_power_cost = -0.025
 		
 	}
@@ -264,7 +263,6 @@ nagash_reform = {
 	nation_designer_cost = 666
 	icon = "soldiers"
 	allow_normal_conversion = no
-	# legacy_equivalent = magocracy
 	lock_level_when_selected = yes
 	
 	rulers_can_be_generals = no

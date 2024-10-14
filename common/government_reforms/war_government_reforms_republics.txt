@@ -83,3 +83,33 @@ high_elven_republic = {
 	}
 
 }
+
+
+league_of_ostermark_reform = {
+	allow_normal_conversion = no
+	icon = "peasant_republic"
+	potential = {
+		OR = {
+			have_had_reform = league_of_ostermark_reform
+			has_reform = league_of_ostermark_reform
+		}
+	}
+	valid_for_nation_designer = no
+	nation_designer_cost = 20
+
+	royal_marriage = yes
+	is_eligible_for_hre_emperor = yes
+
+	modifiers = {
+		army_tradition = 0.5
+		land_morale = 0.05
+		nobles_influence_modifier = 0.05
+		max_absolutism = -10
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
+
+	}
+	duration = 10
+}
