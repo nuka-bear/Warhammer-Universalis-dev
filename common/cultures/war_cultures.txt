@@ -3139,6 +3139,8 @@ lizardmen_group = {
 	}
 	lustrian_lizardmen = {
 	}
+	dragon_isles_lizardmen = {
+	}
 	feral_lizardmen = {
 	}
 
