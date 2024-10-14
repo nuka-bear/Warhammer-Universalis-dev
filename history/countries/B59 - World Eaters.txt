@@ -4,5 +4,5 @@ government_rank = 1
 primary_culture = yusaks
 religion = khornate_religion
 technology_group = tech_chaos_warrior
-capital = 2694
+capital = 4924
 setup_vision = yes

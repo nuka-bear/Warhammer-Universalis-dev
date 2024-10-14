@@ -17,14 +17,27 @@
  great_temple_of_taal_rhya:0 "Great Temple of Taal and Rhya"
  great_temple_ulric:0 "Great Temple of Ulric"
  
+ suiddock_gp:0 "Suiddock"
+ suiddock_gp_title:0 "Suiddock"
+ suiddock_gp_desc:0 ""Suiddock is the heart and soul of Marienburg — and considering what a run-down pesthole it is, that's a frightening thought."\n—Young broker at the 'Change.\n\nMarienburg sits on a delta at the mouth of the Reik as it heads through the cursed marshes and eventually into the Sea of Claws. The city is on a series of marshy islands surrounded by quays and docks, making its populace rich due to the trade income generated. They are so wealthy, in fact, that they bribed themselves out of the Empire in 2429 IC!"
+ 
  grand_cauldron_desc:0 "The Halflings' diminutive stature masks a ravenous appetite, and as you might expect, highly-developed culinary skills; as such, their cauldrons bubble day and night!"
  imperial_palace_desc:0 "The Emperor's palace is the grandest edifice in Altdorf - home to the Altdorf Princes of old.\n\nOvershadowed only by the Cathedral of Sigmar, the Imperial Palace of Altdorf is a massive, elaborate building standing near the middle of the great city. The palace is home to both the infamous Reiksguard household guards, and the great Emperor Karl Franz himself. The Emperor's court is always filled with nobility from across the Empire, and is a hotbed of political intrigue, social manoeuvring, and hedonistic frivolity.\\n\\nDue to its long history, the Imperial Palace is a very complex building. Parts of it have been built and rebuilt, others added on throughout the years. Nearby administrative buildings have sometimes been connected to the palace, and eventually become part of it. The Imperial Palace includes a medium-sized garden, which includes statues of the Empire’s heroes, from both ancient and recent times, as well as the Imperial Zoo, located on the palace grounds.\\n\\nOne notable room contains a mosaic mappa mundi of the Empire, called the Great Chart, inlaid onto the floor. Various geographical features are represented by opulent materials, such as limewood, copper and brass for the borders of the Imperial provinces, and rosettes of oak or maple wound with gold wire marking the locations of city-states. Another notable structure is the Volkshalle. It is here that the electors meet to elect the Emperor and here that the newly-elected emperor is crowned."
  holy_temple_of_sigmar_desc:0 "The cathedrals are massive buildings attended by many Warrior Priests. The largest of these sits in Altdorf; a grand palace of worship, it is octagonal in shape and built at the place where Sigmar was crowned. It is here that sermons are delivered by the Arch Lectors or the Grand Theogonist himself. "
  altdorf_college_of_mages_desc:0 "The Colleges of Magic were founded after the Great War Against Chaos, when it was deemed by Magnus the Pious that man should have access to magic. Teclis, greatest of the High Elven Mages, saw wisdom in this and passed on his arcane knowledge. Thus the eight colleges were founded and prosper to this day, taking on students from across the Old World and instructing them in one of the magical lores. "
  great_lighthouse_desc:0 "Over three hundred feet tall and with walls so smooth that, at first glance, the lighthouse looks like a single piece of stone. The walls of the city extend from the lighthouse, rise sixty feet above the streets, and are broad enough for knights to ride ten abreast along the top.\nElves on their first visit invariably climb to the top of the lighthouse, and none of the lighthouse keepers would dare to stop them. The buildings within the walls, however, are all Human-made and much more recent. The oldest is the castle, built on an island in the middle of the harbour and commanding the whole channel with its siege engines."
  averburg_desc:0 "Although the Averburg itself has never fallen, Averheim was penetrated by Gorbad Ironclaw. Whose forces made it as far as the Plenzerplatz, the city's main square. There, the Grand Count and his personal bodyguards along with the remaining soldiers of Averland set upon them. Slaughtered by the hundreds, Gorbad's army was forced to move on, and the Elector Count ordered a monument built from the skulls of the dead Orcs. To this day, it is said that blood drips from the eye socket of some of the skulls on the Night of Mystery. "
- great_temple_of_taal_rhya_desc:0 "Great Temple of Taal and Rhya"
+ great_temple_of_taal_rhya_desc:0 "Among the holy places of Taal and Rhya, the high temple of Taal in Talabheim is something of an anomaly. It appears as a noble's garden allowed to grow wild. Weekly services are held under its rowan trees."
  great_temple_ulric_desc:0 "Built in 63 IC by the High Priest Wulcan, the Temple of Ulric has dominated Middenheim for generations. It is a castle as much as a holy shrine and guarded by the Teutogen Guard. From this temple, the Ar-Ulric - the cult's high priest - broadcasts his sermons that preach war, for Ulric is the God of Wolves, Winter and Battle. He was even worshipped by Sigmar himself, during his mortal life."
 
  the_great_ogham:0 "The Great Ogham"
  citadel_of_lead:0 "Citadel of Lead"
+ 
+ bokha_palace_gp:0 "Bokha Palace"
+ 
+ citadel_of_praag_gp:0 "Citadel of Praag"
+ 
+ erengrad_port_gp:0 "Erengard Port"
+ 
+ uzkulak_canal:0 "Uzkulak Canal"
+ 

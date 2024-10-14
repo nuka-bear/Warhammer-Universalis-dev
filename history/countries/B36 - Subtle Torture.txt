@@ -4,6 +4,5 @@ government_rank = 1
 primary_culture = kvellig
 religion = slaaneshi_religion
 technology_group = tech_chaos_warrior
-capital = 2549
+capital = 4923
 setup_vision = yes
-

@@ -19,7 +19,7 @@ native_basic_reform = {
 		diplomatic_upkeep = -2
 		global_institution_spread = -0.5
 		province_warscore_cost = 4
-		land_forcelimit_modifier = -0.3
+	#	land_forcelimit_modifier = -0.3
 		development_cost = 0.2
 	}
 	valid_for_nation_designer = yes
@@ -30,9 +30,9 @@ native_basic_reform = {
 			technology_group = south_american
 			technology_group = aboriginal_tech
 		}
-		NOT = { religion = nahuatl }
-		NOT = { religion = mesoamerican_religion }
-		NOT = { religion = inti }
+	#	NOT = { religion = nahuatl }
+	#	NOT = { religion = mesoamerican_religion }
+	#	NOT = { religion = inti }
 		capital_scope = {
 			OR = {
 				continent = north_america
@@ -510,15 +510,17 @@ hordes_of_chaos = {
 	modifiers = {
 		manpower_recovery_speed = 0.33
 		land_forcelimit_modifier = 0.33
+		#warhammer
+		land_maintenance_modifier = -0.25
+		global_regiment_cost = -0.5
 		
 		global_supply_limit_modifier = 0.5
-		global_institution_spread = -0.25
 		relation_with_heathens = -25
 	}
 	custom_attributes = {
 		locked_government_type = yes
 		enables_horde_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_natives_idea_group = no
 		generals_become_rulers = yes
 	}
 
