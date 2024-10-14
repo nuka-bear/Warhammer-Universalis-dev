@@ -4,6 +4,107 @@
  ### Southlands Missions
 
 
+##################################
+##### MODIFIERS
+##################################
+
+araby_happy_church:0 "Content Imams"
+araby_happy_church_desc:0 "Our imams are satisfied with their place in society, spreading peace and tolerance throughout the land."
+
+araby_place_of_study:0 "House of Wisdom"
+araby_place_of_study_desc:0 "This province is home to a great center of knowledge, where scholars gather to discuss philosophy, science, and theology."
+
+araby_place_of_law:0 "Majlis al-Shura"
+araby_place_of_law_desc:0 "The establishment of this council of judges ensures swift and just governance, reducing the costs of maintaining order."
+
+araby_place_of_innovation:0 "Majlis al-Ilm"
+araby_place_of_innovation_desc:0 "This council of scholars and inventors is dedicated to furthering our understanding of the world, making us a beacon of enlightenment."
+
+araby_charitable:0 "Waqf of Generosity"
+araby_charitable_desc:0 "Our acts of charity toward neighboring lands improve our relations and allow us to extend our influence with ease."
+
+araby_historical_defender:0 "Guardian of the Faith"
+araby_historical_defender_desc:0 "As the guardians of our faith, we are respected across the realms. Our steadfastness inspires the faithful and intimidates our rivals."
+
+araby_add_missionary_1:0 "Civilizing Mission"
+araby_add_missionary_1_desc:0 "Our da'wa efforts intensify, sending missionaries across the land to spread the true faith with growing zeal."
+
+araby_add_missionary_2:0 "Da'wa Movement"
+araby_add_missionary_2_desc:0 "With renewed vigor, our da'wa movement spreads the light of faith to distant regions, bringing more souls into the fold."
+
+araby_holy_war:0 "Jihad"
+araby_holy_war_desc:0 "A righteous struggle against those who oppose our beliefs. We have a divine mandate to wage jihad against the enemies of the faith."
+
+araby_holy_war_2:0 "Greater Jihad"
+araby_holy_war_2_desc:0 "Our holy warriors carry the banner of faith with great fervor, making swift and decisive conquests in the name of the One True God."
+
+araby_expand_abroad:0 "Overseas Settlers"
+araby_expand_abroad_desc:0 "Our people are pioneers and adventurers, ready to expand beyond the borders of our homeland, exploring and settling new lands."
+
+
+araby_trade_hub:0 "Bustling Trade Hub"
+araby_trade_hub_desc:0 "Our lands are at the crossroads of trade, bringing prosperity and wealth to all who do business here. Merchants from distant lands gather at our markets, invigorating our economy."
+
+araby_cavalry_fraction:0 "Lords of Horse and Steel"
+araby_cavalry_fraction_desc:0 "Our cavalry is the pride of our military, leading charges with unmatched speed and devastating our enemies on the flanks. Our forces are renowned for their powerful cavalry presence."
+
+
+
+
+##################################
+##### MISSIONS
+##################################
+
+gen_araby_please_nobility_title:0 "Favor of the Emirs"
+gen_araby_please_nobility_desc:0 "The loyalty of the emirs is paramount to maintaining our authority. We must earn their trust to ensure they support our rule and our faith."
+
+gen_araby_cavalry_title:0 "Raise the Aswaran"
+gen_araby_cavalry_desc:0 "Our elite cavalry, the Aswaran, are feared throughout the desert. We shall raise a grand force of cavalry to assert our dominance on the battlefield and protect our lands from all threats."
+
+gen_araby_war_with_infidel_title:0 "War on the Infidels"
+gen_araby_war_with_infidel_desc:0 "The time has come to fulfill our sacred duty. We must bring the wrath of the righteous upon those who reject the truth of our faith."
+
+gen_araby_war_expand_faith_title:0 "Spread the Word"
+gen_araby_war_expand_faith_desc:0 "Our empire must extend the reach of the faith, conquering new lands and converting them to our righteous cause."
+
+gen_araby_build_docks_title:0 "Construct the Docks"
+gen_araby_build_docks_desc:0 "To dominate the seas and connect our lands with distant trade routes, we must build mighty docks to support our expanding fleet."
+
+gen_araby_expand_overseas_title:0 "Expand Across the Seas"
+gen_araby_expand_overseas_desc:0 "The seas are the lifeblood of trade and conquest. We must extend our influence beyond the horizon, spreading our faith to foreign shores."
+
+gen_araby_center_of_trade_title:0 "Establish a Center of Trade"
+gen_araby_center_of_trade_desc:0 "The wealth of the world flows through our lands. By establishing a powerful center of trade, we can control the lifeblood of commerce and expand our influence."
+
+
+##################################
+##### ONE FAITH RELIGION MISSIONS
+##################################
+
+gen_one_faith_happy_priest_title:0 "Content Imams"
+gen_one_faith_happy_priest_desc:0 "The imams are loyal to our cause, ensuring stability in the spiritual realm and harmony within our borders."
+
+gen_one_faith_places_of_worship_title:0 "Construct Masjids"
+gen_one_faith_places_of_worship_desc:0 "Our people must have places to gather in prayer and reflection. By constructing masjids, we shall secure their faith and devotion."
+
+gen_one_faith_place_of_study_title:0 "Establish the Dar al-Ilm"
+gen_one_faith_place_of_study_desc:0 "A great center of learning in our capital will solidify our place as a beacon of wisdom, guiding both the faithful and the curious."
+
+gen_one_faith_places_of_law_title:0 "Promote the Majlis"
+gen_one_faith_places_of_law_desc:0 "By creating institutions of justice throughout our land, we demonstrate that the law and the faith are one, ensuring stability and order."
+
+gen_one_faith_places_of_innovation_title:0 "Nurture Scholars"
+gen_one_faith_places_of_innovation_desc:0 "We must foster intellectual growth and innovation, encouraging scholars to push the boundaries of knowledge under the guidance of our faith."
+
+gen_one_faith_charitable_title:0 "Practice Sadaqah"
+gen_one_faith_charitable_desc:0 "Charity is a virtue praised by the divine. By giving generously to our neighbors, we will win their hearts and demonstrate the strength of our faith."
+
+gen_one_faith_defender_of_faith_title:0 "Amir al-Mu'minin"
+gen_one_faith_defender_of_faith_desc:0 "As the Defender of the Faithful, we stand as the bulwark against those who threaten the unity and purity of our belief, protecting the righteous from all harm."
+
+
+
+
 #### Greenskin Missions
 
 gen_greenskin_please_nobility_title:0 "Make Da Bosses ‘Appy"

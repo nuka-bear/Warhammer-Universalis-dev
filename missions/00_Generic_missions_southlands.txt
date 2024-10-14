@@ -2,14 +2,304 @@
 
 
 ##################################
-##### ORC CULTURE GROUP
+##### ARABY CULTURE GROUP
 ##################################
 
 
-# GETTING THE TRIBES TOGETHER
-# TAKING SPECIFIC ENEMY CAPITALS
-# UNIFYING THE ORCS
-# Build forts
+### Need one to add crusade, warscore against non religion, colonist. Certain number of calvary for improved cavalry ration & power? Call them civilizing mission
+
+
+gen_araby_missions = {
+	slot = 1
+	generic = yes
+	ai = yes
+	potential = {
+		culture_group = arabyan_group
+	}
+
+	gen_araby_please_nobility = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			estate_loyalty = {
+			    estate = estate_nobles
+			    loyalty = 90
+			}
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = araby_add_missionary_1
+				duration = -1
+			}
+		}
+	}
+
+
+	gen_araby_cavalry = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_araby_please_nobility }
+		trigger = {
+			num_of_cavalry = 10
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = araby_cavalry_fraction
+				duration = -1
+			}
+		}
+	}
+
+
+	gen_araby_war_with_infidel = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_araby_cavalry } 
+		trigger = {
+			at_war_with_religious_enemy = yes
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = araby_holy_war
+				duration = -1
+			}
+		}
+	}
+
+	gen_araby_war_expand_faith = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_araby_war_with_infidel } 
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 10
+				NOT = { region = sudron_region }
+				NOT = { region = gulf_of_medes_region }
+				NOT = { region = araby_region }
+			}
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = araby_holy_war_2
+				duration = -1
+			}
+		}
+	}
+
+	gen_araby_build_docks = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  }
+		position = 6
+		trigger = {
+			 OR = {
+			 	dock = 5
+			 	drydock = 5
+			 }
+
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = araby_expand_abroad
+				duration = -1
+			}
+		}
+	}
+
+	gen_araby_expand_overseas = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_araby_build_docks } 
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 2
+				NOT = { superregion = northern_south_lands_superregion }
+				NOT = { superregion = southern_south_lands_superregion }
+			}
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = araby_add_missionary_2
+				duration = -1
+			}
+		}
+	}
+
+
+	gen_araby_center_of_trade = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_araby_expand_overseas } 
+		trigger = {
+			num_of_light_ship = 25
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = araby_trade_hub
+				duration = -1
+			}
+		}
+	}
+}
+
+
+
+
+
+
+##################################
+##### ONE FAITH RELIGION
+##################################
+
+
+gen_one_faith_missions = {
+	slot = 5
+	generic = yes
+	ai = yes
+	potential = {
+		religion = the_one_faith
+	}
+
+	gen_one_faith_happy_priest = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			estate_loyalty = {
+			    estate = estate_church
+			    loyalty = 90
+			}
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = araby_happy_church
+				duration = -1
+			}
+		}
+	}
+
+	gen_one_faith_places_of_worship = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_one_faith_happy_priest } 
+		trigger = {
+			all_owned_province = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+
+		effect = { 
+			change_innovativeness = 10
+		}
+	}
+
+	gen_one_faith_place_of_study = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_one_faith_places_of_worship } 
+		trigger = {
+			capital_scope = {
+				development = 35
+			}
+		}
+
+		effect = { 
+			capital_scope = {
+				add_permanent_province_modifier = { 
+ 				  	name = araby_place_of_study
+    				duration = -1  
+				}
+			}
+		}
+	}
+
+	gen_one_faith_places_of_law = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_one_faith_place_of_study } 
+		trigger = {
+			all_owned_province = {
+				OR = {
+					has_building = courthouse
+					has_building = town_hall
+				}
+			}
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = araby_place_of_law
+				duration = -1
+			}
+		}
+	}
+
+	gen_one_faith_places_of_innovation = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_one_faith_places_of_law } 
+		trigger = {
+			all_owned_province = {
+				has_building = university
+			}
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = araby_place_of_innovation
+				duration = -1
+			}
+		}
+	}
+
+	gen_one_faith_charitable = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  }
+		trigger = {
+			years_of_income = 1.5
+		}
+
+		effect = {
+
+		add_years_of_income = -1.5
+			every_neighbor_country = { add_years_of_income = 0.5 }
+
+
+			add_country_modifier = { 
+ 				name = araby_charitable
+				duration = -1
+			}
+		}
+	}
+
+
+	gen_one_faith_defender_of_faith = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_one_faith_charitable }
+		trigger = {
+			is_defender_of_faith = yes
+			prestige = 99
+			religious_unity = 1.0
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = araby_historical_defender
+				duration = -1
+			}
+		}
+	}
+	
+
+}
+
+
+
+
+##################################
+##### ORC CULTURE GROUP
+##################################
+
 
 gen_greenskin_missions = {
 	slot = 1
@@ -25,7 +315,7 @@ gen_greenskin_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_nobles
-			    loyalty = 95
+			    loyalty = 90
 			}
 		}
 
@@ -193,7 +483,7 @@ gen_gork_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_church
-			    loyalty = 95
+			    loyalty = 90
 			}
 		}
 
@@ -210,7 +500,7 @@ gen_gork_missions = {
 		icon = mission_impaled_soldies
 		required_missions = {  } 
 		trigger = {
-			piety = -0.90
+			piety = 0.90
 		}
 
 		effect = { 
@@ -739,7 +1029,7 @@ gen_nekekhara_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_nobles
-			    loyalty = 95
+			    loyalty = 90
 			}
 		}
 
@@ -805,7 +1095,7 @@ gen_nehekharan_pantheon_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_church
-			    loyalty = 95
+			    loyalty = 90
 			}
 		}
 

@@ -11,11 +11,9 @@ Prevent defender from taking land in racial raiding.
 
 Add offer domination diplomatic action
 
-
-
 Make the smash and grab decision automatic if in a raiding war? Or always automatic?
-	Give a little AE for doing this
 	For bigger cities, can take more? Maybe like an additional dev for each 10
+	Make it a toggle decision with a flag - raid everybody, or don't raid everybody. 
 
 get rid of the "You're old" events
 
@@ -44,7 +42,22 @@ Orcs
 	Decisions to give up gold, increase siege ability, and move towards Mork
 	Decision to give up manpower, increase shock, move towards Gork
 	5 pulse events to move towards mork or gork
-	Add mork or gork to waagh events
+	Decisions:
+		Encourage infighting: raise rebel army for gork
+		Party for mork: pay money
+	Mork interaction: raise rebels in adjacent territories
+	Gork interaction: more manpower and gold?
+
+Araby
+	Araby:
+		- nobility wants to spread religion. Bonus for converting, force converting, eventually owning all the one faith land.
+			Holy war cb
+			War score against enemies
+			Missionaries
+			Colonist
+		- clergy wants internal stability, prosperity, development, innovation, universities, court rooms
+			Add institution maker for capital
+			reverse_relation_with_same_religion = 25
 
 
 Cathay
