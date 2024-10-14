@@ -1,11 +1,11 @@
 
 JG To Do & Thoughts
 
-Ultimate misison that requires the finishing 5 others
+Ultimate misison that requires the finishing 5 others?
 
-Add some breathing room space in the mission
+Adjust opening text for cultures and religions
 
-Fix coronation of Karl Franz event!
+Fix crashing bug!
 
 Prevent defender from taking land in racial raiding.
 
@@ -16,6 +16,11 @@ Make the smash and grab decision automatic if in a raiding war? Or always automa
 	Make it a toggle decision with a flag - raid everybody, or don't raid everybody. 
 
 get rid of the "You're old" events
+
+Fix province names in Southlands
+
+Add monuments to badlands
+
 
 Focus on Nehekara to start
 	Custom Estates - Mortuary Cult
@@ -47,18 +52,6 @@ Orcs
 		Party for mork: pay money
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold?
-
-Araby
-	Araby:
-		- nobility wants to spread religion. Bonus for converting, force converting, eventually owning all the one faith land.
-			Holy war cb
-			War score against enemies
-			Missionaries
-			Colonist
-		- clergy wants internal stability, prosperity, development, innovation, universities, court rooms
-			Add institution maker for capital
-			reverse_relation_with_same_religion = 25
-
 
 Cathay
 	Very low crownland

@@ -23,7 +23,7 @@ gen_araby_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_nobles
-			    loyalty = 90
+			    loyalty = 75
 			}
 		}
 
@@ -167,7 +167,7 @@ gen_one_faith_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_church
-			    loyalty = 90
+			    loyalty = 75
 			}
 		}
 
@@ -256,12 +256,12 @@ gen_one_faith_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  }
 		trigger = {
-			years_of_income = 1.5
+			years_of_income = 2.0
 		}
 
 		effect = {
 
-		add_years_of_income = -1.5
+		add_years_of_income = -2.0
 			every_neighbor_country = { add_years_of_income = 0.5 }
 
 
@@ -315,7 +315,7 @@ gen_greenskin_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_nobles
-			    loyalty = 90
+			    loyalty = 75
 			}
 		}
 
@@ -483,7 +483,7 @@ gen_gork_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_church
-			    loyalty = 90
+			    loyalty = 75
 			}
 		}
 
@@ -1029,7 +1029,7 @@ gen_nekekhara_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_nobles
-			    loyalty = 90
+			    loyalty = 75
 			}
 		}
 
@@ -1095,7 +1095,7 @@ gen_nehekharan_pantheon_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_church
-			    loyalty = 90
+			    loyalty = 75
 			}
 		}
 

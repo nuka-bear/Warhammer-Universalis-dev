@@ -1192,6 +1192,8 @@ indish_denominations = {
 			0 204 204
 		}
 		country = {
+			global_trade_power = 0.10
+			production_efficiency = 0.10
 
 		}
 		country_as_secondary = {

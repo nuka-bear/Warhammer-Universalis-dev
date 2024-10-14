@@ -351,8 +351,7 @@ diplomatic_missions = {
 		trigger = {
 
 			all_neighbor_country = {
-				ROOT = { tech_difference = 3 }
-				NOT = { prestige = ROOT }
+				NOT = { tech_difference = -3 }
 			}
 
 		}
@@ -461,8 +460,10 @@ administrative_missions = {
 		required_missions = {  }
 		position = 7
 		trigger = {
-			OR = { all_owned_province = { has_building = marketplace } }
-			marketplace = 5
+			OR = {
+				all_owned_province = { has_building = marketplace }
+				marketplace = 5
+			}
 			estate_loyalty = {
  				estate = estate_burghers
     			loyalty = 75
