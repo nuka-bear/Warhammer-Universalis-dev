@@ -37,3 +37,16 @@ demote_dominion_action: "Vassalize Dominion"
 demote_dominion_action_title: "Vassalize Dominion"
 demote_dominion_action_desc: "Demote a Dominion into a vassal, reducing its independence. Also reduces your trust with all other subjects."
 demote_dominion_action_tooltip: "Demote a Dominion into a vassal, reducing its independence. Also reduces your trust with all other subjects."
+
+
+offer_dominion_action: "Offer Dominion"
+offer_dominion_action_title: "Offer Dominion"
+offer_dominion_action_desc: "Offer to take a nation of your race under your wing as a semi-independent dominion. Dominions can take many independent actions, but are tied to their overlord. Dominions can be demoted into vassals over time."
+offer_dominion_action_tooltip: "Offer to take a nation of your race under your wing as a semi-independent dominion. Dominions can take many independent actions, but are tied to their overlord. Dominions can be demoted into vassals over time."
+
+
+
+NOT_SAME_TECH_GROUP:0 "Not in the same technology group"
+OFFER_SAME_CULTURE:0 "Same primary culture"
+OFFER_SAME_RELIGION:0 "Same religion"
+TOO_BIG_OFFER:0 "They are bigger than we are!"
