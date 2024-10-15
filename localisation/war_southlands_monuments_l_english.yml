@@ -78,6 +78,12 @@ dwarven_mints_desc:0 "The Dwarven Mints of Karak Azgal are among the most revere
 ### Araby
 ################
 
+### Localization for Harbor of Lashiek ###
+
+# Monument Title
+harbor_of_lashiek:0 "Harbor of Lashiek"
+harbor_of_lashiek_desc:0 "The Harbor of Lashiek is a bustling port that hums with the activity of merchants, traders, and corsairs. This harbor is vital to the economy of Lashiek, serving as a base for privateers who prey upon foreign ships and bring wealth back to the Sultan’s coffers. It brings back gold and spices, but also new ideas from across the world."
+
 university_of_alshir:0 "University of Al'Shir"
 university_of_alshir_desc:0 "The University of Al'Shir stands as a beacon of learning and innovation in naval strategy, cartography, and seafaring lore. Located in the heart of Araby, this institution trains navigators, explorers, and sailors from across the land. The University of Al'Shir is renowned for producing some of the finest sailors in the world, and its teachings allow Araby to extend its reach across the seas, exploring distant lands and unlocking new trade opportunities."
 

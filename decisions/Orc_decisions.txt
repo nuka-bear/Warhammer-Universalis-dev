@@ -1,0 +1,52 @@
+
+
+
+country_decisions = {
+	war_for_mork = {
+		potential = { uses_piety = yes }
+
+		allow = {
+
+			NOT = { piety = 0.5 }
+			years_of_income = 1.5
+
+
+		}
+
+		effect = {
+
+			add_piety = 0.25
+			add_years_of_income = -1.5
+
+		}
+
+		ai_will_do = { factor = 0 }	
+	
+	}
+
+	war_for_gork = {
+		potential = { uses_piety = yes }
+
+		allow = {
+
+			piety = -0.5
+			is_at_war = no
+			NOT = { num_of_rebel_armies = 1 }
+
+			}
+
+		effect = {
+
+			add_piety = -0.25
+			random_owned_province = {
+				spawn_rebels = {
+    				type = noble_rebels
+    				size = 2
+				}
+			}
+		}
+
+		ai_will_do = { factor = 0 }	
+	
+	}
+}

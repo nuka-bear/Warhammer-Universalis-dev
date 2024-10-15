@@ -60,6 +60,14 @@ araby_expand_abroad = {
 	colonists = 1
 }
 
+araby_ultimate_reward = {
+	global_missionary_strength = 0.10
+	innovativeness_gain = 1.0
+	reverse_relation_with_same_religion = 25
+	trade_efficiency = 0.5
+}
+
+
 ### Greenskin
 
 greenskin_claimant = {
@@ -105,6 +113,12 @@ greenskin_tried_gork = {
 	infantry_power = 0.025
 }
 
+greenskin_ultimate = {
+	land_morale = 0.25
+	fire_damage = 0.25
+	global_manpower_modifier = 0.25
+}
+
 
 
 ### Nehekharan
@@ -145,4 +159,11 @@ nehekhara_religious_stability_2  = {
 	global_missionary_strength = 0.03
 	stability_cost_modifier = -0.1
 
+}
+
+nehekhara_ultimate_reward = {
+	diplomatic_reputation = 3
+	prestige = 2.0
+	devotion = 2.0
+	legitimacy = 2.0
 }

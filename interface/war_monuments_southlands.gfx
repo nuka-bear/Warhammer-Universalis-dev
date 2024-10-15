@@ -107,5 +107,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_fuerte_del_morro.dds"
 	}
 
+	spriteType = {
+		name = "GFX_great_project_harbor_of_lashiek"	
+		texturefile = "gfx//interface//great_projects//great_project_fuerte_del_morro.dds"
+	}
+
 
 }

@@ -143,6 +143,37 @@ gen_araby_missions = {
 	}
 }
 
+gen_araby_ultimate_missions = {
+	slot = 3
+	generic = yes
+	ai = yes
+	potential = {
+		culture_group = arabyan_group
+	}
+	gen_araby_ultimate_mission = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  }
+		position = 9
+		trigger = {
+			is_great_power = yes
+			calc_true_if = {
+				all_country = {
+					religion = ROOT
+					is_great_power = yes
+				}
+				amount = 4
+			}
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = araby_ultimate_reward
+				duration = -1
+			}
+		}
+	}
+}
+
 
 
 
@@ -458,11 +489,34 @@ gen_greenskin_missions = {
 			}
 		}
 	}
-
-
-
 }
 
+gen_greenskin_ultimate_missions = {
+	slot = 3
+	generic = yes
+	ai = yes
+	potential = {
+		culture_group = greenskins_group
+	}
+	gen_greenskin_ultimate_mission = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  }
+		position = 9
+		trigger = {
+			700 = { controlled_by = ROOT }
+			1 = { controlled_by = ROOT }
+			2838 = { controlled_by = ROOT }
+			862 = { controlled_by = ROOT }
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = greenskin_ultimate
+				duration = -1
+			}
+		}
+	}
+}
 
 
 ##################################
@@ -891,7 +945,7 @@ gen_gork_missions = {
 ##### NEHEKHARA CULTURE GROUP
 ##################################
 
-gen_nekekhara_missions = {
+gen_nehekhara_missions = {
 	slot = 1
 	generic = yes
 	ai = yes
@@ -901,7 +955,7 @@ gen_nekekhara_missions = {
 
 
 ### Access to the Sea
-	gen_nekekhara_missions_1 = { 
+	gen_nehekhara_missions_1 = { 
 		icon = mission_galleys_in_port
 		required_missions = {  } 
 		trigger = {
@@ -918,7 +972,7 @@ gen_nekekhara_missions = {
 	}
 
 ### Build Capital
-	gen_nekekhara_missions_2 = { 
+	gen_nehekhara_missions_2 = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  } 
 		trigger = {
@@ -937,9 +991,9 @@ gen_nekekhara_missions = {
 
 
 ### Rebuild Monument
-	gen_nekekhara_missions_3 = { 
+	gen_nehekhara_missions_3 = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_nekekhara_missions_2 } 
+		required_missions = { gen_nehekhara_missions_2 } 
 		trigger = {
 			any_owned_province = { 
 				has_great_project = {
@@ -956,9 +1010,9 @@ gen_nekekhara_missions = {
 
 
 ### Retake Symbols of Power
-	gen_nekekhara_missions_4 = { 
+	gen_nehekhara_missions_4 = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_nekekhara_missions_3 } 
+		required_missions = { gen_nehekhara_missions_3 } 
 		trigger = {
 			any_owned_province = { 
 				has_great_project = {
@@ -1045,7 +1099,7 @@ gen_nekekhara_missions = {
 
 
 ### True Successor
-	gen_nekekhara_missions_5 = { 
+	gen_nehekhara_missions_5 = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {gen_nehekharan_please_nobility } 
 		trigger = {
@@ -1064,7 +1118,74 @@ gen_nekekhara_missions = {
 			}
 		}
 	}
+}
 
+gen_nehekhara_missions = {
+	slot = 3
+	generic = yes
+	ai = yes
+	potential = {
+		culture_group = nehekharan_group
+	}
+
+	gen_nehekhara_ultimate_mission = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { }
+		position = 9
+		trigger = {
+
+			any_owned_province = { 
+				has_great_project = {
+					type = valley_of_kings
+					tier = 3
+				}
+			}
+			any_owned_province = {
+				has_great_project = {
+					type = tomb_of_settra
+					tier = 3
+				}
+			}
+			any_owned_province = {
+				has_great_project = {
+					type = great_sphinx_of_numasis
+					tier = 3
+				}
+			}
+			any_owned_province = {
+				has_great_project = {
+					type = great_necropolis_of_khemri
+					tier = 3
+				}
+			}
+			any_owned_province = {
+				has_great_project = {
+					type = mortuary_temple_of_quaph
+					tier = 3
+				}
+			}
+			any_owned_province = {
+				has_great_project = {
+					type = oasis_of_the_gods
+					tier = 3
+				}
+			}
+			any_owned_province = {
+				has_great_project = {
+					type = black_pyramid_of_nagash
+					tier = 3
+				}
+			}
+
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = nehekhara_ultimate_reward
+				duration = -1
+			}
+		}
+	}
 }
 
 

@@ -3,6 +3,19 @@
  # Orcs
  ############################
 
+
+
+ # War for Mork Decision
+war_for_mork_title:0 "Big Bash for Mork!"
+war_for_mork_desc:0 "Oi, da big boss Mork is throwin' a right proper bash, and he needs a few more ladz ta keep da party goin'! We's gotta show 'im we're da meanest, greenest, and fightiest boyz around! So let’s kick off a roight good scrap, show some kunnin', and get cranked up for da Great Greenie!"
+
+# War for Gork Decision
+war_for_gork_title:0 "Gork's Got Da Stompy Feelin'!"
+war_for_gork_desc:0 "Gork sez it's time fer a bit o' bashin'! He's got da boyz all riled up, lookin' fer a big ol' rumble – no mo' sittin' around, iz da time to smash, stomp, an' show 'em who da best fighta is! Let's go mess 'em up proper, cuz Gork sez so, ya gits!"
+
+
+
+
 no_waaagh: "No WAAAGH?"
 desc_no_waaagh: "On’y a weak boss don’t got no WAAAGH fer dis long. Start a WAAAGH, or we’ll bash sumthin’!"
 

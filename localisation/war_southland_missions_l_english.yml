@@ -49,6 +49,15 @@ araby_cavalry_fraction:0 "Lords of Horse and Steel"
 araby_cavalry_fraction_desc:0 "Our cavalry is the pride of our military, leading charges with unmatched speed and devastating our enemies on the flanks. Our forces are renowned for their powerful cavalry presence."
 
 
+gen_araby_ultimate_mission_title:0 "Empire of the Crescent Moon"
+gen_araby_ultimate_mission_desc:0 "With faith, innovation, and trade flowing from every corner of Araby, we have united the world under our influence. Our scholars, merchants, and warriors have shown the strength of Araby to all nations, and none can doubt the power of the Crescent Moon."
+
+araby_ultimate_reward:0 "Blessings of the Crescent Moon"
+desc_araby_ultimate_reward:0 "Araby stands as a beacon of faith, wisdom, and prosperity. With unwavering devotion and unmatched ingenuity, we secure our place as a dominant force in the world, blessed by the Crescent Moon."
+
+
+
+
 
 
 ##################################
@@ -153,6 +162,11 @@ gen_greenskin_raid_50_title:0 "Take All Da Loot!"
 gen_greenskin_raid_50_desc:0 "No land is safe! We’z gonna smash dem an’ take dere bestest stuff! Waaagh!"
 
 
+gen_greenskin_ultimate_mission_title:0 "Da Biggest Waaagh!"
+gen_greenskin_ultimate_mission_desc:0 "Da whole place iz ours! We’z krumped all da gits who stood in our way, takin’ wot we want an’ growin’ stronger every day. Nuffink can stop us now—da whole world’s gonna feel da power o’ da Waaagh!"
+
+greenskin_ultimate_title:0 "Da Waaagh! Supreme"
+desc_greenskin_ultimate:0 "We’z got da biggest boyz, da biggest mobs, an’ da most fighty Waaagh! da world’s ever seen! Fueled by da smashiest, bashiest battles, we’z da unstoppable Greenskins, always ready fer da next krumpin’!"
 
 
 
@@ -190,24 +204,24 @@ desc_greenskin_tried_gork:0 "Da boyz got strong on da stomp of Gork! Dey punch h
  ##### Nehekharan Culture
 
 ### Access to the Sea
-gen_nekekhara_missions_1_title:0 "Command the Endless Seas"
-gen_nekekhara_missions_1_desc:0 "For centuries, our power was confined to the desert. But Nehekhara was once a seafaring empire, dominating the trade routes from the western coasts to the furthest reaches of the east. By rebuilding our ancient fleets and reclaiming the coastal cities, we shall extend our influence beyond the sands and remind the world of the indomitable will of the Tomb Kings."
+gen_nehekhara_missions_1_title:0 "Command the Endless Seas"
+gen_nehekhara_missions_1_desc:0 "For centuries, our power was confined to the desert. But Nehekhara was once a seafaring empire, dominating the trade routes from the western coasts to the furthest reaches of the east. By rebuilding our ancient fleets and reclaiming the coastal cities, we shall extend our influence beyond the sands and remind the world of the indomitable will of the Tomb Kings."
 
 ### Build Capital
-gen_nekekhara_missions_2_title:0 "Raise the Eternal Citadel"
-gen_nekekhara_missions_2_desc:0 "The City of Kings, is the heart of our empire and a monument to the might of Nehekhara. As it flourishes, so too does our kingdom. We shall construct vast palaces, towering obelisks, and sacred temples that even the gods will envy. Our capital will become a testament to our divine rule and an eternal beacon of our power."
+gen_nehekhara_missions_2_title:0 "Raise the Eternal Citadel"
+gen_nehekhara_missions_2_desc:0 "The City of Kings, is the heart of our empire and a monument to the might of Nehekhara. As it flourishes, so too does our kingdom. We shall construct vast palaces, towering obelisks, and sacred temples that even the gods will envy. Our capital will become a testament to our divine rule and an eternal beacon of our power."
 
 ### Rebuild Monument
-gen_nekekhara_missions_3_title:0 "Restore the Monuments"
-gen_nekekhara_missions_3_desc:0 "The statues and monuments that dot our lands are the legacy of the greatest pharaohs, whose deeds and glories are written in the stone itself. These structures, now fallen into ruin, must be restored to their former glory so that all who gaze upon them will remember that Nehekhara is a land of gods and kings. We must bring life back to these monuments of eternity."
+gen_nehekhara_missions_3_title:0 "Restore the Monuments"
+gen_nehekhara_missions_3_desc:0 "The statues and monuments that dot our lands are the legacy of the greatest pharaohs, whose deeds and glories are written in the stone itself. These structures, now fallen into ruin, must be restored to their former glory so that all who gaze upon them will remember that Nehekhara is a land of gods and kings. We must bring life back to these monuments of eternity."
 
 ### Retake Symbols of Power
-gen_nekekhara_missions_4_title:0 "Reclaim the Royal Sites"
-gen_nekekhara_missions_4_desc:0 "The sacred sites of Nehekhara are scattered and desecrated by unworthy hands. The Valley of Kings, the Tomb of Settra the Imperishable, and the Great Sphinx of Numasis must be returned to us. These symbols of power are a reminder that Nehekhara was, and always shall be, the realm of undying kings. We will take back what is rightfully ours and restore our dominion over the land of the dead."
+gen_nehekhara_missions_4_title:0 "Reclaim the Royal Sites"
+gen_nehekhara_missions_4_desc:0 "The sacred sites of Nehekhara are scattered and desecrated by unworthy hands. The Valley of Kings, the Tomb of Settra the Imperishable, and the Great Sphinx of Numasis must be returned to us. These symbols of power are a reminder that Nehekhara was, and always shall be, the realm of undying kings. We will take back what is rightfully ours and restore our dominion over the land of the dead."
 
 ### Reclaim Nehekhara
-gen_nekekhara_missions_5_title:0 "The Eternal Dominion"
-gen_nekekhara_missions_5_desc:0 "The time has come to reassert our ancient claim over the lands of Nehekhara. The other kingdoms have faded to dust, and we alone remain to carry forward the legacy of the gods. We shall ride forth with an army of the undying and drive out any who dare to oppose us. Our dominion shall extend from the desert sands to the farthest reaches of the world, for we are the rightful heirs of Nehekhara."
+gen_nehekhara_missions_5_title:0 "The Eternal Dominion"
+gen_nehekhara_missions_5_desc:0 "The time has come to reassert our ancient claim over the lands of Nehekhara. The other kingdoms have faded to dust, and we alone remain to carry forward the legacy of the gods. We shall ride forth with an army of the undying and drive out any who dare to oppose us. Our dominion shall extend from the desert sands to the farthest reaches of the world, for we are the rightful heirs of Nehekhara."
 
 ### Please the Mortuary Cults
 gen_nehekharan_pantheon_missions_1_title:0 "Appease the Mortuary Cults"
@@ -245,6 +259,13 @@ gen_nehekharan_please_nobility_desc:0 "The noble dynasties of Nehekhara hold muc
 ### Perfect the Ritual
 gen_nehekharan_craft_new_ritual_title:0 "Perfect the Ritual"
 gen_nehekharan_craft_new_ritual_desc:0 "We have learned much for the first casting of the ritual. By perfecting it, we can draw upon this energy to empower ourselves beyond mortality. This ritual will transform us, granting dominion over both the living and the dead, and ensuring that Nehekhara’s power shall never fade from this world."
+
+
+gen_nehekhara_ultimate_mission_title:0 "Nehekhara Reborn"
+gen_nehekhara_ultimate_mission_desc:0 "Our ancient monuments stand tall, restored to their former glory. Our ancestral works all bear testament to our eternal reign. With their power bound to us, we have achieved what our ancestors could only dream of—a true dominion over life and death itself."
+
+nehekhara_ultimate_reward:0 "Legacy of the Kings"
+desc_nehekhara_ultimate_reward:0 "With the ancient wonders of Nehekhara restored, our dynasty commands unrivaled respect across the land. Our power is unquestioned, our glory eternal, and our right to rule uncontested."
 
 
 

@@ -5,21 +5,23 @@ Ultimate misison that requires the finishing 5 others?
 
 Adjust opening text for cultures and religions
 
-Fix crashing bug!
-
 Prevent defender from taking land in racial raiding.
 
 Add offer domination diplomatic action
 
-Make the smash and grab decision automatic if in a raiding war? Or always automatic?
-	For bigger cities, can take more? Maybe like an additional dev for each 10
-	Make it a toggle decision with a flag - raid everybody, or don't raid everybody. 
+Make raid a toggle decision with a flag - raid everybody, or don't raid everybody. 
 
 get rid of the "You're old" events
 
 Fix province names in Southlands
 
 Add monuments to badlands
+
+Final Pie in the Sky mission for everybody
+	Araby - all of the great powers are one faith
+	Orc - controls the empire capital, Cathay capital, khemti capital, and Karan a karak
+	Nehekhara - has all the monuments at level 3
+	Dwarves - Own all Gold Provinces or a set number
 
 
 Focus on Nehekara to start
@@ -36,28 +38,27 @@ Focus on Nehekara to start
 
 Orcs
 	Need to stay at war at all times
-	Gork & Mork Scales
 	Missions
 		A certain number of subterranean provinces
 		Raid the emperor
 		Mission choice at the end to improve professionalism or army tradition?
 		Raid each major capital: Karak, Khemri, Cathay, Empire
-	Give orcs Prussian militarization of state?
+	Give orcs Prussian militarization of state?- Fix this
+	Fix Orc Piety
 	Adjust starting vision
-	Decisions to give up gold, increase siege ability, and move towards Mork
-	Decision to give up manpower, increase shock, move towards Gork
 	5 pulse events to move towards mork or gork
-	Decisions:
-		Encourage infighting: raise rebel army for gork
-		Party for mork: pay money
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold?
+
+Dwarves
+	Like the orcs with different tiers of pillaging, the dwarves with different tiers of income.
 
 Cathay
 	Very low crownland
 	Estate prevents taking land outside tech group?
 	Mandate
 	Karma system - bigger maluses (diplo rep?) for not being karmically aligned
+
 
 Change a lot of the "own" requirements to own or subject own
 
