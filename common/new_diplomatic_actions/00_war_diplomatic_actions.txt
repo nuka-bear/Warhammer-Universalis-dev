@@ -149,32 +149,33 @@ offer_dominion_action = {
 	is_visible = {
 		FROM = {
 			NOT = { is_subject = yes}
+			NOT = { num_of_subjects = 1 }
+			technology_group = ROOT
 		}
 	}
 
 	is_allowed = {
-
+		
+		ROOT = { total_development = FROM }
+		FROM = { alliance_with = ROOT }
 		FROM = {
-			alliance_with = ROOT
-			NOT = { total_development = ROOT }
-
 			has_opinion = {
 				who = ROOT
-				value = 190
+				value = 100
 			}
-
+		}
+		FROM = {
 			owes_favors = { 
     	    	who = ROOT 
-         		value = 100 
+         		value = 90
 			}
 		
 			trust = {
 				who = ROOT
 				value = 90
 			}
-			is_at_war = no
 		}
-
+		FROM = { is_at_war = no }
 		ROOT = { is_at_war = no }
 
 	}
@@ -195,6 +196,13 @@ offer_dominion_action = {
         }
 
 		add_entry = {
+			name = IN_HRE_OFFER
+			limit = { FROM = { is_part_of_hre = yes } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -30 }
+		}
+
+		add_entry = {
 			name = TOO_BIG_OFFER
 			limit = { FROM = { total_development = ROOT } }
 			export_to_variable = { variable_name = ai_value value = 1 }
@@ -202,24 +210,17 @@ offer_dominion_action = {
 		}
 
 		add_entry = {
-			name = NOT_SAME_TECH_GROUP
-			limit = { NOT = { FROM = { technology_group = ROOT } } }
+			name = OFFER_DIF_CULTURE
+			limit = { NOT = { FROM = { primary_culture = ROOT } } }
 			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = -1000 }
+			multiply_variable = { which = ai_value value = -15 }
 		}
 
 		add_entry = {
-			name = OFFER_SAME_CULTURE
-			limit = { FROM = { primary_culture = ROOT } }
+			name = OFFER_DIF_RELIGION
+			limit = { NOT = { FROM = { religion = ROOT } } }
 			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = 5 }
-		}
-
-		add_entry = {
-			name = OFFER_SAME_RELIGION
-			limit = { FROM = { religion = ROOT } }
-			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = 5 }
+			multiply_variable = { which = ai_value value = -15 }
 		}
 
 		add_entry = {
@@ -262,7 +263,7 @@ offer_dominion_action = {
 			#4 dev = -1
 			multiply_variable = {
 				which = ai_value
-				value = -0.10
+				value = -0.15
 			}
 		}
 		add_entry = {

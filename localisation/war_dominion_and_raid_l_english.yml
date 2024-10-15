@@ -45,8 +45,8 @@ offer_dominion_action_desc: "Offer to take a nation of your race under your wing
 offer_dominion_action_tooltip: "Offer to take a nation of your race under your wing as a semi-independent dominion. Dominions can take many independent actions, but are tied to their overlord. Dominions can be demoted into vassals over time."
 
 
-
+IN_HRE_OFFER:0 "Part of the empire"
 NOT_SAME_TECH_GROUP:0 "Not in the same technology group"
-OFFER_SAME_CULTURE:0 "Same primary culture"
-OFFER_SAME_RELIGION:0 "Same religion"
+OFFER_DIF_CULTURE:0 "Different primary culture"
+OFFER_DIF_RELIGION:0 "Different religion"
 TOO_BIG_OFFER:0 "They are bigger than we are!"
