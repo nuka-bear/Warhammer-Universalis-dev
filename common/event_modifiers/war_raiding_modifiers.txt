@@ -1,3 +1,8 @@
 recently_raided = {
 	province_warscore_cost = 2.0
 }
+
+lets_raid_modifier = {
+	loot_amount = 0.50
+}
+

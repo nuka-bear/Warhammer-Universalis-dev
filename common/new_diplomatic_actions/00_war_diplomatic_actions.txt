@@ -253,6 +253,34 @@ offer_dominion_action = {
 				value = 5
 			}
 		}
+
+		add_entry = {
+			name = OUR_PRESTIGE_OFFER
+			export_to_variable = {
+				variable_name = ai_value
+				value = prestige
+			}
+			multiply_variable = {
+				which = ai_value
+				value = 0.25
+			}
+		}
+
+		add_entry = {
+			name = THEIR_PRESTIGE_OFFER
+			export_to_variable = {
+				variable_name = ai_value
+				value = prestige
+				who = FROM
+			}
+			multiply_variable = {
+				which = ai_value
+				value = -0.25
+			}
+		}
+
+
+
 		add_entry = {
 			name = AI_TOTAL_DEVELOPMENT
 			export_to_variable = {
