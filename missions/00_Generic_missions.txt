@@ -324,15 +324,15 @@ diplomatic_missions = {
 		trigger = {
 			estate_loyalty = {
     			estate = estate_burghers
-    			loyalty = 65
+    			loyalty = 60
 			}
 			estate_loyalty = {
     			estate = estate_church
-    			loyalty = 65
+    			loyalty = 60
 			}
 			estate_loyalty = {
     			estate = estate_nobility
-    			loyalty = 65
+    			loyalty = 60
 			}
 
 		}
@@ -350,8 +350,11 @@ diplomatic_missions = {
 		required_missions = { gen_happy_estates }
 		trigger = {
 
+			prestige = 99
+			legitimacy_equivalent = 99
+			NOT = { unrest = 0 }
 			all_neighbor_country = {
-				NOT = { tech_difference = -3 }
+				NOT = { tech_difference = -1 }
 			}
 
 		}

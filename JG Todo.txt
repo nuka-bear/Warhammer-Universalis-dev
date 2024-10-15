@@ -17,11 +17,19 @@ Fix province names in Southlands
 
 Add monuments to badlands
 
-Final Pie in the Sky mission for everybody
-	Araby - all of the great powers are one faith
-	Orc - controls the empire capital, Cathay capital, khemti capital, and Karan a karak
-	Nehekhara - has all the monuments at level 3
-	Dwarves - Own all Gold Provinces or a set number
+Some way to get racial administration to benefit/harm based on terrain type? Look at hydroponic empire.
+
+Dwarves
+	Dwarves
+		Like the orcs with different tiers of pillaging, the dwarves with different tiers of income.
+		Also fortify
+	Ancestor:
+		Kill enemies
+		Drive orcs and skaven out of subterranean areas.
+		Dwarves control strongholds
+		Ally with other dwarves & humans
+
+	Pie in sky: Control X gold and copper provinces
 
 
 Focus on Nehekara to start
@@ -50,8 +58,6 @@ Orcs
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold?
 
-Dwarves
-	Like the orcs with different tiers of pillaging, the dwarves with different tiers of income.
 
 Cathay
 	Very low crownland

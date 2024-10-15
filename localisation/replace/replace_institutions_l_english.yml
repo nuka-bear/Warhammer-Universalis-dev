@@ -117,3 +117,38 @@
  desc_rapid_collapse_of_society:0 "Epidemics resulting from first contact with a Old World power are ravaging our country. An ever-increasing number of dead and sick is causing a rapid collapse of order, discipline and the overall organization of our state."
  rapid_collapse_of_society_tooltip:0 "Old world Diseases have struck [Root.GetName] less than 25 years ago."
 
+
+##### Allow for better spread
+
+ tooltip_has_paper:0 "Province has paper"
+ tooltip_has_paper_and_15:0 "Province has paper and 15 Development"
+ tooltip_has_paper_and_25:0 "Province has paper and 25 Development"
+ tooltip_has_paper_and_30:0 "Province has paper and 30 Development"
+ tooltip_special_goods_development_20:0 "Province has 20 Development and one of the following luxury goods - silk, sugar, incense, paper, gems, glass, gold, chinaware, cocoa, or wine"
+ tooltip_special_goods_development_25:0 "Province has 25 Development and one of the following luxury goods - silk, sugar, incense, paper, gems, glass, gold, chinaware, cocoa, or wine"
+ tooltip_special_goods_development_30:0 "Province has 30 Development and one of the following luxury goods - silk, sugar, incense, paper, gems, glass, gold, chinaware, cocoa, or wine"
+ tooltip_has_1_vassal:0 "Has at least one vassal or march"
+ tooltip_has_2_vassal:0 "Has at least two vassals or marches"
+ tooltip_has_3_vassal:0 "Has at least three vassals or marches"
+ tooltip_has_exploration_ideas:0 "Capital of nation with an explorer or a colonist."
+
+ nontribal_dev_15:0 "Non-Tribal Capital with a development of at least 15"
+ nontribal_dev_20:0 "Non-Tribal Capital with a development of at least 20"
+ nontribal_dev_30:0 "Non-Tribal Capital with a development of at least 30"
+
+  tooltip_development_10:0 "10 Development province"
+ tooltip_development_20:0 "20 Development province"
+ tooltip_development_30:0 "30 Development province"
+ tooltip_development_40:0 "40 Development province"
+ tooltip_development_20_capital:0 "20 Development capital"
+ tooltip_development_5_post_1500:0 "5 Development province - post 1500"
+ 
+ tooltip_nearby_center_of_trade_1:0 "Level 1 or higher center of trade in the same region as origin"
+ tooltip_nearby_center_of_trade_2:0 "Level 2 or higher center of trade in the same superregion as origin"
+
+ tooltip_special_goods_development_15_good_owner:0 "Province has 15 Development, at least a 5/5/5 ruler, and one of the following luxury goods - silk, sugar, incense, paper, gems, glass, gold, chinaware, cocoa, or wine"
+ tooltip_has_paper_and_20_good_owner:0 "Province has paper, 30 Development, and a ruler with 6 Admin."
+
+
+
+

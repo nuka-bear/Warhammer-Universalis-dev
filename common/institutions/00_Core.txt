@@ -174,6 +174,60 @@ feudalism = {
 				}
 			}
 		}
+
+
+### Start Adjustment
+
+		modifier = {
+			factor = 0.03
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_1_vassal
+				is_capital = yes
+				owner = {
+					vassal = 1
+					
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0.1
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_2_vassal
+				is_capital = yes
+				owner = {
+					vassal = 2
+					
+				}
+			}
+		}
+
+		modifier = {
+			factor = 1.0
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_3_vassal
+				is_capital = yes
+				owner = {
+					vassal = 3
+					
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0.02
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_30
+				development = 30
+			}
+		}
+
+#### End adjustment
+
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
@@ -387,6 +441,75 @@ renaissance = {
 				}
 			}
 		}
+
+
+### Start Adjustment
+
+
+		modifier = {
+			factor = 0.02
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_special_goods_development_20
+				development = 20
+				OR = {
+					trade_goods = paper
+					trade_goods = gems
+					trade_goods = glass
+					trade_goods = chinaware
+					trade_goods = gold
+					trade_goods = silk
+					trade_goods = incense
+					trade_goods = wine
+					trade_goods = cocoa
+					trade_goods = sugar
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0.02
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_30
+				development = 30
+			}
+		}
+
+
+		modifier = {
+			factor = 0.1
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_special_goods_development_15_good_owner
+				development = 15
+				OR = {
+					trade_goods = paper
+					trade_goods = gems
+					trade_goods = glass
+					trade_goods = chinaware
+					trade_goods = gold
+					trade_goods = silk
+					trade_goods = incense
+					trade_goods = wine
+					trade_goods = cocoa
+					trade_goods = sugar
+				}
+				owner = {
+					ADM = 5
+					MIL = 5
+					DIP = 5
+				}
+			}
+		}
+
+### End Adjustment
+
+
+
+
+
+
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
@@ -490,7 +613,6 @@ new_world_i = {
 					new_world_i = 100
 				}
 			}
-			
 		}
 		
 		modifier = {
@@ -586,6 +708,24 @@ new_world_i = {
 				}
 			}
 		}
+
+### Start Adjustment
+
+		modifier = {
+			factor = 0.8
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_exploration_ideas
+				is_capital = yes
+				owner = {
+					num_of_colonists = 1
+					num_of_explorers = 1
+				}
+			}
+		}
+
+### End Adjustment
+
+
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
@@ -862,6 +1002,47 @@ printing_press = {
 				}
 			}
 		}
+
+### Start Adjustment
+
+
+		modifier = {
+			factor = 0.02
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_paper_and_20
+				trade_goods = paper
+				development = 20
+			}
+		}
+
+
+
+		modifier = {
+			factor = 0.03
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_paper_and_30
+				trade_goods = paper
+				development = 30
+			}
+		}
+
+
+		modifier = {
+			factor = 0.1
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_paper_and_20_good_owner
+				trade_goods = paper
+				development = 20
+
+				owner = {
+					ADM = 6
+				}
+			}
+		}
+
+### End Adjustment
+
+
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
