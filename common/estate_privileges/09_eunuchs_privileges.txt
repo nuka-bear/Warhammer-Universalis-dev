@@ -38,39 +38,39 @@ estate_eunuchs_bookkeepers_privilege = {
 	}
 }
 
-estate_eunuchs_outwards_perfection_privilege = {
-	icon = estate_eunuchs_outwards_perfection_privilege
-	max_absolutism = 5
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	is_valid = {
-		OR = { 
-			has_country_flag = mng_outward_perfection_flag 
-			has_estate_privilege = estate_eunuchs_outwards_perfection_privilege 
-		}
-	}
-	can_select = { 
-		NOT = { has_estate_privilege = estate_church_inwards_perfection }
-	}
-	on_granted = {
-		if = { 
-			limit = { has_estate_privilege = estate_church_inwards_perfection }
-			remove_estate_privilege = estate_church_inwards_perfection 
-		}
-	}
-	influence = 0.05
-	loyalty = 0
-	benefits = { 
-		war_exhaustion = -0.03
-		army_tradition = 0.5
-		core_creation = -0.1
-	}
-	penalties = {
-	}
+# estate_eunuchs_outwards_perfection_privilege = {
+# 	icon = estate_eunuchs_outwards_perfection_privilege
+# 	max_absolutism = 5
+# 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+# 	is_valid = {
+# 		OR = { 
+# 			has_country_flag = mng_outward_perfection_flag 
+# 			has_estate_privilege = estate_eunuchs_outwards_perfection_privilege 
+# 		}
+# 	}
+# 	can_select = { 
+# 		NOT = { has_estate_privilege = estate_church_inwards_perfection }
+# 	}
+# 	on_granted = {
+# 		if = { 
+# 			limit = { has_estate_privilege = estate_church_inwards_perfection }
+# 			remove_estate_privilege = estate_church_inwards_perfection 
+# 		}
+# 	}
+# 	influence = 0.05
+# 	loyalty = 0
+# 	benefits = { 
+# 		war_exhaustion = -0.03
+# 		army_tradition = 0.5
+# 		core_creation = -0.1
+# 	}
+# 	penalties = {
+# 	}
 	
-	ai_will_do = {
-		factor = 5
-	}
-}
+# 	ai_will_do = {
+# 		factor = 5
+# 	}
+# }
 
 estate_eunuchs_palace_bureaucracy_privilege = {
 	icon = estate_eunuchs_palace_bureaucracy_privilege

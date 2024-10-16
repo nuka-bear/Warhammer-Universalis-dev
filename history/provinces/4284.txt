@@ -3,5 +3,5 @@ base_manpower = 3
 base_production = 3
 trade_goods = unknown
 religion = animism
-
 culture = feral_lizardmen
+is_city = no

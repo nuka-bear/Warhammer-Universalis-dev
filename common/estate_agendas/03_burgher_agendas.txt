@@ -2407,7 +2407,7 @@ estate_burghers_spice_trade = {
 		any_owned_province = {
 			OR = {
 				superregion = ind_superregion
-				trade_company_region = trade_company_indonesia
+			#	trade_company_region = trade_company_indonesia
 			}
 		}
 		NOT = { spices = 3 }

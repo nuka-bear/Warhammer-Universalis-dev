@@ -55,6 +55,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2933;4243;sea;1506;-1;-1;-1;-1;cathay
 3000;4243;sea;1506;-1;-1;-1;-1;cathay
 2938;2872;sea;1506;-1;-1;-1;-1;grand canal
+4158;4841;sea;1681;-1;-1;-1;-1;Lizard Sea
+4846;4866;sea;1783;-1;-1;-1;-1;Lizard Sea
+4855;4847;sea;1783;-1;-1;-1;-1;Lizard Sea
+4264;4839;sea;1783;-1;-1;-1;-1;Lizard Sea
+4856;4839;sea;1783;-1;-1;-1;-1;Lizard Sea
+4263;4849;sea;1681;-1;-1;-1;-1;Lizard Sea
 1284;1326;canal;804;-1;-1;-1;-1;uzkulak_canal
 4445;4435;;-1;-1;-1;-1;-1;death's crossing
+1111;1221;sea;1373;-1;-1;-1;-1;Nagash Crossing
 -1;-1;-1;-1;-1;-1;-1;-1;-1

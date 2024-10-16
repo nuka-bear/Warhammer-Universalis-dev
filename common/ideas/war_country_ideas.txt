@@ -2028,3 +2028,48 @@ Z01_ideas = {
 		leader_land_shock = 1
 	}
 }
+
+####################
+########Dragon Isles
+####################
+
+I44_ideas = {
+	start = {
+		infantry_power = 0.1
+		land_morale = 0.1
+	}
+
+	bonus = {
+		leader_land_fire = 1
+	}
+	
+	trigger = {
+		tag = I44
+	}
+	free = yes		#will be added at load.
+	
+	I44_idea_1 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	I44_idea_2 = {
+		province_warscore_cost = -0.1
+		core_creation = -0.1
+	}
+	I44_idea_3 = {
+		leader_land_shock = 1
+	}
+	I44_idea_4 = {
+		leader_siege = 1
+	}
+	I44_idea_5 = {
+		fire_damage = 0.1
+	}
+	I44_idea_6 = {
+		technology_cost = -0.05
+	}
+	I44_idea_7 = {
+		global_manpower_modifier = 0.2
+	}
+}
+
+

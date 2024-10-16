@@ -1,16 +1,13 @@
 base_tax = 3
-base_manpower = 3
-base_production = 2
-trade_goods = unknown
-religion = animism
-
-
-
-culture = feral_lizardmen
-native_size = 5
-native_ferocity = 7
-native_hostileness = 10
-
-
-
-
+base_manpower = 5
+base_production = 5
+trade_goods = old_ones_relics
+religion = enlightened_path
+culture = dragon_isles_lizardmen
+is_city = yes
+owner = I49
+controller = I49
+is_city = yes
+center_of_trade = 2
+add_core = I49
+fort_15th = yes

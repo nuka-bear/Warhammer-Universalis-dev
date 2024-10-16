@@ -1,0 +1,7 @@
+base_tax = 5
+base_manpower = 5
+base_production = 5
+trade_goods = unknown
+religion = NoReligion
+is_city = no
+center_of_trade = 2
