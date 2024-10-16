@@ -1,0 +1,63 @@
+
+### Dwarves
+
+
+gen_dwarf_metals_bonus = {
+	shock_damage = 0.05	
+}
+
+gen_dwarf_luxury_bonus = {
+	global_unrest = -1
+}
+
+gen_dwarf_fort_network = {
+	fort_maintenance_modifier = -0.25
+	rival_border_fort_maintenance = -0.25
+}
+
+gen_dwarf_ultimate = {
+	production_efficiency = 0.20
+	development_cost = -0.2
+	inflation_reduction = -0.2
+	gold_depletion_chance_modifier = -0.5
+	global_trade_goods_size_modifier = 0.2
+}
+
+
+### Ancestor Gods
+
+ancestor_grungni_blessing = {
+	fire_damage = 0.05
+}
+
+ancestor_valaya_blessing = {
+	recover_army_morale_speed = 0.10
+}
+
+ancestor_grimnir_blessing = {
+	infantry_power = 0.05
+}
+
+ancestor_morgrim_blessing = {
+	max_general_maneuver = 1
+	leader_land_manuever = 1
+}
+
+
+ancestor_smednir_blessing = {
+	artillery_cost = -0.10
+}
+
+ancestor_thungi_blessing = {
+	artillery_power = 0.05		
+}
+
+ancestor_united_pantheon = {
+	tolerance_own = 2
+	missionaries = 1
+	global_missionary_strength = 0.02
+}
+
+
+
+### Hashut

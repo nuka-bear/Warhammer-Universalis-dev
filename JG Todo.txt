@@ -1,13 +1,13 @@
 
 JG To Do & Thoughts
 
+Common missions: https://eu4.paradoxwikis.com/List_of_common_mission_triggers
+
 Adjust opening text for cultures and religions
 
 get rid of the "You're old" events
 
 Fix province names in Southlands
-
-Add monuments to badlands
 
 Some way to get racial administration to benefit/harm based on terrain type? Look at hydroponic empire.
 

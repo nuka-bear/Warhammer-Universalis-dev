@@ -286,9 +286,10 @@ on_siege_won_province = {
 		limit = {
 			controller = {
 				has_country_modifier = lets_raid_modifier
-				NOT = { technology_group = FROM }	
+				NOT = { technology_group = FROM }
 			}
 			NOT = { has_province_modifier = recently_raided }
+			NOT = { has_influencing_fort = yes }
 		}
 
 		if = {

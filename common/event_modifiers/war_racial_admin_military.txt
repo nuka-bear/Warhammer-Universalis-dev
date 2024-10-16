@@ -30,6 +30,7 @@ orcish_military = {
 	global_manpower_modifier = 0.2
 	army_tradition_from_battle = 0.5
 	land_morale = 0.10
+	land_forcelimit_modifier = 0.25
 
 	#Negatives
 	yearly_army_professionalism = -0.5

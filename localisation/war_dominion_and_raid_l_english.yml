@@ -35,7 +35,7 @@
   lets_not_raid_decision_desc:0 "Our raids have been an effective boon to our economy, and significantly weakened our enemies, but now is the time for conquest."
 
 lets_raid_modifier:0 "Raiding Enemy Races"
-lets_raid_modifier_desc:0 "We are raiding sieged provinces that are not within our tech group. This will provide an immediate boon to the economy and damage the provinces, but make them more expensive to take in peace deals. Raided territories lose one of each development point, and you gain 25 gold for each development point lost."
+lets_raid_modifier_desc:0 "We are raiding sieged provinces that are not within our tech group. This will provide an immediate boon to the economy and damage the provinces, but make them more expensive to take in peace deals. Raided territories lose one of each development point, and you gain 25 gold for each development point lost. Nearby forts protect provinces from raiding."
 
 
 

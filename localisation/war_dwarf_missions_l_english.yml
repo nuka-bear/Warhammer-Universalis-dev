@@ -1,0 +1,89 @@
+﻿l_english:
+
+
+#### DWARF AND CHAOS DWARF
+
+gen_dwarf_metals_bonus:0 "Mastery of Metals"
+gen_dwarf_metals_bonus_desc:0 "With the blessing of the Ancestor Gods, our metalworkers craft weapons and armor of unparalleled strength. The very shock of our strikes is now enhanced by the ancient techniques passed down through our forefathers."
+
+gen_dwarf_luxury_bonus:0 "The Wealth of the Dawi"
+gen_dwarf_luxury_bonus_desc:0 "Gold, gems, and the finest brews flow through our halls, bringing contentment and calm. Our wealth keeps unrest at bay, as each dwarf sees their kin well-fed and prosperous."
+
+gen_dwarf_fort_network:0 "Mountain Bastions"
+gen_dwarf_fort_network_desc:0 "Our fortresses stand as eternal sentinels along the mountain paths, each a bastion of stone. By expanding and fortifying our strongholds, we shall make our borders impenetrable."
+
+gen_dwarf_ultimate:0 "The Peak of Dwarven Prosperity"
+gen_dwarf_ultimate_desc:0 "Our resources are boundless, and our craftsmanship unmatched. With control over precious metals and gems, we drive both our economy and our traditions, ensuring our holds remain secure and our coffers ever full."
+
+#### Ancestor Gods
+
+ancestor_grungni_blessing:0 "Blessing of Grungni"
+ancestor_grungni_blessing_desc:0 "Grungni, the Great Smith, lends his strength to our forges and our weapons, bringing fire and destruction upon those who stand against the Dawi."
+
+ancestor_valaya_blessing:0 "Valaya's Embrace"
+ancestor_valaya_blessing_desc:0 "Valaya, our revered protector, grants our warriors resilience in the field. With her blessing, they recover from hardship swiftly, ready to defend our kin once more."
+
+ancestor_grimnir_blessing:0 "Grimnir's Vengeance"
+ancestor_grimnir_blessing_desc:0 "Grimnir, the bold and indomitable, grants his blessing to our warriors. With his strength, our infantry surges forward with unbreakable might."
+
+ancestor_morgrim_blessing:0 "Morgrim's Tactical Insight"
+ancestor_morgrim_blessing_desc:0 "Morgrim, the god of war and strategy, sharpens the minds of our generals. His insight brings precision to our battlefield movements, ensuring our warriors strike true."
+
+ancestor_smednir_blessing:0 "Smednir's Forge"
+ancestor_smednir_blessing_desc:0 "Smednir, master of metalwork, blesses our artillery. With his craftsmanship, the costs of our war machines are reduced, allowing our armies to march with greater firepower."
+
+ancestor_thungi_blessing:0 "Thungni’s Runes of Power"
+ancestor_thungi_blessing_desc:0 "Thungni, the god of runesmithing, strengthens our artillery with runes of power. With his guidance, our war engines strike with greater force."
+
+ancestor_united_pantheon:0 "United Pantheon of the Ancestors"
+ancestor_united_pantheon_desc:0 "The full blessings of the Ancestor Gods are upon us, granting strength and zeal to our kin. With their favor, our hold grows in spiritual might, and our faith shall never waver."
+
+
+gen_dwarf_please_nobility_title:0 "Please the Clans"
+gen_dwarf_please_nobility_desc:0 "The loyalty of the noble clans is essential to the security and prosperity of our hold. We must gain their favor to earn their trust and bring forth a mighty general to lead our armies."
+
+gen_dwarf_fortify_title:0 "Fortify the Strongholds"
+gen_dwarf_fortify_desc:0 "To protect our holds from external threats, we must reinforce our fortifications. By strengthening our defenses, we shall ensure that no enemy sets foot in our sacred halls."
+
+gen_dwarf_metals_title:0 "Metals of the Earth"
+gen_dwarf_metals_desc:0 "Our ancestors crafted the finest weapons and armor with the resources of the mountains. We must claim all sources of copper and iron to restore the glory of Dawi craftsmanship and defend our hold against all who dare challenge us."
+
+gen_dwarf_gold_beer_gems_title:0 "Wealth of the Mountains"
+gen_dwarf_gold_beer_gems_desc:0 "Our holds are renowned for their wealth, whether from gold, precious gems, or the finest ale. We must secure these resources, for they are the lifeblood of Dawi prosperity and the envy of lesser races."
+
+gen_dwarf_make_money_1_title:0 "Grow the Trade Halls"
+gen_dwarf_make_money_1_desc:0 "Our income grows with each passing year. It is time to expand our influence in the trade halls, establishing ourselves as a center of commerce."
+
+gen_dwarf_make_money_2_title:0 "Prosperity of the Holds"
+gen_dwarf_make_money_2_desc:0 "As our wealth grows, so too does the prestige of our hold. We must elevate our trade halls to rival those of the Old World."
+
+gen_dwarf_make_money_3_title:0 "Mastery of Trade"
+gen_dwarf_make_money_3_desc:0 "With our wealth secured, we stand as masters of trade and prosperity. Let us cement our position by ensuring our hold becomes a beacon of Dawi industry and commerce."
+
+gen_dwarf_ultimate_mission_title:0 "Ultimate Dwarven Glory"
+gen_dwarf_ultimate_mission_desc:0 "Our ancestors would look upon our wealth and craftsmanship with pride. With vast resources under our command, we shall bring about the greatest age of prosperity our hold has ever seen."
+
+claim_all_metals_tooltip:0 "Gain a permanent +5% bonus to shock damage, as well as a permanent claim on all copper and iron deposits"
+claim_all_luxury_goods_tooltip:0 "Gain a permanent -1 bonus to unrest, as well as a permanent claim on all gems, gold, and beer provinces."
+
+gen_ancestor_grungni_title:0 "Honor Grungni"
+gen_ancestor_grungni_desc:0 "To honor Grungni, the great ancestor of smithing, we must show our skill in forging weapons. Let the fires of the forge burn bright and our enemies tremble before our might."
+
+gen_ancestor_valaya_title:0 "Revere Valaya"
+gen_ancestor_valaya_desc:0 "In honor of Valaya, goddess of hearth and healing, we shall tend to the lands that sustain us. May our fields be bountiful and our warriors blessed under her watchful gaze."
+
+gen_ancestor_grimnir_title:0 "Seek Grimnir's Blessing"
+gen_ancestor_grimnir_desc:0 "Grimnir, patron of warriors, demands strength and valor. Let us prove our worth in battle and carry forth his spirit of vengeance and honor."
+
+gen_ancestor_mogrim_title:0 "Call upon Morgrim"
+gen_ancestor_mogrim_desc:0 "Morgrim, ally of Grimnir and master tactician, guides our battle strategies. We shall reinforce our defenses and bring precision to our military maneuvers."
+
+gen_ancestor_smednir_title:0 "Appease Smednir"
+gen_ancestor_smednir_desc:0 "Smednir, master of metallurgy, demands that we perfect the art of forging. Through his guidance, our forges shall craft the finest weapons and armor known to the Dawi."
+
+gen_ancestor_thungni_title:0 "Worship Thungni"
+gen_ancestor_thungni_desc:0 "Thungni, keeper of the runes, bestows upon us the ancient knowledge of runic magic. We shall seek his wisdom to enhance our craft and prepare our defenses."
+
+gen_ancestor_pantheon_title:0 "Unite the Pantheon"
+gen_ancestor_pantheon_desc:0 "With the blessings of all the Ancestor Gods, our hold shall rise to new heights. May the united favor of the Ancestors secure our hold and inspire our kin for generations to come."
+

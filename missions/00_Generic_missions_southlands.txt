@@ -337,7 +337,10 @@ gen_greenskin_missions = {
 	generic = yes
 	ai = yes
 	potential = {
-		culture_group = greenskins_group
+		OR = {
+			culture_group = greenskins_group
+			culture_group = hobgoblin_group
+		}
 	}
 
 	gen_greenskin_please_nobility = { 

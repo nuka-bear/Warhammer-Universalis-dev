@@ -654,6 +654,7 @@ dawi_denominations = {
 		heretic = {
 			ANCESTOR_GODS_HERETICS
 		}
+		ancestors = yes
 	}
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_dwarf

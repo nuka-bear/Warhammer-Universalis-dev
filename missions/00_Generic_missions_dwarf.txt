@@ -1,0 +1,422 @@
+##### Dwarf Culture, Chaos Dwarf Culture
+#### Ancestor Gods, Hashut
+
+
+##################################
+##### DWARF CULTURE GROUP
+##################################
+
+
+
+gen_dwarf_missions = {
+	slot = 1
+	generic = yes
+	ai = yes
+	potential = {
+		OR = {
+			culture_group = dwarf_group
+			culture_group = chaos_dwarf_group
+		}
+	}
+
+	gen_dwarf_please_nobility = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			estate_loyalty = {
+			    estate = estate_nobles
+			    loyalty = 70
+			}
+		}
+
+		effect = {
+			define_general = {
+			    shock = 5
+			    fire = 6
+			    manuever = 2
+			    siege = 6
+			}
+		}
+	}
+
+	gen_dwarf_fortify = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_dwarf_please_nobility } 
+		trigger = {
+			num_of_owned_provinces_with = {
+				fort_level = 2
+				value = 4
+			}
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = gen_dwarf_fort_network
+				duration = -1
+			}
+		}
+	}
+
+	gen_dwarf_metals = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			copper = 1
+			iron = 2
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = gen_dwarf_metals_bonus
+				duration = -1
+			}
+
+			every_province = {
+				limit = {
+					OR = {
+						trade_goods = copper
+						trade_goods = iron
+					}
+				}
+				add_permanent_claim = ROOT
+			custom_tooltip = claim_all_metals_tooltip
+			}	
+		}
+	}
+
+	gen_dwarf_gold_beer_gems = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			gold = 1			
+			beer = 1
+			gems = 1
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = gen_dwarf_luxury_bonus
+				duration = -1
+			}
+
+			every_province = {
+				limit = {
+					OR = {
+						trade_goods = gold
+						trade_goods = beer
+						trade_goods = gems
+					}
+				}
+				add_permanent_claim = ROOT
+				custom_tooltip = claim_all_luxury_goods_tooltip
+			}
+			
+		}
+	}
+
+
+	gen_dwarf_make_money_1 = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  }
+		position = 6 
+		trigger = {
+			monthly_income = 25
+		}
+
+		effect = {
+
+			random_owned_province = {
+				limit = { NOT = { province_has_center_of_trade_of_level = 2 } }
+				center_of_trade = 1
+			}
+
+		}
+	}
+
+	gen_dwarf_make_money_2 = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_dwarf_make_money_1 } 
+		trigger = {
+			monthly_income = 50
+		}
+
+		effect = {
+
+			random_owned_province = {
+				limit = { NOT = { province_has_center_of_trade_of_level = 2 } }
+				center_of_trade = 2
+			}
+
+		}
+	}
+
+	gen_dwarf_make_money_3 = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_dwarf_make_money_2 } 
+		trigger = {
+			monthly_income = 100
+		}
+
+		effect = {
+
+			random_owned_province = {
+				limit = { NOT = { province_has_center_of_trade_of_level = 2 } }
+				center_of_trade = 3
+			}
+		}
+	}
+
+}
+
+
+gen_dwarf_ultimate_missions = {
+	slot = 3
+	generic = yes
+	ai = yes
+	potential = {
+		OR = {
+			culture_group = dwarf_group
+			culture_group = chaos_dwarf_group
+		}
+	}
+
+	gen_dwarf_ultimate_mission = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  }
+		position = 9
+		trigger = {
+			gold = 10
+			copper = 10
+			iron = 10
+			gems = 10
+			beer = 10
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = gen_dwarf_ultimate
+				duration = -1
+			}
+		}
+	}
+}
+
+
+
+
+
+##################################
+##### ANCESTOR GODS
+##################################
+
+### Change all these to either the manufactury, or provinces with trade good & expanded infrastructure
+
+
+
+gen_ancestor_missions = {
+	slot = 5
+	generic = yes
+	ai = yes
+	potential = {
+		religion_group = dawi_denominations
+	}
+
+
+### The God of Mining, Smithing, and Stone
+	gen_ancestor_grungni = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			OR = {
+				weapons = 3
+				num_of_owned_provinces_with = {
+					trade_goods = iron
+					num_of_times_expanded_infrastructure = 1
+					value = 3
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = ancestor_grungni_blessing
+				duration = -1
+			}			
+		}
+	}
+
+### Goddess of Hearth, Healing, and Protection
+	gen_ancestor_valaya = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			OR = {
+				farm_estate = 3
+				num_of_owned_provinces_with = {
+					trade_goods = beer
+					num_of_times_expanded_infrastructure = 1
+					value = 3
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = ancestor_valaya_blessing
+				duration = -1
+			}			
+		}
+	}
+
+### The God of War, Vengeance, and Honor
+	gen_ancestor_grimnir = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			OR = {
+				soldier_households = 3
+				num_of_owned_provinces_with = {
+					OR = {
+						trade_goods = grain
+						trade_goods = fungi
+					}
+					num_of_times_expanded_infrastructure = 1
+					value = 3
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = ancestor_grimnir_blessing
+				duration = -1
+			}			
+		}
+	}
+
+### Another warrior figure who aids Grimnir and is revered as a god of battle strategy and tactics.
+	gen_ancestor_mogrim = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			ramparts = 3
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = ancestor_morgrim_blessing
+				duration = -1
+			}			
+		}
+	}
+
+### Known as the god of forging and metallurgy, Smednir is sometimes mentioned as an aspect or companion of Grungni. He represents the more specialized aspects of smithing.
+	gen_ancestor_smednir = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			OR = {
+				furnace = 3
+				num_of_owned_provinces_with = {
+					OR = {
+						trade_goods = copper
+						trade_goods = gold
+					}
+					num_of_times_expanded_infrastructure = 1
+					value = 3
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = ancestor_smednir_blessing
+				duration = -1
+			}			
+		}
+	}
+
+### Thungni is the god of Runic magic and runesmithing.
+	gen_ancestor_thungni = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			OR = {
+				innovativeness = 25
+				AND = {
+					monthly_adm = 10
+					monthly_dip = 10		
+					monthly_mil = 10
+				}
+				num_of_owned_provinces_with = {
+					OR = {
+						trade_goods = warpstone
+					}
+					num_of_times_expanded_infrastructure = 1
+					value = 3
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = ancestor_thungi_blessing
+				duration = -1
+			}			
+		}
+	}
+
+	gen_ancestor_pantheon = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_ancestor_grungni gen_ancestor_valaya gen_ancestor_grimnir gen_ancestor_mogrim gen_ancestor_smednir gen_ancestor_thungni} 
+		trigger = {
+			estate_loyalty = {
+			    estate = estate_church
+			    loyalty = 70
+			}
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = ancestor_united_pantheon
+				duration = -1
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+##################################
+##### HASHUT GODS
+##################################
+
+
+## Slaves, conquest
+
+gen_hashut_missions = {
+	slot = 5
+	generic = yes
+	ai = yes
+	potential = {
+		religion = hashut
+	}
+
+	gen_hashut_please_church = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			estate_loyalty = {
+			    estate = estate_church
+			    loyalty = 70
+			}
+		}
+
+		effect = { 
+		}
+	}
+}
