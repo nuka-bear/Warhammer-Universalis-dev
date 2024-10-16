@@ -5,4 +5,4 @@ primary_culture = dragon_isles_lizardmen
 religion = enlightened_path
 technology_group = tech_di_lizardmen
 capital = 4266# Owari
-add_government_reform = daimyo
+setup_vision = yes

@@ -8,3 +8,4 @@ capital = 4857# Owari
 
 
 
+setup_vision = yes

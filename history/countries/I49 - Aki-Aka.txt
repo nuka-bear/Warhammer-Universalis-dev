@@ -5,3 +5,4 @@ religion = enlightened_path
 technology_group = tech_di_lizardmen
 capital = 4261
 add_government_reform = shogunate
+setup_vision = yes

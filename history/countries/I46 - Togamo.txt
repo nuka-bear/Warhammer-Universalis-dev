@@ -6,5 +6,6 @@ religion = enlightened_path
 technology_group = tech_di_lizardmen
 capital = 4260# Owari
 
+setup_vision = yes
 
 

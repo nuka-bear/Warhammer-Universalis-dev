@@ -76,49 +76,49 @@ setup_vision = {
 			}
 			#Discover coastal  araby
 			nehekhara_area_21 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_1 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_3 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_4 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_6 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_7 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_10 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_20_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_14 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_19 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_14 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1472 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1457 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_9 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4155 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			#Discover coastal  badlands
 			badlands_area_10 = {
@@ -143,10 +143,10 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			middle_sea_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			southern_sea_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			659 = {
 				discover_country = ROOT
@@ -280,22 +280,22 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			sea_of_chaos_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_far_wastes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_western_wastes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_chaos_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4944 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4948 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#wood elves know Athel loren
@@ -320,10 +320,10 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			699 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			death_pass_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#Albionics know Albion
@@ -337,22 +337,22 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			1203 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4347 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1267 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4233 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4225 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4226 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		else_if = {
@@ -363,7 +363,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			207 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#badland greenskins know the badlands and Borderlanders
@@ -377,7 +377,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			border_princes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#araby/Nehekhara/sudron
@@ -410,10 +410,10 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			gulf_of_medes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			plain_of_tuskers_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			bitter_sea_area = {
 				discover_country = ROOT
@@ -449,22 +449,22 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			1797 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4086 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2200 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4156 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4950 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			karak_zorn_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			#arabyans undiscover some parts of the east
 			if = {
@@ -483,19 +483,19 @@ setup_vision = {
 					undiscover_country = ROOT
 				}
 				kingdom_of_the_beasts_region = {
-					undiscover_country = root
+					undiscover_country = ROOT
 				}
 				4161 = {
-					undiscover_country = root
+					undiscover_country = ROOT
 				}
 				1067 = {
-					undiscover_country = root
+					undiscover_country = ROOT
 				}
 				1797 = {
-					undiscover_country = root
+					undiscover_country = ROOT
 				}
 				4162 = {
-					undiscover_country = root
+					undiscover_country = ROOT
 				}
 			}
 		}
@@ -510,30 +510,29 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			sea_of_chaos_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_far_wastes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_western_wastes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_chaos_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4944 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4948 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#dark lands
 		if = {
 			limit = {
 				capital_scope = {
-						superregion = darklands_superregion
-					
+					superregion = darklands_superregion
 				}
 			}
 			#Discover civilized divenhal
@@ -595,22 +594,22 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			bitter_sea_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			world_edge_mountains_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			desolation_of_nagash_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1168 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2200 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			lizard_sea_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#dark lands
@@ -621,34 +620,34 @@ setup_vision = {
 				}
 			}
 			the_western_wastes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			troll_country_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			kislev_heartlands_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_chaos_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1168 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_goromandy_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			black_blood_pass_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			hellands_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			eisgard_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			norscveg_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#ogre kingdoms
@@ -723,19 +722,19 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			chaos_wastes_6_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			chaos_wastes_2_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			chaos_wastes_5_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			chaos_wastes_15_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			ihan_region = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 		}
 		#gnoblar country
@@ -746,25 +745,25 @@ setup_vision = {
 				}
 			}
 			western_ind_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			lizard_sea_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			dragon_isles_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			bitter_sea_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			desolation_of_nagash_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1521 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1519 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#dark elves
@@ -777,52 +776,52 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			oceania = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			gulf_of_naggaroth_region = {
 				discover_country = ROOT
 			}
 			sea_of_feuds_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			western_naggaroth_coast_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			central_great_ocean_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_far_wastes_region = {
 				discover_country = ROOT
 			}
 			481 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1916 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1921 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1814 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4055 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			western_sea_of_chaos_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_serpeants = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_squalls_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			isthmus_of_lustria_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_mist_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#Naggaroth
@@ -840,37 +839,37 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			sea_of_feuds_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			western_naggaroth_coast_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			central_great_ocean_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_far_wastes_region = {
 				discover_country = ROOT
 			}
 			481 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4725 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			land_of_chill_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1916 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1921 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1814 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4055 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#uthuan/high elves
@@ -888,25 +887,25 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			oceania = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			gulf_of_naggaroth_region = {
 				discover_country = ROOT
 			}
 			sea_of_feuds_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			central_great_ocean_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			481 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4055 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			eastern_great_ocean_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			#Discover civilized realms of men
 			tilea_region = {
@@ -964,46 +963,46 @@ setup_vision = {
 			}
 			##Discover coastal  araby
 			nehekhara_area_21 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_1 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_3 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_4 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_6 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_7 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_10 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_20_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_14 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_19 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_14 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1472 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1457 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_9 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			#Discover coastal  badlands
 			badlands_area_10 = {
@@ -1028,10 +1027,10 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			middle_sea_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			southern_sea_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			659 = {
 				discover_country = ROOT
@@ -1103,47 +1102,47 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			sea_of_eltihis_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			elithis_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_14_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			south_wastes_1_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			eastern_colonies_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			dawns_light_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			citadel_of_dusk_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			#undiscvoer naggaroth
 			naggaroth_23_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			naggaroth_22_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			land_of_chill_6_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			land_of_chill_7_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			naggaroth_12_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			black_forest_1_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			land_of_chill_8_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 		}
 		#lustria
@@ -1154,13 +1153,13 @@ setup_vision = {
 				}
 			}
 			south_america = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			western_lustrian_coast_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			eastern_lustrian_coast_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#far wastes
@@ -1171,28 +1170,28 @@ setup_vision = {
 				}
 			}
 			the_far_wastes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			dark_elven_naggaroth_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_chaos_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			norsca_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_western_wastes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			gulf_of_naggaroth_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4724 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4725 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#western wastes
@@ -1203,55 +1202,55 @@ setup_vision = {
 				}
 			}
 			the_far_wastes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			great_bastion_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_chaos_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			norsca_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_western_wastes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_eastern_steppes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			wheatlands_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1168 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2952 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4944 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4948 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4945 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4946 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			hell_pit_1_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			hell_pit_2_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			hell_pit_3_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			troll_country_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#eastern steppes		
@@ -1262,49 +1261,49 @@ setup_vision = {
 				}
 			}
 			the_western_wastes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			ihan_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_eastern_steppes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			mountains_of_mourn_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			northern_cathay_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			seagrave_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2793 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2760 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2781 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2783 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1168 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1575 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1573 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2779 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4137 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#gulf of medes	
@@ -1315,31 +1314,31 @@ setup_vision = {
 				}
 			}
 			gulf_of_medes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			nehekhara_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			plain_of_tuskers_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			shark_straits_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			gulf_of_medes_sea_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sudron_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4165 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4164 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#South lands Lizardmen know surronding areas
@@ -1354,43 +1353,43 @@ setup_vision = {
 				technology_group = tech_lizardmen
 			}
 			gulf_of_medes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			new_coast_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			nehekhara_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			plain_of_tuskers_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			shark_straits_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			gulf_of_medes_sea_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sudron_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4165 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4164 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4088 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4094 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			southern_straits_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#world edge mountain region
@@ -1404,7 +1403,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			western_mountains_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4138 = {
 				discover_country = ROOT
@@ -1463,70 +1462,69 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			badlands_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			nehekhara_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			lahmia_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			desolation_of_nagash_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			plain_of_tuskers_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2200 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4163 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4086 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4162 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2471 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1067 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			699 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2316 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			bitter_sea_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			karak_eight_peaks_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4156 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			southern_wastes_10_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			southern_wastes_11_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			plain_of_bones_4_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			broken_teeth_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			plain_of_bones_3_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
-
-		}	
+		}
 		#western mountains
 		if = {
 			limit = {
@@ -1538,16 +1536,16 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			western_mountains_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			southern_old_world_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			the_empire_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			kislev_heartlands_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4160 = {
 				discover_country = ROOT
@@ -1568,10 +1566,10 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			tilea_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			border_princes_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#K8P
@@ -1582,10 +1580,10 @@ setup_vision = {
 				}
 			}
 			karak_eight_peaks_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4156 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#Skavenblight region
@@ -1599,16 +1597,16 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			estalia_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			tilea_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			world_edge_mountain_superregion = {
 				discover_country = ROOT
 			}
 			western_mountains_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4138 = {
 				discover_country = ROOT
@@ -1653,25 +1651,25 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			oceania = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			gulf_of_naggaroth_region = {
 				discover_country = ROOT
 			}
 			sea_of_feuds_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			central_great_ocean_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			481 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4055 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			eastern_great_ocean_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			#Discover civilized realms of men
 			tilea_region = {
@@ -1729,46 +1727,46 @@ setup_vision = {
 			}
 			##Discover coastal  araby
 			nehekhara_area_21 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_1 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_3 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_4 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_6 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_7 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_10 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_20_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_14 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_19 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_14 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1472 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1457 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			araby_area_9 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			#Discover coastal  badlands
 			badlands_area_10 = {
@@ -1793,10 +1791,10 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			middle_sea_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			southern_sea_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			659 = {
 				discover_country = ROOT
@@ -1868,47 +1866,47 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			sea_of_eltihis_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			elithis_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_14_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			south_wastes_1_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			eastern_colonies_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			dawns_light_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			citadel_of_dusk_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			#undiscvoer naggaroth
 			naggaroth_23_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			naggaroth_22_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			land_of_chill_6_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			land_of_chill_7_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			naggaroth_12_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			black_forest_1_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 			land_of_chill_8_area = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 		}
 		#cathayan
@@ -1929,7 +1927,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			nippon_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			#eatern stepps
 			eastern_steppes_7_area = {
@@ -1963,7 +1961,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			ind_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			cathay_coast_area = {
 				discover_country = ROOT
@@ -2047,207 +2045,217 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			khuresh_1_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_8_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2515 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2867 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2781 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1215 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4429 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2873 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_4_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_5_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_3_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_10_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_11_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_14_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_13_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_5_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_weird_waves_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_fear_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_6_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			great_river_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			jade_river_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			river_of_ruin_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
-		#indish
+		#indish + 	#Dragon isles
 		if = {
 			limit = {
 				capital_scope = {
-					superregion = ind_superregion
+					or = {
+						superregion = ind_superregion
+						superregion = dragon_isles_superregion
+					}
+					
 				}
 			}
 			ind_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			gnoblar_country_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			western_provinces_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			southern_provinces_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_1_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_8_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2515 = {
+				discover_country = ROOT
+			}
+			4943 = {
+				discover_country = root
+			}
+			4937 = {
 				discover_country = root
 			}
 			2867 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			eastern_isles_sea_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			western_coast_of_khuresh_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			western_ind_coast_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			eastern_ind_coast_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_fear_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1493 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1495 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			lizard_sea_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1215 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			bitter_sea_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_weird_waves_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			bitter_coast_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			broken_teeth_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			desolation_of_nagash_1_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			desolation_of_nagash_2_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			desolation_of_nagash_3_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			desolation_of_nagash_4_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			desolation_of_nagash_5_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			desolation_of_nagash_6_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			lahmia_1_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			lahmia_4_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			lahmia_5_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			kingdom_of_the_beasts_1_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			mangrove_coast_2_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4351 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1052 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1503 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			dragon_isles_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1333 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			705 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2880 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			mountains_of_mourn_19_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			mountains_of_mourn_15_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4429 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2942 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#world edge mountain region
@@ -2261,7 +2269,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			western_mountains_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4138 = {
 				discover_country = ROOT
@@ -2315,19 +2323,19 @@ setup_vision = {
 				technology_group = tech_skaven
 			}
 			underempire = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			underempire_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			skavenblight_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			world_edge_mountains_region = {
 				discover_country = ROOT
 			}
 			western_mountains_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2332 = {
 				discover_country = ROOT
@@ -2378,7 +2386,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			albion_region = {
-				undiscover_country = root
+				undiscover_country = ROOT
 			}
 		}
 		#khuresh
@@ -2389,49 +2397,49 @@ setup_vision = {
 				}
 			}
 			khuresh_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			western_coast_of_khuresh_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			eastern_ind_coast_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			southern_provinces_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2873 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4433 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			gates_of_calith_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			eastern_coast_of_khuresh_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			eastern_ind_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2880 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2849 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2942 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1541 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1543 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			great_river_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#nippon
@@ -2451,7 +2459,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			nippon_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			#eatern stepps
 			eastern_steppes_7_area = {
@@ -2485,7 +2493,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			ind_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			cathay_coast_area = {
 				discover_country = ROOT
@@ -2569,70 +2577,70 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			khuresh_1_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_8_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2515 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2867 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2781 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1215 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4429 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2873 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_4_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_5_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_3_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_10_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_11_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_14_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_13_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_5_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_weird_waves_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_fear_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_6_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			great_river_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			jade_river_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			river_of_ruin_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 		#elthis
@@ -2652,7 +2660,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			nippon_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			#eatern stepps
 			eastern_steppes_7_area = {
@@ -2686,7 +2694,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			ind_superregion = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			cathay_coast_area = {
 				discover_country = ROOT
@@ -2770,70 +2778,70 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			khuresh_1_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_8_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2515 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2867 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2781 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			1215 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			4429 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			2873 = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_4_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_5_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_3_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_10_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_11_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_14_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_13_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_5_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_weird_waves_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			sea_of_fear_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			khuresh_6_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			great_river_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			jade_river_area = {
-				discover_country = root
+				discover_country = ROOT
 			}
 			river_of_ruin_region = {
-				discover_country = root
+				discover_country = ROOT
 			}
 		}
 	}

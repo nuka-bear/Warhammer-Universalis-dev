@@ -5,6 +5,7 @@ primary_culture = dragon_isles_lizardmen
 religion = enlightened_path
 technology_group = tech_di_lizardmen
 capital = 4844# Owari
+setup_vision = yes
 
 
 
