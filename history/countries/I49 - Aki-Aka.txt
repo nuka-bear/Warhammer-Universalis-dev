@@ -1,0 +1,8 @@
+government = monarchy
+government_rank = 2
+primary_culture = dragon_isles_lizardmen
+religion = enlightened_path
+technology_group = tech_di_lizardmen
+capital = 4261
+add_government_reform = shogunate
+setup_vision = yes

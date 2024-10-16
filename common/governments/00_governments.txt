@@ -14,7 +14,7 @@ monarchy = {
 				solomonic_empire
 				#Specific:
 				chinese_warlord
-				#daimyo
+				daimyo
 				indep_daimyo
 				elective_monarchy
 				iqta
@@ -27,7 +27,7 @@ monarchy = {
 				# mamluk_government
 				# feudal_theocracy
 				celestial_empire
-				# shogunate
+				 shogunate
 				# mandala_reform
 				revolutionary_empire_reform
 				#	holy_state_reform

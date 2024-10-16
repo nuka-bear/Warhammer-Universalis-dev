@@ -1,0 +1,10 @@
+base_tax = 3
+base_manpower = 3
+base_production = 3
+trade_goods = slaves
+religion = enlightened_path
+culture = dragon_isles_lizardmen
+is_city = yes
+owner = I50
+controller = I50
+add_core = I50

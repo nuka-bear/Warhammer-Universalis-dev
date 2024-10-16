@@ -8,3 +8,5 @@ owner = Z47
 culture = southlands_lizardmen
 controller = Z47
 add_core = Z47
+
+

@@ -132,6 +132,15 @@ ruler_is_human = {
 			#nagashi
 			ruler_culture = nagashi_culture
 			ruler_culture = yaghur
+			#indish
+			ruler_culture = east_indish_c
+			ruler_culture = west_indish_c	
+			ruler_culture = south_indish_c
+			ruler_culture = north_indish_c
+			#nipponese
+			ruler_culture = south_nipponese_c
+			ruler_culture = north_nipponese_c
+
 		}
 	}
 }
@@ -195,6 +204,7 @@ ruler_is_lizardmen = {
 			ruler_culture = lustrian_lizardmen
 			ruler_culture = southlands_lizardmen
 			ruler_culture = feral_lizardmen
+			ruler_culture = dragon_isles_lizardmen
 		}
 	}
 }

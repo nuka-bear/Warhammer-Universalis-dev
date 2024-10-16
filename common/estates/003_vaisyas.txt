@@ -171,7 +171,7 @@ estate_vaisyas = {
 		estate_vaisyas_monopoly_of_dyes
 		estate_vaisyas_monopoly_of_glass
 		estate_vaisyas_monopoly_of_paper
-		estate_vaisyas_khmer_irrigation
+	#	estate_vaisyas_khmer_irrigation
 		estate_vaisyas_land_trade_rights
 		estate_vaisyas_development_of_cities
 		estate_vaisyas_control_over_the_coinage

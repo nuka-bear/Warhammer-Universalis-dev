@@ -40,6 +40,9 @@
  carcassonnian:0 "Carcassonnian"
  aquitaine_warhammer:0 "Aquitaine"
  bourgonian:0 "Bourgonian"
+ marcheur:0 "Marcheur"
+ outremer:0 "Outremer"
+ 
  umbrian:0 "Umbrian"
  miraglianese:0 "Miraglianese"
  
@@ -182,6 +185,7 @@
  southlands_lizardmen:0 "Southlands Lizardmen"
  lustrian_lizardmen:0 "Lustrian Lizardmen"
  feral_lizardmen:0 "Feral Lizardmen"
+ dragon_isles_lizardmen:0 "Dragon Isles Lizardmen"
  
  cathayan_cg:0 "Cathayan"
  north_cathayan:0 "Iron Cathayan"

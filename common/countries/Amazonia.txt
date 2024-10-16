@@ -19,7 +19,10 @@ historical_idea_groups = {
 }
 
 historical_units = {
-
+	amazon_01_cav_a
+	amazon_01_inf_a
+	amazon_05_inf_a
+	amazon_06_cav_a
 }
 
 monarch_names = {

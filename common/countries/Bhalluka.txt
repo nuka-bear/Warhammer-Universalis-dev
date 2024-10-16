@@ -16,7 +16,8 @@ historical_idea_groups = {
 }
 
 historical_units = {
-
+	ind_01_cav_a
+	ind_01_inf_a
 }
 
 monarch_names = {

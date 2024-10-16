@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = daimyo
+government_rank = 1
+primary_culture = dragon_isles_lizardmen
+religion = enlightened_path
+technology_group = tech_di_lizardmen
+capital = 4260# Owari
+
+setup_vision = yes
+
+

@@ -124,12 +124,12 @@ desolation_of_nagash_region = {
 }
 new_coast_region = {
 	areas = {
-		teotiqua_area new_coast_1_area new_coast_2_area new_coast_4_area new_coast_3_area yuatek_area guardian_statues_area churning_gulf_shore_area zlatlan_area nahuontl_area
+		cuexotl_high_lands_area cuexotl_area heart_of_the_jungle_area new_coast_1_area new_coast_2_area new_coast_4_area new_coast_3_area yuatek_area guardian_statues_area churning_gulf_shore_area zlatlan_area nahuontl_area
 	}
 }
 lahmia_region = {
 	areas = {
-		lahmia_1_area lahmia_2_area lahmia_3_area lahmia_4_area lahmia_5_area lahmia_6_area lahmia_7_area lahmia_8_area lost_plateau_area 
+		lahmia_1_area lahmia_2_area lahmia_3_area lahmia_4_area lahmia_5_area lahmia_6_area lahmia_7_area lahmia_8_area 
 	}
 }
 sudron_region = {
@@ -140,7 +140,7 @@ sudron_region = {
 }
 kingdom_of_the_beasts_region = {
 	areas = {
-		kingdom_of_the_beasts_1_area kingdom_of_the_beasts_2_area 
+		kingdom_of_the_beasts_1_area kingdom_of_the_beasts_2_area kingdom_of_the_beasts_4_area temple_of_skulls_area kingdom_of_the_beasts_3_area 
 	}
 }
 plain_of_tuskers_region = {
@@ -155,7 +155,7 @@ dawns_light_region = {
 }
 mangrove_coast_region = {
 	areas = {
-		mangrove_coast_2_area temple_avenue_area jungle_of_the_gods_area 
+		lost_plateau_area teotiqua_highlands_area teotiqua_area mangrove_coast_2_area mangrove_coast_3_area temple_avenue_area jungle_of_the_gods_area 
 	}
 }
 #
@@ -190,6 +190,7 @@ gnoblar_country_region = {
 dragon_isles_region = {
 	areas = {
 		dragon_isles_01_area dragon_isles_02_area dragon_isles_03_area dragon_isles_04_area 
+		west_yaxum_area east_yaxum_area south_yaxum_area central_yaxum_area east_honzamul_area south_honzamul_area west_honzamul_area the_claws_area north_honzamul_area
 	}
 }
 #cathay Superregion
@@ -384,7 +385,7 @@ world_edge_mountains_region = {
 southern_world_edge_mountains_region = {
 	areas = {
 		karag_haraz_area karak_azgal_area crooked_fang_area karak_azul_area death_pass_area red_cloud_mountain_area skull_crag_area spitepak_area cripple_peak_area doom_mountain_area
-		southern_underway_2_area southern_underway_1_area southern_underway_3_area southern_underway_6_area southern_underway_4_area southern_underway_5_area blisterdeep_area karak_zorn_area misty_mountain_area southern_underway_7_area
+		southern_underway_2_area southern_underway_1_area southern_underway_3_area southern_underway_6_area southern_underway_4_area southern_underway_5_area smoking_caverns_of_sotek_area blisterdeep_area karak_zorn_area misty_mountain_area southern_underway_7_area
 	}
 }
 karak_eight_peaks_region = {

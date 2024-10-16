@@ -9,6 +9,8 @@ destruction_culture = {
 		technology_group = tech_skaven
 		technology_group = tech_vampire_count
 		technology_group = tech_vampire_coast
+		technology_group = tech_eastern_greenskin
+		technology_group = tech_eastern_undead
 		religion_group = ruinous_powers_denominations
 		religion = nagash_worship
 	}
@@ -25,6 +27,8 @@ order_culture = {
 		technology_group = tech_wood_elf
 		technology_group = tech_indish
 		technology_group = tech_amazon
+		technology_group = tech_lizardmen
+		technology_group = tech_di_lizardmen
 	}
 	not = {
 		or = {
@@ -41,6 +45,7 @@ neutral_culture = {
 		technology_group = tech_tomb_kings
 		technology_group = tech_norscan
 		technology_group = tech_arabyn
+		technology_group = tech_khureshi
 		technology_group = tech_hobgoblin
 	}
 	not = {
