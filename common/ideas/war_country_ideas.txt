@@ -2552,6 +2552,117 @@ I49_ideas = {
 	}
 }
 
+#ake
 
+I36_ideas = {
+	start = {
+		fabricate_claims_cost = -0.25
+		unjustified_demands = -0.25
+	}
+	bonus = {
+		army_tradition_decay = -0.01
+	}
+	trigger = {
+		tag = I36
+	}
+	free = yes
 
+	I36_idea_1 = {
+		spy_offence = 0.2
+	}
+	I36_idea_2 = {
+		fire_damage = 0.1
+	}
+	I36_idea_3 = {
+		diplomatic_upkeep = 1
+	}
+	I36_idea_4 = {
+		discipline = 0.05
+	}
+	I36_idea_5 = {
+		diplomats = 1
+	}
+	I36_idea_6 = {
+		shock_damage = 0.1
+	}
+	I36_idea_7 = {
+		province_warscore_cost = -0.25
+	}
+}
 
+#Togamo
+I46_ideas = {
+	start = {
+		core_creation = -0.2
+		infantry_power = 0.1
+	}
+	bonus = {
+		religious_unity = 0.25
+	}
+	trigger = {
+			tag = I46
+	}
+	free = yes
+
+	I46_idea_1 = {
+		siege_ability = 0.1
+	}
+	I46_idea_2 = {
+		movement_speed = 0.2
+	}
+	I46_idea_3 = {
+		land_forcelimit_modifier = 0.25
+	}
+	I46_idea_4 = {
+		global_tax_modifier = 0.2
+	}
+	I46_idea_5 = {
+		global_manpower_modifier = 0.25
+	}
+	I46_idea_6 = {
+		free_leader_pool = 1
+	}
+	I46_idea_7 = {
+		land_morale = 0.15
+	}
+}
+
+#Axiu
+
+I37_ideas = {
+	start = {
+		stability_cost_modifier = -0.1
+		shock_damage_received = -0.1
+	}
+
+	bonus = {
+		fire_damage_received = -0.1
+	}
+
+	trigger = {
+		tag = I37
+	}
+	free = yes
+
+	I37_idea_1 = {
+		defensiveness = 0.2
+	}
+	I37_idea_2 = {
+		army_tradition = 0.5
+	}
+	I37_idea_3 = {
+		land_morale = 0.1
+	}
+	I37_idea_4 = {
+		mil_tech_cost_modifier = -0.2
+	}
+	I37_idea_5 = {
+		global_tax_modifier = 0.1
+	}
+	I37_idea_6 = {
+		manpower_recovery_speed = 0.1
+	}
+	I37_idea_7 = {
+		leader_land_shock = 1
+	}
+}

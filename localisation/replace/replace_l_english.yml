@@ -940,3 +940,27 @@
  coal:0 "Coal"
  coalDESC:0 "Coal has a long history as a source of fuel, but it is not until the invention and dissemination of the practical Steam Engine that demand would take off. As the Industrial Revolution swept across The Old World, the use and export or import of coal would become a major business and an integral part of a modern economy."
  
+ ######################################
+ # Ideas                                   
+ ######################################
+ 
+ daimyo_ideas:0 "Lizardmen-Daimyo Ideas"
+ daimyo_ideas_start:0 "Lizardmen-Daimyo Traditions"
+ daimyo_ideas_bonus:0 "Lizardmen-Daimyo Ambition"
+ bushido:0 "Bushido"
+ bushido_desc:0 "'Young boys in the forest \n cut down the small trees \n and crawl to their lord kneeling' \n \nThe traditional Lizardmen ideal, Bushido, the way of the warrior saurmurai, created a national atmosphere of discipline and self-sacrifice in the mid and upper warrior classes."
+ bun_and_bu:0 "The Bun and the Bu"
+ bun_and_bu_desc:0 "'Pen cuts across fine rice paper \n kanji runs black thick \n the sword upon white flesh' \n \nThe concept of mastery of both art and war played a large role in the Bushido tradition. The military teachers of the Dragon Isles realized that the arts - such as painting, flower arrangement, and gardening - inspire discipline and practical understanding in soldiers. By the time of the Edo period, the Dragon Isles will have a highly literate population."
+ honor_ancestors:0 "Honor the Ancestors"
+ honor_ancestors_desc:0 "'Grandmother in the smoke \n grandfather on the rocks \n black sticks glow orange and gifts ascend' \n \nA lizardman owes his life to his lord and his ancestors. A Lizardman who honors his ancestors will be respected by both Lizardmen and lords."
+ five_rings:0 "The Five Rings"
+ five_rings_desc:0 "'To heaven his circle raises \n his left hand the sun \n his right the moon' \n \nOne of the most influential works of military literature ever written, the book by Miyamoto Musashi is held in the same high esteem as the Sun Tzu's Art of War."
+ wandering_ronin:0 "Wandering Sauronin"
+ wandering_ronin_desc:0 "'In the snow he falls \n last of the bread in hand \n above his head the lord's tower looms' \n \nThe masterless saurmurai of the Dragon Isles are ready to do our bidding if we choose to invite them into our service."
+ daimyo_idea:0 "Armies of the Daimyo"
+ daimyo_idea_desc:0 "'Daimyo sits in comfort \n scent of flowery tea \n man with face to floor' \n \nWarlord vassals of the Dragon Isles commanded great armies for, and sometimes against, their lords in Koa."
+ honor_unto_death:0 "Honor Unto Death"
+ honor_unto_death_desc:0 "'Sweet green field \n pink flowers bloom \n a life to sword will yield' \n \nDeath played a key role in the fanatical warrior philosophy of Bushido. Lizardmen willingly gave and took their own lives for the sake of honor and respect. It was said that Bushido itself meant to accept death, or to even look for it."
+  
+ 
+ 
