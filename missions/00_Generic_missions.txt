@@ -331,7 +331,7 @@ diplomatic_missions = {
     			loyalty = 65
 			}
 			estate_loyalty = {
-    			estate = estate_nobility
+    			estate = estate_nobles
     			loyalty = 65
 			}
 

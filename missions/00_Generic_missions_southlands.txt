@@ -1040,16 +1040,16 @@ gen_nehekhara_missions = {
 			if = {
 				limit = { adm = 6 }
 				add_adm_power = 100
-			} else { change_adm = 1 }
+			} else = { change_adm = 1 }
 
 			if = {
 				limit = { dip = 6 }
 				add_dip_power = 100
-			} else { change_dip = 1 }
+			} else = { change_dip = 1 }
 			if = {
 				limit = { mil = 6 }
 				add_mil_power = 100
-			} else { change_mil = 1 }
+			} else = { change_mil = 1 }
 
 		}
 	}
@@ -1267,16 +1267,16 @@ gen_nehekharan_pantheon_missions = {
 			if = {
 				limit = { adm = 6 }
 				add_adm_power = 100
-			} else { change_adm = 1 }
+			} else = { change_adm = 1 }
 
 			if = {
 				limit = { dip = 6 }
 				add_dip_power = 100
-			} else { change_dip = 1 }
+			} else = { change_dip = 1 }
 			if = {
 				limit = { mil = 6 }
 				add_mil_power = 100
-			} else { change_mil = 1 }
+			} else = { change_mil = 1 }
 		}
 	}
 
@@ -1351,16 +1351,16 @@ gen_nehekharan_pantheon_missions = {
 			if = {
 				limit = { adm = 6 }
 				add_adm_power = 100
-			} else { change_adm = 1 }
+			} else = { change_adm = 1 }
 
 			if = {
 				limit = { dip = 6 }
 				add_dip_power = 100
-			} else { change_dip = 1 }
+			} else = { change_dip = 1 }
 			if = {
 				limit = { mil = 6 }
 				add_mil_power = 100
-			} else { change_mil = 1 }
+			} else = { change_mil = 1 }
 			add_country_modifier = { 
  				name = nagash_ritual
 				duration = 3650 
@@ -1396,16 +1396,16 @@ gen_nehekharan_pantheon_missions = {
 			if = {
 				limit = { adm = 6 }
 				add_adm_power = 100
-			} else { change_adm = 1 }
+			} else = { change_adm = 1 }
 
 			if = {
 				limit = { dip = 6 }
 				add_dip_power = 100
-			} else { change_dip = 1 }
+			} else =  { change_dip = 1 }
 			if = {
 				limit = { mil = 6 }
 				add_mil_power = 100
-			} else { change_mil = 1 }
+			} else = { change_mil = 1 }
 			add_country_modifier = { 
  				name = nagash_ritual
 				duration = -1 
