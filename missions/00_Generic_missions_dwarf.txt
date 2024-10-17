@@ -70,7 +70,9 @@ gen_dwarf_missions = {
  				name = gen_dwarf_metals_bonus
 				duration = -1
 			}
-
+			custom_tooltip = claim_all_metals_tooltip
+			hidden_effect = {
+			
 			every_province = {
 				limit = {
 					OR = {
@@ -79,8 +81,9 @@ gen_dwarf_missions = {
 					}
 				}
 				add_permanent_claim = ROOT
-			custom_tooltip = claim_all_metals_tooltip
-			}	
+
+			}
+			}
 		}
 	}
 
@@ -98,7 +101,8 @@ gen_dwarf_missions = {
  				name = gen_dwarf_luxury_bonus
 				duration = -1
 			}
-
+		custom_tooltip = claim_all_luxury_goods_tooltip
+		hidden_effect = {
 			every_province = {
 				limit = {
 					OR = {
@@ -108,8 +112,9 @@ gen_dwarf_missions = {
 					}
 				}
 				add_permanent_claim = ROOT
-				custom_tooltip = claim_all_luxury_goods_tooltip
+				
 			}
+		}
 			
 		}
 	}
