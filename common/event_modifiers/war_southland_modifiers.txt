@@ -20,7 +20,7 @@ araby_place_of_innovation = {
 
 araby_charitable = {
 	reverse_relation_with_same_religion = 25
-	accept_vassalization_reasons = 5
+	diplomatic_reputation = 1
 }
 
 araby_historical_defender = {
@@ -119,6 +119,13 @@ greenskin_ultimate = {
 	global_manpower_modifier = 0.25
 }
 
+greenskin_mork_party = {
+	monthly_piety = 0.01
+}
+
+greenskin_gork_party = {
+	monthly_piety = -0.01
+}
 
 
 ### Nehekharan

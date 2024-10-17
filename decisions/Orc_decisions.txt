@@ -6,7 +6,8 @@ country_decisions = {
 		potential = { uses_piety = yes }
 
 		allow = {
-
+			NOT = { has_country_modifier = greenskin_mork_party }
+			NOT = { has_country_modifier = greenskin_gork_party }
 			NOT = { piety = 0.5 }
 			years_of_income = 1.5
 
@@ -15,7 +16,10 @@ country_decisions = {
 
 		effect = {
 
-			add_piety = 0.25
+			add_country_modifier = { 
+			    name = greenskin_mork_party
+			    duration = 730 
+			}
 			add_years_of_income = -1.5
 
 		}
@@ -28,7 +32,8 @@ country_decisions = {
 		potential = { uses_piety = yes }
 
 		allow = {
-
+			NOT = { has_country_modifier = greenskin_mork_party }
+			NOT = { has_country_modifier = greenskin_gork_party }
 			piety = -0.5
 			is_at_war = no
 			NOT = { num_of_rebel_armies = 1 }
@@ -37,7 +42,10 @@ country_decisions = {
 
 		effect = {
 
-			add_piety = -0.25
+			add_country_modifier = { 
+			    name = greenskin_gork_party
+			    duration = 730 
+			}
 			random_owned_province = {
 				spawn_rebels = {
     				type = noble_rebels

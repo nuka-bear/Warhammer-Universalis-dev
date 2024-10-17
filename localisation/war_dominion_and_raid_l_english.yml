@@ -27,8 +27,18 @@
 
   RACIAL_RAIDING_WAR_NAME:0 "Racial Raiding"
 
-  war_raid_province_title:0 "Raid Enemy Race"
-  war_raid_province_desc:0 "Raid sieged provinces that are not within our tech group. This will provide an immediate boon to the economy and damage the provinces, but make them more expensive to take in peace deals. Raided territories lose one of each development point, and you gain 25 gold for each development point lost"
+
+  lets_raid_decision_title:0 "Raid Enemy Race"
+  lets_raid_decision_desc:0 "Raid sieged provinces that are not within our tech group. This will provide an immediate boon to the economy and damage the provinces, but make them more expensive to take in peace deals. Raided territories lose one of each development point, and you gain 25 gold for each development point lost."
+
+ lets_not_raid_decision_title:0 "Stop Raiding Enemy Race"
+  lets_not_raid_decision_desc:0 "Our raids have been an effective boon to our economy, and significantly weakened our enemies, but now is the time for conquest."
+
+lets_raid_modifier:0 "Raiding Enemy Races"
+lets_raid_modifier_desc:0 "We are raiding sieged provinces that are not within our tech group. This will provide an immediate boon to the economy and damage the provinces, but make them more expensive to take in peace deals. Raided territories lose one of each development point, and you gain 25 gold for each development point lost. Nearby forts protect provinces from raiding."
+
+
+
 
   recently_raided:0 "Recently Raided"
   recently_raided_desc:0 "Can't be raided again until it recovers, and more expensive to take in peace deals."
@@ -37,3 +47,18 @@ demote_dominion_action: "Vassalize Dominion"
 demote_dominion_action_title: "Vassalize Dominion"
 demote_dominion_action_desc: "Demote a Dominion into a vassal, reducing its independence. Also reduces your trust with all other subjects."
 demote_dominion_action_tooltip: "Demote a Dominion into a vassal, reducing its independence. Also reduces your trust with all other subjects."
+
+
+offer_dominion_action: "Offer Dominion"
+offer_dominion_action_title: "Offer Dominion"
+offer_dominion_action_desc: "Offer to take a nation of your race under your wing as a semi-independent dominion. Dominions can take many independent actions, but are tied to their overlord. Dominions can be demoted into vassals over time."
+offer_dominion_action_tooltip: "Offer to take a nation of your race under your wing as a semi-independent dominion. Dominions can take many independent actions, but are tied to their overlord. Dominions can be demoted into vassals over time."
+
+
+OUR_PRESTIGE_OFFER:0 "Our prestige"
+THEIR_PRESTIGE_OFFER:0 "Thier prestige"
+IN_HRE_OFFER:0 "Part of the empire"
+NOT_SAME_TECH_GROUP:0 "Not in the same technology group"
+OFFER_DIF_CULTURE:0 "Different primary culture"
+OFFER_DIF_RELIGION:0 "Different religion"
+TOO_BIG_OFFER:0 "They are bigger than we are!"

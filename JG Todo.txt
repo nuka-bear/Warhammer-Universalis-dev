@@ -1,27 +1,32 @@
 
 JG To Do & Thoughts
 
-Ultimate misison that requires the finishing 5 others?
+Common missions: https://eu4.paradoxwikis.com/List_of_common_mission_triggers
 
 Adjust opening text for cultures and religions
-
-Prevent defender from taking land in racial raiding.
-
-Add offer domination diplomatic action
-
-Make raid a toggle decision with a flag - raid everybody, or don't raid everybody. 
 
 get rid of the "You're old" events
 
 Fix province names in Southlands
 
-Add monuments to badlands
+Fix Nehekharan unify religion mission
 
-Final Pie in the Sky mission for everybody
-	Araby - all of the great powers are one faith
-	Orc - controls the empire capital, Cathay capital, khemti capital, and Karan a karak
-	Nehekhara - has all the monuments at level 3
-	Dwarves - Own all Gold Provinces or a set number
+Some way to get racial administration to benefit/harm based on terrain type? Look at hydroponic empire.
+
+Dwarves
+	Dwarves
+		Like the orcs with different tiers of pillaging, the dwarves with different tiers of income.
+		Also fortify
+	Ancestor:
+		Kill enemies
+		Drive orcs and skaven out of subterranean areas.
+		Dwarves control strongholds
+		Ally with other dwarves & humans
+
+	Pie in sky: Control X gold and Gems (and beer, iron, copper?)
+
+High Elves
+	Pie in the Sky: Perfidious Elves, ally or Rival all other great powers
 
 
 Focus on Nehekara to start
@@ -50,8 +55,6 @@ Orcs
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold?
 
-Dwarves
-	Like the orcs with different tiers of pillaging, the dwarves with different tiers of income.
 
 Cathay
 	Very low crownland
@@ -64,16 +67,12 @@ Change a lot of the "own" requirements to own or subject own
 
 Fix Monstrous Unit Cost
 
-Mission for controlling whole subcontinent?
-
-Switch Orc religion usage? Instead of Waaagh disasters, use a scale.
-
 Should it be possible to change or have multiple racial administrations & militaries?
 	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)
 	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
 
 
-Add Lucky Nations
+Adjust Lucky Nations
 
 
 ##### Paused for now #####
@@ -82,13 +81,6 @@ Give Sylvania "Blood Kiss" to convert other humans to vamprism
 
 A basic spell or two? Is mana = spell resource?
 	Undead Spend 100 mil mana to gain a 10,000 manpower?
-
-
-
-##### Done #####
-	Waaagh & No Waaagh Disasters for Orks
-
-
 
 
 

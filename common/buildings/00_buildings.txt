@@ -2161,6 +2161,9 @@ tradecompany = {
 		cloves
 		fur
 		incense
+		old_ones_relics
+		warpstone
+		beer
 	}
 	onmap = yes
 	on_built = {
@@ -2200,6 +2203,8 @@ farm_estate = {
 		grain
 		livestock
 		wine
+		fungi
+		subterranean_plants
 	}
 	onmap = yes
 	on_built = {
@@ -2257,6 +2262,7 @@ mills = {
 		tropical_wood
 		glass
 		chinaware
+		lumber
 	}
 	onmap = yes
 	on_built = {
@@ -2294,6 +2300,7 @@ mills = {
 furnace = {
 	manufactory = {
 		coal
+		warpstone
 	}
 
 	potential = {
@@ -2407,6 +2414,8 @@ soldier_households = {
 		fish
 		livestock
 		wine
+		fungi
+		subterranean_plants
 	}
 
 	modifier = {

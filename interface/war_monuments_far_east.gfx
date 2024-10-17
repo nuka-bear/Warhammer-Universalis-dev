@@ -1,0 +1,37 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_great_project_zharr_naggrund"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_tower_of_gorgoth"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_gates_of_zharr"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_black_fortress"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_road_of_skulls"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_daemons_stump"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_tower_of_skulls"
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+}

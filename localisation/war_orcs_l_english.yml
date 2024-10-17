@@ -5,13 +5,20 @@
 
 
 
- # War for Mork Decision
-war_for_mork_title:0 "Big Bash for Mork!"
+ # Party for Mork Decision
+war_for_mork_title:0 "Party fer Mork!"
 war_for_mork_desc:0 "Oi, da big boss Mork is throwin' a right proper bash, and he needs a few more ladz ta keep da party goin'! We's gotta show 'im we're da meanest, greenest, and fightiest boyz around! So let’s kick off a roight good scrap, show some kunnin', and get cranked up for da Great Greenie!"
 
-# War for Gork Decision
-war_for_gork_title:0 "Gork's Got Da Stompy Feelin'!"
+# Party for Gork Decision
+war_for_gork_title:0 "Party fer Gork!"
 war_for_gork_desc:0 "Gork sez it's time fer a bit o' bashin'! He's got da boyz all riled up, lookin' fer a big ol' rumble – no mo' sittin' around, iz da time to smash, stomp, an' show 'em who da best fighta is! Let's go mess 'em up proper, cuz Gork sez so, ya gits!"
+
+### Party Modifier
+greenskin_mork_party:0 "Party fer Mork"
+desc_greenskin_mork_party:0 "Da boyz ‘av been sneakin’ an’ schemin’ ta show dere kunnin’, just like Mork! Every git’s got ‘imself a sneaky plan, and Mork’s got a big grin on ‘is face. We’z gettin’ closer to ‘is cunnin' wayz!"
+
+greenskin_gork_party:0 "Party fer Gork"
+desc_greenskin_gork_party:0 "Da ladz iz bashin’ an’ krumpin’, doin’ Gork proud! Da big lad luvs it when we’z stompin’ all dat we see, an’ every git knows dat Gork likes us bein' more brutal an' smashy!"
 
 
 
