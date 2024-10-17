@@ -61,3 +61,46 @@ ancestor_united_pantheon = {
 
 
 ### Hashut
+
+
+hashut_sacrificed = {
+	all_estate_influence_modifier = -0.05
+	estate_interaction_cooldown_modifier = -0.25
+	yearly_army_professionalism = 0.01
+}
+
+hashut_expand_religion = {
+	global_missionary_strength = 0.05
+	missionaries = 1
+	tolerance_heretic = -1
+	tolerance_heathen = -1
+
+}
+
+
+hashut_expand_culture = {
+	
+	culture_conversion_cost = -0.25
+	culture_conversion_time = -0.25
+	num_accepted_cultures = -1
+
+}
+
+
+hashut_absolutism_1 = {
+	yearly_absolutism = 0.1
+	max_absolutism = 5
+	max_absolutism_effect = 0.1
+}
+
+hashut_absolutism_2 = {
+	yearly_absolutism = 0.1
+	max_absolutism = 5
+	max_absolutism_effect = 0.1
+}
+
+hashut_absolutism_3 = {
+	yearly_absolutism = 0.1
+	max_absolutism = 5
+	max_absolutism_effect = 0.1
+}

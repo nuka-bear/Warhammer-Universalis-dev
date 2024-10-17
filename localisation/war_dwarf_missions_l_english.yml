@@ -88,3 +88,46 @@
  gen_ancestor_pantheon_title:0 "Unite the Pantheon"
  gen_ancestor_pantheon_desc:0 "With the blessings of all the Ancestor Gods, our hold shall rise to new heights. May the united favor of the Ancestors secure our hold and inspire our kin for generations to come."
 
+
+#### Hashut
+
+hashut_sacrificed:0 "Sacrifices to Hashut"
+desc_hashut_sacrificed:0 "Through ritual sacrifices to the Father of Darkness, we bolster the loyalty of our estates and strengthen the will of our army, all in service of our dark god."
+
+hashut_expand_religion:0 "Zeal of Hashut"
+desc_hashut_expand_religion:0 "As followers of Hashut, it is our sacred duty to spread his dark gospel, converting the faithless and rooting out heresy with unrelenting zeal."
+
+hashut_expand_culture:0 "Dawi-Zharr Expansion"
+desc_hashut_expand_culture:0 "By bringing Hashut’s influence to foreign lands, we reshape them in the image of the Chaos Dwarves, crushing the cultures of the weak and spreading our own might."
+
+hashut_absolutism_1:0 "Dominion of Hashut"
+desc_hashut_absolutism_1:0 "With each conquest, the Father of Darkness grants us greater control and power, solidifying our authority and enforcing Hashut’s unyielding dominion."
+
+hashut_absolutism_2:0 "Tyanny of Hashut"
+desc_hashut_absolutism_2:0 "Through unwavering dedication to Hashut, our power grows unchallenged, as we enforce his will upon all who dare oppose our dominion."
+
+hashut_absolutism_3:0 "Power of Hashut"
+desc_hashut_absolutism_3:0 "The might of Hashut knows no limits. By his grace, we attain absolute power, and the entire realm bows to the will of the Father of Darkness."
+
+
+gen_hashut_please_church_title:0 "Priestly Agents"
+gen_hashut_please_church_desc:0 "With the backing of the Hashut Priests, we can seize power from various brokers. Under the right pressure, the merchants and nobles will gladly forfeit their rights to see us rule."
+
+gen_hashut_great_sacrifice_title:0 "The Great Sacrifice"
+gen_hashut_great_sacrifice_desc:0 "The time has come to show our devotion to Hashut with a grand offering of wealth and slaves. By this sacrifice, we shall gain his dark blessings and strike fear in the renegage power brokers within our nation."
+
+gen_hashut_expand_religion_title:0 "Hashut's Tyranny"
+gen_hashut_expand_religion_desc:0 "Our destiny is to bring the faith of Hashut to all lands under our control, converting the heathens and rooting out heresy wherever it hides."
+
+gen_hashut_expand_culture_title:0 "Cleanse the Land"
+gen_hashut_expand_culture_desc:0 "As we conquer, we must remake foreign lands in the image of our own. Through force and labor, we shall impose the Dawi-Zharr."
+
+gen_hashut_get_slaves_title:0 "Acquire More Slaves"
+gen_hashut_get_slaves_desc:0 "Hashut demands labor, and we shall provide it by expanding our slave network. Every corner of our domain must echo with the toil of enslaved enemies."
+
+gen_hashut_lead_slaves_title:0 "Control the Slave Economy"
+gen_hashut_lead_slaves_desc:0 "As we dominate the slave trade, the economy of our rivals withers. Under the guidance of Hashut, we shall profit from their servitude and strengthen our power."
+
+gen_hashut_high_crownland_title:0 "Total Internal Dominance"
+gen_hashut_high_crownland_desc:0 "To maintain control over our realm, we must consolidate our land holdings and reduce the influence of secular estates, solidifying Hashut's absolute rule."
+

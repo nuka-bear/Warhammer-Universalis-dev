@@ -368,7 +368,8 @@ gen_ancestor_missions = {
 
 	gen_ancestor_pantheon = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_ancestor_grungni gen_ancestor_valaya gen_ancestor_grimnir gen_ancestor_mogrim gen_ancestor_smednir gen_ancestor_thungni} 
+		required_missions = { gen_ancestor_grungni gen_ancestor_valaya gen_ancestor_grimnir gen_ancestor_mogrim gen_ancestor_smednir gen_ancestor_thungni}
+		position = 8
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_church
@@ -396,7 +397,11 @@ gen_ancestor_missions = {
 ##################################
 
 
-## Slaves, conquest
+## Slaves, conquest, tyanny
+## Slaves - get slaves provinces. Make sacrafice, allowing for the ongoing sacrafice decision.
+## Conquest - get monuments, then conquer & convert darklands
+## Final mission is 100 absolutism or 100% crown land
+## Rewards are discipline, crown land
 
 gen_hashut_missions = {
 	slot = 5
@@ -416,7 +421,170 @@ gen_hashut_missions = {
 			}
 		}
 
-		effect = { 
+		effect = {
+			
+			change_estate_land_share = {
+ 			 	estate = estate_burghers
+    			share = -5.0
+			}
+
+			change_estate_land_share = {
+ 			 	estate = estate_nobles
+    			share = -5.0
+			}
 		}
 	}
+
+
+	gen_hashut_great_sacrifice = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_hashut_please_church } 
+		trigger = {
+			years_of_income = 4.0
+			years_of_manpower = 4.0
+		}
+
+		effect = {
+			add_years_of_income = -4.0
+			add_yearly_manpower = -4.0
+
+			add_country_modifier = { 
+ 				name = hashut_sacrificed
+				duration = -1
+			}
+		}
+	}	
+
+	gen_hashut_expand_religion = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_hashut_great_sacrifice } 
+		trigger = {
+			estate_loyalty = {
+			    estate = estate_church
+			    loyalty = 50
+			}
+			at_war_with_religious_enemy = yes
+			any_owned_province = {
+				has_owner_religion = no
+			}
+		}
+
+
+		effect = {
+			add_country_modifier = { 
+ 				name = hashut_expand_religion
+				duration = -1
+			}
+		}
+	}
+
+	gen_hashut_expand_culture = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_hashut_expand_religion } 
+		trigger = {
+			estate_loyalty = {
+			    estate = estate_church
+			    loyalty = 50
+			}
+			at_war_with_religious_enemy = yes
+			any_owned_province = {
+				has_owner_culture = no
+			}
+		}
+
+
+		effect = {
+			add_country_modifier = { 
+ 				name = hashut_expand_culture
+				duration = -1
+			}
+		}
+	}
+
+	gen_hashut_get_slaves = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			OR = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					trade_goods = slaves
+					OR = {
+						num_of_times_expanded_infrastructure = 1
+						base_production = 5
+					}
+					value = 3
+				}
+			}
+		}
+
+		effect = {
+			every_owned_province = {
+				limit = { trade_goods = slaves }
+				add_base_manpower = 1
+				add_base_production = 1
+			}
+			add_country_modifier = { 
+ 				name = hashut_absolutism_1
+				duration = -1
+			}			
+		}
+	}
+
+	gen_hashut_lead_slaves = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_hashut_get_slaves } 
+		trigger = {
+			production_leader = { trade_goods = slaves } 
+		}
+
+		effect = {
+			every_owned_province = {
+				limit = {trade_goods = slaves }
+				add_base_manpower = 1
+				add_base_production = 1
+
+			}
+			add_country_modifier = { 
+ 				name = hashut_absolutism_2
+				duration = -1
+			}			
+		}
+	}
+
+
+	gen_hashut_high_crownland = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  }
+		position = 8
+		trigger = {
+			crown_land_share = 75
+		}
+
+		effect = {
+
+			change_estate_land_share = {
+ 			 	estate = estate_church
+    			share = -2.5
+			}
+			
+			change_estate_land_share = {
+ 			 	estate = estate_burghers
+    			share = -2.5
+			}
+
+			change_estate_land_share = {
+ 			 	estate = estate_nobles
+    			share = -2.5
+			}
+
+
+			add_country_modifier = { 
+ 				name = hashut_absolutism_3
+				duration = -1
+			}			
+		}
+	}
+
+
+
 }
