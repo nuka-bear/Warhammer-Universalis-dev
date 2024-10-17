@@ -5,6 +5,9 @@ base_production = 4
 trade_goods = copper
 religion = the_great_maw_religion
 controller = I05
+center_of_trade = 1
+
+
 
 culture = ogre_main
 add_core = I05

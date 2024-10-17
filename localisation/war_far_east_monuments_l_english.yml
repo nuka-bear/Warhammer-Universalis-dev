@@ -1,5 +1,34 @@
 ﻿l_english:
 
+### Mountains of Mourne
+
+
+fishguts_cove:0 "Fishguts Cove"
+fishguts_cove_desc:0 "Oi! Fishguts Cove be full o' big ol' sea nasties! We guard da loot from da ocean with lotsa sharp teef and big nets! Nuffin' gets past us, not even da sneaky boat folk!"
+
+ivory_pass:0 "Ivory Pass"
+ivory_pass_desc:0 "Ivory Pass, where all da big boss traders come wit' shiny tusks. We get fat from all da loot! It’s da best place fer makin' deals an' gettin' rich. More pass through, more food fer da tribe!"
+
+goldeater_mines:0 "Goldeater Mines"
+goldeater_mines_desc:0 "Down dere, deep in da rocks, is where we smash an' grab all da gold! Ain't no one better at diggin' an' eatin' gold dan us Goldeater Boyz. Keeps da tribe strong and da coffers full o' shinies!"
+
+arena_of_the_mawbite_tribes:0 "Arena of da Mawbite Tribes"
+arena_of_the_mawbite_tribes_desc:0 "Da arena's where da biggest, meanest Mawbiters bash each other's skulls in! Da bosses get da best fighters, da rest of us get a good show! Fightin' keeps us strong, keeps da Maw 'appy!"
+
+firemouth_volcano:0 "Firemouth Volcano"
+firemouth_volcano_desc:0 "Big ol' Firemouth spits flame an' fury! We worship da big Maw 'ere, givin' 'im offerings o' meat an' fire. Da Maw watches, an' da tribes get strong. We gotta keep 'im fed, or 'e’ll get angry!"
+
+sky_titan_ruins:0 "Sky Titan Ruins"
+sky_titan_ruins_desc:0 "Dem Sky-Titan bones still up dere in da mountains! We broke 'em long ago, an' now da ruins give us power. Bein' near da bones makes da tribe feel like giants! Da Maw blesses us big an' strong."
+
+the_great_maw:0 "Da Great Maw"
+the_great_maw_desc:0 "Da biggest, hungriest Maw o' all! We give 'im meat, an' 'e gives us strength. Everythin' comes from da Maw. We follow 'is ways, or we end up like da fools 'e already ate!"
+
+
+
+
+### Darklands
+
 # Zharr Naggrund
 zharr_naggrund:0 "Zharr Naggrund"
 zharr_naggrund_desc:0 "The capital of the Chaos Dwarf empire, Zharr Naggrund is a towering fortress of blackened iron and basalt. Its forges produce weapons of war and dark machinery, and its mines delve deep into the earth for valuable resources. The obsidian walls and colossal statues serve as a reminder of the Chaos Dwarfs’ might and dedication to Hashut."

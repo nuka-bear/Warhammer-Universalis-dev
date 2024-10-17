@@ -1,0 +1,39 @@
+
+
+
+country_decisions = {
+	sacrifice_for_hashut = {
+		potential = { 
+			religion = hashut
+
+		 }
+
+		allow = {
+			years_of_manpower = 2.5
+			NOT = { has_country_modifier = hashut_slave_sacrifice }
+		}
+
+		effect = {
+
+			add_country_modifier = { 
+			    name = hashut_slave_sacrifice
+			    duration = 365
+			}
+			add_yearly_manpower = -2.5
+
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			 	factor = 0
+			 	is_at_war = no
+			}
+			modifier = {
+			 	factor = 0
+			 	NOT = { manpower_percentage = 0.50 }
+			}
+		}
+	
+	}
+}
