@@ -8,7 +8,7 @@ military_missions = { #Series name is displayed over the slot?
 	potential = {
 		always = yes
 	} #These are triggers for the entire series
-	
+
 	#missions
 	#1st tier: (they appear in the order scripted here in the interface, all missions within one "series" has an arrow going down to the next one scripted)
 	build_army_mission = { #Localized as reclaim_maine_title and reclaim_maine_desc
@@ -189,16 +189,16 @@ military_missions = { #Series name is displayed over the slot?
 
 
 	### Has Flagship ###
-	gen_naval_1 = { 
+	gen_naval_1 = {
 		icon = mission_galleys_in_port
-		required_missions = {  } 
+		required_missions = {  }
 		position = 7
 		trigger = {
 			has_flagship = yes
 		}
 
 
-		effect = { 
+		effect = {
 			add_yearly_sailors = 1
 
 			add_country_modifier = {
@@ -209,14 +209,14 @@ military_missions = { #Series name is displayed over the slot?
 	}
 
 
-	gen_naval_2 = { 
+	gen_naval_2 = {
 		icon = mission_establish_high_seas_navy
-		required_missions = { gen_naval_1 } 
+		required_missions = { gen_naval_1 }
 		trigger = {
 			navy_tradition = 50
 		}
 
-		effect = { 
+		effect = {
 			create_explorer = { tradition = 100 }
 			create_conquistador = { tradition = 100 }
 		}
@@ -228,13 +228,13 @@ military_missions = { #Series name is displayed over the slot?
 #2nd mission series:
 diplomatic_missions = {
 	slot = 3
-	
+
 	generic = yes
-	
+
 	potential = {
 	   always = yes
 	}
-	
+
 	building_alliances = {
 		icon = mission_alliances
 		required_missions = {  } #none
@@ -332,7 +332,7 @@ diplomatic_missions = {
 			}
 			estate_loyalty = {
     			estate = estate_nobles
-    			loyalty = 60
+    			loyalty = 65
 			}
 
 		}
@@ -371,9 +371,9 @@ diplomatic_missions = {
  #3nd mission series:
 administrative_missions = {
 	slot = 4
-	
+
 	generic = yes
-	
+
 	potential = {
 	   always = yes
 	}

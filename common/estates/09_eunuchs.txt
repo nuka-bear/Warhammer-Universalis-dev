@@ -155,14 +155,14 @@ estate_eunuchs = {
 	
 
 	
-	loyalty_modifier = {
-		desc = EST_VAL_MIL_FOCUS 
-		trigger = { 
-			national_focus = MIL 
-			has_estate_privilege = estate_eunuchs_outwards_perfection_privilege
-		} 
-		loyalty = 5 
-	}
+	# loyalty_modifier = {
+	# 	desc = EST_VAL_MIL_FOCUS 
+	# 	trigger = { 
+	# 		national_focus = MIL 
+	# 		has_estate_privilege = estate_eunuchs_outwards_perfection_privilege
+	# 	} 
+	# 	loyalty = 5 
+	# }
 	
 	#High Power Projection
 	loyalty_modifier = {
@@ -180,7 +180,7 @@ estate_eunuchs = {
 
 	privileges = {
 		estate_eunuchs_bookkeepers_privilege
-		estate_eunuchs_outwards_perfection_privilege
+	#	estate_eunuchs_outwards_perfection_privilege
 		estate_eunuchs_palace_bureaucracy_privilege
 		estate_eunuchs_delegate_provincial_administration_privilege
 		estate_eunuchs_imperial_council_privilege

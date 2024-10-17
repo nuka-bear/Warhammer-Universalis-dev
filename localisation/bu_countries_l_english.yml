@@ -385,6 +385,12 @@
  B91_ADJ:0 "Ecstatic" 
  B92_ADJ:0 "Galrauch's" 
  B93_ADJ:0 "Faithless" 
+ B94_ADJ:0 "Sortsvinaer" 
+ 
+ 
+ B97_ADJ:0 "Maggot"
+ B98_ADJ:0 "Befouled"
+ B99_ADJ:0 "Swords"
 
  G01:0 "Grimfangz"
  G02:0 "Bad Axes"
@@ -654,7 +660,6 @@
  I53_ADJ:0 "Izu"
  I54_ADJ:0 "Imazi"
  
- 
  U01:0 "Clan Rictus"
  U02:0 "Clan Krizzor"
  U03:0 "Clan Moulder"
@@ -704,6 +709,7 @@
  U47:0 "Clan Klaw"
  U48:0 "Clan Treecherik"
  U49:0 "Clan Flem"
+ U50:0 "Gangrous"
 
  U97:0 "Ankhor Dumbaraz"
  U98:0 "Under-Empire"
@@ -757,6 +763,7 @@
  U47_ADJ:0 "Klaw"
  U48_ADJ:0 "Treecherik"
  U49_ADJ:0 "Flem"
+ U50_ADJ:0 "Gangrous"
 
  U97_ADJ:0 "Norse Dawi"
  U98_ADJ:0 "Skaven"
@@ -880,7 +887,11 @@
  Z78:0 "Takai"
  Z79:0 "Janarjaya"
  Z80:0 "Turjuks"
+ Z81:0 "Cuexotl"
+ Z82:0 "Teotiqua"
+ Z83:0 "Bowmen of Oreon"
  
+ Z95:0 "Dragon Isles"
  Z96:0 "Nippon"
  Z97:0 "Strygos"
  Z98:0 "Araby"
@@ -966,8 +977,11 @@
  Z78_ADJ:0 "Takai"
  Z79_ADJ:0 "Janarjaya"
  Z80_ADJ:0 "Turjuk"
+ Z81_ADJ:0 "Cuexotl"
+ Z82_ADJ:0 "Teotiqua"
+ Z83_ADJ:0 "Bowmen of Oreon"
  
-  
+ Z95_ADJ:0 "Tzlan"
  Z96_ADJ:0 "Nipponese"
  Z97_ADJ:0 "Strygian"
  Z98_ADJ:0 "Arabyn"

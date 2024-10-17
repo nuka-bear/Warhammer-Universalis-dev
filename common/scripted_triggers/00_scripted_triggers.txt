@@ -555,16 +555,71 @@ was_never_end_game_tag_trigger = {	#Country Scope
 		custom_trigger_tooltip = {
 			tooltip = was_never_end_game_tag_trigger_tt
 			AND = {
-				NOT = { was_tag = A99 }
-				NOT = { was_tag = A98 }
-				NOT = { was_tag = U97 }
-				NOT = { was_tag = U98 }
+				NOT = { was_tag = Z95 }
+				NOT = { tag = Z95 }
+				NOT = { was_tag = Z96 }
+				NOT = { tag = Z96 }
+				NOT = { was_tag = Z97 }
+				NOT = { tag = Z97 }
+				NOT = { was_tag = Z98 }
+				NOT = { tag = Z98 }
+				NOT = { was_tag = Z99 }
+				NOT = { tag = Z99 }
 				NOT = { was_tag = U99 }
-				NOT = { tag = A99 }
-				NOT = { tag = A98 }
-				NOT = { tag = U97 }
-				NOT = { tag = U98 }
 				NOT = { tag = U99 }
+				NOT = { was_tag = U98 }
+				NOT = { tag = U98 }
+				NOT = { was_tag = U97 }
+				NOT = { tag = U97 }
+				NOT = { was_tag = U40 }
+				NOT = { tag = U40 }
+				NOT = { was_tag = I99 }
+				NOT = { tag = I99 }
+				NOT = { was_tag = I98 }
+				NOT = { tag = I98 }
+				NOT = { was_tag = H12 }
+				NOT = { tag = H12 }
+				NOT = { was_tag = B13 }
+				NOT = { tag = B13 }
+				NOT = { was_tag = B17 }
+				NOT = { tag = B17 }
+				NOT = { was_tag = B01 }
+				NOT = { tag = B01 }
+				NOT = { was_tag = A99 }
+				NOT = { tag = A99 }
+				NOT = { was_tag = A98 }
+				NOT = { tag = A98 }
+				NOT = { was_tag = A29 }
+				NOT = { tag = A29 }
+				NOT = { was_tag = A58 }
+				NOT = { tag = A58 }
+				NOT = { was_tag = A59 }
+				NOT = { tag = A59 }
+				NOT = { was_tag = A60 }
+				NOT = { tag = A60 }
+				NOT = { was_tag = A77 }
+				NOT = { tag = A77 }
+				NOT = { was_tag = A88 }
+				NOT = { tag = A88 }
+				NOT = { was_tag = U24 }
+				NOT = { tag = U24 }
+				NOT = { was_tag = U25 }
+				NOT = { tag = U25 }
+				NOT = { was_tag = U27 }
+				NOT = { tag = U27 }
+				NOT = { was_tag = U26 }
+				NOT = { tag = U26 }
+				NOT = { was_tag = U28 }
+				NOT = { tag = U28 }
+				NOT = { was_tag = U29 }
+				NOT = { tag = U29 }
+				NOT = { was_tag = U03 }
+				NOT = { tag = U03 }
+				NOT = { was_tag = V01 }
+				NOT = { tag = V01 }
+				NOT = { was_tag = V02 }
+				NOT = { tag = V02 }
+				
 			}
 		}
 	}

@@ -1,0 +1,7 @@
+government = monarchy
+primary_culture = dragon_isles_lizardmen
+religion = enlightened_path
+technology_group = tech_di_lizardmen
+capital = 4780
+government_rank = 3
+setup_vision = yes
