@@ -891,6 +891,7 @@
  Z82:0 "Teotiqua"
  Z83:0 "Bowmen of Oreon"
  
+ Z95:0 "Dragon Isles"
  Z96:0 "Nippon"
  Z97:0 "Strygos"
  Z98:0 "Araby"
@@ -980,7 +981,7 @@
  Z82_ADJ:0 "Teotiqua"
  Z83_ADJ:0 "Bowmen of Oreon"
  
-  
+ Z95_ADJ:0 "Tzlan"
  Z96_ADJ:0 "Nipponese"
  Z97_ADJ:0 "Strygian"
  Z98_ADJ:0 "Arabyn"

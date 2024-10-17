@@ -5,4 +5,4 @@ technology_group = tech_arabyn
 capital = 1782
 setup_vision = yes
 government_rank = 1
-add_government_reform = 
+

@@ -385,10 +385,10 @@ country_event = {
 		name = disaster_waaagh.5.option_2
 		ai_chance = { factor = 100 }
 
-		if {
+		if = {
 			limit = { mil = 6 }
 				add_mil_power = 100
-		} else  { change_mil = 1 }
+		} else = { change_mil = 1 }
 		
 		add_piety = .05
 	}
