@@ -3,6 +3,8 @@ JG To Do & Thoughts
 
 Common missions: https://eu4.paradoxwikis.com/List_of_common_mission_triggers
 
+Raiding is bringing dev to 0
+
 Make each mission tree a single icon of the culture or religion
 
 Adjust opening text for cultures and religions
@@ -19,6 +21,9 @@ Dwarves
 
 
 	Pie in sky: Control X gold and Gems (and beer, iron, copper?)
+
+Ogres
+	Great maw isn't part of a state right now?
 
 High Elves
 	Pie in the Sky: Perfidious Elves, ally or Rival all other great powers

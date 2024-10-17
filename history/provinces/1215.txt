@@ -1,0 +1,19 @@
+
+owner = I22
+controller = I22
+add_core = I22
+add_core = I11
+hre = no
+culture = ogre_main
+religion = the_great_maw_religion
+ 
+
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = old_ones_relics
+
+
+is_city = yes
