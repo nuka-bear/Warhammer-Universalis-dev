@@ -136,7 +136,7 @@
  nontribal_dev_20:0 "Non-Tribal Capital with a development of at least 20"
  nontribal_dev_30:0 "Non-Tribal Capital with a development of at least 30"
 
-  tooltip_development_10:0 "10 Development province"
+ tooltip_development_10:0 "10 Development province"
  tooltip_development_20:0 "20 Development province"
  tooltip_development_30:0 "30 Development province"
  tooltip_development_40:0 "40 Development province"

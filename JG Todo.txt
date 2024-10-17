@@ -9,6 +9,8 @@ get rid of the "You're old" events
 
 Fix province names in Southlands
 
+Fix Nehekharan unify religion mission
+
 Some way to get racial administration to benefit/harm based on terrain type? Look at hydroponic empire.
 
 Dwarves
