@@ -25,7 +25,7 @@ gen_dwarf_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_nobles
-			    loyalty = 70
+			    loyalty = 65
 			}
 		}
 
@@ -239,6 +239,10 @@ gen_ancestor_missions = {
 					num_of_times_expanded_infrastructure = 1
 					value = 3
 				}
+				num_of_owned_provinces_with = {
+					trade_goods = iron
+					value = 7
+				}
 			}
 		}
 
@@ -261,6 +265,10 @@ gen_ancestor_missions = {
 					trade_goods = beer
 					num_of_times_expanded_infrastructure = 1
 					value = 3
+				}
+				num_of_owned_provinces_with = {
+					trade_goods = beer
+					value = 7
 				}
 			}
 		}
@@ -288,6 +296,13 @@ gen_ancestor_missions = {
 					num_of_times_expanded_infrastructure = 1
 					value = 3
 				}
+				num_of_owned_provinces_with = {
+					OR = {
+						trade_goods = grain
+						trade_goods = fungi
+					}
+					value = 7
+				}
 			}
 		}
 
@@ -304,7 +319,13 @@ gen_ancestor_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  } 
 		trigger = {
-			ramparts = 3
+			OR = {
+				ramparts = 3
+				num_of_owned_provinces_with = {
+					fort_level = 2
+					value = 7
+				}
+			}
 		}
 
 		effect = {
@@ -330,6 +351,13 @@ gen_ancestor_missions = {
 					num_of_times_expanded_infrastructure = 1
 					value = 3
 				}
+				num_of_owned_provinces_with = {
+					OR = {
+						trade_goods = copper
+						trade_goods = gold
+					}
+					value = 7
+				}
 			}
 		}
 
@@ -354,10 +382,7 @@ gen_ancestor_missions = {
 					monthly_mil = 10
 				}
 				num_of_owned_provinces_with = {
-					OR = {
-						trade_goods = warpstone
-					}
-					num_of_times_expanded_infrastructure = 1
+					trade_goods = warpstone
 					value = 3
 				}
 			}
@@ -378,7 +403,7 @@ gen_ancestor_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_church
-			    loyalty = 70
+			    loyalty = 65
 			}
 		}
 
@@ -422,7 +447,7 @@ gen_hashut_missions = {
 		trigger = {
 			estate_loyalty = {
 			    estate = estate_church
-			    loyalty = 70
+			    loyalty = 65
 			}
 		}
 
@@ -518,6 +543,10 @@ gen_hashut_missions = {
 						base_production = 5
 					}
 					value = 3
+				}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					trade_goods = slaves
+					value = 7
 				}
 			}
 		}

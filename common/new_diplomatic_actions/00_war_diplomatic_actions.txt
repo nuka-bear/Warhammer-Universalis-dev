@@ -199,7 +199,7 @@ offer_dominion_action = {
 			name = IN_HRE_OFFER
 			limit = { FROM = { is_part_of_hre = yes } }
 			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = -30 }
+			multiply_variable = { which = ai_value value = -100 }
 		}
 
 		add_entry = {

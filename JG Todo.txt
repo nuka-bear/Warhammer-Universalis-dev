@@ -3,34 +3,45 @@ JG To Do & Thoughts
 
 Common missions: https://eu4.paradoxwikis.com/List_of_common_mission_triggers
 
-Look at government types
+Everybody!
+	Look at government types
+	Look at random pulse events
+	Look at decisions
+	Adjust opening text for cultures and religions, with callouts for most important things
+	Make each mission tree a single icon of the culture or religion
 
-Raiding is bringing dev to 0
+Some way to get racial administration to benefit/harm based on terrain type? Look at hydralaogic empire.
 
-Make each mission tree a single icon of the culture or religion
 
-Adjust opening text for cultures and religions
-
-get rid of the "You're old" events
-
-Fix province names in Southlands
-
-Fix Nehekharan unify religion mission
-
-Some way to get racial administration to benefit/harm based on terrain type? Look at hydroponic empire.
+Ind & Other one
+	Give them the araby tree?
 
 Ogres
 	IF you control the great maw, Sacrifice 2 year's worth of income for something
 	Ogres are dumb - penalty to powers?
+		+Trade, - production
 	Ogre units are much more powerful but have a really high upkeep modifier
 	Maybe Missions make units even better but also increase the upkeep modifier?
-	One focused on trade & merc work, one
+	One focused on trade & merc work, one focused on conquest
+	Ogre
+		Control each pass road
+		Have centers of Trade at level 3
+		Rent out condeterii
+		Unite the tribes
+	Maw
+		Have livestock provinces
+		Have grain provinces
+		Conquer the area around the great maw
+		Conquer x provinces in Cathay, Darklands, Northlands, Wheatlands
+
+Dwarves
+	+ Production, - tax & trade
 
 High Elves
 	Pie in the Sky: Perfidious Elves, ally or Rival all other great powers
 
-
 Focus on Nehekara to start
+	+ Tax, - production
 	Custom Estates - Mortuary Cult
 	Upset Estates with a frozen privilage - "Fractured Society" or something like that that gives them -loyalty. And each monument gives an estate + loyalty
 	Decision to improve ruler's stats
@@ -40,7 +51,7 @@ Focus on Nehekara to start
 	Decisions
 	Rename Some States
 	Mission for controlling and having forts on the passes? Maybe missions based on areas
-	Change rewards for symbols of power & symbols of religion
+	Unifying all Nehekhara religion isn't working
 
 Orcs
 	Need to stay at war at all times
@@ -53,7 +64,8 @@ Orcs
 	Adjust starting vision
 	5 pulse events to move towards mork or gork
 	Mork interaction: raise rebels in adjacent territories
-	Gork interaction: more manpower and gold?
+	Gork interaction: more manpower and gold
+	End Time mechanics for Orcs?
 
 
 Cathay
@@ -63,16 +75,11 @@ Cathay
 	Karma system - bigger maluses (diplo rep?) for not being karmically aligned
 
 
-Change a lot of the "own" requirements to own or subject own
-
 Fix Monstrous Unit Cost
 
 Should it be possible to change or have multiple racial administrations & militaries?
 	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)
 	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
-
-
-Adjust Lucky Nations
 
 
 ##### Paused for now #####

@@ -83,6 +83,7 @@ karaz_a_karak = {
 			allowed_num_of_buildings = 1
 		}
 		country_modifiers = {
+			reverse_relation_with_same_religion = 10
 		}
 		on_upgraded = {
 
@@ -107,6 +108,8 @@ karaz_a_karak = {
 			
 		}
 		country_modifiers = {
+			reverse_relation_with_same_religion = 10
+			diplomatic_reputation = 1
 		}
 		on_upgraded = {
 			
@@ -132,6 +135,9 @@ karaz_a_karak = {
 		region_modifier = {
 		}
 		country_modifiers = {
+			reverse_relation_with_same_religion = 25
+			diplomatic_reputation = 1
+			diplomatic_upkeep = 1
 		}
 		on_upgraded = {
 		}
@@ -844,17 +850,17 @@ harbor_of_lashiek = {
 			factor = 4000
 		}
 		province_modifiers = {
-			institution_growth = 1
+			institution_growth = 2
 			
 		}
 		area_modifier = {
-			local_sailors_modifier = 0.3
+			local_sailors_modifier = 0.5
 		}
 		region_modifier = {
 		}
 		country_modifiers = {
-			global_ship_trade_power = 0.4
-			privateer_efficiency = 0.4
+			global_ship_trade_power = 0.5
+			privateer_efficiency = 0.5
 		}
 		on_upgraded = {
 		}
