@@ -22,6 +22,7 @@ Ogres
 	Ogres are dumb - penalty to powers?
 	Ogre units are much more powerful but have a really high upkeep modifier
 	Maybe Missions make units even better but also increase the upkeep modifier?
+	One focused on trade & merc work, one
 
 
 Ogres
