@@ -508,7 +508,7 @@ idol_of_gork = {
 	date = 01.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -985,7 +985,7 @@ library_of_medes = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -998,8 +998,6 @@ library_of_medes = {
 
 	#can we build it?
 	build_trigger = {
-		owner = { religion_group = arabyn_denominations }
-		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -1012,14 +1010,10 @@ library_of_medes = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		owner = { religion_group = arabyn_denominations }
-		has_owner_religion = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		owner = { religion_group = arabyn_denominations }
-		has_owner_religion = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2446,7 +2440,7 @@ obelisk_of_eternity = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1

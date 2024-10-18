@@ -17,10 +17,13 @@ Fix Nehekharan unify religion mission
 
 Some way to get racial administration to benefit/harm based on terrain type? Look at hydroponic empire.
 
-Dwarves
+Ogres
+	IF you control the great maw, Sacrifice 2 year's worth of income for something
+	Ogres are dumb - penalty to powers?
+	Ogre units are much more powerful but have a really high upkeep modifier
+	Maybe Missions make units even better but also increase the upkeep modifier?
+	One focused on trade & merc work, one
 
-
-	Pie in sky: Control X gold and Gems (and beer, iron, copper?)
 
 Ogres
 	Great maw isn't part of a state right now?

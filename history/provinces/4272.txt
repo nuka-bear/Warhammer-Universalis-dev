@@ -7,5 +7,6 @@ religion = the_great_maw_religion
 controller = I11
 is_city = yes
 culture = ogre_main
+center_of_trade = 2
 add_core = I11
 fort_15th = yes

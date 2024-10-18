@@ -1,4 +1,48 @@
 spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_great_project_fishguts_cove"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_ivory_pass"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_goldeater_mines"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_arena_of_the_mawbite_tribes"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_firemouth_volcano"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_sky_titan_ruins"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_the_great_maw"
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+
+
+
+
+
+
+
 	spriteType = {
 		name = "GFX_great_project_zharr_naggrund"	
 		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"

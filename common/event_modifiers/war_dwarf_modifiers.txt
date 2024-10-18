@@ -2,6 +2,18 @@
 ### Dwarves
 
 
+### Chaos Dwarf Decisions
+
+hashut_slave_sacrifice = {
+	
+	discipline = 0.05
+
+}
+
+
+
+#### Dwarf Missions
+
 gen_dwarf_metals_bonus = {
 	shock_damage = 0.05	
 }
