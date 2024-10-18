@@ -115,7 +115,7 @@ fishguts_cove = {
 
 
 ivory_pass = {
-	start = 262 #Krakow
+	start = 4272
 	date = 01.01.01
 	time = { months = 0	}
 	build_cost = 0

@@ -3,6 +3,8 @@ JG To Do & Thoughts
 
 Common missions: https://eu4.paradoxwikis.com/List_of_common_mission_triggers
 
+Look at government types
+
 Raiding is bringing dev to 0
 
 Make each mission tree a single icon of the culture or religion
@@ -23,10 +25,6 @@ Ogres
 	Ogre units are much more powerful but have a really high upkeep modifier
 	Maybe Missions make units even better but also increase the upkeep modifier?
 	One focused on trade & merc work, one
-
-
-Ogres
-	Great maw isn't part of a state right now?
 
 High Elves
 	Pie in the Sky: Perfidious Elves, ally or Rival all other great powers
@@ -50,7 +48,6 @@ Orcs
 		A certain number of subterranean provinces
 		Raid the emperor
 		Mission choice at the end to improve professionalism or army tradition?
-		Raid each major capital: Karak, Khemri, Cathay, Empire
 	Give orcs Prussian militarization of state?- Fix this
 	Fix Orc Piety
 	Adjust starting vision

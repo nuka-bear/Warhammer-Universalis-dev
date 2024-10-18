@@ -469,7 +469,7 @@ administrative_missions = {
 			}
 			estate_loyalty = {
  				estate = estate_burghers
-    			loyalty = 75
+    			loyalty = 65
 			}
 		}
 		effect = {
