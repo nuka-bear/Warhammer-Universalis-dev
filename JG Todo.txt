@@ -9,6 +9,8 @@ Everybody!
 	Look at decisions
 	Adjust opening text for cultures and religions, with callouts for most important things
 	Make each mission tree a single icon of the culture or religion
+	Add province highlighting to missions
+	Use num_of_owned_provinces_with for many missions that do it a different way now. It shows the player the number they have
 
 Some way to get racial administration to benefit/harm based on terrain type? Look at hydralaogic empire.
 

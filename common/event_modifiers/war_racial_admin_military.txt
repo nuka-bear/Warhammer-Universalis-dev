@@ -207,40 +207,30 @@ fimir_military = {
 
 ogre_administration = {
 	#Positives
+	caravan_power = 0.25
+	global_trade_power = 0.25
     harsh_treatment_cost = -0.5					
-    global_spy_defence = 0.3				
-    global_unrest = -2							
-	fort_maintenance_modifier = -0.2			
-	global_trade_goods_size_modifier = 0.1	
-	reduced_liberty_desire = 10					
+    global_spy_defence = 0.3			
 	
     #Negatives
-    technology_cost = 0.05					
+    technology_cost = 0.05
+    production_efficiency = -0.25
     improve_relation_modifier = -0.3			
-	state_maintenance_modifier = 0.25			
 	spy_offence = -0.2						
-	global_trade_power = -0.1				
 }
 
 ogre_military = {
    #Positives
     
-    land_attrition = -0.2					
-    siege_ability = 0.1					
-    shock_damage = 0.25					
-    shock_damage_received = -0.15			
-    recover_army_morale_speed = 0.15	
+    land_attrition = -0.2				
+	infantry_power = 0.25
 	
     #Negatives
     
-    global_regiment_cost = 0.1				
+	infantry_cost = 0.25
+	global_manpower_modifier = -0.25
     global_regiment_recruit_speed = 0.5		
-    land_forcelimit_modifier = -0.2		
-    global_ship_cost = 0.1				
-	cav_to_inf_ratio = -0.25		
-    cavalry_flanking = -0.5				
-    movement_speed = -0.1				
-	manpower_recovery_speed = -0.15		
+    land_forcelimit_modifier = -0.25
 	
 }
 

@@ -1,0 +1,110 @@
+﻿l_english:
+ ############################
+ # OGRES
+ ############################
+
+
+ogre_claimant:0 "Big Boss of Da Tribes"
+ogre_claimant_desc:0 "Da biggest, meanest Ogre around, claimin’ da right ta lead all da tribes. All da boyz follow, or dey end up in da Maw!"
+
+ogre_trade_1:0 "Loot from Ivory Pass"
+ogre_trade_1_desc:0 "Caravans rollin' through da Ivory Pass? Not without payin' up! Our merchants make sure we's get da shinies, or dey gets smashed."
+
+ogre_trade_2:0 "Loot from Silk Pass"
+ogre_trade_2_desc:0 "Da Silk Pass be ours ta squeeze! Our merchants ain't just tradin’, dey intimidatin' anyone who dares try passin' without payin' tribute."
+
+ogre_trade_3:0 "Loot from North Pass"
+ogre_trade_3_desc:0 "No one gets through da North Pass without payin' da toll. We takes wot’s ours, and if dey refuse, dey get stuffed inta da Maw."
+
+dominate_ivory_road:0 "Big Boss of Da Ivory Road"
+dominate_ivory_road_desc:0 "Da whole Ivory Road be under our boots now. We’s controllin' everythin' dat moves, takin' da shinies from all da caravans an’ tradin’ posts."
+
+ogres_dominate_trade:0 "Da Big Looters"
+ogres_dominate_trade_desc:0 "Da biggest an’ baddest Ogres control da trade now. Everythin’ dat moves pays us a tribute, and we’s gettin’ richer by da day. Merchants? Nah, more like da biggest enforcers around."
+
+
+maw_grain:0 "Grain Fer Da Boyz"
+maw_grain_desc:0 "Grain ain’t da tastiest, but it keeps da belly full when meat’s runnin' low. Stock up so da boyz can keep marchin’ an' smashin'."
+
+maw_alcohol:0 "Booze Fer Da Ladz"
+maw_alcohol_desc:0 "Da boyz love a good drink! Get plenty of booze ta keep 'em happy an' calm. When da mugs are full, dere's less fightin’ between da tribes."
+
+maw_fish:0 "Fish Fer Da Camps"
+maw_fish_desc:0 "Fish is good fer keepin’ da boyz fed when dey can’t hunt. From rivers, lakes, or da seas – grab it all. We ain't picky, so long as it fills our guts!"
+
+maw_spices:0 "Spices Fer Da Feasts"
+maw_spices_desc:0 "Fancy stuff like spices makes da food taste better, especially when da boyz are feasting. Salt, sugar, anythin’ we can grab – it all makes da grub even tastier."
+
+maw_drinks:0 "Hot Drinks Fer Da Boyz"
+maw_drinks_desc:0 "Sometimes da boyz want more than booze. Hot drinks like tea an' coffee get ‘em goin' in da mornin’, keepin’ 'em awake an’ fightin' through da cold nights."
+
+maw_meat:0 "Meat Fer Da Tribe"
+maw_meat_desc:0 "Meat's wot da boyz really want! Big chunks o’ flesh from anything dat bleeds – be it cattle, beasts, or enemies. Fill da pots with meat an' watch da boyz fight even harder!"
+
+great_feast_stuff:0 "Stuff Fer Da Great Feast"
+great_feast_stuff_desc:0 "Da Maw demands a great feast, and we’s got all da stuff ta make it da best yet! When we throw da feast, da boys’ll be stronger, da Maw’ll be pleased, an’ we’ll be ready fer a proper scrap!"
+
+
+great_feast_modifier:0 "Da Great Feast"
+great_feast_modifier_desc:0 "We’s had da biggest feast ever! Da Maw’s pleased, da boys are stuffed, and now we’s ready fer any fight comin’ our way. Da lads are stronger, quicker, and fight harder after all dat eatin'."
+
+did_maw_sacrifice:0 "Food for Da Maw"
+did_maw_sacrifice_desc:0 "Feeding da Maw keeps it happy, an' da boys feel stronger knowin' da Maw’s on our side. We’s more ready fer battle after a good feedin’!"
+
+
+
+gen_ogre_please_nobility_title:0 "Keep Da Nobz Happy"
+gen_ogre_please_nobility_desc:0 "Da Nobz be important – they get ta lead da boyz into battle. If we keep 'em happy, da tribes’ll fight harder an’ stick together. Give ‘em wot dey want, or dey might just turn on us."
+
+gen_ogre_unite_tribes_title:0 "Unite Da Tribes"
+gen_ogre_unite_tribes_desc:0 "It’s time ta show all da tribes who’s boss! We bash all da weaklings an’ bring da lot of ‘em under one banner – OUR banner. With enough land an’ power, we’ll be da top dogs in da Mountains o’ Mourn."
+
+gen_ogre_mercenaries_title:0 "Rent Out Da Big Ladz"
+gen_ogre_mercenaries_desc:0 "Dere’s always weaklings willin’ to pay fer our smashy boyz. Send ‘em out fer loot an’ let ‘em earn us more shinies while they smash up da enemy."
+
+gen_ogre_ivory_pass_title:0 "Smash 'Em at da Ivory Pass"
+gen_ogre_ivory_pass_desc:0 "Dis pass be filled wit' fancy caravans, haulin' all dat shiny loot. Time fer us Ogres ta show dem who be boss 'round 'ere. We take wot’s ours, by smashin’ da soft ones an' keepin’ da rest runnin’ scared."
+
+gen_ogre_silk_pass_title:0 "Grub at da Silk Pass"
+gen_ogre_silk_pass_desc:0 "Da soft folk's caravans be stuffed with da finest cloth an' shinies, makin’ der way through dis pass. Da only way dey get through is if we’s get our cut. Send da lads ta take wot’s ours."
+
+gen_ogre_north_pass_title:0 "Smash 'Em at da North Pass"
+gen_ogre_north_pass_desc:0 "Dis 'ere be a prime spot fer huntin’ caravans comin’ from da north. We’ll take der loot, an’ any dat don’t pay up get fed to da Maw."
+
+gen_ogre_dominate_ivory_road_title:0 "Rule Da Ivory Road"
+gen_ogre_dominate_ivory_road_desc:0 "Da whole Ivory Road be ours! We's da biggest an' meanest around, and no caravan passes without payin' us a fat tribute. Make 'em quake in fear of our stompin’ boots."
+
+gen_ogre_ultimate_title:0 "Da Big Boss of Trade"
+gen_ogre_ultimate_desc:0 "Now we’s taken all da routes, an' we’s da biggest bosses of trade in da world! Ain't no caravan, no merchant dat don't pay us a fat cut. Da shinies all belong ta us!"
+
+
+
+gen_maw_grain_title:0 "Gather da Grain"
+gen_maw_grain_desc:0 "We needs plenty of grain fer da Maw! It’ll fill da bellies of da boys, an' da Maw’ll be pleased wit' da bounty. Grab every bit we can find."
+
+gen_maw_alcohol_title:0 "Fetch da Booze"
+gen_maw_alcohol_desc:0 "Ain't no feast without da strongest booze! Da Maw demands da best brews an' spirits from all over. Get yer hands on da strongest drinks."
+
+gen_maw_fish_title:0 "Gather da Fishies"
+gen_maw_fish_desc:0 "Fresh fish fer da Maw! From lakes, rivers, an' seas, we brings da tastiest fish to da feast. Every bit helps in makin' da Maw’s belly happy."
+
+gen_maw_spices_title:0 "Get Da Fancy Spices"
+gen_maw_spices_desc:0 "Spices from all over, makin' da food tastier fer da Maw. Salt, sugar, whatever we can find, it's all gonna make da feast da best one yet."
+
+gen_maw_drinks_title:0 "More Drinks fer Da Feast!"
+gen_maw_drinks_desc:0 "Get da finest tea, coffee, an' cocoa! Da Maw needs a drink ta wash down all da meat, an' we's gonna make sure it’s top-notch."
+
+gen_maw_meat_title:0 "Pile Up Da Meat!"
+gen_maw_meat_desc:0 "Ain't no feast without plenty of meat! Livestock, big critters, and whatever else we can find. The Maw’s belly will be rumblin' with joy when it gets dis lot."
+
+gen_maw_great_feast_title:0 "Throw Da Biggest Feast!"
+gen_maw_great_feast_desc:0 "Da Maw demands a great feast, an’ we's gonna make it da biggest yet! With all da grain, booze, fish, meat, an' spices, we’s set ta make da Maw real happy. Time fer a right proper celebration!"
+
+
+
+sacrifice_for_maw_title:0 "Sacrifice Fer Da Maw"
+sacrifice_for_maw_desc:0 "Da Maw be hungry, and it demands a sacrifice! Toss some o’ our best loot into da Maw’s belly, and it’ll bless da tribe with its favor. But dis only works once a year, so make it count!"
+
+great_feast_decision_title:0 "Throw Da Great Feast"
+great_feast_decision_desc:0 "It’s time ta throw da biggest feast ever fer da Maw! We’s gathered all da meat, booze, an’ grub needed fer a proper celebration. Da Maw’ll be real happy, an’ da lads’ll be stronger than ever, but it’ll cost us a mountain of shinies!"
+

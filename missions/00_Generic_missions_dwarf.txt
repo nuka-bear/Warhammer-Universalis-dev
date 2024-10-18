@@ -73,16 +73,15 @@ gen_dwarf_missions = {
 			custom_tooltip = claim_all_metals_tooltip
 			hidden_effect = {
 			
-			every_province = {
-				limit = {
-					OR = {
-						trade_goods = copper
-						trade_goods = iron
+				every_province = {
+					limit = {
+						OR = {
+							trade_goods = copper
+							trade_goods = iron
+						}
 					}
+					add_permanent_claim = ROOT
 				}
-				add_permanent_claim = ROOT
-
-			}
 			}
 		}
 	}
