@@ -57,6 +57,7 @@ neutral_culture = {
 }
 
 
+
 is_bretonnian_kingdom = {
 	OR = {
 		has_country_flag = bretonnian_duke_cf

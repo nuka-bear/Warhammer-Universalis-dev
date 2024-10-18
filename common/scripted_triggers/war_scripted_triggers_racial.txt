@@ -261,3 +261,14 @@ is_long_lived_ruler = {
 		}
 	}
 }
+
+country_is_elven = {
+	custom_trigger_tooltip = {
+		tooltip = country_is_elven_tt
+		OR = {
+			culture_group = asrai_group
+			culture_group = druchii_group
+			culture_group = asur_group
+		}
+	}
+}
