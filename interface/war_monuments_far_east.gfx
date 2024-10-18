@@ -1,6 +1,67 @@
 spriteTypes = {
 
 
+
+
+	spriteType = {
+		name = "GFX_great_project_temple_of_vaati_the_binder"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_fortress_of_celestial_spears"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_pillars_of_dharasala"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_garden_of_the_eternal_peace"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_grand_library_of_lashara"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_tower_of_kala_the_sage"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_shrine_of_the_lotus_king"
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_ziggurat_of_the_serpent_kings"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_temple_of_the_coiled_sun"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_shadowfang_citadel"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_sacred_grove_of_zhaqlah"	
+		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
+	}
+
+
+
+
+
 	spriteType = {
 		name = "GFX_great_project_fishguts_cove"	
 		texturefile = "gfx//interface//great_projects//great_project_hampi.dds"
