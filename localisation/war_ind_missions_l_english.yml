@@ -1,0 +1,93 @@
+﻿l_english:
+
+indish_happy_church:0 "Blessing of the Priests"
+desc_indish_happy_church:0 "The loyalty of our religious leaders ensures peace and harmony within our nation, granting us greater tolerance towards our people."
+
+indish_place_of_study:0 "Halls of Wisdom"
+desc_indish_place_of_study:0 "With our prestigious centers of learning, we foster the growth of institutions, allowing knowledge to spread swiftly throughout our lands."
+
+indish_place_of_law:0 "Seat of Justice"
+desc_indish_place_of_law:0 "Establishing strong legal institutions has lowered the costs of maintaining stability, ensuring that our realm is governed by order and fairness."
+
+indish_place_of_innovation:0 "Cradle of Innovation"
+desc_indish_place_of_innovation:0 "In our centers of innovation, the brightest minds come together, pushing the boundaries of knowledge and ushering in new ideas for the advancement of our society."
+
+indish_charitable:0 "Charitable Legacy"
+desc_indish_charitable:0 "By sharing our wealth with neighboring states, we build strong bonds of friendship, enhancing our diplomatic reputation and fostering goodwill among those of the same faith."
+
+indish_historical_defender:0 "Defender of the Faith"
+desc_indish_historical_defender:0 "We stand as the defenders of our faith, with a prestigious history of shielding the devout and strengthening our bond with fellow believers."
+
+indish_add_missionary_1:0 "Expanded Missionary Presence"
+desc_indish_add_missionary_1:0 "Our efforts to spread our faith are bolstered, allowing us to send more missionaries and increase the strength of their work."
+
+indish_add_missionary_2:0 "Missionary Surge"
+desc_indish_add_missionary_2:0 "As our influence expands, we are able to send additional missionaries to further spread our faith across distant lands."
+
+indish_trade_hub:0 "Hub of Commerce"
+desc_indish_trade_hub:0 "Our mastery over trade ensures that our nation becomes a central hub of commerce, enriching our coffers and increasing our trade efficiency."
+
+indish_cavalry_fraction:0 "Cavalry Supremacy"
+desc_indish_cavalry_fraction:0 "Our armies are renowned for their cavalry superiority, with enhanced flanking power and a larger proportion of mounted units in battle."
+
+indish_holy_war:0 "Righteous Crusade"
+desc_indish_holy_war:0 "Our zeal to wage holy wars grants us a powerful casus belli against the infidels, strengthening our ability to expand the faith by force."
+
+indish_holy_war_2:0 "Holy Expansion"
+desc_indish_holy_war_2:0 "Through holy war, we have honed our tactics, reducing the cost of enforcing religious dominance and making it easier to subjugate heretics."
+
+indish_expand_abroad:0 "Overseas Expansion"
+desc_indish_expand_abroad:0 "Our sights are set on new lands across the seas, where we will expand our colonies and extend our influence."
+
+indish_ultimate_reward:0 "Divine Reward"
+desc_indish_ultimate_reward:0 "Through our efforts to spread the faith and advance our knowledge, we are rewarded with divine favor, bringing prosperity and influence to our nation."
+
+
+
+
+gen_indish_please_nobility_title:0 "Please the Nobility"
+gen_indish_please_nobility_desc:0 "The support of the nobility is crucial to maintaining the stability of our realm. We must ensure their loyalty to strengthen our rule and secure additional religious influence."
+
+gen_indish_cavalry_title:0 "Strengthen the Cavalry"
+gen_indish_cavalry_desc:0 "Our cavalry is the backbone of our armies. By expanding and improving our cavalry forces, we ensure that we dominate the battlefield with swift and decisive maneuvers."
+
+gen_indish_war_with_infidel_title:0 "War with the Infidel"
+gen_indish_war_with_infidel_desc:0 "The time has come to wage war against those who do not share our faith. We will lead a righteous crusade to cleanse the lands of unbelievers and bring them under our control."
+
+gen_indish_war_expand_faith_title:0 "Expand the Faith"
+gen_indish_war_expand_faith_desc:0 "Through conquest and holy wars, we will extend the reach of our faith, asserting our dominance over foreign lands and ensuring the supremacy of our beliefs."
+
+gen_indish_build_docks_title:0 "Build Coastal Infrastructure"
+gen_indish_build_docks_desc:0 "To expand overseas, we must first establish the infrastructure to support naval expeditions. By building docks and drydocks, we lay the foundation for our future maritime empire."
+
+gen_indish_expand_overseas_title:0 "Expand Overseas"
+gen_indish_expand_overseas_desc:0 "The world beyond our shores offers immense opportunities. We must expand our territories across multiple continents to secure resources and spread our influence."
+
+gen_indish_center_of_trade_title:0 "Center of Trade"
+gen_indish_center_of_trade_desc:0 "By controlling the seas and establishing a powerful fleet of light ships, we can transform our ports into thriving centers of trade, dominating the flow of wealth across the seas."
+
+gen_indish_ultimate_mission_title:0 "The Ultimate Reward"
+gen_indish_ultimate_mission_desc:0 "As a great power, we have achieved unparalleled dominance. Now is the time to claim the ultimate reward, spreading our influence across the world and securing the divine favor that comes with our success."
+
+
+
+gen_thousand_gods_happy_priest_title:0 "Appease the Priests"
+gen_thousand_gods_happy_priest_desc:0 "The priests of the Thousand Gods hold great sway over the spiritual and political life of our nation. By securing their loyalty, we gain the favor of the divine."
+
+gen_thousand_gods_places_of_worship_title:0 "Expand Places of Worship"
+gen_thousand_gods_places_of_worship_desc:0 "Our devotion to the Thousand Gods must be reflected in the grand temples we build. By expanding our places of worship, we ensure that the gods continue to favor us."
+
+gen_thousand_gods_place_of_study_title:0 "Establish Centers of Study"
+gen_thousand_gods_place_of_study_desc:0 "Knowledge is power, and by fostering centers of study, we can accelerate the growth of institutions and secure our place as a hub of learning."
+
+gen_thousand_gods_places_of_law_title:0 "Fortify the Rule of Law"
+gen_thousand_gods_places_of_law_desc:0 "A strong legal framework ensures stability and order across our lands. By building courthouses and town halls, we entrench the rule of law and reduce the cost of maintaining stability."
+
+gen_thousand_gods_places_of_innovation_title:0 "Foster Innovation"
+gen_thousand_gods_places_of_innovation_desc:0 "Through our investment in universities and centers of knowledge, we create an environment where new ideas can flourish, pushing the boundaries of what is possible."
+
+gen_thousand_gods_charitable_title:0 "Charitable Deeds"
+gen_thousand_gods_charitable_desc:0 "In the name of the Thousand Gods, we must show generosity to our neighbors, improving relations with those who share our faith and enhancing our standing in the eyes of the divine."
+
+gen_thousand_gods_defender_of_faith_title:0 "Defender of the Faith"
+gen_thousand_gods_defender_of_faith_desc:0 "Having proven our dedication to the Thousand Gods, we now stand as the foremost defender of our faith, ensuring the unity of our religion and securing our prestige."
