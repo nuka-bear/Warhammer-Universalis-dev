@@ -352,7 +352,7 @@ the_far_wastes_region = {
 }
 the_western_wastes_region = {
 	areas = {
-		chaos_wastes_9_area far_wastes_13_area far_wastes_14_area far_wastes_15_area chaos_wastes_1_area chaos_wastes_2_area chaos_wastes_3_area chaos_wastes_4_area chaos_wastes_5_area chaos_wastes_6_area
+		karag_dum_area chaos_wastes_9_area far_wastes_13_area far_wastes_14_area far_wastes_15_area chaos_wastes_1_area chaos_wastes_2_area chaos_wastes_3_area chaos_wastes_4_area chaos_wastes_5_area chaos_wastes_6_area
 		chaos_wastes_7_area chaos_wastes_8_area chaos_wastes_10_area chaos_wastes_11_area chaos_wastes_12_area chaos_wastes_15_area kdatha_area 
 	}
 }
