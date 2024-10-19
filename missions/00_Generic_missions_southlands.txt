@@ -1123,7 +1123,7 @@ gen_nehekhara_missions = {
 	}
 }
 
-gen_nehekhara_missions = {
+gen_nehekhara_ultimate_missions = {
 	slot = 3
 	generic = yes
 	ai = yes

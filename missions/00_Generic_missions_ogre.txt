@@ -148,12 +148,15 @@ gen_ogre_missions = {
 }
 
 
-gen_ogre_missions = {
+gen_ogre_ultimate_missions = {
 	slot = 3
 	generic = yes
 	ai = yes
 	potential = {
-		culture_group = ogre_group
+		OR = {
+			culture_group = ogre_group
+			primary_culture = ogre_main
+		}
 	}
 
 	gen_ogre_ultimate = { 
