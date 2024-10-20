@@ -1316,17 +1316,17 @@ guiTypes = {
 					fullscreen=no
 
 
-				listboxType = {
-					name ="bookmarks_list"
-					position = { x = 16 y = 100 }
-					backGround=""
-					size = { x=254 y =287 }
-					Orientation = "UPPER_LEFT"
-					horizontal = 0
-					spacing = 0
-					scrollbartype = "standardlistbox_slider"
-					borderSize = {x = 0 y = 0}
-				}
+					listboxType = {
+						name ="bookmarks_list"
+						position = { x = 14 y = 88 }	# EDIT
+						backGround=""
+						size = { x=254 y=485 }	# EDIT
+						Orientation = "UPPER_LEFT"
+						horizontal = 0
+						spacing = 0
+						scrollbartype = "standardlistbox_slider"
+						borderSize = {x = 0 y = 0}
+					}
 
 				}
 
