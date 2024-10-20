@@ -191,7 +191,7 @@ country_event = {
 		name = disaster_no_waaagh.5.option_1
 		ai_chance = { factor = 100 }
 		kill_ruler = yes
-		add_piety = .05
+		add_piety = 0.05
 	}
 
 
@@ -208,7 +208,7 @@ country_event = {
 				type = pretender_rebels
 			}
 		}
-		add_piety = -.05
+		add_piety = -0.05
 	}
 }
 
@@ -300,7 +300,7 @@ country_event = {
 				}
 			}
 		}
-		add_piety = -.25
+		add_piety = -0.25
 	}
 
 
@@ -340,7 +340,7 @@ country_event = {
 		ai_chance = { factor = 100 }
 		add_yearly_manpower = 2
 		add_stability = -1
-		add_piety = -.05
+		add_piety = -0.05
 	}
 
 
@@ -350,7 +350,7 @@ country_event = {
 		name = disaster_waaagh.4.option_2
 		ai_chance = { factor = 100 }
 		add_yearly_manpower = 0.5
-		add_piety = .05
+		add_piety = 0.05
 	}
 }
 
@@ -375,7 +375,7 @@ country_event = {
 		name = disaster_waaagh.5.option_1
 		ai_chance = { factor = 100 }
 		create_general = { tradition = 75 }
-		add_piety = -.05
+		add_piety = -0.05
 	}
 
 
@@ -390,7 +390,7 @@ country_event = {
 				add_mil_power = 100
 		} else = { change_mil = 1 }
 		
-		add_piety = .05
+		add_piety = 0.05
 	}
 }
 
