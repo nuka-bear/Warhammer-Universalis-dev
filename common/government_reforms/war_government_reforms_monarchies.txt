@@ -160,10 +160,16 @@ witch_kingdom_reform = {
 	heir = no
 
 	nation_designer_trigger = {
-		tag = H12
+		or = {
+			was_tag = H12
+			tag = H12
+		}
 	}
 	potential = {
-		tag = H12
+		or = {
+			was_tag = H12
+			tag = H12
+		}
 	}
 	modifiers = {
         administrative_efficiency = 0.05
@@ -181,7 +187,38 @@ witch_kingdom_reform = {
 		
 	}
 	ai = {
-		factor = 0.5		#generic
+		factor = 100		#generic
 	}
 }
 
+
+athel_loren_monarchy = {
+	icon = "korean_monarchy"
+	allow_normal_conversion = no
+	valid_for_nation_designer = no
+	nation_designer_cost = 20
+	fixed_rank = 3
+	lock_level_when_selected = yes
+	heir = no
+	nation_designer_trigger = {
+		or ={
+			tag = B01
+			was_tag = B01
+		}
+	}
+	potential = {
+		or ={
+			tag = B01
+			was_tag = B01
+		}
+	}
+	modifiers = {
+		development_cost_in_primary_culture = -0.1
+		same_culture_advisor_cost = -0.1
+		global_institution_spread = 0.15
+	}
+
+	ai = {
+		factor = 100
+	}
+}

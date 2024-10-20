@@ -101,6 +101,7 @@ monarchy = {
 				midnight_aristocracy_reform
 				dwarf_kingdom_reform
 				witch_kingdom_reform
+				athel_loren_monarchy
 			}
 		}
 		hereditary_vs_nobility = {

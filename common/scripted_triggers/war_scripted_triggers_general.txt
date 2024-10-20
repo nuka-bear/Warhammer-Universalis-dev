@@ -13,6 +13,9 @@ destruction_culture = {
 		technology_group = tech_eastern_undead
 		religion_group = ruinous_powers_denominations
 		religion = nagash_worship
+		not = {
+			religion = norscan
+		}
 	}
 }
 
