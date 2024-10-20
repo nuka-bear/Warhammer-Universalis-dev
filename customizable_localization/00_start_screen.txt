@@ -54,6 +54,7 @@ defined_text = {
 	#Americas:
 	#Middle & Near East
 	#Regions, leave this before the Countries otherwise this will be shown instead (this is a backup shown for countries who dont have special intros)
+
 	#nehekhara region
 	text = {
 		localisation_key = string_start_title_nehekhara
@@ -63,18 +64,42 @@ defined_text = {
 			}
 		}
 	}
+
+	text = {
+		localisation_key = string_start_title_arabyn
+		trigger = {
+			technology_group = tech_arabyn
+		}
+	}
+
+	text = {
+		localisation_key = string_start_title_cathay
+		trigger = {
+			technology_group = tech_cathayan
+		}
+	}
+
+	text = {
+		localisation_key = string_start_title_ogre
+		trigger = {
+			technology_group = tech_ogre
+		}
+	}
+
+	text = {
+		localisation_key = string_start_title_chaos_dwarf
+		trigger = {
+			technology_group = tech_chaos_dwarfen
+		}
+	}
+
 	text = {
 		localisation_key = string_start_title_badlands_gs
 		trigger = {
-			and = {
-				capital_scope = {
-					region = badlands_region
-				}
-				technology_group = tech_orcish
-			}
-
+			technology_group = tech_orcish
 		}
 	}
+
 	text = {
 		localisation_key = string_start_title_skaven
 		trigger = {
@@ -83,7 +108,8 @@ defined_text = {
 			}
 
 		}
-	}	
+	}
+
 	text = {
 		localisation_key = string_start_title_dwarf
 		trigger = {
@@ -92,7 +118,13 @@ defined_text = {
 			}
 
 		}
-	}		
+	}
+
+##################
+###### GENERIC
+################
+
+
 	#Generic:
 	text = {
 		localisation_key = string_start_title_horde
@@ -356,16 +388,40 @@ defined_text = {
 			}
 		}
 	}
+
+	text = {
+		localisation_key = string_start_arabyn
+		trigger = {
+			technology_group = tech_arabyn
+		}
+	}
+
+	text = {
+		localisation_key = string_start_cathay
+		trigger = {
+			technology_group = tech_cathayan
+		}
+	}
+
+	text = {
+		localisation_key = string_start_ogre
+		trigger = {
+			technology_group = tech_ogre
+		}
+	}
+
+	text = {
+		localisation_key = string_start_chaos_dwarf
+		trigger = {
+			technology_group = tech_chaos_dwarfen
+		}
+	}
+
+
 	text = {
 		localisation_key = string_start_badlands_gs
 		trigger = {
-			and = {
-				capital_scope = {
-					region = badlands_region
-				}
-				technology_group = tech_orcish
-			}
-
+			technology_group = tech_orcish
 		}
 	}
 	text = {

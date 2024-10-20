@@ -11,6 +11,7 @@
  string_start_title_skaven:0 "Rise of the Under-Empire"
  string_start_skaven:0 "§OPrimer§!\nThe Skaven are a race of malevolent and diabolical race of large, intelligent, humanoid rats that inhabit the underground of the Warhammer world, known as the Under-Empire. The sprawlings tunnels of the Under-Empire reach from the steaming jungles of the South Lands to the snow-covered steppes of Kislev, from the Western borders of Estalia and Bretonnia to the distant realms of the Far East.\n\nAt the very heart of Skavendom lies the horrific underground city of Skavenblight, hidden in the centre of the foul marches lying on the western borders of Tilea. There the  mighty Lords of Decay, ruthless rulers of all Skaven, sit in the Council of Thirteen, scheming and planning in preparation for the time when their armies will emerge from their subterranean realm to raze the entire surface world and rule over its ruins, which they refer to as the Great Ascendancy. This is the ultimate ambition of the Skaven race, a destiny which is preached by the Grey Seers, who are prophets of the Horned Rat - the festering, disgusting god Skaven deity. \n\nSkaven society follows a strict heirarchy; the Council of Thirteen and Grey Seers at the top, the Greater and Warlord Clans in the middle and the countless masses of slaves at the bottom. The fortunes of any individual are a different matter though; no race is so prone to scheming, intrigue and outright betrayal as the Skaven, with each ratlike mind devoted almost entirely to climbing the slippery ladder of power. Every skaven knows it is genius surrounded by expendable fools, and they will eventually rise to command all it surveys and conquer the above-ground in the name of their scabrous deity, for it is the ultimate recipient of the Horned Rat’s favour."
 
+
  string_start_title_badlands_gs:0 "WAAAAGH"
  string_start_badlands_gs:0 "There is no race so pervasive, prolific, diverse, and destructive as the Greenskins. From cowardly Goblins to rugged Orcs and lumbering Trolls they are a bane to civilisations across the known world.\n\nThe cradle of the greenskins is the Badlands. Where they originally came from no one knows, but where they are strongest now is the Badlands. With such multitudes of greenskins, it is only a matter of time before a great warlord arises from the countless masses, and the time has come. Rally the greenskins of the Badlands, and perhaps the Old World, for the greatest WAAAGH! yet to come."
 
@@ -18,3 +19,33 @@
  string_start_title_dwarf:0 "Age of Retribution"
  string_start_dwarf:0 "§OPrimer§!\nThe Dwarfs are an ancient race, said to have been birthed from solid stone. This seems plausible, for the spirit and body of a Dwarf are hardy like stone. Many centuries ago the Dwarfs enjoyed an era of peace and prosperity known as the Golden Age, with an empire of Karaks connected by countless underground passages, featuring powerful militaries, gold, silver, iron and gromril in unimaginable abundance and rune-endowed halls full of laughter and song.\n\nHowever the Dwarfs found they had many enemies and very few true friends. As first, the arrogant Elves betrayed the Dwarfs, starting a centuries long conflict known as the War of Vengeance. The Dwarfen victory in the conflict was short-lived, as shortly after hordes of Greenskins and foul Skaven swarmed against their defences. In time the Dwarfs, strong as they may have been, were reduced to a shadow of their former glory, eroded much as a mighty mountain is by mere rain and wind.\n\nBut as the other races squabble amongst themselves and forget the wisdom of their fathers, Dwarfs hone their skills and work together to reforge their shattered empire. As the the time of the Age of Retribution draws closer, the power of Dwarf determination grows stronger."
  
+# arabyn
+
+string_start_title_arabyn:0 "The Kingdoms of Araby"
+string_start_arabyn:0 "In 2502 IC, Araby stands divided between two competing visions for its future. The noble class, wealthy from trade and conquest, pushes for a new Jihad to reclaim past glories. Their eyes turn to Estalia and Tilea, seeing opportunity for expansion and a chance to unite the fractured tribes under a banner of war. For the emirs and sultans, Jihad is not only a religious duty but a way to secure power and ensure their legacy.\n\nIn contrast, Araby's clerics, respected by the common folk, advocate for peace and inward development. They argue that war has weakened the nation and call for a focus on piety, knowledge, and rebuilding the strength of Araby through economic reforms and cultural preservation.\n\n As tension grows between these two forces, the future of Araby hangs in the balance—will it follow the path of war, or seek strength in peace?"
+
+## Cathay
+string_start_title_cathay:0 "Cathay - A Kingdom on the Edge of Chaos"
+string_start_cathay:0 "Grand Cathay remains a vast and powerful empire, its cities glittering under the rule of the Dragon Emperor and his children. Yet, beneath this grandeur, the unity of Cathay is strained. Each region of the empire is effectively governed by different factions—some led by the Dragon Emperor’s children, others by ambitious warlords, powerful merchant guilds, or secretive sorcerers. While the Emperor’s divine authority remains unchallenged in name, his control over the sprawling empire is increasingly symbolic.\n\nThese regional rulers hold significant autonomy, and in many areas, non-governmental power brokers wield more influence than the Dragon Throne itself. Merchant consortiums control trade routes, religious sects shape local policies, and ancient academies guard arcane secrets that even the imperial court dares not interfere with. The empire remains a formidable force, but its true power lies in the delicate balance between these competing factions, each with its own agenda, all vying for dominance within Cathay’s vast borders.\n\nCan the Imperial Throne reign in these rogue elements? Will a prince claim the throne? Or will the realm fall to chaos?"
+
+## Ogres
+string_start_title_ogre:0 "The Ogre Tribes - Feeding off Greater Powers"
+string_start_ogre:0 "The Ogre Kingdoms, scattered across the brutal expanse of the Mountains of Mourn, remain a fractured and fearsome presence. Along the Ivory Road, their warbands regularly descend upon caravans, shaking down traders for gold, supplies, and fresh meat. These marauding ogres are united only by their devotion to the Great Maw, a monstrous deity that demands endless sacrifice. Yet, to their great distress, the sacred Great Maw crater lies in the hands of Grand Cathay, a constant source of tension and humiliation for the ogre tribes. \n\nThough fearsome in battle, the ogres remain disorganized, each tribe driven by its own needs for food and plunder. Some whisper of a potential unification—of a time when the warring bands might come together to form a true kingdom, driven by hunger and the desire to reclaim their holy site. Yet, for now, they remain little more than wandering bandits, feared by all who dare traverse their desolate lands. The question looms - will the ogres remain divided, or rise as a cohesive force to challenge the world?"
+
+## Chaos Dwarves
+
+string_start_title_chaos_dwarf:0 "The Tyanny of Hashut"
+string_start_chaos_dwarf:0 "In the Dark Lands, the Chaos Dwarves of Zharr-Naggrund gather their strength, their forges burning night and day as they prepare for war. Militant and tyrannical, these twisted descendants of the dwarven race are united in their devotion to Hashut, the Father of Darkness, whose fiery will drives their endless expansion. Their obsidian towers rise above slave-filled mines, where orcs, hobgoblins, and ogres toil under the lash—creatures the Chaos Dwarves despise with utter contempt.\n\nFor centuries, they have bided their time, perfecting their war machines and bolstering their armies of twisted creations. Now, the time draws near for them to strike out and claim the Dark Lands entirely. With their infernal weaponry and unyielding discipline, the Chaos Dwarves are ready to impose their iron rule on the lands around them, crushing any who dare oppose their dominion. Their neighbors, chaotic and disorganized, will be swept aside as the empire of Hashut rises."
+
+
+
+
+
+
+
+
+
+
+
+
+

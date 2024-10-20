@@ -12,7 +12,6 @@ bookmark = {
 
 	country = Z02
 	country = Z05
-	country = Z07
 	country = G04
 	country = G08
 	country = Z31
