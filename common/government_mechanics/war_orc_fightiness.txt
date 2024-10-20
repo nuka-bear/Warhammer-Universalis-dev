@@ -9,15 +9,38 @@ orc_fightiness_mechanic = {
 	powers = {
 		orc_fightiness_power = {
 			max = 100
-			reset_on_new_ruler = no
-			base_monthly_growth = -0.1
-			
+			min = -100
+			reset_on_new_ruler = no	
+
 			scaled_modifier = {
+				start_value = 0
+				end_value = 100
+				extend_beyond_value = no
 				modifier = {
 					manpower_recovery_speed = 0.33
+					land_morale = 0.10
+					global_regiment_cost = -0.33
 					global_unrest = -3
 				}
 			}
+
+            scaled_modifier = {
+				start_value = 0
+				end_value = -100
+				extend_beyond_value = no
+                modifier = {
+					manpower_recovery_speed = -0.33
+					land_morale = -0.10
+					global_regiment_cost = 0.33
+					global_unrest = 3
+                }
+            }
 		}
 	}
+
+
+
+
+
+
 }

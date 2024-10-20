@@ -1,5 +1,6 @@
 ﻿l_english:
 
- #placeholder loc file for Orcs and Goblins
- test_buff:0 "Greenskin Buff"
- desc_test_buff:0 ""
+orc_fightiness_power:0 "Fightiness"
+
+orc_fightiness_mechanic:0 "Greenskin Fightiness"
+ability_orc_fightiness_mechanic:0 "Greenskin Fightiness"

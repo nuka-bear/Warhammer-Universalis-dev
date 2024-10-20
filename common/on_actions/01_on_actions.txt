@@ -271,6 +271,8 @@ on_bi_yearly_pulse = {
 
 
 
+### Skaven have raiding, orcs don't. If orcs take a province, then skaven take it back, it shouldn't be raided. If Skaven take it back, then they are both the Owner and Controller.
+
 ### Raiding # FROM = Loser country?
 on_siege_won_province = {
 	if = {
@@ -278,7 +280,9 @@ on_siege_won_province = {
 			controller = {
 				has_country_modifier = lets_raid_modifier
 				NOT = { technology_group = FROM }
+#				NOT = { owner = PREV }
 			}
+
 			NOT = { has_province_modifier = recently_raided }
 			NOT = { has_influencing_fort = yes }
 		}

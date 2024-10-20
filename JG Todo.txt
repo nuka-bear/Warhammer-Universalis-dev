@@ -4,8 +4,10 @@ JG To Do & Thoughts
 Common missions: https://eu4.paradoxwikis.com/List_of_common_mission_triggers
 
 Raiding happens when people reclaim their own lands
+	Might be fixed, check if this works.
 
-Grimgor Ironhide has ROOT as a last name - make his dynasty name Ironhide?
+Burger Privelage if your capital is in a subterranean zone, then you get + in subterranean, - in non-subterranean
+	Look at hydralaogic empire.
 
 Everybody!
 	Look at government types
@@ -17,29 +19,11 @@ Everybody!
 	Use num_of_owned_provinces_with for many missions that do it a different way now. It shows the player the number they have
 	Add monuments based on the map.
 
-Some way to get racial administration to benefit/harm based on terrain type? Look at hydralaogic empire.
-
-Make more bookmarks
-
 Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
 
-Ogres
-	IF you control the great maw, Sacrifice 2 year's worth of income for something
-	Ogres are dumb - penalty to powers?
-		+Trade, - production
-	Ogre units are much more powerful but have a really high upkeep modifier
-	Maybe Missions make units even better but also increase the upkeep modifier?
-	One focused on trade & merc work, one focused on conquest
-	Ogre
-		Control each pass road
-		Have centers of Trade at level 3
-		Rent out condeterii
-		Unite the tribes
-	Maw
-		Have livestock provinces
-		Have grain provinces
-		Conquer the area around the great maw
-		Conquer x provinces in Cathay, Darklands, Northlands, Wheatlands
+Add the warhammer legendary lords
+
+Worry about military balance
 
 Dwarves
 	+ Production, - tax & trade
@@ -74,7 +58,8 @@ Orcs
 Cathay
 	Estate prevents taking land outside tech group?
 	Mandate?
-	Karma system - bigger maluses (diplo rep?) for not being karmically aligned
+	Mandate
+		Dominion somebody makes you take their mandate too.
 
 Bugs
 	Fix Monstrous Unit Cost

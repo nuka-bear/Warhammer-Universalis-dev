@@ -30,61 +30,61 @@ waaagh: "WAAAGH!"
 desc_waaagh_desc: "WAAAAAAAAAAAAAAAGH!"
 
 
-# Event disaster_no_waaagh.1
-disaster_no_waaagh.1.t:0 "Da Boyz Gettin' Krumpy"
-disaster_no_waaagh.1.d:0 "Da boyz is restless, got no enemy ta smash! No WAAAGH ta keep ‘em busy, so dey's bout ta start scrappin' wif each udda!"
-disaster_no_waaagh.1.option_1:0 "Find sumfink ta fight!"
-disaster_no_waaagh.1.option_2:0 "Let 'em bash each uddah"
+# Event event_no_waaagh.1
+event_no_waaagh.1.t:0 "Da Boyz Gettin' Krumpy"
+event_no_waaagh.1.d:0 "Da boyz is restless, got no enemy ta smash! No WAAAGH ta keep ‘em busy, so dey's bout ta start scrappin' wif each udda!"
+event_no_waaagh.1.option_1:0 "Find sumfink ta fight!"
+event_no_waaagh.1.option_2:0 "Let 'em bash each uddah"
 
-# Event disaster_no_waaagh.2
-disaster_no_waaagh.2.t:0 "Let da WAAAGH Begin!"
-disaster_no_waaagh.2.d:0 "Finally, it’s time fer WAAAGH! Da warband's ready ta charge fer blood an’ glory!"
-disaster_no_waaagh.2.option_1:0 "WAAAAGH!"
+# Event event_no_waaagh.2
+event_no_waaagh.2.t:0 "Let da WAAAGH Begin!"
+event_no_waaagh.2.d:0 "Finally, it’s time fer WAAAGH! Da warband's ready ta charge fer blood an’ glory!"
+event_no_waaagh.2.option_1:0 "WAAAAGH!"
 
-# Event disaster_no_waaagh.3
-disaster_no_waaagh.3.t:0 "Need a Scrap!"
-disaster_no_waaagh.3.d:0 "No proper WAAAGH makes da boyz grumpy an’ mad! We need a nearby target fer da bashin'!"
-disaster_no_waaagh.3.option_1:0 "Start a new scrap!"
-disaster_no_waaagh.3.option_2:0 "Let 'em fight amongst demselfs"
+# Event event_no_waaagh.3
+event_no_waaagh.3.t:0 "Need a Scrap!"
+event_no_waaagh.3.d:0 "No proper WAAAGH makes da boyz grumpy an’ mad! We need a nearby target fer da bashin'!"
+event_no_waaagh.3.option_1:0 "Start a new scrap!"
+event_no_waaagh.3.option_2:0 "Let 'em fight amongst demselfs"
 
-# Event disaster_no_waaagh.4
-disaster_no_waaagh.4.t:0 "Da New Boyz"
-disaster_no_waaagh.4.d:0 "Da new ladz are floodin' in, lookin' fer a fight! But dey might be more trouble dan dey worth."
-disaster_no_waaagh.4.option_1:0 "Stick 'em in da mob"
-disaster_no_waaagh.4.option_2:0 "Smash 'em up!"
+# Event event_no_waaagh.4
+event_no_waaagh.4.t:0 "Da New Boyz"
+event_no_waaagh.4.d:0 "Da new ladz are floodin' in, lookin' fer a fight! But dey might be more trouble dan dey worth."
+event_no_waaagh.4.option_1:0 "Stick 'em in da mob"
+event_no_waaagh.4.option_2:0 "Smash 'em up!"
 
-# Event disaster_no_waaagh.5
-disaster_no_waaagh.5.t:0 "Boss Fightin’"
-disaster_no_waaagh.5.d:0 "Widout a WAAAGH, da Orcs is startin' ta eye da boss. Da Warbosses gettin’ restless—might be time ta show who's da toughest!"
-disaster_no_waaagh.5.option_1:0 "Challenge da Warboss"
-disaster_no_waaagh.5.option_2:0 "Let da big boss lead"
+# Event event_no_waaagh.5
+event_no_waaagh.5.t:0 "Boss Fightin’"
+event_no_waaagh.5.d:0 "Widout a WAAAGH, da Orcs is startin' ta eye da boss. Da Warbosses gettin’ restless—might be time ta show who's da toughest!"
+event_no_waaagh.5.option_1:0 "Challenge da Warboss"
+event_no_waaagh.5.option_2:0 "Let da big boss lead"
 
-### Namespace: disaster_waaagh
+### Namespace: event_waaagh
 
-# Event disaster_waaagh.1
-disaster_waaagh.1.t:0 "WAAAAAAAAAAAAAAAGH!"
-disaster_waaagh.1.d:0 "Da Orcs is gatherin’ fer a big WAAAGH, dey’s all fired up an’ ready fer a good krumpin'! Da greenskins is gettin' ready ta conquer!"
-disaster_waaagh.1.option_1:0 "Raise da banners! Start da WAAAGH!"
+# Event event_waaagh.1
+event_waaagh.1.t:0 "WAAAAAAAAAAAAAAAGH!"
+event_waaagh.1.d:0 "Da Orcs is gatherin’ fer a big WAAAGH, dey’s all fired up an’ ready fer a good krumpin'! Da greenskins is gettin' ready ta conquer!"
+event_waaagh.1.option_1:0 "Raise da banners! Start da WAAAGH!"
 
-# Event disaster_waaagh.2
-disaster_waaagh.2.t:0 "WAAAGH Wuz Weak"
-disaster_waaagh.2.d:0 "Even wif all da yellin', dis WAAAGH went an' fizzled out. Da boyz is tuckered out… fer now."
-disaster_waaagh.2.option_1:0 "Get ready fer da next WAAAGH"
+# Event event_waaagh.2
+event_waaagh.2.t:0 "WAAAGH Wuz Weak"
+event_waaagh.2.d:0 "Even wif all da yellin', dis WAAAGH went an' fizzled out. Da boyz is tuckered out… fer now."
+event_waaagh.2.option_1:0 "Get ready fer da next WAAAGH"
 
-# Event disaster_waaagh.3
-disaster_waaagh.3.t:0 "Spread da WAAAGH!"
-disaster_waaagh.3.d:0 "Da boyz is all riled up, an' dey got dere eyes on new lands fer bashin'! Da greenskins roar fer more fightin'!"
-disaster_waaagh.3.option_1:0 "Find more fings ta krump!"
-disaster_waaagh.3.option_2:0 "Let’s not get too krumpy..."
+# Event event_waaagh.3
+event_waaagh.3.t:0 "Spread da WAAAGH!"
+event_waaagh.3.d:0 "Da boyz is all riled up, an' dey got dere eyes on new lands fer bashin'! Da greenskins roar fer more fightin'!"
+event_waaagh.3.option_1:0 "Find more fings ta krump!"
+event_waaagh.3.option_2:0 "Let’s not get too krumpy..."
 
-# Event disaster_waaagh.4
-disaster_waaagh.4.t:0 "Unruly Boyz"
-disaster_waaagh.4.d:0 "Da WAAAGH’s got all da ladz lined up fer fightin’. But dese new boyz is wild an' cause trouble."
-disaster_waaagh.4.option_1:0 "Encourage da madness"
-disaster_waaagh.4.option_2:0 "Take only da toughest"
+# Event event_waaagh.4
+event_waaagh.4.t:0 "Unruly Boyz"
+event_waaagh.4.d:0 "Da WAAAGH’s got all da ladz lined up fer fightin’. But dese new boyz is wild an' cause trouble."
+event_waaagh.4.option_1:0 "Encourage da madness"
+event_waaagh.4.option_2:0 "Take only da toughest"
 
-# Event disaster_waaagh.5
-disaster_waaagh.5.t:0 "New Big Boss"
-disaster_waaagh.5.d:0 "One brutal Orc’s risin' up, bashin' his way to da top! Dis warrior's gonna take da WAAAGH ta new heights of krumpin'!"
-disaster_waaagh.5.option_1:0 "Hail da new boss!"
-disaster_waaagh.5.option_2:0 "Learn from da krumpin’"
+# Event event_waaagh.5
+event_waaagh.5.t:0 "New Big Boss"
+event_waaagh.5.d:0 "One brutal Orc’s risin' up, bashin' his way to da top! Dis warrior's gonna take da WAAAGH ta new heights of krumpin'!"
+event_waaagh.5.option_1:0 "Hail da new boss!"
+event_waaagh.5.option_2:0 "Learn from da krumpin’"

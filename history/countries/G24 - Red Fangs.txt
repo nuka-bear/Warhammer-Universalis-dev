@@ -20,7 +20,6 @@ government_rank = 1
 	   	fixed = yes
 	    age = 24
 	    claim = 95
-	    dynasty = ROOT
 	    culture = ROOT
 	    religion = ROOT
 	    male = yes
