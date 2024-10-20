@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = athel_loren_monarchy
 primary_culture = loren
 religion = asrai_cadai
 technology_group = tech_wood_elf
@@ -7,6 +7,8 @@ capital = 770
 setup_vision = yes
 government_rank = 3
 2502.1.1 = {
+	add_ruler_personality = immortal_personality
+	set_ruler_flag = immortal_ruler
 	monarch = {
 		name = "Ariel"
 		dynasty = "Vesryn"
@@ -16,6 +18,21 @@ government_rank = 3
 		mil = 4
 		female = yes
 	}
-		add_ruler_personality = immortal_personality
-	set_ruler_flag = immortal_ruler
+}
+
+2502.1.1 = {
+	queen = {
+		#King
+		country_of_origin = B01
+		name = "Orion"
+		dynasty = "Vesryn"
+		birth_date = 1535.1.1
+		adm = 5
+		dip = 5
+		mil = 6
+		female = no
+	}
+	add_queen_personality = immortal_personality
+	set_consort_flag = orion_cf
+
 }

@@ -6,12 +6,6 @@ technology_group = tech_hobgoblin
 capital = 2149
 setup_vision = yes
 government_rank = 1
-2502.1.1 = {
-	add_country_modifier = {
-		name = test_buff
-		duration = -1
-	}
-}
 2444.1.1 = {
 	monarch = {
 		name = "Spinetoe"

@@ -22,7 +22,6 @@ bretonnian_dukedom_reform = {
 	}
 	modifiers = {
 		nobles_influence_modifier = 0.05
-		min_autonomy = 50
 	}
 	custom_attributes = {
 		buffed_strong_duchies = yes		#+5% Loyalty
@@ -49,7 +48,6 @@ bretonnian_royarch_reform = {
 	}
 	modifiers = {
 		nobles_influence_modifier = 0.05
-		min_autonomy = 50
 	}
 	custom_attributes = {
 		buffed_strong_duchies = yes		#+5% Loyalty
