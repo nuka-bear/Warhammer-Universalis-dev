@@ -11,11 +11,13 @@ destruction_culture = {
 		technology_group = tech_vampire_coast
 		technology_group = tech_eastern_greenskin
 		technology_group = tech_eastern_undead
-		religion_group = ruinous_powers_denominations
+		religion = khornate_religion
+		religion = tzeentchian_religion
+		religion = hashut
+		religion = slaaneshi_religion
+		religion = nurglite_religion
 		religion = nagash_worship
-		not = {
-			religion = norscan
-		}
+
 	}
 }
 
@@ -35,7 +37,11 @@ order_culture = {
 	}
 	not = {
 		or = {
-			religion_group = ruinous_powers_denominations
+			religion = khornate_religion
+			religion = tzeentchian_religion
+			religion = hashut
+			religion = slaaneshi_religion
+			religion = nurglite_religion
 			religion = nagash_worship
 		}
 
@@ -53,7 +59,11 @@ neutral_culture = {
 	}
 	not = {
 		or = {
-			religion_group = ruinous_powers_denominations
+			religion = khornate_religion
+			religion = tzeentchian_religion
+			religion = hashut
+			religion = slaaneshi_religion
+			religion = nurglite_religion
 			religion = nagash_worship
 		}
 	}
