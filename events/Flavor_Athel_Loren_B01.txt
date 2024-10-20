@@ -92,7 +92,6 @@ country_event = {
 				define_consort = {
 					name = "Orion"
 					dynasty = "Vesryn"
-					female = yes
 					age = 2000
 					adm = 5
 					dip = 5

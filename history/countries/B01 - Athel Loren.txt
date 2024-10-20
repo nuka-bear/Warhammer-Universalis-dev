@@ -18,9 +18,6 @@ government_rank = 3
 		mil = 4
 		female = yes
 	}
-}
-
-2502.1.1 = {
 	queen = {
 		#King
 		country_of_origin = B01

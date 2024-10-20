@@ -9,9 +9,11 @@ devastated_province = {
 destruction_nation = {
 	diplomatic_reputation = -1
 	unjustified_demands = -0.5
+	picture = "evil_symbol"
 }
 
 order_nation = {
+	picture = "good_symbol"
 }
 
 neutral_nation = {

@@ -341,15 +341,4 @@ eastern_beastfolk_military = {
 
 }
 
-test_buff = {
-	# land_forcelimit = 5
-	# global_manpower = 5
-    #land_forcelimit_modifier = 0.15
-    #global_regiment_cost = -0.15
-    #global_manpower_modifier = 0.15
-    #global_supply_limit_modifier = 0.25
-    #global_institution_spread = -3
-    #embracement_cost = 5
-    #relation_with_same_religion = -50
-	#production_efficiency = -0.25
-}
+

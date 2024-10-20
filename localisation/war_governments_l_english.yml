@@ -57,6 +57,13 @@
  athel_loren_monarchy:0 "Eternal Court"
  athel_loren_monarchy_desc:0 "The Asrai live in a harmonious co-existance with the denizers of Athel Loren, but are known for their frivolous and sometimes savage behavior. Their society revolves around the cycles of the forest, as determined by the Avatars of Ishtar and Kurnous, who rule over the High Lords of the Glades."
  
+ 
+ mercenary_company_reform:0 "Mercenary Company"
+ mercenary_company_reform_desc:0 ""
+ 
+ military_garrison_reform:0 "Military Garrison"
+ military_garrison_reform_desc:0 ""
+ 
  # # # # # # # # # # # # # # # #
  #							  #
  #      Military Doctrines     #

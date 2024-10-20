@@ -13,6 +13,14 @@ spriteTypes = {
 	spriteType = {
 		name = "underway"
 		texturefile = "gfx//interface//ideas_EU4//underway.dds"
+	}
+	spriteType = {
+		name = "evil_symbol"
+		texturefile = "gfx//interface//ideas_EU4//evil_symbol.dds"
+	}
+	spriteType = {
+		name = "good_symbol"
+		texturefile = "gfx//interface//ideas_EU4//good_symbol.dds"
 	}	
 	
 }
