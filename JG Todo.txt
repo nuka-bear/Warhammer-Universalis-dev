@@ -76,9 +76,8 @@ Orcs
 
 
 Cathay
-	Very low crownland
 	Estate prevents taking land outside tech group?
-	Mandate
+	Mandate?
 	Karma system - bigger maluses (diplo rep?) for not being karmically aligned
 
 

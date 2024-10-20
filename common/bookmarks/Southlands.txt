@@ -1,20 +1,26 @@
 bookmark = {
-	name = "southlands_bookmark"
-	desc = "southlands_bookmark_desc"
+	name = "bookmark_southlands"
+	desc = "bookmark_southlands_desc"
 	date = 2502.11.11
 	
 	center = 723
 	default = no
 	
+	country = Z01
+	country = G24
+	country = Z17
+
+	country = Z02
+	country = Z05
+	country = Z07
+	country = G04
+	country = G08
+	country = Z31
+	country = Z46
+
 	easy_country = Z01
 	easy_country = G24
 	easy_country = Z17
-	country = Z02
-	country = G04
-	country = Z31
-	country = G08
-	country = Z05
-	country = Z46
 	
 
 }
