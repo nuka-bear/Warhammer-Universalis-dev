@@ -443,8 +443,8 @@ nehekharan_group_ideas = {
 #dark elf
 druchii_group_ideas = {
 	start = {
-		colonists = 1
-		global_colonial_growth = 20
+		global_manpower_modifier = 0.10
+		land_attrition = -0.10
 	}
 	bonus = {
 		ship_durability = 0.15

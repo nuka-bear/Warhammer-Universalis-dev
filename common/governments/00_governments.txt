@@ -44,8 +44,8 @@ monarchy = {
 				lithuanian_grand_kingdom
 				lithuanian_grand_empire
 				#1.35
-				eyalet_government
-				barbary_eyalet_government
+			#	eyalet_government
+			#	barbary_eyalet_government
 				##	sultanate_of_rum_reform
 				#	modernized_ottoman_government
 				#	reorganized_ottoman_government
@@ -53,7 +53,7 @@ monarchy = {
 				#	ruthenian_tsardom
 				russian_empire_reform
 				#	korean_monarchy
-				beylik_government
+			#	beylik_government
 				#	al_andalusia_government
 				#absolute_shogunate_reform
 				#japanese_divine_empire

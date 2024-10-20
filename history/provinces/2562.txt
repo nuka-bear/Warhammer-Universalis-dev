@@ -4,7 +4,7 @@ base_manpower = 2
 base_production = 1
 trade_goods = fish
 religion = chaos_undivided_religion
- 
+ tribal_owner = B83
 
 culture = kvellig
  

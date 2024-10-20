@@ -587,26 +587,26 @@ estate_burghers_patronage_of_the_arts = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
 		modifier = { monthly_russian_modernization = -0.03 }
 	}
-	conditional_modifier = {
-		trigger = {
-			mission_completed = BYZ_glass_ware
-			NOT = { has_dlc = "Emperor" }
-			has_dlc = "Leviathan"
-		}
-		modifier = {
-			great_project_upgrade_cost = -0.1
-		}
-	}
-	conditional_modifier = {
-		trigger = {
-			mission_completed = BYZ_glass_ware
-			NOT = { has_dlc = "Emperor" }
-			NOT = { has_dlc = "Leviathan" }
-		}
-		modifier = {
-			build_cost = -0.05
-		}
-	}
+	# conditional_modifier = {
+	# 	trigger = {
+	# 		mission_completed = BYZ_glass_ware
+	# 		NOT = { has_dlc = "Emperor" }
+	# 		has_dlc = "Leviathan"
+	# 	}
+	# 	modifier = {
+	# 		great_project_upgrade_cost = -0.1
+	# 	}
+	# }
+	# conditional_modifier = {
+	# 	trigger = {
+	# 		mission_completed = BYZ_glass_ware
+	# 		NOT = { has_dlc = "Emperor" }
+	# 		NOT = { has_dlc = "Leviathan" }
+	# 	}
+	# 	modifier = {
+	# 		build_cost = -0.05
+	# 	}
+	# }
 	#conditional_modifier = {
 	#	trigger = { has_government_mechanic = ottoman_decadence_mechanic }
 	#	modifier = { monthly_ottoman_decadence = 0.02 }
@@ -994,24 +994,24 @@ estate_burghers_monopoly_of_glass = {
 			burghers_privilege_slots = 1
 		}
 	}
-	conditional_modifier = {
-		trigger = {
-			mission_completed = BYZ_glass_ware
-			has_dlc = "Leviathan"
-		}
-		modifier = {
-			great_project_upgrade_cost = -0.1
-		}
-	}
-	conditional_modifier = {
-		trigger = {
-			mission_completed = BYZ_glass_ware
-			NOT = { has_dlc = "Leviathan" }
-		}
-		modifier = {
-			build_cost = -0.05
-		}
-	}
+	# conditional_modifier = {
+	# 	trigger = {
+	# 		mission_completed = BYZ_glass_ware
+	# 		has_dlc = "Leviathan"
+	# 	}
+	# 	modifier = {
+	# 		great_project_upgrade_cost = -0.1
+	# 	}
+	# }
+	# conditional_modifier = {
+	# 	trigger = {
+	# 		mission_completed = BYZ_glass_ware
+	# 		NOT = { has_dlc = "Leviathan" }
+	# 	}
+	# 	modifier = {
+	# 		build_cost = -0.05
+	# 	}
+	# }
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.3 }
 	}

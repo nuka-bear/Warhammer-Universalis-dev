@@ -7,14 +7,19 @@
  cb_bretonnian_subjucgation_desc:0 "As heirs to Gilles le Breton we have divine claim to rule over the Bretonnian peoples!"
  bretonnia_subjugation:0 "Bretonnian Subugation"
  bretonnia_subjugation_desc:0 "As heirs to Giles we have divine claim to rule over the Bretonnian peoples!"
- cb_monster_vs_civ:0 "Monstrous Conquest"
- cb_monster_vs_civ_desc:0 "Do as monsters do!"
- superiority_destruction:0 "REPLACE_ME"
+ 
+ cb_monster_vs_civ:0 "Evil Conquest"
+ cb_monster_vs_civ_desc:0 "There can be no lasting peace between the forces good and evil"
+ 
+ superiority_destruction:0 "There can be no lasting peace between the forces good and evil"
  superiority_destruction_desc:0 "War goal is to show them superiority by winning battles."
- cb_civ_vs_monster:0 "Anti-Monstrous Conquest"
- cb_civ_vs_monster_desc:0 "There can be no peace between the forces of order and destruction"
- superiority_anti_destruction:0 "REPLACE_ME"
+ 
+ cb_civ_vs_monster:0 "Anti-Evil Conquest"
+ cb_civ_vs_monster_desc:0 "There can be no lasting peace between the forces of good and evill"
+ 
+ superiority_anti_destruction:0 "There can be no peace between good and evil"
  superiority_anti_destruction_desc:0 "War goal is to show them superiority by winning battles."
+ 
  cb_gs_tribal_confederation:0 "Tribal Confederation"
  cb_gs_tribal_confederation_desc:0 "Our Boss iz the Biggest!"
  wgt_gs_tribal_confederation:0 "Tribal Confederation"

@@ -1981,121 +1981,121 @@ admiralty_regime_reform = {
 # 	#}
 # }
 
-eyalet_government = {
-	lock_level_when_selected = yes
-	allow_normal_conversion = yes
-	icon = "eyalet_government"
-	potential = {
-		OR = {
-			is_subject_of_type = eyalet
-			is_subject_of_type = core_eyalet
-		}
-	}
-	valid_for_nation_designer = no
-	maintain_dynasty = yes
-	modifiers = {
-		global_unrest = -1
-		no_religion_penalty = yes
-		governing_capacity = 100
-	}
-	removed_effect = {
-		hidden_effect = {
-			if = {
-				limit = {
-					NOT = { is_subject_of_type = eyalet }
-					NOT = { is_subject_of_type = core_eyalet }
-				}
-				country_event = {
-					id = flavor_tur.1000
-				}
-			}
-		}
-	}
+# eyalet_government = {
+# 	lock_level_when_selected = yes
+# 	allow_normal_conversion = yes
+# 	icon = "eyalet_government"
+# 	potential = {
+# 		OR = {
+# 			is_subject_of_type = eyalet
+# 			is_subject_of_type = core_eyalet
+# 		}
+# 	}
+# 	valid_for_nation_designer = no
+# 	maintain_dynasty = yes
+# 	modifiers = {
+# 		global_unrest = -1
+# 		no_religion_penalty = yes
+# 		governing_capacity = 100
+# 	}
+# 	removed_effect = {
+# 		hidden_effect = {
+# 			if = {
+# 				limit = {
+# 					NOT = { is_subject_of_type = eyalet }
+# 					NOT = { is_subject_of_type = core_eyalet }
+# 				}
+# 				country_event = {
+# 					id = flavor_tur.1000
+# 				}
+# 			}
+# 		}
+# 	}
 
-	custom_attributes = {
-		locked_government_type = yes
-	}
-	ai = {
-		factor = 100
-		modifier = {
-			factor = 0
-			OR = {
-				has_reform = barbary_eyalet_government
-				have_had_reform = barbary_eyalet_government
-			}
-		}
-	}
-}
+# 	custom_attributes = {
+# 		locked_government_type = yes
+# 	}
+# 	ai = {
+# 		factor = 100
+# 		modifier = {
+# 			factor = 0
+# 			OR = {
+# 				has_reform = barbary_eyalet_government
+# 				have_had_reform = barbary_eyalet_government
+# 			}
+# 		}
+# 	}
+# }
 
-barbary_eyalet_government = {
-	lock_level_when_selected = yes
-	allow_normal_conversion = yes
-	icon = "barbary_eyalet_government"
-	potential = {
-		OR = {
-			has_reform = barbary_eyalet_government
-			have_had_reform = barbary_eyalet_government
-		}
-		OR = {
-			is_subject_of_type = eyalet
-			is_subject_of_type = core_eyalet
-		}
-	}
-	valid_for_nation_designer = no
-	maintain_dynasty = yes
-	modifiers = {
-		may_perform_slave_raid = yes
-		allowed_marine_fraction = 0.1
-		capture_ship_chance = 0.25
-		naval_forcelimit_modifier = 0.1
-		governing_capacity = 100
-	}
-	removed_effect = {
-		hidden_effect = {
-			if = {
-				limit = {
-					NOT = { is_subject_of_type = eyalet }
-					NOT = { is_subject_of_type = core_eyalet }
-				}
-				country_event = {
-					id = flavor_tur.1000
-				}
-			}
-		}
-	}
+# barbary_eyalet_government = {
+# 	lock_level_when_selected = yes
+# 	allow_normal_conversion = yes
+# 	icon = "barbary_eyalet_government"
+# 	potential = {
+# 		OR = {
+# 			has_reform = barbary_eyalet_government
+# 			have_had_reform = barbary_eyalet_government
+# 		}
+# 		OR = {
+# 			is_subject_of_type = eyalet
+# 			is_subject_of_type = core_eyalet
+# 		}
+# 	}
+# 	valid_for_nation_designer = no
+# 	maintain_dynasty = yes
+# 	modifiers = {
+# 		may_perform_slave_raid = yes
+# 		allowed_marine_fraction = 0.1
+# 		capture_ship_chance = 0.25
+# 		naval_forcelimit_modifier = 0.1
+# 		governing_capacity = 100
+# 	}
+# 	removed_effect = {
+# 		hidden_effect = {
+# 			if = {
+# 				limit = {
+# 					NOT = { is_subject_of_type = eyalet }
+# 					NOT = { is_subject_of_type = core_eyalet }
+# 				}
+# 				country_event = {
+# 					id = flavor_tur.1000
+# 				}
+# 			}
+# 		}
+# 	}
 
-	custom_attributes = {
-		locked_government_type = yes
-		force_admiral_leader = yes
-	}
-	ai = {
-		factor = 100
-	}
-}
+# 	custom_attributes = {
+# 		locked_government_type = yes
+# 		force_admiral_leader = yes
+# 	}
+# 	ai = {
+# 		factor = 100
+# 	}
+# }
 
-beylik_government = {
-	icon = "noble_muslim"
-	allow_normal_conversion = yes
-	potential = {
-		religion_group = muslim
-		primary_culture = turkish
-	}
-	valid_for_nation_designer = yes
-	nation_designer_cost = 5
-	nation_designer_trigger = {
-		religion_group = muslim
-		primary_culture = turkish
-	}
-	modifiers = {
-		fabricate_claims_cost = -0.5
-		unjustified_demands = -0.1
-		core_creation = -0.1
-		governing_capacity = 100
-	}
-	custom_attributes = {
-		winning_battles_increases_legitimacy = yes
-	}
-}
+# beylik_government = {
+# 	icon = "noble_muslim"
+# 	allow_normal_conversion = yes
+# 	potential = {
+# 		religion_group = muslim
+# 		primary_culture = turkish
+# 	}
+# 	valid_for_nation_designer = yes
+# 	nation_designer_cost = 5
+# 	nation_designer_trigger = {
+# 		religion_group = muslim
+# 		primary_culture = turkish
+# 	}
+# 	modifiers = {
+# 		fabricate_claims_cost = -0.5
+# 		unjustified_demands = -0.1
+# 		core_creation = -0.1
+# 		governing_capacity = 100
+# 	}
+# 	custom_attributes = {
+# 		winning_battles_increases_legitimacy = yes
+# 	}
+# }
 
 # al_andalusia_government = {
 # 	icon = "noble_muslim"

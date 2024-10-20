@@ -6,5 +6,5 @@ trade_goods = gems
 religion = slaaneshi_religion
  
 culture = mung
-add_core = B35
-fort_15th = yes
+tribal_owner = B35
+
