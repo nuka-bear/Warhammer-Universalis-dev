@@ -772,11 +772,11 @@ fifth_monarchists_reform = {
 			end_time_mechanic
 		}
 	}
-	removed_effect = {
-		country_event = {
-			id = flavor_gbr.120
-		}
-	}
+	#removed_effect = {
+	#	country_event = {
+		#	id = flavor_gbr.120
+		#}
+	#}
 }
 
 millennialistic_theocracy_reform = {

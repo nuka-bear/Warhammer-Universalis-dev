@@ -223,8 +223,8 @@ country_event = {
 		trigger = { has_ruler_flag = getting_well_connected }
 		clr_ruler_flag = scholar_mediocrity
 		add_years_of_income = -0.1
-		remove_ruler_personality_ancestor = { key = scholar }
-		add_ruler_personality_ancestor = { key = well_connected }
+		#remove_ruler_personality_ancestor = { key = scholar }
+		#add_ruler_personality_ancestor = { key = well_connected }
 		clr_ruler_flag = getting_well_connected
 	}
 }
@@ -273,8 +273,8 @@ country_event = {
 		trigger = { has_ruler_flag = can_get_lawgiver_personality }
 		clr_ruler_flag = scholar_new_law_collection
 		add_years_of_income = -0.1
-		add_ruler_personality_ancestor = { key = lawgiver }
-		remove_ruler_personality_ancestor = { key = scholar }
+		#add_ruler_personality_ancestor = { key = lawgiver }
+		#remove_ruler_personality_ancestor = { key = scholar }
 	}
 
 }
@@ -329,8 +329,8 @@ country_event = {
 		clr_ruler_flag = gaining_tolerance
 		add_years_of_income = -0.1
 
-		add_ruler_personality_ancestor = { key = tolerant }
-		remove_ruler_personality_ancestor = { key = scholar }
+	#	add_ruler_personality_ancestor = { key = tolerant }
+		#remove_ruler_personality_ancestor = { key = scholar }
 	}
 }
 

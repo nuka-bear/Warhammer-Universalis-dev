@@ -1809,12 +1809,12 @@ sacred_grove_of_zhaqlah = {
 
 	#what to do when it's built
 	on_built = {
-		show_ambient_object = pyramid_of_cheops 
+	#	show_ambient_object = pyramid_of_cheops 
 	}
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		hide_ambient_object = pyramid_of_cheops 
+	#	hide_ambient_object = pyramid_of_cheops 
 	}
 
 	#can our country use it?

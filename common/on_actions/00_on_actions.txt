@@ -3225,7 +3225,7 @@ on_five_year_pulse_2 = {
 		# 100 = janissaries_estate_events.12
 		# 100 = janissaries_estate_events.13
 		# Random
-		5 = flavor_fra.9500
+		#5 = flavor_fra.9500
 		1000 = 0
 	}
 }
@@ -4659,7 +4659,7 @@ on_rebels_break_country = {
 		hidden = yes
 	}
 	events = {
-		flavor_per.64	#No more Zoroastrian
+		#flavor_per.64	#No more Zoroastrian
 	}
 }
 

@@ -1,6 +1,7 @@
 base_tax = 1
 base_manpower = 3
 base_production = 1
-trade_goods = nothing
-religion = NoReligion
-is_city = no
+trade_goods = unknown
+religion = slaaneshi_religion
+culture = kul
+

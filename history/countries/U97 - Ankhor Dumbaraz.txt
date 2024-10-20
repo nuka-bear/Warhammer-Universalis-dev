@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = norse_dwarf
+religion = ancestor_gods
+technology_group = tech_dwarf
+capital = 1141
+setup_vision = yes
+government_rank = 3

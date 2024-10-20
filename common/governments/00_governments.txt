@@ -55,9 +55,9 @@ monarchy = {
 				#	korean_monarchy
 				beylik_government
 				#	al_andalusia_government
-				absolute_shogunate_reform
-				japanese_divine_empire
-				land_christian_sun_reform
+				#absolute_shogunate_reform
+				#japanese_divine_empire
+				#land_christian_sun_reform
 				british_monarchy
 				angevin_monarchy
 				absolute_british_monarchy
@@ -82,7 +82,7 @@ monarchy = {
 				# stadthalter_monarchy_reform
 				janissary_autocracy_reform
 				admiralty_regime_reform
-				system_of_councils_reform
+				#system_of_councils_reform
 				#courts_of_navarra
 				#league_of_lezhe_reform
 				tibetan_dual_government_reform
@@ -326,7 +326,7 @@ monarchy = {
 				imperial_principle_reform
 				#	sakdina_system_reform
 				#1.35
-				qng_grand_council_reform
+			#	qng_grand_council_reform
 				standardized_millets_reform
 				direct_royal_administration_reform
 				administration_of_the_parliament_reform
@@ -380,8 +380,8 @@ monarchy = {
 				military_electorate_reform
 				revolutionary_council_reform
 				#1.35 Addition
-				mng_seal_of_the_emperor_reform
-				strengthen_bakuhan_system_reform
+				#mng_seal_of_the_emperor_reform
+				#strengthen_bakuhan_system_reform
 			}
 		}
 		separation_of_power = {
@@ -438,7 +438,7 @@ monarchy = {
 		states_general_reform
 		polish_elective_monarchy
 		polish_great_sejm
-		system_of_councils_reform
+		#system_of_councils_reform
 		#	courts_of_navarra
 		elective_monarchy_reform
 		elective_monarchy
@@ -511,7 +511,7 @@ monarchy = {
 	}
 	exclusive_reforms = {
 		states_general_reform
-		land_christian_sun_reform
+		#land_christian_sun_reform
 	}
 	color = {
 		179
@@ -600,8 +600,8 @@ republic = {
 				roman_republic_government
 				calvinist_republic_government
 				parliamentary_republic_reform
-				absolute_shogunate_reform
-				japanese_divine_empire
+				#absolute_shogunate_reform
+				#japanese_divine_empire
 				#warhammer
 				verezzo_republic
 				remas_merchants_reform
@@ -1197,8 +1197,8 @@ theocracy = {
 				#zoroastrian_theocracy_reform
 				ajuuraan_theocracy_reform
 				bureaucratic_rule_reform
-				absolute_shogunate_reform
-				japanese_divine_empire
+				#absolute_shogunate_reform
+				#japanese_divine_empire
 				sisterhood_of_jeanne_darc_reform
 				#Egypt
 				egyptian_government_reform

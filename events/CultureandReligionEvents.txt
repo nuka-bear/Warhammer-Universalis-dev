@@ -192,76 +192,76 @@ country_event = {
 		picture = KING_OF_FOREIGN_CUSTOMS_eventPicture
 	}
 	
-	# desc = {
-	# 	desc = "culture_religion_events.2.da" #Different Culture - But we have subjects of it
-	# 	trigger = {
-	# 		has_regency = no
-	#
-	# 		NOT = { ruler_culture = ROOT }
-	# 		ruler_religion = ROOT
-	# 		any_owned_province = {
-	# 			culture = variable:From:new_ruler_culture
-	# 		}
-	# 	}
-	# }
-	# desc = {
-	# 	desc = "culture_religion_events.2.db" #Different Culture - And we have no subjects of it
-	# 	trigger = {
-	# 		has_regency = no
-	#
-	# 		NOT = { ruler_culture = ROOT }
-	# 		ruler_religion = ROOT
-	# 		NOT = {
-	# 			any_owned_province = {
-	# 				culture = variable:From:new_ruler_culture
-	# 			}
-	# 		}
-	# 	}
-	# }
-	# desc = {
-	# 	desc = "culture_religion_events.2.dc" #Different Heathen Religion
-	# 	trigger = {
-	# 		has_regency = no
-	#
-	# 		ruler_culture = ROOT
-	# 		NOT = { ruler_religion = ROOT }
-	# 		NOT = { religion_group = variable:new_ruler_religion }
-	# 	}
-	# }
-	# desc = {
-	# 	desc = "culture_religion_events.2.dda" #Different Heretic Religion
-	# 	trigger = {
-	# 		has_regency = no
-	#
-	# 		ruler_culture = ROOT
-	# 		NOT = { ruler_religion = ROOT }
-	# 		religion_group = variable:new_ruler_religion
-	# 	}
-	# }
+	desc = {
+		desc = "culture_religion_events.2.da" #Different Culture - But we have subjects of it
+		trigger = {
+			has_regency = no
+			# NOT = { has_reform = mamluk_government }
+			NOT = { ruler_culture = ROOT }
+			ruler_religion = ROOT
+			any_owned_province = {
+				culture = variable:From:new_ruler_culture
+			}
+		}
+	}
+	desc = {
+		desc = "culture_religion_events.2.db" #Different Culture - And we have no subjects of it
+		trigger = {
+			has_regency = no
+			# NOT = { has_reform = mamluk_government }
+			NOT = { ruler_culture = ROOT }
+			ruler_religion = ROOT
+			NOT = {
+				any_owned_province = {
+					culture = variable:From:new_ruler_culture
+				}
+			}
+		}
+	}
+	desc = {
+		desc = "culture_religion_events.2.dc" #Different Heathen Religion
+		trigger = {
+			has_regency = no
+			# NOT = { has_reform = mamluk_government }
+			ruler_culture = ROOT
+			NOT = { ruler_religion = ROOT }
+			NOT = { religion_group = variable:new_ruler_religion }
+		}
+	}
+	desc = {
+		desc = "culture_religion_events.2.dda" #Different Heretic Religion
+		trigger = {
+			has_regency = no
+			# NOT = { has_reform = mamluk_government }
+			ruler_culture = ROOT
+			NOT = { ruler_religion = ROOT }
+			religion_group = variable:new_ruler_religion
+		}
+	}
 	
-	# desc = {
-	# 	desc = "culture_religion_events.2.de" #Different Culture and Different Religion
-	# 	trigger = {
-	# 		has_regency = no
-	#
-	# 		NOT = { ruler_culture = ROOT }
-	# 		NOT = { ruler_religion = ROOT }
-	# 	}
-	# }
+	desc = {
+		desc = "culture_religion_events.2.de" #Different Culture and Different Religion
+		trigger = {
+			has_regency = no
+			# NOT = { has_reform = mamluk_government }
+			NOT = { ruler_culture = ROOT }
+			NOT = { ruler_religion = ROOT }
+		}
+	}
 	
-	# desc = {
-	# 	desc = "culture_religion_events.2.df" #What's this then? Well the event triggers with a delay from the day of succession.It is possible for someone to usurp the throne before this event happens or for other triggers to no longer be true.
-	# 	trigger = {
-	# 		OR = {
-	# 			has_regency = yes #It is also possible to enter a regency
-	# 			has_reform = mamluk_government #It is even possible to suddenly get the Mamluk Government form.
-	# 			AND = {
-	# 				ruler_culture = ROOT
-	# 				ruler_religion = ROOT
-	# 			}
-	# 		}
-	# 	}
-	# }
+	desc = {
+		desc = "culture_religion_events.2.df" #What's this then? Well the event triggers with a delay from the day of succession.It is possible for someone to usurp the throne before this event happens or for other triggers to no longer be true.
+		trigger = {
+			OR = {
+				has_regency = yes #It is also possible to enter a regency
+				# has_reform = mamluk_government #It is even possible to suddenly get the Mamluk Government form.
+				AND = {
+					ruler_culture = ROOT
+					ruler_religion = ROOT
+				}
+			}
+		}
+	}
 	
 	is_triggered_only = yes #Triggers in on_action for new ruler.
 	

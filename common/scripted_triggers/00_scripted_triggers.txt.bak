@@ -3223,7 +3223,7 @@ is_not_eligible_for_trade_good_wine = {
 		has_terrain = marsh
 		has_terrain = savannah
 		has_terrain = glacier
-		#religion_group = muslim
+		religion_group = muslim
 	}
 }
 is_not_eligible_for_trade_good_wool = {

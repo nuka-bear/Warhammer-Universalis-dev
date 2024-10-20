@@ -1314,24 +1314,25 @@ hereditary_pronoia_subject_type = {
 	modifier_overlord = {
 		modifier = pronoia_base_overlord_modifiers
 	}
-	modifier_overlord = {
-		modifier = BYZ_pronoia_buff_army_tradition_modifier
-		trigger = {
-			army_size = 20
-			overlord = {
-				mission_completed = BYZ_strategoi_realms
-			}
-		}
-	}
-	modifier_overlord = {
-		modifier = BYZ_pronoia_land_forcelimit_penalty
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = BYZ_pronoia_land_forcelimit_penalty_tt
-				NOT = { overlord = { has_country_flag = BYZ_no_pronoia_forcelimit_penalty } }
-			}
-		}
-	}
+	#modifier_overlord = {
+	#	modifier = BYZ_pronoia_buff_army_tradition_modifier
+	#	trigger = {
+	#		army_size = 20
+	#		overlord = {
+	#			mission_completed = BYZ_strategoi_realms
+	#		}
+	#	}
+	#}
+	#modifier_overlord = {
+	#	modifier = BYZ_pronoia_land_forcelimit_penalty
+	#	trigger = {
+	#		NOT = {
+	#			overlord = {
+	#				has_country_flag = BYZ_no_pronoia_forcelimit_penalty
+	#			}
+	#		}
+	#	}
+	#}
 }
 
 pronoia_subject_type = { #can be inherited

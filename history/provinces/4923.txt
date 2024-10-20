@@ -1,7 +1,7 @@
 base_tax = 3
 base_manpower = 4
-base_production = 5
-trade_goods = nothing
+base_production = 3
+trade_goods = livestock
 religion = slaaneshi_religion
 is_city = yes
 owner = B36
