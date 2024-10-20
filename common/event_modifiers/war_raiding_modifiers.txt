@@ -1,5 +1,5 @@
 recently_raided = {
-	province_warscore_cost = 2.0
+	local_warscore_cost_modifier = 2.0
 }
 
 lets_raid_modifier = {

@@ -366,7 +366,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 		}
-		#badland greenskins know the badlands and Borderlanders
+		#badland greenskins know the badlands Borderlanders, nehekhara, and
 		if = {
 			limit = {
 				capital_scope = {
@@ -379,6 +379,19 @@ setup_vision = {
 			border_princes_region = {
 				discover_country = ROOT
 			}
+			nehekhara_region = {
+				discover_country = ROOT
+			}
+			world_edge_mountains_region = {
+				discover_country = ROOT
+			}
+			southern_world_edge_mountains_region = {
+				discover_country = ROOT
+			}
+			badlands_region = {
+				discover_country = ROOT
+			}
+
 		}
 		#araby/Nehekhara/sudron
 		if = {
