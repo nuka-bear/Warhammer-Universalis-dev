@@ -16,4 +16,6 @@ government_rank = 3
 		mil = 4
 		female = yes
 	}
+		add_ruler_personality = immortal_personality
+	set_ruler_flag = immortal_ruler
 }

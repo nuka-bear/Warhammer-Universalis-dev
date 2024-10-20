@@ -4,5 +4,4 @@ base_production = 2
 culture = tahmaks
 trade_goods = livestock
 religion = chaos_undivided_religion
-is_city = yes
- 
+tribal_owner = B80

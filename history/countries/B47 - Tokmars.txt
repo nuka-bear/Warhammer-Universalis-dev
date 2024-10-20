@@ -1,5 +1,5 @@
 government = native
-add_government_reform = native_chiefdom_reform
+add_government_reform = hordes_of_chaos
 government_rank = 1
 primary_culture = tokmar
 religion = chaos_undivided_religion

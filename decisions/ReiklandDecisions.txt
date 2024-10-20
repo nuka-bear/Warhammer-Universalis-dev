@@ -1,41 +1,4 @@
 country_decisions = {
-	reikland_bretonnian_ally_decision1 = {
-		major = yes
-		
-		potential = {
-			tag = A01
-			has_country_flag = reikland_bretonnia_relations_mod_1
-			NOT = {
-				event_target:RoyarchOfBretonnia = {
-					has_country_flag = reikland_bretonnian_ally
-				}
-			}
-		}
-		
-		allow = {
-			hidden_trigger = {
-				tag = A01
-			}
-			event_target:RoyarchOfBretonnia = {
-				trust = {
-					who = A01
-					value = 80
-				}
-				alliance_with = A01
-			}
-		}
-		
-		effect = {
-			custom_tooltip = reikland_support.tt
-			event_target:RoyarchOfBretonnia  = {
-				set_country_flag = reikland_bretonnian_ally
-				add_historical_friend = A01
-				A01 = {
-					add_historical_friend = PREV
-				}
-			}
-		}
-	}
-	
+
 	
 }

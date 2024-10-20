@@ -695,7 +695,7 @@ the_old_faith = {
 		color = {
 			127 76 76
 		}
-		icon = 1
+		icon = 31
 		country = {
 			tolerance_heathen = 2
 			stability_cost_modifier = -0.15
@@ -747,7 +747,7 @@ arabyn_denominations = {
 		color = {
 			255 138 12
 		}
-		icon = 1
+		icon = 30
 		country = {
 			innovativeness_gain = 0.5
 			global_trade_power = 0.1
@@ -1220,7 +1220,7 @@ indish_denominations = {
 	#	The Thousand gods
 	########################################################################################################################	
 	the_thousand_gods = {
-		icon = 1
+		icon = 32
 		color = {
 			0 204 204
 		}

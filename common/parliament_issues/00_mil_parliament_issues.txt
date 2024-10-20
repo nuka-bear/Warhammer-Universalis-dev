@@ -224,7 +224,52 @@ expand_the_army = {
 	}	
 }
 
+extend_militarization_of_the_state = {
 
+	category = 1
+
+	allow = {
+		has_government_mechanic = militarization_mechanic
+	}
+	
+	effect = {
+		add_government_power_scaled_to_seats = {
+			mechanic_type = militarization_mechanic
+			power_type = militarized_society
+			value = 20
+		}
+		add_government_power_scaled_to_seats = {
+			mechanic_type = prussian_militarization_mechanic_1
+			power_type = prussian_militarized_society_1
+			value = 20
+		}
+		add_government_power_scaled_to_seats = {
+			mechanic_type = prussian_militarization_mechanic_2
+			power_type = prussian_militarized_society_2
+			value = 20
+		}
+		add_government_power_scaled_to_seats = {
+			mechanic_type = prussian_militarization_mechanic_3
+			power_type = prussian_militarized_society_3
+			value = 20
+		}
+	}
+	
+	modifier = {
+		monthly_militarized_society = 0.05
+		monthly_prussian_militarized_society_1 = 0.05
+		monthly_prussian_militarized_society_2 = 0.075
+		monthly_prussian_militarized_society_3 = 0.1
+	}
+	
+	chance = {
+		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
 
 extended_peacetime_officer_commissions = {
 

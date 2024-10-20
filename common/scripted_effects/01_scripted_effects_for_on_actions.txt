@@ -2899,10 +2899,6 @@ remove_all_age_timed_modifiers = {
 	remove_all_age_of_absolutism_modifiers = yes
 	remove_all_age_of_revolution_modifiers = yes
 	# Generic ones
-	if = { 
-		limit = { has_country_modifier = jap_stability_edo_period_modifier }
-		remove_country_modifier = jap_stability_edo_period_modifier 
-	}
 }
 
 add_country_modifier_for_age = {

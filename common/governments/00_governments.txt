@@ -607,6 +607,9 @@ republic = {
 				remas_merchants_reform
 				marienburg_republic_reform
 				high_elven_republic
+				mercenary_company_reform
+				military_garrison_reform
+				league_of_ostermark_reform
 			}
 		}
 		republican_virtues = {

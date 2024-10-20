@@ -5,6 +5,6 @@ base_production = 3
 trade_goods = slaves
 religion = slaaneshi_religion
  
-is_city = yes
+tribal_owner = B91
 culture = yusaks
  

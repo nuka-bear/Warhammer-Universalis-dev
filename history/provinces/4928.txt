@@ -1,9 +1,10 @@
-base_tax = 0
-base_manpower = 0
-base_production = 0
+base_tax = 5
+base_manpower = 6
+base_production = 2
 trade_goods = nothing
 religion = nurglite_religion
 is_city = yes
-add_core = B58
 owner = B58
 controller = B58
+add_core = B58
+culture = kul

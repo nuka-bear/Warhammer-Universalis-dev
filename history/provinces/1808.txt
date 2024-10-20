@@ -6,4 +6,4 @@ trade_goods = livestock
 religion = chaos_undivided_religion
  
 culture = gharhar
- 
+tribal_owner = B41

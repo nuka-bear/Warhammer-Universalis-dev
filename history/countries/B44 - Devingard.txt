@@ -1,8 +1,21 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = military_garrison_reform
 government_rank = 1
 primary_culture = gospodar
 religion = ursun
 technology_group = tech_imperial
 capital = 2632
 setup_vision = yes
+
+
+2502.1.1 = {
+	monarch = {
+		name = "Slavin"
+		dynasty = "Kurnz"
+		culture = gospodar 
+		birth_date = 2450.12.3
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+}

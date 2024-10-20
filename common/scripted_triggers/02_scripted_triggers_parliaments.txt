@@ -100,9 +100,9 @@ has_not_bribe_blocking_debate_active_government_reform_progress = {
 	NOT = { current_debate = reform_government_act }
 	NOT = { current_debate = fund_expansion_of_bureaucracy }
 }
-#has_not_bribe_blocking_debate_active_government_power = {
-#	NOT = { current_debate = extend_militarization_of_the_state }
-#}
+has_not_bribe_blocking_debate_active_government_power = {
+	NOT = { current_debate = extend_militarization_of_the_state }
+}
 has_not_bribe_blocking_debate_active_religious_currency = {
 	always = yes
 }

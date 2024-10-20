@@ -7,3 +7,4 @@ religion = chaos_undivided_religion
  
 culture = manchu_warhammer
  
+tribal_owner = B82

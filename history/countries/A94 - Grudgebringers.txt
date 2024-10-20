@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = autocracy_reform
+government = republic
+add_government_reform = mercenary_company_reform
 primary_culture = reiklander 
 religion = old_world_cults_religion
 technology_group = tech_imperial

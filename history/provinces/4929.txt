@@ -1,9 +1,10 @@
-base_tax = 0
-base_manpower = 0
-base_production = 0
+base_tax = 5
+base_manpower = 3
+base_production = 4
 trade_goods = nothing
 religion = chaos_undivided_religion
 is_city = yes
-add_core = B60
 owner = B60
 controller = B60
+add_core = B60
+culture = kul

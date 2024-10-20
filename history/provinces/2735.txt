@@ -4,4 +4,4 @@ base_production = 2
 trade_goods = livestock
 religion = chaos_undivided_religion
 culture = manchu_warhammer
-is_city = no
+tribal_owner = B54

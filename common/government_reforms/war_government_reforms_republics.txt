@@ -113,3 +113,49 @@ league_of_ostermark_reform = {
 	}
 	duration = 10
 }
+
+mercenary_company_reform = {
+	allow_normal_conversion = no
+	icon = "black_army_reform"
+	potential = {
+		has_reform = mercenary_company_reform
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 25
+	has_term_election = no
+	modifiers = {
+		max_absolutism = 30
+		governing_capacity = -100
+		land_forcelimit_modifier = 0.20
+		naval_forcelimit_modifier = -0.20
+	}
+
+	custom_attributes = {
+		generals_become_rulers = yes
+		locked_government_type = yes
+		cannot_become_dictatorship = yes
+	}
+}
+
+military_garrison_reform = {
+	allow_normal_conversion = no
+	icon = "black_army_reform"
+	potential = {
+		has_reform = military_garrison_reform
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 25
+	has_term_election = no
+	modifiers = {
+		max_absolutism = 30
+		governing_capacity = -100
+		land_forcelimit_modifier = 0.20
+		naval_forcelimit_modifier = -0.20
+	}
+
+	custom_attributes = {
+		generals_become_rulers = yes
+		locked_government_type = yes
+		cannot_become_dictatorship = yes
+	}
+}

@@ -4,7 +4,6 @@ base_manpower = 3
 base_production = 1
 trade_goods = slaves
 religion = chaos_undivided_religion
-
-is_city = yes
+tribal_owner = B88
 culture = tahmaks
 

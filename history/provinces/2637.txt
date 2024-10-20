@@ -7,4 +7,4 @@ religion = chaos_undivided_religion
 
 is_city = yes
 culture = kul
-
+tribal_owner = B43

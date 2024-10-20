@@ -10,7 +10,7 @@ setup_vision = yes
 	monarch = {
 		name = "Tamurkhan the Maggot Lord"
 		adm = 4
-		dip = 2
-		mil = 4
+		dip = 4
+		mil = 5
 	}
 }

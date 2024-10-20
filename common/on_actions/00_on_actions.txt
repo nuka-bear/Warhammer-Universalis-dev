@@ -1342,16 +1342,16 @@ on_annexed = {
 			dismantle_empire_of_china = yes
 			set_global_flag = empire_of_china_dismantled
 		}
-		if = {
-			limit = { has_country_modifier = legatus_natus }
-			remove_country_modifier = legatus_natus
-			set_global_flag = no_legatus_natus
-		}
-		if = {
-			limit = { has_country_modifier = primas_germaniae }
-			remove_country_modifier = primas_germaniae
-			set_global_flag = no_primas_germaniae
-		}
+		# if = {
+		# 	limit = { has_country_modifier = legatus_natus }
+		# 	remove_country_modifier = legatus_natus
+		# 	set_global_flag = no_legatus_natus
+		# }
+		# if = {
+		# 	limit = { has_country_modifier = primas_germaniae }
+		# 	remove_country_modifier = primas_germaniae
+		# 	set_global_flag = no_primas_germaniae
+		# }
 
 	}
 }
@@ -1926,9 +1926,9 @@ on_bi_yearly_pulse_4 = {
 		
 		# Defender of the Faith
 		100 = dotf.1
-		100 = dotf.4
+		#100 = dotf.4
 		#100 = dotf.6
-		100 = dotf.7
+		#100 = dotf.7
 		
 		# Mercenaries
 		100 = mercs.1
@@ -3898,13 +3898,13 @@ on_province_owner_change = {
 	on_province_owner_change_government_effect = yes
 
 
-	if = {
-		limit = {
-			NOT = { owner = { religion_group = muslim } }
-			has_province_modifier = sufi_shrine
-		}
-		remove_province_modifier = sufi_shrine
-	}
+	# if = {
+	# 	limit = {
+	# 		NOT = { owner = { religion_group = muslim } }
+	# 		has_province_modifier = sufi_shrine
+	# 	}
+	# 	remove_province_modifier = sufi_shrine
+	# }
 	on_province_owner_change_estate_privileges_effect = yes
 	imperial_modifiers_on_province_change_culture_or_change_owner_effect = yes
 	

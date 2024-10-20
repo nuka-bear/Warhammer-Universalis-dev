@@ -5,6 +5,6 @@ base_production = 1
 trade_goods = fur
 religion = chaos_undivided_religion
 
-is_city = yes
+tribal_owner = B86
 culture = tahmaks
 

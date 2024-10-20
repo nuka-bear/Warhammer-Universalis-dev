@@ -1,0 +1,6 @@
+base_tax = 3
+base_manpower = 4
+base_production = 4
+trade_goods = nothing
+religion = NoReligion
+is_city = no

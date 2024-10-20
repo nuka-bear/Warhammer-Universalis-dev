@@ -2,6 +2,9 @@ base_tax = 5
 base_manpower = 5
 base_production = 5
 trade_goods = unknown
-religion = NoReligion
-is_city = no
-center_of_trade = 2
+religion = animism
+culture = feral_lizardmen
+native_size = 5
+native_ferocity = 7
+native_hostileness = 10
+

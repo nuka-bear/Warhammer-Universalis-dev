@@ -9,8 +9,10 @@ setup_vision = yes
 2499.1.1 = {
 	monarch = {
 		name = "The Glottkin"
-		adm = 4
-		dip = 2
-		mil = 4
+		adm = 2
+		dip = 1
+		mil = 6
 	}
+	add_ruler_personality = immortal_personality
+	set_ruler_flag = immortal_ruler
 }
