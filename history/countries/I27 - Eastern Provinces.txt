@@ -18,4 +18,18 @@ setup_vision = yes
 		mil = 5
 		female = yes
 	}
+
+	change_estate_land_share = {
+    	estate = estate_nobles
+    	share = 10
+	}
+	change_estate_land_share = {
+    	estate = estate_church
+    	share = 10
+	}
+	change_estate_land_share = {
+    	estate = estate_burghers
+    	share = 10
+	}
+
 }

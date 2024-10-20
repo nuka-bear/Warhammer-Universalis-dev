@@ -6,3 +6,22 @@ technology_group = tech_orcish
 capital = 4440
 setup_vision = yes
 government_rank = 1
+2502.1.1 = {
+	clear_scipted_personalities = yes
+	add_ruler_personality = strict_personality
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = conqueror_personality
+	monarch = {
+	    name = "Grimgor Ironhide"
+	    adm = 4
+	    dip = 4
+	    mil = 6
+	   	fixed = yes
+	    age = 24
+	    claim = 95
+	    dynasty = ROOT
+	    culture = ROOT
+	    religion = ROOT
+	    male = yes
+	}
+}

@@ -1,0 +1,20 @@
+bookmark = {
+	name = "southlands_bookmark"
+	desc = "southlands_bookmark_desc"
+	date = 2502.11.11
+	
+	center = 723
+	default = no
+	
+	easy_country = Z01
+	easy_country = G24
+	easy_country = Z17
+	country = Z02
+	country = G04
+	country = Z31
+	country = G08
+	country = Z05
+	country = Z46
+	
+
+}

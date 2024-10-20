@@ -11,11 +11,13 @@ Everybody!
 	Make each mission tree a single icon of the culture or religion
 	Add province highlighting to missions
 	Use num_of_owned_provinces_with for many missions that do it a different way now. It shows the player the number they have
+	Add monuments based on the map.
 
 Some way to get racial administration to benefit/harm based on terrain type? Look at hydralaogic empire.
 
-Ind & Other one
-	Give them the araby tree?
+Make more bookmarks
+
+Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
 
 Ogres
 	IF you control the great maw, Sacrifice 2 year's worth of income for something
@@ -67,6 +69,10 @@ Orcs
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold
 	End Time mechanics for Orcs?
+	Add grimgor’s black crag monument
+		And add grimgor to the game - disciplined
+	Make ORc bridge the badlands mission instead be on 3 continents
+
 
 
 Cathay

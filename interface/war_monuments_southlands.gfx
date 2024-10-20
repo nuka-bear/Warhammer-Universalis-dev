@@ -61,6 +61,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_great_project_black_crag"	
+		texturefile = "gfx//interface//great_projects//great_project_qhapaq_nam.dds"
+	}
+
+
+	spriteType = {
 		name = "GFX_great_project_idol_of_gork"	
 		texturefile = "gfx//interface//great_projects//great_project_easter_island_statues.dds"
 	}
