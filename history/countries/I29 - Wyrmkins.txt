@@ -5,3 +5,18 @@ technology_group = tech_cathayan
 capital = 2861
 government_rank = 1
 setup_vision = yes
+
+2502.1.1 = {
+	change_estate_land_share = {
+    	estate = estate_nobles
+    	share = 10
+	}
+	change_estate_land_share = {
+    	estate = estate_church
+    	share = 10
+	}
+	change_estate_land_share = {
+    	estate = estate_burghers
+    	share = 10
+	}
+}

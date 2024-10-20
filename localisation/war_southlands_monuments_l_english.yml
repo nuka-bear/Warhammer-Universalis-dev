@@ -58,6 +58,10 @@ mount_bloodhorn_desc:0 "Dis ‘ere big mountain’s da home of da Greenskinz! At
 idol_of_gork:0 "Idol of Gork (or maybe Mork)"
 idol_of_gork_desc:0 "Dis massive stone idol’s carved up good fer Gork an' Mork, da biggest an’ baddest Greenskin gods. Da shamanz gather round, chantin' and shoutin' ta get da gods' favor before leadin' da boyz in a WAAAGH!"
 
+black_crag:0 "Black Crag"
+black_crag_desc:0 "A bastion of power and defiance, Black Crag stands as one of the mightiest fortresses in the Old World. Originally a Dwarfen Karak, it fell into the hands of Orcs long ago, becoming a symbol of brutal strength. Its towering walls and deep tunnels have seen countless battles, and the war-torn legacy of the Crag empowers whichever force controls it. Whether in the hands of the disciplined Dwarfs or the ferocious Greenskins, the fortress bolsters the resolve and fighting prowess of its occupants."
+
+
 
 ################
 ### Dwarves
