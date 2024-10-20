@@ -60,6 +60,11 @@ gov_athel_loren_name = {
 		2 = QUEEN
 		3 = QUEEN
 	}
+	consort_male = {
+		1 = KING
+		2 = KING
+		3 = KING
+	}
 	
 	heir_male = {
 		1 = HEIR

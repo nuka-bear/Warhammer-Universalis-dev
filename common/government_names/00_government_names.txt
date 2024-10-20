@@ -414,8 +414,8 @@ ottoman_vassals = {
 		religion_group = muslim
 		NOT = { is_march = yes }
 		is_subject_of_type = vassal
-		NOT = { has_reform = eyalet_government }
-		NOT = { has_reform = barbary_eyalet_government }
+	#	NOT = { has_reform = eyalet_government }
+	#	NOT = { has_reform = barbary_eyalet_government }
 		overlord = {
 			primary_culture = turkish
 		}
@@ -469,7 +469,7 @@ ottoman_eyalets = {
 		OR = {
 			is_subject_of_type = eyalet
 			is_subject_of_type = core_eyalet
-			has_reform = eyalet_government
+		#	has_reform = eyalet_government
 		}
 	}
 }
@@ -521,7 +521,7 @@ ottoman_barbary_eyalets = {
 		OR = {
 			is_subject_of_type = eyalet
 			is_subject_of_type = core_eyalet
-			has_reform = barbary_eyalet_government
+		#	has_reform = barbary_eyalet_government
 		}
 	}
 }
@@ -1448,53 +1448,53 @@ gov_holy_horde = {
 	}
 }
 
-gov_japanese_divine_empire = {
-	rank = {
-		1 = DIVINE_DUCHY
-		2 = DIVINE_KINGDOM
-		3 = DIVINE_EMPIRE
-	}
+# gov_japanese_divine_empire = {
+# 	rank = {
+# 		1 = DIVINE_DUCHY
+# 		2 = DIVINE_KINGDOM
+# 		3 = DIVINE_EMPIRE
+# 	}
 
-	ruler_male = {
-		1 = GOD_EMPEROR
-		2 = GOD_EMPEROR
-		3 = GOD_EMPEROR
-	}
+# 	ruler_male = {
+# 		1 = GOD_EMPEROR
+# 		2 = GOD_EMPEROR
+# 		3 = GOD_EMPEROR
+# 	}
 
-	ruler_female = {
-		1 = GODDESS_EMPRESS
-		2 = GODDESS_EMPRESS
-		3 = GODDESS_EMPRESS
-	}
+# 	ruler_female = {
+# 		1 = GODDESS_EMPRESS
+# 		2 = GODDESS_EMPRESS
+# 		3 = GODDESS_EMPRESS
+# 	}
 	
-	heir_male = {
-		1 = OUJI
-		2 = OUJI
-		3 = OUJI
-	}
+# 	heir_male = {
+# 		1 = OUJI
+# 		2 = OUJI
+# 		3 = OUJI
+# 	}
 
-	heir_female = {
-		1 = OUJO
-		2 = OUJO
-		3 = OUJO
-	}
+# 	heir_female = {
+# 		1 = OUJO
+# 		2 = OUJO
+# 		3 = OUJO
+# 	}
 
-	consort_male = {
-		1 = KOSEI
-		2 = KOSEI
-		3 = KOSEI
-	}
+# 	consort_male = {
+# 		1 = KOSEI
+# 		2 = KOSEI
+# 		3 = KOSEI
+# 	}
 
-	consort_female = {
-		1 = KOGO
-		2 = KOGO
-		3 = KOGO
-	}
+# 	consort_female = {
+# 		1 = KOGO
+# 		2 = KOGO
+# 		3 = KOGO
+# 	}
 
-	trigger = {
-		has_reform = japanese_divine_empire
-	}
-}
+# 	trigger = {
+# 	#	has_reform = japanese_divine_empire
+# 	}
+# }
 
 
 chinese_monarchy = {
