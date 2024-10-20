@@ -7,12 +7,6 @@ government_rank = 1
 capital = 102
 setup_vision = yes
 
-2502.1.1 = {
-	add_country_modifier = {
-		name = test_buff
-		duration = -1
-	}
-}
 
 2502.1.1 = {
 	monarch = {

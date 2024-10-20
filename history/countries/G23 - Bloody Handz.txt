@@ -6,10 +6,4 @@ technology_group = tech_orcish
 capital = 686
 
 setup_vision = yes
-2502.1.1 = {
-	add_country_modifier = {
-		name = test_buff
-		duration = -1
-	}
-}
 

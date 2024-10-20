@@ -6,9 +6,3 @@ technology_group = tech_orcish
 capital = 4574
 setup_vision = yes
 government_rank = 1
-2502.1.1 = {
-	add_country_modifier = {
-		name = test_buff
-		duration = -1
-	}
-}

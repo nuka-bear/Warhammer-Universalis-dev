@@ -18,5 +18,9 @@ spriteTypes = {
 	spriteType = {
 		name = "KARL_FRANZ_eventPicture"
 		texturefile = "gfx/event_pictures/KARL_FRANZ_eventPicture.dds"
-	}		
+	}	
+	spriteType = {
+		name = "ARIEL_eventPicture"
+		texturefile = "gfx/event_pictures/ARIEL_eventPicture.dds"
+	}			
 }
