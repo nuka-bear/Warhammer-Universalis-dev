@@ -78,6 +78,26 @@ is_bretonnian_kingdom = {
 	}
 }
 
+has_bretonnian_mission_tree = {
+	OR = {
+		tag = A15
+		tag = A16
+		tag = A17
+		tag = A18
+		tag = A19
+		tag = A20
+		tag = A21
+		tag = A22
+		tag = A23
+		tag = A24
+		tag = A25
+		tag = A26
+		tag = A27
+		tag = A28
+	}
+}
+
+
 do_not_have_female_rulers = {
 	custom_trigger_tooltip = {
         tooltip = do_not_have_female_rulers_tooltip

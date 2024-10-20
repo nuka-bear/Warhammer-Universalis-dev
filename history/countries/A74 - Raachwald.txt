@@ -1,6 +1,6 @@
 government = monarchy
-add_government_reform = feudalism_reform
-primary_culture = reiklander
+add_government_reform = indep_bretonnian_dukedom_reform
+primary_culture = marcheur
 religion = lady_of_the_lake
 technology_group = tech_imperial
 capital = 637

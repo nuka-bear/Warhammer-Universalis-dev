@@ -1,31 +1,45 @@
-#Reikland
-A01_reikland_support_1 = {
-	land_morale = 0.025
-	discipline = 0.025
+#Bretonnia
+
+bretonnia_virtue_audacity = {
 }
 
-A01_reikland_support_2 = {
-	land_morale = 0.05
-	discipline = 0.05
+bretonnia_virtue_confidence = {
 }
 
-A01_reikland_support_3 = {
-	land_morale = 0.075
-	discipline = 0.05
+bretonnia_virtue_discipline = {
 }
 
-A01_reikland_support_4 = {
-	land_morale = 0.10
-	discipline = 0.075
+bretonnia_virtue_duty = {
 }
 
-A01_reikland_support_5 = {
-	land_morale = 0.15
-	discipline = 0.10
+bretonnia_virtue_empathy = {
 }
 
-reikland_bretonnia_trade_modifier = {
-	trade_efficiency = 0.2
+bretonnia_virtue_heroism = {
+}
+
+bretonnia_virtue_the_ideal = {
+}
+
+bretonnia_virtue_the_impetuous_knight = {
+}
+
+bretonnia_virtue_the_joust = {
+}
+
+bretonnia_virtue_knightly_temper = {
+}
+
+bretonnia_virtue_noble_disdain = {
+}
+
+bretonnia_virtue_the_penitent = {
+}
+
+bretonnia_virtue_purity = {
+}
+
+bretonnia_virtue_stoicism = {
 }
 
 #Blazing Sun
@@ -65,7 +79,7 @@ A87_tilean_modifier = {
 
 A87_norscan_modifier = {
 	infantry_power = 0.1
-	years_of_nationalism = -2
+	years_nationalism = -2
 	global_unrest = 2
 }
 

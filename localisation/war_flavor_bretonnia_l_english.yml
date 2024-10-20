@@ -2,6 +2,36 @@
  ##############
  ###MISSIONS###
  ##############
+ bretonnia_duty_title:0 "Duty"
+ bretonnia_duty_desc:0 ""
+ brettonia_duty_trigger_tt:0 ""
+ bretonnia_purity_title:0 "Purity"
+ bretonnia_purity_desc:0 ""
+ bretonnia_stocism_title:0 "Stocism"
+ bretonnia_stocism_desc:0 ""
+ bretonnia_ideal_title:0 "Ideal"
+ bretonnia_ideal_desc:0 ""
+ bretonnia_penitent_title:0 "Penitent"
+ bretonnia_penitent_desc:0 ""
+ bretonnia_empathy_title:0 "Empatyh"
+ bretonnia_empathy_desc:0 ""
+ bretonnia_knightly_temper_title:0 "Knightly Temper"
+ bretonnia_knightly_temper_desc:0 ""
+ bretonnia_audacity_title:0 "Audacity"
+ bretonnia_audacity_desc:0 ""
+ bretonnia_noble_disdain_title:0 "Noble Disdain"
+ bretonnia_noble_disdain_desc:0 ""
+ bretonnia_impetuous_knight_title:0 "Impetuous Knight"
+ bretonnia_impetuous_knight_desc:0 ""
+ bretonnia_jount_title:0 "The Joust"
+ bretonnia_jount_desc:0 ""
+ bretonnia_confidence_title:0 "Confidence"
+ bretonnia_confidence_desc:0 ""
+ bretonnia_discipline_title:0 "Discipline"
+ bretonnia_discipline_desc:0 ""
+ bretonnia_heroism_title:0 "Heroism"
+ bretonnia_heroism_desc:0 ""
+ bretonnia_heroism_tt:0 "Win 15 wars aganist Evil Nations"
  
  ############
  ###EVENTS###

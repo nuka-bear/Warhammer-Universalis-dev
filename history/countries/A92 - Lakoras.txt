@@ -1,6 +1,6 @@
 government = monarchy
-add_government_reform = autocracy_reform
-primary_culture = bretoni
+add_government_reform = indep_bretonnian_dukedom_reform
+primary_culture = marcheur
 religion = lady_of_the_lake
 technology_group = tech_imperial
 capital = 751

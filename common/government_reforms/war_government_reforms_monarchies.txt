@@ -22,6 +22,7 @@ bretonnian_dukedom_reform = {
 	}
 	modifiers = {
 		nobles_influence_modifier = 0.05
+		amount_of_hussars = 3
 	}
 	custom_attributes = {
 		buffed_strong_duchies = yes		#+5% Loyalty
@@ -48,6 +49,7 @@ bretonnian_royarch_reform = {
 	}
 	modifiers = {
 		nobles_influence_modifier = 0.05
+		amount_of_hussars = 3
 	}
 	custom_attributes = {
 		buffed_strong_duchies = yes		#+5% Loyalty
@@ -62,26 +64,15 @@ bretonnian_royarch_reform = {
 indep_bretonnian_dukedom_reform = {
 	icon = "bretonnian_duke"
 	allow_normal_conversion = no
-	valid_for_nation_designer = no
-	nation_designer_cost = 0
-	lock_level_when_selected = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 20
+	lock_level_when_selected = no
 	potential = {
-		NOT = {
-			has_country_flag = formed_bretonnia_flag
-		}
-		AND = {
-			OR = {
-				capital_scope = {
-					region = bretonnia_region
-				}
-				has_reform = indep_bretonnian_dukedom_reform
-			}
-			religion = lady_of_the_lake
-		}
+		religion = lady_of_the_lake
 	}
 	modifiers = {
-		vassal_income = 0.25
 		nobles_influence_modifier = 0.05
+		amount_of_hussars = 1
 	}
 	custom_attributes = {
 		buffed_strong_duchies = yes		#+5% Loyalty

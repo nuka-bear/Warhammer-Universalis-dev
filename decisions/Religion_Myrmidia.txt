@@ -9,7 +9,7 @@ country_decisions = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 553				#remas
-				province_id = 585				#magrita
+				province_id = 590				#magrita
 			}
 			OR = {
 				NOT = {
@@ -23,7 +23,7 @@ country_decisions = {
 		allow = {
 			government_rank = 3
 			owns_core_province = 553			#remas
-			owns_core_province = 585			#magrita
+			owns_core_province = 590			#magrita
 		}
 		major = yes
 		effect = {
@@ -37,7 +37,7 @@ country_decisions = {
 			modifier = {
 				NOT = {
 					owns_core_province = 553					#remas
-					owns_core_province = 585					#magrita
+					owns_core_province = 590					#magrita
 				}
 				factor = 0
 			}

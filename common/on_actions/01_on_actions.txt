@@ -165,38 +165,29 @@ on_death_election = {
 }
 
 on_war_won = {
-	#FROM = { country_event = { id = flavor_cri.6 } }
-	#Reikland-Bretonnia War Won Count
+
+	# bretonnia wars won counter
 	if = {
 		limit = {
-			tag = A01
-			OR = {
-				has_country_modifier = A01_reikland_support_1
-				has_country_modifier = A01_reikland_support_2
-				has_country_modifier = A01_reikland_support_3
-			}
+			has_bretonnian_mission_tree = yes
 		}
-		change_variable = {
-			which = reiklandBretonnia_WarWon
-			value = 1
-		}
-	}
-	if = {
-		limit = {
-			OR = {
-				has_country_flag = reikland_bretonnian_ally
-				tag = A01
-			}
-			NOT = {
-				is_in_war = {
-					participants = A01
+		change_variable = { bretonniaWarsWon = 1 }
+		if = {
+			limit = {
+				FROM = {
+					destruction_culture = yes
 				}
 			}
+			change_variable = { bretonniaEvilWarsWon = 1 }
 		}
-		every_country = {
-			remove_country_modifier = A01_reikland_support_1
-			remove_country_modifier = A01_reikland_support_2
-			remove_country_modifier = A01_reikland_support_3
+		if = {
+			limit = {
+				FROM = {
+					is_force_converted = yes
+				}
+				religion = lady_of_the_lake
+			}
+			change_variable = { bretonniaReligiousWarsWon = 1 }
 		}
 	}
 }
