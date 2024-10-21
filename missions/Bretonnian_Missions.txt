@@ -71,6 +71,7 @@ bretonnian_1_missions = {
 			}
 		}
 		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_duty
 				duration = 9125
@@ -91,6 +92,7 @@ bretonnian_1_missions = {
 			}
 		}
 		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_purity
 				duration = 9125
@@ -111,6 +113,7 @@ bretonnian_1_missions = {
 			}
 		}
 		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_stoicism
 				duration = 9125
@@ -156,6 +159,7 @@ bretonnian_2_missions = {
 			stability = 2
 		}
 		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_the_ideal
 				duration = 9125
@@ -196,6 +200,7 @@ bretonnian_2_missions = {
 			is_monarch_leader = yes
 		}
 		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_the_penitent
 				duration = 9125
@@ -236,6 +241,7 @@ bretonnian_2_missions = {
 			else = {
 				add_treasury = 500
 			}
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_empathy
 				duration = 9125
@@ -284,6 +290,7 @@ bretonnian_3_missions = {
 			add_mil_power = 75
 			add_dip_power = 75
 			add_adm_power = 75
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_knightly_temper
 				duration = 9125
@@ -305,16 +312,197 @@ bretonnian_3_missions = {
 			custom_trigger_tooltip = {
 				tooltip = bretonnia_faith_tt
 				check_variable = {
-					which = bretonniaReligiousWarsWon
+					which = bretonnia_Religious_Wars_Won
 					value = 10
 				}
 			}
 			religion = lady_of_the_lake
 		}
 		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_audacity
 				duration = 9125
+			}
+		}
+	}
+
+	bertonnia_squire = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = {
+		}
+
+		provinces_to_highlight = {  }
+
+		trigger = {
+			prestige = 33
+			custom_trigger_tooltip = {
+				tooltip = bretonnia_squire_trigger_tt
+				check_variable = {
+					which = bretonnia_Virtue_Mission_Completed
+					value = 3
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					mil = 6
+				}
+				add_mil_power = 100
+			}
+			else = {
+				change_mil = 1
+			}
+			add_country_modifier = {
+				name = bretonnia_squire
+				duration = -1
+			}
+		}
+	}
+	bertonnia_knight_errant = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = {
+			bertonnia_squire
+		}
+
+		provinces_to_highlight = {  }
+
+		trigger = {
+			prestige = 33
+			custom_trigger_tooltip = {
+				tooltip = bretonnia_knight_errant_trigger_tt
+				check_variable = {
+					which = bretonnia_Virtue_Mission_Completed
+					value = 6
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					mil = 6
+				}
+				add_mil_power = 100
+			}
+			else = {
+				change_mil = 1
+			}
+			add_country_modifier = {
+				name = bretonnia_squire
+				duration = -1
+			}
+		}
+	}
+	bertonnia_knight_of_the_realm = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = {
+			bertonnia_knight_errant
+		}
+
+		provinces_to_highlight = {  }
+
+		trigger = {
+			prestige = 33
+			custom_trigger_tooltip = {
+				tooltip = bretonnia_knight_realm_trigger_tt
+				check_variable = {
+					which = bretonnia_Virtue_Mission_Completed
+					value = 8
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					mil = 6
+				}
+				add_mil_power = 100
+			}
+			else = {
+				change_mil = 1
+			}
+			add_country_modifier = {
+				name = bretonnia_squire
+				duration = -1
+			}
+		}
+	}
+	bertonnia_questing_knight = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = {
+			bertonnia_knight_of_the_realm
+		}
+
+		provinces_to_highlight = {  }
+
+		trigger = {
+			prestige = 33
+			custom_trigger_tooltip = {
+				tooltip = bretonnia_questing_trigger_tt
+				check_variable = {
+					which = bretonnia_Virtue_Mission_Completed
+					value = 10
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					mil = 6
+				}
+				add_mil_power = 100
+			}
+			else = {
+				change_mil = 1
+			}
+			add_country_modifier = {
+				name = bretonnia_squire
+				duration = -1
+			}
+		}
+	}
+	bertonnia_grail_knight = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = {
+			bertonnia_questing_knight
+		}
+
+		provinces_to_highlight = {  }
+
+		trigger = {
+			prestige = 33
+			custom_trigger_tooltip = {
+				tooltip = bretonnia_grail_knight_trigger_tt
+				check_variable = {
+					which = bretonnia_Virtue_Mission_Completed
+					value = 14
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					mil = 6
+				}
+				add_mil_power = 100
+			}
+			else = {
+				change_mil = 1
+			}
+			add_country_modifier = {
+				name = bretonnia_squire
+				duration = -1
 			}
 		}
 	}
@@ -349,6 +537,7 @@ bretonnian_4_missions = {
 			war_score = 50
 		}
 		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_noble_disdain
 				duration = 9125
@@ -382,6 +571,7 @@ bretonnian_4_missions = {
 			num_of_generals = 4
 		}
 		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_the_impetuous_knight
 				duration = 9125
@@ -400,6 +590,7 @@ bretonnian_4_missions = {
 			army_tradition = 50
 		}
 		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_the_joust
 				duration = 9125
@@ -471,6 +662,7 @@ bretonnian_5_missions = {
 					share = -5
 				}
 			}
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_confidence
 				duration = 9125
@@ -503,6 +695,7 @@ bretonnian_5_missions = {
 			}
 		}
 		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_discipline
 				duration = 9125
@@ -523,13 +716,14 @@ bretonnian_5_missions = {
 			custom_trigger_tooltip = {
 				tooltip = bretonnia_heroism_tt
 				check_variable = {
-					which = bretonniaEvilWarsWon
-					value = 15
+					which = bretonnia_Evil_Wars_Won
+					value = 10
 				}
 			}
 			mil = 5
 		}
 		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
 			add_country_modifier = {
 				name = bretonnia_virtue_heroism
 				duration = 9125

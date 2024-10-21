@@ -15,15 +15,23 @@ gp_court_of_the_phoenix_king = {
 	on_destroyed = {
 	}
 	can_use_modifiers_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	can_upgrade_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	keep_trigger = {
@@ -227,15 +235,23 @@ gp_white_tower_of_hoeth = {
 	on_destroyed = {
 	}
 	can_use_modifiers_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	can_upgrade_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	keep_trigger = {
@@ -440,15 +456,23 @@ gp_black_citadel_of_anlec = {
 	on_destroyed = {
 	}
 	can_use_modifiers_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	can_upgrade_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	keep_trigger = {
@@ -549,15 +573,23 @@ gp_hall_of_charioteers = {
 	on_destroyed = {
 	}
 	can_use_modifiers_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	can_upgrade_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	keep_trigger = {

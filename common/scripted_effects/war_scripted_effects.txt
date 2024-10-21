@@ -1049,3 +1049,12 @@ add_religious_tension_effect = {
 	}
 }
 
+##Bretonnia##
+##Bretonnia##
+##Bretonnia##
+bretonnia_Increment_Virtue_Mission_Completed = {
+	hidden_effect = {
+		change_variable = { bretonnia_Virtue_Mission_Completed = 1 }
+	}
+}
+
