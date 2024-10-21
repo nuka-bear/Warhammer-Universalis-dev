@@ -18,9 +18,13 @@ orc_fightiness_mechanic = {
 				extend_beyond_value = no
 				modifier = {
 					manpower_recovery_speed = 0.33
-					land_morale = 0.10
 					global_regiment_cost = -0.33
 					global_unrest = -3
+					all_estate_loyalty_equilibrium = 0.05
+					legitimacy = 0.5
+					republican_tradition = 0.25
+					devotion = 0.5
+					horde_unity = 0.5
 				}
 			}
 
@@ -30,9 +34,13 @@ orc_fightiness_mechanic = {
 				extend_beyond_value = no
                 modifier = {
 					manpower_recovery_speed = -0.33
-					land_morale = -0.10
 					global_regiment_cost = 0.33
 					global_unrest = 3
+					all_estate_loyalty_equilibrium = -0.05
+					legitimacy = -0.5
+					republican_tradition = -0.25
+					devotion = -0.5
+					horde_unity = -0.5
                 }
             }
 		}

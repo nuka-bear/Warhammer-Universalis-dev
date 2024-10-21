@@ -4,10 +4,14 @@ JG To Do & Thoughts
 Common missions: https://eu4.paradoxwikis.com/List_of_common_mission_triggers
 
 Raiding happens when people reclaim their own lands
-	Might be fixed, check if this works.
+	Might be fixed, check if this works. - Nope!
 
 Burger Privelage if your capital is in a subterranean zone, then you get + in subterranean, - in non-subterranean
 	Look at hydralaogic empire.
+
+Localize racial challenges for orcs and ogres
+
+Fix remaining Ind and Khurse flags
 
 Everybody!
 	Look at government types
@@ -18,6 +22,7 @@ Everybody!
 	Add province highlighting to missions
 	Use num_of_owned_provinces_with for many missions that do it a different way now. It shows the player the number they have
 	Add monuments based on the map.
+	Switch up multiple gov types and religions for each area.
 
 Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
 

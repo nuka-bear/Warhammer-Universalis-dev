@@ -24,7 +24,7 @@ country_event = {
 		NOT = { is_at_war = yes }
 	}
 
-	mean_time_to_happen = { months = 4 }
+	mean_time_to_happen = { months = 12 }
 	
 
 	# Declare War on Somebody
@@ -115,7 +115,7 @@ country_event = {
 		NOT = { is_at_war = yes }
 	}
 
-	mean_time_to_happen = { months = 4 }
+	mean_time_to_happen = { months = 12 }
 	
 
 	# Declare War on Somebody
@@ -177,7 +177,7 @@ country_event = {
 		NOT = { is_at_war = yes }
 	}
 
-	mean_time_to_happen = { months = 4 }
+	mean_time_to_happen = { months = 12 }
 	
 
 	# Get unstable troops
@@ -228,7 +228,7 @@ country_event = {
 		NOT = { is_at_war = yes }
 	}
 
-	mean_time_to_happen = { months = 4 }
+	mean_time_to_happen = { months = 12 }
 	
 
 	# Kill Ruler
@@ -329,7 +329,7 @@ country_event = {
 		is_at_war = yes
 	}
 	
-	mean_time_to_happen = { months = 4 }
+	mean_time_to_happen = { months = 12 }
 	
 
 	# Declare War on Somebody
@@ -386,7 +386,7 @@ country_event = {
 		is_at_war = yes
 	}
 	
-	mean_time_to_happen = { months = 4 }
+	mean_time_to_happen = { months = 12 }
 	
 
 	# Get unstable troops
@@ -425,10 +425,8 @@ country_event = {
 		is_at_war = yes
 	}
 	
-	mean_time_to_happen = { months = 4 }
+	mean_time_to_happen = { months = 12 }
 	
-
-	# Get unstable troops
 
 	option = {
 		name = event_waaagh.5.option_1
