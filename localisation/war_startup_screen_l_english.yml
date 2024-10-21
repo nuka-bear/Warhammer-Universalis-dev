@@ -13,7 +13,7 @@
 
 
  string_start_title_badlands_gs:0 "WAAAAGH"
- string_start_badlands_gs:0 "There is no race so pervasive, prolific, diverse, and destructive as the Greenskins. From cowardly Goblins to rugged Orcs and lumbering Trolls they are a bane to civilisations across the known world.\n\nThe cradle of the greenskins is the Badlands. Where they originally came from no one knows, but where they are strongest now is the Badlands. With such multitudes of greenskins, it is only a matter of time before a great warlord arises from the countless masses, and the time has come. Rally the greenskins of the Badlands, and perhaps the Old World, for the greatest WAAAGH! yet to come."
+ string_start_badlands_gs:0 "There is no race so pervasive, prolific, diverse, and destructive as the Greenskins. From cowardly Goblins to rugged Orcs and lumbering Trolls they are a bane to civilisations across the known world.\n\nThe cradle of the greenskins is the Badlands. Where they originally came from no one knows, but where they are strongest now is the Badlands.\n\n Greenskins thrive on war, and dissolve in peace. War is necessary for their economy to function. A warlord who embraces peace will find his coffers empty, his armies disbanded, and his men standing behind him with choppers.\n\nWith such multitudes of greenskins, it is only a matter of time before a great warlord arises from the countless masses, and the time has come. Rally the greenskins of the Badlands, and perhaps the Old World, for the greatest WAAAGH! yet to come."
 
  #dwarf
  string_start_title_dwarf:0 "Age of Retribution"

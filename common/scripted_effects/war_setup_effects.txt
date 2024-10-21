@@ -373,6 +373,9 @@ setup_vision = {
 					region = badlands_region
 				}
 			}
+			southern_sea_region = {
+				discover_country = ROOT
+			}
 			badlands_region = {
 				discover_country = ROOT
 			}
@@ -2861,6 +2864,12 @@ setup_vision = {
 	#Discover allies capitals
 	every_ally = {
 		capital_scope = {
+			discover_country = ROOT
+		}
+	}
+	# Discovers all neighbors
+	every_neighbor_country = {
+		every_owned_province = {
 			discover_country = ROOT
 		}
 	}

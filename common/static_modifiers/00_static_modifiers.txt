@@ -764,7 +764,7 @@ peace = {
 	monthly_militarized_society = -0.1
 	monthly_ottoman_decadence = 0.1
 	monthly_asha_vahishta = 0.25
-	monthly_orc_fightiness_power = -1.5
+	monthly_orc_fightiness_power = -1.0
 }
 
 unconditional_surrender = {

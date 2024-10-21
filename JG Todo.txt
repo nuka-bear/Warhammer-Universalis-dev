@@ -13,6 +13,8 @@ Localize racial challenges for orcs and ogres
 
 Fix remaining Ind and Khurse flags
 
+Should Fightiness apply to all orc militaries?
+
 Everybody!
 	Look at government types
 	Look at random pulse events

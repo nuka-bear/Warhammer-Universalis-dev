@@ -18,7 +18,7 @@ country_event = {
 			has_government_power = {
 				mechanic_type = orc_fightiness_mechanic
 				power_type = orc_fightiness_power
-				value = -50
+				value = -75
 			}
 		}
 		NOT = { is_at_war = yes }
@@ -109,7 +109,7 @@ country_event = {
 			has_government_power = {
 				mechanic_type = orc_fightiness_mechanic
 				power_type = orc_fightiness_power
-				value = -50
+				value = -75
 			}
 		}
 		NOT = { is_at_war = yes }
@@ -171,7 +171,7 @@ country_event = {
 			has_government_power = {
 				mechanic_type = orc_fightiness_mechanic
 				power_type = orc_fightiness_power
-				value = -50
+				value = -75
 			}
 		}
 		NOT = { is_at_war = yes }
@@ -222,7 +222,7 @@ country_event = {
 			has_government_power = {
 				mechanic_type = orc_fightiness_mechanic
 				power_type = orc_fightiness_power
-				value = -50
+				value = -75
 			}
 		}
 		NOT = { is_at_war = yes }

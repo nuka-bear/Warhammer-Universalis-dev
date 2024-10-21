@@ -25,6 +25,7 @@ orc_fightiness_mechanic = {
 					republican_tradition = 0.25
 					devotion = 0.5
 					horde_unity = 0.5
+					monthly_orc_fightiness_power = -15.0
 				}
 			}
 
