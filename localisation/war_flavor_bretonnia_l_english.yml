@@ -2,9 +2,18 @@
  ##############
  ###MISSIONS###
  ##############
+ bertonnia_squire_title:0 "Lowly Squire"
+ bertonnia_squire_desc:0 "I give my body, heart and soul, to the Lady whom I seek."
+ bertonnia_knight_errant_title:0 "Knight Errant"
+ bertonnia_knight_errant_desc:0 "No plea for help shall find me wanting. No obstacle will stand before me. No evil will taint the lands bequeathed unto me."
+ bertonnia_knight_of_the_realm_title:0 "Knight's Vow"
+ bertonnia_knight_of_the_realm_desc:0 "When the clarion call is sounded, I will ride out and fight in the name of Liege and Lady."
+ bertonnia_questing_knight_title:0 "Questing Vow"
+ bertonnia_questing_knight_desc:0 "That which is sacrament, I shall preserve. That which is sublime, I will protect. That which threatens, I will destroy, for my holy wrath will know no bounds."
+ bertonnia_grail_knight_title:0 "Grail Vow"
+ bertonnia_grail_knight_desc:0 "Honour is all. Chivalry is all. Rejoice, for we, the Knights of Bretonnia... will be your shield."
  bretonnia_duty_title:0 "Duty"
  bretonnia_duty_desc:0 ""
- brettonia_duty_trigger_tt:0 ""
  bretonnia_purity_title:0 "Purity"
  bretonnia_purity_desc:0 ""
  bretonnia_stocism_title:0 "Stocism"
@@ -91,6 +100,26 @@
  indep_bretonnian_dukedom_reform:0 "Exile Bretonnian Dukedom"
  indep_bretonnian_dukedom_reform_desc:0 "It is not uncommon to find outposts of Bretonnian society and culture scattered far and wide - tiny feudalistic realms where the Lady of the Lake is revered and in which the traditions of the Code Chivalric are upheld, to a greater or lesser extent, by knightly lords of often questionable honour."
  
+ brt_authority_reform_one:0 "Guaranteed Autonomy"
+ brt_authority_reform_one_desc:0 "Guarantee the place of the petty nobility within our administration with the goal of providing lasting stability and securing the status quo."
+ brt_authority_reform_two:0 "Reform the Cults"
+ brt_authority_reform_two_desc:0 "By reforming the various Cults in Bretonnia, they will be less influencial over the politics of Bretonnia."
+ brt_authority_reform_three:0 "Reform Men-at-Arms"
+ brt_authority_reform_three_desc:0 "The Realm can no longer allow the neglect of the training and equipment of it's lowbown warrirors"
+ brt_authority_reform_four:0 "Decrees of Bretonnia"
+ brt_authority_reform_four_desc:0 "By the King's word - and the eternal grace of the Lady - is Bretonnia governed for the good of its people."
+ brt_authority_reform_five:0 "Bretonnia Reform Five"
+ brt_authority_reform_five_desc:0 "Sloboda Kupy includes laws of free trade in the Rus and trade relations with Novgorod."
+ brt_authority_reform_six:0 "Bretonnia Reform Six"
+ brt_authority_reform_six_desc:0 ""
+ brt_authority_reform_seven:0 "Bretonnia Reform Seven"
+ brt_authority_reform_seven_desc:0 ""
+ brt_authority_reform_eight:0 "Bretonnia Reform Eight"
+ brt_authority_reform_eight_desc:0 ""
+ brt_authority_reform_nine:0 "The Unification of Bretonnia"
+ brt_authority_reform_nine_desc:0 "One people, one land - all shall know its glory and granduer."
+ 
+ 
  #################
  ### misc ###
  #################
@@ -101,3 +130,51 @@
  desc_grail_knight_personality: "This ruler is a Grail knight.\nOne of the virtuous few who had long quested for the Grail, driven ever onwards by visions of the Lady of the Lake to seek for her chalice in far-off lands, to vanquish evil, to aid the needy and forever prove his virtuous heart in the heat of battle. A saint amongst men, a warrior beyond compare who had slain great monsters, fought in wars beyond number, vanquished the most dreaded of foes and who had been granted powers beyond the ken of mere mortals."
  grail_knight_personality_die_desc: "Returned to the Lady"
  grail_knight_personality_modifier: "Grail Knight"
+ ability_brt_authority_mechanic:0 "Royarch Authority"
+ brt_authority:0 "Royarch Authority"
+ brt_authority_gain_modifier:0 "Royarch Authority Gain Modifier"
+ monthly_brt_authority:0 "Monthly Royarch Authority"
+
+ ### Tool Tips ###
+ ### Tool Tips ###
+ ### Tool Tips ###
+ bretonnia_squire_trigger_tt:0 "Embody §Y3§! of the §lVirtues of Knighthood§! by completing the requisite missions at the top of the tree. (Currently §Y[Root.bretonnia_Virtue_Mission_Completed.GetValue]/3§!)."
+ bretonnia_knight_errant_trigger_tt:0 "Embody §Y6§! of the §lVirtues of Knighthood§! by completing the requisite missions at the top of the tree. (Currently §Y[Root.bretonnia_Virtue_Mission_Completed.GetValue]/6§!)."
+ bretonnia_knight_realm_trigger_tt:0 "Embody §Y8§! of the §lVirtues of Knighthood§! by completing the requisite missions at the top of the tree. (Currently §Y[Root.bretonnia_Virtue_Mission_Completed.GetValue]/8§!)."
+ bretonnia_questing_trigger_tt:0 "Embody §Y10§! of the §lVirtues of Knighthood§! by completing the requisite missions at the top of the tree. (Currently §Y[Root.bretonnia_Virtue_Mission_Completed.GetValue]/10§!)."
+ bretonnia_grail_knight_trigger_tt:0 "Embody §Yall§! of the §lVirtues of Knighthood§! by completing the requisite missions at the top of the tree. (Currently §Y[Root.bretonnia_Virtue_Mission_Completed.GetValue]/14§!).""
+ bretonnia_faith_tt:0 "Win §Y10§! wars against those not §YLady of the Lake§! (Currently §Y[Root.bretonnia_Religious_Wars_Won.GetValue]/10§!)."
+ bretonnia_heroism_tt:0 "Win §Y10§! wars against §YEvil§! (Currently §Y[Root.bretonnia_Evil_Wars_Won.GetValue]/5§!)."
+ brettonia_duty_trigger_tt:0 "One of the following must be true:\n\nHave at least §Y2§! allies that have less than §Y100§! Total Development and greater than §Y80§! Trust\n\nHave at least §Y2§! subjects that have less than §Y100§! Total Development and greater than §Y80§! Trust\n\nHave at least §Y1§! ally and §Y1§! subject that has less than §Y100§! Total Development and greater than §Y80§! Trust"
+ BRT_reform_1_tooltip:0 "§YEvery§! subject country gets:"
+
+ ### Mission Modifiers ###
+ ### Mission Modifiers ###
+ ### Mission Modifiers ###
+ bretonnia_virtue_duty:0 "Virtue of Duty"
+ desc_bretonnia_virtue_duty:0 ""
+ bretonnia_virtue_purity:0 "Virtue of Purity"
+ desc_bretonnia_virtue_purity:0 ""
+ bretonnia_virtue_stoicism:0 "Virtue of Stoicism"
+ desc_bretonnia_virtue_stoicism:0 ""
+ bretonnia_virtue_the_ideal:0 "Virtue of the Ideal"
+ desc_bretonnia_virtue_the_ideal:0 ""
+ bretonnia_virtue_empathy:0 "Virtue of Empathy"
+ desc_bretonnia_virtue_empathy:0 ""
+ bretonnia_virtue_knightly_temper:0 "Virtue of Knigtly Temper"
+ desc_bretonnia_virtue_knightly_temper:0 ""
+ bretonnia_virtue_audacity:0 "Virtue of Audacity"
+ desc_bretonnia_virtue_audacity:0 ""
+ bretonnia_virtue_noble_disdain:0 "Virtue of Noble Disdain"
+ desc_bretonnia_virtue_noble_disdain:0 ""
+ bretonnia_virtue_the_impetuous_knight:0 "Virtue of the Impetuous Knight"
+ desc_bretonnia_virtue_the_impetuous_knight:0 ""
+ bretonnia_virtue_the_joust:0 "Virtue of the Joust"
+ desc_bretonnia_virtue_the_joust:0 ""
+ bretonnia_virtue_confidence:0 "Virtue of Confidence"
+ desc_bretonnia_virtue_confidence:0 ""
+ bretonnia_virtue_discipline:0 "Virtue of Discipline"
+ desc_bretonnia_virtue_discipline:0 ""
+ bretonnia_virtue_heroism:0 "Virtue of Heroism"
+ desc_bretonnia_virtue_heroism:0 ""
+ 

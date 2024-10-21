@@ -68,4 +68,72 @@ spriteTypes = {
 		name = "GFX_great_project_erengrad_port_gp"
 		texturefile = "gfx//interface//great_projects//great_project_erengrad_port_gp.dds"
 	}
+	spriteType = {
+		name = "GFX_great_project_gp_court_of_the_phoenix_king"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_gp_court_of_the_everqueen"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_gp_white_tower_of_hoeth"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_gp_amphitheatre_of_yvresse"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_gp_black_citadel_of_anlec"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_gp_hall_of_charioteers"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_gp_gates_of_lothern"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_gp_hall_of_dragons"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_gp_royal_ellyrian_stables"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_gp_ancient_subterranean_palace"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_gp_white_lion_hunting_grounds"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_black_tower_of_malekith"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_the_dark_crag"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_convent_of_sorcery"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+		spriteType = {
+		name = "GFX_great_project_lairs_of_clar_karond"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_karond_kar"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_har_ganeth"
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
 }

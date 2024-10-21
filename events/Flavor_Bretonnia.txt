@@ -2369,7 +2369,10 @@ country_event = {
 		add_prestige = 5
 		add_government_reform = bretonnian_royarch_reform
 		grant_independence = yes
-		save_event_target_as = new_brt_king
+		add_ruler_modifier = {
+			name = new_bretonnia_king
+			duration = 720
+		} 
 		save_global_event_target_as = RoyarchOfBretonnia
 		every_country = {
 			limit = {
@@ -2404,18 +2407,13 @@ country_event = {
 		}
 		hidden_effect = {
 			FROM = {
-				if = {
-					limit = {
-						has_reform = bretonnian_royarch_reform
-					}
-					add_government_reform = bretonnian_dukedom_reform
-				}
 				grant_independence = yes
 				create_subject = {
 					subject = ROOT
 					subject_type = bretonnian_dukedom_subject
 				}
 			}
+
 		}
 	}
 }

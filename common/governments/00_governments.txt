@@ -102,6 +102,7 @@ monarchy = {
 				dwarf_kingdom_reform
 				witch_kingdom_reform
 				athel_loren_monarchy
+				united_bretonnia_reform
 			}
 		}
 		hereditary_vs_nobility = {

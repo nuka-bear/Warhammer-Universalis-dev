@@ -91,50 +91,50 @@ on_secondary_religion_change = {
 		limit = { has_province_modifier = tengri_abandoning_the_old_ways }
 		remove_province_modifier = tengri_abandoning_the_old_ways
 	}
-	remove_country_modifier = tengri_devout_muslim
-	remove_country_modifier = tengri_confucian_elites_alienated
-	remove_country_modifier = tengri_confucian_titles
-	remove_country_modifier = tengri_traditionalists_strengthened
-	remove_country_modifier = tengri_confucian_nobles
-	remove_country_modifier = tengri_pali_legal_traditions
-	remove_country_modifier = tengri_religious_pilgrimages
-	remove_country_modifier = tengri_monks_in_capital
-	remove_country_modifier = tengri_influx_of_monks
-	remove_country_modifier = tengri_shiite_immigration
-	remove_country_modifier = support_of_the_khojas
-	remove_country_modifier = black_shamanism_modifier
-	remove_country_modifier = tengri_animist_pantheon
-	remove_country_modifier = zoroastrian_traders
-	remove_country_modifier = spread_of_tengri_tea_ceremony
-	remove_country_modifier = tengri_tea_ceremony
-	remove_country_modifier = tengri_japanese_swordsmithing
-	remove_country_modifier = tengri_bow_and_arrow_defended
-	remove_country_modifier = tengri_support_of_shamans
-	remove_country_modifier = tengri_hindu_conflict
-	remove_country_modifier = tengri_hindu_syncretism
-	remove_country_modifier = tengri_devout_christian_ruler
-	remove_country_modifier = tengri_personal_confessor
-	remove_country_modifier = tengri_confucian_administrators
-	remove_country_modifier = tengri_traditional_elites_alienated
-	remove_country_modifier = tengri_jihad
-	remove_country_modifier = tengri_stood_up_for_yassa
-	remove_country_modifier = tengri_sufi_teacher
-	remove_country_modifier = tengri_qadi
-	remove_country_modifier = tengri_religious_influx
-	remove_country_modifier = tengri_ibadi_scholars
-	remove_country_modifier = tengri_clergy_conflicts
-	remove_country_modifier = tengri_shamans_spurned
-	clr_country_flag = khojas_established
-	clr_country_flag = tengri_christian_devout_court
-	clr_ruler_flag = tengri_muslim_ruler_questioned
-	if = {
-		limit = {
-			check_variable = { which = khojas_retained value = 1 }
-		}
-		set_variable = {
-			which = khojas_retained value = 0
-		}
-	}
+	# remove_country_modifier = tengri_devout_muslim
+	# remove_country_modifier = tengri_confucian_elites_alienated
+	# remove_country_modifier = tengri_confucian_titles
+	# remove_country_modifier = tengri_traditionalists_strengthened
+	# remove_country_modifier = tengri_confucian_nobles
+	# remove_country_modifier = tengri_pali_legal_traditions
+	# remove_country_modifier = tengri_religious_pilgrimages
+	# remove_country_modifier = tengri_monks_in_capital
+	# remove_country_modifier = tengri_influx_of_monks
+	# remove_country_modifier = tengri_shiite_immigration
+	# remove_country_modifier = support_of_the_khojas
+	# remove_country_modifier = black_shamanism_modifier
+	# remove_country_modifier = tengri_animist_pantheon
+	# remove_country_modifier = zoroastrian_traders
+	# remove_country_modifier = spread_of_tengri_tea_ceremony
+	# remove_country_modifier = tengri_tea_ceremony
+	# remove_country_modifier = tengri_japanese_swordsmithing
+	# remove_country_modifier = tengri_bow_and_arrow_defended
+	#r#emove_country_modifier = tengri_support_of_shamans
+	#remove_country_modifier = tengri_hindu_conflict
+	#remove_country_modifier = tengri_hindu_syncretism
+	#remove_country_modifier = tengri_devout_christian_ruler
+	#remove_country_modifier = tengri_personal_confessor
+	#remove_country_modifier = tengri_confucian_administrators
+	#remove_country_modifier = tengri_traditional_elites_alienated
+	#remove_country_modifier = tengri_jihad
+	#remove_country_modifier = tengri_stood_up_for_yassa
+	#remove_country_modifier = tengri_sufi_teacher
+	#emove_country_modifier = tengri_qadi
+	#remove_country_modifier = tengri_religious_influx
+	#remove_country_modifier = tengri_ibadi_scholars
+	#remove_country_modifier = tengri_clergy_conflicts
+	#remove_country_modifier = tengri_shamans_spurned
+	#clr_country_flag = khojas_established
+	#clr_country_flag = tengri_christian_devout_court
+	#clr_ruler_flag = tengri_muslim_ruler_questioned
+	# if = {
+	# 	limit = {
+	# 		check_variable = { which = khojas_retained value = 1 }
+	# 	}
+	# 	set_variable = {
+	# 		which = khojas_retained value = 0
+	# 	}
+	# }
 }
 
 # country. Spawned when Enforcing Rebel Demands through a Support Rebels-war.
@@ -315,20 +315,20 @@ on_main_war_won = {
 # country
 # root = winning country, from = loser country
 on_separate_war_won = {
-	if = {
-		limit = {
-			ROOT = {
-				has_mission = swe_devastate_the_christians
-				NOT = { mission_completed = swe_devastate_the_christians }
-				religion = norse_pagan_reformed
-			}
-			FROM = { religion_group = christian }
-		}
-		change_variable = {
-			which = swe_won_wars_against_christians
-			value = 1
-		}
-	}
+	# if = {
+	# 	limit = {
+	# 		ROOT = {
+	# 			has_mission = swe_devastate_the_christians
+	# 			NOT = { mission_completed = swe_devastate_the_christians }
+	# 			religion = norse_pagan_reformed
+	# 		}
+	# 		FROM = { religion_group = christian }
+	# 	}
+	# 	change_variable = {
+	# 		which = swe_won_wars_against_christians
+	# 		value = 1
+	# 	}
+	# }
 }
 
 # country
@@ -849,14 +849,14 @@ on_great_project_constructed = {
 # country
 on_new_monarch = {
 	on_new_monarch_effect = yes
-	crimean_succession_effect = yes #Scripted effect
-	slesvig_question_effect = yes #Scripted effect
+	#crimean_succession_effect = yes #Scripted effect
+	#slesvig_question_effect = yes #Scripted effect
 	# ambrosian_republic_effect = yes
 	succession_culture_religion_effect = yes
-	sheik_ul_islam_effect = yes
-	hab_remove_mission_mods_if_not_emperor_effect = yes
-	thu_remain_von_wettin_effect = yes
-	ladislaus_postumus_union_effect = yes
+	#sheik_ul_islam_effect = yes
+	#hab_remove_mission_mods_if_not_emperor_effect = yes
+	#thu_remain_von_wettin_effect = yes
+	#ladislaus_postumus_union_effect = yes
 	events = {
 		tribal_succession.1		# Harsh anti-tribals.
 		9492 					# Remove some event modifiers
@@ -899,7 +899,7 @@ on_new_monarch = {
 	#	100 = inti_events.1		# Birth of a Panaca
 		50 = dynastic_events.4
 		50 = dynastic_events.5
-		25 = harem_events.7		#Failed Policy of Fratricide
+	#	25 = harem_events.7		#Failed Policy of Fratricide
 	}
 }
 
@@ -3891,10 +3891,10 @@ on_convert_by_trade_policy = {
 # province
 # FROM = old owner
 on_province_owner_change = {
-	# events = {
-	# 	japan.1			#Fall of the current Shogun
-	# 	flavor_tur.207	#Victory over the Knights
-	# }
+	 events = {
+		japan.1			#Fall of the current Shogun
+	 #	flavor_tur.207	#Victory over the Knights
+	 }
 	on_province_owner_change_government_effect = yes
 
 
@@ -3908,26 +3908,26 @@ on_province_owner_change = {
 	on_province_owner_change_estate_privileges_effect = yes
 	imperial_modifiers_on_province_change_culture_or_change_owner_effect = yes
 	
-	if = {
-		limit = {
-			region = indo_china_region
-			has_building = farm_estate
-			trade_goods = grain
-			owner = {
-				has_mission = mnd_khm_irrigation 
-				NOT = {
-					OR = {
-						has_estate = estate_vaisyas
-						has_estate = estate_burghers
-					}
-				}
-			}
-		}
-		add_province_modifier = {
-			name = grain_production_improved
-			duration = 7300
-		}
-	}
+	# if = {
+	# 	limit = {
+	# 		region = indo_china_region
+	# 		has_building = farm_estate
+	# 		trade_goods = grain
+	# 		owner = {
+	# 			has_mission = mnd_khm_irrigation 
+	# 			NOT = {
+	# 				OR = {
+	# 					has_estate = estate_vaisyas
+	# 					has_estate = estate_burghers
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# 	add_province_modifier = {
+	# 		name = grain_production_improved
+	# 		duration = 7300
+	# 	}
+	# }
 
 	if = {
 		limit = {
@@ -3943,59 +3943,59 @@ on_province_owner_change = {
 		}
 	}
 	
-	if = {
-		limit = {
-			owner = {
-				has_country_modifier = son_fetishism_as_secondary_religion
-			}
-			religion = shamanism
-			NOT = { has_province_modifier = son_fetishism_as_secondary_religion_province }
-		}
-		add_province_modifier = {
-			name = son_fetishism_as_secondary_religion_province
-			duration = -1
-			desc = son_fetishism_as_secondary_religion_province_desc
-		}
-	}
-	else_if = {
-		limit = {
-			OR = {
-				owner = {
-					NOT = { has_country_modifier = son_fetishism_as_secondary_religion }
-				}
-				NOT = { religion = shamanism }
-			}
-			has_province_modifier = son_fetishism_as_secondary_religion_province
-		}
-		remove_province_modifier = son_fetishism_as_secondary_religion_province
-	}
+	# if = {
+	# 	limit = {
+	# 		owner = {
+	# 			has_country_modifier = son_fetishism_as_secondary_religion
+	# 		}
+	# 		religion = shamanism
+	# 		NOT = { has_province_modifier = son_fetishism_as_secondary_religion_province }
+	# 	}
+	# 	add_province_modifier = {
+	# 		name = son_fetishism_as_secondary_religion_province
+	# 		duration = -1
+	# 		desc = son_fetishism_as_secondary_religion_province_desc
+	# 	}
+	# }
+	# else_if = {
+	# 	limit = {
+	# 		OR = {
+	# 			owner = {
+	# 				NOT = { has_country_modifier = son_fetishism_as_secondary_religion }
+	# 			}
+	# 			NOT = { religion = shamanism }
+	# 		}
+	# 		has_province_modifier = son_fetishism_as_secondary_religion_province
+	# 	}
+	# 	remove_province_modifier = son_fetishism_as_secondary_religion_province
+	# }
 
-	if = {
-		limit = { 
-			owner = { 
-				has_government_attribute = more_15_manpower_in_heathen_provinces
-			}
-			NOT ={ religion_group = owner }
-			NOT = { has_province_modifier = ottoman_siyasah_tax_reform_manpower }
-		}
-		add_province_modifier = {
-			name = ottoman_siyasah_tax_reform_manpower
-			duration = -1
-		}
-	}
-	if = {
-		limit = { 
-			owner = { 
-				has_government_attribute = more_15_manpower_in_heathen_provinces
-			}
-			NOT ={ religion_group = owner }
-			NOT = { has_province_modifier = ottoman_siyasah_tax_reform_manpower }
-		}
-		add_province_modifier = {
-			name = ottoman_siyasah_tax_reform_manpower
-			duration = -1
-		}
-	}
+	# if = {
+	# 	limit = { 
+	# 		owner = { 
+	# 			has_government_attribute = more_15_manpower_in_heathen_provinces
+	# 		}
+	# 		NOT ={ religion_group = owner }
+	# 		NOT = { has_province_modifier = ottoman_siyasah_tax_reform_manpower }
+	# 	}
+	# 	add_province_modifier = {
+	# 		name = ottoman_siyasah_tax_reform_manpower
+	# 		duration = -1
+	# 	}
+	# }
+	# if = {
+	# 	limit = { 
+	# 		owner = { 
+	# 			has_government_attribute = more_15_manpower_in_heathen_provinces
+	# 		}
+	# 		NOT ={ religion_group = owner }
+	# 		NOT = { has_province_modifier = ottoman_siyasah_tax_reform_manpower }
+	# 	}
+	# 	add_province_modifier = {
+	# 		name = ottoman_siyasah_tax_reform_manpower
+	# 		duration = -1
+	# 	}
+	# }
 }
 
 # country
@@ -4111,19 +4111,19 @@ on_consecrate_patriarch = {
 			}
 		}
 	}
-	if = {
-		limit = {
-			owner = { has_country_flag = BYZ_extra_patriarch_authority }
-			NOT = { has_province_flag = BYZ_consecrated_here_bonus }
-		}
-		owner = {
-			add_patriarch_authority = 0.025
-		}
-		every_province_in_state = {
-			limit = { has_state_patriach = yes }
-			set_province_flag = BYZ_consecrated_here_bonus
-		}
-	}
+	# if = {
+	# 	limit = {
+	# 		owner = { has_country_flag = BYZ_extra_patriarch_authority }
+	# 		NOT = { has_province_flag = BYZ_consecrated_here_bonus }
+	# 	}
+	# 	owner = {
+	# 		add_patriarch_authority = 0.025
+	# 	}
+	# 	every_province_in_state = {
+	# 		limit = { has_state_patriach = yes }
+	# 		set_province_flag = BYZ_consecrated_here_bonus
+	# 	}
+	# }
 	if = {
 		limit = {
 			owner = { has_country_flag = geo_metropolitan_flag }
@@ -4177,15 +4177,15 @@ on_admiral_recruited = {
 		limit = { has_country_flag = admirals_give_army_professionalism }
 		add_army_professionalism = 0.005
 	}
-	if = {
-		limit = { 
-			OR = {
-				has_country_modifier = pol_global_maritime_empire_modifier 
-				has_country_modifier = pol_global_maritime_empire_2_modifier
-			}
-		}
-		add_navy_tradition = 1 
-	}
+	# if = {
+	# 	limit = { 
+	# 		OR = {
+	# 			has_country_modifier = pol_global_maritime_empire_modifier 
+	# 			has_country_modifier = pol_global_maritime_empire_2_modifier
+	# 		}
+	# 	}
+	# 	add_navy_tradition = 1 
+	# }
 	if = {
 		limit = {
 			has_country_flag = improve_nav_prof_flag
@@ -4200,15 +4200,15 @@ on_conquistador_recruited = {
 
 # country
 on_explorer_recruited = {
-	if = {
-		limit = { 
-			OR = {
-				has_country_modifier = pol_global_maritime_empire_modifier 
-				has_country_modifier = pol_global_maritime_empire_2_modifier
-			}
-		}
-		add_navy_tradition = 1 
-	}
+	# if = {
+	# 	limit = { 
+	# 		OR = {
+	# 			has_country_modifier = pol_global_maritime_empire_modifier 
+	# 			has_country_modifier = pol_global_maritime_empire_2_modifier
+	# 		}
+	# 	}
+	# 	add_navy_tradition = 1 
+	# }
 }
 
 # THIS = Province, FROM = Country
@@ -4347,35 +4347,35 @@ on_hre_reform_passed = {
 }
 
 on_mandate_reform_passed = {
-	if = {
-		limit = { has_country_flag = mng_shengshi_reward_flag }
-		add_estate_loyalty = {
-			estate = estate_eunuchs 
-			loyalty = 10 
-		}
-		add_estate_loyalty = {
-			estate = estate_nobles 
-			loyalty = 10 
-		}
-		add_estate_loyalty = {
-			estate = estate_burghers 
-			loyalty = 10 
-		}
-		add_estate_loyalty = {
-			estate = estate_church 
-			loyalty = 10 
-		}
-		add_estate_loyalty = {
-			estate = estate_nomadic_tribes 
-			loyalty = 10 
-		}
-	}
-	if = {
-		limit = { has_country_flag = qng_passing_decree_reduces_autonomy_everywhere_by_5_flag } 
-		every_owned_province = {
-			add_local_autonomy = -10
-		}
-	}
+	# if = {
+	# 	limit = { has_country_flag = mng_shengshi_reward_flag }
+	# 	add_estate_loyalty = {
+	# 		estate = estate_eunuchs 
+	# 		loyalty = 10 
+	# 	}
+	# 	add_estate_loyalty = {
+	# 		estate = estate_nobles 
+	# 		loyalty = 10 
+	# 	}
+	# 	add_estate_loyalty = {
+	# 		estate = estate_burghers 
+	# 		loyalty = 10 
+	# 	}
+	# 	add_estate_loyalty = {
+	# 		estate = estate_church 
+	# 		loyalty = 10 
+	# 	}
+	# 	add_estate_loyalty = {
+	# 		estate = estate_nomadic_tribes 
+	# 		loyalty = 10 
+	# 	}
+	# }
+	# if = {
+	# 	limit = { has_country_flag = qng_passing_decree_reduces_autonomy_everywhere_by_5_flag } 
+	# 	every_owned_province = {
+	# 		add_local_autonomy = -10
+	# 	}
+	# }
 }
 
 on_reform_enacted = {
@@ -4486,10 +4486,10 @@ on_create_vassal = {
 	}
 	if = {
 		limit = {
-			tag = PAP
+			tag = U25
 		}
 		change_government = theocracy
-		change_religion = catholic
+		change_religion = horned_rat
 		add_government_reform = papacy_reform
 		adopt_reform_progress = FROM
 	}
@@ -4537,16 +4537,16 @@ on_raid_coast = {
 			amount = 1
 		}
 	}
-	if = {
-		limit = {
-			has_mission = dan_raid_the_north_sea
-			NOT = { mission_completed = dan_raid_the_north_sea } 
-		}
-		change_variable = {
-			which = num_of_raided_coasts
-			value = 1
-		}
-	}
+	# if = {
+	# 	limit = {
+	# 		has_mission = dan_raid_the_north_sea
+	# 		NOT = { mission_completed = dan_raid_the_north_sea } 
+	# 	}
+	# 	change_variable = {
+	# 		which = num_of_raided_coasts
+	# 		value = 1
+	# 	}
+	# }
 }
 
 # ROOT = Tag that captured the flagship, FROM = Tag that lost the flagship
@@ -4962,27 +4962,27 @@ on_estate_removed = {
 		}
 		remove_country_modifier = dhimmi_building_restrictions
 	}
-	if = {
-		limit = {
-			has_country_modifier = swe_debt_with_the_clergy
-			NOT = { has_estate = estate_church }
-		}
-		remove_country_modifier = swe_debt_with_the_clergy
-	}
-	if = {
-		limit = {
-			has_country_modifier = swe_debt_with_the_burghers
-			NOT = { has_estate = estate_burghers }
-		}
-		remove_country_modifier = swe_debt_with_the_burghers
-	}
-	if = {
-		limit = {
-			has_country_modifier = swe_debt_with_the_nobles
-			NOT = { has_estate = estate_nobles }
-		}
-		remove_country_modifier = swe_debt_with_the_nobles
-	}
+	# if = {
+	# 	limit = {
+	# 		has_country_modifier = swe_debt_with_the_clergy
+	# 		NOT = { has_estate = estate_church }
+	# 	}
+	# 	remove_country_modifier = swe_debt_with_the_clergy
+	# }
+	# if = {
+	# 	limit = {
+	# 		has_country_modifier = swe_debt_with_the_burghers
+	# 		NOT = { has_estate = estate_burghers }
+	# 	}
+	# 	remove_country_modifier = swe_debt_with_the_burghers
+	# }
+	# if = {
+	# 	limit = {
+	# 		has_country_modifier = swe_debt_with_the_nobles
+	# 		NOT = { has_estate = estate_nobles }
+	# 	}
+	# 	remove_country_modifier = swe_debt_with_the_nobles
+	# }
 }
 
 ##scope = colony province, FROM = owner country or province if there's a minority expulsion source, fires when the colony is created

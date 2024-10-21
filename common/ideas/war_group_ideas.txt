@@ -80,15 +80,16 @@ border_princes_ideas = {
 
 bretonnian_group_ideas = {
 	start = {
-		cavalry_power = 0.20
+		cavalry_power = 0.3
+		liberty_desire_from_subject_development = -0.2
 	}
 
 	bonus = { 
-		cb_on_religious_enemies = yes
+		diplomatic_annexation_cost = -0.15
 	} 
 	
 	trigger = {
-			culture_group = bretonnian_group
+		culture_group = bretonnian_group
 	}
 	free = yes
 	

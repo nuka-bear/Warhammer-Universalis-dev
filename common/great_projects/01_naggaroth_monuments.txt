@@ -15,15 +15,23 @@ black_tower_of_malekith = {
 	on_destroyed = {
 	}
 	can_use_modifiers_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	can_upgrade_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	keep_trigger = {
@@ -54,14 +62,12 @@ black_tower_of_malekith = {
 			factor = 1000
 		}
 		province_modifiers = {
-
 		}
 		area_modifier = {
 		}
 		region_modifier = {
 		}
 		country_modifiers = {
-
 		}
 		on_upgraded = {
 		}
@@ -94,7 +100,6 @@ black_tower_of_malekith = {
 		province_modifiers = {
 		}
 		area_modifier = {
-
 		}
 		region_modifier = {
 		}
@@ -153,7 +158,7 @@ the_dark_crag = {
 			factor = 1000
 		}
 		province_modifiers = {
-			trade_goods_size = 3.0
+			trade_goods_size = 3
 		}
 		area_modifier = {
 			local_build_cost = -0.05
@@ -174,7 +179,7 @@ the_dark_crag = {
 			factor = 2500
 		}
 		province_modifiers = {
-			trade_goods_size = 6.0
+			trade_goods_size = 6
 		}
 		area_modifier = {
 			local_build_cost = -0.1
@@ -195,7 +200,7 @@ the_dark_crag = {
 			factor = 5000
 		}
 		province_modifiers = {
-			trade_goods_size = 9.0
+			trade_goods_size = 9
 		}
 		area_modifier = {
 			local_build_cost = -0.2
@@ -210,7 +215,7 @@ the_dark_crag = {
 	}
 }
 
-convent_of_sorcery = { 
+convent_of_sorcery = {
 	start = 1982
 	date = 1.01.01
 	time = {
@@ -227,15 +232,23 @@ convent_of_sorcery = {
 	on_destroyed = {
 	}
 	can_use_modifiers_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	can_upgrade_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	keep_trigger = {
@@ -266,14 +279,12 @@ convent_of_sorcery = {
 			factor = 1000
 		}
 		province_modifiers = {
-
 		}
 		area_modifier = {
 		}
 		region_modifier = {
 		}
 		country_modifiers = {
-
 		}
 		on_upgraded = {
 		}
@@ -306,7 +317,6 @@ convent_of_sorcery = {
 		province_modifiers = {
 		}
 		area_modifier = {
-
 		}
 		region_modifier = {
 		}
@@ -440,15 +450,23 @@ karond_kar = {
 	on_destroyed = {
 	}
 	can_use_modifiers_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	can_upgrade_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	keep_trigger = {
@@ -483,7 +501,7 @@ karond_kar = {
 		}
 		area_modifier = {
 			province_trade_power_modifier = 0.25
-            local_sailors_modifier = 0.25
+			local_sailors_modifier = 0.25
 		}
 		country_modifiers = {
 		}
@@ -502,7 +520,7 @@ karond_kar = {
 		}
 		area_modifier = {
 			province_trade_power_modifier = 0.33
-            local_sailors_modifier = 0.33
+			local_sailors_modifier = 0.33
 		}
 		country_modifiers = {
 		}
@@ -520,12 +538,12 @@ karond_kar = {
 			local_monthly_devastation = -0.1
 		}
 		area_modifier = {
-            province_trade_power_modifier = 0.5
-            local_sailors_modifier = 0.5
+			province_trade_power_modifier = 0.5
+			local_sailors_modifier = 0.5
 		}
 		country_modifiers = {
-			navy_tradition = 1.0
-            global_own_trade_power = 0.1
+			navy_tradition = 1
+			global_own_trade_power = 0.1
 		}
 		on_upgraded = {
 		}
@@ -549,15 +567,23 @@ har_ganeth = {
 	on_destroyed = {
 	}
 	can_use_modifiers_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	can_upgrade_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = elf_can_use_tooltip
-			country_is_elven = yes
+		OR = {
+			owner = {
+				has_country_modifier = elven_administration
+			}
+			owner = {
+				has_country_modifier = elven_military
+			}
 		}
 	}
 	keep_trigger = {
@@ -588,14 +614,12 @@ har_ganeth = {
 			factor = 1000
 		}
 		province_modifiers = {
-
 		}
 		area_modifier = {
 		}
 		region_modifier = {
 		}
 		country_modifiers = {
-
 		}
 		on_upgraded = {
 		}
@@ -628,7 +652,6 @@ har_ganeth = {
 		province_modifiers = {
 		}
 		area_modifier = {
-
 		}
 		region_modifier = {
 		}
@@ -638,4 +661,3 @@ har_ganeth = {
 		}
 	}
 }
-
