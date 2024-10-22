@@ -14,7 +14,7 @@ historical_idea_groups = {
 	influence_ideas	
 	economic_ideas
 	quality_ideas
-	diplomatic_ideas
+	naval_ideas
 }
 
 historical_units = {
@@ -105,15 +105,27 @@ monarch_names = {
 	"Frederike #0" = -1
 }
 
-leader_names = {	
-	Goetz
-	Blaze Berengar
-	Silvera 
-	Ulvo
-	Trappenfeld
-	"von Hendorf"
-	"von Zakenhelm"
-	"von Klaus"
+leader_names = {
+	Archambault Armistead 
+	Babineaux Beastslayer Beaumont
+	d'Aquitain d'aquitaine d'Outremer Deniaud Dubon "du Chastillon" Dufort
+	Grail-Hunter
+	Labelle	"le Beau" "le Cornett" "le Guardian" "le Jungleur" "le Saracen" "le Troubadour"
+	"le Blinde" "le Bon" "le Bouclier" "le Cavalier" "le Chanteur" "le Defenseur du Graal" "le Degingande" "le Fumeur" "le Galant" "le Gardien" "le Grande" "le Guardien de Paillole" "le Haut" "le Lutteur" "le Protecteur" "le Prudent" "le Robuste" "le Rugueux" "le Temeraire" "le Tueur" "le Vigoureux"
+	Michaud "Bane of the Undead"
+	"of the Braid" "of the Flame" "de la Tour"
+	Paquet
+	Saviour Sigibald Lionhearted
+	"the Devoted" Theugard "the Elder" "the Fair"
+	Wyrm-Killer
+	#titles
+	"the Audacious" "the Confident" "the Disciplined" "the Dutiful" "the Empathic" "the Heroic" "the Ideal" "the Impetuous Knight" "the Jouster" "of Knightly Temper" "of Noble Disdain" "the Penitent" "the Pure" "the Stoic"
+	"the Bold" "the Pure" "the Furious" "the Old" "the Hunter" "the Marshal"
+	"of the Perilous Lance" "of the Broken Lance" Lothar
+	#location
+	"of Artois" "of Mousillon" "of Bordeleaux" "of Aquitaine" "of Parravon"
+	"of Montfort" "of Gisoreux" "of Couronne"
+	"of Carcassonne" "of Quenelles" "of L'Anguille" "of Brionne" "of Lyonesse"
 }
 
 ship_names = {

@@ -4929,38 +4929,38 @@ legacy_of_eranshahr_reform = {
 	}
 }
 
-court_of_art_and_culture_reform = {
-	icon = "court_of_art_and_culture_reform"
-	allow_normal_conversion = yes
-	potential = {
-		has_dlc = "King of Kings"
-		has_unlocked_government_reform = {
-			government_reform = court_of_art_and_culture_reform
-		}
-	}
-	modifiers = {
-		advisor_pool = 1
-		culture_conversion_cost = -0.1
-		prestige_decay = -0.005
-	}
-	conditional = {
-		allow = { has_dlc = "King of Kings" }
-		government_abilities = {
-			persian_influence_mechanic
-		}
-	}
-	custom_attributes = {
-		can_enforce_primary_culture = yes
-	}
-	removed_effect = {
-		country_event = {
-			id = persian_influence_events.3000
-		}
-	}
-	ai = {
-		factor = 5
-	}
-}
+# court_of_art_and_culture_reform = {
+# 	icon = "court_of_art_and_culture_reform"
+# 	allow_normal_conversion = yes
+# 	potential = {
+# 		has_dlc = "King of Kings"
+# 		has_unlocked_government_reform = {
+# 			government_reform = court_of_art_and_culture_reform
+# 		}
+# 	}
+# 	modifiers = {
+# 		advisor_pool = 1
+# 		culture_conversion_cost = -0.1
+# 		prestige_decay = -0.005
+# 	}
+# 	conditional = {
+# 		allow = { has_dlc = "King of Kings" }
+# 		government_abilities = {
+# 			persian_influence_mechanic
+# 		}
+# 	}
+# 	custom_attributes = {
+# 		can_enforce_primary_culture = yes
+# 	}
+# 	removed_effect = {
+# 		country_event = {
+# 			id = persian_influence_events.3000
+# 		}
+# 	}
+# 	ai = {
+# 		factor = 5
+# 	}
+# }
 
 #deliberative_assembly
 

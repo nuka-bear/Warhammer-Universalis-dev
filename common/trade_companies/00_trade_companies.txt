@@ -1,3 +1,5 @@
+## TODO
+
 #trade_company_west = {
 #	color = { 50 0 200 }
 #	
@@ -20,17 +22,3 @@
 #		name = "TRADE_COMPANY_WEST_Trade_Company"
 #	}
 #}
-
-trade_company_magritta = {
-	color = { 50 0 200 }
-
-	provinces = {
-		499 504 505 506 507 508 518 517 516 520 519 509 543 503 549 501 498 553 497 501 500 542 536 531 497 496 493 492 495 492 489 494 490 488 487 555 624 
-	}
-	names = {
-		name = "TRADE_COMPANY_MAGRITTA_Root_Culture_GetName"
-			}
-			names = {
-			name = "TRADE_COMPANY_MAGRITTA_Trade_Company"
-			}
-}

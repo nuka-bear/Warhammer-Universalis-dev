@@ -2138,13 +2138,13 @@ on_religion_change_effect = {
 			}
 		}
 	}
-	if = {
-		limit = {
-			religion = catholic
-			has_ruler_flag = personal_catholic_sympathies
-		}
-		country_event = { id = protestantism_events.19 }
-	}
+	#if = {
+	#	limit = {
+	#		religion = catholic
+	#		has_ruler_flag = personal_catholic_sympathies
+	#	}
+	#	country_event = { id = protestantism_events.19 }
+	#}
 	if = {
 		limit = {
 			religion = protestant
@@ -4008,15 +4008,15 @@ on_government_change_effect = {
 			}
 		}
 	}
-	if = {
-		limit = {
-			num_of_subjects = 1
-			any_subject_country = {
-				is_subject_of_type = cultural_sphere_of_influence_subject
-			}
-		}
-		country_event = { id = persian_influence_events.3000 }
-	}
+	# if = {
+	# 	limit = {
+	# 		num_of_subjects = 1
+	# 		any_subject_country = {
+	# 			is_subject_of_type = cultural_sphere_of_influence_subject
+	# 		}
+	# 	}
+	# 	country_event = { id = persian_influence_events.3000 }
+	# }
 }
 
 on_non_estate_disaster_end = {

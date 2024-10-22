@@ -167,7 +167,7 @@ monarchy = {
 				#	consulate_of_the_sea
 				#1.36
 				#	restore_the_master_of_offices_reform
-				court_of_art_and_culture_reform
+				#court_of_art_and_culture_reform
 				integrated_ottoman_officials
 			}
 		}
@@ -1186,7 +1186,7 @@ theocracy = {
 				#	teutonic_bishopric_reform
 				#prussian_theocratic_reform
 				militarized_crusader_order_reform
-				merchant_theocracy_reform
+				#merchant_theocracy_reform
 				reformer_state_reform
 				#1.35
 				ikko_ikki_reform

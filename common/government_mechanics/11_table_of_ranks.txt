@@ -33,10 +33,10 @@ table_of_ranks_mechanic = {
 			effect = {
 				adm_power_cost = 50
 				hidden_effect = { set_country_flag = cheaper_selected_advisor }
-				country_event = {
-					id = flavor_gbr.15
-					tooltip = appointment_of_state_minister_tt
-				}
+				#country_event = {
+				#	id = flavor_gbr.15
+				#	tooltip = appointment_of_state_minister_tt
+				#}
 				custom_tooltip = appointment_of_state_minister_at
 			}
 			cooldown_years = 20
