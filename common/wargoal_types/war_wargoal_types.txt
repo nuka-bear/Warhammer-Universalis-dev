@@ -214,3 +214,43 @@ racial_raiding_war_goal = {
 
 	war_name = RACIAL_RAIDING_WAR_NAME	
 }
+
+
+wg_war_k8p = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.25
+		prestige_factor = 0
+		peace_cost_factor = 0.35
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		peace_options = {
+			po_k8p_annexation
+		}
+		
+		prov_desc = ALL_PROVS
+	}
+	
+	defender = {
+		badboy_factor = 0
+		prestige_factor = 0
+		peace_cost_factor = 0.2
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		peace_options = {
+			po_k8p_annexation
+		}
+		
+		prov_desc = ALL_PROVS
+	}	
+	
+	war_name = WAR_FOR_KARAK_EIGHT_PEAKS_WAR_NAME	
+}
+

@@ -6,6 +6,7 @@ on_startup = {
 		flavor_reikland.0		#Reikland Intro Event
 	#	warhammer_setup.4		#Winds init for Ai
 	#	warhammer_setup.5		#Winds init for player
+		karak_eight_peaks.1 # war for karak eight peaks
 	}
 	if = {
 		limit = {
