@@ -71,6 +71,15 @@ gen_ogre_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  } 
 		position = 5
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4272
+				province_id = 2812
+				province_id = 2813
+				province_id = 2814
+				province_id = 2808
+			}
+		}
 		trigger = {
 			owns = 4272
 			owns = 2812
@@ -89,7 +98,15 @@ gen_ogre_missions = {
 
 	gen_ogre_silk_pass = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = {  } 
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2818
+				province_id = 2817
+				province_id = 2802
+				province_id = 2796
+			}
+		}
 		trigger = {
 			owns = 2818
 			owns = 2817
@@ -107,7 +124,17 @@ gen_ogre_missions = {
 
 	gen_ogre_north_pass = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = {  } 
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2753
+				province_id = 2759
+				province_id = 2750
+				province_id = 2754
+				province_id = 2751
+				province_id = 2752
+			}
+		}
 		trigger = {
 			owns = 2753
 			owns = 2749
@@ -133,6 +160,9 @@ gen_ogre_missions = {
 	gen_ogre_dominate_ivory_road = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_ogre_ivory_pass gen_ogre_silk_pass gen_ogre_north_pass} 
+		provinces_to_highlight = {
+			province_has_center_of_trade_of_level = 1
+		}
 		trigger = {
 			num_of_centers_of_trade = 5
 			has_center_of_trade_of_level = 3
@@ -163,6 +193,9 @@ gen_ogre_ultimate_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { }
 		position = 9
+		provinces_to_highlight = {
+			province_has_center_of_trade_of_level = 1
+		}
 		trigger = {
 			num_of_centers_of_trade = 25
 		}
@@ -194,10 +227,20 @@ gen_maw_missions = {
 	gen_maw_grain = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  } 
+		provinces_to_highlight = {
+			trade_goods = grain
+		}
 		trigger = {
-			num_of_owned_provinces_with = {
-				trade_goods = grain
-				value = 5
+			OR = {
+				development_in_provinces = {
+					value = 35
+					owned_by = ROOT 
+					trade_goods = grain 
+				}
+				num_of_owned_provinces_with = {
+					trade_goods = grain
+					value = 5
+				}
 			}
 		}
 
@@ -212,13 +255,29 @@ gen_maw_missions = {
 	gen_maw_alcohol = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  } 
+		provinces_to_highlight = {
+			OR = {
+				trade_goods = beer
+				trade_goods = wine
+			}
+		}
 		trigger = {
-			num_of_owned_provinces_with = {
-				OR = {
-					trade_goods = beer
-					trade_goods = wine
+			OR = {
+				development_in_provinces = {
+					value = 35
+					owned_by = ROOT 
+					OR = {
+						trade_goods = beer
+						trade_goods = wine
+					}	
 				}
-				value = 5
+				num_of_owned_provinces_with = {
+					OR = {
+						trade_goods = beer
+						trade_goods = wine
+					}
+					value = 5
+				}
 			}
 		}
 
@@ -233,10 +292,20 @@ gen_maw_missions = {
 	gen_maw_fish = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  } 
+		provinces_to_highlight = {
+			trade_goods = fish
+		}
 		trigger = {
-			num_of_owned_provinces_with = {
-				trade_goods = fish
-				value = 5
+			OR = {
+				development_in_provinces = {
+					value = 35
+					owned_by = ROOT 
+					trade_goods = fish 
+				}
+				num_of_owned_provinces_with = {
+					trade_goods = fish
+					value = 5
+				}
 			}
 		}
 
@@ -250,16 +319,36 @@ gen_maw_missions = {
 
 	gen_maw_spices = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = {  } 
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				trade_goods = salt
+				trade_goods = spices
+				trade_goods = sugar
+				trade_goods = cloves
+			}
+		}
 		trigger = {
-			num_of_owned_provinces_with = {
-				OR = {
-					trade_goods = salt
-					trade_goods = spices
-					trade_goods = sugar
-					trade_goods = cloves
+			OR = {
+				development_in_provinces = {
+					value = 35
+					owned_by = ROOT 
+					OR = {
+						trade_goods = salt
+						trade_goods = spices
+						trade_goods = sugar
+						trade_goods = cloves
+					}	
 				}
-				value = 5
+				num_of_owned_provinces_with = {
+					OR = {
+						trade_goods = salt
+						trade_goods = spices
+						trade_goods = sugar
+						trade_goods = cloves
+					}
+					value = 5
+				}
 			}
 		}
 
@@ -273,15 +362,33 @@ gen_maw_missions = {
 
 		gen_maw_drinks = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = {  } 
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				trade_goods = cocoa
+				trade_goods = tea
+				trade_goods = coffee
+			}
+		}
 		trigger = {
-			num_of_owned_provinces_with = {
-				OR = {
-					trade_goods = cocoa
-					trade_goods = tea
-					trade_goods = coffee
+			OR = {
+				development_in_provinces = {
+					value = 35
+					owned_by = ROOT 
+					OR = {
+						trade_goods = cocoa
+						trade_goods = tea
+						trade_goods = coffee
+					}	
 				}
-				value = 5
+				num_of_owned_provinces_with = {
+					OR = {
+						trade_goods = cocoa
+						trade_goods = tea
+						trade_goods = coffee
+					}
+					value = 5
+				}
 			}
 		}
 
@@ -295,14 +402,30 @@ gen_maw_missions = {
 
 	gen_maw_meat = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = {  } 
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				trade_goods = livestock
+				trade_goods = wool
+			}
+		}
 		trigger = {
-			num_of_owned_provinces_with = {
-				OR = {
-					trade_goods = livestock
-					trade_goods = wool
+			OR = {
+				development_in_provinces = {
+					value = 35
+					owned_by = ROOT 
+					OR = {
+						trade_goods = livestock
+						trade_goods = wool
+					}
 				}
-				value = 5
+				num_of_owned_provinces_with = {
+					OR = {
+						trade_goods = livestock
+						trade_goods = wool
+					}
+					value = 5
+				}
 			}
 		}
 

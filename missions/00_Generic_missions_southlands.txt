@@ -69,7 +69,13 @@ gen_araby_missions = {
 
 	gen_araby_war_expand_faith = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_araby_war_with_infidel } 
+		required_missions = { gen_araby_war_with_infidel }
+		provinces_to_highlight = {
+			NOT = { region = sudron_region }
+			NOT = { region = gulf_of_medes_region }
+			NOT = { region = araby_region }
+			is_sea = no
+		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_subjects_with = {
 				value = 10
@@ -92,10 +98,15 @@ gen_araby_missions = {
 		required_missions = {  }
 		position = 6
 		trigger = {
-			 OR = {
-			 	dock = 5
-			 	drydock = 5
-			 }
+
+			num_of_owned_provinces_with = {
+
+				OR = {
+				 	has_building = dock
+				 	has_building = drydock
+				}
+				value = 5
+			}
 
 		}
 
@@ -111,11 +122,7 @@ gen_araby_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_araby_build_docks } 
 		trigger = {
-			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 2
-				NOT = { superregion = northern_south_lands_superregion }
-				NOT = { superregion = southern_south_lands_superregion }
-			}
+			num_of_continents = 3
 		}
 
 		effect = { 
@@ -214,11 +221,14 @@ gen_one_faith_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_one_faith_happy_priest } 
 		trigger = {
-			all_owned_province = {
+
+			num_of_owned_provinces_with = {
+
 				OR = {
-					has_building = temple
-					has_building = cathedral
+				 	has_building = temple
+				 	has_building = cathedral
 				}
+				value = 5
 			}
 		}
 
@@ -232,7 +242,7 @@ gen_one_faith_missions = {
 		required_missions = { gen_one_faith_places_of_worship } 
 		trigger = {
 			capital_scope = {
-				development = 35
+				development = 30
 			}
 		}
 
@@ -250,11 +260,13 @@ gen_one_faith_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_one_faith_place_of_study } 
 		trigger = {
-			all_owned_province = {
+			num_of_owned_provinces_with = {
+
 				OR = {
-					has_building = courthouse
-					has_building = town_hall
+				 	has_building = courthouse
+				 	has_building = town_hall
 				}
+				value = 5
 			}
 		}
 
@@ -270,8 +282,9 @@ gen_one_faith_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_one_faith_places_of_law } 
 		trigger = {
-			all_owned_province = {
+			num_of_owned_provinces_with = {
 				has_building = university
+				value = 5
 			}
 		}
 
@@ -387,7 +400,7 @@ gen_greenskin_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_greenskin_impress_nobility } 
 		trigger = {
-			num_of_war_reparations = 5
+			num_of_war_reparations = 4
 		}
 
 		effect = { 
@@ -437,30 +450,7 @@ gen_greenskin_missions = {
 		required_missions = { gen_greenskin_claim_horde } 
 		trigger = {
 			
-			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 1
-				region = badlands_region
-			}
-			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 1
-				region = southern_world_edge_mountains_region
-			}
-			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 1
-				region = karak_eight_peaks_region
-			}
-			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 1
-				region = world_edge_mountains_region
-			}
-			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 1
-				region = blasted_wastes_region
-			}
-			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 1
-				region = southern_wastes_region
-			}
+			num_of_continents = 3
 
 		}
 
@@ -476,6 +466,12 @@ gen_greenskin_missions = {
 	gen_greenskin_spread_like_fire = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_greenskin_bridge_the_divide } 
+		provinces_to_highlight = {
+			NOT = { superregion = northern_south_lands_superregion }
+			NOT = { superregion = darklands_superregion }
+			NOT = { superregion = world_edge_mountain_superregion }
+			is_sea = no
+		}
 		trigger = {	
 			num_of_provinces_owned_or_owned_by_subjects_with = {
 				value = 25
@@ -505,6 +501,14 @@ gen_greenskin_ultimate_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  }
 		position = 9
+		provinces_to_highlight = {
+			OR = {
+				province_id = 700
+				province_id = 1
+				province_id = 2838
+				province_id = 862
+			}
+		}
 		trigger = {
 			700 = { controlled_by = ROOT }
 			1 = { controlled_by = ROOT }
@@ -589,6 +593,10 @@ gen_gork_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  }
 		position = 5
+		provinces_to_highlight = {
+			development = 20
+		}
+
 		trigger = {
 			any_province = {
 					NOT = { owned_by = ROOT }
@@ -672,7 +680,11 @@ gen_gork_missions = {
 
 	gen_greenskin_raid_30 = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_greenskin_raid_20 } 
+		required_missions = { gen_greenskin_raid_20 }
+		provinces_to_highlight = {
+			development = 30
+		}
+
 		trigger = {
 			any_province = {
 					NOT = { owned_by = ROOT }
@@ -757,7 +769,10 @@ gen_gork_missions = {
 
 	gen_greenskin_raid_40 = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_greenskin_raid_30 } 
+		required_missions = { gen_greenskin_raid_30 }
+		provinces_to_highlight = {
+			development = 40
+		}
 		trigger = {
 			any_province = {
 					NOT = { owned_by = ROOT }
@@ -843,7 +858,11 @@ gen_gork_missions = {
 
 	gen_greenskin_raid_50 = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_greenskin_raid_40 } 
+		required_missions = { gen_greenskin_raid_40 }
+		provinces_to_highlight = {
+			development = 50
+		}
+
 		trigger = {
 			any_province = {
 					NOT = { owned_by = ROOT }
@@ -980,7 +999,7 @@ gen_nehekhara_missions = {
 		required_missions = {  } 
 		trigger = {
 			capital_scope = {
-				development = 35
+				development = 30
 			}
 		}
 
@@ -996,7 +1015,13 @@ gen_nehekhara_missions = {
 ### Rebuild Monument
 	gen_nehekhara_missions_3 = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_nehekhara_missions_2 } 
+		required_missions = { gen_nehekhara_missions_2 }
+		provinces_to_highlight = {
+			has_great_project = {
+				type = any
+				tier = 0
+			}
+		}
 		trigger = {
 			any_owned_province = { 
 				has_great_project = {
@@ -1016,6 +1041,22 @@ gen_nehekhara_missions = {
 	gen_nehekhara_missions_4 = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_nehekhara_missions_3 } 
+		provinces_to_highlight = {
+			OR = {
+				has_great_project = {
+					type = valley_of_kings
+					tier = 0
+				}
+				has_great_project = {
+					type = tomb_of_settra
+					tier = 0
+				}
+				has_great_project = {
+					type = great_sphinx_of_numasis
+					tier = 0
+				}
+			}
+		}
 		trigger = {
 			any_owned_province = { 
 				has_great_project = {
@@ -1135,51 +1176,20 @@ gen_nehekhara_ultimate_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { }
 		position = 9
+		provinces_to_highlight = {
+			has_great_project = {
+				type = any
+				tier = 0
+			}
+		}
 		trigger = {
-
-			any_owned_province = { 
+			num_of_owned_provinces_with = {
 				has_great_project = {
-					type = valley_of_kings
+					type = any
 					tier = 3
 				}
+				value = 7
 			}
-			any_owned_province = {
-				has_great_project = {
-					type = tomb_of_settra
-					tier = 3
-				}
-			}
-			any_owned_province = {
-				has_great_project = {
-					type = great_sphinx_of_numasis
-					tier = 3
-				}
-			}
-			any_owned_province = {
-				has_great_project = {
-					type = great_necropolis_of_khemri
-					tier = 3
-				}
-			}
-			any_owned_province = {
-				has_great_project = {
-					type = mortuary_temple_of_quaph
-					tier = 3
-				}
-			}
-			any_owned_province = {
-				has_great_project = {
-					type = oasis_of_the_gods
-					tier = 3
-				}
-			}
-			any_owned_province = {
-				has_great_project = {
-					type = black_pyramid_of_nagash
-					tier = 3
-				}
-			}
-
 		}
 
 		effect = { 
@@ -1233,7 +1243,15 @@ gen_nehekharan_pantheon_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_nehekharan_pantheon_missions_1 } 
 		trigger = {
-			temple = 10
+
+			num_of_owned_provinces_with = {
+
+				OR = {
+				 	has_building = temple
+				 	has_building = cathedral
+				}
+				value = 5
+			}
 		}
 
 		effect = { 
@@ -1243,7 +1261,23 @@ gen_nehekharan_pantheon_missions = {
 
 	gen_nehekharan_pantheon_missions_3 = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_nehekharan_pantheon_missions_2 } 
+		required_missions = { gen_nehekharan_pantheon_missions_2 }
+		provinces_to_highlight = {
+			OR = {
+				has_great_project = {
+					type = great_necropolis_of_khemri
+					tier = 0
+				}
+				has_great_project = {
+					type = mortuary_temple_of_quaph
+					tier = 0
+				}
+				has_great_project = {
+					type = oasis_of_the_gods
+					tier = 0
+				}
+			}
+		}
 		trigger = {
 			any_owned_province = {
 				has_great_project = {
@@ -1286,12 +1320,71 @@ gen_nehekharan_pantheon_missions = {
 	### Unify Religion
 	gen_nehekharan_pantheon_missions_4 = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { } 
-		trigger = {
-			nehekhara_region = {
-				type = all
-				religion = ROOT
+		required_missions = { }
+		provinces_to_highlight = {
+			OR = {
+				has_great_project = {
+					type = black_pyramid_of_nagash
+					tier = 0
+				}
+				AND = {
+					province_id = 860
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 864
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 862
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 951
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 833
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 946
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 970
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 920
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 896
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 1068
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 919
+					NOT = { religion = ROOT }
+				}
 			}
+		}
+		trigger = {
+			860 = { religion = ROOT }
+			864 = { religion = ROOT }
+			862 = { religion = ROOT }
+			951 = { religion = ROOT }
+			833 = { religion = ROOT }
+			946 = { religion = ROOT }
+			970 = { religion = ROOT }
+			920 = { religion = ROOT }
+			896 = { religion = ROOT }
+			1068 = { religion = ROOT }
+			919 = { religion = ROOT }
 			any_owned_province = {
 				has_great_project = {
 					type = black_pyramid_of_nagash
@@ -1312,7 +1405,31 @@ gen_nehekharan_pantheon_missions = {
 	### Expand Religion
 	gen_nehekharan_expand_religion = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_nehekharan_pantheon_missions_4 } 
+		required_missions = { gen_nehekharan_pantheon_missions_4 }
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 102
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 270
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 4168
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 1115
+					NOT = { religion = ROOT }
+				}
+				AND = {
+					province_id = 4169
+					NOT = { religion = ROOT }
+				}
+			}
+		}	
 		trigger = {
 			102 = { religion = ROOT }
 			270 = { religion = ROOT }

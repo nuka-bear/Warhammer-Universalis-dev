@@ -392,8 +392,20 @@ administrative_missions = {
 		icon = mission_early_game_buildings
 		required_missions = { high_income_mission }
 		trigger = {
-			temple = 5
-			workshop = 5
+			num_of_owned_provinces_with = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+				value = 5
+			}
+			num_of_owned_provinces_with = {
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+				value = 5
+			}
 		}
 		effect = {
 			add_adm_power = 50
@@ -463,9 +475,13 @@ administrative_missions = {
 		required_missions = {  }
 		position = 7
 		trigger = {
-			OR = {
-				all_owned_province = { has_building = marketplace }
-				marketplace = 5
+			num_of_owned_provinces_with = {
+				OR = {
+				 	has_building = marketplace
+				 	has_building = trade_depot
+				 	has_building = stock_exchange
+				}
+				value = 5
 			}
 			estate_loyalty = {
  				estate = estate_burghers
