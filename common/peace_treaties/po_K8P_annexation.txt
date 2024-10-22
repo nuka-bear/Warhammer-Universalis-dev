@@ -44,23 +44,10 @@ po_k8p_annexation = {
 	effect = {
 		# Defaults to empty effect (which makes error log entry but is safe)
 		FROM = {
-			if = {
-				limit = {
-					or = {
-						tag = U37
-						tag = U38
-						tag = U39
-					}
-				}
-				every_owned_province = {
-					cede_province = previous_owner
-				}
+			every_owned_province = {
+				cede_province = ROOT
 			}
-			else = {
-				every_owned_province = {
-					cede_province = ROOT
-				}
-			}
+			remove_country = yes
 		}
 	}
 	ai_weight = {
