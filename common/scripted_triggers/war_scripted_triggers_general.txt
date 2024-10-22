@@ -234,3 +234,15 @@ ruler_has_max_personalities = {
 		amount = 3
 	}
 }
+
+#Bretonnia
+
+bretonnia_Is_First_Seven_Reforms_Completed = {
+	has_global_flag = brt_first_reform_flag
+	has_global_flag = brt_second_reform_flag
+	has_global_flag = brt_third_reform_flag
+	has_global_flag = brt_fourth_reform_flag
+	has_global_flag = brt_fifth_reform_flag
+	has_global_flag = brt_sixth_reform_flag
+	has_global_flag = brt_seventh_reform_flag
+}

@@ -19,6 +19,6 @@ historical_rival = U37
 	}
 	add_country_modifier = {
 		name = karak_eight_peaks_claimant
-		duration = 14600
+		duration = 7300
 	}
 }

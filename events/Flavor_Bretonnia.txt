@@ -2372,7 +2372,7 @@ country_event = {
 		add_ruler_modifier = {
 			name = new_bretonnia_king
 			duration = 720
-		} 
+		}
 		save_global_event_target_as = RoyarchOfBretonnia
 		every_country = {
 			limit = {
@@ -2413,7 +2413,6 @@ country_event = {
 					subject_type = bretonnian_dukedom_subject
 				}
 			}
-
 		}
 	}
 }
@@ -2529,6 +2528,250 @@ country_event = {
 		add_mil_power = 50
 		add_adm_power = 50
 	}
+}
+
+### Reform Events ####
+### Reform Events ####
+### Reform Events ####
+
+# Administrative Issues
+country_event = {
+	id = flavor_bretonnia.200
+	title = flavor_bretonnia.200.t
+	desc = flavor_bretonnia.200.desc
+	picture = OVEREXTENSION_eventPicture
+	is_triggered_only = yes
+	option = {
+		#ADM 
+		name = flavor_bretonnia.200.a
+		change_variable = {
+			which = brt_adm
+			value = 1
+		}
+	}
+	option = {
+		#DIP
+		name = flavor_bretonnia.200.b
+		change_variable = {
+			which = brt_dip
+			value = 1
+		}
+	}
+	option = {
+		#MIL
+		name = flavor_bretonnia.200.c
+		change_variable = {
+			which = brt_mil
+			value = 1
+		}
+	}
+}
+
+# Warfare
+country_event = {
+	id = flavor_bretonnia.210
+	title = flavor_bretonnia.200.t
+	desc = flavor_bretonnia.200.desc
+	picture = OVEREXTENSION_eventPicture
+	is_triggered_only = yes
+	option = {
+		#ADM 
+		name = flavor_bretonnia.200.a
+		change_variable = {
+			which = brt_adm
+			value = 1
+		}
+	}
+	option = {
+		#DIP
+		name = flavor_bretonnia.200.b
+		change_variable = {
+			which = brt_dip
+			value = 1
+		}
+	}
+	option = {
+		#MIL
+		name = flavor_bretonnia.200.c
+		change_variable = {
+			which = brt_mil
+			value = 1
+		}
+	}
+}
+
+# The Fey
+country_event = {
+	id = flavor_bretonnia.220
+	title = flavor_bretonnia.200.t
+	desc = flavor_bretonnia.200.desc
+	picture = OVEREXTENSION_eventPicture
+	is_triggered_only = yes
+	option = {
+		#ADM 
+		name = flavor_bretonnia.200.a
+		change_variable = {
+			which = brt_adm
+			value = 1
+		}
+	}
+	option = {
+		#DIP
+		name = flavor_bretonnia.200.b
+		change_variable = {
+			which = brt_dip
+			value = 1
+		}
+	}
+	option = {
+		#MIL
+		name = flavor_bretonnia.200.c
+		change_variable = {
+			which = brt_mil
+			value = 1
+		}
+	}
+}
+
+# Estates are worried about their power
+country_event = {
+	id = flavor_bretonnia.230
+	title = flavor_bretonnia.230.t
+	desc = flavor_bretonnia.230.desc
+	picture = OVEREXTENSION_eventPicture
+	is_triggered_only = yes
+	option = {
+		#ADM 
+		name = flavor_bretonnia.230.a
+		change_variable = {
+			which = brt_adm
+			value = 1
+		}
+	}
+	option = {
+		#DIP
+		name = flavor_bretonnia.230.b
+		change_variable = {
+			which = brt_dip
+			value = 1
+		}
+	}
+	option = {
+		#MIL
+		name = flavor_bretonnia.230.c
+		change_variable = {
+			which = brt_mil
+			value = 1
+		}
+	}
+}
+
+# Little Economical Golden Age
+country_event = {
+	id = flavor_bretonnia.240
+	title = flavor_bretonnia.240.t
+	desc = flavor_bretonnia.240.desc
+	picture = OVEREXTENSION_eventPicture
+	is_triggered_only = yes
+	option = {
+		#ADM 
+		name = flavor_bretonnia.240.a
+		change_variable = {
+			which = brt_adm
+			value = 1
+		}
+	}
+	option = {
+		#DIP
+		name = flavor_bretonnia.240.b
+		change_variable = {
+			which = brt_dip
+			value = 1
+		}
+	}
+	option = {
+		#MIL
+		name = flavor_bretonnia.240.c
+		change_variable = {
+			which = brt_mil
+			value = 1
+		}
+	}
+}
+
+# Religious Debate
+country_event = {
+	id = flavor_bretonnia.250
+	title = flavor_bretonnia.250.t
+	desc = flavor_bretonnia.250.desc
+	picture = OVEREXTENSION_eventPicture
+	is_triggered_only = yes
+	option = {
+		#ADM 
+		name = flavor_bretonnia.250.a
+		change_variable = {
+			which = brt_adm
+			value = 1
+		}
+	}
+	option = {
+		#DIP
+		name = flavor_bretonnia.250.b
+		change_variable = {
+			which = brt_dip
+			value = 1
+		}
+	}
+	option = {
+		#MIL
+		name = flavor_bretonnia.250.c
+		change_variable = {
+			which = brt_mil
+			value = 1
+		}
+	}
+}
+
+# Role of the Monarch
+country_event = {
+	id = flavor_bretonnia.260
+	title = flavor_bretonnia.260.t
+	desc = flavor_bretonnia.260.desc
+	picture = OVEREXTENSION_eventPicture
+	is_triggered_only = yes
+	option = {
+		#ADM 
+		name = flavor_bretonnia.260.a
+		change_variable = {
+			which = brt_adm
+			value = 1
+		}
+	}
+	option = {
+		#DIP
+		name = flavor_bretonnia.260.b
+		change_variable = {
+			which = brt_dip
+			value = 1
+		}
+	}
+	option = {
+		#MIL
+		name = flavor_bretonnia.260.c
+		change_variable = {
+			which = brt_mil
+			value = 1
+		}
+	}
+	#The lady is the true ruler of Bretonnia ie become a theocracy
+	# option = {
+	# 	#MIL
+	# 	name = flavor_bretonnia.260.c
+	# 	change_variable = {
+	# 		which = brt_mil
+	# 		value = 1
+	# 	}
+	# }
 }
 
 ### Heir Sets out on a Grail Quest!

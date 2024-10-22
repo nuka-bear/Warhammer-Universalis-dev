@@ -52,24 +52,15 @@ brt_authority_mechanic = {
 						duration = -1
 					}
 				}
+			country_event = {
+					id = flavor_gbr.15
+					tooltip = appointment_of_state_minister_tt
+			}
 				hidden_effect = {
 					set_government_power = {
 						mechanic_type = brt_authority_mechanic
 						power_type = brt_authority
 						value = 0
-					}
-					add_country_modifier = {
-						name = brt_authority_reform_one_modifier
-						duration = -1
-					}
-					every_subject_country = {
-						limit = {
-							is_subject_of_type = bretonnian_dukedom_subject
-						}
-						add_country_modifier = {
-							name = brt_authority_reform_one_modifier
-							duration = -1
-						}
 					}
 					set_global_flag = brt_first_reform_flag
 				}
@@ -92,7 +83,6 @@ brt_authority_mechanic = {
 			cost_type = brt_authority
 			cost = 90
 			trigger = {
-				has_global_flag = brt_first_reform_flag
 				NOT = {
 					has_global_flag = brt_second_reform_flag
 				}
@@ -145,7 +135,6 @@ brt_authority_mechanic = {
 			cost_type = brt_authority
 			cost = 90
 			trigger = {
-				has_global_flag = brt_second_reform_flag
 				NOT = {
 					has_global_flag = brt_third_reform_flag
 				}
@@ -198,7 +187,7 @@ brt_authority_mechanic = {
 			cost_type = brt_authority
 			cost = 90
 			trigger = {
-				has_global_flag = brt_third_reform_flag
+
 				NOT = {
 					has_global_flag = brt_fourth_reform_flag
 				}
@@ -251,7 +240,6 @@ brt_authority_mechanic = {
 			cost_type = brt_authority
 			cost = 90
 			trigger = {
-				has_global_flag = brt_fourth_reform_flag
 				NOT = {
 					has_global_flag = brt_fifth_reform_flag
 				}
@@ -304,7 +292,6 @@ brt_authority_mechanic = {
 			cost_type = brt_authority
 			cost = 90
 			trigger = {
-				has_global_flag = brt_fifth_reform_flag
 				NOT = {
 					has_global_flag = brt_sixth_reform_flag
 				}
@@ -356,7 +343,6 @@ brt_authority_mechanic = {
 			cost_type = brt_authority
 			cost = 90
 			trigger = {
-				has_global_flag = brt_sixth_reform_flag
 				NOT = {
 					has_global_flag = brt_seventh_reform_flag
 				}
@@ -374,19 +360,6 @@ brt_authority_mechanic = {
 						mechanic_type = brt_authority_mechanic
 						power_type = brt_authority
 						value = 0
-					}
-					add_country_modifier = {
-						name = brt_authority_reform_seven_modifier
-						duration = -1
-					}
-					every_subject_country = {
-						limit = {
-							is_subject_of_type = bretonnian_dukedom_subject
-						}
-						add_country_modifier = {
-							name = brt_authority_reform_seven_modifier
-							duration = -1
-						}
 					}
 					set_global_flag = brt_seventh_reform_flag
 				}
@@ -409,25 +382,12 @@ brt_authority_mechanic = {
 			cost_type = brt_authority
 			cost = 90
 			trigger = {
-				has_global_flag = brt_seventh_reform_flag
+				bretonnia_Is_First_Seven_Reforms_Completed = yes
 				NOT = {
 					has_global_flag = brt_eighth_reform_flag
 				}
 			}
 			effect = {
-				add_country_modifier = {
-					name = brt_authority_reform_eight_modifier
-					duration = -1
-				}
-				every_subject_country = {
-					limit = {
-						is_subject_of_type = bretonnian_dukedom_subject
-					}
-					add_country_modifier = {
-						name = brt_authority_reform_eight_modifier
-						duration = -1
-					}
-				}
 				set_global_flag = brt_eighth_reform_flag
 			}
 			ai_chance = {
