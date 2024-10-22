@@ -9,11 +9,50 @@ Raiding happens when people reclaim their own lands
 Burger Privelage if your capital is in a subterranean zone, then you get + in subterranean, - in non-subterranean
 	Look at hydralaogic empire.
 
-Localize racial challenges for orcs and ogres
-
 Fix remaining Ind and Khurse flags
+	Z49 - Z69: India
+	Z70 - Z78: Japam
 
 Should Fightiness apply to all orc militaries?
+
+
+For some missions use:
+
+### Dev in provinces
+			development_in_provinces = {
+				value = 135 
+				owned_by = ROOT 
+				trade_goods = silk 
+			}
+
+### Provinces to highlight
+		provinces_to_highlight = {
+			AND = {
+				owned_by = ROOT 
+				trade_goods = silk 
+			}
+		}
+
+		provinces_to_highlight = {
+			province_id = 310
+		}
+
+### Owned Provinces with
+			num_of_owned_provinces_with = {
+				fort_level = 2
+				value = 4
+			}
+
+
+			num_of_owned_provinces_with = {
+
+				OR = {
+				 	has_building = dock
+				 	has_building = drydock
+				}
+				value = 5
+			}
+
 
 Everybody!
 	Look at government types
@@ -23,6 +62,7 @@ Everybody!
 	Make each mission tree a single icon of the culture or religion
 	Add province highlighting to missions
 	Use num_of_owned_provinces_with for many missions that do it a different way now. It shows the player the number they have
+
 	Add monuments based on the map.
 	Switch up multiple gov types and religions for each area.
 
@@ -52,7 +92,6 @@ Focus on Nehekara to start
 	Unifying all Nehekhara religion isn't working
 
 Orcs
-	Fix Orc Piety
 	5 pulse events to move towards mork or gork
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold
@@ -67,6 +106,12 @@ Cathay
 	Mandate?
 	Mandate
 		Dominion somebody makes you take their mandate too.
+	Missions
+		Culture side - unifying cathay (you or a subject own specific provinces), protecting from external threats (forts and upgrading, all of cathay is owned by you or 
+			Missions should be achievable by both overlord and subject - so if you or a subject do X
+			Give each area 1 monument - Missions are based on those.
+		Harmony side should be internalgrowth/stability, similar to Araby
+
 
 Bugs
 	Fix Monstrous Unit Cost
