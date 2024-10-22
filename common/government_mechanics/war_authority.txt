@@ -500,6 +500,7 @@ brt_authority_mechanic = {
 						id = ideagroups.1
 					}					#Swap Ideas
 				}
+				add_government_reform = united_bretonnia_reform
 				swap_non_generic_missions = yes
 				set_country_flag = formed_bretonnia
 			}
