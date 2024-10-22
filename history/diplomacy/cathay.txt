@@ -1,6 +1,5 @@
 
 
-# Numas - Scythania vassal
 dependency = {
 	subject_type = dominion
 	first = I25

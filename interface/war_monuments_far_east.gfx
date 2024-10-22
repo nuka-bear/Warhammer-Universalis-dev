@@ -1,7 +1,91 @@
 spriteTypes = {
 
+### Cathay
 
 
+	spriteType = {
+		name = "GFX_great_project_jade_tower"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_great_tea_fields"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+
+spriteType = {
+		name = "GFX_great_project_shang_wu_rivier_district"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_mei_wan_port_city"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_flaming_canals"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_jade_pillar_port"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_infinite_libraries_of_tien_chi"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_pagoda_of_feng_pei"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_theaters_of_the_monkey_court"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_port_of_fu_chow"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_jadeblooded_mage_academy"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_foundries_of_nan_gau"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_silk_road_nexus"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_temple_of_the_moon_empress"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+
+spriteType = {
+		name = "GFX_great_project_emperors_palace"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_great_bastion"	
+		texturefile = "gfx//interface//great_projects//great_project_the_great_wall_of_china.dds"
+	}
+	
+
+### India & Southeast Asia
 
 	spriteType = {
 		name = "GFX_great_project_temple_of_vaati_the_binder"	

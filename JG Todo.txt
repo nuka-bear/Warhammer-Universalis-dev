@@ -1,8 +1,6 @@
 
 JG To Do & Thoughts
 
-Common missions: https://eu4.paradoxwikis.com/List_of_common_mission_triggers
-
 Raiding happens when people reclaim their own lands
 	Might be fixed, check if this works. - Nope!
 
@@ -11,48 +9,9 @@ Burger Privelage if your capital is in a subterranean zone, then you get + in su
 
 Fix remaining Ind and Khurse flags
 	Z49 - Z69: India
-	Z70 - Z78: Japam
+	Z70 - Z78: Japan
 
 Should Fightiness apply to all orc militaries?
-
-
-For some missions use:
-
-### Dev in provinces
-			development_in_provinces = {
-				value = 135 
-				owned_by = ROOT 
-				trade_goods = silk 
-			}
-
-### Provinces to highlight
-		provinces_to_highlight = {
-			AND = {
-				owned_by = ROOT 
-				trade_goods = silk 
-			}
-		}
-
-		provinces_to_highlight = {
-			province_id = 310
-		}
-
-### Owned Provinces with
-			num_of_owned_provinces_with = {
-				fort_level = 2
-				value = 4
-			}
-
-
-			num_of_owned_provinces_with = {
-
-				OR = {
-				 	has_building = dock
-				 	has_building = drydock
-				}
-				value = 5
-			}
-
 
 Everybody!
 	Look at government types
@@ -103,7 +62,6 @@ Orcs
 
 Cathay
 	Estate prevents taking land outside tech group?
-	Mandate?
 	Mandate
 		Dominion somebody makes you take their mandate too.
 	Missions
@@ -113,8 +71,53 @@ Cathay
 		Harmony side should be internalgrowth/stability, similar to Araby
 
 
+
+
 Bugs
 	Fix Monstrous Unit Cost
+	Generic Beacon on a Hill mission with tech difference not working
+
+
+For some missions use:
+
+Common missions: https://eu4.paradoxwikis.com/List_of_common_mission_triggers
+
+### Dev in provinces
+			development_in_provinces = {
+				value = 135 
+				owned_by = ROOT 
+				trade_goods = silk 
+			}
+
+### Provinces to highlight
+		provinces_to_highlight = {
+			AND = {
+				owned_by = ROOT 
+				trade_goods = silk 
+			}
+		}
+
+		provinces_to_highlight = {
+			province_id = 310
+		}
+
+### Owned Provinces with
+			num_of_owned_provinces_with = {
+				fort_level = 2
+				value = 4
+			}
+
+
+			num_of_owned_provinces_with = {
+
+				OR = {
+				 	has_building = dock
+				 	has_building = drydock
+				}
+				value = 5
+			}
+
+
 
 
 ##### Paused for now #####

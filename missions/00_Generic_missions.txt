@@ -353,9 +353,9 @@ diplomatic_missions = {
 			prestige = 99
 			legitimacy_equivalent = 99
 			NOT = { unrest = 0 }
-			all_neighbor_country = {
-				NOT = { tech_difference = -1 }
-			}
+#			all_neighbor_country = {
+#				NOT = { tech_difference = 0 }
+#			}
 
 		}
 		effect = {
