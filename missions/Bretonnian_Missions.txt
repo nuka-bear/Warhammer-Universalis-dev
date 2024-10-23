@@ -327,7 +327,7 @@ bretonnian_3_missions = {
 		}
 	}
 
-	bertonnia_squire = {
+	bertonnia_squire_mission = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = {
@@ -357,16 +357,16 @@ bretonnian_3_missions = {
 				change_mil = 1
 			}
 			add_country_modifier = {
-				name = bretonnia_squire
+				name = bretonnia_squire_mod
 				duration = -1
 			}
 		}
 	}
-	bertonnia_knight_errant = {
+	bertonnia_knight_errant_mission = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = {
-			bertonnia_squire
+			bertonnia_squire_mission
 		}
 
 		provinces_to_highlight = {  }
@@ -392,17 +392,20 @@ bretonnian_3_missions = {
 			else = {
 				change_mil = 1
 			}
+			hidden_effect = {
+				remove_country_modifier = bretonnia_squire_mod
+			}
 			add_country_modifier = {
-				name = bretonnia_squire
+				name = bretonnia_knight_errant_mod
 				duration = -1
 			}
 		}
 	}
-	bertonnia_knight_of_the_realm = {
+	bertonnia_knight_of_the_realm_mission = {
 		icon = mission_build_up_to_force_limit
 		position = 5
 		required_missions = {
-			bertonnia_knight_errant
+			bertonnia_knight_errant_mission
 		}
 
 		provinces_to_highlight = {  }
@@ -428,17 +431,20 @@ bretonnian_3_missions = {
 			else = {
 				change_mil = 1
 			}
+			hidden_effect = {
+				remove_country_modifier = bretonnia_knight_errant_mod
+			}
 			add_country_modifier = {
-				name = bretonnia_squire
+				name = bretonnia_kotr_mod
 				duration = -1
 			}
 		}
 	}
-	bertonnia_questing_knight = {
+	bertonnia_questing_knight_mission = {
 		icon = mission_build_up_to_force_limit
 		position = 6
 		required_missions = {
-			bertonnia_knight_of_the_realm
+			bertonnia_knight_of_the_realm_mission
 		}
 
 		provinces_to_highlight = {  }
@@ -464,17 +470,20 @@ bretonnian_3_missions = {
 			else = {
 				change_mil = 1
 			}
+			hidden_effect = {
+				remove_country_modifier = bretonnia_kotr_mod
+			}
 			add_country_modifier = {
-				name = bretonnia_squire
+				name = bretonnia_questing_knight_mod
 				duration = -1
 			}
 		}
 	}
-	bertonnia_grail_knight = {
+	bertonnia_grail_knight_mission  = {
 		icon = mission_build_up_to_force_limit
 		position = 7
 		required_missions = {
-			bertonnia_questing_knight
+			bertonnia_questing_knight_mission
 		}
 
 		provinces_to_highlight = {  }
@@ -497,11 +506,14 @@ bretonnian_3_missions = {
 				}
 				add_mil_power = 100
 			}
+			hidden_effect = {
+				remove_country_modifier = bretonnia_questing_knight_mod
+			}
 			else = {
 				change_mil = 1
 			}
 			add_country_modifier = {
-				name = bretonnia_squire
+				name = bretonnia_grail_knight_mod
 				duration = -1
 			}
 		}

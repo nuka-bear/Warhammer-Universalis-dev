@@ -75,7 +75,6 @@ empire_order_blazing_sun_reform = {
 	}
 }
 
-
 cult_of_sigmar_reform = {
 	icon = "sigmar"
 	allow_normal_conversion = yes
@@ -85,31 +84,27 @@ cult_of_sigmar_reform = {
 			was_tag = A80
 		}
 	}
-
 	valid_for_nation_designer = no
 	allow_convert = no
 	lock_level_when_selected = yes
 	is_eligible_for_hre_emperor = yes
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
 	nation_designer_cost = 20
 	modifiers = {
-		yearly_harmony = 0.25
-		yearly_karma_decay = 0.002
-		tolerance_own = 1
+		tolerance_own = 2
 		production_efficiency = 0.1
-		land_morale = 0.05
+		discipline  = 0.05
 		global_missionary_strength = 0.02
 	}
 	effect = {
-	
 	}
 	removed_effect = {
-		
 	}
 	custom_attributes = {
 		can_see_theocratic_heir_stats = yes
 	}
 }
-
 
 cult_of_ulric_reform = {
 	icon = "ulric"
@@ -120,34 +115,30 @@ cult_of_ulric_reform = {
 			was_tag = A82
 		}
 	}
-
 	valid_for_nation_designer = no
 	allow_convert = no
 	lock_level_when_selected = yes
 	is_eligible_for_hre_emperor = yes
-
+	heirs_can_be_generals = yes
+	rulers_can_be_generals = yes
 	nation_designer_cost = 20
 	modifiers = {
-		yearly_harmony = 0.25
-		yearly_karma_decay = 0.002
-		tolerance_own = 1
+		tolerance_own = 2
 		production_efficiency = 0.1
 		land_morale = 0.05
 		global_missionary_strength = 0.02
 	}
 	effect = {
-	
 	}
 	removed_effect = {
-		
 	}
 	custom_attributes = {
 		can_see_theocratic_heir_stats = yes
 	}
 }
 
-truthsayer_order_reform	 = {
-		icon = "soldiers"
+truthsayer_order_reform = {
+	icon = "soldiers"
 	potential = {
 		religion = druidism
 	}
@@ -167,7 +158,7 @@ truthsayer_order_reform	 = {
 	heirs_can_be_generals = yes
 }
 
-dark_embassy_order_reform	= {
+dark_embassy_order_reform = {
 	icon = "soldiers"
 	potential = {
 		or = {
@@ -182,8 +173,8 @@ dark_embassy_order_reform	= {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 20
 	nation_designer_trigger = {
-			culture_group = albionise_group
-			religion_group = ruinous_powers_denominations
+		culture_group = albionise_group
+		religion_group = ruinous_powers_denominations
 	}
 	icon = "man_on_podium"
 	allow_normal_conversion = no
@@ -206,12 +197,11 @@ nehekharan_government_reform = {
 	nation_designer_trigger = {
 		culture_group = nehekharan_group
 	}
-
 	lock_level_when_selected = yes
 	modifiers = {
 		church_privilege_slots = 2
 		church_influence_modifier = 0.1
-		manpower_in_accepted_culture_provinces = 0.20
+		manpower_in_accepted_culture_provinces = 0.2
 		governing_capacity = 50
 	}
 	heir = no
@@ -222,7 +212,6 @@ nehekharan_government_reform = {
 		enables_aristocratic_idea_group = yes
 	}
 }
-
 
 lizardmen_government_reform = {
 	icon = "lizardmen"
@@ -237,24 +226,19 @@ lizardmen_government_reform = {
 		culture_group = lizardmen_group
 		religion = old_ones
 	}
-
 	lock_level_when_selected = yes
 	modifiers = {
-
 	}
 	rulers_can_be_generals = yes
 	allow_normal_conversion = no
 }
 
-
 nagash_reform = {
 	potential = {
 		tag = U24
 	}
-
-	modifiers = {	
+	modifiers = {
 		all_power_cost = -0.025
-		
 	}
 	custom_attributes = {
 		enables_divine_idea_group = no
@@ -264,11 +248,39 @@ nagash_reform = {
 	icon = "soldiers"
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
-	
 	rulers_can_be_generals = no
 	heir = no
-
 }
 
-
-
+leading_necromancer_reform = {
+	icon = "necromancer"
+	valid_for_nation_designer = yes
+	allow_normal_conversion = yes
+	nation_designer_cost = 20
+	lock_level_when_selected = no
+	heir = yes
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+	potential = {
+		or = {
+			technology_group = tech_vampire_coast
+			technology_group = tech_vampire_count
+			technology_group = tech_eastern_undead
+		}
+	}
+	nation_designer_trigger = {
+		or = {
+			technology_group = tech_vampire_coast
+			technology_group = tech_vampire_count
+			technology_group = tech_eastern_undead
+		}
+	}
+	modifiers = {
+		leader_cost = -0.1
+		global_spy_defence = 0.2
+		max_absolutism = 10
+	}
+	custom_attributes = {
+		enables_divine_idea_group = no
+	}
+}

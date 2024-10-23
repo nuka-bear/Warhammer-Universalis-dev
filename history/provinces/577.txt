@@ -1,11 +1,14 @@
-base_tax = 4
-base_manpower = 3
-base_production = 2
+base_tax = 5
+base_manpower = 4
+base_production = 6
 religion = vampiric
 culture = mousillonian
 native_size = 50
 native_ferocity = 7
 native_hostileness = 10
 trade_goods = unknown
-
-
+add_core = A76
+owner = A76
+controller = A76
+fort_15th = yes
+is_city = yes

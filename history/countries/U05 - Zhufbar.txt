@@ -6,6 +6,9 @@ technology_group = tech_dwarf
 capital = 4472
 setup_vision = yes
 government_rank = 1
+add_historical_friend = U04
+add_historical_friend = U06
+
 2502.1.1 = {
 	monarch = {
 		name = "Barundin"

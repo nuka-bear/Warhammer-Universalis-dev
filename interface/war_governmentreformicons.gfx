@@ -68,5 +68,10 @@ spriteTypes = {
 		name = "government_reform_grey_seer"
 		texturefile = "gfx//interface//government_reform_icons//grey_seer.dds"
 	}
+	spriteType = {
+		name = "government_reform_necromancer"
+		texturefile = "gfx//interface//government_reform_icons//necromancer.dds"
+	}
+	
 	
 }

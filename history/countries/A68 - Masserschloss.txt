@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = autocracy_reform
+government = theocracy
+add_government_reform = leading_necromancer_reform
 primary_culture = nordlander
 religion = nagash_worship
 technology_group = tech_vampire_count

@@ -64,6 +64,9 @@
  military_garrison_reform:0 "Military Garrison"
  military_garrison_reform_desc:0 ""
  
+ leading_necromancer_reform:0 "Nercomancer's Domain"
+ leading_necromancer_reform_desc:0 ""
+ 
  # # # # # # # # # # # # # # # #
  #							  #
  #      Military Doctrines     #

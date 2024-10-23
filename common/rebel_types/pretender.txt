@@ -57,15 +57,15 @@ pretender_rebels = {
 			factor = 0
 			is_overseas = yes
 		}
-		# modifier = {
-		# 	factor = 0.05
-		# 	owner = {
-		# 		OR = {
-		# 			has_country_modifier = the_mandate_of_heaven_lost
-		# 			has_country_modifier = lost_mandate_of_heaven
-		# 		}
-		# 	}
-		# }
+		modifier = {
+			factor = 0.05
+			owner = {
+				OR = {
+					# has_country_modifier = the_mandate_of_heaven_lost
+					has_country_modifier = lost_mandate_of_heaven
+				}
+			}
+		}
 		modifier = {
 			factor = 2
 			owner = {
@@ -73,13 +73,13 @@ pretender_rebels = {
 				aristocracy_ideas = 1
 			}
 		}
-		# modifier = {
-		# 	factor = 20
-		# 	owner = {
-		# 		has_disaster = civil_war
-		# 		#has_disaster = counts_feud
-		# 	}
-		# }
+		modifier = {
+			factor = 20
+			owner = {
+				has_disaster = civil_war
+				#has_disaster = counts_feud
+			}
+		}
 		# modifier = {
 		# 	factor = 20
 		# 	owner = {
@@ -122,10 +122,10 @@ pretender_rebels = {
 		# 	factor = 50.0
 		# 	owner = { has_disaster = war_of_the_roses }
 		# }
-		modifier = {
-			factor = 2
-			owner = { religion = inti }
-		}
+		#modifier = {
+		#	factor = 2
+		#	owner = { religion = inti }
+		#}
 		modifier = {
 			factor = 30
 			owner = {
@@ -290,10 +290,10 @@ pretender_rebels = {
 			}
 			change_statists_vs_orangists = 1
 		}
-		if = {
-			limit = { religion = inti }
-			remove_religious_reforms = 2
-		}
+		#if = {
+		#	limit = { religion = inti }
+		#	remove_religious_reforms = 2
+		#}
 		if = {
 			limit = { has_disaster = civil_war }
 			add_prestige = -200
@@ -309,9 +309,9 @@ pretender_rebels = {
 						has_reform = iqta
 						has_reform = indep_daimyo
 					#	has_reform = principality
-					#	has_reform = daimyo
+						has_reform = daimyo
 						has_reform = appanage_reform
-				#		has_reform = shogunate
+						has_reform = shogunate
 						has_reform = colonial_government
 						has_reform = siberian_tribe
 						government = native
@@ -323,8 +323,8 @@ pretender_rebels = {
 					#	has_reform = sultanate_of_rum_reform
 					#	has_reform = eyalet_government
 					#	has_reform = barbary_eyalet_government
-						has_reform = kalmar_union
-						has_reform = danish_archkingdom
+					#	has_reform = kalmar_union
+					#	has_reform = danish_archkingdom
 						has_reform = tribal_federation
 					#	has_reform = feudal_theocracy
 					#	has_reform = mamluk_government
