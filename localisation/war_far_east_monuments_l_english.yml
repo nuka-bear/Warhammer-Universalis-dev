@@ -1,6 +1,16 @@
 ﻿l_english:
 
 
+#### Nippon
+
+nippon_imperial_palaces:0 "Nippon Imperial Palaces"
+nippon_imperial_palaces_desc:0 "The imperial palaces of Nippon, represent the authority of the emperor and the center of power for the ruling shogunate. With these grand structures, the Nipponese rulers consolidated their influence and showcased their control over the land. The palaces also serve as a symbol of cultural refinement, administrative power, and military leadership."
+
+
+mount_jifu:0 "Mount Jifu"
+mount_jifu_desc:0 "Mount Jifu is the most sacred mountains in Nippon, revered for its divine nature and spiritual significance. The Jifuian Hongu Sengen Taisha shrine, built at its base, serves as a center of pilgrimage and devotion, offering protection from volcanic disasters and ensuring harmony between the divine and the earthly. The spiritual power emanating from the shrine also inspires the people to rebuild and develop the land, bringing prosperity to the region."
+
+
 
 province_is_or_accepts_yin_yang_tt:0 "Province is or accepts Yin Yang"
 

@@ -11,7 +11,13 @@ Should Fightiness apply to all orc militaries?
 
 Make it harder to turn a dominion into a vassal
 
-Add Two monuments to Japan
+Eastern Provinces
+	2828 - 2988 Some of Cathay
+
+Burning Wind still missing a flag
+
+Lizards have a government chart which makes them stronger for each geomantic web city they control spread like 50 around the world.
+
 
 Match provinces to primary cultures in the East - Cathay and Nippon in particular
 
@@ -50,6 +56,7 @@ Focus on Nehekara to start
 	Rename Some States
 	Mission for controlling and having forts on the passes? Maybe missions based on areas
 	Unifying all Nehekhara religion isn't working
+	Give Nehekharan government mechanic bar for legitimacy for controlling each monument? + diplomatic rep
 
 Orcs
 	5 pulse events to move towards mork or gork

@@ -1,5 +1,21 @@
 spriteTypes = {
 
+### Nipon
+
+	spriteType = {
+		name = "GFX_great_project_nippon_imperial_palaces"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_great_mount_jifu"	
+		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
+	}
+
+
+
+
+
 ### Cathay
 
 
