@@ -13,6 +13,7 @@ gen_cathay_missions = {
 		culture_group = cathayan_cg
 	}
 
+### Nobles donating gifts and resources
 	gen_cathay_please_nobility = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  } 
@@ -24,121 +25,228 @@ gen_cathay_missions = {
 		}
 
 		effect = { 
-			add_country_modifier = { 
- 				name = araby_add_missionary_1
-				duration = -1
+			add_years_of_income = 0.5
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+		}
+	}
+
+### Retaking government assests
+	gen_cathay_get_crownland_up = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_cathay_please_nobility } 
+		trigger = {
+			crown_land_share = 30
+		}
+
+		effect = { 
+			capital_scope = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
 			}
 		}
 	}
 
+### Korea B63 and monkey court -I35 are your vassals, or do not exist
+### More spies to make sure this doesn't happen again
 	gen_cathay_reign_in_defectors = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = {  } 
+		required_missions = {  }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				is_capital_of = B36
+				is_capital_of = I35
+			}
+		}
 		trigger = {
-### Korea B63 and monkey court -I35 are your vassals, or do not exist
+			OR = {
+				NOT = { exists = B63 }
+				B63 = {
+					is_subject_of = ROOT
+				}
+				tag = B63
+			}
+			OR = {
+				NOT = { exists = I35 }
+				I35 = {
+					is_subject_of = ROOT
+				}
+				tag = I35
+			}
 		}
 
 		effect = { 
 			add_country_modifier = { 
- 				name = araby_add_missionary_1
+ 				name = cathay_mod_defectors
 				duration = -1
 			}
 		}
 	}
+
+
+### get rid of non-cathayans
+### Can we change this to - all countries with their capital in Cathay have the religion and culture group of you
 
 	gen_cathay_purge_unwanted_elements = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  } 
+		provinces_to_highlight = {
+			OR = {
+				is_capital_of = B36
+				is_capital_of = I35
+			}
+		}
 		trigger = {
-### get rid of non-cathayans
+			OR = {
+				NOT = { exists = I30 }
+				I30 = {
+					religion = ROOT
+					culture_group = ROOT
+				}
+			}
+			OR = {
+				NOT = { exists = I34 }
+				I34 = {
+					religion = ROOT
+					culture_group = ROOT
+				}
+			}
+			OR = {
+				NOT = { exists = I33 }
+				I33 = {
+					religion = ROOT
+					culture_group = ROOT
+				}
+			}
 		}
 
 		effect = { 
 			add_country_modifier = { 
- 				name = araby_add_missionary_1
+ 				name = cathay_mod_unified
 				duration = -1
 			}
 		}
 	}
 
-	gen_cathay_get_crownland_up = { 
+### Porcelain leader to start up terracotta forges to make giant terracotta warriors for army
+	gen_cathay_porcelain_leader = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  } 
+		provinces_to_highlight = {
+			trade_goods = chinaware
+		}
 		trigger = {
-### get rid of non-cathayans
+			OR = {
+				production_leader = {
+					trade_goods = chinaware
+				}
+				any_subject_country = {
+					production_leader = {
+						trade_goods = chinaware
+					}
+				}
+			}
+			OR = {
+				development_in_provinces = {
+					value = 60
+					owned_by = ROOT 
+					trade_goods = chinaware
+				}
+				any_subject_country = {
+					development_in_provinces = {
+						value = 60
+						owned_by = PREV 
+						trade_goods = chinaware
+					}
+				}
+			}
 		}
 
 		effect = { 
 			add_country_modifier = { 
- 				name = araby_add_missionary_1
+ 				name = cathay_mod_terracotta_forges
 				duration = -1
 			}
 		}
 	}
 
-	gen_cathay_build_development = { 
-		icon = mission_egyptian_mamluk_soldier
-		required_missions = {  } 
-		trigger = {
-### Tea? Or something?
-		}
-
-		effect = { 
-			add_country_modifier = { 
- 				name = araby_add_missionary_1
-				duration = -1
-			}
-		}
-	}
+### Great Bastion is at level 3 and you or a subject own it
 
 	gen_cathay_reinforce_wall = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = {  } 
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2825
+				province_id = 2826
+				province_id = 2827
+			}
+		}
 		trigger = {
-### Great Bastion is at level 3 and you or a subject own it
+			AND = {
+				OR = {
+					has_great_project = {
+						type = great_bastion
+						tier = 3
+					}
+					any_subject_country = {
+						has_great_project = {
+							type = great_bastion
+							tier = 3
+						}
+					}
+				}
+			2825 = { fort_level = 5 }
+			2827 = { fort_level = 5 }
+			}
 		}
 
-		effect = { 
+		effect = {
 			add_country_modifier = { 
- 				name = araby_add_missionary_1
+ 				name = cathay_mod_garrisons
 				duration = -1
 			}
 		}
 	}
 
+
+## Big Fleet
 	gen_cathay_big_fleet = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = {  } 
-		trigger = {
-### Great Bastion is at level 3 and you or a subject own it
+		required_missions = {  }
+		provinces_to_highlight = {
+			trade_goods = naval_supplies
 		}
-
-		effect = { 
-			add_country_modifier = { 
- 				name = araby_add_missionary_1
-				duration = -1
+		trigger = {
+			OR = {
+				AND = {
+					naval_supplies = 1
+					navy_size = 100
+				}
+				AND = {
+					any_subject_country = {
+						naval_supplies = 1
+						navy_size = 100
+					}
+				}
 			}
 		}
-	}
 
-	gen_cathay_challenge_neighbors = { 
-		icon = mission_egyptian_mamluk_soldier
-		required_missions = {  } 
-		trigger = {
-### Something about no major powers in any adjacent regions? Or is that a better ultimate
-		}
-
-		effect = { 
+		effect = {
 			add_country_modifier = { 
- 				name = araby_add_missionary_1
+ 				name = cathay_mod_heavy_ships
 				duration = -1
 			}
+			create_explorer = { tradition = 100 }
 		}
 	}
-
 }
 
-
+### Own all of Cathay, be the number one power, have 99 prestige, 99 legitimacy, 99 power projection
+### Something about no major powers in any adjacent regions?
 gen_cathay_ultimate_missions = {
 	slot = 3
 	generic = yes
@@ -151,13 +259,18 @@ gen_cathay_ultimate_missions = {
 		required_missions = {  }
 		position = 9
 		trigger = {
-### Own all of Cathay, be the number one power, have 99 prestige, 99 legitimacy, 99 power projection
-### Something about no major powers in any adjacent regions?
+			prestige = 99
+			legitimacy_equivalent = 99
+			power_projection = 99
+			great_power_rank = 1
+			NOT = { great_power_rank = 1 }
+
+			total_development = 2000
 		}
 
-		effect = { 
+		effect = {
 			add_country_modifier = { 
- 				name = cathay_ultimate_reward
+ 				name = cathay_mod_ultimate
 				duration = -1
 			}
 		}
@@ -166,7 +279,7 @@ gen_cathay_ultimate_missions = {
 
 
 ##################################
-##### ONE FAITH RELIGION
+##### YIN YANG RELIGION
 ##################################
 
 
@@ -178,31 +291,14 @@ gen_yin_yang_missions = {
 		religion = yin_yang
 	}
 
-	gen_yin_yang_happy_priest = { 
-		icon = mission_egyptian_mamluk_soldier
-		required_missions = {  } 
-		trigger = {
-			estate_loyalty = {
-			    estate = estate_church
-			    loyalty = 65
-			}
-		}
-
-		effect = { 
-			add_country_modifier = { 
- 				name = araby_happy_church
-				duration = -1
-			}
-		}
-	}
+### Clergy donating gifts & Resources
 
 	gen_yin_yang_places_of_worship = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_yin_yang_happy_priest } 
+		required_missions = {  } 
 		trigger = {
 
 			num_of_owned_provinces_with = {
-
 				OR = {
 				 	has_building = temple
 				 	has_building = cathedral
@@ -221,15 +317,15 @@ gen_yin_yang_missions = {
 		required_missions = { gen_yin_yang_places_of_worship } 
 		trigger = {
 			capital_scope = {
-				development = 30
+				development = 50
 			}
 		}
 
 		effect = { 
 			capital_scope = {
 				add_permanent_province_modifier = { 
- 				  	name = araby_place_of_study
-    				duration = -1  
+ 				  	name = cathay_place_of_study
+    				duration = -1 
 				}
 			}
 		}
@@ -251,7 +347,7 @@ gen_yin_yang_missions = {
 
 		effect = { 
 			add_country_modifier = { 
- 				name = araby_place_of_law
+ 				name = cathay_place_of_law
 				duration = -1
 			}
 		}
@@ -269,47 +365,93 @@ gen_yin_yang_missions = {
 
 		effect = { 
 			add_country_modifier = { 
- 				name = araby_place_of_innovation
+ 				name = cathay_place_of_innovation
 				duration = -1
 			}
 		}
 	}
 
-	gen_yin_yang_charitable = { 
+
+
+### This Harmony thing isn'y working
+### Should this be all of the areais the same religion?
+
+	gen_yin_yang_happy_priest = { 
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  }
+		position = 6
 		trigger = {
-			years_of_income = 2.0
+			estate_loyalty = {
+			    estate = estate_church
+			    loyalty = 65
+			}
+		}
+
+		effect = { 
+			add_years_of_income = 0.5
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+		}
+	}
+
+	gen_yin_yang_tea_leader = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_yin_yang_happy_priest }
+		provinces_to_highlight = {
+			trade_goods = tea
+		}
+		trigger = {
+			OR = {
+				production_leader = {
+					trade_goods = tea
+				}
+				any_subject_country = {
+					production_leader = {
+						trade_goods = tea
+					}
+				}
+			}
+			OR = {
+				development_in_provinces = {
+					value = 60
+					owned_by = ROOT 
+					trade_goods = tea
+				}
+				any_subject_country = {
+					development_in_provinces = {
+						value = 60
+						owned_by = PREV 
+						trade_goods = tea
+					}
+				}
+			}
 		}
 
 		effect = {
-
-		add_years_of_income = -2.0
-			every_neighbor_country = { add_years_of_income = 0.5 }
-
-
 			add_country_modifier = { 
- 				name = araby_charitable
+ 				name = cathay_tea_ceremonies
 				duration = -1
 			}
 		}
 	}
 
 
-	gen_yin_yang_defender_of_faith = { 
+### This harmony thing isn't working?
+	gen_yin_yang_balanced = { 
 		icon = mission_egyptian_mamluk_soldier
-		required_missions = { gen_yin_yang_charitable }
+		required_missions = { gen_yin_yang_tea_leader }
 		trigger = {
-### Neutral Yin Yang?
 			prestige = 99
 			religious_unity = 1.0
+#			harmony = -10
+#			NOT = { harmony = 10 }
 		}
 
 		effect = {
-			add_country_modifier = { 
- 				name = araby_historical_defender
-				duration = -1
+			change_innovativeness = 10
+			capital_scope = {
+				add_next_institution_embracement = 100
 			}
-		}
 	}
 }

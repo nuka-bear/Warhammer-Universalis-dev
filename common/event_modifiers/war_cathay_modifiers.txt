@@ -1,0 +1,60 @@
+
+### Cathat
+
+cathay_mod_terracotta_forges = {
+
+	can_recruit_cossacks = yes
+	allowed_cossack_fraction = 0.05
+	special_unit_cost_modifier = -0.05
+
+}
+
+cathay_mod_garrisons = {
+	
+	garrison_size = 0.10
+	garrison_damage = 0.10
+
+}
+
+cathay_mod_heavy_ships = {
+	has_man_of_war = yes
+	allowed_man_of_war_fraction = 0.1
+}
+
+
+cathay_mod_defectors = {
+	spy_offence = 0.1
+	global_spy_defence = 0.1
+	diplomatic_upkeep = 1
+}
+
+cathay_mod_unified = {
+	
+	religious_unity = 0.10
+	global_unrest = -0.5
+	legitimacy = 0.25
+	devotion = 0.25
+	meritocracy = 0.25
+}
+
+cathay_mod_ultimate = {
+	diplomatic_reputation = 7
+	prestige = 2.0
+}
+
+
+cathay_place_of_study = {
+	institution_growth = 5
+}
+
+cathay_place_of_law = {
+	stability_cost_modifier = -0.25
+}
+
+cathay_place_of_innovation = {
+	innovativeness_gain = 1.0
+}
+
+cathay_tea_ceremonies = {
+	diplomatic_reputation = 1
+}

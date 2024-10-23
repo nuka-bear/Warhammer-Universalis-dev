@@ -1,0 +1,79 @@
+﻿l_english:
+
+cathay_mod_terracotta_forges:0 "Terracotta Forges"
+desc_cathay_mod_terracotta_forges:0 "Drawing upon ancient arts, the forges of Cathay produce mighty terracotta warriors. These tireless constructs serve as shock troops in the Dragon Empire's armies, reducing the cost of maintaining elite forces and embodying the eternal strength of Cathay's ancient legacy."
+
+cathay_mod_garrisons:0 "Great Bastion Garrisons"
+desc_cathay_mod_garrisons:0 "The vast fortresses along the Great Bastion stand as Cathay's shield against the Chaos Wastes. With improved garrison sizes and enhanced defensive capabilities, our fortresses are ever-vigilant, ready to repel any incursion from the north."
+
+cathay_mod_heavy_ships:0 "Celestial Armada"
+desc_cathay_mod_heavy_ships:0 "Cathay's naval power has expanded, with mighty ships patrolling the oceans under the Celestial Dragon's command. These powerful warships dominate the seas, projecting Cathay's influence far beyond its shores, ensuring safe passage and asserting its superiority in naval warfare."
+
+cathay_mod_defectors:0 "Reign of Loyalty"
+desc_cathay_mod_defectors:0 "Through skillful diplomacy and superior espionage, Cathay reigns in those who might defect to rival courts. Our spies protect us from betrayal, and the loyalty of our vassals remains assured under the vigilant eyes of the Dragon Empire’s agents."
+
+cathay_mod_unified:0 "Unified Dragon Empire"
+desc_cathay_mod_unified:0 "In the name of the Celestial Dragon Emperor, Cathay is united in purpose, with religious harmony and strong legitimacy. Internal stability prevails, and the collective will of the people fuels the strength of the state, allowing us to face any external threat."
+
+cathay_place_of_study:0 "Place of Study"
+desc_cathay_place_of_study:0 "In the halls of Cathay's great academies, scholars uncover the secrets of the universe. These centers of learning are dedicated to advancing knowledge and innovation, ensuring that Cathay remains at the forefront of intellectual achievement."
+
+cathay_place_of_law:0 "Place of Law"
+desc_cathay_place_of_law:0 "Cathay is a land of order, where the law is an extension of the Dragon Emperor’s will. With codified justice and efficient administration, the Empire thrives on stability, ensuring that rebellion and unrest are swiftly quelled."
+
+cathay_place_of_innovation:0 "Place of Innovation"
+desc_cathay_place_of_innovation:0 "Cathay's greatest minds gather in the halls of innovation, pushing the boundaries of invention. As new ideas flow freely, the Empire benefits from the relentless pursuit of knowledge, propelling Cathay to new heights of advancement."
+
+cathay_tea_ceremonies:0 "Tea Ceremonies of Cathay"
+desc_cathay_tea_ceremonies:0 "The ancient tradition of tea ceremonies reflects the refined diplomatic culture of Cathay. Each ritual, carefully orchestrated, serves to bolster diplomatic ties and solidify Cathay’s influence among foreign powers."
+
+cathay_mod_ultimate:0 "Tea Ceremonies of Cathay"
+desc_cathay_mod_ultimate:0 "The ancient tradition of tea ceremonies reflects the refined diplomatic culture of Cathay. Each ritual, carefully orchestrated, serves to bolster diplomatic ties and solidify Cathay’s influence among foreign powers."
+
+
+#### Missions
+
+gen_cathay_please_nobility_title:0 "Please the Nobility"
+gen_cathay_please_nobility_desc:0 "Cathay's noble class forms the backbone of its administration and military might. By securing their loyalty through gifts and resources, we ensure the stability of the Empire and the continued support of its most powerful estates."
+
+gen_cathay_get_crownland_up_title:0 "Recover Lost Crown Lands"
+gen_cathay_get_crownland_up_desc:0 "To truly restore the Empire’s strength, it is vital to reclaim the lands that rightfully belong to the Dragon Emperor. By consolidating crown lands, we increase the state's wealth and power, securing a prosperous future for Cathay."
+
+gen_cathay_reign_in_defectors_title:0 "Reign in Defectors"
+gen_cathay_reign_in_defectors_desc:0 "The lands of Cathay must remain united under the Dragon Emperor's rule. Through careful diplomacy and espionage, we secure the loyalty of neighboring states like Korea and others that may seek independence. The Empire's shadow will always loom large over potential defectors."
+
+gen_cathay_purge_unwanted_elements_title:0 "One Culture, In Harmony"
+gen_cathay_purge_unwanted_elements_desc:0 "In the name of the Dragon Emperor, all non-Cathayan elements within the Empire must be assimilated or expelled. A unified people and faith are the pillars upon which the Dragon Empire will flourish, ensuring loyalty and eliminating dissent."
+
+gen_cathay_porcelain_leader_title:0 "Terracotta Forges"
+gen_cathay_porcelain_leader_desc:0 "The rich ceramic heritage of Cathay empowers its leaders. By dominating the trade of chinaware, the Dragon Empire can invest in the ancient terracotta forges, constructing immense legions of warriors ready to defend the Empire with unmatched strength."
+
+gen_cathay_reinforce_wall_title:0 "Reinforce the Great Bastion"
+gen_cathay_reinforce_wall_desc:0 "The Great Bastion stands as the first line of defense against the Chaos Wastes. Reinforcing its defenses and upgrading the garrisons will ensure that Cathay remains protected from the endless tide of threats beyond its borders."
+
+gen_cathay_big_fleet_title:0 "Build a Great Fleet"
+gen_cathay_big_fleet_desc:0 "The strength of Cathay’s navy lies in its ability to protect trade and project power across the seas. By investing in large fleets and constructing powerful ships, we can dominate the ocean routes and assert our maritime supremacy."
+
+gen_cathay_ultimate_mission_title:0 "The Ultimate Triumph"
+gen_cathay_ultimate_mission_desc:0 "At the height of Cathay’s power, the Dragon Empire stands unmatched. With unrivaled prestige, legitimacy, and military might, there are no challengers left to oppose our dominion. The world bows before the Celestial Emperor."
+
+gen_yin_yang_happy_priest_title:0 "Please Philosophers"
+gen_yin_yang_happy_priest_desc:0 "The spiritual leaders of Cathay play a critical role in maintaining harmony within the Empire. By supporting their needs and ensuring their loyalty, we safeguard the spiritual well-being of our realm and maintain balance within society."
+
+gen_yin_yang_places_of_worship_title:0 "Expand Places of Worship"
+gen_yin_yang_places_of_worship_desc:0 "The construction of temples and cathedrals across the land fosters greater spiritual harmony and strengthens the connection between the people and the divine. Through such sacred spaces, Cathay can unlock untold innovation and insight."
+
+gen_yin_yang_place_of_study_title:0 "Build Places of Study"
+gen_yin_yang_place_of_study_desc:0 "Through establishing centers of higher learning, Cathay ensures that its scholars and sages continue to lead the world in the pursuit of knowledge. These institutions of study solidify Cathay’s place as a beacon of intellectual achievement."
+
+gen_yin_yang_places_of_law_title:0 "Strengthen the Rule of Law"
+gen_yin_yang_places_of_law_desc:0 "The justice system of Cathay is an extension of the Celestial Emperor’s will. By constructing courthouses and town halls, we ensure that the law reaches every corner of the Empire, bringing stability and order to all provinces."
+
+gen_yin_yang_places_of_innovation_title:0 "Foster Innovation"
+gen_yin_yang_places_of_innovation_desc:0 "Universities are the birthplace of great ideas and invention. By fostering innovation and supporting the growth of these institutions, Cathay can push the boundaries of knowledge and lead the world into an era of enlightenment and discovery."
+
+gen_yin_yang_tea_leader_title:0 "Dominate the Tea Trade"
+gen_yin_yang_tea_leader_desc:0 "Tea is not just a commodity in Cathay but a symbol of power and influence. By dominating the tea trade, we can further strengthen our diplomatic relations and spread the influence of Cathay throughout the world."
+
+gen_yin_yang_balanced_title:0 "Achieve Balance"
+gen_yin_yang_balanced_desc:0 "To truly bring harmony to Cathay, all elements of society must be in perfect balance. When the forces of Yin and Yang are properly aligned, the Empire will achieve a new era of peace, innovation, and spiritual enlightenment."

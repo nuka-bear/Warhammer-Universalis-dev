@@ -7,11 +7,13 @@ Raiding happens when people reclaim their own lands
 Burger Privelage if your capital is in a subterranean zone, then you get + in subterranean, - in non-subterranean
 	Look at hydralaogic empire.
 
-Fix remaining Ind and Khurse flags
-	Z49 - Z69: India
-	Z70 - Z78: Japan
-
 Should Fightiness apply to all orc militaries?
+
+Make it harder to turn a dominion into a vassal
+
+Add Two monuments to Japan
+
+Match provinces to primary cultures in the East - Cathay and Nippon in particular
 
 Everybody!
 	Look at government types
@@ -20,7 +22,6 @@ Everybody!
 	Adjust opening text for cultures and religions, with callouts for most important things
 	Make each mission tree a single icon of the culture or religion
 	Add province highlighting to missions
-	Use num_of_owned_provinces_with for many missions that do it a different way now. It shows the player the number they have
 
 	Add monuments based on the map.
 	Switch up multiple gov types and religions for each area.
@@ -69,8 +70,6 @@ Cathay
 			Missions should be achievable by both overlord and subject - so if you or a subject do X
 			Give each area 1 monument - Missions are based on those.
 		Harmony side should be internalgrowth/stability, similar to Araby
-
-
 
 
 Bugs

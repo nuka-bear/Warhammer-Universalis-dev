@@ -17,6 +17,8 @@ gen_ind_missions = {
 		OR = {
 			culture_group = indish_cg
 			culture_group = snakefolk_cg
+			culture_group = nipponese_cg
+			culture_group = eastern_beastfolk_cg
 		}
 	}
 

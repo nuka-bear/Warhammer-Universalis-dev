@@ -1,4 +1,6 @@
 ﻿l_english:
+
+ #### Cossacks > Monsters
  REGCAT_cossacks:0 "Monsters"
  COSSACKS_NAME:0 "$HOME$'s $NUM$$ORDER$ Monsters"
  COSSACKS_REGIMENT:1 "Monsters Regiment\n$EFFECT$"
@@ -6,10 +8,13 @@
  COSSACKS_REGIMENT_TYPE:0 "Monster"
  COSSACKS_DESC:2 "We can tame monsters and put them to use in the field."
  cossacks_modifier:0 "Reliance on Monsters"
+ MODIFIER_CAN_RECRUIT_COSSACKS:0 "Can recruit Monsters"
+ MODIFIER_ALLOWED_COSSACK_FRACTION:0 "Monster Force Limit Fraction"
 
  #Samurai#
  #samurai#
  #Samurai#
+ 
  SAMURAI_NAME:0 "$HOME$'s $NUM$$ORDER$ Saurmurai Regiment"
  MODIFIER_ALLOWED_SAMURAI_FRACTION:0 "Saurmurai Force Limit"
  MODIFIER_LOCAL_HAS_SAMURAI:0 "Province Allows Saurmurai Infantry"

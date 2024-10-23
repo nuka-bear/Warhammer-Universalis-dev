@@ -1327,6 +1327,7 @@ gen_nehekharan_pantheon_missions = {
 					type = black_pyramid_of_nagash
 					tier = 0
 				}
+
 				AND = {
 					province_id = 860
 					NOT = { religion = ROOT }
@@ -1373,7 +1374,9 @@ gen_nehekharan_pantheon_missions = {
 				}
 			}
 		}
-		trigger = {
+
+		trigger = { 
+
 			860 = { religion = ROOT }
 			864 = { religion = ROOT }
 			862 = { religion = ROOT }
@@ -1385,6 +1388,8 @@ gen_nehekharan_pantheon_missions = {
 			896 = { religion = ROOT }
 			1068 = { religion = ROOT }
 			919 = { religion = ROOT }
+
+
 			any_owned_province = {
 				has_great_project = {
 					type = black_pyramid_of_nagash
