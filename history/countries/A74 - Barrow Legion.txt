@@ -1,0 +1,21 @@
+government = theocracy
+add_government_reform = leading_necromancer_reform
+primary_culture = reiklander
+religion = nagash_worship
+technology_group = tech_vampire_count
+capital = 4909
+setup_vision = yes
+government_rank = 1
+
+2502.1.1 = {
+	monarch = {
+		name = "Heinrich Kemmler"
+		birth_date = 2465.12.22
+		adm = 3
+		dip = 3
+		mil = 4
+		religion = nagash_worship       
+		culture = reiklander    
+	}
+	add_ruler_personality = babbling_buffoon_personality
+}

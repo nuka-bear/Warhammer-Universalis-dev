@@ -6,12 +6,11 @@ technology_group = tech_dwarf
 capital = 700
 setup_vision = yes
 government_rank = 2
+add_historical_friend = U05
+add_historical_friend = U06
 
-2502.1.1 = {
-	clear_scripted_personalities = yes
-	add_ruler_personality = immortal_personality
+2480.1.1 = {
 	monarch = {
-	
 		name = "Thorgrim Grudgebearer"
 		dynasty = "Ulleksson"
 		birth_date = 2460.1.1
@@ -19,4 +18,6 @@ government_rank = 2
 		dip = 5
 		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
 }

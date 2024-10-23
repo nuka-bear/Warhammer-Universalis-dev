@@ -1,5 +1,6 @@
-#Bretonnia
-
+## Bretonnia ##
+## Bretonnia ##
+## Bretonnia ##
 bretonnia_virtue_audacity = {
 	leader_land_shock  = 1
 }
@@ -53,6 +54,17 @@ bretonnia_virtue_purity = {
 
 bretonnia_virtue_stoicism = {
 	fort_maintenance_modifier = -0.1
+}
+
+bretonnia_squire_mod = {
+}
+bretonnia_knight_errant_mod = {
+}
+bretonnia_kotr_mod = {
+}
+bretonnia_questing_knight_mod = {
+}
+bretonnia_grail_knight_mod = {
 }
 
 new_bretonnia_king = {

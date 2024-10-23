@@ -4,7 +4,6 @@ bookmark = {
 	date = 2502.11.11
 	
 	center = 723
-	default = no
 	
 	country = Z01
 	country = G24

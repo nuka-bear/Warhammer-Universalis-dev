@@ -2534,7 +2534,7 @@ country_event = {
 ### Reform Events ####
 ### Reform Events ####
 
-# Administrative Issues
+# Start of Event
 country_event = {
 	id = flavor_bretonnia.200
 	title = flavor_bretonnia.200.t
@@ -2548,35 +2548,34 @@ country_event = {
 			which = brt_adm
 			value = 1
 		}
-	}
-	option = {
-		#DIP
-		name = flavor_bretonnia.200.b
-		change_variable = {
-			which = brt_dip
-			value = 1
+		hidden_effect = {
+			set_variable = {
+				which = brt_adm
+				value = 0
+			}
+			set_variable = {
+				which = brt_dip
+				value = 0
+			}
+			set_variable = {
+				which = brt_mil
+				value = 0
+			}
 		}
 	}
-	option = {
-		#MIL
-		name = flavor_bretonnia.200.c
-		change_variable = {
-			which = brt_mil
-			value = 1
-		}
-	}
+
 }
 
 # Warfare
 country_event = {
 	id = flavor_bretonnia.210
-	title = flavor_bretonnia.200.t
-	desc = flavor_bretonnia.200.desc
+	title = flavor_bretonnia.210.t
+	desc = flavor_bretonnia.210.desc
 	picture = OVEREXTENSION_eventPicture
 	is_triggered_only = yes
 	option = {
 		#ADM 
-		name = flavor_bretonnia.200.a
+		name = flavor_bretonnia.210.a
 		change_variable = {
 			which = brt_adm
 			value = 1
@@ -2584,7 +2583,7 @@ country_event = {
 	}
 	option = {
 		#DIP
-		name = flavor_bretonnia.200.b
+		name = flavor_bretonnia.210.b
 		change_variable = {
 			which = brt_dip
 			value = 1
@@ -2592,7 +2591,7 @@ country_event = {
 	}
 	option = {
 		#MIL
-		name = flavor_bretonnia.200.c
+		name = flavor_bretonnia.210.c
 		change_variable = {
 			which = brt_mil
 			value = 1
@@ -2603,13 +2602,13 @@ country_event = {
 # The Fey
 country_event = {
 	id = flavor_bretonnia.220
-	title = flavor_bretonnia.200.t
-	desc = flavor_bretonnia.200.desc
+	title = flavor_bretonnia.220.t
+	desc = flavor_bretonnia.220.desc
 	picture = OVEREXTENSION_eventPicture
 	is_triggered_only = yes
 	option = {
 		#ADM 
-		name = flavor_bretonnia.200.a
+		name = flavor_bretonnia.220.a
 		change_variable = {
 			which = brt_adm
 			value = 1
@@ -2617,7 +2616,7 @@ country_event = {
 	}
 	option = {
 		#DIP
-		name = flavor_bretonnia.200.b
+		name = flavor_bretonnia.220.b
 		change_variable = {
 			which = brt_dip
 			value = 1
@@ -2625,7 +2624,7 @@ country_event = {
 	}
 	option = {
 		#MIL
-		name = flavor_bretonnia.200.c
+		name = flavor_bretonnia.220.c
 		change_variable = {
 			which = brt_mil
 			value = 1

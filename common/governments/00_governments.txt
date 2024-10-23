@@ -1214,7 +1214,7 @@ theocracy = {
 				dark_embassy_order_reform
 				lizardmen_government_reform
 				nagash_reform
-
+				leading_necromancer_reform
 			}
 		}
 		internal_vs_external_mission = {
