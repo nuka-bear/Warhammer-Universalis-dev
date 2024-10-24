@@ -6,6 +6,9 @@ capital = 4243
 government_rank = 1
 setup_vision = yes
 
+government = monarchy
+add_government_reform = cathay_splinter_state
+
 2502.1.1 = {
 	clear_scripted_personalities = yes
 	add_ruler_personality = immortal_personality

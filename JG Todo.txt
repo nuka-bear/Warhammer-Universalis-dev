@@ -77,6 +77,12 @@ Cathay
 			Missions should be achievable by both overlord and subject - so if you or a subject do X
 			Give each area 1 monument - Missions are based on those.
 		Harmony side should be internalgrowth/stability, similar to Araby
+	Unique penalizing government type
+		Big penalty for heretic & heathen, fewer promoted cultures
+		Government scale for legitimate successor, with increasing diplomatic reputation and liberty desire. Higher, more liberty desire for self, less liverty desire for others.
+			Event at high legitimate successor to declare independence war? Maybe it's a defensive war to give them a chance?
+			Event for the overlord to reign them in (declar war), or suffer penalty to own legitimacy
+			Pretty slow moving
 
 
 Bugs

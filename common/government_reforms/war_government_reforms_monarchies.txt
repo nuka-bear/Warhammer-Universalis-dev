@@ -239,3 +239,39 @@ athel_loren_monarchy = {
 		factor = 100
 	}
 }
+
+cathay_splinter_state = {
+	icon = "crown"
+	allow_normal_conversion = no
+	potential = {
+		culture_group = cathayan_cg
+	}
+	trigger = {
+		culture_group = cathayan_cg
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		culture_group = cathayan_cg
+	}
+	lock_level_when_selected = yes
+	modifiers = {
+		tolerance_own = 3
+		tolerance_heretic = -3
+		tolerance_heathen = -3
+		same_culture_advisor_cost = -0.2
+		num_accepted_cultures = -2
+		liberty_desire = 10
+		warscore_cost_vs_other_religion = 0.50
+	}
+	heir = yes
+	rulers_can_be_generals = yes
+	allow_normal_conversion = no
+	royal_marriage = yes
+	custom_attributes = {
+	}
+	ai = {
+		factor = 0
+	}
+}
+
