@@ -120,6 +120,40 @@ bretonnian_1_missions = {
 			}
 		}
 	}
+	bretonnia_knightly_temper = {
+		icon = geneva_conventions
+		position = 4
+		required_missions = {
+		}
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = {
+				religion = lady_of_the_lake
+			}
+		}
+		trigger = {
+			religion = lady_of_the_lake
+			num_of_religion = {
+				religion = lady_of_the_lake
+				value = 0.8
+			}
+			num_of_religion = {
+				religion = lady_of_the_lake
+				value = 14
+			}
+		}
+		effect = {
+			add_mil_power = 75
+			add_dip_power = 75
+			add_adm_power = 75
+			bretonnia_Increment_Virtue_Mission_Completed = yes
+			add_country_modifier = {
+				name = bretonnia_virtue_knightly_temper
+				duration = 9125
+			}
+		}
+	}
+	
 }
 
 bretonnian_2_missions = {
@@ -264,72 +298,9 @@ bretonnian_3_missions = {
 			}
 		}
 	}
-	bretonnia_knightly_temper = {
-		icon = geneva_conventions
-		position = 1
-		required_missions = {
-		}
-		provinces_to_highlight = {
-			owned_by = ROOT
-			NOT = {
-				religion = lady_of_the_lake
-			}
-		}
-		trigger = {
-			religion = lady_of_the_lake
-			num_of_religion = {
-				religion = lady_of_the_lake
-				value = 0.8
-			}
-			num_of_religion = {
-				religion = lady_of_the_lake
-				value = 14
-			}
-		}
-		effect = {
-			add_mil_power = 75
-			add_dip_power = 75
-			add_adm_power = 75
-			bretonnia_Increment_Virtue_Mission_Completed = yes
-			add_country_modifier = {
-				name = bretonnia_virtue_knightly_temper
-				duration = 9125
-			}
-		}
-	}
-	bretonnia_audacity = {
-		icon = geneva_conventions
-		position = 2
-		required_missions = {
-		}
-		provinces_to_highlight = {
-		}
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = obj_force_converted_tooltip
-				has_country_flag = force_converted
-			}
-			custom_trigger_tooltip = {
-				tooltip = bretonnia_faith_tt
-				check_variable = {
-					which = bretonnia_Religious_Wars_Won
-					value = 10
-				}
-			}
-			religion = lady_of_the_lake
-		}
-		effect = {
-			bretonnia_Increment_Virtue_Mission_Completed = yes
-			add_country_modifier = {
-				name = bretonnia_virtue_audacity
-				duration = 9125
-			}
-		}
-	}
-
 	bertonnia_squire_mission = {
 		icon = mission_build_up_to_force_limit
-		position = 3
+		position = 1
 		required_missions = {
 		}
 
@@ -364,7 +335,7 @@ bretonnian_3_missions = {
 	}
 	bertonnia_knight_errant_mission = {
 		icon = mission_build_up_to_force_limit
-		position = 4
+		position = 2
 		required_missions = {
 			bertonnia_squire_mission
 		}
@@ -403,7 +374,7 @@ bretonnian_3_missions = {
 	}
 	bertonnia_knight_of_the_realm_mission = {
 		icon = mission_build_up_to_force_limit
-		position = 5
+		position = 3
 		required_missions = {
 			bertonnia_knight_errant_mission
 		}
@@ -442,7 +413,7 @@ bretonnian_3_missions = {
 	}
 	bertonnia_questing_knight_mission = {
 		icon = mission_build_up_to_force_limit
-		position = 6
+		position = 4
 		required_missions = {
 			bertonnia_knight_of_the_realm_mission
 		}
@@ -481,7 +452,7 @@ bretonnian_3_missions = {
 	}
 	bertonnia_grail_knight_mission  = {
 		icon = mission_build_up_to_force_limit
-		position = 7
+		position = 5
 		required_missions = {
 			bertonnia_questing_knight_mission
 		}
@@ -742,4 +713,34 @@ bretonnian_5_missions = {
 			}
 		}
 	}
+	bretonnia_audacity = {
+		icon = geneva_conventions
+		position = 4
+		required_missions = {
+		}
+		provinces_to_highlight = {
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = obj_force_converted_tooltip
+				has_country_flag = force_converted
+			}
+			custom_trigger_tooltip = {
+				tooltip = bretonnia_faith_tt
+				check_variable = {
+					which = bretonnia_Religious_Wars_Won
+					value = 10
+				}
+			}
+			religion = lady_of_the_lake
+		}
+		effect = {
+			bretonnia_Increment_Virtue_Mission_Completed = yes
+			add_country_modifier = {
+				name = bretonnia_virtue_audacity
+				duration = 9125
+			}
+		}
+	}
+
 }
