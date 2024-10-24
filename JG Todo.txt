@@ -9,32 +9,29 @@ Burger Privelage if your capital is in a subterranean zone, then you get + in su
 
 Should Fightiness apply to all orc militaries?
 
-Make it harder to turn a dominion into a vassal
+Mountains of Mourn
+	2749 - 2818
 
-Eastern Provinces
-	2828 - 2988 Some of Cathay
-
-Burning Wind still missing a flag
-
-Lizards have a government chart which makes them stronger for each geomantic web city they control spread like 50 around the world.
-
-
-Match provinces to primary cultures in the East - Cathay and Nippon in particular
+Lizards
+	have a government mechanic which makes them stronger for each geomantic web city they control spread like 50 around the world.
+	State maintenence is low if they control the whole state?
 
 Everybody!
-	Look at government types
-	Look at random pulse events
-	Look at decisions
+	0-1x government types
+	5x random pulse events
+	5x decisions
 	Adjust opening text for cultures and religions, with callouts for most important things
 	Make each mission tree a single icon of the culture or religion
-	Add province highlighting to missions
+	Fix remaining provinces	names
 
 	Add monuments based on the map.
 	Switch up multiple gov types and religions for each area.
 
 Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
 
-Add the warhammer legendary lords
+Add the warhammer legendary lords into the map
+
+Add legendary artifacts that are traits that move between people
 
 Worry about military balance
 
@@ -51,43 +48,32 @@ Focus on Nehekara to start
 	Decision to improve ruler's stats
 	Tension between the Nekeharan Pantheon and Nagashi
 	Nagashi religion to ressurect Nagash
-	Events
-	Decisions
-	Rename Some States
 	Mission for controlling and having forts on the passes? Maybe missions based on areas
-	Unifying all Nehekhara religion isn't working
-	Give Nehekharan government mechanic bar for legitimacy for controlling each monument? + diplomatic rep
 
 Orcs
 	5 pulse events to move towards mork or gork
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold
 	End Time mechanics for Orcs?
-	Make Orc bridge the badlands mission instead be on 3 continents
-	Switch Waaagh disasters for Fighiness
-		https://eu4.paradoxwikis.com/Government_mechanic_modding
 
 
 Cathay
-	Estate prevents taking land outside tech group?
-	Mandate
-		Dominion somebody makes you take their mandate too.
-	Missions
-		Culture side - unifying cathay (you or a subject own specific provinces), protecting from external threats (forts and upgrading, all of cathay is owned by you or 
-			Missions should be achievable by both overlord and subject - so if you or a subject do X
-			Give each area 1 monument - Missions are based on those.
-		Harmony side should be internalgrowth/stability, similar to Araby
 	Unique penalizing government type
-		Big penalty for heretic & heathen, fewer promoted cultures
-		Government scale for legitimate successor, with increasing diplomatic reputation and liberty desire. Higher, more liberty desire for self, less liverty desire for others.
+
+	Decision for getting rid of Cathay State - 3 stab, 50 prestige, 50 legitimacy, needs 50 crownland
+
+Legitimate Successor government mechanic for Nehekhara & Cathay?
 			Event at high legitimate successor to declare independence war? Maybe it's a defensive war to give them a chance?
 			Event for the overlord to reign them in (declar war), or suffer penalty to own legitimacy
 			Pretty slow moving
+			Government scale for legitimate successor, with increasing diplomatic reputation and liberty desire. Higher, more liberty desire for self, less liverty desire for others.
+
 
 
 Bugs
 	Fix Monstrous Unit Cost
 	Generic Beacon on a Hill mission with tech difference not working
+	Cathay Government Type not visible (but active)
 
 
 For some missions use:

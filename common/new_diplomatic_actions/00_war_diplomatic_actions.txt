@@ -114,6 +114,11 @@ demote_dominion_action = {
 				value = 90
 			}
 
+			owes_favors = { 
+    	    	who = ROOT 
+         		value = 50
+			}
+
 			NOT = { liberty_desire = 25 }
 			is_at_war = no
 		}
@@ -131,6 +136,11 @@ demote_dominion_action = {
 			    	value = -15
 			    	mutual = yes
 			}
+		}
+
+		add_favors = {
+			who = FROM
+			amount = -50
 		}
     }
 

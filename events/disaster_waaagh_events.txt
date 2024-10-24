@@ -326,6 +326,7 @@ country_event = {
 	is_triggered_only = no
 	
 	trigger = {
+		has_government_mechanic = orc_fightiness_mechanic
 		is_at_war = yes
 	}
 	
@@ -383,6 +384,7 @@ country_event = {
 	is_triggered_only = no
 	
 	trigger = {
+		has_government_mechanic = orc_fightiness_mechanic
 		is_at_war = yes
 	}
 	
@@ -422,6 +424,7 @@ country_event = {
 	is_triggered_only = no
 	
 	trigger = {
+		has_government_mechanic = orc_fightiness_mechanic
 		is_at_war = yes
 	}
 	

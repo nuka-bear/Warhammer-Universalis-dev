@@ -1,5 +1,23 @@
 ﻿l_english:
 
+
+#### Decisions
+
+cathay_reforge_identity_title:0 "Reforge Cathay Identity"
+cathay_reforge_identity_desc:0 "It is time to change what it means to be Cathayan. In the past, we have been stuck looking inward, and have struggled to embrace other ways of life. That ends today."
+
+
+
+### Government Reforms
+
+
+ cathay_splinter_state:0 "Cathay State"
+ cathay_splinter_state_desc:0 "Proud and isolationist, we Cathayans value our  culture and way of life above all others. We struggle to integrate others into our ridgid systems, and chafe under subject rule."
+
+
+
+  ##### Modifiers
+
 cathay_mod_terracotta_forges:0 "Terracotta Forges"
 desc_cathay_mod_terracotta_forges:0 "Drawing upon ancient arts, the forges of Cathay produce mighty terracotta warriors. These tireless constructs serve as shock troops in the Dragon Empire's armies, reducing the cost of maintaining elite forces and embodying the eternal strength of Cathay's ancient legacy."
 
@@ -34,9 +52,9 @@ desc_cathay_mod_ultimate:0 "The ancient tradition of tea ceremonies reflects the
 #### Missions
 
 gen_cathay_please_nobility_title:0 "Please the Nobility"
-gen_cathay_please_nobility_desc:0 "Cathay's noble class forms the backbone of its administration and military might. By securing their loyalty through gifts and resources, we ensure the stability of the Empire and the continued support of its most powerful estates."
+gen_cathay_please_nobility_desc:0 "Cathay's noble class forms the backbone of its administration and military might. The nobles of the realm now flock to our court with gifts and strange trinkets. Take them."
 
-gen_cathay_get_crownland_up_title:0 "Recover Lost Crown Lands"
+gen_cathay_get_crownland_up_title:0 "Centralize the Empire"
 gen_cathay_get_crownland_up_desc:0 "To truly restore the Empire’s strength, it is vital to reclaim the lands that rightfully belong to the Dragon Emperor. By consolidating crown lands, we increase the state's wealth and power, securing a prosperous future for Cathay."
 
 gen_cathay_reign_in_defectors_title:0 "Reign in Defectors"
@@ -58,7 +76,7 @@ gen_cathay_ultimate_mission_title:0 "The Ultimate Triumph"
 gen_cathay_ultimate_mission_desc:0 "At the height of Cathay’s power, the Dragon Empire stands unmatched. With unrivaled prestige, legitimacy, and military might, there are no challengers left to oppose our dominion. The world bows before the Celestial Emperor."
 
 gen_yin_yang_happy_priest_title:0 "Please Philosophers"
-gen_yin_yang_happy_priest_desc:0 "The spiritual leaders of Cathay play a critical role in maintaining harmony within the Empire. By supporting their needs and ensuring their loyalty, we safeguard the spiritual well-being of our realm and maintain balance within society."
+gen_yin_yang_happy_priest_desc:0 "The spiritual leaders of Cathay play a critical role in maintaining harmony within the Empire. By supporting their needs and ensuring their loyalty, we safeguard the spiritual well-being of our realm and maintain balance within society.They to our court with gifts and strange trinkets."
 
 gen_yin_yang_places_of_worship_title:0 "Expand Places of Worship"
 gen_yin_yang_places_of_worship_desc:0 "The construction of temples and cathedrals across the land fosters greater spiritual harmony and strengthens the connection between the people and the divine. Through such sacred spaces, Cathay can unlock untold innovation and insight."

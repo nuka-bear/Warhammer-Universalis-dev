@@ -1329,66 +1329,20 @@ gen_nehekharan_pantheon_missions = {
 				}
 
 				AND = {
-					province_id = 860
-					NOT = { religion = ROOT }
-				}
-				AND = {
-					province_id = 864
-					NOT = { religion = ROOT }
-				}
-				AND = {
-					province_id = 862
-					NOT = { religion = ROOT }
-				}
-				AND = {
-					province_id = 951
-					NOT = { religion = ROOT }
-				}
-				AND = {
-					province_id = 833
-					NOT = { religion = ROOT }
-				}
-				AND = {
-					province_id = 946
-					NOT = { religion = ROOT }
-				}
-				AND = {
-					province_id = 970
-					NOT = { religion = ROOT }
-				}
-				AND = {
-					province_id = 920
-					NOT = { religion = ROOT }
-				}
-				AND = {
-					province_id = 896
-					NOT = { religion = ROOT }
-				}
-				AND = {
-					province_id = 1068
-					NOT = { religion = ROOT }
-				}
-				AND = {
-					province_id = 919
+					region = nehekhara_region
 					NOT = { religion = ROOT }
 				}
 			}
 		}
 
 		trigger = { 
+			NOT = {
+				any_province = {
+					region = nehekhara_region
+					NOT = { religion = ROOT }
 
-			860 = { religion = ROOT }
-			864 = { religion = ROOT }
-			862 = { religion = ROOT }
-			951 = { religion = ROOT }
-			833 = { religion = ROOT }
-			946 = { religion = ROOT }
-			970 = { religion = ROOT }
-			920 = { religion = ROOT }
-			896 = { religion = ROOT }
-			1068 = { religion = ROOT }
-			919 = { religion = ROOT }
-
+				}
+			}
 
 			any_owned_province = {
 				has_great_project = {

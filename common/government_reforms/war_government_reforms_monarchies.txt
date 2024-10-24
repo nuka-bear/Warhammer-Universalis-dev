@@ -241,7 +241,7 @@ athel_loren_monarchy = {
 }
 
 cathay_splinter_state = {
-	icon = "crown"
+	icon = "korean_monarchy"
 	allow_normal_conversion = no
 	potential = {
 		culture_group = cathayan_cg
@@ -257,7 +257,6 @@ cathay_splinter_state = {
 	lock_level_when_selected = yes
 	modifiers = {
 		tolerance_own = 3
-		tolerance_heretic = -3
 		tolerance_heathen = -3
 		same_culture_advisor_cost = -0.2
 		num_accepted_cultures = -2

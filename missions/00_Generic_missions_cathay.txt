@@ -37,7 +37,7 @@ gen_cathay_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_cathay_please_nobility } 
 		trigger = {
-			crown_land_share = 30
+			crown_land_share = 40
 		}
 
 		effect = { 
@@ -56,26 +56,28 @@ gen_cathay_missions = {
 		required_missions = {  }
 		position = 4
 		provinces_to_highlight = {
-			OR = {
-				is_capital_of = B36
-				is_capital_of = I35
+			superregion = cathay_superregion
+			NOT = {
+				OR = {
+					owned_by = ROOT 
+					owned_by_subject_of = ROOT
+				}
 			}
 		}
 		trigger = {
-			OR = {
-				NOT = { exists = B63 }
-				B63 = {
-					is_subject_of = ROOT
+
+			NOT = {
+				any_province = {
+					superregion = cathay_superregion
+					NOT = {
+						OR = {
+							owned_by = ROOT 
+							owned_by_subject_of = ROOT
+						}
+					}
 				}
-				tag = B63
 			}
-			OR = {
-				NOT = { exists = I35 }
-				I35 = {
-					is_subject_of = ROOT
-				}
-				tag = I35
-			}
+
 		}
 
 		effect = { 
@@ -94,31 +96,21 @@ gen_cathay_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  } 
 		provinces_to_highlight = {
+			superregion = cathay_superregion
 			OR = {
-				is_capital_of = B36
-				is_capital_of = I35
+			NOT = { religion = ROOT }
+			NOT = { culture_group = ROOT }
 			}
 		}
+
 		trigger = {
-			OR = {
-				NOT = { exists = I30 }
-				I30 = {
-					religion = ROOT
-					culture_group = ROOT
-				}
-			}
-			OR = {
-				NOT = { exists = I34 }
-				I34 = {
-					religion = ROOT
-					culture_group = ROOT
-				}
-			}
-			OR = {
-				NOT = { exists = I33 }
-				I33 = {
-					religion = ROOT
-					culture_group = ROOT
+			NOT = {
+				any_province = {
+					superregion = cathay_superregion
+					OR = {
+						NOT = { religion = ROOT }
+						NOT = { culture_group = ROOT }
+					}
 				}
 			}
 		}
@@ -258,7 +250,24 @@ gen_cathay_ultimate_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {  }
 		position = 9
+
+		provinces_to_highlight = {
+			any_province = {
+				superregion = cathay_superregion
+				NOT = { owned_by = ROOT }
+			}
+		}
+
+
 		trigger = {
+			
+			NOT = {
+				any_province = {
+					superregion = cathay_superregion
+					NOT = { owned_by = ROOT }
+				}
+			}
+
 			prestige = 99
 			legitimacy_equivalent = 99
 			power_projection = 99
