@@ -62,14 +62,13 @@ gp_court_of_the_phoenix_king = {
 			factor = 1000
 		}
 		province_modifiers = {
-
+			local_development_cost = -0.05
 		}
 		area_modifier = {
 		}
-		region_modifier = {
-		}
 		country_modifiers = {
-
+			inflation_reduction = 0.05
+			yearly_corruption = -0.05
 		}
 		on_upgraded = {
 		}
@@ -82,12 +81,14 @@ gp_court_of_the_phoenix_king = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
 		}
 		area_modifier = {
 		}
-		region_modifier = {
-		}
 		country_modifiers = {
+			inflation_reduction = 0.075
+			yearly_corruption = -0.075
+			administrative_efficiency = 0.025
 		}
 		on_upgraded = {
 		}
@@ -100,13 +101,14 @@ gp_court_of_the_phoenix_king = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
 		}
 		area_modifier = {
-
-		}
-		region_modifier = {
 		}
 		country_modifiers = {
+			inflation_reduction = 0.1
+			yearly_corruption = -0.1
+			administrative_efficiency = 0.05
 		}
 		on_upgraded = {
 		}
@@ -161,15 +163,15 @@ gp_court_of_the_everqueen = {
 			factor = 1000
 		}
 		province_modifiers = {
-			trade_goods_size = 3.0
+			local_development_cost = -0.05
 		}
 		area_modifier = {
-			local_build_cost = -0.05
-			local_build_time = -0.05
-		}
-		region_modifier = {
+			local_unrest = -1
+			local_tax_modifier = 0.2
 		}
 		country_modifiers = {
+			tolerance_own = 0.25
+			diplomatic_reputation = 0.25
 		}
 		on_upgraded = {
 		}
@@ -182,15 +184,16 @@ gp_court_of_the_everqueen = {
 			factor = 2500
 		}
 		province_modifiers = {
-			trade_goods_size = 6.0
+			local_development_cost = -0.1
 		}
 		area_modifier = {
-			local_build_cost = -0.1
-			local_build_time = -0.1
-		}
-		region_modifier = {
+			local_unrest = -3
+			local_tax_modifier = 0.33
 		}
 		country_modifiers = {
+			tolerance_own = 0.5
+			diplomatic_reputation = 0.5
+			diplomatic_upkeep = 1
 		}
 		on_upgraded = {
 		}
@@ -203,15 +206,16 @@ gp_court_of_the_everqueen = {
 			factor = 5000
 		}
 		province_modifiers = {
-			trade_goods_size = 9.0
+			local_development_cost = -0.15
 		}
 		area_modifier = {
-			local_build_cost = -0.2
-			local_build_time = -0.2
-		}
-		region_modifier = {
+			local_unrest = -5
+			local_tax_modifier = 0.5
 		}
 		country_modifiers = {
+			tolerance_own = 1
+			diplomatic_reputation = 1
+			diplomatic_upkeep = 2
 		}
 		on_upgraded = {
 		}
@@ -282,14 +286,12 @@ gp_white_tower_of_hoeth = {
 			factor = 1000
 		}
 		province_modifiers = {
-
+			local_defensiveness = 0.1
 		}
-		area_modifier = {
-		}
-		region_modifier = {
+		area_modifier = {			
 		}
 		country_modifiers = {
-
+			monarch_lifespan = 0.075
 		}
 		on_upgraded = {
 		}
@@ -302,12 +304,14 @@ gp_white_tower_of_hoeth = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_defensiveness = 0.2
+			local_hostile_attrition = 0.5
 		}
-		area_modifier = {
-		}
-		region_modifier = {
+		area_modifier = {		
 		}
 		country_modifiers = {
+			monarch_lifespan = 0.15
+			all_power_cost = -0.01
 		}
 		on_upgraded = {
 		}
@@ -320,13 +324,15 @@ gp_white_tower_of_hoeth = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_defensiveness = 0.33
+			local_hostile_attrition = 1
+			local_defender_dice_roll_bonus = 1
 		}
-		area_modifier = {
-
-		}
-		region_modifier = {
+		area_modifier = {			
 		}
 		country_modifiers = {
+			all_power_cost = -0.010
+			monarch_lifespan = 0.45
 		}
 		on_upgraded = {
 		}
@@ -381,15 +387,14 @@ gp_amphitheatre_of_yvresse = {
 			factor = 1000
 		}
 		province_modifiers = {
-			local_manpower_modifier = 0.15
+			local_defensiveness = 0.05
 		}
 		area_modifier = {
 		}
-		region_modifier = {
-		}
 		country_modifiers = {
-			cavalry_cost = -0.05
-			cav_to_inf_ratio = 0.1
+			prestige = 0.1
+			spy_offence = 0.05
+			global_spy_defence = 0.06
 		}
 		on_upgraded = {
 		}
@@ -402,15 +407,15 @@ gp_amphitheatre_of_yvresse = {
 			factor = 2500
 		}
 		province_modifiers = {
-			local_manpower_modifier = 0.25
+			local_defensiveness = 0.1
+			local_unrest = -1
 		}
 		area_modifier = {
 		}
-		region_modifier = {
-		}
 		country_modifiers = {
-			cavalry_cost = -0.1
-			cav_to_inf_ratio = 0.15
+			prestige = 0.25
+			spy_offence = 0.05
+			global_spy_defence = 0.10
 		}
 		on_upgraded = {
 		}
@@ -423,16 +428,16 @@ gp_amphitheatre_of_yvresse = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_defensiveness = 0.10
 		}
 		area_modifier = {
-			local_manpower_modifier = 0.33
-		}
-		region_modifier = {
+			local_defensiveness = 0.10
 		}
 		country_modifiers = {
-			cavalry_cost = -0.15
-			cav_to_inf_ratio = 0.25
-			leader_land_manuever = 1
+			prestige = 0.5
+			global_unrest = -1
+			spy_offence = 0.15
+			global_spy_defence = 0.20
 		}
 		on_upgraded = {
 		}
@@ -503,13 +508,14 @@ gp_black_citadel_of_anlec = {
 			factor = 1000
 		}
 		province_modifiers = {
-			local_monthly_devastation = -0.05
+			local_defensiveness = 0.05
 		}
 		area_modifier = {
-			province_trade_power_modifier = 0.25
-            local_sailors_modifier = 0.25
 		}
 		country_modifiers = {
+			prestige = 0.1
+			legitimacy = 0.25
+			governing_capacity_modifier = 0.05
 		}
 		on_upgraded = {
 		}
@@ -522,13 +528,15 @@ gp_black_citadel_of_anlec = {
 			factor = 2500
 		}
 		province_modifiers = {
-			local_monthly_devastation = -0.075
+			local_defensiveness = 0.1
 		}
 		area_modifier = {
-			province_trade_power_modifier = 0.33
-            local_sailors_modifier = 0.33
 		}
 		country_modifiers = {
+			prestige = 0.25
+			legitimacy = 0.5
+			governing_capacity_modifier = 0.10
+			vassal_forcelimit_bonus = 0.25
 		}
 		on_upgraded = {
 		}
@@ -541,15 +549,16 @@ gp_black_citadel_of_anlec = {
 			factor = 5000
 		}
 		province_modifiers = {
-			local_monthly_devastation = -0.1
+			local_defensiveness = 0.10
 		}
 		area_modifier = {
-            province_trade_power_modifier = 0.5
-            local_sailors_modifier = 0.5
+			local_defensiveness = 0.10
 		}
 		country_modifiers = {
-			navy_tradition = 1.0
-            global_own_trade_power = 0.1
+			prestige = 0.5
+			legitimacy = 1
+			governing_capacity_modifier = 0.15
+			vassal_forcelimit_bonus = 0.5
 		}
 		on_upgraded = {
 		}
@@ -620,7 +629,9 @@ gp_hall_of_charioteers = {
 			factor = 1000
 		}
 		province_modifiers = {
-
+			local_development_cost = -0.05
+			local_institution_spread = 0.1
+			local_defensiveness = 0.1
 		}
 		area_modifier = {
 		}
@@ -640,12 +651,15 @@ gp_hall_of_charioteers = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
+			local_institution_spread = 0.2
+			local_defensiveness = 0.2
 		}
 		area_modifier = {
 		}
-		region_modifier = {
-		}
 		country_modifiers = {
+			movement_speed = 0.025
+			cavalry_flanking = 0.25
 		}
 		on_upgraded = {
 		}
@@ -658,13 +672,17 @@ gp_hall_of_charioteers = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
+			allowed_num_of_buildings = 1
+			local_institution_spread = 0.33
+			local_defensiveness = 0.33
 		}
 		area_modifier = {
-
-		}
-		region_modifier = {
 		}
 		country_modifiers = {
+			movement_speed = 0.05
+			cavalry_flanking = 0.5
+			leader_land_manuever = 1
 		}
 		on_upgraded = {
 		}
@@ -721,14 +739,14 @@ gp_gates_of_lothern = {
 			factor = 1000
 		}
 		province_modifiers = {
-
+			local_development_cost = -0.05
+			province_trade_power_value = 3
 		}
 		area_modifier = {
 		}
-		region_modifier = {
-		}
 		country_modifiers = {
-
+			range = 0.1
+			transport_attrition = -0.1
 		}
 		on_upgraded = {
 		}
@@ -741,12 +759,15 @@ gp_gates_of_lothern = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
+			province_trade_power_value = 5
 		}
 		area_modifier = {
 		}
-		region_modifier = {
-		}
 		country_modifiers = {
+			range = 0.2
+			transport_attrition = -0.2
+			ship_durability = 0.025
 		}
 		on_upgraded = {
 		}
@@ -759,13 +780,15 @@ gp_gates_of_lothern = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
+			province_trade_power_value = 10
 		}
 		area_modifier = {
-
-		}
-		region_modifier = {
 		}
 		country_modifiers = {
+			range = 0.33
+			transport_attrition = -0.33
+			ship_durability = 0.075
 		}
 		on_upgraded = {
 		}
@@ -822,14 +845,14 @@ gp_hall_of_dragons = {
 			factor = 1000
 		}
 		province_modifiers = {
-
+			local_development_cost = -0.05
 		}
 		area_modifier = {
-		}
-		region_modifier = {
+			local_manpower_modifier = 0.1
 		}
 		country_modifiers = {
-
+			army_tradition_from_battle = 0.25
+			drill_decay_modifier = -0.1
 		}
 		on_upgraded = {
 		}
@@ -842,12 +865,16 @@ gp_hall_of_dragons = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
+			province_trade_power_value = 5
 		}
 		area_modifier = {
-		}
-		region_modifier = {
+			local_manpower_modifier = 0.2
 		}
 		country_modifiers = {
+			army_tradition_from_battle = 0.5
+			drill_decay_modifier = -0.2
+			cavalry_power = 0.025
 		}
 		on_upgraded = {
 		}
@@ -860,13 +887,16 @@ gp_hall_of_dragons = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
+			province_trade_power_value = 10
 		}
 		area_modifier = {
-
-		}
-		region_modifier = {
+			local_manpower_modifier = 0.33
 		}
 		country_modifiers = {
+			army_tradition_from_battle = 0.50
+			drill_decay_modifier = -0.25
+			cavalry_power = 0.05
 		}
 		on_upgraded = {
 		}
@@ -923,14 +953,13 @@ gp_royal_ellyrian_stables = {
 			factor = 1000
 		}
 		province_modifiers = {
-
+			local_unrest = -2
 		}
 		area_modifier = {
 		}
-		region_modifier = {
-		}
 		country_modifiers = {
-
+			cavalry_power = 0.05
+			cav_to_inf_ratio = 0.1
 		}
 		on_upgraded = {
 		}
@@ -943,12 +972,14 @@ gp_royal_ellyrian_stables = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_unrest = -3
 		}
 		area_modifier = {
-		}
-		region_modifier = {
+			local_tax_modifier = 0.05
 		}
 		country_modifiers = {
+			cavalry_power = 0.1
+			cav_to_inf_ratio = 0.15
 		}
 		on_upgraded = {
 		}
@@ -961,13 +992,14 @@ gp_royal_ellyrian_stables = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_unrest = -4
 		}
 		area_modifier = {
-
-		}
-		region_modifier = {
+			local_tax_modifier = 0.1
 		}
 		country_modifiers = {
+			cavalry_power = 0.15
+			cav_to_inf_ratio = 0.25
 		}
 		on_upgraded = {
 		}
@@ -1024,14 +1056,14 @@ gp_ancient_subterranean_palace = {
 			factor = 1000
 		}
 		province_modifiers = {
-
+			province_trade_power_value = 3
+			province_trade_power_modifier = 0.1
+			allowed_num_of_buildings = 1
 		}
-		area_modifier = {
-		}
-		region_modifier = {
+		area_modifier = {			
 		}
 		country_modifiers = {
-
+			trade_efficiency = 0.05
 		}
 		on_upgraded = {
 		}
@@ -1044,12 +1076,15 @@ gp_ancient_subterranean_palace = {
 			factor = 2500
 		}
 		province_modifiers = {
+			province_trade_power_value = 5
+			province_trade_power_modifier = 0.2
 		}
 		area_modifier = {
-		}
-		region_modifier = {
+			allowed_num_of_buildings = 1
 		}
 		country_modifiers = {
+			trade_efficiency = 0.075
+			merchants = 1
 		}
 		on_upgraded = {
 		}
@@ -1062,13 +1097,17 @@ gp_ancient_subterranean_palace = {
 			factor = 5000
 		}
 		province_modifiers = {
+			province_trade_power_value = 10
+			province_trade_power_modifier = 0.33
 		}
-		area_modifier = {
-
+		area_modifier = {			
 		}
 		region_modifier = {
+			allowed_num_of_buildings = 1
 		}
 		country_modifiers = {
+			trade_efficiency = 0.1
+			merchants = 1
 		}
 		on_upgraded = {
 		}
@@ -1125,14 +1164,14 @@ gp_white_lion_hunting_grounds = {
 			factor = 1000
 		}
 		province_modifiers = {
-
+			local_regiment_cost = -0.05
 		}
 		area_modifier = {
-		}
-		region_modifier = {
+			local_manpower_modifier = 0.1
 		}
 		country_modifiers = {
-
+			prestige_from_land = 0.5
+			army_tradition_from_battle = 0.25
 		}
 		on_upgraded = {
 		}
@@ -1145,12 +1184,15 @@ gp_white_lion_hunting_grounds = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_regiment_cost = -0.1
 		}
 		area_modifier = {
-		}
-		region_modifier = {
+			local_manpower_modifier = 0.2
 		}
 		country_modifiers = {
+			prestige_from_land = 1
+			army_tradition_from_battle = 0.35
+			land_maintenance_modifier = -0.025
 		}
 		on_upgraded = {
 		}
@@ -1163,13 +1205,15 @@ gp_white_lion_hunting_grounds = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_regiment_cost = -0.2
 		}
 		area_modifier = {
-
-		}
-		region_modifier = {
+			local_manpower_modifier = 0.33
 		}
 		country_modifiers = {
+			prestige_from_land = 1.5
+			army_tradition_from_battle = 0.50
+			land_maintenance_modifier = -0.05
 		}
 		on_upgraded = {
 		}
