@@ -2770,68 +2770,51 @@ on_war_declaration_effect = {
 		9 = {}
 	}
 }
-
 remove_all_age_of_discovery_modifiers = {
-	if = {
-		limit = {
-			NOT = { current_age = age_of_discovery }
-		}
-		if = {
-			limit = { has_country_modifier = eng_a_house_united }
-			remove_country_modifier = eng_a_house_united
-		}
-		if = {
-			limit = { has_country_modifier = eng_jousting_tournaments }
-			remove_country_modifier = eng_jousting_tournaments
-		}
-		if = {
-			limit = { has_country_modifier = YEM_rise_of_yemen }
-			remove_country_modifier = YEM_rise_of_yemen
-		}
-	}
+	# if = {
+	# 	limit = {
+	# 		NOT = { current_age = age_of_discovery }
+	# 	}
+	# 	if = {
+	# 		limit = { has_country_modifier = eng_a_house_united }
+	# 		remove_country_modifier = eng_a_house_united
+	# 	}
+	# 	if = {
+	# 		limit = { has_country_modifier = eng_jousting_tournaments }
+	# 		remove_country_modifier = eng_jousting_tournaments
+	# 	}
+	# }
 }
 remove_all_age_of_reformation_modifiers = {
-	if = {
-		limit = {
-			NOT = { current_age = age_of_reformation }
-		}
-		if = {
-			limit = { has_country_modifier = eng_the_age_of_reformation }
-			remove_country_modifier = eng_the_age_of_reformation
-		}
-		if = {
-			limit = { has_country_modifier = eng_reformer_ruler }
-			remove_country_modifier = eng_reformer_ruler
-		}
-		if = {
-			limit = { has_country_modifier = eng_catholic_ruler }
-			remove_country_modifier = eng_catholic_ruler
-		}
-		if = {
-			limit = { has_country_modifier = eng_tolerant_ruler }
-			remove_country_modifier = eng_tolerant_ruler
-		}
-		if = {
-			limit = { has_country_modifier = eng_reformer_ruler_for_catholic_gb }
-			remove_country_modifier = eng_reformer_ruler_for_catholic_gb
-		}
-		if = {
-			limit = { has_country_modifier = eng_catholic_ruler_for_reformed_gb }
-			remove_country_modifier = eng_catholic_ruler_for_reformed_gb
-		}
-		if = {
-			limit = { has_country_modifier = BYZ_ceasarean_conquests }
-			remove_country_modifier = BYZ_ceasarean_conquests
-		}
-		if = {
-			limit = { has_country_modifier = BYZ_economic_intimidation }
-			remove_country_modifier = BYZ_economic_intimidation
-		}
-		if = {
-			limit = { has_country_modifier = BYZ_roman_vigour }
-			remove_country_modifier = BYZ_roman_vigour
-		}
-	}
+	# if = {
+	# 	limit = {
+	# 		NOT = { current_age = age_of_reformation }
+	# 	}
+	# 	if = {
+	# 		limit = { has_country_modifier = eng_the_age_of_reformation }
+	# 		remove_country_modifier = eng_the_age_of_reformation
+	# 	}
+	# 	if = {
+	# 		limit = { has_country_modifier = eng_reformer_ruler }
+	# 		remove_country_modifier = eng_reformer_ruler
+	# 	}
+	# 	if = {
+	# 		limit = { has_country_modifier = eng_catholic_ruler }
+	# 		remove_country_modifier = eng_catholic_ruler
+	# 	}
+	# 	if = {
+	# 		limit = { has_country_modifier = eng_tolerant_ruler }
+	# 		remove_country_modifier = eng_tolerant_ruler
+	# 	}
+	# 	if = {
+	# 		limit = { has_country_modifier = eng_reformer_ruler_for_catholic_gb }
+	# 		remove_country_modifier = eng_reformer_ruler_for_catholic_gb
+	# 	}
+	# 	if = {
+	# 		limit = { has_country_modifier = eng_catholic_ruler_for_reformed_gb }
+	# 		remove_country_modifier = eng_catholic_ruler_for_reformed_gb
+	# 	}
+	# }
 }
 remove_all_age_of_absolutism_modifiers = {
 	#if = {
@@ -3325,20 +3308,20 @@ on_development_effect = {
 		}
 	}
 	
-	if = {
-		limit = {
-			owner = {
-				has_mission = ARB_the_harsh_desert
-			}
-			has_climate = arid
-		}
-		owner = {
-			change_variable = {
-				which = num_of_times_developed_arid
-				value = 1
-			}
-		}
-	}
+	# if = {
+	# 	limit = {
+	# 		owner = {
+	# 			has_mission = ARB_the_harsh_desert
+	# 		}
+	# 		has_climate = arid
+	# 	}
+	# 	owner = {
+	# 		change_variable = {
+	# 			which = num_of_times_developed_arid
+	# 			value = 1
+	# 		}
+	# 	}
+	# }
 }
 
 # THIS = Province, FROM = Country, ROOT = Merc Unit
@@ -3526,20 +3509,20 @@ on_main_war_won_effect = {
 		clr_country_flag = nor_norwegian_independence_modifier
 		remove_country_modifier = nor_norwegian_independence_war_mod
 	}
-	if = {
-		limit = {
-			ROOT = {
-				has_mission = swe_devastate_the_christians
-				NOT = { mission_completed = swe_devastate_the_christians }
-				religion = norse_pagan_reformed
-			}
-			FROM = { religion_group = christian }
-		}
-		change_variable = {
-			which = swe_won_wars_against_christians
-			value = 1
-		}
-	}
+	# if = {
+	# 	limit = {
+	# 		ROOT = {
+	# 			has_mission = swe_devastate_the_christians
+	# 			NOT = { mission_completed = swe_devastate_the_christians }
+	# 			religion = norse_pagan_reformed
+	# 		}
+	# 		FROM = { religion_group = christian }
+	# 	}
+	# 	change_variable = {
+	# 		which = swe_won_wars_against_christians
+	# 		value = 1
+	# 	}
+	# }
 	if = { 
 		limit = {
 			has_dlc = "Mandate of Heaven" 

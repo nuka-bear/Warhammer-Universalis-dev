@@ -3448,42 +3448,42 @@ on_revoke_estate_land = {
 		name = revoked_estate_modifier
 		duration = 5475 #15 years
 	}
-	if = {
-		limit = {
-			has_estate = estate_cossacks
-			owner = {
-				NOT = {
-					estate_loyalty = {
-						estate = estate_cossacks
-						loyalty = 40
-					}
-				}
-			}
-		}
-		spawn_rebels = {
-			type = cossack_rebels
-			size = 1
-		}
-		province_event = { id = cossack_estate_events.15 }
-	}
-	if = {
-		limit = {
-			has_estate = estate_dhimmi
-			owner = {
-				NOT = {
-					estate_loyalty = {
-						estate = estate_dhimmi
-						loyalty = 40
-					}
-				}
-			}
-		}
-		spawn_rebels = {
-			type = religious_rebels
-			size = 1
-		}
-		province_event = { id = dhimmi_estate_events.9 }
-	}
+	# if = {
+	# 	limit = {
+	# 		has_estate = estate_cossacks
+	# 		owner = {
+	# 			NOT = {
+	# 				estate_loyalty = {
+	# 					estate = estate_cossacks
+	# 					loyalty = 40
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# 	spawn_rebels = {
+	# 		type = cossack_rebels
+	# 		size = 1
+	# 	}
+	# 	province_event = { id = cossack_estate_events.15 }
+	# }
+	# if = {
+	# 	limit = {
+	# 		has_estate = estate_dhimmi
+	# 		owner = {
+	# 			NOT = {
+	# 				estate_loyalty = {
+	# 					estate = estate_dhimmi
+	# 					loyalty = 40
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# 	spawn_rebels = {
+	# 		type = religious_rebels
+	# 		size = 1
+	# 	}
+	# 	province_event = { id = dhimmi_estate_events.9 }
+	# }
 	if = {
 		limit = {
 			has_estate = estate_church
