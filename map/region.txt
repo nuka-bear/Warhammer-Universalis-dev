@@ -499,9 +499,34 @@ western_southlands_region = {
 		shark_straits_area gulf_of_medes_sea_area churning_gulf_area southern_straits_area 
 	}
 }
+great_river_region = {
+	areas = {
+		great_canal_area great_river_area 
+	}
+}
+jade_river_region = {
+	areas = {
+		jade_river_area 
+	}
+}
+south_underempire_region = {
+	areas = {
+		underempire_4_area underempire_26_area underempire_25_area underempire_29_area underempire_19_area underempire_27_area underempire_7_area underempire_28_area underempire_24_area underempire_6_area
+		underempire_22_area underempire_14_area underempire_31_area underempire_15_area underempire_23_area 
+	}
+}
+
+
 #
 # Unused 
 #
+
+debug_region = {
+	areas = {
+		debug_area
+	}
+}
+
 france_region = {
 	areas = {
 	}
@@ -870,21 +895,5 @@ atlantic_south_america_region = {
 }
 south_atlantic_region = {
 	areas = {
-	}
-}
-great_river_region = {
-	areas = {
-		great_canal_area great_river_area 
-	}
-}
-jade_river_region = {
-	areas = {
-		jade_river_area 
-	}
-}
-south_underempire_region = {
-	areas = {
-		underempire_4_area underempire_26_area underempire_25_area underempire_29_area underempire_19_area underempire_27_area underempire_7_area underempire_28_area underempire_24_area underempire_6_area
-		underempire_22_area underempire_14_area underempire_31_area underempire_15_area underempire_23_area 
 	}
 }
