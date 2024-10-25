@@ -7,14 +7,13 @@ Raiding happens when people reclaim their own lands
 Burger Privelage if your capital is in a subterranean zone, then you get + in subterranean, - in non-subterranean
 	Look at hydralaogic empire.
 
-Should Fightiness apply to all orc militaries?
+Dimmed Sunz start with no army!
 
-Mountains of Mourn
-	2749 - 2818
+Why are normal races getting the orc race challenge missions?
 
-Lizards
-	have a government mechanic which makes them stronger for each geomantic web city they control spread like 50 around the world.
-	State maintenence is low if they control the whole state?
+Pop up when you can vassalize dominions (Done?)
+
+Ironskull (g37) has no flag
 
 Everybody!
 	0-1x government types
@@ -23,9 +22,8 @@ Everybody!
 	Adjust opening text for cultures and religions, with callouts for most important things
 	Make each mission tree a single icon of the culture or religion
 	Fix remaining provinces	names
-
-	Add monuments based on the map.
-	Switch up multiple gov types and religions for each area.
+	Add monuments based on the maps
+	Switch up multiple differentgov types and religions for each area.
 
 Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
 
@@ -34,6 +32,10 @@ Add the warhammer legendary lords into the map
 Add legendary artifacts that are traits that move between people
 
 Worry about military balance
+
+Lizards
+	have a government mechanic which makes them stronger for each geomantic web city they control spread like 50 around the world.
+	State maintenence is low if they control the whole state?
 
 Dwarves
 	+ Production, - tax & trade
@@ -58,9 +60,8 @@ Orcs
 
 
 Cathay
-	Unique penalizing government type
+	Disaster if Cathay provinces not owned by cathay dudes (or maybe just bastion?)
 
-	Decision for getting rid of Cathay State - 3 stab, 50 prestige, 50 legitimacy, needs 50 crownland
 
 Legitimate Successor government mechanic for Nehekhara & Cathay?
 			Event at high legitimate successor to declare independence war? Maybe it's a defensive war to give them a chance?

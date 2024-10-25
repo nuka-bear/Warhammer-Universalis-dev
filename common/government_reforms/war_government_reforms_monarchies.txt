@@ -246,9 +246,6 @@ cathay_splinter_state = {
 	potential = {
 		culture_group = cathayan_cg
 	}
-	trigger = {
-		culture_group = cathayan_cg
-	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	nation_designer_trigger = {
@@ -258,6 +255,7 @@ cathay_splinter_state = {
 	modifiers = {
 		tolerance_own = 3
 		tolerance_heathen = -3
+		diplomats = 1
 		same_culture_advisor_cost = -0.2
 		num_accepted_cultures = -2
 		liberty_desire = 10

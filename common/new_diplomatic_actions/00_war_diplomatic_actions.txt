@@ -92,6 +92,10 @@ demote_dominion_action = {
 
 	require_acceptance = no
 
+	alert_index = 15
+
+	alert_tooltip = tooltip_demote_dominion_alert_tooltip
+
 	is_visible = {
 		FROM = {
 			is_subject_of_type_with_overlord = {
@@ -155,6 +159,10 @@ offer_dominion_action = {
 	category = influence
 
 	require_acceptance = yes
+
+	alert_index = 15
+
+	alert_tooltip = tooltip_offer_dominion_alert_tooltip
 
 	is_visible = {
 		FROM = {

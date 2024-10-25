@@ -3,7 +3,7 @@ primary_culture = north_cathayan
 religion = yin_yang
 technology_group = tech_cathayan
 capital = 2838
-government_rank = 1
+government_rank = 2
 setup_vision = yes
 
 government = monarchy
