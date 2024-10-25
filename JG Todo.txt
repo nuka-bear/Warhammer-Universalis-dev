@@ -7,13 +7,15 @@ Raiding happens when people reclaim their own lands
 Burger Privelage if your capital is in a subterranean zone, then you get + in subterranean, - in non-subterranean
 	Look at hydralaogic empire.
 
-Dimmed Sunz start with no army!
-
-Why are normal races getting the orc race challenge missions?
-
-Pop up when you can vassalize dominions (Done?)
+Dimmed Sunz starts with no army!
 
 Ironskull (g37) has no flag
+
+
+Cool images for everything
+	Monuments
+	Missions
+	Religious Advisor Icons
 
 Everybody!
 	0-1x government types
@@ -35,15 +37,16 @@ Worry about military balance
 
 Lizards
 	have a government mechanic which makes them stronger for each geomantic web city they control spread like 50 around the world.
+		Province Group?
+		Number of Superregions?
 	State maintenence is low if they control the whole state?
 
 Dwarves
-	+ Production, - tax & trade
 
 High Elves
 	Pie in the Sky: Perfidious Elves, ally or Rival all other great powers
 
-Focus on Nehekara to start
+Nehekhara
 	+ Tax, - production
 	Custom Estates - Mortuary Cult
 	Upset Estates with a frozen privilage - "Fractured Society" or something like that that gives them -loyalty. And each monument gives an estate + loyalty
@@ -58,10 +61,8 @@ Orcs
 	Gork interaction: more manpower and gold
 	End Time mechanics for Orcs?
 
-
 Cathay
 	Disaster if Cathay provinces not owned by cathay dudes (or maybe just bastion?)
-
 
 Legitimate Successor government mechanic for Nehekhara & Cathay?
 			Event at high legitimate successor to declare independence war? Maybe it's a defensive war to give them a chance?
@@ -70,11 +71,11 @@ Legitimate Successor government mechanic for Nehekhara & Cathay?
 			Government scale for legitimate successor, with increasing diplomatic reputation and liberty desire. Higher, more liberty desire for self, less liverty desire for others.
 
 
-
 Bugs
-	Fix Monstrous Unit Cost
+	Fix Monstrous Unit Cost?
 	Generic Beacon on a Hill mission with tech difference not working
-	Cathay Government Type not visible (but active)
+	Pop up when you can vassalize dominions (Doesn't work)
+
 
 
 For some missions use:

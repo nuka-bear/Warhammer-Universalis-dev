@@ -206,16 +206,27 @@ gen_dwarf_ultimate_missions = {
 				trade_goods = gold 
 				trade_goods = copper
 				trade_goods = iron
-				trade_goods = beer
 				trade_goods = gems
 			}
 		}
 		trigger = {
-			gold = 10
-			copper = 10
-			iron = 10
-			gems = 10
-			beer = 10
+
+			num_of_owned_provinces_with = {
+				trade_goods = gold
+				value = 12
+			}
+			num_of_owned_provinces_with = {
+				trade_goods = copper
+				value = 12
+			}
+			num_of_owned_provinces_with = {
+				trade_goods = iron
+				value = 12
+			}
+			num_of_owned_provinces_with = {
+				trade_goods = gems
+				value = 12
+			}
 		}
 
 		effect = {
@@ -257,9 +268,9 @@ gen_ancestor_missions = {
 		}	
 		trigger = {
 			OR = {
-				weapons = 3
+				weapons = 5
 				development_in_provinces = {
-					value = 40
+					value = 50
 					owned_by = ROOT 
 					trade_goods = iron 
 				}
@@ -287,9 +298,9 @@ gen_ancestor_missions = {
 		}	
 		trigger = {
 			OR = {
-				farm_estate = 3
+				farm_estate = 5
 				development_in_provinces = {
-					value = 40
+					value = 50
 					owned_by = ROOT 
 					trade_goods = beer 
 				}
@@ -320,9 +331,9 @@ gen_ancestor_missions = {
 		}	
 		trigger = {
 			OR = {
-				soldier_households = 3
+				soldier_households = 5
 				development_in_provinces = {
-					value = 40
+					value = 50
 					owned_by = ROOT
 					OR = {
 						trade_goods = grain
@@ -381,9 +392,9 @@ gen_ancestor_missions = {
 		}
 		trigger = {
 			OR = {
-				furnace = 3
+				furnace = 5
 				development_in_provinces = {
-					value = 40
+					value = 50
 					owned_by = ROOT
 					OR = {
 						trade_goods = copper
@@ -424,13 +435,13 @@ gen_ancestor_missions = {
 					monthly_mil = 10
 				}
 				development_in_provinces = {
-					value = 30
+					value = 20
 					owned_by = ROOT 
 					trade_goods = warpstone 
 				}
 				num_of_owned_provinces_with = {
 					trade_goods = warpstone
-					value = 3
+					value = 2
 				}
 			}
 		}
