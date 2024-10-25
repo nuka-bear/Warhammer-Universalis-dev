@@ -557,7 +557,7 @@ race_relations_5_missions = {
 
 
 
-race_relations_1_missions = {
+race_relations_1_missions_for_orcs = {
 	slot = 1
 	generic = yes
 	ai = yes
@@ -664,7 +664,7 @@ race_relations_1_missions = {
 	}
 }
 
-race_relations_2_missions = {
+race_relations_2_missions_for_orcs = {
 	slot = 2
 	generic = yes
 	ai = yes
@@ -771,7 +771,7 @@ race_relations_2_missions = {
 	}
 }
 
-race_relations_3_missions = {
+race_relations_3_missions_for_orcs = {
 	slot = 3
 	generic = yes
 	ai = yes
@@ -878,7 +878,7 @@ race_relations_3_missions = {
 	}
 }
 
-race_relations_4_missions = {
+race_relations_4_missions_for_orcs = {
 	slot = 4
 	generic = yes
 	ai = yes
@@ -985,7 +985,7 @@ race_relations_4_missions = {
 	}
 }
 
-race_relations_5_missions = {
+race_relations_5_missions_for_orcs = {
 	slot = 5
 	generic = yes
 	ai = yes
