@@ -2027,7 +2027,7 @@ spawn_country_religious_rebels = {
 			nahuatl =               { PREV = { spawn_rebels = { type = nahuatl_rebels size = $size$ } } }
 			norse_pagan_reformed =  { PREV = { spawn_rebels = { type = norse_pagan_reformed_rebels size = $size$ } } }
 			orthodox =              { PREV = { spawn_rebels = { type = orthodox_rebels size = $size$ } } }
-			protestant =            { PREV = { spawn_rebels = { type = protestant_rebels size = $size$ } } }
+		#	protestant =            { PREV = { spawn_rebels = { type = protestant_rebels size = $size$ } } }
 			reformed =              { PREV = { spawn_rebels = { type = reformed_rebels size = $size$ } } }
 			shamanism =             { PREV = { spawn_rebels = { type = shamanism_rebels size = $size$ } } }
 			shiite =                { PREV = { spawn_rebels = { type = shiite_rebels size = $size$ } } }

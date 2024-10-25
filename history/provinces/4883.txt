@@ -7,3 +7,4 @@ religion = asrai_cadai
 owner = Z83
 controller = Z83
 add_core = Z83
+is_city = no

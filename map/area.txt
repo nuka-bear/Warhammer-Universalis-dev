@@ -1747,132 +1747,7 @@ sea_of_chaos_area = {
 western_sea_of_chaos_area = {
 	1498 1547 1480 1545 1496 1483 1666 
 }
-#Legacy
-western_mediterrenean_area = {
-}
-eastern_mediterrenean_area = {
-}
-black_sea_area = {
-}
-baltic_area = {
-}
-kattegat_area = {
-	#Kattegat, Skagerrak, Sound and Belts
-}
-north_sea_area = {
-}
-norwegian_sea_area = {
-	#Norwegian Sea
-}
-white_sea_area = {
-}
-red_sea_area = {
-}
-persian_gulf_area = {
-	#(+Makran)
-}
-arabian_sea_area = {
-}
-andaman_sea_area = {
-}
-bay_of_bengal_area = {
-}
-eastern_indian_ocean_area = {
-}
-western_indian_ocean_area = {
-}
-south_indian_ocean_area = {
-}
-great_australian_bight_area = {
-}
-swahili_coast_sea_area = {
-}
-south_china_sea_area = {
-}
-celebes_sea_area = {
-	#5
-}
-java_sea_area = {
-	#3
-}
-east_china_sea_area = {
-	#8
-}
-sea_of_japan_area = {
-	#10
-}
-sea_of_okhotsk_area = {
-}
-berring_sea_area = {
-}
-tasman_sea_area = {
-}
-coral_sea_area = {
-}
-philipine_sea_area = {
-}
-banda_arafura_seas_area = {
-}
-gulf_of_alaska_area = {
-}
-sea_of_grau_area = {
-}
-chilean_sea_area = {
-}
-gulf_of_panama_area = {
-}
-bay_of_biscay_area = {
-}
-english_channel_area = {
-}
-caribbean_sea_area = {
-}
-gulf_of_mexico_area = {
-}
-sea_of_labrador_area = {
-}
-hudson_bay_sea_area = {
-}
-denmark_strait_area = {
-}
-gulf_of_guinea_sea_area = {
-}
-cape_of_storms_area = {
-}
-skeleton_coast_area = {
-}
-east_pacific_ocean_area = {
-}
-polynesian_triangle_area = {
-}
-south_pacific_area = {
-}
-north_pacific_area = {
-}
-north_pacific_coast_area = {
-}
-coast_of_brazil_sea_area = {
-}
-coast_of_guyana_area = {
-}
-celtic_sea_area = {
-}
-west_african_coast_sea_area = {
-}
-south_atlantic_area = {
-}
-argentine_sea_area = {
-}
-gulf_of_st_lawrence_area = {
-}
-gulf_stream_area = {
-}
-sargasso_sea_area = {
-}
-north_atlantic_area = {
-}
-bahama_channel_area = {
-}
+
 #Lakes:
 #Listed by themselves in order to be easier to remove if needed.
 #central_asian_lakes_area = {
@@ -1903,6 +1778,1302 @@ bahama_channel_area = {
 #
 # France					 		   
 #
+
+warmblood_isles_area = {
+	2374 2373 2372 2371 2370 
+}
+plain_of_tuskers_1_area = {
+	1785 1786 1779 
+}
+plain_of_tuskers_2_area = {
+	1788 1792 1793 1789 
+}
+plain_of_tuskers_3_area = {
+	1780 1782 1781 
+}
+plain_of_tuskers_4_area = {
+	1010 1784 1790 1791 
+}
+plain_of_tuskers_5_area = {
+	1794 4210 4209 
+}
+plain_of_tuskers_6_area = {
+	4199 4207 4208 
+}
+far_wastes_1_area = {
+	2530 2572 2573 2575 
+}
+far_wastes_2_area = {
+	2578 2579 2577 2581 
+}
+far_wastes_3_area = {
+	2583 2585 2584 2532 2533 
+}
+far_wastes_4_area = {
+	2534 2535 2537 2538 2541 
+}
+frozen_city_area = {
+	2529 1990 1750 4056 
+}
+far_wastes_5_area = {
+	2536 2539 2540 
+}
+far_wastes_6_area = {
+	2542 2543 2544 2546 2545 
+}
+far_wastes_7_area = {
+	2547 2550 2552 
+}
+far_wastes_8_area = {
+	2548 2549 2553 
+}
+far_wastes_9_area = {
+	2558 2560 2557 
+}
+far_wastes_10_area = {
+	2556 2561 2559 
+}
+far_wastes_11_area = {
+	2564 2562 2563 2565 2358 
+}
+far_wastes_12_area = {
+	972 1213 1751 1987 1752 
+}
+far_wastes_13_area = {
+	1991 1808 2628 2636 
+}
+far_wastes_14_area = {
+	2570 2627 4062 
+}
+far_wastes_15_area = {
+	2629 2635 2633 2630 2632 
+}
+chaos_wastes_1_area = {
+	2643 2644 2651 
+}
+chaos_wastes_2_area = {
+	2637 2638 2639 
+}
+chaos_wastes_3_area = {
+	2631 2634 
+}
+chaos_wastes_4_area = {
+	2640 2642 2641 
+}
+chaos_wastes_5_area = {
+	2645 2647 2646 
+}
+chaos_wastes_6_area = {
+	2648 2652 2649 2650 2653 
+}
+chaos_wastes_7_area = {
+	2656 2657 2655 2654 
+}
+chaos_wastes_8_area = {
+	2659 2667 2666 2665 2660 
+}
+chaos_wastes_9_area = {
+	4938 2658 
+}
+chaos_wastes_10_area = {
+	2661 2662 2663 2664 
+}
+chaos_wastes_11_area = {
+	2673 2674 2675 2677 2687 
+}
+chaos_wastes_12_area = {
+	2672 2676 2679 2678 2671 
+}
+chaos_wastes_13_area = {
+	2689 2686 2688 2691 
+}
+chaos_wastes_15_area = {
+	2668 2670 2669 
+}
+chaos_wastes_17_area = {
+	2680 2682 2685 2681 
+}
+chaos_wastes_18_area = {
+	2690 2692 1997 2696 
+}
+chaos_wastes_19_area = {
+	2695 2693 2714 2694 
+}
+chaos_wastes_20_area = {
+	2683 1823 2684 
+}
+chaos_wastes_21_area = {
+	2697 2698 2699 2700 2701 
+}
+chaos_wastes_22_area = {
+	2702 2703 2704 2705 4828 
+}
+chaos_wastes_23_area = {
+	2718 2723 2732 
+}
+chaos_wastes_24_area = {
+	2715 2717 2716 
+}
+chaos_wastes_25_area = {
+	2724 2731 2733 2734 2725 2730 
+}
+chaos_wastes_26_area = {
+	2727 2729 
+}
+chaos_wastes_27_area = {
+	2711 2726 2712 
+}
+chaos_wastes_28_area = {
+	2706 2707 2709 2708 2710 
+}
+chaos_wastes_29_area = {
+	2728 2713 2736 2739 2738 
+}
+chaos_wastes_30_area = {
+	1219 1217 1964 2149 2146 
+}
+chaos_wastes_31_area = {
+	2735 2819 2821 2824 
+}
+weijin_area = {
+	2838 2837 2835 2836 
+}
+nangau_area = {
+	2839 2841 2842 2840 
+}
+cathay_1_area = {
+	2832 2831 2830 2829 2828 
+}
+cathay_2_area = {
+	2843 2844 2845 2846 
+}
+cathay_3_area = {
+	2834 2833 
+}
+cathay_4_area = {
+	2847 2848 2851 2850 
+}
+cathay_6_area = {
+	2992 2855 
+}
+cathay_5_area = {
+	2974 2981 2982 2984 
+}
+eastern_steppes_1_area = {
+	4061 2722 4060 
+}
+eastern_steppes_2_area = {
+	4042 4043 4057 4058 4041 
+}
+eastern_steppes_3_area = {
+	4040 4039 4048 4047 4049 
+}
+eastern_steppes_4_area = {
+	4050 4051 4052 4459 4460 
+}
+eastern_steppes_5_area = {
+	2150 2151 2719 2153 2720 
+}
+eastern_steppes_6_area = {
+	1211 4034 4053 2885 4377 
+}
+eastern_steppes_7_area = {
+	4035 4036 4037 
+}
+eastern_steppes_8_area = {
+	4038 4044 4046 4045 
+}
+eastern_steppes_9_area = {
+	2011 2098 
+}
+eastern_steppes_10_area = {
+	4379 4378 4380 4381 4382 
+}
+cathay_7_area = {
+	2853 2854 4023 
+}
+cathay_8_area = {
+	2994 4022 2983 
+}
+cathay_9_area = {
+	2997 2998 3000 2999 
+}
+cathay_10_area = {
+	4029 4031 4247 4033 
+}
+cathay_11_area = {
+	4032 4024 4025 4028 
+}
+cathay_13_area = {
+	2985 2986 2988 
+}
+cathay_12_area = {
+}
+cathay_15_area = {
+	4248 2996 2990 
+}
+cathay_16_area = {
+	2852 4020 
+}
+cathay_17_area = {
+	2924 2923 2920 
+}
+cathay_18_area = {
+	2928 2931 4249 
+}
+cathay_19_area = {
+}
+cathay_20_area = {
+	2905 2907 2908 
+}
+cathay_21_area = {
+	2921 2918 2916 2915 
+}
+cathay_22_area = {
+	2914 2909 2910 
+}
+cathay_23_area = {
+	2904 2903 2894 
+}
+cathay_24_area = {
+	2922 2919 2966 
+}
+cathay_25_area = {
+	2911 
+}
+cathay_26_area = {
+	2892 2888 
+}
+cathay_27_area = {
+	2889 2891 2901 2898 
+}
+cathay_28_area = {
+}
+cathay_29_area = {
+	2884 2882 2883 2512 
+}
+cathay_30_area = {
+	2863 2861 
+}
+cathay_31_area = {
+	2864 2859 
+}
+cathay_32_area = {
+}
+cathay_33_area = {
+	2869 2870 
+}
+cathay_34_area = {
+}
+cathay_35_area = {
+	2876 2868 2866 
+}
+cathay_36_area = {
+	2872 2938 
+}
+cathay_37_area = {
+	2964 2965 
+}
+cathay_38_area = {
+	2926 2335 
+}
+cathay_39_area = {
+	2946 
+}
+cathay_40_area = {
+	2956 2954 4054 2951 
+}
+cathay_41_area = {
+	2940 2941 2945 
+}
+cathay_42_area = {
+	2944 4257 
+}
+cathay_43_area = {
+	2961 2333 2958 2960 
+}
+cathay_44_area = {
+	2962 2963 1215
+}
+cathay_45_area = {
+	2971 2970 2969 2972 
+}
+cathay_46_area = {
+	2973 2980 2979 2977 
+}
+cathay_47_area = {
+	2968 2975 2976 
+}
+mountains_of_mourn_1_area = {
+	4197 4244 2264 2265 
+}
+mountains_of_mourn_2_area = {
+	2267 2268 2269 2266 
+}
+mountains_of_mourn_3_area = {
+	2749 2750 2751 
+}
+mountains_of_mourn_4_area = {
+	2752 2755 2754 2753 
+}
+mountains_of_mourn_5_area = {
+	2756 2758 2757 
+}
+mountains_of_mourn_6_area = {
+	2761 2759 2762 2763 599 
+}
+mountains_of_mourn_7_area = {
+	2784 2786 2787 2785 2788 
+}
+mountains_of_mourn_8_area = {
+	2773 2774 2776 2775 
+}
+mountains_of_mourn_9_area = {
+	2766 2770 2768 2769 2791 
+}
+mountains_of_mourn_10_area = {
+	2767 2765 2764 1208 4936 
+}
+mountains_of_mourn_11_area = {
+	2772 2771 2798 2799 2801 
+}
+mountains_of_mourn_12_area = {
+	2818 2817 2802 2803 
+}
+mountains_of_mourn_13_area = {
+	2805 2807 2815 2808 2806 
+}
+mountains_of_mourn_14_area = {
+	2814 2813 2816 2812 
+}
+mountains_of_mourn_15_area = {
+	2811 2810 2809 4272 
+}
+mountains_of_mourn_16_area = {
+	2804 2797 2796 
+}
+mountains_of_mourn_18_area = {
+	2795 2789 2794 
+}
+mountains_of_mourn_19_area = {
+	2790 2780 2782 
+}
+mountains_of_mourn_20_area = {
+	4302 2792 2800 4300 
+}
+mountains_of_mourn_21_area = {
+	4301 2777 4303 
+}
+eastern_provinces_1_area = {
+	2933 4243 
+}
+eastern_provinces_2_area = {
+	2886 4251 
+}
+eastern_provinces_3_area = {
+	3002 3003 3001 
+}
+ind_1_area = {
+	2296 2959 
+}
+ind_2_area = {
+	2297 2298 4065 4066 2299 
+}
+ind_3_area = {
+	4069 4068 4067 
+}
+ind_4_area = {
+	4070 4071 4072 4073 
+}
+ind_5_area = {
+	4074 4075 4076 4190 4087 
+}
+ind_6_area = {
+	4253 4078 4079 4082 4083 
+}
+ind_7_area = {
+	4081 4077 
+}
+ind_8_area = {
+	4255 4091 4089 
+}
+ind_9_area = {
+	4090 4144 4147 4145 4149 
+}
+ind_10_area = {
+	4118 4114 4131 4428 
+}
+ind_11_area = {
+	4128 4142 
+}
+ind_12_area = {
+	4116 4115 4117 4120 4119 
+}
+ind_13_area = {
+	4096 4099 4098 4097 
+}
+ind_15_area = {
+	4127 4126 4148 4125 
+}
+ind_14_area = {
+	4130 4181 4182 
+}
+ind_17_area = {
+	4084 4085 4252 
+}
+ind_18_area = {
+	4112 4250 
+}
+ind_19_area = {
+	4109 4106 4110 
+}
+ind_20_area = {
+	4104 4105 
+}
+ind_21_area = {
+	4101 4100 4102 4103 
+}
+ind_22_area = {
+	4183 4185 4184 4187 4186 
+}
+ind_23_area = {
+	4188 4189 4191 4192 
+}
+ind_24_area = {
+	4095 4092 4093 
+}
+ind_25_area = {
+	4254 4180 4151 
+}
+ind_26_area = {
+	4143 4427 
+}
+ind_27_area = {
+}
+ind_29_area = {
+	4123 4124 4122 4121 551 
+}
+ind_28_area = {
+}
+great_bastion_area = {
+	2825 2826 2827 
+}
+eastern_colonies_1_area = {
+	2778 2748 4310 
+}
+eastern_colonies_2_area = {
+	4308 4309 
+}
+eastern_colonies_3_area = {
+	4306 4305 4307 2936 4304 
+}
+eastern_colonies_4_area = {
+	1994 1996 2005 
+}
+eastern_colonies_5_area = {
+	4312 4314 4315 4313 
+}
+eastern_colonies_7_area = {
+	2747 4316 2746 
+}
+eastern_colonies_8_area = {
+	2742 2743 2744 2745 
+}
+eastern_colonies_9_area = {
+	2740 2741 2007 
+}
+dragon_isles_01_area = {
+	4260 4261 4158 4854 4265 
+}
+dragon_isles_02_area = {
+	4263 4264 4840 4839 
+}
+dragon_isles_03_area = {
+	4271 4267 4269 4266 
+}
+dragon_isles_04_area = {
+	4268 4270 
+}
+river_of_ruin_area = {
+	1333 1335 1337 1343 1326 
+}
+lizard_sea_area = {
+	1686 1608 1338 1681 1615 1723 1463 1721 1720 
+}
+bitter_sea_area = {
+	1373 1724 1428 1298 1339 1332 1351 1530 1517 1330 
+}
+inner_sea_area = {
+	1271 1264 1269 1268 1286 1275 1394 
+}
+shifting_isles_sea_area = {
+	1288 1317 1287 1319 1301 1316 1313 1290 1320 1299
+}
+sunken_lands_sea = {
+	1277 1279 1294 1324 1328 1311 1283 1321 
+}
+sea_of_chill_area = {
+	1352 1532 1356 1354 1353 
+}
+sea_of_malice_area = {
+	1372 1350 1349 1363 1347 1285 1355 
+}
+sea_of_feuds_area = {
+	1362 1344 1322 1280 1357 1358 1348 
+}
+sea_of_mist_area = {
+	1566 1563 1361 1565 1569 1568 1567 1572 1582 
+}
+straits_of_fear_area = {
+	1367 1368 
+}
+bleak_sea_area = {
+	1364 1570 1365 1305 1531 
+}
+sea_of_serpeants = {
+	1312 1329 1369 1508 1542 1509 
+}
+river_amaxon_area = {
+	1579 1377 1902 
+}
+scorpion_coast_area = {
+	1375 1376 1527 1528 
+}
+vampire_coast_area = {
+	1586 1379 
+}
+river_qurveza_area = {
+	1529 1378 
+}
+mangrove_coast_area = {
+	1533 1539 1380 
+}
+the_lustria_strait_area = {
+	1706 1384 1385 1677 1381 
+}
+the_turtle_shallows_area = {
+	1544 1386 1546 1387 1388 
+}
+sea_of_squalls_area = {
+	1423 1426 1389 
+}
+sea_of_oblivion_area = {
+	1424 1429 
+}
+boiling_sea_area = {
+	1557 1682 1559 1684 1687 1694 1427 1422 
+}
+south_far_ocean_area = {
+	1393 1391 1390 1392 1395 1400 1398 1397 1396 1399
+	1556 1401 
+}
+central_far_ocean_area = {
+	1403 1404 1406 1408 1405 1402 1409 1412 1410 
+}
+north_far_ocean_area = {
+	1416 1414 1415 1420 1425 1413 1417 
+}
+gulf_of_medes_sea_area = {
+	1466 1449 1336 1467 
+}
+shark_straits_area = {
+	1472 1457 1473 1374 1468 
+}
+corsair_channel_area = {
+	1366 1456 1604 
+}
+western_straits_of_the_great_ocean_area = {
+	1503 1430 1626 1432 1431 1433 1709 1434 
+}
+southern_straits_area = {
+	1499 1500 1627 1462 1464 
+}
+southern_great_ocean_area = {
+	1452 1445 1455 1444 1454 1453 
+}
+south_western_great_ocean_area = {
+	1436 1440 1443 1439 1438 1437 
+}
+south_eastern_great_ocean_area = {
+	1435 1448 1446 1451 1447 1441 1691
+}
+churning_gulf_area = {
+	1461 1478 1465 1482 1484 
+}
+shifting_mangrove_coast_area = {
+	1487 1490 1493 1495 
+}
+sea_of_fear_area = {
+	1520 1510 1507 1708 4224 1536 1680
+}
+western_ind_coast_area = {
+	1516 1525 1521 1519 
+}
+eastern_isles_sea_area = {
+	1504 1511 1518 1512 1515 1360 1642 1616 
+}
+eastern_ind_coast_area = {
+	1524 1526 1670 1513 1672
+}
+sea_of_dread_area = {
+	1611 1540 1492 1491 1501 1477 1494 1340 1341 1459 
+}
+sea_of_weird_waves_area = {
+	1346 1612 1622 
+}
+western_coast_of_khuresh_area = {
+	1458 1345 1342 
+}
+gates_of_calith_area = {
+	1497 1421 1411 1450 
+}
+sea_of_eltihis_area = {
+	1588 1573 1589 1553 1552 1561 1587 1562 1571 1560
+	1551 1550 1523 
+}
+eastern_coast_of_khuresh_area = {
+	1535 1522 1419 1537 1538 
+}
+cathay_coast_area = {
+	1575 1549 1548 1543 
+}
+sea_of_nippon_area = {
+	1541 1331 1558 1581 1583 1585 1584 1592 1591 1593
+}
+seagrave_area = {
+	1574 1576 1577 
+}
+northern_jade_sea_area = {
+	1578 1580 1596 1595 1597 1614 1613 1633 1632 1634
+	1619 
+}
+central_jade_sea_area = {
+	1554 1609 1594 1618 1631 1636 1635 1606 1607 1620
+	1628 
+}
+south_jade_sea_area = {
+	1599 1602 1621 1625 1637 1624 1623 1601 1598 1605
+	1600 1603 
+}
+deaths_head_monoliths_area = {
+	4171 4173 4170 4176 4177 
+}
+nahuontl_area = {
+	4286 4287 4288 4289 
+}
+dawns_light_area = {
+	4327 4328 4326 4376 4325 
+}
+tor_elasor_area = {
+	4340 4341 4342 4343 
+}
+zlatlan_area = {
+	4293 4296 4294 4298 4292 
+}
+guardian_statues_area = {
+	4295 4297 
+}
+yuatek_area = {
+	4317 4299 4319 4320 4321 
+}
+tlaqua_area = {
+	4166 4274 4169 4275 4198 
+}
+churning_gulf_shore_area = {
+	4290 4291 4885 4886 
+}
+temple_avenue_area = {
+	4344 4337 4338 4339 4843 4345 
+}
+teotiqua_area = {
+	4901 4898 4899 4902 4900 4897 
+}
+teotiqua_highlands_area = {
+	4896 4894 4895 
+}
+tail_of_sotek_area = {
+	4332 4331 4330 4329 
+}
+jungle_of_the_gods_area = {
+	4335 916 4334 4336 
+}
+citadel_of_dusk_area = {
+	4354 4355 4356 4353 
+}
+fire_bogs_area = {
+	4374 4375 4368 
+}
+headhunters_jungle_area = {
+	4373 4372 
+}
+cape_badlands_area = {
+	4360 4361 4362 1207 
+}
+new_coast_1_area = {
+	4178 4179 4276 4277 4278 
+}
+new_coast_2_area = {
+	4280 4282 4281 4283 4284 
+}
+new_coast_3_area = {
+	4285 
+}
+new_coast_4_area = {
+	4318 4322 4323 4324 
+}
+southern_sentinel_area = {
+	4365 4364 4352 
+}
+night_forest_area = {
+	4359 1040 4821 
+}
+xlanzec_area = {
+	4829 4820 4830 
+}
+night_forest_area = {
+	4359 1040 4821 
+}
+culchan_plains_area = {
+	4366 4370 4371 
+}
+swiling_swamp_area = {
+	4367 4363 
+}
+volcanic_isles_area = {
+	4383 4385 4384 4386 4387 
+}
+karak_hirn_area = {
+	4481 4480 4479 4477 4478 
+}
+mighdal_vongalbarak_area = {
+	4473 4474 4475 4476 340 
+}
+karak_izor_area = {
+	4503 4502 4504 
+}
+karak_eksfilaz_area = {
+	4517 4113 
+}
+karak_kaferkammaz_area = {
+	4506 4501 4505 
+}
+karak_grom_area = {
+	4511 4510 
+}
+foul_peak_area = {
+	4512 4514 4513 4515 4516 
+}
+fester_spike_area = {
+	4494 4493 4495 
+}
+putrid_stump_area = {
+	4490 4491 4496 4497 
+}
+vault_1_area = {
+	4507 4508 4509 334 
+}
+vault_2_area = {
+	4498 4492 4499 4500 337 
+}
+zhufbar_area = {
+	4472 4471 4470 4531 4533 
+}
+karak_kadrin_area = {
+	4537 4538 
+}
+peak_pass_area = {
+	4539 4540 
+}
+kings_way_area = {
+	4542 4532 4543 4541 
+}
+grom_peak_area = {
+	4549 4548 4550 
+}
+red_eye_mountain_area = {
+	4558 4564 4557 
+}
+winter_teeth_pass_area = {
+	4529 
+}
+silver_pinnacle_area = {
+	4562 4563 4561 4560 
+}
+mount_gunbad_area = {
+	4546 4547 4545 
+}
+gnashrak_lair_area = {
+	4555 4554 4553 
+}
+north_king_way_area = {
+	4551 4552 4535 4534 
+}
+south_king_way_area = {
+	4536 4463 4464 4544 4462 
+}
+mount_grimfang_area = {
+	4458 4457 4456 4461 4455 
+}
+mount_squighorn_area = {
+	353 359 360 361 
+}
+silverspear_junction_area = {
+	4452 4451 4453 4454 4838 
+}
+iron_rock_outstricts_area = {
+	372 371 
+}
+thunder_junction_area = {
+	4447 4444 4445 370 369 
+}
+clan_rictus_tunnels = {
+	4450 4449 4448 4446 
+}
+black_crag_area = {
+	4440 4442 4443 364 
+}
+clan_moulder_tunnels = {
+	4572 4570 4569 
+}
+foecleaver_swan_song_area = {
+	4556 4559 4565 4566 
+}
+cragmere_area = {
+	4469 4468 
+}
+karag_dronar_area = {
+	4466 4467 
+}
+karak_vlag_area = {
+	4577 4567 4568 
+}
+kvinn_wyr_area = {
+	4410 4411 4436 4730 
+}
+karag_mhonar_area = {
+	4414 4415 4732 
+}
+karag_nar_area = {
+	4412 4413 4439 
+}
+karag_lhune_area = {
+	4434 4749 4738 
+}
+karagril_area = {
+	4530 4424 4435 4423 
+}
+karag_zilfin_area = {
+	4420 4425 4438 
+}
+karag_yar_area = {
+	4416 4421 4734 4733 
+}
+karag_rhyn_area = {
+	4417 4418 4419 
+}
+cripple_peak_area = {
+	4388 4389 666 
+}
+spitepak_area = {
+	4391 4390 377 374 
+}
+skull_crag_area = {
+	4395 4394 
+}
+red_cloud_mountain_area = {
+	4595 4594 4592 4811 4812 
+}
+karak_azul_area = {
+	4409 
+}
+crooked_fang_area = {
+	4406 4407 4405 4597 
+}
+karak_azgal_area = {
+	4408 4574 
+}
+karag_haraz_area = {
+	4402 4393 4392 4629 
+}
+clan_skurvy_tunnels_area = {
+	4528 4527 
+}
+iranna_mountains_tunnels_area = {
+	4518 4520 4519 4521 4522 
+}
+skavenblight_tunnels_area = {
+	4524 4526 4525 4523 
+}
+silent_isle_area = {
+	4246 
+}
+mangrove_coast_2_area = {
+	4350 4349 4348 4875 
+}
+mangrove_coast_3_area = {
+	4903 4904 4905 
+}
+skavenblight_area = {
+	2344 2336 
+}
+moulder_district_area = {
+	4604 4621 4615 
+}
+skryre_district_area = {
+	4605 4606 4607 4639 
+}
+pestilens_district_area = {
+	4622 4609 4610 
+}
+mors_district_area = {
+	4611 4612 
+}
+eshin_district_area = {
+	4614 4613 
+}
+central_skavenblight_area = {
+	4600 169 4603 4602 4601 
+}
+underempire_1_area = {
+	4648 4627 4650 
+}
+underempire_2_area = {
+	4628 4657 4655 4651 
+}
+underempire_3_area = {
+	4647 4723 4643 
+}
+underempire_5_area = {
+	4635 4638 4636 4637 4626 
+}
+underempire_4_area = {
+	4714 4715 4705 4713 
+}
+underempire_6_area = {
+	4718 4695 4693 4694 
+}
+underempire_7_area = {
+	4645 4623 4644 
+}
+underempire_8_area = {
+	4666 4665 4646 4663 4634 
+}
+underempire_9_area = {
+	4658 4706 
+}
+underempire_10_area = {
+	4661 4660 4659 4664 
+}
+underempire_11_area = {
+	4642 4641 
+}
+underempire_12_area = {
+	4640 4719 4662 
+}
+underempire_13_area = {
+	4697 4698 
+}
+underempire_14_area = {
+	4699 4716 4676 4683 
+}
+underempire_15_area = {
+	4678 4679 4682 4681 4677 
+}
+underempire_16_area = {
+	4624 4673 
+}
+underempire_17_area = {
+	4654 4656 4653 4652 4649 
+}
+underempire_19_area = {
+	4690 4692 4691 
+}
+underempire_20_area = {
+	4631 4616 4630 4632 4633 
+}
+underempire_21_area = {
+	4619 4618 4617 
+}
+underempire_22_area = {
+	4717 4702 4712 
+}
+underempire_23_area = {
+	4700 4680 
+}
+underempire_24_area = {
+	4704 4703 4687 
+}
+underempire_25_area = {
+	4710 4711 4709 
+}
+underempire_26_area = {
+	4708 4707 4834 
+}
+underempire_27_area = {
+	4688 4689 
+}
+underempire_28_area = {
+	4685 4686 4696 
+}
+underempire_29_area = {
+	4670 4671 4675 4667 4674 
+}
+underempire_30_area = {
+	4669 4668 
+}
+underempire_31_area = {
+	4672 4701 4684 
+}
+blisterdeep_area = {
+	4575 4482 4465 4273 4437 
+}
+karak_zorn_area = {
+	4598 4237 4279 4398 4422 
+}
+lost_plateau_area = {
+	4576 4579 4580 4578 
+}
+southern_underway_1_area = {
+	4583 4584 4581 
+}
+upper_pillar_city_area = {
+	4739 4742 
+}
+karak_eight_peaks_1_area = {
+	4737 4735 4740 4736 
+}
+karak_eight_peaks_2_area = {
+	4745 4741 4744 
+}
+karak_eight_peaks_3_area = {
+	4743 4747 4746 
+}
+southern_underway_2_area = {
+	4582 4748 4599 
+}
+southern_underway_3_area = {
+	4589 4591 4593 
+}
+doom_mountain_area = {
+	4809 4817 4816 4810 4819 
+}
+southern_underway_4_area = {
+	4399 4396 4400 4397 4596 
+}
+southern_underway_5_area = {
+	4404 4403 567 
+}
+southern_underway_6_area = {
+	4401 4729 4731 
+}
+khuresh_1_area = {
+	2865 2943 2947 
+}
+khuresh_2_area = {
+	2871 2874 2875 
+}
+khuresh_3_area = {
+	2856 2857 2858 2860 2862 
+}
+khuresh_4_area = {
+	2887 2906 
+}
+khuresh_5_area = {
+	2881 2912 2917 
+}
+khuresh_6_area = {
+	2927 2937 
+}
+khuresh_7_area = {
+	2932 2939 2929 2925 2913 
+}
+khuresh_8_area = {
+	2948 2949 2950 
+}
+khuresh_9_area = {
+	2955 2957 4807 2967 2978 2987 
+}
+khuresh_10_area = {
+	2989 2993 2991 4021 
+}
+khuresh_11_area = {
+	2995 4026 4111 
+}
+khuresh_12_area = {
+	4806 2515 4432 2867 
+}
+khuresh_13_area = {
+	4786 2902 4172 4256 2890 
+}
+khuresh_14_area = {
+	2900 2879 2878 2877 
+}
+west_ihan_area = {
+	4793 4794 4795 4796 
+}
+south_ihan_area = {
+	4797 4799 4798 
+}
+east_ihan_area = {
+	4801 4800 4803 4802 
+}
+central_ihan_area = {
+	4805 4804 
+}
+nippon_1_area = {
+	2513 2510 2509 
+}
+nippon_2_area = {
+	2519 2516 4789 
+}
+nippon_3_area = {
+	4760 4761 4762 
+}
+nippon_4_area = {
+	4768 4769 4767 
+}
+nippon_5_area = {
+	4430 4431 
+}
+nippon_6_area = {
+	4141 4785 4818 2148 4784 
+}
+nippon_7_area = {
+	4764 4787 4766 4765 4770 
+}
+nippon_8_area = {
+	4783 4782 4781 
+}
+nippon_9_area = {
+	4778 4776 4773 4774 4775 
+}
+nippon_10_area = {
+	4779 4780 4777 
+}
+nippon_11_area = {
+	4771 4791 4763 4772 
+}
+nippon_12_area = {
+	2069 2220 2216 4788 
+}
+nippon_13_area = {
+	2430 2362 2248 4836 
+}
+nippon_14_area = {
+	2338 4792 2341 
+}
+south_wastes_1_area = {
+	4751 4752 4587 
+}
+elithis_1_area = {
+	4759 4758 4150 2426 
+}
+elithis_2_area = {
+	2425 2424 2428 
+}
+elithis_3_area = {
+	2899 2895 4755 4753 2897 
+}
+elithis_4_area = {
+	2403 4146 
+}
+elithis_6_area = {
+	2896 2893 1028 
+}
+elithis_5_area = {
+	4757 4756 4754 
+}
+flayed_rock_area = {
+	2271 2272 2270 2276 
+}
+gnoblar_hills_area = {
+	2280 2282 601 
+}
+jade_river_area = {
+	1514 1469 1506 
+}
+great_canal_area = {
+	1382 
+}
+great_river_area = {
+	1505 1383 1418 
+}
+misty_mountain_area = {
+	4815 4814 385 382 
+}
+southern_underway_7_area = {
+	4590 4588 
+}
+inevitable_city_area = {
+	2434 2508 2555 2554 2551 
+}
+kamalaya_area = {
+	4823 4827 4826 4825 4824 
+}
+warpstone_hills_area = {
+	1220 4832 4833 
+}
+blizzard_peaks_area = {
+	4935 4934 
+}
+kdatha_area = {
+	4929 4924 4923 4926 4928 
+}
+the_claws_area = {
+	4863 4864 
+}
+north_honzamul_area = {
+	4841 4842 4850 
+}
+west_honzamul_area = {
+	4849 4848 4847 
+}
+south_honzamul_area = {
+	4853 4845 4846 
+}
+east_honzamul_area = {
+	4852 4851 4844 
+}
+central_yaxum_area = {
+	4862 4867 
+}
+south_yaxum_area = {
+	4860 4859 
+}
+east_yaxum_area = {
+	4857 4856 4858 
+}
+west_yaxum_area = {
+	4855 4866 4861 
+}
+heart_of_the_jungle_area = {
+	4881 4883 4880 4882 
+}
+cuexotl_area = {
+	4888 4889 4890 4884 4887 
+}
+smoking_caverns_of_sotek_area = {
+	4893 4835 
+}
+temple_of_skulls_area = {
+	4873 4872 4868 
+}
+kingdom_of_the_beasts_3_area = {
+	842 4879 4876 4874 4877 
+}
+kingdom_of_the_beasts_4_area = {
+	4878 4869 4871 
+}
+cuexotl_high_lands_area = {
+	4891 
+}
+karag_dum_area = {
+	1817 1170 4906 4907 
+}
+northern_grey_mountains_area = {
+	4908 4909
+}
+
 brittany_area = {
 	#5
 }
@@ -4189,1297 +5360,129 @@ brabant_area = {
 }
 luxemburg_liege_area = {
 }
-warmblood_isles_area = {
-	2374 2373 2372 2371 2370 
+#Legacy
+western_mediterrenean_area = {
 }
-plain_of_tuskers_1_area = {
-	1785 1786 1779 
+eastern_mediterrenean_area = {
 }
-plain_of_tuskers_2_area = {
-	1788 1792 1793 1789 
+black_sea_area = {
 }
-plain_of_tuskers_3_area = {
-	1780 1782 1781 
+baltic_area = {
 }
-plain_of_tuskers_4_area = {
-	1010 1784 1790 1791 
+kattegat_area = {
+	#Kattegat, Skagerrak, Sound and Belts
 }
-plain_of_tuskers_5_area = {
-	1794 4210 4209 
+north_sea_area = {
 }
-plain_of_tuskers_6_area = {
-	4199 4207 4208 
+norwegian_sea_area = {
+	#Norwegian Sea
 }
-far_wastes_1_area = {
-	2530 2572 2573 2575 
+white_sea_area = {
 }
-far_wastes_2_area = {
-	2578 2579 2577 2581 
+red_sea_area = {
 }
-far_wastes_3_area = {
-	2583 2585 2584 2532 2533 
+persian_gulf_area = {
+	#(+Makran)
 }
-far_wastes_4_area = {
-	2534 2535 2537 2538 2541 
+arabian_sea_area = {
 }
-frozen_city_area = {
-	2529 1990 1750 4056 
+andaman_sea_area = {
 }
-far_wastes_5_area = {
-	2536 2539 2540 
+bay_of_bengal_area = {
 }
-far_wastes_6_area = {
-	2542 2543 2544 2546 2545 
+eastern_indian_ocean_area = {
 }
-far_wastes_7_area = {
-	2547 2550 2552 
+western_indian_ocean_area = {
 }
-far_wastes_8_area = {
-	2548 2549 2553 
+south_indian_ocean_area = {
 }
-far_wastes_9_area = {
-	2558 2560 2557 
+great_australian_bight_area = {
 }
-far_wastes_10_area = {
-	2556 2561 2559 
+swahili_coast_sea_area = {
 }
-far_wastes_11_area = {
-	2564 2562 2563 2565 2358 
+south_china_sea_area = {
 }
-far_wastes_12_area = {
-	972 1213 1751 1987 1752 
+celebes_sea_area = {
+	#5
 }
-far_wastes_13_area = {
-	1991 1808 2628 2636 
+java_sea_area = {
+	#3
 }
-far_wastes_14_area = {
-	2570 2627 4062 
+east_china_sea_area = {
+	#8
 }
-far_wastes_15_area = {
-	2629 2635 2633 2630 2632 
+sea_of_japan_area = {
+	#10
 }
-chaos_wastes_1_area = {
-	2643 2644 2651 
+sea_of_okhotsk_area = {
 }
-chaos_wastes_2_area = {
-	2637 2638 2639 
+berring_sea_area = {
 }
-chaos_wastes_3_area = {
-	2631 2634 
+tasman_sea_area = {
 }
-chaos_wastes_4_area = {
-	2640 2642 2641 
+coral_sea_area = {
 }
-chaos_wastes_5_area = {
-	2645 2647 2646 
+philipine_sea_area = {
 }
-chaos_wastes_6_area = {
-	2648 2652 2649 2650 2653 
+banda_arafura_seas_area = {
 }
-chaos_wastes_7_area = {
-	2656 2657 2655 2654 
+gulf_of_alaska_area = {
 }
-chaos_wastes_8_area = {
-	2659 2667 2666 2665 2660 
+sea_of_grau_area = {
 }
-chaos_wastes_9_area = {
-	4938 2658 
+chilean_sea_area = {
 }
-chaos_wastes_10_area = {
-	2661 2662 2663 2664 
+gulf_of_panama_area = {
 }
-chaos_wastes_11_area = {
-	2673 2674 2675 2677 2687 
+bay_of_biscay_area = {
 }
-chaos_wastes_12_area = {
-	2672 2676 2679 2678 2671 
+english_channel_area = {
 }
-chaos_wastes_13_area = {
-	2689 2686 2688 2691 
+caribbean_sea_area = {
 }
-chaos_wastes_15_area = {
-	2668 2670 2669 
+gulf_of_mexico_area = {
 }
-chaos_wastes_17_area = {
-	2680 2682 2685 2681 
+sea_of_labrador_area = {
 }
-chaos_wastes_18_area = {
-	2690 2692 1997 2696 
+hudson_bay_sea_area = {
 }
-chaos_wastes_19_area = {
-	2695 2693 2714 2694 
+denmark_strait_area = {
 }
-chaos_wastes_20_area = {
-	2683 1823 2684 
+gulf_of_guinea_sea_area = {
 }
-chaos_wastes_21_area = {
-	2697 2698 2699 2700 2701 
+cape_of_storms_area = {
 }
-chaos_wastes_22_area = {
-	2702 2703 2704 2705 4828 
+skeleton_coast_area = {
 }
-chaos_wastes_23_area = {
-	2718 2723 2732 
+east_pacific_ocean_area = {
 }
-chaos_wastes_24_area = {
-	2715 2717 2716 
+polynesian_triangle_area = {
 }
-chaos_wastes_25_area = {
-	2724 2731 2733 2734 2725 2730 
+south_pacific_area = {
 }
-chaos_wastes_26_area = {
-	2727 2729 
+north_pacific_area = {
 }
-chaos_wastes_27_area = {
-	2711 2726 2712 
+north_pacific_coast_area = {
 }
-chaos_wastes_28_area = {
-	2706 2707 2709 2708 2710 
+coast_of_brazil_sea_area = {
 }
-chaos_wastes_29_area = {
-	2728 2713 2736 2739 2738 
+coast_of_guyana_area = {
 }
-chaos_wastes_30_area = {
-	1219 1217 1964 2149 2146 
+celtic_sea_area = {
 }
-chaos_wastes_31_area = {
-	2735 2819 2821 2824 
+west_african_coast_sea_area = {
 }
-weijin_area = {
-	2838 2837 2835 2836 
+south_atlantic_area = {
 }
-nangau_area = {
-	2839 2841 2842 2840 
+argentine_sea_area = {
 }
-cathay_1_area = {
-	2832 2831 2830 2829 2828 
+gulf_of_st_lawrence_area = {
 }
-cathay_2_area = {
-	2843 2844 2845 2846 
+gulf_stream_area = {
 }
-cathay_3_area = {
-	2834 2833 
+sargasso_sea_area = {
 }
-cathay_4_area = {
-	2847 2848 2851 2850 
+north_atlantic_area = {
 }
-cathay_6_area = {
-	2992 2855 
-}
-cathay_5_area = {
-	2974 2981 2982 2984 
-}
-eastern_steppes_1_area = {
-	4061 2722 4060 
-}
-eastern_steppes_2_area = {
-	4042 4043 4057 4058 4041 
-}
-eastern_steppes_3_area = {
-	4040 4039 4048 4047 4049 
-}
-eastern_steppes_4_area = {
-	4050 4051 4052 4459 4460 
-}
-eastern_steppes_5_area = {
-	2150 2151 2719 2153 2720 
-}
-eastern_steppes_6_area = {
-	1211 4034 4053 2885 4377 
-}
-eastern_steppes_7_area = {
-	4035 4036 4037 
-}
-eastern_steppes_8_area = {
-	4038 4044 4046 4045 
-}
-eastern_steppes_9_area = {
-	2011 2098 
-}
-eastern_steppes_10_area = {
-	4379 4378 4380 4381 4382 
-}
-cathay_7_area = {
-	2853 2854 4023 
-}
-cathay_8_area = {
-	2994 4022 2983 
-}
-cathay_9_area = {
-	2997 2998 3000 2999 
-}
-cathay_10_area = {
-	4029 4031 4247 4033 
-}
-cathay_11_area = {
-	4032 4024 4025 4028 
-}
-cathay_13_area = {
-	2985 2986 2988 
-}
-cathay_12_area = {
-}
-cathay_15_area = {
-	4248 2996 2990 
-}
-cathay_16_area = {
-	2852 4020 
-}
-cathay_17_area = {
-	2924 2923 2920 
-}
-cathay_18_area = {
-	2928 2931 4249 
-}
-cathay_19_area = {
-}
-cathay_20_area = {
-	2905 2907 2908 
-}
-cathay_21_area = {
-	2921 2918 2916 2915 
-}
-cathay_22_area = {
-	2914 2909 2910 
-}
-cathay_23_area = {
-	2904 2903 2894 
-}
-cathay_24_area = {
-	2922 2919 2966 
-}
-cathay_25_area = {
-	2911 
-}
-cathay_26_area = {
-	2892 2888 
-}
-cathay_27_area = {
-	2889 2891 2901 2898 
-}
-cathay_28_area = {
-}
-cathay_29_area = {
-	2884 2882 2883 2512 
-}
-cathay_30_area = {
-	2863 2861 
-}
-cathay_31_area = {
-	2864 2859 
-}
-cathay_32_area = {
-}
-cathay_33_area = {
-	2869 2870 
-}
-cathay_34_area = {
-}
-cathay_35_area = {
-	2876 2868 2866 
-}
-cathay_36_area = {
-	2872 2938 
-}
-cathay_37_area = {
-	2964 2965 
-}
-cathay_38_area = {
-	2926 2335 
-}
-cathay_39_area = {
-	2946 
-}
-cathay_40_area = {
-	2956 2954 4054 2951 
-}
-cathay_41_area = {
-	2940 2941 2945 
-}
-cathay_42_area = {
-	2944 4257 
-}
-cathay_43_area = {
-	2961 2333 2958 2960 
-}
-cathay_44_area = {
-	2962 2963 1215
-}
-cathay_45_area = {
-	2971 2970 2969 2972 
-}
-cathay_46_area = {
-	2973 2980 2979 2977 
-}
-cathay_47_area = {
-	2968 2975 2976 
-}
-mountains_of_mourn_1_area = {
-	4197 4244 2264 2265 
-}
-mountains_of_mourn_2_area = {
-	2267 2268 2269 2266 
-}
-mountains_of_mourn_3_area = {
-	2749 2750 2751 
-}
-mountains_of_mourn_4_area = {
-	2752 2755 2754 2753 
-}
-mountains_of_mourn_5_area = {
-	2756 2758 2757 
-}
-mountains_of_mourn_6_area = {
-	2761 2759 2762 2763 599 
-}
-mountains_of_mourn_7_area = {
-	2784 2786 2787 2785 2788 
-}
-mountains_of_mourn_8_area = {
-	2773 2774 2776 2775 
-}
-mountains_of_mourn_9_area = {
-	2766 2770 2768 2769 2791 
-}
-mountains_of_mourn_10_area = {
-	2767 2765 2764 1208 4936 
-}
-mountains_of_mourn_11_area = {
-	2772 2771 2798 2799 2801 
-}
-mountains_of_mourn_12_area = {
-	2818 2817 2802 2803 
-}
-mountains_of_mourn_13_area = {
-	2805 2807 2815 2808 2806 
-}
-mountains_of_mourn_14_area = {
-	2814 2813 2816 2812 
-}
-mountains_of_mourn_15_area = {
-	2811 2810 2809 4272 
-}
-mountains_of_mourn_16_area = {
-	2804 2797 2796 
-}
-mountains_of_mourn_18_area = {
-	2795 2789 2794 
-}
-mountains_of_mourn_19_area = {
-	2790 2780 2782 
-}
-mountains_of_mourn_20_area = {
-	4302 2792 2800 4300 
-}
-mountains_of_mourn_21_area = {
-	4301 2777 4303 
-}
-eastern_provinces_1_area = {
-	2933 4243 
-}
-eastern_provinces_2_area = {
-	2886 4251 
-}
-eastern_provinces_3_area = {
-	3002 3003 3001 
-}
-ind_1_area = {
-	2296 2959 
-}
-ind_2_area = {
-	2297 2298 4065 4066 2299 
-}
-ind_3_area = {
-	4069 4068 4067 
-}
-ind_4_area = {
-	4070 4071 4072 4073 
-}
-ind_5_area = {
-	4074 4075 4076 4190 4087 
-}
-ind_6_area = {
-	4253 4078 4079 4082 4083 
-}
-ind_7_area = {
-	4081 4077 
-}
-ind_8_area = {
-	4255 4091 4089 
-}
-ind_9_area = {
-	4090 4144 4147 4145 4149 
-}
-ind_10_area = {
-	4118 4114 4131 4428 
-}
-ind_11_area = {
-	4128 4142 
-}
-ind_12_area = {
-	4116 4115 4117 4120 4119 
-}
-ind_13_area = {
-	4096 4099 4098 4097 
-}
-ind_15_area = {
-	4127 4126 4148 4125 
-}
-ind_14_area = {
-	4130 4181 4182 
-}
-ind_17_area = {
-	4084 4085 4252 
-}
-ind_18_area = {
-	4112 4250 
-}
-ind_19_area = {
-	4109 4106 4110 
-}
-ind_20_area = {
-	4104 4105 
-}
-ind_21_area = {
-	4101 4100 4102 4103 
-}
-ind_22_area = {
-	4183 4185 4184 4187 4186 
-}
-ind_23_area = {
-	4188 4189 4191 4192 
-}
-ind_24_area = {
-	4095 4092 4093 
-}
-ind_25_area = {
-	4254 4180 4151 
-}
-ind_26_area = {
-	4143 4427 
-}
-ind_27_area = {
-}
-ind_29_area = {
-	4123 4124 4122 4121 551 
-}
-ind_28_area = {
-}
-great_bastion_area = {
-	2825 2826 2827 
-}
-eastern_colonies_1_area = {
-	2778 2748 4310 
-}
-eastern_colonies_2_area = {
-	4308 4309 
-}
-eastern_colonies_3_area = {
-	4306 4305 4307 2936 4304 
-}
-eastern_colonies_4_area = {
-	1994 1996 2005 
-}
-eastern_colonies_5_area = {
-	4312 4314 4315 4313 
-}
-eastern_colonies_7_area = {
-	2747 4316 2746 
-}
-eastern_colonies_8_area = {
-	2742 2743 2744 2745 
-}
-eastern_colonies_9_area = {
-	2740 2741 2007 
-}
-dragon_isles_01_area = {
-	4260 4261 4158 4854 4265 
-}
-dragon_isles_02_area = {
-	4263 4264 4840 4839 
-}
-dragon_isles_03_area = {
-	4271 4267 4269 4266 
-}
-dragon_isles_04_area = {
-	4268 4270 
-}
-river_of_ruin_area = {
-	1333 1335 1337 1343 1326 
-}
-lizard_sea_area = {
-	1686 1608 1338 1681 1615 1723 1463 1721 1720 
-}
-bitter_sea_area = {
-	1373 1724 1428 1298 1339 1332 1351 1530 1517 1330 
-}
-inner_sea_area = {
-	1271 1264 1269 1268 1286 1275 1394 
-}
-shifting_isles_sea_area = {
-	1288 1317 1287 1319 1301 1316 1313 1290 1320 1299
-}
-sunken_lands_sea = {
-	1277 1279 1294 1324 1328 1311 1283 1321 
-}
-sea_of_chill_area = {
-	1352 1532 1356 1354 1353 
-}
-sea_of_malice_area = {
-	1372 1350 1349 1363 1347 1285 1355 
-}
-sea_of_feuds_area = {
-	1362 1344 1322 1280 1357 1358 1348 
-}
-sea_of_mist_area = {
-	1566 1563 1361 1565 1569 1568 1567 1572 1582 
-}
-straits_of_fear_area = {
-	1367 1368 
-}
-bleak_sea_area = {
-	1364 1570 1365 1305 1531 
-}
-sea_of_serpeants = {
-	1312 1329 1369 1508 1542 1509 
-}
-river_amaxon_area = {
-	1579 1377 1902 
-}
-scorpion_coast_area = {
-	1375 1376 1527 1528 
-}
-vampire_coast_area = {
-	1586 1379 
-}
-river_qurveza_area = {
-	1529 1378 
-}
-mangrove_coast_area = {
-	1533 1539 1380 
-}
-the_lustria_strait_area = {
-	1706 1384 1385 1677 1381 
-}
-the_turtle_shallows_area = {
-	1544 1386 1546 1387 1388 
-}
-sea_of_squalls_area = {
-	1423 1426 1389 
-}
-sea_of_oblivion_area = {
-	1424 1429 
-}
-boiling_sea_area = {
-	1557 1682 1559 1684 1687 1694 1427 1422 
-}
-south_far_ocean_area = {
-	1393 1391 1390 1392 1395 1400 1398 1397 1396 1399
-	1556 1401 
-}
-central_far_ocean_area = {
-	1403 1404 1406 1408 1405 1402 1409 1412 1410 
-}
-north_far_ocean_area = {
-	1416 1414 1415 1420 1425 1413 1417 
-}
-gulf_of_medes_sea_area = {
-	1466 1449 1336 1467 
-}
-shark_straits_area = {
-	1472 1457 1473 1374 1468 
-}
-corsair_channel_area = {
-	1366 1456 1604 
-}
-western_straits_of_the_great_ocean_area = {
-	1503 1430 1626 1432 1431 1433 1709 1434 
-}
-southern_straits_area = {
-	1499 1500 1627 1462 1464 
-}
-southern_great_ocean_area = {
-	1452 1445 1455 1444 1454 1453 
-}
-south_western_great_ocean_area = {
-	1436 1440 1443 1439 1438 1437 
-}
-south_eastern_great_ocean_area = {
-	1435 1448 1446 1451 1447 1441 1691
-}
-churning_gulf_area = {
-	1461 1478 1465 1482 1484 
-}
-shifting_mangrove_coast_area = {
-	1487 1490 1493 1495 
-}
-sea_of_fear_area = {
-	1520 1510 1507 1708 4224 1536 1680
-}
-western_ind_coast_area = {
-	1516 1525 1521 1519 
-}
-eastern_isles_sea_area = {
-	1504 1511 1518 1512 1515 1360 1642 1616 
-}
-eastern_ind_coast_area = {
-	1524 1526 1670 1513 1672
-}
-sea_of_dread_area = {
-	1611 1540 1492 1491 1501 1477 1494 1340 1341 1459 
-}
-sea_of_weird_waves_area = {
-	1346 1612 1622 
-}
-western_coast_of_khuresh_area = {
-	1458 1345 1342 
-}
-gates_of_calith_area = {
-	1497 1421 1411 1450 
-}
-sea_of_eltihis_area = {
-	1588 1573 1589 1553 1552 1561 1587 1562 1571 1560
-	1551 1550 1523 
-}
-eastern_coast_of_khuresh_area = {
-	1535 1522 1419 1537 1538 
-}
-cathay_coast_area = {
-	1575 1549 1548 1543 
-}
-sea_of_nippon_area = {
-	1541 1331 1558 1581 1583 1585 1584 1592 1591 1593
-}
-seagrave_area = {
-	1574 1576 1577 
-}
-northern_jade_sea_area = {
-	1578 1580 1596 1595 1597 1614 1613 1633 1632 1634
-	1619 
-}
-central_jade_sea_area = {
-	1554 1609 1594 1618 1631 1636 1635 1606 1607 1620
-	1628 
-}
-south_jade_sea_area = {
-	1599 1602 1621 1625 1637 1624 1623 1601 1598 1605
-	1600 1603 
-}
-deaths_head_monoliths_area = {
-	4171 4173 4170 4176 4177 
-}
-nahuontl_area = {
-	4286 4287 4288 4289 
-}
-dawns_light_area = {
-	4327 4328 4326 4376 4325 
-}
-tor_elasor_area = {
-	4340 4341 4342 4343 
-}
-zlatlan_area = {
-	4293 4296 4294 4298 4292 
-}
-guardian_statues_area = {
-	4295 4297 
-}
-yuatek_area = {
-	4317 4299 4319 4320 4321 
-}
-tlaqua_area = {
-	4166 4274 4169 4275 4198 
-}
-churning_gulf_shore_area = {
-	4290 4291 4885 4886 
-}
-temple_avenue_area = {
-	4344 4337 4338 4339 4843 4345 
-}
-teotiqua_area = {
-	4901 4898 4899 4902 4900 4897 
-}
-teotiqua_highlands_area = {
-	4896 4894 4895 
-}
-tail_of_sotek_area = {
-	4332 4331 4330 4329 
-}
-jungle_of_the_gods_area = {
-	4335 916 4334 4336 
-}
-citadel_of_dusk_area = {
-	4354 4355 4356 4353 
-}
-fire_bogs_area = {
-	4374 4375 4368 
-}
-headhunters_jungle_area = {
-	4373 4372 
-}
-cape_badlands_area = {
-	4360 4361 4362 1207 
-}
-new_coast_1_area = {
-	4178 4179 4276 4277 4278 
-}
-new_coast_2_area = {
-	4280 4282 4281 4283 4284 
-}
-new_coast_3_area = {
-	4285 
-}
-new_coast_4_area = {
-	4318 4322 4323 4324 
-}
-southern_sentinel_area = {
-	4365 4364 4352 
-}
-night_forest_area = {
-	4359 1040 4821 
-}
-xlanzec_area = {
-	4829 4820 4830 
-}
-night_forest_area = {
-	4359 1040 4821 
-}
-culchan_plains_area = {
-	4366 4370 4371 
-}
-swiling_swamp_area = {
-	4367 4363 
-}
-volcanic_isles_area = {
-	4383 4385 4384 4386 4387 
-}
-karak_hirn_area = {
-	4481 4480 4479 4477 4478 
-}
-mighdal_vongalbarak_area = {
-	4473 4474 4475 4476 340 
-}
-karak_izor_area = {
-	4503 4502 4504 
-}
-karak_eksfilaz_area = {
-	4517 4113 
-}
-karak_kaferkammaz_area = {
-	4506 4501 4505 
-}
-karak_grom_area = {
-	4511 4510 
-}
-foul_peak_area = {
-	4512 4514 4513 4515 4516 
-}
-fester_spike_area = {
-	4494 4493 4495 
-}
-putrid_stump_area = {
-	4490 4491 4496 4497 
-}
-vault_1_area = {
-	4507 4508 4509 334 
-}
-vault_2_area = {
-	4498 4492 4499 4500 337 
-}
-zhufbar_area = {
-	4472 4471 4470 4531 4533 
-}
-karak_kadrin_area = {
-	4537 4538 
-}
-peak_pass_area = {
-	4539 4540 
-}
-kings_way_area = {
-	4542 4532 4543 4541 
-}
-grom_peak_area = {
-	4549 4548 4550 
-}
-red_eye_mountain_area = {
-	4558 4564 4557 
-}
-winter_teeth_pass_area = {
-	4529 
-}
-silver_pinnacle_area = {
-	4562 4563 4561 4560 
-}
-mount_gunbad_area = {
-	4546 4547 4545 
-}
-gnashrak_lair_area = {
-	4555 4554 4553 
-}
-north_king_way_area = {
-	4551 4552 4535 4534 
-}
-south_king_way_area = {
-	4536 4463 4464 4544 4462 
-}
-mount_grimfang_area = {
-	4458 4457 4456 4461 4455 
-}
-mount_squighorn_area = {
-	353 359 360 361 
-}
-silverspear_junction_area = {
-	4452 4451 4453 4454 4838 
-}
-iron_rock_outstricts_area = {
-	372 371 
-}
-thunder_junction_area = {
-	4447 4444 4445 370 369 
-}
-clan_rictus_tunnels = {
-	4450 4449 4448 4446 
-}
-black_crag_area = {
-	4440 4442 4443 364 
-}
-clan_moulder_tunnels = {
-	4572 4570 4569 
-}
-foecleaver_swan_song_area = {
-	4556 4559 4565 4566 
-}
-cragmere_area = {
-	4469 4468 
-}
-karag_dronar_area = {
-	4466 4467 
-}
-karak_vlag_area = {
-	4577 4567 4568 
-}
-kvinn_wyr_area = {
-	4410 4411 4436 4730 
-}
-karag_mhonar_area = {
-	4414 4415 4732 
-}
-karag_nar_area = {
-	4412 4413 4439 
-}
-karag_lhune_area = {
-	4434 4749 4738 
-}
-karagril_area = {
-	4530 4424 4435 4423 
-}
-karag_zilfin_area = {
-	4420 4425 4438 
-}
-karag_yar_area = {
-	4416 4421 4734 4733 
-}
-karag_rhyn_area = {
-	4417 4418 4419 
-}
-cripple_peak_area = {
-	4388 4389 666 
-}
-spitepak_area = {
-	4391 4390 377 374 
-}
-skull_crag_area = {
-	4395 4394 
-}
-red_cloud_mountain_area = {
-	4595 4594 4592 4811 4812 
-}
-karak_azul_area = {
-	4409 
-}
-crooked_fang_area = {
-	4406 4407 4405 4597 
-}
-karak_azgal_area = {
-	4408 4574 
-}
-karag_haraz_area = {
-	4402 4393 4392 4629 
-}
-clan_skurvy_tunnels_area = {
-	4528 4527 
-}
-iranna_mountains_tunnels_area = {
-	4518 4520 4519 4521 4522 
-}
-skavenblight_tunnels_area = {
-	4524 4526 4525 4523 
-}
-silent_isle_area = {
-	4246 
-}
-mangrove_coast_2_area = {
-	4350 4349 4348 4875 
-}
-mangrove_coast_3_area = {
-	4903 4904 4905 
-}
-skavenblight_area = {
-	2344 2336 
-}
-moulder_district_area = {
-	4604 4621 4615 
-}
-skryre_district_area = {
-	4605 4606 4607 4639 
-}
-pestilens_district_area = {
-	4622 4609 4610 
-}
-mors_district_area = {
-	4611 4612 
-}
-eshin_district_area = {
-	4614 4613 
-}
-central_skavenblight_area = {
-	4600 169 4603 4602 4601 
-}
-underempire_1_area = {
-	4648 4627 4650 
-}
-underempire_2_area = {
-	4628 4657 4655 4651 
-}
-underempire_3_area = {
-	4647 4723 4643 
-}
-underempire_5_area = {
-	4635 4638 4636 4637 4626 
-}
-underempire_4_area = {
-	4714 4715 4705 4713 
-}
-underempire_6_area = {
-	4718 4695 4693 4694 
-}
-underempire_7_area = {
-	4645 4623 4644 
-}
-underempire_8_area = {
-	4666 4665 4646 4663 4634 
-}
-underempire_9_area = {
-	4658 4706 
-}
-underempire_10_area = {
-	4661 4660 4659 4664 
-}
-underempire_11_area = {
-	4642 4641 
-}
-underempire_12_area = {
-	4640 4719 4662 
-}
-underempire_13_area = {
-	4697 4698 
-}
-underempire_14_area = {
-	4699 4716 4676 4683 
-}
-underempire_15_area = {
-	4678 4679 4682 4681 4677 
-}
-underempire_16_area = {
-	4624 4673 
-}
-underempire_17_area = {
-	4654 4656 4653 4652 4649 
-}
-underempire_19_area = {
-	4690 4692 4691 
-}
-underempire_20_area = {
-	4631 4616 4630 4632 4633 
-}
-underempire_21_area = {
-	4619 4618 4617 
-}
-underempire_22_area = {
-	4717 4702 4712 
-}
-underempire_23_area = {
-	4700 4680 
-}
-underempire_24_area = {
-	4704 4703 4687 
-}
-underempire_25_area = {
-	4710 4711 4709 
-}
-underempire_26_area = {
-	4708 4707 4834 
-}
-underempire_27_area = {
-	4688 4689 
-}
-underempire_28_area = {
-	4685 4686 4696 
-}
-underempire_29_area = {
-	4670 4671 4675 4667 4674 
-}
-underempire_30_area = {
-	4669 4668 
-}
-underempire_31_area = {
-	4672 4701 4684 
-}
-blisterdeep_area = {
-	4575 4482 4465 4273 4437 
-}
-karak_zorn_area = {
-	4598 4237 4279 4398 4422 
-}
-lost_plateau_area = {
-	4576 4579 4580 4578 
-}
-southern_underway_1_area = {
-	4583 4584 4581 
-}
-upper_pillar_city_area = {
-	4739 4742 
-}
-karak_eight_peaks_1_area = {
-	4737 4735 4740 4736 
-}
-karak_eight_peaks_2_area = {
-	4745 4741 4744 
-}
-karak_eight_peaks_3_area = {
-	4743 4747 4746 
-}
-southern_underway_2_area = {
-	4582 4748 4599 
-}
-southern_underway_3_area = {
-	4589 4591 4593 
-}
-doom_mountain_area = {
-	4809 4817 4816 4810 4819 
-}
-southern_underway_4_area = {
-	4399 4396 4400 4397 4596 
-}
-southern_underway_5_area = {
-	4404 4403 567 
-}
-southern_underway_6_area = {
-	4401 4729 4731 
-}
-khuresh_1_area = {
-	2865 2943 2947 
-}
-khuresh_2_area = {
-	2871 2874 2875 
-}
-khuresh_3_area = {
-	2856 2857 2858 2860 2862 
-}
-khuresh_4_area = {
-	2887 2906 
-}
-khuresh_5_area = {
-	2881 2912 2917 
-}
-khuresh_6_area = {
-	2927 2937 
-}
-khuresh_7_area = {
-	2932 2939 2929 2925 2913 
-}
-khuresh_8_area = {
-	2948 2949 2950 
-}
-khuresh_9_area = {
-	2955 2957 4807 2967 2978 2987 
-}
-khuresh_10_area = {
-	2989 2993 2991 4021 
-}
-khuresh_11_area = {
-	2995 4026 4111 
-}
-khuresh_12_area = {
-	4806 2515 4432 2867 
-}
-khuresh_13_area = {
-	4786 2902 4172 4256 2890 
-}
-khuresh_14_area = {
-	2900 2879 2878 2877 
-}
-west_ihan_area = {
-	4793 4794 4795 4796 
-}
-south_ihan_area = {
-	4797 4799 4798 
-}
-east_ihan_area = {
-	4801 4800 4803 4802 
-}
-central_ihan_area = {
-	4805 4804 
-}
-nippon_1_area = {
-	2513 2510 2509 
-}
-nippon_2_area = {
-	2519 2516 4789 
-}
-nippon_3_area = {
-	4760 4761 4762 
-}
-nippon_4_area = {
-	4768 4769 4767 
-}
-nippon_5_area = {
-	4430 4431 
-}
-nippon_6_area = {
-	4141 4785 4818 2148 4784 
-}
-nippon_7_area = {
-	4764 4787 4766 4765 4770 
-}
-nippon_8_area = {
-	4783 4782 4781 
-}
-nippon_9_area = {
-	4778 4776 4773 4774 4775 
-}
-nippon_10_area = {
-	4779 4780 4777 
-}
-nippon_11_area = {
-	4771 4791 4763 4772 
-}
-nippon_12_area = {
-	2069 2220 2216 4788 
-}
-nippon_13_area = {
-	2430 2362 2248 4836 
-}
-nippon_14_area = {
-	2338 4792 2341 
-}
-south_wastes_1_area = {
-	4751 4752 4587 
-}
-elithis_1_area = {
-	4759 4758 4150 2426 
-}
-elithis_2_area = {
-	2425 2424 2428 
-}
-elithis_3_area = {
-	2899 2895 4755 4753 2897 
-}
-elithis_4_area = {
-	2403 4146 
-}
-elithis_6_area = {
-	2896 2893 1028 
-}
-elithis_5_area = {
-	4757 4756 4754 
-}
-flayed_rock_area = {
-	2271 2272 2270 2276 
-}
-gnoblar_hills_area = {
-	2280 2282 601 
-}
-jade_river_area = {
-	1514 1469 1506 
-}
-great_canal_area = {
-	1382 
-}
-great_river_area = {
-	1505 1383 1418 
-}
-misty_mountain_area = {
-	4815 4814 385 382 
-}
-southern_underway_7_area = {
-	4590 4588 
-}
-inevitable_city_area = {
-	2434 2508 2555 2554 2551 
-}
-kamalaya_area = {
-	4823 4827 4826 4825 4824 
-}
-warpstone_hills_area = {
-	1220 4832 4833 
-}
-blizzard_peaks_area = {
-	4935 4934 
-}
-kdatha_area = {
-	4929 4924 4923 4926 4928 
-}
-the_claws_area = {
-	4863 4864 
-}
-north_honzamul_area = {
-	4841 4842 4850 
-}
-west_honzamul_area = {
-	4849 4848 4847 
-}
-south_honzamul_area = {
-	4853 4845 4846 
-}
-east_honzamul_area = {
-	4852 4851 4844 
-}
-central_yaxum_area = {
-	4862 4867 
-}
-south_yaxum_area = {
-	4860 4859 
-}
-east_yaxum_area = {
-	4857 4856 4858 
-}
-west_yaxum_area = {
-	4855 4866 4861 
-}
-heart_of_the_jungle_area = {
-	4881 4883 4880 4882 
-}
-cuexotl_area = {
-	4888 4889 4890 4884 4887 
-}
-smoking_caverns_of_sotek_area = {
-	4893 4835 
-}
-temple_of_skulls_area = {
-	4873 4872 4868 
-}
-kingdom_of_the_beasts_3_area = {
-	842 4879 4876 4874 4877 
-}
-kingdom_of_the_beasts_4_area = {
-	4878 4869 4871 
-}
-cuexotl_high_lands_area = {
-	4891 
-}
-karag_dum_area = {
-	1817 1170 4906 4907 
-}
-northern_grey_mountains_area = {
-	4908 4909
+bahama_channel_area = {
 }

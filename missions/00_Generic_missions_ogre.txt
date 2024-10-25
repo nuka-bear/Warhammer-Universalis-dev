@@ -164,13 +164,17 @@ gen_ogre_missions = {
 			province_has_center_of_trade_of_level = 1
 		}
 		trigger = {
-			num_of_centers_of_trade = 5
-			has_center_of_trade_of_level = 3
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				OR = {
+					province_has_center_of_trade_of_level = 3 
+				}
+				value = 5 
+			}
 		}
 
 		effect = {
 			add_country_modifier = { 
- 				name = dominate_ivory_road
+ 				name = gen_ogre_dominate_ivory_road
 				duration = -1
 			}
 		}
