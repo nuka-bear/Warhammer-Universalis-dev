@@ -34,7 +34,6 @@ country_event = {
 		trigger = {
 			A17 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -188,6 +187,12 @@ country_event = {
 					alliance_with = ROOT
 				}
 			}
+			modifier = {
+				factor = 100
+				A17 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}
 		}
 	}
 	# We vote for the Duke of Courronne
@@ -196,7 +201,6 @@ country_event = {
 		trigger = {
 			A15 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -350,6 +354,12 @@ country_event = {
 					alliance_with = ROOT
 				}
 			}
+			modifier = {
+				factor = 100
+				A15 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}
 		}
 	}
 	# We vote for the Duke of l'anguille
@@ -358,7 +368,6 @@ country_event = {
 		trigger = {
 			A16 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -512,6 +521,12 @@ country_event = {
 					alliance_with = ROOT
 				}
 			}
+			modifier = {
+				factor = 100
+				A16 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}	
 		}
 	}
 	#Artois
@@ -520,7 +535,6 @@ country_event = {
 		trigger = {
 			A18 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -674,6 +688,12 @@ country_event = {
 					alliance_with = ROOT
 				}
 			}
+			modifier = {
+				factor = 100
+				A18 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}
 		}
 	}
 	#bordelaux
@@ -682,7 +702,6 @@ country_event = {
 		trigger = {
 			A21 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -848,6 +867,12 @@ country_event = {
 					alliance_with = ROOT
 				}
 			}
+			modifier = {
+				factor = 100
+				A21 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}
 		}
 	}
 	#gisoreux
@@ -856,7 +881,6 @@ country_event = {
 		trigger = {
 			A19 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -1022,6 +1046,12 @@ country_event = {
 					alliance_with = ROOT
 				}
 			}
+			modifier = {
+				factor = 100
+				A19 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}
 		}
 	}
 	#bastonnne
@@ -1030,7 +1060,6 @@ country_event = {
 		trigger = {
 			A22 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -1196,6 +1225,12 @@ country_event = {
 					alliance_with = ROOT
 				}
 			}
+			modifier = {
+				factor = 100
+				A22 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}
 		}
 	}
 	#montfont
@@ -1204,7 +1239,6 @@ country_event = {
 		trigger = {
 			A23 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -1370,6 +1404,12 @@ country_event = {
 					alliance_with = ROOT
 				}
 			}
+			modifier = {
+				factor = 100
+				A23 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}
 		}
 	}
 	#aquitane
@@ -1378,7 +1418,6 @@ country_event = {
 		trigger = {
 			A24 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -1544,6 +1583,12 @@ country_event = {
 					alliance_with = ROOT
 				}
 			}
+			modifier = {
+				factor = 100
+				A24 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}
 		}
 	}
 	#brionne
@@ -1552,7 +1597,6 @@ country_event = {
 		trigger = {
 			A25 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -1718,6 +1762,12 @@ country_event = {
 					alliance_with = ROOT
 				}
 			}
+			modifier = {
+				factor = 100
+				A25 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}
 		}
 	}
 	#quenelles
@@ -1726,7 +1776,6 @@ country_event = {
 		trigger = {
 			A26 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -1746,6 +1795,12 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 100
+				A26 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}
 			modifier = {
 				factor = 30
 				A26 = {
@@ -1900,7 +1955,6 @@ country_event = {
 		trigger = {
 			A27 = {
 				AND = {
-					ruler_has_personality = grail_knight_personality
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -1921,7 +1975,14 @@ country_event = {
 		ai_chance = {
 			factor = 1
 			modifier = {
+				factor = 100
+				A27 = {
+					ruler_has_personality = grail_knight_personality
+				}
+			}
+			modifier = {
 				factor = 30
+				
 				A27 = {
 					is_great_power = yes
 				}
@@ -2074,7 +2135,185 @@ country_event = {
 		trigger = {
 			A28 = {
 				AND = {
+					OR = {
+						has_reform = bretonnian_dukedom_reform
+						has_reform = bretonnian_royarch_reform
+					}
+				}
+			}
+			NOT = {
+				tag = A28
+			}
+		}
+		clr_country_flag = royarch_still_considering
+		A28 = {
+			change_variable = {
+				which = royarch_vote
+				value = 1
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 30
+				A28 = {
+					is_great_power = yes
+				}
+			}
+			modifier = {
+				factor = 10
+				A28 = {
+					stability = 2
+				}
+			}
+			modifier = {
+				factor = 10
+				A28 = {
+					stability = 3
+				}
+			}
+			modifier = {
+				factor = 20
+				A28 = {
+					max_manpower = 50
+				}
+			}
+			modifier = {
+				factor = 100
+				A28 = {
+					ai = no
+				}
+			}
+			modifier = {
+				factor = 100
+				A28 = {
 					ruler_has_personality = grail_knight_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				A28 = {
+					OR = {
+						mil = 5
+						adm = 5
+						dip = 5
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				A28 = {
+					OR = {
+						mil = 6
+						adm = 6
+						dip = 6
+					}
+				}
+			}
+			modifier = {
+				factor = 5
+				A28 = {
+					treasury = ROOT
+				}
+			}
+			modifier = {
+				factor = 15
+				A28 = {
+					treasury = 1000
+				}
+			}
+			modifier = {
+				factor = 5
+				A28 = {
+					max_sailors = 5000
+				}
+			}
+			modifier = {
+				factor = 5
+				A28 = {
+					tech_difference = 1
+				}
+			}
+			modifier = {
+				factor = 5
+				A28 = {
+					total_development = ROOT
+				}
+			}
+			modifier = {
+				factor = 10
+				A28 = {
+					total_development = 200
+				}
+			}
+			modifier = {
+				factor = 10
+				A28 = {
+					has_matching_religion = ROOT
+				}
+			}
+			modifier = {
+				factor = 5
+				A28 = {
+					reverse_has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+			}
+			modifier = {
+				factor = 5
+				A28 = {
+					reverse_has_opinion = {
+						who = ROOT
+						value = 50
+					}
+				}
+			}
+			modifier = {
+				factor = 5
+				A28 = {
+					prestige = ROOT
+				}
+			}
+			modifier = {
+				factor = 20
+				A28 = {
+					prestige = 50
+				}
+			}
+			modifier = {
+				factor = 30
+				A28 = {
+					num_of_infantry = 100
+				}
+			}
+			modifier = {
+				factor = 5
+				A28 = {
+					government_rank = 2
+				}
+			}
+			modifier = {
+				factor = 25
+				A28 = {
+					government_rank = 3
+				}
+			}
+			modifier = {
+				factor = 15
+				A28 = {
+					alliance_with = ROOT
+				}
+			}
+		}
+	}
+	#fail-safe
+	option = {
+		name = "flavor_bretonnia.1.o"
+		trigger = {
+			A28 = {
+				AND = {
 					OR = {
 						has_reform = bretonnian_dukedom_reform
 						has_reform = bretonnian_royarch_reform
@@ -2584,12 +2823,9 @@ country_event = {
 	}
 }
 
-
-
 ### Reform Events ####
 ### Reform Events ####
 ### Reform Events ####
-
 # Start of Event
 country_event = {
 	id = flavor_bretonnia.200
@@ -2619,7 +2855,6 @@ country_event = {
 			}
 		}
 	}
-
 }
 
 # Warfare

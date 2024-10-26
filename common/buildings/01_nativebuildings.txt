@@ -79,7 +79,7 @@ native_fortified_house = {
 		owner = { government = native }
 	}
 	modifier = {
-		land_forcelimit = 5
+		land_forcelimit = 10
 	}
 	one_per_country = yes
 	government_specific = yes

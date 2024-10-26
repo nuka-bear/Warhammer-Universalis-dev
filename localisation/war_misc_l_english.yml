@@ -52,3 +52,19 @@
  
  root_destruction:0 "Different Allignment"
  
+ #Karak eight Peaks
+ 
+ karak_eight_peaks.1.t:0 "The War for Karak Eight Peaks"
+ karak_eight_peaks.1.d:0 "There will be no peace under the mountains of Karak Eight Peaks until there is one clear winner."
+ karak_eight_peaks.1.a:0 "Ok."
+ cb_war_for_k8p:0 "War for Karak Eight Peaks"
+ cb_war_for_k8p_desc:0 "Karak Eight Peaks is ours for the taking!"
+ wg_war_k8p:0 "REPLACE_ME"
+ wg_war_k8p_desc:0 "REPLACE_ME"
+ po_k8p_annexation:0 "REPLACE_ME"
+ po_k8p_annexation_desc:0 "REPLACE_ME"
+ CB_ALLOWED_po_k8p_annexation:0 "REPLACE_ME"
+ PEACE_po_k8p_annexation:0 "REPLACE_ME"
+ kark_eight_peaks_start_tooltip:0 "Fully occupy our enemies to end the war!"
+ GOBLIN_EIGHT_PEAKS:0 "Goblin Eight Peaks"
+ 

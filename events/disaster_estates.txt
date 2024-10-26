@@ -420,7 +420,7 @@ country_event = {
 			estate = estate_cossacks
 			government = republic
 			government_reform = republican_dictatorship
-			custom_national_ideas = cossack_ideas
+		#	custom_national_ideas = cossack_ideas
 			play_as = no
 		}
 	}
@@ -447,7 +447,7 @@ country_event = {
 			estate = estate_cossacks
 			government = republic
 			government_reform = republican_dictatorship
-			custom_national_ideas = cossack_ideas
+		#	custom_national_ideas = cossack_ideas
 			play_as = yes
 		}
 	}

@@ -962,5 +962,18 @@
  honor_unto_death:0 "Honor Unto Death"
  honor_unto_death_desc:0 "'Sweet green field \n pink flowers bloom \n a life to sword will yield' \n \nDeath played a key role in the fanatical warrior philosophy of Bushido. Lizardmen willingly gave and took their own lives for the sake of honor and respect. It was said that Bushido itself meant to accept death, or to even look for it."
   
+ ######################################
+ # Natives                                   
+ ######################################
+ building_native_earthwork:0 "Haunted Tower"
+ building_native_palisade:0 "Dark Fortress"
+ building_native_fortified_house:0 "Warrior's Hall"
+ building_native_three_sisters_field:0 "Profaned Sanctum"
+ building_native_irrigation:0 "Skull Hall"
+ building_native_storehouse:0 "Spoils of War"
+ building_native_longhouse:0 "Strategy Chamber"
+ building_native_sweat_lodge:0 "Vassal Emissary"
+ building_native_great_trail:0 "Bloody Barracks"
+ building_native_ceremonial_fire_pit:0 "Treasure House"
  
  

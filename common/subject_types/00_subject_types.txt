@@ -1648,16 +1648,12 @@ dominion = {
 	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
 	modifier_subject = clear #Ditto
 	modifier_subject = {
-	}
-	modifier_subject = {
 		modifier = subject_tax_modifier
 		trigger = {
 			overlord = {
 				has_government_attribute = subject_tax_modifier_25
 			}
 		}
-	}
-	modifier_overlord = {
 	}
 }
 

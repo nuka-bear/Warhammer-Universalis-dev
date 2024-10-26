@@ -80,6 +80,8 @@
  southern_world_edge_trade_node:0 "Southern World's Edge Mountains"
  south_skavendom_trade_node:0 "South Skavendom"
  north_skavendom_trade_node:0 "North Skavendom"
+ calith_trade_node:0 "Calith"
+ ihan_trade_node:0 "Ihan"
  
  
  trade_company_magritta:0 "South Estalia"
