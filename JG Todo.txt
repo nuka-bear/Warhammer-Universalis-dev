@@ -1,15 +1,19 @@
 
 JG To Do & Thoughts
 
-4395 - 4572 Dwarf
-
 Raiding happens when people reclaim their own lands
 	Might be fixed, check if this works. - Nope!
 
 Burger Privelage if your capital is in a subterranean zone, then you get + in subterranean, - in non-subterranean
 	Look at hydralaogic empire.
 
+Make all the Loyalty missions also require an agenda to be completed
+
 Dimmed Sunz starts with no army!
+
+Consolidate Localizations by race
+
+Check how many temple cities there actually are for lizard final mission
 
 Cool images for everything
 	Monuments
@@ -40,6 +44,8 @@ Lizards
 		Province Group?
 		Number of Superregions?
 	State maintenence is low if they control the whole state?
+	Prosperity?
+	Spell to make devestation in all enemy lands
 
 Dwarves
 

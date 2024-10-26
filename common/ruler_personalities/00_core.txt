@@ -3766,3 +3766,32 @@ grail_knight_personality = {
 	gift_chance = 50 
 	wants_land = yes
 }
+
+
+
+### Slann, only through decision
+
+slann_personality = {
+	
+	allow = {	
+		culture_group = lizardmen_group
+	}
+
+	chance = {
+		modifier = {
+			factor = 10
+			has_country_modifier = lizard_6th_spawning
+		}
+
+	}
+
+	global_prosperity_growth = 0.1
+	shock_damage = 0.05
+	all_power_cost = -0.05
+
+	nation_designer_cost = 100
+
+	static = yes # Makes nation_designer_cost not scale with age etc. 
+
+}
+

@@ -30,6 +30,10 @@ gen_ind_missions = {
 			    estate = estate_nobles
 			    loyalty = 65
 			}
+			num_of_estate_agendas_completed = {
+				estate = estate_nobles
+				value = 1
+			}
 		}
 
 		effect = { 
@@ -201,6 +205,10 @@ gen_thousand_gods_missions = {
 			estate_loyalty = {
 			    estate = estate_church
 			    loyalty = 65
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_church
+				value = 1
 			}
 		}
 

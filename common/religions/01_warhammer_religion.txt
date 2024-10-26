@@ -1089,6 +1089,7 @@ skaven_denominations = {
 ########################################################################################################################	
 lizardmen_denominations = {
 	flags_with_emblem_percentage = 10
+	defender_of_faith = yes
 	flag_emblem_index_range = {
 		83
 		96

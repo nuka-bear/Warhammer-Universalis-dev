@@ -19,6 +19,10 @@ gen_cathay_missions = {
 				estate = estate_nobles
 				loyalty = 65
 			}
+			num_of_estate_agendas_completed = {
+				estate = estate_nobles
+				value = 1
+			}
 		}
 		effect = {
 			add_years_of_income = 0.5
@@ -379,6 +383,10 @@ gen_yin_yang_missions = {
 			estate_loyalty = {
 				estate = estate_church
 				loyalty = 65
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_church
+				value = 1
 			}
 		}
 		effect = {

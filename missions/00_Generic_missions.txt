@@ -334,6 +334,18 @@ diplomatic_missions = {
     			estate = estate_nobles
     			loyalty = 60
 			}
+			num_of_estate_agendas_completed = {
+				estate = estate_church
+				value = 1
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_burghers
+				value = 1
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_nobles
+				value = 1
+			}
 
 		}
 		effect = {
@@ -486,6 +498,10 @@ administrative_missions = {
 			estate_loyalty = {
  				estate = estate_burghers
     			loyalty = 65
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_burghers
+				value = 1
 			}
 		}
 		effect = {

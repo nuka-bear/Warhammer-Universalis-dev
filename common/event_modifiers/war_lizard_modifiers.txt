@@ -1,0 +1,68 @@
+
+### Lizard
+
+
+### Our skink researchers have somewhere to reserach.
+lizard_skink_researchers = {
+	technology_cost = -0.05
+}
+
+
+## We are now able to core anywhere, regardless of distance
+lizard_core_anywhere = {
+	ignore_coring_distance = yes
+}
+
+### Our infantry use their beserk rage.
+lizard_saurus_warriors = {	
+	infantry_power = 0.025
+}
+
+### Our giant dinosaurs are more integrated into our army. There can be more of them, and they are cheaper.
+lizard_better_monsters_1 = {
+	allowed_cossack_fraction = 0.1
+	special_unit_cost_modifier = -0.1
+}
+
+### Our giant dinosaurs are more integrated into our army.  There can be more of them, and they are cheaper.
+lizard_better_monsters_2 = {
+	allowed_cossack_fraction = 0.1
+	special_unit_cost_modifier = -0.1
+}
+
+### We have done as the Old Ones Decreed and now the power of the planet is ours. The geomantic web is complete
+lizard_geomantic_web = {
+	all_power_cost = -0.15
+}
+
+### Old Ones
+
+### Let us seek out the nexuses in the Geomantic web
+lizard_allow_geomantic_web = {
+	colonists = 1
+}
+
+lizard_6th_spawning_site = {
+	local_development_cost = -0.25
+}
+
+lizard_ritual_site_ready = {
+	all_power_cost = -0.01
+}
+
+lizard_6th_spawning = {
+	global_prosperity_growth = 0.1
+}
+
+lizard_explosive_growth = {
+	missionaries = 1
+	culture_conversion_time = -0.5
+}
+
+lizard_innovation = {
+	innovativeness_gain = 0.5
+}
+
+lizard_colonists = {
+	colonists = 1
+}

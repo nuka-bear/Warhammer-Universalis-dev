@@ -19,6 +19,10 @@ gen_araby_missions = {
 				estate = estate_nobles
 				loyalty = 65
 			}
+			num_of_estate_agendas_completed = {
+				estate = estate_nobles
+				value = 1
+			}
 		}
 		effect = {
 			add_country_modifier = {
@@ -198,6 +202,10 @@ gen_one_faith_missions = {
 				estate = estate_church
 				loyalty = 65
 			}
+			num_of_estate_agendas_completed = {
+				estate = estate_church
+				value = 1
+			}
 		}
 		effect = {
 			add_country_modifier = {
@@ -340,6 +348,10 @@ gen_greenskin_missions = {
 			estate_loyalty = {
 				estate = estate_nobles
 				loyalty = 65
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_nobles
+				value = 1
 			}
 		}
 		effect = {
@@ -532,6 +544,10 @@ gen_gork_missions = {
 			estate_loyalty = {
 				estate = estate_church
 				loyalty = 65
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_church
+				value = 1
 			}
 		}
 		effect = {
@@ -1371,6 +1387,10 @@ gen_nehekhara_missions = {
 				estate = estate_nobles
 				loyalty = 65
 			}
+			num_of_estate_agendas_completed = {
+				estate = estate_nobles
+				value = 1
+			}
 		}
 		effect = {
 			define_general = {
@@ -1463,6 +1483,10 @@ gen_nehekharan_pantheon_missions = {
 			estate_loyalty = {
 				estate = estate_church
 				loyalty = 65
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_church
+				value = 1
 			}
 		}
 		effect = {
