@@ -191,7 +191,7 @@ country_decisions = {
 				add_claim = U40
 			}
 			add_prestige = 50
-			override_country_name = GOBLINEIGHTPEAKS_NAME
+			override_country_name = GOBLIN_EIGHT_PEAKS
 			set_country_flag = goblin_eight_peaks_formed_flag
 		}
 		ai_will_do = {

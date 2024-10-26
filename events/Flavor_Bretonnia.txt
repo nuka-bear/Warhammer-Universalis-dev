@@ -2517,8 +2517,18 @@ country_event = {
 	picture = SUFFERING_CHINESE_VILLAGE_eventPicture
 	is_triggered_only = yes
 	trigger = {
+		root = {
+			not = {
+				has_reform = bretonnian_dukedom_reform
+			}
+		}
 		FROM = {
 			has_reform = bretonnian_royarch_reform
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			set_country_flag = release_invalid_bretonnian_dukedom
 		}
 	}
 	option = {
@@ -2527,8 +2537,54 @@ country_event = {
 		add_dip_power = 50
 		add_mil_power = 50
 		add_adm_power = 50
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							not = {
+								culture_group = bretonnian_group
+							}
+						}
+						capital_scope = {
+							NOT = {
+								region = bretonnia_region
+							}
+						}
+					}
+				}
+				every_subject_country = {
+					limit = {
+						is_subject_of_type = bretonnian_dukedom_subject
+					}
+					grant_independence = yes
+				}
+			}
+			else = {
+				every_subject_country = {
+					limit = {
+						is_subject_of_type = bretonnian_dukedom_subject
+						OR = {
+							AND = {
+								not = {
+									culture_group = bretonnian_group
+								}
+							}
+							capital_scope = {
+								NOT = {
+									region = bretonnia_region
+								}
+							}
+						}
+					}
+					grant_independence = yes
+				}
+			}
+		}
 	}
 }
+
+
 
 ### Reform Events ####
 ### Reform Events ####
@@ -2804,7 +2860,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = flavor_bretonnia.900.1.a
+		name = flavor_bretonnia.900.a
 		set_country_flag = heir_started_grail_quest
 		exile_heir_as = heir_on_grail_quest
 		ai_chance = {

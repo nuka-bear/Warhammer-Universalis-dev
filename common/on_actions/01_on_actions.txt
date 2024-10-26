@@ -21,7 +21,10 @@ on_monthly_pulse = {
 		limit = {
 			has_subject_of_type = bretonnian_dukedom_subject
 			not = {
-				has_reform = bretonnian_royarch_reform
+				or = {
+					has_reform = bretonnian_royarch_reform
+					has_reform = bretonnian_dukedom_reform
+				}
 			}
 		}
 		country_event = {

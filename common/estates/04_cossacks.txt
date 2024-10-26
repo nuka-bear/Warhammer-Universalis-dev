@@ -148,7 +148,7 @@ estate_cossacks = {
 		estate_cossacks_reply_of_the_zaporozhian
 		estate_cossacks_expand_into_x
 		estate_cossacks_complete_conquest_of_x
-		estate_cossacks_colonise_X
+	#	estate_cossacks_colonise_X
 		estate_cossacks_go_privateering
 		estate_cossacks_go_privateering_2
 		estate_cossacks_despoil_x

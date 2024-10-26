@@ -42,7 +42,7 @@ monarchy = {
 				polish_elective_monarchy
 				polish_autocratic_monarchy
 				lithuanian_grand_kingdom
-				lithuanian_grand_empire
+				#lithuanian_grand_empire
 				#1.35
 			#	eyalet_government
 			#	barbary_eyalet_government

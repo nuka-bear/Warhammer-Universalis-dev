@@ -3707,12 +3707,12 @@ on_grant_estate_land = {
 }
 
 on_death_has_harem = {
-	if = {
-		limit = {
-			has_heir = no
-		}
-		country_event = { id = harem_events.2 }
-	}
+	# if = {
+	# 	limit = {
+	# 		has_heir = no
+	# 	}
+	# 	country_event = { id = harem_events.2 }
+	# }
 }
 
 on_select_heir_from_harem = {
@@ -4715,17 +4715,17 @@ on_post_mil_advisor_fired = {
 
 # this = new client state, from = parent country
 on_create_client_state = {
-	if = { 
-		limit = { 
-			FROM = { mission_completed = fra_grande_armee }
-		}
-		FROM = {
-			add_power_projection = {
-				type = mission_rewards_power_projection
-				amount = 10
-			}
-		}
-	}
+	# if = { 
+	# 	limit = { 
+	# 		FROM = { mission_completed = fra_grande_armee }
+	# 	}
+	# 	FROM = {
+	# 		add_power_projection = {
+	# 			type = mission_rewards_power_projection
+	# 			amount = 10
+	# 		}
+	# 	}
+	# }
 }
 
 # this = new target, from = previous target (both can be non-existent tag)

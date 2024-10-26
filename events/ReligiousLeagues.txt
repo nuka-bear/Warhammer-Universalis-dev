@@ -337,7 +337,7 @@ country_event = {
 			}
 			AND = {
 				NOT = { has_global_flag = evangelical_union_happened }
-				is_year = 1625
+				is_year = 2725
 			}
 		}
 	}
@@ -392,7 +392,7 @@ country_event = {
 			}
 			AND = {
 				NOT = { has_global_flag = evangelical_union_happened }
-				is_year = 1625
+				is_year = 2725
 			}
 		}
 	}

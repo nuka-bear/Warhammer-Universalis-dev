@@ -1298,7 +1298,7 @@ separate_clergy_from_state_affairs_reform = {
 			full_idea_group = humanist_ideas
 		}
 		NOT = { has_idea_group = religious_ideas }
-		NOT = { has_idea_group = theocracy_ideas }
+		#NOT = { has_idea_group = theocracy_ideas }
 		is_not_blocked_by_estate_privilege = { estate = estate_church }
 		is_not_blocked_by_estate_privilege = { estate = estate_brahmins }
 	}

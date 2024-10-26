@@ -3492,23 +3492,23 @@ on_main_war_won_effect = {
 	# 	clr_country_flag = nor_norwegian_independence_modifier
 	# 	remove_country_modifier = nor_norwegian_independence_war_mod
 	# }
-	if = {
-		limit = {
-			ROOT = {
-				religion = jewish
-				has_church_aspect = judaism_purim_teachings_aspect
-			}
-		}
-		add_church_power = 75
-	}
-	if = {
-		limit = {
-			has_country_flag = nor_norwegian_independence_modifier
-			is_subject = no
-		}
-		clr_country_flag = nor_norwegian_independence_modifier
-		remove_country_modifier = nor_norwegian_independence_war_mod
-	}
+	# if = {
+	# 	limit = {
+	# 		ROOT = {
+	# 			religion = jewish
+	# 			has_church_aspect = judaism_purim_teachings_aspect
+	# 		}
+	# 	}
+	# 	add_church_power = 75
+	# }
+	# if = {
+	# 	limit = {
+	# 		has_country_flag = nor_norwegian_independence_modifier
+	# 		is_subject = no
+	# 	}
+	# 	clr_country_flag = nor_norwegian_independence_modifier
+	# 	remove_country_modifier = nor_norwegian_independence_war_mod
+	# }
 	# if = {
 	# 	limit = {
 	# 		ROOT = {

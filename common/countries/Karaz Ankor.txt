@@ -14,8 +14,7 @@ historical_idea_groups = {
 	economic_ideas
 	quality_ideas
 	innovativeness_ideas
-	quantity_ideas
-	offensive_ideas	
+	quantity_ideas	
 }
 
 historical_units = {
