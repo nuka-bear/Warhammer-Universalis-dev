@@ -324,6 +324,7 @@ brt_authority_mechanic = {
 			}
 			effect = {
 				hidden_effect = {
+					change_tag = A98
 					every_subject_country = {
 						limit = {
 							is_subject_of_type = bretonnian_dukedom_subject
@@ -331,7 +332,9 @@ brt_authority_mechanic = {
 								liberty_desire = 100
 							}
 						}
-						inherit = PREV
+						A98 = {
+							inherit = PREV
+						}
 					}
 					every_subject_country = {
 						limit = {
@@ -355,7 +358,6 @@ brt_authority_mechanic = {
 					}
 				}
 				add_prestige = 25
-				change_tag = A98
 				on_change_tag_effect = yes
 				restore_country_name = yes
 				A98 = {

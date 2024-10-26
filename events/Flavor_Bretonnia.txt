@@ -2834,12 +2834,7 @@ country_event = {
 	picture = OVEREXTENSION_eventPicture
 	is_triggered_only = yes
 	option = {
-		#ADM 
 		name = flavor_bretonnia.200.a
-		change_variable = {
-			which = brt_adm
-			value = 1
-		}
 		hidden_effect = {
 			set_variable = {
 				which = brt_adm
