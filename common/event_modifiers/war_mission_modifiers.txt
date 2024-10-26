@@ -57,14 +57,27 @@ bretonnia_virtue_stoicism = {
 }
 
 bretonnia_squire_mod = {
+	amount_of_hussars = 1
 }
 bretonnia_knight_errant_mod = {
+	amount_of_hussars = 2
 }
 bretonnia_kotr_mod = {
+	amount_of_hussars = 3
+	recover_army_morale_speed = 0.1
 }
 bretonnia_questing_knight_mod = {
+	amount_of_hussars = 4
+	recover_army_morale_speed = 0.1
+	reinforce_speed = 0.5
+	is_hussars_modifier = yes
 }
 bretonnia_grail_knight_mod = {
+	amount_of_hussars = 5
+	discipline = 0.05
+	recover_army_morale_speed = 0.1
+	reinforce_speed = 0.5
+	is_hussars_modifier = yes
 }
 
 new_bretonnia_king = {

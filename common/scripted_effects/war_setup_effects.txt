@@ -46,12 +46,6 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			#discover Old World seas
-			sea_of_claws_region = {
-				discover_country = ROOT
-			}
-			middle_sea_region = {
-				discover_country = ROOT
-			}
 			southern_sea_region = {
 				discover_country = ROOT
 			}
@@ -786,6 +780,7 @@ setup_vision = {
 		if = {
 			limit = {
 				technology_group = tech_dark_elven
+				continent = north_america
 			}
 			#Discover civilized divenhal
 			north_america = {
@@ -952,7 +947,10 @@ setup_vision = {
 			sea_of_claws_region = {
 				discover_country = ROOT
 			}
-			middle_sea_region = {
+			northern_middle_sea_area = {
+				discover_country = ROOT
+			}
+			southern_middle_sea_area = {
 				discover_country = ROOT
 			}
 			southern_sea_region = {
@@ -1804,9 +1802,6 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			sea_of_claws_region = {
-				discover_country = ROOT
-			}
-			middle_sea_region = {
 				discover_country = ROOT
 			}
 			southern_sea_region = {

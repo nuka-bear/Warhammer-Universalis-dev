@@ -425,7 +425,7 @@ sea_of_claws_region = {
 }
 middle_sea_region = {
 	areas = {
-		southern_middle_sea_area northern_middle_sea_area 
+		albion_coast_area southern_middle_sea_area northern_middle_sea_area 
 	}
 }
 southern_sea_region = {

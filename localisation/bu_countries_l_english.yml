@@ -523,6 +523,7 @@
  H28:0 "Tower of the Stars"
  H29:0 "Elithis"
  H30:0 "Calith"
+ H31:0 "Corsairs of Spite"
  
  H01_ADJ:0 "Tiranoc"
  H02_ADJ:0 "Nagarythe"
@@ -553,6 +554,7 @@
  H28_ADJ:0 "Stars"
  H29_ADJ:0 "Elithis"
  H30_ADJ:0 "Calith"
+ H31_ADJ:0 "Corsair"
  
  I01:0 "Goldtooth"
  I02:0 "Sabreskin"

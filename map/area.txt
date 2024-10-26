@@ -1773,14 +1773,17 @@ gnoblar_country_5_area = {
 #
 #oceans
 #
+albion_coast_area = {
+	4347 4225 4226 4233 1267
+}
 eastern_sea_of_claws_area = {
 	1257 1252 1928 1927 1928 1488 1255 1485 
 }
 western_sea_of_claws_area = {
-	1274 1272 1929 1310 1266 1722 4226 4225 1629 
+	1274 1272 1929 1310 1266 1722 1629 
 }
 northern_middle_sea_area = {
-	1630 1270 1276 1479 1289 1564 4358 4233 1267 4347
+	1630 1270 1276 1479 1289 1564 4358
 }
 southern_middle_sea_area = {
 	1278 1291 1460 
