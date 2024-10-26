@@ -74,7 +74,7 @@ country_event = {
             # Dwarfs
             AND = {
                 ruler_is_dwarven = yes
-                ruler_age = 160 #200 Expectancy
+                ruler_age = 350 #400 Expectancy
             }
             # lizardmen
             AND = {
@@ -84,7 +84,7 @@ country_event = {
             # Elves
             AND = {
                 ruler_is_elven = yes
-                ruler_age = 350 #400 Expectancy
+                ruler_age = 950 #1000 Expectancy
             }
         }
 		#Future Additions: Liches
@@ -97,7 +97,7 @@ country_event = {
 		if = {
 			limit = { ruler_is_dwarven = yes }
 			custom_tooltip = ruler_is_dwarven_tooltip
-			hidden_effect = { country_event = { id = war_ruler.4 days = 10950 random = 7300 } } #30 years + ~20years
+			hidden_effect = { country_event = { id = war_ruler.4 days = 14600 random = 7300 } } #40 years + ~20years
 		}
 		else_if = {
 			limit = { ruler_is_lizardmen  = yes }
