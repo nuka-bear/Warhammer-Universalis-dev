@@ -750,8 +750,10 @@ bretonnian_1_missions = {
 	bretonnia_handle_upstart_peasants_mission = {
 		icon = hungarian_union
 		position = 6
-		required_missions = {  }
-		provinces_to_highlight = {}
+		required_missions = {
+		}
+		provinces_to_highlight = {
+		}
 		trigger = {
 			if = {
 				limit = {
@@ -763,7 +765,9 @@ bretonnian_1_missions = {
 				}
 			}
 			else = {
-				NOT = { has_estate = estate_burghers }
+				NOT = {
+					has_estate = estate_burghers
+				}
 			}
 		}
 		effect = {
@@ -781,16 +785,19 @@ bretonnian_1_missions = {
 			}
 		}
 	}
-	
 	bretonnia_winecraft_mission = {
 		icon = mission_fish_markets
 		position = 7
-		required_missions = { bretonnia_handle_upstart_peasants_mission }
+		required_missions = {
+			bretonnia_handle_upstart_peasants_mission
+		}
 		provinces_to_highlight = {
 			country_or_non_sovereign_subject_holds = ROOT
 			trade_goods = wine
 			OR = {
-				NOT = { has_production_building_trigger = no }
+				NOT = {
+					has_production_building_trigger = no
+				}
 			}
 		}
 		trigger = {
@@ -802,20 +809,24 @@ bretonnian_1_missions = {
 		}
 		effect = {
 			add_mercantilism = 3
-			
 		}
 	}
-	
 	bretonnia_world_of_winecraft_mission = {
 		icon = mission_rb_scottish_north_sea_trade
 		position = 8
-		required_missions = { bretonnia_winecraft_mission }
+		required_missions = {
+			bretonnia_winecraft_mission
+		}
 		provinces_to_highlight = {
 			country_or_non_sovereign_subject_holds = ROOT
 			trade_goods = wine
 			OR = {
-				NOT = { has_manufactory_trigger = yes }
-				NOT = { has_production_building_trigger = no }
+				NOT = {
+					has_manufactory_trigger = yes
+				}
+				NOT = {
+					has_production_building_trigger = no
+				}
 			}
 		}
 		trigger = {
@@ -875,7 +886,7 @@ bretonnian_2_missions = {
 		}
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = building_alliances.tooltip
+				tooltip = bretonnia_find_allies_mission_tt
 				num_of_allies = 2
 				calc_true_if = {
 					all_ally = {
@@ -906,6 +917,68 @@ bretonnian_2_missions = {
 			}
 		}
 	}
+	bretonnia_appease_the_dukes_mission = {
+		icon = mission_gharbianss
+		position = 7
+		required_missions = {
+			bretonnia_find_allies_mission
+		}
+		provinces_to_highlight = {
+			AND = {
+				is_capital = yes
+				owner = {
+					is_subject_of = ROOT
+					is_subject_of_type = bretonnian_dukedom_subject
+					OR = {
+						has_opinion = {
+							who = ROOT
+							value = 125
+						}
+						liberty_desire = 30
+					}
+				}
+			}
+		}
+		trigger = {
+			has_reform = bretonnian_royarch_reform
+			NOT = {
+				any_subject_country = {
+					is_subject_of_type = bretonnian_dukedom_subject
+					NOT = {
+						has_opinion = {
+							who = ROOT
+							value = 125
+						}
+					}
+					liberty_desire = 30
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_nobles
+				}
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 60
+				}
+			}
+		}
+		effect = {
+			add_dip_power = 50
+			add_stability_or_adm_power = yes
+			if = {
+				limit = {
+					has_subject_of_type = bretonnian_dukedom_subject
+				}
+				every_subject_country = {
+					limit = {
+						is_subject_of_type = bretonnian_dukedom_subject
+					}
+					add_liberty_desire = -10
+				}
+			}
+		}
+	}
 }
 
 bretonnian_3_missions = {
@@ -922,41 +995,79 @@ bretonnian_3_missions = {
 			}
 		}
 	}
-	bretonnia_expand_country_mission = {
+	bretonnia_expand_dukedom_mission = {
 		icon = mission_conquer_50_development
 		position = 7
-		required_missions = { 
+		required_missions = {
 			bretonnia_find_allies_mission
 			bretonnia_build_troops_mission
-		 }
-		trigger = { grown_by_development = 50 }
+		}
+		trigger = {
+			grown_by_development = 50
+		}
 		effect = {
 			capital_scope = {
 				add_base_tax = 1
 				add_base_production = 1
 				add_base_manpower = 1
 				area = {
-					limit = { owned_by = ROOT }
+					limit = {
+						owned_by = ROOT
+					}
 					add_province_modifier = {
 						name = "growth_of_capital"
-						duration = 9125 #25 years
+						duration = 9125						#25 years
 					}
 				}
 			}
-			custom_tooltip = bretonnia_claim_neighbor_province_tt
+			custom_tooltip = bretonnia_claim_evil_province_tt
 			hidden_effect = {
-				every_owned_province = {
-					every_neighbor_province = {
-						limit = {
-							NOT = { owned_by = ROOT }
-							NOT = { is_permanent_claim = ROOT	}
-							NOT = { is_core = ROOT	}
-							NOT = { religion = lady_of_the_lake }
+				bretonnia_region = {
+					limit = {
+						NOT = {
+							is_core = ROOT
 						}
-						add_claim = ROOT
+						NOT = {
+							is_permanent_claim = ROOT
+						}
+						owner = {
+							destruction_culture = yes
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	bretonnia_safeguard_the_realm_mission = {
+		icon = mission_conquer_50_development
+		position = 8
+		provinces_to_highlight = {
+			region = bretonnia_region
+			owner = {
+				destruction_culture = yes
+			}
+		}
+		required_missions = {
+			bretonnia_expand_dukedom_mission
+		}
+		trigger = {
+			OR = {
+				check_variable = {
+					which = bretonnia_Evil_Wars_Won
+					value = 8
+				}
+				bretonnia_region = {
+					type = all
+					NOT = {
+						owner = {
+							destruction_culture = yes
+						}
 					}
 				}
 			}
+		}
+		effect = {
 		}
 	}
 }
@@ -975,12 +1086,13 @@ bretonnian_4_missions = {
 			}
 		}
 	}
-
 	bretonnia_build_troops_mission = {
 		icon = mission_build_up_to_force_limit
 		position = 6
-		required_missions = {  }
-		provinces_to_highlight = {}
+		required_missions = {
+		}
+		provinces_to_highlight = {
+		}
 		trigger = {
 			army_size_percentage = 1
 			num_of_generals = 1
@@ -989,17 +1101,25 @@ bretonnian_4_missions = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = thriving_arms_industry
-				duration = 9125 #25 years
+				duration = 9125				#25 years
 			}
 			custom_tooltip = bretonnia_claim_neighbor_province_tt
 			hidden_effect = {
 				every_owned_province = {
 					every_neighbor_province = {
 						limit = {
-							NOT = { owned_by = ROOT }
-							NOT = { is_permanent_claim = ROOT	}
-							NOT = { is_core = ROOT	}
-							NOT = { religion = lady_of_the_lake }
+							NOT = {
+								owned_by = ROOT
+							}
+							NOT = {
+								is_permanent_claim = ROOT
+							}
+							NOT = {
+								is_core = ROOT
+							}
+							NOT = {
+								religion = lady_of_the_lake
+							}
 						}
 						add_claim = ROOT
 					}
@@ -1020,6 +1140,119 @@ bretonnian_5_missions = {
 			has_reform = bretonnian_royarch_reform
 			and = {
 				tag = A98
+			}
+		}
+	}
+	bretonnia_renovating_ducal_capital_mission = {
+		icon = develop_our_capital
+		required_missions = {
+		}
+		position = 6
+		provinces_to_highlight = {
+			owned_by = root
+			is_capital = yes
+			OR = {
+				NOT = {
+					development = 25
+				}
+				NOT = {
+					num_of_buildings_in_province = 3
+				}
+			}
+		}
+		trigger = {
+			capital_scope = {
+				development = 25
+				num_of_buildings_in_province = 3
+			}
+		}
+		effect = {
+			capital_scope = {
+				if = {
+					limit = {
+						NOT = {
+							has_tax_building_trigger = yes
+						}
+					}
+					add_building = cathedral
+				}
+				else = {
+					add_or_upgrade_tax_building = yes
+				}
+			}
+			add_legitimacy = 20
+			add_devotion = 20
+		}
+	}
+	bretonnia_embrace_renaissance_mission = {
+		icon = bibliotheca_corviana
+		required_missions = {
+			bretonnia_renovating_ducal_capital_mission
+		}
+		position = 7
+		trigger = {
+			has_institution = renaissance
+			stability = 1
+		}
+		effect = {
+			define_advisor = {
+				name = "Jean Clouet"
+				type = artist
+				cost_multiplier = 0.25
+				skill = 3
+			}
+			custom_tooltip = empty_line_tt
+			if = {
+				limit = {
+					has_dlc = "Rights of Man"
+					NOT = {
+						num_of_ruler_traits = {
+							amount = 3
+						}
+					}
+				}
+				add_ruler_personality = patron_of_arts_personality
+			}
+			else = {
+				add_adm_power = 50
+			}
+		}
+	}
+	bretonnia_trade_fairs_mission = {
+		icon = ansbach_succession
+		required_missions = {
+			bretonnia_embrace_renaissance_mission
+		}
+		position = 8
+		provinces_to_highlight = {
+			owned_by = ROOT
+			has_trade_building_trigger = no
+			OR = {
+				AND = {
+					province_has_center_of_trade_of_level = 1
+					NOT = {
+						province_has_center_of_trade_of_level = 2
+					}
+				}
+				NOT = {
+					development = 25
+				}
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				has_trade_building_trigger = yes
+				OR = {
+					province_has_center_of_trade_of_level = 2
+					development = 25
+				}
+				value = 6
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = fra_trade_fair_prosperity_modifier
+				duration = 3650
 			}
 		}
 	}

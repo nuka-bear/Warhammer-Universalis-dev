@@ -247,6 +247,7 @@ G46 = "countries/BurningFace.txt"
 G47 = "countries/Yellow Eye.txt"
 G48 = "countries/Broken Axe.txt"
 
+
 H01 = "countries/Tiranoc.txt"
 H02 = "countries/Shadowlands.txt"
 H03 = "countries/Chrace.txt"
@@ -277,6 +278,7 @@ H27 = "countries/TowerOftheSun.txt"
 H28 = "countries/TowerOftheStars.txt"
 H29 = "countries/Elithis.txt"
 H30 = "countries/Calith.txt"
+H31 = "countries/Corsairs of Spite.txt"
 
 I01 = "countries/Goldtooth.txt"
 I02 = "countries/Sabreskin.txt"

@@ -41,6 +41,24 @@
  bretonnia_heroism_title:0 "§lHeroism§!"
  bretonnia_heroism_desc:0 "Gilles of Bastonne was known as the slayer of monsters, renowned for killing creatures of great size."
  bretonnia_heroism_tt:0 "Win 15 wars aganist Evil Nations"
+
+ bretonnia_handle_upstart_peasants_mission_title:0 "Handle the Uppity Peasants"
+ bretonnia_handle_upstart_peasants_mission_desc:0 ""
+ bretonnia_winecraft_mission_title:0 "Winecraft"
+ bretonnia_winecraft_mission_desc:0 ""
+ bretonnia_world_of_winecraft_mission_title:0 "League of Winecraft"
+ bretonnia_world_of_winecraft_mission_desc:0 ""
+ bretonnia_find_allies_mission_title:0 "Find Ducal Allies"
+ bretonnia_find_allies_mission_desc:0 ""
+ bretonnia_expand_dukedom_mission_title:0 "Expand the Ducal Lands"
+ bretonnia_expand_dukedom_mission_desc:0 ""
+ bretonnia_build_troops_mission_title:0 "Levy the Troops"
+ bretonnia_build_troops_mission_desc:0 ""
+ bretonnia_safeguard_the_realm_mission_title:0 "Safeguard the Realm"
+ bretonnia_safeguard_the_realm_mission_desc:0 ""
+ bretonnia_renovating_ducal_capital_mission_title:0 "Renovating Ducal Capital"
+ bretonnia_renovating_ducal_capital_mission_desc:0 ""
+
  
  ############
  ###EVENTS###
@@ -199,6 +217,9 @@
  bretonnia_heroism_tt:0 "Win §Y10§! wars against §YEvil§! (Currently §Y[Root.bretonnia_Evil_Wars_Won.GetValue]/5§!)."
  brettonia_duty_trigger_tt:0 "One of the following must be true:\n\nHave at least §Y2§! allies that have less than §Y100§! Total Development and greater than §Y80§! Trust\n\nHave at least §Y2§! subjects that have less than §Y100§! Total Development and greater than §Y80§! Trust\n\nHave at least §Y1§! ally and §Y1§! subject that has less than §Y100§! Total Development and greater than §Y80§! Trust"
  BRT_reform_1_tooltip:0 "§YEvery§! subject country gets:"
+ bretonnia_claim_evil_province_tt:0 "Gives Permanent Claims on Provinces in the §YBretonnian Region§! owned by §YEvil§! Nations."
+ bretonnia_claim_neighbor_province_tt:0 "Gives Permanent Claims on every neighboring provinces, owned by countries that do not follow the §YGrail§! Religion"
+ bretonnia_find_allies_mission_tt:0 "Have two allies who are subjects of the §YBretonnian Dukedom§! type, and have over 150 relations"
 
  ### Mission Modifiers ###
  ### Mission Modifiers ###

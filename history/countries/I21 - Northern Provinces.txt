@@ -6,7 +6,6 @@ capital = 2839
 government_rank = 2
 setup_vision = yes
 
-government = monarchy
 add_government_reform = cathay_splinter_state
 
 2502.1.1 = {

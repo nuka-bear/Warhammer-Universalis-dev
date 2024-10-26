@@ -445,7 +445,7 @@ nehekharan_group_ideas = {
 druchii_group_ideas = {
 	start = {
 		global_manpower_modifier = 0.10
-		land_attrition = -0.10
+		may_perform_slave_raid = yes
 	}
 	bonus = {
 		ship_durability = 0.15

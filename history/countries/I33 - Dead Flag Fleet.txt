@@ -1,4 +1,4 @@
-government = monarchy
+government = republic
 primary_culture = east_cathayan
 religion = vampiric
 technology_group = tech_eastern_undead
@@ -6,6 +6,5 @@ capital = 2850
 government_rank = 1
 setup_vision = yes
 
-government = monarchy
-add_government_reform = cathay_splinter_state
+add_government_reform = pirate_kingdom
 

@@ -31,7 +31,7 @@ trade_company_norsca ={
 	}
 }
 
-south_estalia_trade_node={
+trade_company_south_estalia={
 	color={
 		143 138 231 
 	}
@@ -42,7 +42,7 @@ south_estalia_trade_node={
 		name = "TRADE_COMPANY_SOUTH_ESTALIA_Root_Culture_GetName"
 	}
 }
-north_estalia_trade_node={
+trade_company_north_estalia={
 	color={
 		93 178 229 
 	}
@@ -55,7 +55,7 @@ north_estalia_trade_node={
 	}
 }
 
-tilean_sea_trade_node={
+trade_company_tilean_sea={
 	color={
 		128 33 150 
 	}
