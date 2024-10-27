@@ -26,7 +26,6 @@ old_world_denominations = {
 			global_tax_modifier = 0.15
 			global_unrest = -2
 		}
-		uses_isolationism = yes
 		on_convert = {
 			change_religion = lady_of_the_lake
 			add_prestige = -100

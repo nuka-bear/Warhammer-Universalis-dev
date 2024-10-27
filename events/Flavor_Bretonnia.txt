@@ -2823,6 +2823,102 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = flavor_bretonnia.20
+	title = flavor_bretonnia.20.t
+	desc = flavor_bretonnia.20.d
+	
+	picture = ACCUSATION_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		liberty_desire = 20
+		is_subject_of_type = bretonnian_dukedom_subject
+	}
+	
+	immediate = {
+		hidden_effect = {
+			save_event_target_as = bretonnia_civil_war_leader
+		}
+	}
+	
+	option = {
+		name = flavor_bretonnia.20.a		
+		
+		ai_chance = {
+			factor = 1
+		}
+		
+		set_country_flag = brt_dukedom_is_revolting
+		grant_independence  = yes
+		
+		FROM = {
+			every_subject_country = {
+				limit = {
+					is_subject_of_type = bretonnian_dukedom_subject
+					liberty_desire = 20
+				}
+				set_country_flag = brt_dukedom_is_revolting
+				event_target:bretonnia_civil_war_leader = {
+					create_subject = {
+						subject_type = bretonnian_dukedom_subject
+						subject = PREV
+					}
+				}
+			}
+			country_event = { id = flavor_bretonnia.21 }
+		}
+		declare_war_with_cb = {
+			who = FROM
+			casus_belli = cb_annex
+		}
+	}
+
+	option = {
+		name = flavor_bretonnia.20.b
+		
+		ai_chance = {
+			factor = 0
+		}
+		add_prestige = -10
+	}
+	
+	after = {
+		event_target:bretonnia_civil_war_leader = {
+			add_country_modifier = {	#Five years of loyal vassals, ensures they contribute to the revolt
+				name = new_bretonnia_king
+				duration = 1825
+			}
+		}
+	}
+}
+
+#Dukedom Revolt, Overlord side
+country_event = {
+	id = flavor_bretonnia.21
+	title = flavor_bretonnia.21.t
+	desc = flavor_bretonnia.21.d
+	picture = CIVIL_WAR_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = flavor_bretonnia.21.a		
+		
+		ai_chance = {
+			factor = 1
+		}
+		add_stability = -1
+	}
+	
+	after = {
+		FROM = {
+			clr_country_flag = bretonnia_civil_war_religion
+		}
+	}
+}
+
+
 ### Reform Events ####
 ### Reform Events ####
 ### Reform Events ####

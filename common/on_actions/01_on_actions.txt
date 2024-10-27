@@ -242,6 +242,8 @@ on_religion_change = {
 		}
 		set_emperor = no
 	}
+	#converting out of lady of the lake
+
 }
 
 on_lock_hre_religion = {
