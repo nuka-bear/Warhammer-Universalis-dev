@@ -30,7 +30,7 @@ spriteTypes = {
 	}
 
 spriteType = {
-		name = "GFX_great_project_shang_wu_rivier_district"	
+		name = "GFX_great_project_shang_wu_river_district"	
 		texturefile = "gfx//interface//great_projects//great_project_gyeongbok_palace.dds"
 	}
 	

@@ -362,7 +362,7 @@ mount_jifu = {
 #### Grand Cathay
 
 jade_tower = {
-	start = 2335 #Nanjing
+	start = 4022
 	date = 1431.01.01
 	time = { months = 0	}
 	build_cost = 0
@@ -477,8 +477,8 @@ jade_tower = {
 
 
 
-shang_wu_rivier_district = {
-	start = 262 #Krakow
+shang_wu_river_district = {
+	start = 2335 #Krakow
 	date = 1250.01.01
 	time = { months = 0	}
 	build_cost = 0
