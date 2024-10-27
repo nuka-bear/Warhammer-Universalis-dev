@@ -133,7 +133,6 @@ gen_lizard_missions = {
 						has_terrain = temple_city_terrain
 					}
 					add_permanent_claim = ROOT
-					add_core = ROOT
 				}
 			}
 
@@ -290,35 +289,27 @@ gen_old_ones_missions = {
 			}
 			4261 = {
 				add_permanent_claim = ROOT
-				add_core = ROOT
 			}
 			2312 = {
 				add_permanent_claim = ROOT
-				add_core = ROOT
 			}
 			2466 = {
 				add_permanent_claim = ROOT
-				add_core = ROOT
 			}
 			2442 = {
 				add_permanent_claim = ROOT
-				add_core = ROOT
 			}
 			4296 = {
 				add_permanent_claim = ROOT
-				add_core = ROOT
 			}
 			4807 = {
 				add_permanent_claim = ROOT
-				add_core = ROOT
 			}
 			4265 = {
 				add_permanent_claim = ROOT
-				add_core = ROOT
 			}
 			4383 = {
 				add_permanent_claim = ROOT
-				add_core = ROOT
 			}
 		}
 	}
@@ -333,8 +324,14 @@ gen_old_ones_missions = {
 			is_prosperous = no
 		}
 		trigger = {
-			all_owned_province = {
-				is_prosperous = yes
+			OR = {
+				all_owned_province = {
+					is_prosperous = yes
+				}
+				num_of_owned_provinces_with = {
+					is_prosperous = yes
+					value = 12
+				}
 			}
 		}
 		effect = {
@@ -470,7 +467,7 @@ gen_old_ones_missions = {
 		required_missions = {  }
 		position = 6
 		trigger = {
-			num_of_continents = 4
+			num_of_continents = 3
 		}
 		effect = {
 			add_country_modifier = {

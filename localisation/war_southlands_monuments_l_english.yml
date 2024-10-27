@@ -82,9 +82,10 @@ dwarven_mints_desc:0 "The Dwarven Mints of Karak Azgal are among the most revere
 ### Araby
 ################
 
-### Localization for Harbor of Lashiek ###
 
-# Monument Title
+palace_of_the_wizard_caliph:0 "Palace of the Wizard Caliph"
+palace_of_the_wizard_caliph_desc:0 "In the heart of Araby stands the grand Palace of the Wizard Caliph, a testament to both the arcane mastery and political power of the mysterious rulers of the desert. From here, potent spells are woven, and the intricate dealings of Araby’s many factions are orchestrated. It is not merely a place of administration, but a hub of arcane knowledge, strategy, and defense. Those who dare challenge the Caliph must contend with its formidable defenses and the boundless wisdom of its ancient magics."
+
 harbor_of_lashiek:0 "Harbor of Lashiek"
 harbor_of_lashiek_desc:0 "The Harbor of Lashiek is a bustling port that hums with the activity of merchants, traders, and corsairs. This harbor is vital to the economy of Lashiek, serving as a base for privateers who prey upon foreign ships and bring wealth back to the Sultan’s coffers. It brings back gold and spices, but also new ideas from across the world."
 

@@ -252,11 +252,9 @@ gen_cathay_ultimate_missions = {
 		}
 		position = 9
 		provinces_to_highlight = {
-			any_province = {
-				superregion = cathay_superregion
-				NOT = {
-					owned_by = ROOT
-				}
+			superregion = cathay_superregion
+			NOT = {
+				owned_by = ROOT
 			}
 		}
 		trigger = {
@@ -273,9 +271,9 @@ gen_cathay_ultimate_missions = {
 			power_projection = 99
 			great_power_rank = 1
 			NOT = {
-				great_power_rank = 1
+				great_power_rank = 2
 			}
-			total_development = 2000
+			total_development = 2500
 		}
 		effect = {
 			add_country_modifier = {

@@ -11,6 +11,8 @@ lizard_skink_researchers = {
 ## We are now able to core anywhere, regardless of distance
 lizard_core_anywhere = {
 	ignore_coring_distance = yes
+	colonists = 1
+
 }
 
 ### Our infantry use their beserk rage.
@@ -39,7 +41,7 @@ lizard_geomantic_web = {
 
 ### Let us seek out the nexuses in the Geomantic web
 lizard_allow_geomantic_web = {
-	colonists = 1
+	global_prosperity_growth = 0.1
 }
 
 lizard_6th_spawning_site = {

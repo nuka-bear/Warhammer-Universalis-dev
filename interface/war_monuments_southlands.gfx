@@ -92,6 +92,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_great_project_palace_of_the_wizard_caliph"	
+		texturefile = "gfx//interface//great_projects//great_project_aljaferia_palace.dds"
+	}
+
+	spriteType = {
 		name = "GFX_great_project_bay_of_zlatlan"	
 		texturefile = "gfx//interface//great_projects//great_project_kilwa_city.dds"
 	}

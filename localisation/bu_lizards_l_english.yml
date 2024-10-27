@@ -57,7 +57,7 @@ gen_lizard_celebration_desc:0 "With the nobles and skinks aligned, it is time to
 gen_lizard_claim_temples_title:0 "Reclaim the Temple Cities"
 gen_lizard_claim_temples_desc:0 "The ancient Temple Cities of Lustria are the birthright of the Lizardmen. We must reclaim all of them to secure our power and fulfill the prophecies of the Old Ones."
 
-claim_all_temple_cities_tooltip:0 "Gain a claim and core on all temple-cities in the Mallus."
+claim_all_temple_cities_tooltip:0 "Gain a permanent claim on all temple-cities."
 
 gen_lizard_saurus_title:0 "Train the Saurus "
 gen_lizard_saurus_desc:0 "The fierce Saurus warriors, while mighty, can sometimes lose control in battle. Through proper training, we will harness their rage and sharpen their effectiveness, turning them into an unstoppable force."

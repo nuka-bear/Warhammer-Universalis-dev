@@ -610,6 +610,7 @@
  I52:0 "Sonaka"
  I53:0 "Izu"
  I54:0 "Imazi"
+ I99:0 "Grand Cathay"
  
  I01_ADJ:0 "Goldtooth Ogre"
  I02_ADJ:0 "Sabreskin Ogre"
@@ -665,6 +666,7 @@
  I52_ADJ:0 "Sonaka"
  I53_ADJ:0 "Izu"
  I54_ADJ:0 "Imazi"
+ I99_ADJ:0 "Grand Cathayan"
  
  U01:0 "Clan Rictus"
  U02:0 "Clan Krizzor"
