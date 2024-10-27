@@ -5,4 +5,4 @@ religion = old_world_cults_religion
 technology_group = tech_imperial
 capital = 652
 setup_vision = yes
-
+government_rank = 1

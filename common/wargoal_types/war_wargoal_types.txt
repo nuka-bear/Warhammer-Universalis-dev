@@ -123,7 +123,7 @@ bretonnia_subjugation = {
 		}
 	}
 	
-	war_name = YNNIC_SUBJUGATION_WAR_NAME
+	war_name = BRETONNIAN_SUBJUGATION_WAR_NAME
 }
 
 

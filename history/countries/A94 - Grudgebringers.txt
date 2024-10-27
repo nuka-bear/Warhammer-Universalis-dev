@@ -5,7 +5,7 @@ religion = old_world_cults_religion
 technology_group = tech_imperial
 capital = 642
 setup_vision = yes
-
+government_rank = 1
 2502.1.1 = {
 	monarch = {
 		name = "Morgan"

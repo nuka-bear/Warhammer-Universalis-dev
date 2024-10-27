@@ -5,6 +5,6 @@ religion = gork_n_mork_religion
 technology_group = tech_orcish
 capital = 1871
 setup_vision = yes
-
+government_rank = 1
 
 

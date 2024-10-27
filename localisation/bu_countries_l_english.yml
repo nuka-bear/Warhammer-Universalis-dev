@@ -612,6 +612,9 @@
  I54:0 "Imazi"
  I99:0 "Grand Cathay"
  
+ I98:0 "Ind"
+ I99:0 "Grand Cathay"
+ 
  I01_ADJ:0 "Goldtooth Ogre"
  I02_ADJ:0 "Sabreskin Ogre"
  I03_ADJ:0 "Ironskin Ogre"
@@ -667,6 +670,10 @@
  I53_ADJ:0 "Izu"
  I54_ADJ:0 "Imazi"
  I99_ADJ:0 "Grand Cathayan"
+ 
+ 
+ I98_ADJ:0 "Indish"
+ I99_ADJ:0 "Cathayan"
  
  U01:0 "Clan Rictus"
  U02:0 "Clan Krizzor"

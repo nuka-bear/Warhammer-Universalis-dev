@@ -5,14 +5,14 @@ religion = cult_of_sigmar
 technology_group = tech_imperial
 capital = 826
 setup_vision = yes
-
+government_rank = 1
 2502.1.1 = {
 	monarch = {
 		name = "Valmir"
 		dynasty = "Gausser"
 		birth_date = 2470.12.3
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 4
 	}
 }

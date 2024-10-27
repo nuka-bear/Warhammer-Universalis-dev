@@ -5,3 +5,5 @@ religion = norscan
 technology_group = tech_imperial
 capital = 650
 setup_vision = yes
+government_rank = 1
+

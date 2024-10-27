@@ -5,7 +5,7 @@ religion = nagash_worship
 technology_group = tech_vampire_count
 capital = 877
 setup_vision = yes
-
+government_rank = 1
 2502.1.1 = {
 	monarch = {
 		name = "Bragthorn"

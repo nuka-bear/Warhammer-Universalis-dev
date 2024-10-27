@@ -5,4 +5,4 @@ religion = cult_of_taal_religion
 technology_group = tech_imperial
 capital = 866
 setup_vision = yes
-
+government_rank = 1
