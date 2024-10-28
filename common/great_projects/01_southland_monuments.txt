@@ -1386,7 +1386,6 @@ palace_of_the_wizard_caliph = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			warscore_cost_vs_other_religion = -0.2
 		}
 		on_upgraded = {
 		}

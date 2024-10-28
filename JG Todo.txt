@@ -15,12 +15,23 @@ Consolidate Localizations by race
 
 Check how many temple cities there actually are for lizard final mission
 
-Cathay ultimate highlights ever
+Skaven decision to cause devastation in neighboring provinces
+
+Ogre leadership crisis if ruler is missing mil or not at war
+
+Make events for Cathayan dominions to declare on their leader
+
+Build the Ritual Site should highlight the possible ritual site
+
+Greenskin ultimate modifier not localized
+
+Cathay Build temples mission is redundant with The other generic build buildings mission
 
 Cool images for everything
 	Monuments
 	Missions
 	Religious Advisor Icons
+		Do while watching something?
 
 Everybody!
 	0-1x government types
