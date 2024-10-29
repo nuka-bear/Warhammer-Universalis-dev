@@ -1,0 +1,292 @@
+## Ogres and Maw
+
+##################################
+##### DARK ELF CULTURE GROUP
+##################################
+
+## Gain the ability to do slave raids
+### Slaves
+### Black Arks
+### Protecting from the north
+
+gen_dark_elf_missions = {
+	slot = 1
+	generic = yes
+	ai = yes
+	potential = {
+		OR = {
+			culture_group = druchii_group
+		}
+	}
+
+	gen_dark_elf_please_nobility = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			estate_loyalty = {
+			    estate = estate_nobles
+			    loyalty = 65
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_nobles
+				value = 1
+			}
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = dark_elves_can_slave_raid
+				duration = -1
+			}
+		}
+	}
+
+
+
+	gen_dark_elf_rebuild_black_arks = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+		num_of_heavy_ship = 100
+		}
+
+		effect = {
+### Something about a special naval unit
+		}
+	}
+
+
+	gen_dark_elf_ally_on_ulthuan = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			OR {
+				capital_scope = { superregion = ulthuan_superregion }
+
+				any_country = {
+					capital_scope = { superregion = ulthuan_superregion }
+					alliance_with = ROOT
+				}
+			}
+		}
+
+		effect = {
+### Something about a special naval unit
+		}
+	}
+
+
+	gen_dark_elf_foothold_on_ulthuan = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			any_owned_province = { superregion = ulthuan_superregion }
+		}
+
+		effect = {
+		}
+	}
+
+
+	gen_dark_elf_take_the_phoenix_throne = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = {  } 
+		trigger = {
+			451 = { owned_by = ROOT }
+		}
+
+		effect = {
+		}
+	}
+
+
+
+
+
+}
+
+
+### Probably directly owning all of Naggaroth & Ulthuan
+gen_dark_elf_ultimate_missions = {
+	slot = 3
+	generic = yes
+	ai = yes
+	potential = {
+		OR = {
+			culture_group = druchii_group
+		}
+	}
+
+	gen_dark_elf_ultimate = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { }
+		position = 9
+		provinces_to_highlight = {
+			province_has_center_of_trade_of_level = 1
+		}
+		trigger = {
+			num_of_centers_of_trade = 25
+		}
+
+		effect = {
+			add_country_modifier = { 
+ 				name = ogres_dominate_trade
+				duration = -1
+			}
+		}
+	}
+}
+
+##################################
+##### CYTHARAI RELIGION
+##################################
+
+
+gen_cytharai_missions = {
+	slot = 5
+	generic = yes
+	ai = yes
+	potential = {
+		religion = cytharai
+	}
+
+	gen_cytharai_missionaries_abroad = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { } 
+		trigger = {
+			estate_loyalty = {
+			    estate = estate_church
+			    loyalty = 65
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_church
+				value = 1
+			}
+		}
+
+		effect = {
+			random_province = {
+				limit = {
+					superregion = ulthuan_superregion
+					NOT = { religion = cytharai }
+					}
+				change_religion = cytharai
+				add_permanent_province_modifier = { 
+    				name = hidden_cytharai_cult
+    				duration = 3650
+    				hidden = no
+				}
+			}
+			random_province = {
+				limit = {
+					superregion = ulthuan_superregion
+					NOT = { religion = cytharai }
+					}
+				change_religion = cytharai
+				add_permanent_province_modifier = { 
+    				name = hidden_cytharai_cult
+    				duration = 3650
+    				hidden = no
+				}
+			}
+			random_province = {
+				limit = {
+					superregion = ulthuan_superregion
+					NOT = { religion = cytharai }
+					}
+				change_religion = cytharai
+				add_permanent_province_modifier = { 
+    				name = hidden_cytharai_cult
+    				duration = 3650
+    				hidden = no
+				}
+			}
+			random_province = {
+				limit = {
+					superregion = ulthuan_superregion
+					NOT = { religion = cytharai }
+					}
+				change_religion = cytharai
+				add_permanent_province_modifier = { 
+    				name = hidden_cytharai_cult
+    				duration = 3650
+    				hidden = no
+				}
+			}
+			random_province = {
+				limit = {
+					superregion = ulthuan_superregion
+					NOT = { religion = cytharai }
+					}
+				change_religion = cytharai
+				add_permanent_province_modifier = { 
+    				name = hidden_cytharai_cult
+    				duration = 3650
+    				hidden = no
+				}
+			}
+		}
+	}
+
+
+	gen_cytharai_expand_the_cults = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_cytharai_missionaries_abroad }
+		provinces_to_highlight = {
+            has_province_modifier = hidden_cytharai_cult
+        } 
+		trigger = {
+			treasury = 250
+		}
+
+		effect = {
+			add_treasury = -250
+			every_province = {
+				limit = { has_province_modifier = hidden_cytharai_cult }
+				random_neighbor_province = { 
+					change_religion = cytharai
+					add_permanent_province_modifier = { 
+	    				name = hidden_cytharai_cult
+	    				duration = 3650
+	    				hidden = no
+					}
+				}
+			}
+		}
+	}
+
+
+	gen_cytharai_cytharai_in_ulthuan = { 
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { gen_cytharai_missionaries_abroad }
+		provinces_to_highlight = {
+            has_province_modifier = hidden_cytharai_cult
+        } 
+		trigger = {
+			any_country = {
+				capital_scope = { superregion = ulthuan_superregion }
+				religion = cytharai
+			}
+			treasury = 250
+		}
+
+		effect = {
+			add_treasury = -250
+			every_province = {
+				limit = { has_province_modifier = hidden_cytharai_cult }
+				random_neighbor_province = { 
+					change_religion = cytharai
+					add_permanent_province_modifier = { 
+	    				name = hidden_cytharai_cult
+	    				duration = 3650
+	    				hidden = no
+					}
+				}
+			}
+		}
+	}
+
+
+
+
+}

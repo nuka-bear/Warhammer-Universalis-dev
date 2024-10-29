@@ -1,0 +1,18 @@
+
+### Dark Elf
+
+
+
+hidden_cytharai_cult = {
+	local_missionary_strength = -0.05
+	local_unrest = -1
+	local_autonomy = 0.10
+}
+
+
+dark_elves_can_slave_raid = {
+	may_perform_slave_raid = yes
+	may_perform_slave_raid_on_same_religion = yes
+}
+
+

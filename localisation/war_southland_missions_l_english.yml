@@ -165,12 +165,14 @@ gen_greenskin_raid_50_desc:0 "No land is safe! We’z gonna smash dem an’ take
 gen_greenskin_ultimate_mission_title:0 "Da Biggest Waaagh!"
 gen_greenskin_ultimate_mission_desc:0 "Da whole place iz ours! We’z krumped all da gits who stood in our way, takin’ wot we want an’ growin’ stronger every day. Nuffink can stop us now—da whole world’s gonna feel da power o’ da Waaagh!"
 
-greenskin_ultimate_title:0 "Da Waaagh! Supreme"
-desc_greenskin_ultimate:0 "We’z got da biggest boyz, da biggest mobs, an’ da most fighty Waaagh! da world’s ever seen! Fueled by da smashiest, bashiest battles, we’z da unstoppable Greenskins, always ready fer da next krumpin’!"
 
 
 
  ##### Greenskin & Gork modifiers
+
+greenskin_ultimate:0 "Da Waaagh! Supreme"
+desc_greenskin_ultimate:0 "We’z got da biggest boyz, da biggest mobs, an’ da most fighty Waaagh! da world’s ever seen! Fueled by da smashiest, bashiest battles, we’z da unstoppable Greenskins, always ready fer da next krumpin’!"
+
 
 greenskin_claimant:0 "Claim’d Da Lands"
 desc_greenskin_claimant:0 "Da boyz get ‘igh pride an’ power when dey claim more lands! Da mobs be growin' too, dey iz."

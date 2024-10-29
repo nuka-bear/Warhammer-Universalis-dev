@@ -7,25 +7,13 @@ Raiding happens when people reclaim their own lands
 Burger Privelage if your capital is in a subterranean zone, then you get + in subterranean, - in non-subterranean
 	Look at hydralaogic empire.
 
-Make all the Loyalty missions also require an agenda to be completed
-
 Dimmed Sunz starts with no army!
 
 Consolidate Localizations by race
 
 Check how many temple cities there actually are for lizard final mission
 
-Skaven decision to cause devastation in neighboring provinces
-
-Ogre leadership crisis if ruler is missing mil or not at war
-
-Make events for Cathayan dominions to declare on their leader
-
-Build the Ritual Site should highlight the possible ritual site
-
-Greenskin ultimate modifier not localized
-
-Cathay Build temples mission is redundant with The other generic build buildings mission
+Make events for dominions to declare on their leader
 
 Cool images for everything
 	Monuments
@@ -42,7 +30,7 @@ Everybody!
 	Make each mission tree a single icon of the culture or religion
 	Fix remaining provinces	names
 	Add monuments based on the maps
-	Switch up multiple differentgov types and religions for each area.
+	Switch up multiple different gov types and religions for each area.
 
 Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
 
@@ -51,6 +39,20 @@ Add the warhammer legendary lords into the map
 Add legendary artifacts that are traits that move between people
 
 Worry about military balance
+
+Dark Elf
+	Spreading religion on Ulthuan
+	Event to spread the religion?
+	"Blood Kiss" Decision
+	Decision to spread cults
+	Can Dominionize Anybody?
+	Give dark elves visibility into Ulthuan
+
+Wood Elves
+	Gov mechanic for changing seasons.
+
+Skaven
+	Skaven decision to cause devastation in neighboring provinces
 
 Lizards
 	have a government mechanic which makes them stronger for each geomantic web city they control spread like 50 around the world.
@@ -61,6 +63,12 @@ Lizards
 	Spell to make devestation in all enemy lands
 
 Dwarves
+
+OGRE
+	Ogre leadership crisis if ruler is missing mil or not at war
+
+Wood Elves
+	Gov Mechanic seasons that gives bonuses based on the season. New season every 5/10 years?
 
 High Elves
 	Pie in the Sky: Perfidious Elves, ally or Rival all other great powers

@@ -297,9 +297,16 @@ gen_yin_yang_missions = {
 	### Clergy donating gifts & Resources
 	gen_yin_yang_places_of_worship = {
 		icon = mission_egyptian_mamluk_soldier
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { development = 6 }
+		}
 		required_missions = {
 		}
 		trigger = {
+			all_owned_province = {
+				development = 6
+			}
 			num_of_owned_provinces_with = {
 				OR = {
 					has_building = temple

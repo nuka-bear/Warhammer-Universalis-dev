@@ -350,6 +350,9 @@ gen_old_ones_missions = {
 	gen_old_ones_build_ritual_site = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_old_ones_identify_ritual_site }
+		provinces_to_highlight = {
+			has_province_modifier = lizard_6th_spawning_site
+		}
 		trigger = {
 			num_of_owned_provinces_with = {
 				has_province_modifier = lizard_6th_spawning_site
@@ -405,6 +408,9 @@ gen_old_ones_missions = {
 	gen_old_6th_spawning = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_old_ones_experiments }
+		provinces_to_highlight = {
+			has_province_modifier = lizard_ritual_site_ready
+		}
 		trigger = {
 
 			num_of_owned_provinces_with = {

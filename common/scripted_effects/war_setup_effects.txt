@@ -789,6 +789,9 @@ setup_vision = {
 			oceania = {
 				discover_country = ROOT
 			}
+			ulthuan_superregion = {
+				discover_country = ROOT
+			}
 			gulf_of_naggaroth_region = {
 				discover_country = ROOT
 			}
@@ -844,6 +847,12 @@ setup_vision = {
 			}
 			#Discover civilized divenhal
 			north_america = {
+				discover_country = ROOT
+			}
+			oceania = {
+				discover_country = ROOT
+			}
+			ulthuan_superregion = {
 				discover_country = ROOT
 			}
 			gulf_of_naggaroth_region = {

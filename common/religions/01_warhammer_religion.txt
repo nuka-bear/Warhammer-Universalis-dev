@@ -591,6 +591,9 @@ elven_denominations = {
 			heir_chance = 1.0
 			land_morale = 0.05
 		}
+		province = {
+			local_missionary_strength = -0.02
+		}
 		country_as_secondary = {
 			land_morale = 0.05
 			advisor_cost = -0.1

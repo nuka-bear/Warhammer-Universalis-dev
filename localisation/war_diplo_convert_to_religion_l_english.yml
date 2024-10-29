@@ -1,0 +1,12 @@
+﻿l_english:
+
+
+war_diplo_convert_to_religion: "Convert Them"
+war_diplo_convert_to_religion_title: "Convert Them"
+war_diplo_convert_to_religion_desc: "Convert them to our religion.\nImprove these chances by improving relations, trust, favors, and diplomatic reputation. If they have poor religious unity or you have 4 or more missionaries, then you are more likely to succeed."
+war_diplo_convert_to_religion_tooltip: "Convert them to our religion.\nImprove these chances by improving relations, trust, favors, and diplomatic reputation. If they have poor religious unity or you have 4 or more missionaries, then you are more likely to succeed."
+
+
+BAD_UNITY:0 "They have poor religious unity"
+REALLY_BAD_UNITY:0 "They have extremely poor religious unity"
+MANY_MISSIONARIES:0 "We have have missionaries"
