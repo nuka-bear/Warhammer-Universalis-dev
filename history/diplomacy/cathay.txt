@@ -18,7 +18,7 @@ dependency = {
 
 dependency = {
 	subject_type = dominion
-first = I25
+	first = I25
 	second = I23
 	start_date = 2502.1.1
 	end_date = 9999.1.1
