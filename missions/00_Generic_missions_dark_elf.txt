@@ -4,11 +4,6 @@
 ##### DARK ELF CULTURE GROUP
 ##################################
 
-## Gain the ability to do slave raids
-### Slaves
-### Black Arks
-### Protecting from the north
-
 gen_dark_elf_missions = {
 	slot = 1
 	generic = yes
@@ -36,6 +31,11 @@ gen_dark_elf_missions = {
  				name = dark_elves_can_slave_raid
 				duration = -1
 			}
+			
+			451 = {
+				add_permanent_claim = ROOT
+			}
+
 		}
 	}
 

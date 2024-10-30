@@ -1,6 +1,8 @@
 
 JG To Do & Thoughts
 
+https://docs.google.com/spreadsheets/d/1UPAxq7n6jmW5FqCbGsSO4l8Txm98r0WMgeluOR-HlrM/edit?gid=0#gid=0
+
 Raiding happens when people reclaim their own lands
 	Might be fixed, check if this works. - Nope!
 
@@ -17,6 +19,7 @@ Make events for dominions to declare on their leader
 
 Naming Provinces
 	Use the continent > subcontinent > area > province breakdown thing in excel and put that into chatgpt
+	https://docs.google.com/spreadsheets/d/1UPAxq7n6jmW5FqCbGsSO4l8Txm98r0WMgeluOR-HlrM/edit?gid=0#gid=0
 
 Cool images for everything
 	Monuments
