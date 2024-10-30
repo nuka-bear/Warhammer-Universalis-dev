@@ -108,10 +108,7 @@ cb_war_racial_unification = {
 	prerequisites = {
 		OR = {
 			technology_group = FROM
-			AND = {
-				technology_group = tech_dark_elven
-				FROM = { technology_group = tech_high_elven }
-			}
+			religion = FROM
 		}
 		NOT = { is_subject_of = FROM }		
 		NOT = { bretonnian_dukedom_subject = 1 }

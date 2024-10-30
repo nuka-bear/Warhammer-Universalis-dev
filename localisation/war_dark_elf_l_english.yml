@@ -1,0 +1,87 @@
+﻿l_english:
+
+hidden_cytharai_cult:0 "Hidden Cytharai Cult"
+desc_hidden_cytharai_cult:0 "A secret cult of the Cytharai thrives in the shadows, quietly sowing discord and unrest, while subtly lowering autonomy in the region."
+
+dark_elves_can_slave_raid:0 "Slave Raiding"
+desc_dark_elves_can_slave_raid:0 "The Dark Elves have long perfected the art of slave raiding, indiscriminately capturing those of the same faith to fuel their economy and industry."
+
+dark_elf_colonists:0 "Dark Elf Colonists"
+desc_dark_elf_colonists:0 "Driven by their desire for conquest and expansion, the Dark Elves have sent their settlers to seize new lands and spread their dominion."
+
+dark_elf_monsters:0 "Monsters of Naggaroth"
+desc_dark_elf_monsters:0 "The Dark Elves have tamed fearsome monsters that roam the desolate lands of Naggaroth, deploying them as terrifying shock troops in their armies."
+
+dark_elf_court_of_despair:0 "Court of Despair"
+desc_dark_elf_court_of_despair:0 "In the heart of Naggarond lies the Court of Despair, where intrigue and ambition know no bounds, empowering the Dark Elves with enhanced diplomacy and absolutism."
+
+dark_elf_dominion:0 "The Dominion of Druchii"
+desc_dark_elf_dominion:0 "Through conquest and brutality, the Dark Elves establish their iron-fisted rule, pushing absolutism to its highest possible limits."
+
+dark_elf_more_missionaries:0 "Dark Elf Missionaries"
+desc_dark_elf_more_missionaries:0 "The Dark Elves spread the influence of their dark gods across the lands, sending more missionaries to convert the masses to the worship of the Cytharai."
+
+dark_elf_better_missionaries:0 "Efficient Missionaries"
+desc_dark_elf_better_missionaries:0 "The Dark Elves’ missionary efforts are more effective than ever, converting heathens to the dark faith with greater speed and fervor."
+
+dark_elf_culture_conversion:0 "Cultural Subjugation"
+desc_dark_elf_culture_conversion:0 "The Dark Elves impose their own cruel culture upon those they conquer, forcing their new subjects to forsake their old ways at reduced cost."
+
+dark_elf_im_back:0 "The Return of Dark Elves"
+desc_dark_elf_im_back:0 "Malekith has returned, rallying the Druchii armies with renewed vigor and strengthening their diplomatic position across Naggaroth."
+
+dark_elf_on_the_throne:0 "Seated Upon the Phoenix Throne"
+desc_dark_elf_on_the_throne:0 "The Dark Elves have finally claimed the Phoenix Throne, cementing their dominion over Ulthuan and the world beyond, empowering their armies to march forth."
+
+dark_elf_black_arks:0 "Black Ship Fleet"
+desc_dark_elf_black_arks:0 "Our Black Ships are unlike anything else on the sea."
+## Missions
+
+gen_dark_elf_please_nobility_title:0 "Please the Nobility"
+gen_dark_elf_please_nobility_desc:0 "To maintain our grip on power, we must keep the nobility loyal and content. We shall send them out in our fleets to raid and pillage the coasts."
+
+gen_dark_elf_rebuild_black_arks_title:0 "Rebuild the Black Arks"
+gen_dark_elf_rebuild_black_arks_desc:0 "The Black Arks are the lifeblood of our dominion at sea. By constructing a formidable fleet of these floating fortresses, we will ensure Dark Elf supremacy over the waves."
+
+gen_dark_elf_colonize_coasts_title:0 "Colonize the Coasts"
+gen_dark_elf_colonize_coasts_desc:0 "The coasts beyond Naggaroth hold rich lands ripe for exploitation. We must expand our settlements and secure strategic footholds across the seas."
+
+gen_dark_elf_get_slaves_title:0 "Acquire More Slaves"
+gen_dark_elf_get_slaves_desc:0 "Our economy thrives on the backs of slaves. By targeting and acquiring more slave provinces, we will ensure a steady flow of manpower and resources to fuel our war machine."
+
+gen_dark_elf_lead_slaves_title:0 "Lead the Slaves"
+gen_dark_elf_lead_slaves_desc:0 "With vast numbers of slaves under our command, we must now organize them efficiently to maximize their production and maintain control over them."
+
+gen_dark_elf_consolidate_power_title:0 "Consolidate Power"
+gen_dark_elf_consolidate_power_desc:0 "By reducing the influence of the estates and increasing crown land, we will consolidate our power and strengthen the position of the Dark Elf nobility."
+
+gen_dark_elf_court_of_despair_title:0 "Court of Despair"
+gen_dark_elf_court_of_despair_desc:0 "The Court of Despair at Naggarond is a den of treachery and deceit. By using it to our advantage, we can manipulate both friend and foe, boosting our diplomatic reputation and increasing our control over the realm."
+
+gen_dark_elf_ultimate_title:0 "Dominion of all Things"
+gen_dark_elf_ultimate_desc:0 "Through conquest and domination, we must bring all of Naggaroth and Ulthuan under our control, leaving no province unclaimed by the Druchii. With these under our command, we claim rightful dominion over the entire world."
+
+claim_all_world_tooltip:0 "Gain a permanent claim on all provinces. Yes, all provinces."
+
+gen_cytharai_great_sacrifice_title:0 "Sate the Monsters"
+gen_cytharai_great_sacrifice_desc:0 "To summon the greatest beasts of Naggaroth, a blood sacrifice is required. By offering up our manpower, we can call upon these terrifying creatures to bolster our ranks."
+
+gen_cytharai_missionaries_abroad_title:0 "Missionaries Abroad"
+gen_cytharai_missionaries_abroad_desc:0 "The Cytharai cult must spread far and wide. By converting provinces in Ulthuan to the worship of the dark gods, we will increase our influence and gain more missionaries for our cause."
+
+gen_cytharai_expand_the_cults_title:0 "Expand the Cults"
+gen_cytharai_expand_the_cults_desc:0 "Our hidden cults have taken root in Ulthuan. By funding their expansion, we will spread their dark influence further, converting neighboring provinces and strengthening our missionary efforts."
+
+gen_cytharai_cytharai_in_ulthuan_title:0 "The Cytharai in Ulthuan"
+gen_cytharai_cytharai_in_ulthuan_desc:0 "The Cytharai now have a foothold in Ulthuan, and their influence is growing. We must ensure their spread by further converting nearby provinces to their dark faith."
+
+gen_cytharai_ally_on_ulthuan_title:0 "An Ally in Ulthuan"
+gen_cytharai_ally_on_ulthuan_desc:0 "By securing an alliance with a faction based in Ulthuan, we can solidify our presence on the island and gain valuable support for our conquests."
+
+gen_cytharai_foothold_on_ulthuan_title:0 "Establish a Foothold"
+gen_cytharai_foothold_on_ulthuan_desc:0 "Our foothold on Ulthuan must be secured. By fortifying our positions and pushing further inland, we can prepare for the ultimate conquest of the island."
+
+gen_cytharai_take_the_phoenix_throne_title:0 "Take the Phoenix Throne"
+gen_cytharai_take_the_phoenix_throne_desc:0 "The time has come to seize the Phoenix Throne and establish Malekith as the rightful ruler of Ulthuan. This will solidify our claim over the land and our eternal dominion."
+
+claim_all_ulthuan_tooltip:0 "Gain a permanent claim on all of Ulthuan"

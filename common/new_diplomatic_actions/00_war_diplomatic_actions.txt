@@ -170,10 +170,7 @@ offer_dominion_action = {
 			NOT = { num_of_subjects = 1 }
 			OR = {
 				technology_group = ROOT
-				AND = {
-					ROOT = { technology_group = tech_dark_elven}
-					technology_group = tech_high_elven
-				}
+				religion = ROOT
 			}
 		}
 	}
@@ -678,9 +675,7 @@ war_diplo_convert_to_religion = {
     on_accept = {
 
     	FROM = {
-
     		change_religion = ROOT
-
     	}
 
     	add_favors = {

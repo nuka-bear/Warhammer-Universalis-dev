@@ -10,10 +10,8 @@ cathay_mod_terracotta_forges = {
 }
 
 cathay_mod_garrisons = {
-	
 	garrison_size = 0.10
 	garrison_damage = 0.10
-
 }
 
 cathay_mod_heavy_ships = {

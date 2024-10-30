@@ -15,6 +15,9 @@ Check how many temple cities there actually are for lizard final mission
 
 Make events for dominions to declare on their leader
 
+Naming Provinces
+	Use the continent > subcontinent > area > province breakdown thing in excel and put that into chatgpt
+
 Cool images for everything
 	Monuments
 	Missions

@@ -29,10 +29,7 @@ po_force_dominion = {
 	is_allowed = { # Defaults to equivalent of "always = yes"
 		OR = {
 			technology_group = FROM
-			AND = {
-				technology_group = tech_dark_elven
-				FROM = { technology_group = tech_high_elven }
-			}
+			religion = FROM
 		}
 		NOT = { overlord_of = FROM }
 		NOT = { FROM = { is_subject_of_type = dominion } }
