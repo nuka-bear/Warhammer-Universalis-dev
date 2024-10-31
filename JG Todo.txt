@@ -11,10 +11,6 @@ Burger Privelage if your capital is in a subterranean zone, then you get + in su
 
 Dimmed Sunz starts with no army!
 
-Consolidate Localizations by race
-
-Check how many temple cities there actually are for lizard final mission
-
 Make events for dominions to declare on their leader
 
 Naming Provinces
@@ -37,6 +33,7 @@ Everybody!
 	Fix remaining provinces	names
 	Add monuments based on the maps
 	Switch up multiple different gov types and religions for each area.
+	Worry about military balance
 
 Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
 
@@ -44,18 +41,16 @@ Add the warhammer legendary lords into the map
 
 Add legendary artifacts that are traits that move between people
 
-Worry about military balance
+
+High Elves
+
 
 Dark Elf
-	Spreading religion on Ulthuan
-	Event to spread the religion?
-	"Blood Kiss" Decision
-	Decision to spread cults
-	Can Dominionize Anybody?
-	Give dark elves visibility into Ulthuan
+
 
 Wood Elves
-	Gov mechanic for changing seasons.
+	Gov mechanic for changing seasons. Gov Mechanic seasons that gives bonuses based on the season. New season every 5/10 years?
+
 
 Skaven
 	Skaven decision to cause devastation in neighboring provinces
@@ -64,20 +59,14 @@ Lizards
 	have a government mechanic which makes them stronger for each geomantic web city they control spread like 50 around the world.
 		Province Group?
 		Number of Superregions?
-	State maintenence is low if they control the whole state?
-	Prosperity?
 	Spell to make devestation in all enemy lands
+	Check how many temple cities there actually are for lizard final mission
+	Fix the Sequence of Localization
 
 Dwarves
 
 OGRE
 	Ogre leadership crisis if ruler is missing mil or not at war
-
-Wood Elves
-	Gov Mechanic seasons that gives bonuses based on the season. New season every 5/10 years?
-
-High Elves
-	Pie in the Sky: Perfidious Elves, ally or Rival all other great powers
 
 Nehekhara
 	+ Tax, - production
@@ -98,10 +87,10 @@ Cathay
 	Disaster if Cathay provinces not owned by cathay dudes (or maybe just bastion?)
 
 Legitimate Successor government mechanic for Nehekhara & Cathay?
-			Event at high legitimate successor to declare independence war? Maybe it's a defensive war to give them a chance?
-			Event for the overlord to reign them in (declar war), or suffer penalty to own legitimacy
-			Pretty slow moving
-			Government scale for legitimate successor, with increasing diplomatic reputation and liberty desire. Higher, more liberty desire for self, less liverty desire for others.
+	Event at high legitimate successor to declare independence war? Maybe it's a defensive war to give them a chance?
+	Event for the overlord to reign them in (declar war), or suffer penalty to own legitimacy
+	Pretty slow moving
+	Government scale for legitimate successor, with increasing diplomatic reputation and liberty desire. Higher, more liberty desire for self, less liverty desire for others.
 
 
 Bugs

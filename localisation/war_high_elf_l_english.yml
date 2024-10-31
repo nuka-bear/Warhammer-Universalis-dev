@@ -1,0 +1,108 @@
+﻿l_english:
+
+##### DECISIONS
+
+  location_of_the_phoenix_crown:0 "The Phoenix Crown"
+  location_of_the_phoenix_crown_desc:0 "The High Elven Phoenix Crown was taken by the Dwarves of Karaz a Karak long ago. Since then it has traded hands many times, but it remains a symbol of might and prestige."
+
+  take_the_phoenix_crown_title:0 "Take the Phoenix Crown"
+  take_the_phoenix_crown_desc:0 "We have the opportunity to take the famed Asur Phoenix Crown, which was a century in its creation."
+
+
+
+### Modifiers
+
+asur_warscore_against_religious_enemies:0 "Holy Conqueror"
+desc_asur_warscore_against_religious_enemies:0 "Our righteous cause grants us an edge over enemies who do not share our beliefs. Their defeat shall come at a lower cost to our might."
+
+asur_better_transports:0 "Asur Naval Superiority"
+desc_asur_better_transports:0 "Our advanced ship designs ensure our fleets dominate the seas, swiftly carrying our warriors across the waves with minimal attrition."
+
+asur_speedy_diplomats:0 "Fleet-Footed Envoys"
+desc_asur_speedy_diplomats:0 "Our diplomats, swift and eloquent, traverse the lands with unmatched efficiency, bolstering our capacity to maintain extensive foreign relations."
+
+asur_colonists:0 "Pioneers of Ulthuan"
+desc_asur_colonists:0 "The Asur are ever-expanding, sending our people to colonize new lands and spread the influence of Ulthuan far and wide."
+
+asur_ultimate_reward:0 "Ultimate Diplomatic Mastery"
+desc_asur_ultimate_reward:0 "Our mastery of diplomacy brings us unparalleled influence, improving our relations, reputation, and ensuring our spies weave their webs with remarkable finesse."
+
+
+cadai_elaborate_ceremonies:0 "Elaborate Ceremonies"
+desc_cadai_elaborate_ceremonies:0 "Rituals honoring the gods are a grand affair, impressing our allies and ensuring our faith's supremacy."
+
+cadai_place_of_study:0 "Centers of Enlightenment"
+desc_cadai_place_of_study:0 "Our great academies nurture minds that drive forward our society’s understanding of the world, accelerating the spread of institutions."
+
+cadai_place_of_law:0 "Seats of Justice"
+desc_cadai_place_of_law:0 "Courthouses and centers of governance instill a sense of order among our people, reducing the cost of maintaining stability."
+
+cadai_place_of_innovation:0 "Halls of Innovation"
+desc_cadai_place_of_innovation:0 "Our universities foster innovation, bringing forth new ideas and keeping our society at the forefront of progress."
+
+cadai_friends_with_cadai:0 "Friends with the Faithful"
+desc_cadai_friends_with_cadai:0 "Maintaining good relations with fellow believers fosters unity and prosperity, ensuring peace among our faithful."
+
+cadai_wine_silk:0 "Wine and Silk Trade"
+desc_cadai_wine_silk:0 "Our thriving trade in luxury goods, such as wine, silk, and gems, bolsters our diplomatic prestige and economic influence across the world."
+
+cadai_unified_people:0 "Unity Under One Banner"
+desc_cadai_unified_people:0 "The people of Ulthuan stand united, casting aside old divisions. This unity brings peace and cohesion throughout our lands."
+
+
+
+#### Missions
+
+gen_asur_please_nobility_title:0 "Noble Envoys"
+gen_asur_please_nobility_desc:0 "We must lavish our nobles with praise in order to convince them to go abroad. We shall send our many noblemen abroad to the various nations of the lesser races."
+
+gen_asur_get_crownland_up_title:0 "Reclaim Crown Lands"
+gen_asur_get_crownland_up_desc:0 "Reasserting control over our crown lands will enrich our capital and provide a firm foundation for future growth."
+
+gen_asur_fight_religious_enemy_title:0 "Victory against Outsiders"
+gen_asur_fight_religious_enemy_desc:0 "The time has come to cleanse the land of those who oppose our faith. Victory over these foes will empower our cause."
+
+gen_asur_enemies_and_alliances_title:0 "Enemies and Alliances"
+gen_asur_enemies_and_alliances_desc:0 "To secure our realm, we must choose our allies and rivals wisely, using diplomacy and might to safeguard Ulthuan."
+
+gen_asur_big_fleet_title:0 "Build a Grand Fleet"
+gen_asur_big_fleet_desc:0 "A grand fleet is essential to protect our coasts and project our power across the seas. Let us construct a navy worthy of Ulthuan."
+
+gen_asur_colonists_title:0 "Beyond the Horizon"
+gen_asur_colonists_desc:0 "Our people must seek out new lands to settle and expand our influence, using our naval strength to establish colonies across the world."
+
+gen_asur_reclaim_phoenix_crown_title:0 "Reclaim the Phoenix Crown"
+gen_asur_reclaim_phoenix_crown_desc:0 "The Phoenix Crown, symbol of our divine right to rule, must be recovered. Its return will restore our legitimacy and prestige."
+
+gen_asur_ultimate_mission_title:0 "Perfidious Ulthuan"
+gen_asur_ultimate_mission_desc:0 "Our efforts have culminated in unparalleled diplomatic power and influence. Let us bask in our triumph and ensure the Asur reign supreme."
+
+
+gen_cadai_places_of_worship_title:0 "Magnificient Temples"
+gen_cadai_places_of_worship_desc:0 "To honor our gods, we must build great temples and cathedrals, ensuring their presence blesses our lands."
+
+gen_cadai_place_of_study_title:0 "Found Centers of Study"
+gen_cadai_place_of_study_desc:0 "Our capital shall become a beacon of knowledge, with institutions that elevate our society and spread enlightenment."
+
+gen_cadai_places_of_law_title:0 "Establish Courts of Law"
+gen_cadai_places_of_law_desc:0 "To maintain order, we must construct courthouses and halls of governance, ensuring justice prevails throughout our territories."
+
+gen_cadai_places_of_innovation_title:0 "Promote Innovation"
+gen_cadai_places_of_innovation_desc:0 "Our lands shall be a hub of innovation, with universities that drive progress and keep us ahead of our rivals."
+
+gen_cadai_happy_priest_title:0 "Please the Priesthood"
+gen_cadai_happy_priest_desc:0 "Keeping the priesthood content is crucial. By fulfilling their agendas and performing grand ceremonies, we ensure their loyalty."
+
+gen_cadai_wine_and_silk_title:0 "Dominate the Luxury Trade"
+gen_cadai_wine_and_silk_desc:0 "Our control of luxury goods, such as wine and silk, grants us prestige and economic power. Let us leverage this to our advantage."
+
+gen_cadai_unify_ulthuan_title:0 "Unify All of Ulthuan"
+gen_cadai_unify_ulthuan_desc:0 "Ulthuan must be united under our banner. Only then will we achieve true peace and prosperity across our lands."
+
+
+
+  reclaimed_phoenix_crown_mission_tooltip:0 "Gain 20 trust and favors with all elven nations."
+
+  asur_diplomatic_missions_tooltip:0 "Gain 5 trust and favors with all nations who know us."
+
+

@@ -36,4 +36,43 @@ country_decisions = {
 		}
 	
 	}
+
+	take_the_phoenix_crown = {
+		potential = { 
+			OR = {
+				culture_group = asur_group
+				culture_group = druchii_group
+				culture_group = asrai_group
+				any_province = {
+					controlled_by = ROOT
+					has_province_modifier = location_of_the_phoenix_crown
+				}
+			}
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_phoenix_crown
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_phoenix_crown }
+				remove_province_modifier = location_of_the_phoenix_crown
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_phoenix_crown
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
 }

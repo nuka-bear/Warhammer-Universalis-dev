@@ -46,28 +46,69 @@
  ### Ulthuan ###
  ### Ulthuan ###
  ### Ulthuan ###
- elf_can_use_tooltip:0 "Only Elves can use this monument"
- gp_court_of_the_phoenix_king:0 "Court of the Phoenix King"
- gp_court_of_the_everqueen:0 "Court of the Everqueen"
- gp_white_tower_of_hoeth:0 "White Tower of Hoeth"
- gp_amphitheatre_of_yvresse:0 "Amphitheatre of Yvresse"
- gp_black_citadel_of_anlec:0 "Black Citadel of Anlec"
- gp_hall_of_charioteers:0 "Hall of Charioteers"
- gp_gates_of_lothern:0 "Gates of Lothern"
- gp_hall_of_dragons:0 "Hall of Dragons"
- gp_royal_ellyrian_stables:0 "Royal Ellyrian Stables"
- gp_ancient_subterranean_palace:0 "Ancient Subterranean Palace"
- gp_white_lion_hunting_grounds:0 "White Lion Hunting Grounds"
+ 
+gp_court_of_the_everqueen:0 "Court of the Everqueen"
+gp_court_of_the_everqueen_desc:0 "The Court of the Everqueen is a place of natural beauty and mystical harmony. As the spiritual heart of Ulthuan, it is where the Everqueen and her attendants oversee the spiritual welfare of the Elven people. The Everqueen’s blessings bring peace and abundance, ensuring the land flourishes and its people remain loyal and inspired. Her influence also enhances the diplomatic strength and unity of the Elven realms."
+
+gp_court_of_the_phoenix_king:0 "Court of the Phoenix King"
+gp_court_of_the_phoenix_king_desc:0 "The Court of the Phoenix King is the center of Ulthuan’s governance, where the Phoenix King presides over the High Elf nobility. This grand court is a symbol of order, tradition, and prosperity. Here, laws are made and diplomacy is conducted, ensuring the realm is well-administered and resilient to corruption. Its influence brings stability and prosperity across the land, reinforcing the authority of the High Elf leadership."
+
+gp_white_tower_of_hoeth:0 "White Tower of Hoeth"
+gp_white_tower_of_hoeth_desc:0 "The White Tower of Hoeth is the foremost center of magical learning in the world, a place of unparalleled wisdom and power. It houses the Loremasters of Hoeth, who study the arcane arts and guard the secrets of High Elf sorcery. This tower fortifies Ulthuan against magical threats and empowers its rulers, granting them knowledge and increased longevity. It also provides unmatched defensive capabilities against any who dare threaten its sanctity."
+
+gp_amphitheatre_of_yvresse:0 "Amphitheatre of Yvresse"
+gp_amphitheatre_of_yvresse_desc:0 "The Amphitheatre of Yvresse is a cultural marvel where performances and oratory bring hope and unity to a land often shrouded in mist and sorrow. Here, tales of heroism and acts of defiance against darkness are celebrated, bolstering the morale of Yvresse’s people. The amphitheatre also acts as a hub for intrigue and diplomacy, enhancing the Elves’ prestige and their ability to counter enemy spies."
+
+gp_black_citadel_of_anlec:0 "Black Citadel of Anlec"
+gp_black_citadel_of_anlec_desc:0 "The Black Citadel of Anlec is a grim fortress, standing as a bulwark against the dark tides. Though once a place of infamy, it now serves as a vital stronghold for the High Elves, commanding the region with authority and providing a powerful symbol of reclaimed honor. The citadel’s fortifications and strategic influence bolster the governing power of its rulers, making them fearsome to their foes and revered by their vassals."
+
+gp_hall_of_charioteers:0 "Hall of Charioteers"
+gp_hall_of_charioteers_desc:0 "The Hall of Charioteers is a tribute to the mastery and speed of the Elven chariot hosts. This grand training ground produces warriors skilled in the art of chariot warfare, enhancing the mobility and tactical strength of the High Elf armies. The hall also serves as a place of innovation, where new strategies and tactics are developed, making the Elven forces swift and deadly in battle."
+
+gp_gates_of_lothern:0 "Gates of Lothern"
+gp_gates_of_lothern_desc:0 "The Gates of Lothern stand as Ulthuan’s first line of defense, guarding the principal harbor with towering fortifications and an impenetrable maritime barrier. These gates ensure the safety of the inner kingdom from naval invasions, while also enhancing trade and maritime power. Their imposing presence not only protects the realm but strengthens the strategic and economic reach of Lothern’s mighty fleets."
+
+gp_hall_of_dragons:0 "Hall of Dragons"
+gp_hall_of_dragons_desc:0 "The Hall of Dragons is where the ancient bond between High Elves and their dragon allies is most honored. Here, riders train alongside mighty dragons, forming an elite force of terrifying power. The hall strengthens the Elves’ military traditions, inspiring greater courage and unity in their ranks. The presence of these majestic creatures elevates both the military prestige and the fearsome might of Ulthuan’s armies."
+
+gp_royal_ellyrian_stables:0 "Royal Ellyrian Stables"
+gp_royal_ellyrian_stables_desc:0 "The Royal Ellyrian Stables are the breeding ground of the finest Elven steeds. Here, the famous Ellyrian Reavers train to become masters of swift, hit-and-run warfare. The stables not only provide the High Elf forces with exceptional cavalry but also bring stability and wealth to the surrounding region. Their presence ensures Ulthuan remains a formidable power, both in defense and in strategic mobility."
+
+gp_ancient_subterranean_palace:0 "Ancient Subterranean Palace"
+gp_ancient_subterranean_palace_desc:0 "The Ancient Subterranean Palace is a marvel of High Elf architecture, hidden beneath the hills and known for its vast, opulent halls. It serves as both a secure trading hub and a place of grand diplomatic gatherings. The palace’s influence increases Ulthuan’s trade efficiency, making it a key asset in the realm’s economic and diplomatic strategies, while also providing a haven for secret negotiations and alliances."
+
+gp_white_lion_hunting_grounds:0 "White Lion Hunting Grounds"
+gp_white_lion_hunting_grounds_desc:0 "The White Lion Hunting Grounds of Chrace are where the fiercest and most honorable of warriors train to hunt the great White Lions. These grounds produce warriors known for their courage and ferocity, strengthening the Elven military. The spirit of the hunt instills discipline and endurance, making the armies of Chrace an unbreakable force in battle and a symbol of unwavering strength and tradition."
+
   
  ### Naggaroth ###
  ### Naggaroth ###
  ### Naggaroth ###
- black_tower_of_malekith:0 "Black Tower of Malekith"
- the_dark_crag:0 "The Dark Crag"
- convent_of_sorcery:0 "Convent of Sorcery"
- lairs_of_clar_karond:0 "Lairs of Clar Karond"
- karond_kar:0 "Palace of Helleborne"
- har_ganeth:0 "Slave Lord Palaces"
+black_tower_of_malekith:0 "Black Tower of Malekith"
+black_tower_of_malekith_desc:0 "The Black Tower of Malekith is a foreboding bastion, housing the Witch King's seat of power in Naggaroth. It stands as an indomitable symbol of his eternal rule and dark sorceries. From this fortress, Malekith controls his legions and plots his conquests, projecting his will over Naggaroth's fractured vassals. The tower's power ensures the loyalty of his subjects and bolsters his dominion through fear and arcane might."
+
+the_dark_crag:0 "The Dark Crag"
+the_dark_crag_desc:0 "The Dark Crag is a sprawling network of fortresses carved into the jagged cliffs of Naggaroth, renowned for its rich mineral deposits and strategic defenses. Its mines yield a wealth of precious metals, empowering the Dark Elves' war economy, while the foreboding citadels overlooking the Crag provide unmatched protection for the region. Mastery over these resources enables rapid construction and unyielding defenses against invaders."
+
+convent_of_sorcery:0 "Convent of Sorcery"
+convent_of_sorcery_desc:0 "The Convent of Sorcery is the hallowed sanctuary where the Dark Elf Sorceresses perfect their mastery of magic. This tower of eldritch energy is a nexus of arcane knowledge and political intrigue, where aspiring witches train under the Matriarch's cruel tutelage. The Convent's influence extends far and wide, enhancing the magical prowess of Naggaroth, fortifying its defenses, and empowering the ruling elite with potent advisors."
+
+lairs_of_clar_karond:0 "Lairs of Clar Karond"
+lairs_of_clar_karond_desc:0 "Clar Karond, the City of Beasts, is the heart of the Dark Elf beastmasters' domain. Here, ferocious creatures are bred and trained for war, from Cold Ones to monstrous hydras. The lairs form a crucial component of Naggaroth’s military might, providing an endless supply of war beasts and elite cavalry that strike terror into the hearts of foes. The city’s monstrous output ensures Naggaroth's armies remain a formidable force on the battlefield."
+
+karond_kar:0 "Karond Kar"
+karond_kar_desc:0 "Karond Kar, the Tower of Despair, is the largest slave port in Naggaroth. This grim stronghold is where the Dark Elves' feared Black Arks dock to unload their vile cargo. The city's economy thrives on slave trade and naval might, making it a hub of maritime power and espionage. From Karond Kar, fleets set sail to sow terror across the seas, bolstered by a network of spies and ruthless privateers."
+
+har_ganeth:0 "Har Ganeth"
+har_ganeth_desc:0 "Har Ganeth, the City of Executioners, is a place where blood flows as freely as water. It is the spiritual center of Khaine's cult, where the Witch Elves and Executioners carry out gruesome rituals of death and sacrifice. The city’s imposing fortifications are a grim reminder of its brutal legacy, while the aura of divine slaughter empowers the Dark Elves' military with unmatched zeal and longevity. Those who serve Khaine are blessed—or cursed—with the blood god's dark favor."
+
+
+ ashward_slave_pits:0 "Ashward Slave Pits"
+ ashward_slave_pits_desc:0 "The Ashward Slave Pits are a grim testament to the cruel dominion of the Druchii. Here, countless slaves are driven to their breaking points, laboring endlessly under the watchful eyes of cruel overseers. Their suffering fuels the war machine of Naggaroth, providing a tireless resource for the construction of armaments and the strengthening of Dark Elf armies. These pits are a necessary evil in the pursuit of the Witch King's relentless ambitions."
+
+ witchwood_monument:0 "Witchwood Monument"
+ witchwood_monument_desc:0 "The Witchwood Monument stands as a sentinel of primal magic, revered and feared in equal measure. A bastion of the Asrai’s will in the tainted lands of Naggaroth, it is entwined with ancient wards and defended by the spirits of the forest. Those who dare trespass into its sacred ground are met with relentless resistance, as the Witchwood’s defenders harness the natural world to strike back against invaders. The monument embodies a harmonious blend of martial and spiritual fortitude, empowering the sanctity of the Elven groves and bolstering the faith of their people."
+
  
  
  

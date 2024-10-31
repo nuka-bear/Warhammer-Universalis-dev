@@ -853,6 +853,8 @@ gp_hall_of_dragons = {
 		country_modifiers = {
 			army_tradition_from_battle = 0.25
 			drill_decay_modifier = -0.1
+			allowed_cossack_fraction = 0.1
+			special_unit_cost_modifier = -0.1
 		}
 		on_upgraded = {
 		}
@@ -874,7 +876,8 @@ gp_hall_of_dragons = {
 		country_modifiers = {
 			army_tradition_from_battle = 0.5
 			drill_decay_modifier = -0.2
-			cavalry_power = 0.025
+			allowed_cossack_fraction = 0.15
+			special_unit_cost_modifier = -0.15
 		}
 		on_upgraded = {
 		}
@@ -896,7 +899,8 @@ gp_hall_of_dragons = {
 		country_modifiers = {
 			army_tradition_from_battle = 0.50
 			drill_decay_modifier = -0.25
-			cavalry_power = 0.05
+			allowed_cossack_fraction = 0.2
+			special_unit_cost_modifier = -0.2
 		}
 		on_upgraded = {
 		}

@@ -222,7 +222,6 @@ gen_dark_elf_ultimate_missions = {
 			}
 			NOT = { owned_by = ROOT }
 		}
-		custom_tooltip = claim_all_world_tooltip
 		trigger = {
 			NOT = {
 				any_province = {
@@ -236,6 +235,8 @@ gen_dark_elf_ultimate_missions = {
 		}
 
 		effect = {
+			custom_tooltip = claim_all_world_tooltip
+
 			add_country_modifier = { 
  				name = dark_elf_dominion
 				duration = -1
@@ -269,10 +270,11 @@ gen_cytharai_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { }
 		trigger = {
-			manpower = 50
+			manpower = 25
 		}
 
 		effect = {
+			add_manpower = 25
 			add_country_modifier = { 
  				name = dark_elf_monsters
 				duration = -1

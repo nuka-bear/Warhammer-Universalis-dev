@@ -1,0 +1,101 @@
+﻿l_english:
+
+
+ ##### Nehekharan Culture
+
+### Access to the Sea
+gen_nehekhara_missions_1_title:0 "Command the Endless Seas"
+gen_nehekhara_missions_1_desc:0 "For centuries, our power was confined to the desert. But Nehekhara was once a seafaring empire, dominating the trade routes from the western coasts to the furthest reaches of the east. By rebuilding our ancient fleets and reclaiming the coastal cities, we shall extend our influence beyond the sands and remind the world of the indomitable will of the Tomb Kings."
+
+### Build Capital
+gen_nehekhara_missions_2_title:0 "Raise the Eternal Citadel"
+gen_nehekhara_missions_2_desc:0 "The City of Kings, is the heart of our empire and a monument to the might of Nehekhara. As it flourishes, so too does our kingdom. We shall construct vast palaces, towering obelisks, and sacred temples that even the gods will envy. Our capital will become a testament to our divine rule and an eternal beacon of our power."
+
+### Rebuild Monument
+gen_nehekhara_missions_3_title:0 "Restore the Monuments"
+gen_nehekhara_missions_3_desc:0 "The statues and monuments that dot our lands are the legacy of the greatest pharaohs, whose deeds and glories are written in the stone itself. These structures, now fallen into ruin, must be restored to their former glory so that all who gaze upon them will remember that Nehekhara is a land of gods and kings. We must bring life back to these monuments of eternity."
+
+### Retake Symbols of Power
+gen_nehekhara_missions_4_title:0 "Reclaim the Royal Sites"
+gen_nehekhara_missions_4_desc:0 "The sacred sites of Nehekhara are scattered and desecrated by unworthy hands. The Valley of Kings, the Tomb of Settra the Imperishable, and the Great Sphinx of Numasis must be returned to us. These symbols of power are a reminder that Nehekhara was, and always shall be, the realm of undying kings. We will take back what is rightfully ours and restore our dominion over the land of the dead."
+
+### Reclaim Nehekhara
+gen_nehekhara_missions_5_title:0 "The Eternal Dominion"
+gen_nehekhara_missions_5_desc:0 "The time has come to reassert our ancient claim over the lands of Nehekhara. The other kingdoms have faded to dust, and we alone remain to carry forward the legacy of the gods. We shall ride forth with an army of the undying and drive out any who dare to oppose us. Our dominion shall extend from the desert sands to the farthest reaches of the world, for we are the rightful heirs of Nehekhara."
+
+### Please the Mortuary Cults
+gen_nehekharan_pantheon_missions_1_title:0 "Appease the Mortuary Cults"
+gen_nehekharan_pantheon_missions_1_desc:0 "The Mortuary Cults, keepers of sacred knowledge and guardians of the afterlife, hold the keys to ancient magic that binds us to this realm. By pleasing these priests and offering them the tribute they deserve, we shall earn their blessings. They will release legions of the undying from their tombs, an army to march under our eternal banner."
+
+### Construct Temples
+gen_nehekharan_pantheon_missions_2_title:0 "Build Temples to the Pantheon"
+gen_nehekharan_pantheon_missions_2_desc:0 "The gods of Nehekhara – Ptra, Asaph, Usirian, and Djaf – watch over us from the heavens, granting us strength and wisdom. To honor them, we shall erect temples where their statues will tower above, and the air will be thick with incense. By honoring our gods, we fortify our realm with divine favor and invite their wrath upon those who defy us."
+
+### Retake Symbols of Religion
+gen_nehekharan_pantheon_missions_3_title:0 "Sanctify the Holy Sites"
+gen_nehekharan_pantheon_missions_3_desc:0 "The Great Necropolis of Khemri, the Mortuary Temple of Quaph, and the Oasis of the Gods are sacred places dedicated to the divine and our ancestors. These sites have been defiled by the unworthy. We must reclaim and restore them, so that the true gods of Nehekhara will bless us once more, and our people will rekindle their ancient faith."
+
+### Convert Religion
+gen_nehekharan_pantheon_missions_4_title:0 "Unite the Land"
+gen_nehekharan_pantheon_missions_4_desc:0 "Our lands must be united in the worship of the true gods of Nehekhara, for it is their power that grants us our undying strength. We shall ensure that every temple and altar honors the Pantheon. Only then will Nehekhara stand as one under the eternal gaze of the gods."
+
+### Expand Religion
+gen_nehekharan_expand_religion_title:0 "Spread the Faith"
+gen_nehekharan_expand_religion_desc:0 "The ancient gods of Nehekhara – Ptra, Usirian, Djaf, and Asaph – have blessed our return. But their influence has waned beyond the borders of our empire, as foreign lands have turned to false idols. We shall rekindle the ancient flames of faith, bringing the glory of Nehekhara’s pantheon to these lands. As the true gods take root once more, they shall grant us their divine favor, securing our realm with eternal stability and strength."
+
+
+### Perform the Dark Ritual
+gen_nehekharan_pantheon_missions_5_title:0 "The Ritual of Nagash"
+gen_nehekharan_pantheon_missions_5_desc:0 "With the power of the Black Pyramid of Nagash at our disposal, we can unleash a ritual of unparalleled necromantic might. This dark magic will grant us strength and raise legions of warriors who know neither pain nor fear. However, such power comes at a terrible cost. We must be prepared to pay it, for we shall emerge as rulers of life and death alike."
+
+### Establish Alien Vassals
+gen_nehekharan_establish_alien_vassals_title:0 "Enslave the Living"
+gen_nehekharan_establish_alien_vassals_desc:0 "The lands of the living are populated by lesser creatures, ignorant of the grandeur of Nehekhara. We shall bend them to our will, so they may serve as vassals to our eternal empire. They will build our monuments, work our mines, and toil for our glory as we reshape the world in our image."
+
+### Please the Nobility
+gen_nehekharan_please_nobility_title:0 "Strengthen the Dynasties"
+gen_nehekharan_please_nobility_desc:0 "The noble dynasties of Nehekhara hold much sway, and their loyalty is paramount. By rewarding these powerful families with titles and blessings, we ensure their support. United under the pharaoh, the lords of Nehekhara shall bring forth an era of renewed glory and strength."
+
+### Perfect the Ritual
+gen_nehekharan_craft_new_ritual_title:0 "Perfect the Ritual"
+gen_nehekharan_craft_new_ritual_desc:0 "We have learned much for the first casting of the ritual. By perfecting it, we can draw upon this energy to empower ourselves beyond mortality. This ritual will transform us, granting dominion over both the living and the dead, and ensuring that Nehekhara’s power shall never fade from this world."
+
+
+gen_nehekhara_ultimate_mission_title:0 "Nehekhara Reborn"
+gen_nehekhara_ultimate_mission_desc:0 "Our ancient monuments stand tall, restored to their former glory. Our ancestral works all bear testament to our eternal reign. With their power bound to us, we have achieved what our ancestors could only dream of—a true dominion over life and death itself."
+
+nehekhara_ultimate_reward:0 "Legacy of the Kings"
+desc_nehekhara_ultimate_reward:0 "With the ancient wonders of Nehekhara restored, our dynasty commands unrivaled respect across the land. Our power is unquestioned, our glory eternal, and our right to rule uncontested."
+
+
+
+
+### Southlands Modifiers
+
+# Modifier: Nehekharan Trade Empire
+nehekharan_trade_empire:0 "Sands of Prosperity"
+desc_nehekharan_trade_empire:0 "In ancient times, our trade routes reached from Araby to Cathay, filling our coffers with untold riches. With our mastery over the desert and sea restored, we shall once again command a vast trade empire that brings wealth and power to Nehekhara."
+
+# Modifier: Nehekharan Monument Builders
+nehekharan_monument_builders:0 "Builders of the Eternal Sands"
+desc_nehekharan_monument_builders:0 "The people of Nehekhara are master artisans, unmatched in their ability to create monuments that defy time. By channeling the skills of our forebears, we can rebuild our greatest structures as symbols of our eternal reign."
+
+# Modifier: Nagash’s Ritual
+nagash_ritual:0 "Necromantic Ascendancy"
+desc_nagash_ritual:0 "Through Nagash’s dark arts, we gain control over forces beyond mortal comprehension. Our legions grow with the dead, and our power surges with necromantic energy. The magic of the Black Pyramid bends to our will, empowering us with dominion over life and death."
+
+# Modifier: True Successor
+true_successor:0 "Chosen of the Gods"
+desc_true_successor:0 "We are the rightful rulers of Nehekhara, chosen by the gods to lead our people into eternity. Our enemies fall before us, for we are the true heirs to the ancient pharaohs, and our destiny is to rule unchallenged over the lands of the living and the dead alike."
+
+
+nehekhara_religious_stability:0 "Nehekharan Religious Stability"
+desc_nehekhara_religious_stability:0 "Our dedication to the Nehekharan Pantheon brings a sense of stability and divine purpose to our realm. Our priests are more effective, and our kingdom is fortified by our devotion."
+
+nehekhara_religious_stability_2:0 "Strength of the Gods"
+desc_nehekhara_religious_stability_2:0 "The gods themselves strengthen our rule, granting us divine favor and greater resolve to spread their will across the lands of Nehekhara and beyond."
+
+nagash_ritual:0 "The Ritual of Nagash"
+desc_nagash_ritual:0 "This dark ritual, empowered by the energies of the Black Pyramid, augments our military might and cements our knowledge of the arcane. The path of power, though costly, is now within our grasp."
+
+

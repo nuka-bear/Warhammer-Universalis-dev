@@ -1,0 +1,68 @@
+
+### HIGH ELF / ASUR
+
+
+asur_warscore_against_religious_enemies = {
+	warscore_cost_vs_other_religion = -0.15
+}
+
+asur_better_transports = {
+	transport_cost = -0.25
+	transport_power = 0.1
+	transport_attrition = -0.9
+}
+
+asur_speedy_diplomats = {
+	envoy_travel_time = -0.75
+	diplomatic_upkeep = 1
+}
+
+asur_colonists = {
+	
+	colonists = 1
+}
+
+asur_ultimate_reward = {
+	
+	diplomatic_reputation = 3
+	diplomatic_upkeep = 3
+	envoy_travel_time = -0.75
+	improve_relation_modifier = 0.5
+	spy_offence = 1.0
+}
+
+
+cadai_elaborate_ceremonies = {
+	monthly_favor_modifier = 0.1
+}
+
+
+cadai_place_of_study = {
+	institution_growth = 5
+}
+
+cadai_place_of_law = {
+	stability_cost_modifier = -0.25
+}
+
+cadai_place_of_innovation = {
+	innovativeness_gain = 1.0
+}
+
+cadai_friends_with_cadai = {
+	
+	reverse_relation_with_same_religion = 15
+}
+
+cadai_wine_silk = {
+	
+	diplomatic_reputation = 1
+	global_trade_power = 0.1
+
+}
+
+cadai_unified_people = {
+	global_unrest = -2
+	religious_unity = 0.2
+	liberty_desire = -10
+}
