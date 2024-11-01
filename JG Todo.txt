@@ -8,6 +8,8 @@ Raiding happens when people reclaim their own lands
 
 Burger Privelage if your capital is in a subterranean zone, then you get + in subterranean, - in non-subterranean
 	Look at hydralaogic empire.
+	Use the same mechanic for magical and non-magical forests for wood elves - Bonus for magical foest, penalty for anything not forest or jungle
+	This could be + minimum autonomy for non preferred zone
 
 Dimmed Sunz starts with no army!
 
@@ -25,7 +27,7 @@ Cool images for everything
 
 Everybody!
 	0-1x government types
-	1x Disaster
+	1x Disaster - possibly for losing control of a key cultural mark
 	5x random pulse events
 	5x decisions
 	Adjust opening text for cultures and religions, with callouts for most important things
@@ -34,6 +36,7 @@ Everybody!
 	Add monuments based on the maps
 	Switch up multiple different gov types and religions for each area.
 	Worry about military balance
+	Special Religious mechanic
 
 Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
 
@@ -42,14 +45,28 @@ Add the warhammer legendary lords into the map
 Add legendary artifacts that are traits that move between people
 
 
-High Elves
+Wood Elves
+	Need an event to reset Season
+	Right side internal development
+		Do things in certain seasons?
+		Monuments at Level 3
+	Left side raid enemies
+		War during summer?
+		Sieged during winter?
+		Get war reparations
+		Kill certain number of enemy armies
+		Enemy you are at war with has no armies or no manpower
+		All adjacent provinces have the raided modifier
+		More development than all adjacent nations
+	Land movement between centers of each wood
+	Disaster or Event for Losing the Oak of Ages?
 
 
 Dark Elf
 
 
-Wood Elves
-	Gov mechanic for changing seasons. Gov Mechanic seasons that gives bonuses based on the season. New season every 5/10 years?
+High Elves
+
 
 
 Skaven

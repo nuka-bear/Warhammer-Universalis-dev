@@ -210,6 +210,8 @@ witch_kingdom_reform = {
 	}
 }
 
+
+### Eternal Court
 athel_loren_monarchy = {
 	icon = "korean_monarchy"
 	allow_normal_conversion = no
@@ -219,21 +221,18 @@ athel_loren_monarchy = {
 	lock_level_when_selected = yes
 	heir = no
 	nation_designer_trigger = {
-		or = {
-			tag = B01
-			was_tag = B01
-		}
+		culture_group = asrai_group
 	}
 	potential = {
-		or = {
-			tag = B01
-			was_tag = B01
-		}
+		culture_group = asrai_group
+	}
+	government_abilities = {
+		wood_elf_seasons_mechanic
 	}
 	modifiers = {
-		development_cost_in_primary_culture = -0.1
 		same_culture_advisor_cost = -0.1
 		global_institution_spread = 0.15
+		attack_bonus_in_capital_terrain = 1	
 	}
 	ai = {
 		factor = 100

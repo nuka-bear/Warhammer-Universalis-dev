@@ -110,8 +110,331 @@ har_ganeth_desc:0 "Har Ganeth, the City of Executioners, is a place where blood 
  witchwood_monument_desc:0 "The Witchwood Monument stands as a sentinel of primal magic, revered and feared in equal measure. A bastion of the Asrai’s will in the tainted lands of Naggaroth, it is entwined with ancient wards and defended by the spirits of the forest. Those who dare trespass into its sacred ground are met with relentless resistance, as the Witchwood’s defenders harness the natural world to strike back against invaders. The monument embodies a harmonious blend of martial and spiritual fortitude, empowering the sanctity of the Elven groves and bolstering the faith of their people."
 
  
+ #### Athel Loren
+ 
+ oak_of_ages:0 "Oak of Ages"
+oak_of_ages_desc:0 "The Oak of Ages stands at the heart of Athel Loren, a colossal tree infused with the raw and ancient magic of the forest. This sacred landmark is the spiritual and magical center of the Wood Elves, connecting them to the Weave and the primordial spirits of the forest. Its power grants immense wisdom and strength to the Asrai, bolstering their ability to govern and maintain the balance of nature. As the Oak thrives, so too does the realm of Athel Loren, providing a wellspring of power to those attuned to its ancient will."
+
+kings_glade:0 "King's Glade"
+kings_glade_desc:0 "The King's Glade is the hallowed seat of the Wood Elf monarchs, a place where the Asrai's most sacred rites are performed and ancient councils convene. Protected by magical wards and the relentless guardianship of forest spirits, the glade embodies the resilience and vitality of Athel Loren. Its blessings empower the Asrai to move swiftly through the forest and repel intruders with merciless ferocity. The King's Glade stands as a bastion of strength and unity for the Wood Elves, fortifying their homeland against all who dare trespass."
+
+
+
+ ####################
+ #Nehehara
+ ####################
+
+# Tomb of Settra
+tomb_of_settra:0 "Tomb of Settra"
+tomb_of_settra_desc:0 "The Tomb of Settra stands as a testament to the will and glory of Settra the Imperishable, the greatest of all Tomb Kings. Guarded by elite warriors and imbued with ancient magic, the tomb is meticulously maintained to reflect Settra’s unyielding dominance. It serves both as a symbol of his eternal rule and as a constant reminder that Settra does not serve—he rules."
+
+# The Black Pyramid of Nagash
+black_pyramid_of_nagash:0 "The Black Pyramid of Nagash"
+black_pyramid_of_nagash_desc:0 "The Black Pyramid, constructed by the dark sorcerer Nagash, is one of the most imposing and feared monuments in all of Nehekhara. Though its power has waned since the departure of Nagash, it remains a focal point of necromantic magic, radiating dark energies across the land. Now under the control of the Tomb Kings, the pyramid still holds immense potential for any who dare to wield its sinister power."
+
+# The Great Necropolis of Khemri
+great_necropolis_of_khemri:0 "The Great Necropolis of Khemri"
+great_necropolis_of_khemri_desc:0 "The Great Necropolis of Khemri is the heart of Nehekhara’s ancient royal burial grounds, housing the tombs of the greatest kings and warriors. Within its labyrinthine passages lie untold riches and the mummified remains of long-dead rulers, each guarded by eternal sentinels. Restoring and maintaining this vast necropolis is key to the continued prestige and power of Nehekhara’s ruling class."
+
+# The Mortuary Temple of Qu’aph
+mortuary_temple_of_quaph:0 "The Mortuary Temple of Qu’aph"
+mortuary_temple_of_quaph_desc:0 "The Mortuary Temple of Qu’aph is a sacred site dedicated to the worship of the Nehekharan gods and the embalming of the dead. Here, the priests of the Mortuary Cult perform the ancient rituals that sustain the undead legions of the Tomb Kings. Although still influential, the temple’s power has diminished, and efforts to restore it are crucial to maintaining the spiritual and magical strength of Nehekhara."
+
+# The Great Sphinx of Numasis
+great_sphinx_of_numasis:0 "The Great Sphinx of Numasis"
+great_sphinx_of_numasis_desc:0 "Carved from a single block of stone, the Great Sphinx of Numasis was once a grand symbol of the might and wisdom of the Tomb Kings. Erosion and neglect have left the monument in a state of disrepair, though it still stands as a symbol of eternal guardianship over the desert. Efforts to restore the sphinx would be seen as a gesture of strength and reverence for Nehekhara’s proud past."
+
+# The Oasis of the Gods
+oasis_of_the_gods:0 "Oasis of the Gods"
+oasis_of_the_gods_desc:0 "The Oasis of the Gods is an ancient site of great religious and spiritual significance, said to have been blessed by the gods of Nehekhara. Once a vital location for worship and rest, the oasis has fallen into neglect under the rule of the undead. Though diminished, it remains a sacred place, and restoring it could reinvigorate the faith of the Nehekharan people and strengthen their connection to the divine."
+
+# The Valley of Kings
+valley_of_kings:0 "The Valley of Kings"
+valley_of_kings_desc:0 "The Valley of Kings is the vast burial ground of Nehekhara’s greatest rulers, filled with monumental tombs and pyramids. Though time and war have worn away at the valley’s grandeur, it remains a critical site for the legacy of the Tomb Kings. Restoring the tombs and reclaiming the treasures buried within will bolster the strength of Nehekhara and assert its dominion over the desert once again."
+
+# The Obelisk of Eternity
+obelisk_of_eternity:0 "The Obelisk of Eternity"
+obelisk_of_eternity_desc:0 "The Obelisk of Eternity was erected by the first kings of Nehekhara to mark their eternal reign and connection to the gods. Once a powerful symbol of divine favor, the obelisk now stands largely forgotten and eroded by the sands of time. Restoring its glory would reconnect the Tomb Kings with the lost power of their ancient gods, solidifying their claim to rule the desert forever."
+
+# Colossus of Zandri
+colossus_of_zandri:0 "The Colossus of Zandri"
+colossus_of_zandri_desc:0 "The Colossus of Zandri is a massive statue of King Amenemhetum, towering over the harbor as a symbol of Nehekhara’s dominion over both land and sea. This colossal monument inspires loyalty and awe, reminding all who pass through Zandri that they tread upon the sacred lands of the Tomb Kings."
+
+# Crater Ritual Site
+crater_ritual_site:0 "Crater Ritual Site"
+crater_ritual_site_desc:0 "The Crater of the Dead marks the site of one of the most catastrophic battles in Nehekhara's past. Long ago, Nagash, the infamous first necromancer and betrayer of Nehekhara, unleashed a devastating magical weapon—a spell of immense and corruptive power—that annihilated thousands in a single moment."
+
+################
+### Orcs
+################
+
+
+orc_proving_pits:0 "Da Provin' Pits"
+orc_proving_pits_desc:0 "Dis 'ere's da Provin' Pits, where da orcs fight an' bleed fer glory! Any orc lookin' ta move up da ranks gotta prove 'emselves 'ere – no weaklin's allowed! Da Pits churn wit' da strongest o' da lot, bashin' each other up good ta earn respect and da right ta lead. Da boyz watch, da bosses sneer, an' da mighty rise up, 'eads held high. Only da tuffest make it out on top, roight!"
+
+black_crag:0 "Black Crag"
+black_crag_desc:0 "A bastion of power and defiance, Black Crag stands as one of the mightiest fortresses in the Old World. Originally a Dwarfen Karak, it fell into the hands of Orcs long ago, becoming a symbol of brutal strength. Its towering walls and deep tunnels have seen countless battles, and the war-torn legacy of the Crag empowers whichever force controls it. Whether in the hands of the disciplined Dwarfs or the ferocious Greenskins, the fortress bolsters the resolve and fighting prowess of its occupants."
+
+idol_of_gork:0 "Idol of Gork (or maybe Mork)"
+idol_of_gork_desc:0 "Dis massive stone idol’s carved up good fer Gork an' Mork, da biggest an’ baddest Greenskin gods. Da shamanz gather round, chantin' and shoutin' ta get da gods' favor before leadin' da boyz in a WAAAGH!"
+
+mount_bloodhorn:0 "Mount Bloodhorn"
+mount_bloodhorn_desc:0 "Dis ‘ere big mountain’s da home of da Greenskinz! At da top’s a fortress crammed wif Orc warbands an' shamanz, all ready ta stomp on anyone dumb enuff ta challenge da Warclans."
+
+
+################
+### Dwarves
+################
+
+
+karaz_a_karak:0 "Karaz-a-Karak"
+karaz_a_karak_desc:0 "The ancient capital of the Dwarven Empire, Karaz-a-Karak is a fortress that stands testament to Dwarven resilience. Known as the ‘Everpeak,’ it is filled with ancient forges, deep mines, and vast halls adorned with the treasures of the Old World. Controlling Karaz-a-Karak is the ultimate symbol of power and respect among the Dwarven clans."
+
+offices_of_karak_azul:0 "Administrative Offices of Karak Azul"
+offices_of_karak_azul_desc:0 "Karak Azul, the Iron Hold, is known for its unmatched forges, producing some of the finest Dwarven armor and weaponry in the Old World. Equally impressive are the vast administrative offices devoted to controlling these vast organizations."
+
+dwarven_mints:0 "Dwarven Mints of Karak Azgal"
+dwarven_mints_desc:0 "The Dwarven Mints of Karak Azgal are among the most revered forges in the Old World. Here, master craftsmen shape and stamp gold with the precision and dedication only dwarves possess. These mints are central to Karak Azgal's wealth, reducing the risk of gold depletion and stabilizing the economy. Over the ages, they have produced countless coins of immaculate quality, each one a testament to the strength and resilience of Dwarven industry."
+
+
+################
+### Araby
+################
+
+
+palace_of_the_wizard_caliph:0 "Palace of the Wizard Caliph"
+palace_of_the_wizard_caliph_desc:0 "In the heart of Araby stands the grand Palace of the Wizard Caliph, a testament to both the arcane mastery and political power of the mysterious rulers of the desert. From here, potent spells are woven, and the intricate dealings of Araby’s many factions are orchestrated. It is not merely a place of administration, but a hub of arcane knowledge, strategy, and defense. Those who dare challenge the Caliph must contend with its formidable defenses and the boundless wisdom of its ancient magics."
+
+harbor_of_lashiek:0 "Harbor of Lashiek"
+harbor_of_lashiek_desc:0 "The Harbor of Lashiek is a bustling port that hums with the activity of merchants, traders, and corsairs. This harbor is vital to the economy of Lashiek, serving as a base for privateers who prey upon foreign ships and bring wealth back to the Sultan’s coffers. It brings back gold and spices, but also new ideas from across the world."
+
+library_of_medes:0 "Library of Medes"
+library_of_medes_desc:0 "This library is a place of ancient knowledge and wisdom, holding countless tomes and scrolls from past ages. Scholars from all over the lands are drawn to its archives to uncover the secrets of the old world."
+
+martek_pilgrimage:0 "Martek Pilgrimage"
+martek_pilgrimage_desc:0 "This holy site is a beacon for the devout, a place where the faithful make pilgrimages to honor the One God. The spiritual power of Martek strengthens the resolve of those who visit it."
+
+university_of_alshir:0 "University of Al'Shir"
+university_of_alshir_desc:0 "The University of Al'Shir stands as a beacon of learning and innovation in naval strategy, cartography, and seafaring lore. Located in the heart of Araby, this institution trains navigators, explorers, and sailors from across the land. The University of Al'Shir is renowned for producing some of the finest sailors in the world, and its teachings allow Araby to extend its reach across the seas, exploring distant lands and unlocking new trade opportunities."
+
+
+
+bay_of_zlatlan:0 "Bay of Zlatlan"
+bay_of_zlatlan_desc:0 "This immense bay provides the perfect refuge for ships. A nation could hide a fleet here without anybody knowing."
+
+################
+### LUSTRIA/LIZARDFOLK
+################
+
+  temple_city_of_hexoatl:0 "Temple City of Hexoatl"
+  temple_city_of_hexoatl_desc:0 "Hexoatl, known as the City of the Sun, is one of the most powerful and ancient temple-cities of the Lizardmen. Under the vigilant protection of the powerful Slann Lord Mazdamundi, it serves as a center of magic, wisdom, and martial prowess. With its potent geomantic web and strategic location, Hexoatl remains a bulwark against any threats to the Great Plan."
+
+  great_pyramid_of_itza:0 "Great Pyramid of Itza"
+  great_pyramid_of_itza_desc:0 "The Great Pyramid of Itza, rising from the heart of the most ancient temple-city, is a testament to the Lizardmen's ancient and mystical power. Built to honor the Old Ones, it stands as a focus of the geomantic web, radiating control over the surrounding lands and bolstering the might of the Lizardmen. As the cradle of their civilization, Itza's strength is the strength of all Lustria."
+
+  altar_of_the_horned_rat:0 "Altar of the Horned Rat"
+  altar_of_the_horned_rat_desc:0 "The Altar of the Horned Rat, hidden deep within Skavenblight, is a monument to the Skaven's malevolent deity. The twisted powers of the Great Horned Rat are channeled through this altar, granting unholy strength to the Skaven and their vile schemes. As the heart of the Council of Thirteen’s power, it is both feared and revered by all Skaven."
+
+  shrine_of_sotek:0 "Shrine of Sotek"
+  shrine_of_sotek_desc:0 "The Shrine of Sotek is a sacred site dedicated to the Serpent God, Sotek, whose ferocious aspect promises vengeance against all enemies of the Lizardmen. Built in honor of Sotek's miraculous intervention during the Great Catastrophe, when he led the Lizardmen to victory over the Skaven, the shrine inspires martial fervor and religious devotion in those who visit it."
+
+  pyramid_of_xahutec:0 "Pyramid of Xahutec"
+  pyramid_of_xahutec_desc:0 "The Pyramid of Xahutec stands as a grand monument to the Old Ones, its immense size dwarfing other structures in Lustria. It is a site of powerful magical energies, critical to maintaining the geomantic web. The wisdom and might contained within this ancient structure inspire the Lizardmen to strive for perfection in their understanding of the Old Ones' Great Plan."
+
+  citadel_of_dusk:0 "Citadel of Dusk"
+  citadel_of_dusk_desc:0 "Located at the southernmost tip of Lustria, the Citadel of Dusk is a fortress that oversees the vital sea lanes. Built by the High Elves to watch over the southern oceans and guard against incursions into Ulthuan, it serves as a strategic naval base. The citadel is a bulwark of defense, standing against the chaos that threatens from all directions."
+
+  monument_of_the_moon:0 "Monument of the Moon"
+  monument_of_the_moon_desc:0 "A mysterious edifice devoted to the worship of celestial bodies, the Monument of the Moon is an ancient structure that predates even the arrival of the Lizardmen. Some claim it is linked to the Ruinous Powers, while others suggest it holds a deeper connection to the arcane powers of the world. Its magic grants powerful blessings to those who control it."
+
+  pyramid_of_the_world_serpent:0 "Pyramid of the World Serpent"
+  pyramid_of_the_world_serpent_desc:0 "Built in reverence to Quetzl, the World Serpent, this pyramid emanates potent energies that reflect the resilience and might of the Lizardmen. Its imposing structure channels protective magic across the land, and its spiritual significance reinforces the strength and faith of those who dwell under its shadow."
+
+  obsidian_column:0 "Obsidian Column"
+  obsidian_column_desc:0 "An ancient pillar carved from pure obsidian, the Obsidian Column holds mystical significance for the Lizardmen. It is said to harness the earth’s energies to both protect and empower those in its vicinity. The column’s magical influence reduces devastation and promotes prosperity across the lands it touches."
+
+  lost_city_of_tzetek:0 "Lost City of Tzetek"
+  lost_city_of_tzetek_desc:0 "The Lost City of Tzetek was once a powerful Lizardmen settlement before it was engulfed by the jungle. Now overgrown and forgotten, its ruins still contain fragments of great power. Those who control the site may tap into the ancient geomantic power that once flowed through the city, aiding them in development and spiritual pursuits."
+
+  amaxonia_headwaters:0 "Amaxonia Headwaters"
+  amaxonia_headwaters_desc:0 "The headwaters of the mighty Amaxonia River are a vital source of trade and wealth. Flowing through the heart of Lustria's dense jungles, these waters connect settlements and civilizations, empowering trade and colonial expansion. Whoever controls the headwaters holds dominion over the lifeblood of this region, and with it, the potential for great prosperity."
+
+  great_temple_at_spektazuma:0 "Great Temple at Spektazuma"
+  great_temple_at_spektazuma_desc:0 "Spektazuma, the grand temple-city of the Lizardmen, is home to one of the most important religious centers in Lustria. Its towering temple stands as a symbol of the Old Ones' divine authority. The wisdom imparted by this sacred site strengthens the fabric of Lizardmen society, advancing their mastery of the geomantic web and providing spiritual guidance for their rulers."
+
+  chaul_crystal_reef:0 "Chaul Crystal Reef"
+  chaul_crystal_reef_desc:0 "The Chaul Crystal Reef is a mystical underwater region teeming with rare and potent crystals. These crystals enhance the magical powers of those who control the reef and act as a catalyst for colonial endeavors. Legends speak of ancient powers hidden within the reef, waiting to be unlocked by those with the knowledge and strength to do so."
+
+  city_of_the_dead:0 "City of the Dead"
+  city_of_the_dead_desc:0 "The City of the Dead is a necropolis lost to time, where countless souls rest beneath the crumbling stone structures. It is a place of deep power, where the veil between life and death is thin. For those who wield dark magic or command the undead, the city's ancient and twisted energies offer unparalleled strength, enhancing the discipline of armies and reducing the risks in fiery battles."
+
+  gilded_pit_of_the_old_ones:0 "Gilded Pit of the Old Ones"
+  gilded_pit_of_the_old_ones_desc:0 "An immense and mysterious structure, the Gilded Pit is said to be a gateway to the lost knowledge of the Old Ones. Its golden walls are etched with symbols of ancient power. Lizardmen leaders who control the Pit find their rule strengthened, as the Pit grants its keepers both legitimacy and sway over rebellious subjects. It also bolsters the geomantic web, stabilizing the surrounding region."
+
  
  
- 
- 
- 
+
+
+
+# Indish Monuments
+
+temple_of_vaati_the_binder:0 "Temple of Vaati the Binder"
+temple_of_vaati_the_binder_desc:0 "The Temple of Vaati the Binder stands as a monument to the union of the Thousand Gods, forged under the will of Vaati. This sacred site has long been a center of spiritual devotion and cosmic balance, drawing worshipers and scholars alike. It is said that Vaati's power binds not only the gods but also strengthens the rulers who honor his legacy."
+
+fortress_of_celestial_spears:0 "Fortress of the Celestial Spears"
+fortress_of_celestial_spears_desc:0 "Perched on a mountain peak, the Fortress of the Celestial Spears is a symbol of divine protection and military prowess. Built to house the sacred Spears of Heaven, it has long stood as a bulwark against invaders. The presence of the fortress ensures both the spiritual protection of the land and the military superiority of its defenders."
+
+pillars_of_dharasala:0 "Pillars of Dharasala"
+pillars_of_dharasala_desc:0 "The Pillars of Dharasala, carved with the ancient tales of gods and heroes, mark one of the most sacred sites in the Indish lands. These towering structures are imbued with the divine essence of the gods, granting blessings to those who seek justice and order in their rule. It is said that as long as the pillars stand, the realm shall never fall into chaos."
+
+garden_of_the_eternal_peace:0 "Garden of Eternal Peace"
+garden_of_the_eternal_peace_desc:0 "The Garden of Eternal Peace is a vast, tranquil sanctuary built by an ancient ruler as a place of meditation and spiritual reflection. It is said that the very air within the garden calms the soul, and the rulers who visit the site emerge with greater wisdom and clarity of mind, allowing them to bring harmony to their realm."
+
+grand_library_of_lashara:0 "Grand Library of Lashara"
+grand_library_of_lashara_desc:0 "The Grand Library of Lashara is a towering repository of knowledge, housing vast collections of manuscripts and scrolls from across the world. Scholars from far and wide come to study here, spreading knowledge and enlightenment to all corners of the realm. This center of learning stands as a beacon of intellectual and spiritual progress."
+
+tower_of_kala_the_sage:0 "Tower of Kala the Sage"
+tower_of_kala_the_sage_desc:0 "The Tower of Kala, named after the legendary sage and mystic, rises high above the surrounding landscape. It is a center for both magical study and philosophical discourse. Scholars and mages gather here to uncover the mysteries of the cosmos, seeking to wield the knowledge that Kala once foresaw in his visions."
+
+# Khureshi Monuments
+
+shrine_of_the_lotus_king:0 "Shrine of the Lotus King"
+shrine_of_the_lotus_king_desc:0 "The Shrine of the Lotus King, nestled on the shores of a sacred lake, is dedicated to the divine figure who represents balance, healing, and renewal. Pilgrims flock to its waters, seeking blessings and spiritual rejuvenation. The Lotus King’s influence brings harmony and stability to the land, while guiding rulers towards wise and just governance."
+
+ziggurat_of_the_serpent_kings:0 "Ziggurat of the Serpent Kings"
+ziggurat_of_the_serpent_kings_desc:0 "The Ziggurat of the Serpent Kings stands as a towering testament to the power of the ancient serpent gods worshipped by the rulers of Kuresh. Built to honor their divinity, it is also a center for arcane rituals that ensure the favor of the gods in both spiritual and military matters. Those who control the Ziggurat wield the blessing of the Serpent Kings."
+
+temple_of_the_coiled_sun:0 "Temple of the Coiled Sun"
+temple_of_the_coiled_sun_desc:0 "The Temple of the Coiled Sun is a place of dark worship, dedicated to the celestial serpent deity said to control the cycles of life and death. Its priests call upon the divine power of the Coiled Sun to manipulate the forces of nature, blessing their followers with strength while bringing ruin to their enemies."
+
+shadowfang_citadel:0 "Shadowfang Citadel"
+shadowfang_citadel_desc:0 "Hidden deep in the jungle, the Shadowfang Citadel is a fortress of both military and occult power. It serves as the headquarters for the most secretive and dangerous cults in Kuresh, from where shadowy assassins and dark rituals are conducted to control and manipulate the rulers of the land. The Citadel’s influence extends far beyond its mist-shrouded walls."
+
+sacred_grove_of_zhaqlah:0 "Sacred Grove of Zhaqlah"
+sacred_grove_of_zhaqlah_desc:0 "Deep in the heart of Kuresh lies the Sacred Grove of Zhaqlah, a place of both great beauty and mortal danger. The flora and fauna within are sacred to the Serpent Priests, who draw upon the venom and magic of the jungle to perform rituals of power. Only those strong enough to survive the jungle's trials are deemed worthy of wielding its gifts."
+
+
+
+
+#### Nippon
+
+nippon_imperial_palaces:0 "Nippon Imperial Palaces"
+nippon_imperial_palaces_desc:0 "The imperial palaces of Nippon, represent the authority of the emperor and the center of power for the ruling shogunate. With these grand structures, the Nipponese rulers consolidated their influence and showcased their control over the land. The palaces also serve as a symbol of cultural refinement, administrative power, and military leadership."
+
+
+mount_jifu:0 "Mount Jifu"
+mount_jifu_desc:0 "Mount Jifu is the most sacred mountains in Nippon, revered for its divine nature and spiritual significance. The Jifuian Hongu Sengen Taisha shrine, built at its base, serves as a center of pilgrimage and devotion, offering protection from volcanic disasters and ensuring harmony between the divine and the earthly. The spiritual power emanating from the shrine also inspires the people to rebuild and develop the land, bringing prosperity to the region."
+
+
+province_is_or_accepts_yin_yang_tt:0 "Province is or accepts Yin Yang"
+
+
+### Grand Cathay
+
+jade_tower:0 "The Jade Tower of Nanying"
+jade_tower_desc:0 "The legendary Jade Tower of Nanying is a marvel of magical and architectural mastery. Constructed at the behest of the Celestial Dragon Emperor, it serves as a seat of power for the Jade-Blooded sorcerers, who channel the winds of magic to protect and guide Cathay. With walls adorned in shimmering jade and enchanted wards, the tower is both a symbol of the Emperor's divine mandate and a place of profound magical learning. Scholars from across the empire gather here, advancing Cathay's knowledge in both arcane and mundane matters."
+
+great_tea_fields:0 "The Great Tea Fields of Jian-Kang"
+great_tea_fields_desc:0 "The tea fields of Jian-Kang are among the most fertile and well-maintained in all of Cathay, producing some of the finest tea that the world has ever tasted. Generations of Cathayan farmers have perfected the art of tea cultivation, and the empire's aristocrats and scholars consider it a prized commodity. The fields are a source of both economic and cultural pride, as the art of tea is intertwined with the empire's history and philosophy."
+
+shang_wu_river_district:0 "Shang-Wu River District"
+shang_wu_river_district_desc:0 "The bustling Shang-Wu River District is the beating heart of Cathay's trade networks. Situated on the vital confluence of the Jade and Gold Rivers, this district is a hive of economic activity, where caravans from the west meet Cathayan merchants. It is renowned for its silk, tea, and jade markets, and serves as a key node in the empire's far-reaching trade routes. The wealth generated by this district strengthens the empire’s coffers and fuels the ambitions of Cathay's merchant class."
+
+mei_wan_port_city:0 "Mei-Wan Port City"
+mei_wan_port_city_desc:0 "Mei-Wan is one of the grandest port cities in all of Cathay, known for its thriving trade with distant lands such as Ind, Nippon, and Araby. Its towering docks are filled with war junks and trading ships alike, making the city the empire's gateway to the Southern Seas. Mei-Wan is famed for its shipyards, where skilled artisans craft the finest vessels, and its bustling markets, where spices, silks, and exotic goods from across the world change hands daily. The city’s strategic location ensures Cathay's naval supremacy and economic prosperity."
+
+flaming_canals:0 "The Flaming Canals of Xin-Chao"
+flaming_canals_desc:0 "The Flaming Canals of Xin-Chao are a breathtaking sight, named after the brilliant orange light that reflects off the water at sunset. Constructed to manage the empire’s complex irrigation needs, these canals also serve as a key transportation network for the empire’s goods, linking distant provinces with Cathay's thriving capital. They are both a practical feat of engineering and a symbol of Cathay’s mastery over the land. Their presence has helped to prevent famine, flooding, and provide for the empire’s growing population."
+
+jade_pillar_port:0 "The Jade Pillar Port"
+jade_pillar_port_desc:0 "The Jade Pillar Port is one of Cathay's most well-defended naval outposts, perched along the empire's eastern coastlines. Known for its immense jade-colored towers, the port has stood firm against pirate incursions and foreign invaders for centuries. Serving both as a defensive stronghold and a bustling trade hub, the port controls the flow of goods and naval fleets into Cathay's heartland, ensuring the empire's maritime dominance."
+
+infinite_libraries_of_tien_chi:0 "The Infinite Libraries of Tien-Chi"
+infinite_libraries_of_tien_chi_desc:0 "The Infinite Libraries of Tien-Chi are home to the accumulated knowledge of Cathay, containing ancient tomes, scrolls, and manuscripts that span the history of the empire. Scholars and mages alike study within these hallowed halls, advancing Cathay’s intellectual and magical prowess. It is said that no single person could read every text housed within these libraries, but those who try inevitably leave as some of the most learned minds in the world."
+
+pagoda_of_feng_pei:0 "The Sky-Piercing Pagoda of Feng-Pei"
+pagoda_of_feng_pei_desc:0 "The Sky-Piercing Pagoda of Feng-Pei stands as one of the tallest and most awe-inspiring structures in Cathay. Built to honor the celestial harmony between Yin and Yang, the pagoda serves both as a temple and a center of spiritual learning. Its intricate architecture symbolizes the empire's balance between heaven and earth, and its towering spires are said to allow the faithful to commune with the divine."
+
+theaters_of_the_monkey_court:0 "The Theaters of the Monkey Court"
+theaters_of_the_monkey_court_desc:0 "The Monkey Court's grand theaters are known throughout Cathay for their elaborate performances, where actors and acrobats reenact the empire's greatest legends and epics. Under the watchful eye of the Trickster Monkey King, these theaters are also a place of intrigue and political maneuvering. Nobles and officials alike come here not only for entertainment but also for secretive meetings where the fates of provinces and dynasties are often decided."
+
+port_of_fu_chow:0 "The Port of Fu-Chow"
+port_of_fu_chow_desc:0 "The Port of Fu-Chow is a vital maritime gateway for Cathay, connecting the empire to the vast trade networks of the Grand Cathayan Seas. It has long been the hub for naval commerce and shipbuilding, with its shipyards producing some of the most powerful warships in the empire's fleet. The port's strategic position has made it the frontline in defending Cathay from naval invasions, while also ensuring the empire's dominance over regional trade."
+
+jadeblooded_mage_academy:0 "The Jade-Blooded Mage Academy"
+jadeblooded_mage_academy_desc:0 "The Jade-Blooded Mage Academy is the heart of Cathay's mystical research, where the empire's most gifted sorcerers study the Jade Wind of Magic. Within these halls, spells are refined, ancient magical texts are studied, and the sorcerers of Cathay learn to wield their power for the empire's defense. Graduates of this academy are considered some of the most formidable magic users in the world, often serving as advisors to the Emperor."
+
+foundries_of_nan_gau:0 "The Foundries of Nan-Gau"
+foundries_of_nan_gau_desc:0 "The Foundries of Nan-Gau are the largest producers of weapons and artillery in Cathay. Here, the empire’s finest blacksmiths and engineers craft everything from simple swords to advanced cannons. The foundries play a crucial role in supplying Cathay’s armies with the tools of war, and their work has been instrumental in the empire's military success against both internal threats and foreign invaders."
+
+silk_road_nexus:0 "The Silk Road Nexus at Shang-Yang"
+silk_road_nexus_desc:0 "Shang-Yang is the nexus of the Silk Road, where goods from Cathay flow westward and exotic treasures from distant lands make their way into the empire. Its markets are filled with merchants from all corners of the world, trading everything from Cathayan silk to spices, gems, and rare artifacts. Control of this trade route has made Cathay an economic powerhouse, and Shang-Yang stands at the center of this vast commercial empire."
+
+temple_of_the_moon_empress:0 "The Temple of the Moon Empress"
+temple_of_the_moon_empress_desc:0 "The Temple of the Moon Empress is a sacred place of worship dedicated to the divine consort of the Celestial Dragon Emperor. Situated in the heart of Cathay, the temple is a serene sanctuary for spiritual contemplation and the study of the cosmos. It is believed that the Moon Empress grants her wisdom to those who meditate within its hallowed halls, and the temple plays a central role in Cathay's religious and intellectual life."
+
+emperors_palace:0 "The Celestial Dragon Emperor's Palace"
+emperors_palace_desc:0 "The Celestial Dragon Emperor's Palace is the epicenter of power in Cathay, a grandiose structure where the Emperor rules over the empire with divine authority. The palace is a symbol of Cathay's unity and strength, built with immense walls of jade and gold that reflect the empire’s wealth and the Emperor’s celestial mandate. Within these halls, the Emperor communes with the heavens, shaping the fate of Cathay through his decrees and guiding the empire toward prosperity."
+
+great_bastion:0 "The Great Bastion of Cathay"
+great_bastion_desc:0 "The Great Bastion is an awe-inspiring wall that stretches across Cathay's northern border, protecting the empire from the barbaric and chaotic forces that lurk beyond. Built by the first Celestial Dragon Emperor, the Bastion has stood the test of time as an unbreakable defense. Its massive fortifications and heavily armed garrisons have repelled countless invaders, becoming a symbol of Cathay’s resilience and its unyielding commitment to defending its lands."
+
+
+
+### Mountains of Mourne
+
+
+fishguts_cove:0 "Fishguts Cove"
+fishguts_cove_desc:0 "Oi! Fishguts Cove be full o' big ol' sea nasties! We guard da loot from da ocean with lotsa sharp teef and big nets! Nuffin' gets past us, not even da sneaky boat folk!"
+
+ivory_pass:0 "Ivory Pass"
+ivory_pass_desc:0 "Ivory Pass, where all da big boss traders come wit' shiny tusks. We get fat from all da loot! It’s da best place fer makin' deals an' gettin' rich. More pass through, more food fer da tribe!"
+
+goldeater_mines:0 "Goldeater Mines"
+goldeater_mines_desc:0 "Down dere, deep in da rocks, is where we smash an' grab all da gold! Ain't no one better at diggin' an' eatin' gold dan us Goldeater Boyz. Keeps da tribe strong and da coffers full o' shinies!"
+
+arena_of_the_mawbite_tribes:0 "Arena of da Mawbite Tribes"
+arena_of_the_mawbite_tribes_desc:0 "Da arena's where da biggest, meanest Mawbiters bash each other's skulls in! Da bosses get da best fighters, da rest of us get a good show! Fightin' keeps us strong, keeps da Maw 'appy!"
+
+firemouth_volcano:0 "Firemouth Volcano"
+firemouth_volcano_desc:0 "Big ol' Firemouth spits flame an' fury! We worship da big Maw 'ere, givin' 'im offerings o' meat an' fire. Da Maw watches, an' da tribes get strong. We gotta keep 'im fed, or 'e’ll get angry!"
+
+sky_titan_ruins:0 "Sky Titan Ruins"
+sky_titan_ruins_desc:0 "Dem Sky-Titan bones still up dere in da mountains! We broke 'em long ago, an' now da ruins give us power. Bein' near da bones makes da tribe feel like giants! Da Maw blesses us big an' strong."
+
+the_great_maw:0 "Da Great Maw"
+the_great_maw_desc:0 "Da biggest, hungriest Maw o' all! We give 'im meat, an' 'e gives us strength. Everythin' comes from da Maw. We follow 'is ways, or we end up like da fools 'e already ate!"
+
+
+
+
+### Darklands
+
+# Zharr Naggrund
+zharr_naggrund:0 "Zharr Naggrund"
+zharr_naggrund_desc:0 "The capital of the Chaos Dwarf empire, Zharr Naggrund is a towering fortress of blackened iron and basalt. Its forges produce weapons of war and dark machinery, and its mines delve deep into the earth for valuable resources. The obsidian walls and colossal statues serve as a reminder of the Chaos Dwarfs’ might and dedication to Hashut."
+
+# Tower of Gorgoth
+tower_of_gorgoth:0 "Tower of Gorgoth"
+tower_of_gorgoth_desc:0 "Standing guard over the borders of the Darklands, the Tower of Gorgoth is a bastion of Chaos Dwarf power. It provides a strategic defensive position and offers secure paths for their mining operations, protecting the laboring masses and the wealth they extract from the earth."
+
+# Gates of Zharr
+gates_of_zharr:0 "Gates of Zharr"
+gates_of_zharr_desc:0 "The Gates of Zharr are massive and imposing, marking the entryway into the heart of the Chaos Dwarf Empire. These heavily fortified gates regulate trade and movement, enhancing the security of the interior provinces while amplifying the economic prowess of Zharr Naggrund."
+
+# Black Fortress
+black_fortress:0 "Black Fortress"
+black_fortress_desc:0 "The Black Fortress is an impregnable stronghold in the center of the darklands. Its walls stand tall and formidable, a haven for Chaos Dwarf soldiers and a reminder to all that this is the edge of Chaos Dwarf territory. This bastion serves as both a defensive position and a staging ground for forces striking out into the lands beyond."
+
+# Road of Skulls
+road_of_skulls:0 "Road of Skulls"
+road_of_skulls_desc:0 "This blood-stained path, lined with the remains of fallen enemies, is a terrifying sight. Known as the Road of Skulls, it connects the heartlands of the Chaos Dwarfs, serving as a symbol of their unrelenting dominance and their merciless march across the Darklands."
+
+# Daemon's Stump
+daemons_stump:0 "Daemon's Stump"
+daemons_stump_desc:0 "Daemon's Stump is a cursed and ancient fortress of the Chaos Dwarfs, shrouded in dark energies. Here, the Daemonsmiths channel forbidden magics to enhance the training and ferocity of their troops. The fortress stands as both a prison and a laboratory for Daemons, their foul power amplifying the martial strength of the Chaos Dwarf army."
+
+# Tower of Skulls
+tower_of_skulls:0 "Tower of Skulls"
+tower_of_skulls_desc:0 "The Tower of Skulls is a grim shrine to the dark gods, built from the remains of those who fell before the might of Chaos. This twisted structure strengthens the resolve of the Chaos Dwarfs, inspiring fervor in battle and empowering their dark rituals, while also symbolizing their allegiance to the Ruinous Powers."
+
