@@ -11,3 +11,99 @@
  flavor_athel_loren.2.d:0 "As the first light of dawn pierces through the ancient canopies of Athel Loren, a hushed reverence falls over the woodland realms. The air shimmers with a vibrant energy, a whisper of forgotten tales long buried beneath the roots of the great trees. In a sacred glade, surrounded by the ancient spirits of the forest, the essence of nature itself begins to coalesce.\n\nSuddenly, the ground trembles as a surge of primal magic bursts forth. A radiant figure emerges from the foliage, crowned with antlers adorned with blooming flora, embodying the wild and untamed spirit of the Hunt. Orion, the eternal king of the Wood Elves, has returned to lead his people once more.\n\nWith a voice that echoes like the rustle of leaves, he calls forth the creatures of the forest, rallying them to his side. The Wood Elves, filled with a renewed sense of purpose, prepare to defend their sacred lands against all encroaching threats. The balance of nature is restored, and the legend of Orion lives on, a reminder of the forest's indomitable will."
  flavor_athel_loren.2.a:0 "The roar of the forest awakens"
  
+ability_wood_elf_seasons_mechanic:0 "Magical Seasons"
+
+ wood_elf_seasons_mechanic:0 "Seasons"
+  wood_elf_seasons_mechanic_desc:0 "To every season, a different purpose. Spring - Power cost is reduced, but so is Morale. Summer - Morale is increased, but so are Power costs. Fall - Defense is reduced, but buildings are cheaper. Winter - Defense is increased, but buildings are more expense."
+ season_time_power:0 "Seasons"
+   season_time_power_desc:0 "To every season, a different purpose. Spring - Power cost is reduced, but so is Morale. Summer - Morale is increased, but so are Power costs. Fall - Defense is reduced, but buildings are cheaper. Winter - Defense is increased, but buildings are more expense."
+ monthly_season_time_power:0 "Passage of Seasons"
+
+ ## Monument Help
+
+ province_is_or_accepts_asrai_cadai_tt:0 "Province is or accepts Asrai Cadai"
+
+
+
+ ### Modifiers
+
+ asrai_summer_war_modifier:0 "Summer War"
+asrai_summer_war_modifier_desc:0 "With the energy of summer coursing through our veins, our warriors are emboldened, fighting with unparalleled fervor and morale."
+
+asrai_winter_war_modifier:0 "Winter Defense"
+asrai_winter_war_modifier_desc:0 "The harshness of winter strengthens our resolve, and our defenses become impenetrable, as if the cold itself guards our borders."
+
+asrai_faster_looting:0 "Faster Looting"
+asrai_faster_looting_desc:0 "Our raiders plunder swiftly, stripping the land of resources with unmatched efficiency."
+
+asrai_ultimate_reward:0 "Ultimate Growth"
+asrai_ultimate_reward_desc:0 "Our dominion is secured, and the blessings of Athel Loren grant us untold development and mastery over our lands."
+
+asrai_motivated_building:0 "Motivated Builders"
+asrai_motivated_building_desc:0 "Inspired by the cycle of seasons, our architects and builders complete projects at a fraction of the usual cost, erecting wonders of elven craftsmanship."
+
+asrai_powerful_magic:0 "Powerful Magic"
+asrai_powerful_magic_desc:0 "The winds of magic flow in our favor, reducing the strain of channeling and empowering all spellwork throughout our lands."
+
+asrai_improved_dev_1:0 "Rampant Growth"
+asrai_improved_dev_1_desc:0 "The prosperity of our lands brings new opportunities, making improvements more cost-effective and unlocking further growth."
+
+asrai_improved_dev_2:0 "Verdant Growth"
+asrai_improved_dev_2_desc:0 "Continued growth yields fertile grounds for more advancements, and the infrastructure of our realm flourishes."
+
+asrai_improved_dev_3:0 "Rushing Growth"
+asrai_improved_dev_3_desc:0 "Our thriving land supports greater development and new buildings, strengthening our dominion further."
+
+asrai_improved_dev_4:0 "Magical Growth"
+asrai_improved_dev_4_desc:0 "The culmination of our efforts sees our lands reach unparalleled heights of prosperity and infrastructure."
+
+### Wood elf Culture
+
+gen_asrai_please_nobility_title:0 "Noble Retainers"
+gen_asrai_please_nobility_desc:0 "The noble houses must be placated and incentivized to offer their private armies to our cause. Their loyalty is crucial to our defense and expansion."
+
+gen_asrai_summer_war_title:0 "Summer War"
+gen_asrai_summer_war_desc:0 "Engage our foes in the heat of summer, when our warriors are at their strongest, and secure victory in the name of Athel Loren."
+
+gen_asrai_winter_war_title:0 "Winter War"
+gen_asrai_winter_war_desc:0 "Embrace the chill of winter, fortifying our defenses and striking down our enemies when they least expect it."
+
+gen_asrai_bleed_them_dry_title:0 "Bleed Them Dry"
+gen_asrai_bleed_them_dry_desc:0 "Deprive our enemies of manpower, ensuring they cannot muster another army against us. Exhaust their strength and claim victory."
+
+gen_asrai_raiding_area_title:0 "Raid our Neighbors"
+gen_asrai_raiding_area_desc:0 "Conduct raids on neighboring lands to gather resources and wealth, fueling our war efforts and enhancing our capital’s prosperity."
+
+gen_asrai_better_than_neighbors_title:0 "Moral Superiority"
+gen_asrai_better_than_neighbors_desc:0 "Assert our dominance over the neighboring realms, showcasing our power and claiming the status of regional supremacy."
+
+gen_asrai_destroy_great_power_army_title:0 "Topple a Great Power"
+gen_asrai_destroy_great_power_army_desc:0 "Topple the might of a great power by obliterating their forces. Let the world witness the wrath of the Asrai."
+
+gen_asrai_ultimate_mission_title:0 "Supreme Isolation"
+gen_asrai_ultimate_mission_desc:0 "Transform our lands into a haven of prosperity, with every province flourishing and our realm rivaling the greatest empires in development."
+
+
+### Wood Elf Religion
+
+gen_asrai_cadai_happy_priest_title:0 "Nature's Bounty"
+gen_asrai_cadai_happy_priest_desc:0 "Ensure the loyalty of our priests, for their blessings will invigorate the land and bring forth nature’s bountiful rewards."
+
+gen_asrai_cadai_building_in_fall_title:0 "Autumnal Preparations"
+gen_asrai_cadai_building_in_fall_desc:0 "Gather a reserve of wealth in the fall, ensuring we are ready to invest in projects when the time is right."
+
+gen_asrai_cadai_magic_in_spring_title:0 "Spring Magic"
+gen_asrai_cadai_magic_in_spring_desc:0 "Harness magical energies in the season of renewal, preparing powerful spells for the trials ahead."
+
+gen_asrai_cadai_prosperity_title:0 "Verdant Prosperity"
+gen_asrai_cadai_prosperity_desc:0 "Every province must be prosperous, unmarred by devastation, so that our realm continues to flourish."
+
+gen_asrai_cadai_dev_7_title:0 "Develop Forest"
+gen_asrai_cadai_dev_7_desc:0 "All our lands must be further developed, reflecting the enduring growth and vitality of Athel Loren."
+
+gen_asrai_cadai_has_building_title:0 "Building Boom"
+gen_asrai_cadai_has_building_desc:0 "Each province must feature at least one building, showcasing our investment in the infrastructure and prosperity of our domain."
+
+gen_asrai_cadai_dev_10_title:0 "A Living Land"
+gen_asrai_cadai_dev_10_desc:0 "The forest grows, establishing an unassailable stronghold of elven might and wisdom."
+

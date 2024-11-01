@@ -16,12 +16,9 @@ wood_elf_seasons_mechanic = {
 				start_value = 0
 				end_value = 25
 				modifier = {
-
 					land_morale = -0.20
 
 					all_power_cost = -0.05
-
-
 				}
 			}
 

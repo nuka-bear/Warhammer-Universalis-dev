@@ -685,7 +685,7 @@ pale_sisters_area = {
 	695 324 388 346 
 }
 karak_norn_area = {
-	4486 4426 4487 4488 4489 
+	4486 4426 4487 4488 4489 593
 }
 karak_azgaraz_area = {
 	4483 4484 4485 
@@ -722,7 +722,7 @@ talsyn_area = {
 	771 770 683 665 662 
 }
 wydrioth_area = {
-	671 677 766 767 593 
+	671 677 766 767 
 }
 atylwyth_area = {
 	670 769 

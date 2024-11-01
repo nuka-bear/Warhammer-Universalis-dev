@@ -3,6 +3,27 @@ JG To Do & Thoughts
 
 https://docs.google.com/spreadsheets/d/1UPAxq7n6jmW5FqCbGsSO4l8Txm98r0WMgeluOR-HlrM/edit?gid=0#gid=0
 
+
+Everybody!
+	0-1x government types
+	1x Disaster
+	5x random pulse events
+	5x decisions
+	Adjust opening text for cultures and religions, with callouts for most important things
+	Make each mission tree a single icon of the culture or religion
+	Special Religious mechanic
+	Triggered modifier for losing a key cultural monument mark
+
+Broadly
+	Add monuments based on the maps
+	Switch up multiple different gov types and religions for each area.
+	Worry about military balance
+	Cool images for everything
+		Monuments
+		Missions
+		Religious Advisor Icons
+			Do while watching something?
+
 Raiding happens when people reclaim their own lands
 	Might be fixed, check if this works. - Nope!
 
@@ -15,28 +36,6 @@ Dimmed Sunz starts with no army!
 
 Make events for dominions to declare on their leader
 
-Naming Provinces
-	Use the continent > subcontinent > area > province breakdown thing in excel and put that into chatgpt
-	https://docs.google.com/spreadsheets/d/1UPAxq7n6jmW5FqCbGsSO4l8Txm98r0WMgeluOR-HlrM/edit?gid=0#gid=0
-
-Cool images for everything
-	Monuments
-	Missions
-	Religious Advisor Icons
-		Do while watching something?
-
-Everybody!
-	0-1x government types
-	1x Disaster - possibly for losing control of a key cultural mark
-	5x random pulse events
-	5x decisions
-	Adjust opening text for cultures and religions, with callouts for most important things
-	Make each mission tree a single icon of the culture or religion
-	Fix remaining provinces	names
-	Add monuments based on the maps
-	Switch up multiple different gov types and religions for each area.
-	Worry about military balance
-	Special Religious mechanic
 
 Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
 
