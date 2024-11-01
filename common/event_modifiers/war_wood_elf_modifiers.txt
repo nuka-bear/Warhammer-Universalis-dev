@@ -1,0 +1,65 @@
+
+### Wood Elf
+
+
+asrai_summer_war_modifier = {
+	land_morale = 0.025
+}
+
+asrai_winter_war_modifier = {
+	defensiveness = 0.025
+}
+
+asrai_faster_looting = {
+	loot_amount = 1.0
+}
+
+asrai_ultimate_reward = {
+	attack_bonus_in_capital_terrain = 2
+	development_cost = -0.50
+	expand_infrastructure_cost_modifier = -0.75
+}
+
+asrai_motivated_building = {
+	build_cost = -0.5
+	great_project_upgrade_cost = -0.5
+}
+
+asrai_powerful_magic = {
+	all_power_cost = -0.25
+}
+
+asrai_improved_dev_1 = {
+	
+	development_cost = -0.05
+	build_cost = -0.05
+	great_project_upgrade_cost = -0.10
+	global_allowed_num_of_buildings = 1
+
+}
+
+asrai_improved_dev_2 = {
+	
+	development_cost = -0.05
+	build_cost = -0.05
+	great_project_upgrade_cost = -0.10
+	global_allowed_num_of_buildings = 1
+
+}
+
+asrai_improved_dev_3 = {
+	
+	development_cost = -0.05
+	build_cost = -0.05
+	great_project_upgrade_cost = -0.10
+	global_allowed_num_of_buildings = 1
+}
+
+asrai_improved_dev_4 = {
+	
+	development_cost = -0.05
+	build_cost = -0.05
+	great_project_upgrade_cost = -0.10
+	global_allowed_num_of_buildings = 1
+
+}
