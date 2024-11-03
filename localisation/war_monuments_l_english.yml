@@ -43,6 +43,44 @@
 
  abbey_of_the_grail_companions:0 "Abbey of the Grail Companions"
  abbey_of_the_grail_companions_desc:0 "None shall forget the names of mighty thirteen, and the twelve great battles through which they forged Bretonnia."
+ 
+
+### Southern Old World
+
+
+bells_of_luccini:0 "The Great Bell of Luccini"
+bells_of_luccini_desc:0 "Forged from the spoils of war and infused with the fierce independence of the Tilean city-states, the Great Bell of Luccini tolls to celebrate victories, mark the passage of great leaders, or call the citizens to arms. Its echoes remind every Tilean of their proud heritage and freedom-loving spirit."
+
+cathedra_of_myrmidia:0 "Cathedra of Myrmidia, Remas"
+cathedra_of_myrmidia_desc:0 "This sacred bastion in Remas stands as the grandest monument to Myrmidia, Goddess of War and Strategy. Pilgrims and warrior-priests gather in its hallowed halls to seek wisdom and strength, reinforcing Estalia's reputation as a center of religious and martial authority."
+
+the_estelian_citadel:0 "The Estalian Citadel of Tobaro"
+the_estelian_citadel_desc:0 "Rising defiantly atop the cliffs of Tobaro, the Estalian Citadel has withstood assaults from pirates, Greenskin marauders, and rival Tilean city-states. Armed with powerful artillery and an unmatched defensive design, it remains an enduring symbol of Estalian strength and maritime supremacy."
+
+old_dwarf_road:0 "The Old Dwarf Road"
+old_dwarf_road_desc:0 "The Old Dwarf Road, carved through the Black Mountains by the Dwarfs of Karaz Ankor, serves as a critical trade artery linking the Old World’s realms. Merchant caravans, laden with riches, traverse this ancient path, which remains vital to Tilea's economic prosperity and cultural exchange."
+
+palazzo_della_virtu:0 "Palazzo della Virtù"
+palazzo_della_virtu_desc:0 "A masterpiece of Tilean architecture, the Palazzo della Virtù in Verezzo is a nexus of art, philosophy, and strategic thought. Here, Tilea’s greatest minds gather to create, debate, and perfect the art of governance and warfare, cementing Verezzo’s place as a Renaissance hub of innovation."
+
+alcazar_of_magritta:0 "The Alcázar of Magritta"
+alcazar_of_magritta_desc:0 "The Alcázar of Magritta is a splendid fortress-palace that has served as the seat of power for Estalian monarchs. Its golden halls, adorned with treasures from conquests and trade, reflect the wealth and influence of Magritta, commanding respect and awe across the Old World."
+
+royal_university_of_bilbali:0 "Royal University of Bilbali"
+royal_university_of_bilbali_desc:0 "Renowned throughout Estalia and beyond, the Royal University of Bilbali produces scholars and navigators whose expertise shapes trade, exploration, and governance. Its rigorous programs and advances in shipbuilding ensure that Estalia remains at the forefront of maritime technology and scientific thought."
+
+sagrada_hermandad_of_myrmidia:0 "Sagrada Hermandad of Myrmidia"
+sagrada_hermandad_of_myrmidia_desc:0 "This holy fortress-monastery, dedicated to Myrmidia, serves as both a place of worship and a bastion of martial training. The warrior-priests here prepare to defend the faith, embodying Myrmidia’s teachings of discipline, honor, and strategic brilliance."
+
+el_torre_del_sol:0 "El Torre del Sol"
+el_torre_del_sol_desc:0 "Standing guard over the southern seas, El Torre del Sol is both a lighthouse and a fortress. Built upon ancient foundations, it guides merchant fleets safely into Estalian waters while defending the coast against pirates and sea monsters. Its light is a symbol of Estalia’s maritime strength and prosperity."
+
+
+
+
+
+
+
  ### Ulthuan ###
  ### Ulthuan ###
  ### Ulthuan ###
@@ -437,4 +475,6 @@ daemons_stump_desc:0 "Daemon's Stump is a cursed and ancient fortress of the Cha
 # Tower of Skulls
 tower_of_skulls:0 "Tower of Skulls"
 tower_of_skulls_desc:0 "The Tower of Skulls is a grim shrine to the dark gods, built from the remains of those who fell before the might of Chaos. This twisted structure strengthens the resolve of the Chaos Dwarfs, inspiring fervor in battle and empowering their dark rituals, while also symbolizing their allegiance to the Ruinous Powers."
+
+
 

@@ -60,7 +60,7 @@ gen_sow_happy_nobles_desc:0 "Gain the loyalty of the noble families by completin
 gen_sow_unify_friends_title:0 "Unite Our Allies"
 gen_sow_unify_friends_desc:0 "Our realm is stronger when our neighbors and cultural kin stand together. Strengthen our alliances to ensure a unified Old World against common threats."
 
-gen_sow_place_of_study_title:0 "Establish Centers of Learning"
+gen_sow_place_of_study_title:0 "Centers of Learning"
 gen_sow_place_of_study_desc:0 "Our capital must become a beacon of education and enlightenment. Invest in scholarly pursuits to accelerate our progress in every field of knowledge."
 
 gen_sow_places_of_law_title:0 "Spread the Rule of Law"
@@ -94,10 +94,10 @@ gen_myrmidian_next_crusade_desc:0 "The time has come to strike against the enemi
 gen_myrmidian_war_expand_faith_title:0 "Expand the Faith Overseas"
 gen_myrmidian_war_expand_faith_desc:0 "Victory is only the beginning. Convert our conquests and ensure that the faith of Myrmidia reigns supreme in our expanding territories."
 
-gen_myrmidian_build_docks_title:0 "Expand Our Naval Infrastructure"
+gen_myrmidian_build_docks_title:0 "Expand Naval Infrastructure"
 gen_myrmidian_build_docks_desc:0 "A great fleet requires the finest docks and harbors. Invest in maritime infrastructure to support our efforts to explore and colonize new lands."
 
-gen_myrmidian_expand_overseas_title:0 "Expand the Faith Across the Seas"
+gen_myrmidian_expand_overseas_title:0 "Expand the Faith"
 gen_myrmidian_expand_overseas_desc:0 "We must carry the light of Myrmidia’s teachings to the far reaches of the world. Prepare our missionaries to spread the faith and consolidate our overseas holdings."
 
 gen_sow_defender_of_faith_title:0 "Defender of the Faith"
