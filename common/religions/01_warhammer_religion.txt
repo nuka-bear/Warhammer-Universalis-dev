@@ -47,7 +47,7 @@ old_world_denominations = {
 		}
 		icon = 18
 		country = {
-			discipline = 0.05
+			military_tactics = 0.25
 			may_recruit_female_generals = yes
 			female_advisor_chance = 0.5
 		}

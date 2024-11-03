@@ -43,6 +43,19 @@ Add the warhammer legendary lords into the map
 
 Add legendary artifacts that are traits that move between people
 
+End Times
+	Disaster in end times age that starts for all relevant factions - ticks up from development, army, maybe some monuments. Has grown by.
+	The first person who gets it becomes the end times bringer, ending the disaster for everyone (and triggering an event for everyone)
+	Endtimes bringer gets
+		+10 colonists, +500 colony development
+		+20 morale?
+		+100% manpower recovery speed, +100% army amount
+		-90% warscore
+		+500 devastation creation? Devastation just for being near him?
+		Some way of forcing him to wage war?
+		When he takes a province that has 3 development, or a province is brought to 100% devastation, it becomes decolonized, He will probably immediately colonize it.
+		Gains favors and trust with all other of that religion and tech group, eventually bringing them into dominion
+
 
 Wood Elves
 	Need an event to reset Season
