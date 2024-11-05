@@ -36,6 +36,10 @@ Burger Privelage if your capital is in a subterranean zone, then you get + in su
 	Use the same mechanic for magical and non-magical forests for wood elves - Bonus for magical foest, penalty for anything not forest or jungle
 	This could be + minimum autonomy for non preferred zone
 
+
+
+
+
 Dimmed Sunz starts with no army!
 
 Make events for dominions to declare on their leader
@@ -58,14 +62,17 @@ Chaos
 Skaven
 
 End Times
+	Where to find relevant stuff
+		defines.lau
+		static modifiers
+		common > Disasters > revolution
+		Events > center of revolution events
+
 	Disaster in end times age that starts for all relevant factions - ticks up from development, army, maybe some monuments. Has grown by.
 		Nah use center of revolution
 	The first person who gets it becomes the end times bringer, ending the disaster for everyone (and triggering an event for everyone)
 	Endtimes bringer gets
-		+10 colonists, +500 colony development
-		+20 morale?
-		+100% manpower recovery speed, +100% army amount
-		-90% warscore
+
 		+500 devastation creation? Devastation just for being near him?
 		Some way of forcing him to wage war?
 		When he takes a province that has 3 development, or a province is brought to 100% devastation, it becomes decolonized, He will probably immediately colonize it.

@@ -7,16 +7,19 @@ revolution = {
 		NOT = {
 			tag = PAP
 		}
-		#OR = {
-		#NOT = { government = monarchy }
-		#NOT = { tag = FRA }
-		#}
 		NOT = {
 			is_emperor_of_china = yes
 		}
 		is_free_or_tributary_trigger = yes
 		uses_doom = no
-		current_age = age_of_revolutions
+
+#### Makes this available in the end times.
+		OR = {
+			current_age = age_of_revolutions
+			current_age = age_of_absolutism
+		}
+####
+
 		is_revolutionary = no
 		if = {
 			limit = {
