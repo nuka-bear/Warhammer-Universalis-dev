@@ -229,6 +229,13 @@ province_event = {
 			save_global_event_target_as = revolution_center
 			save_global_event_target_as = first_revolution_center
 		}
+
+	if = {
+		limit = { revolution_target_exists = no }
+		owner = { set_revolution_target = THIS }
+	}
+
+
 	}
 
 	option = {
@@ -356,6 +363,12 @@ province_event = {
 			save_global_event_target_as = revolution_center
 			log = "2nd Center of Revolution spawned in [Root.GetName] (owner: [Root.Owner.GetName]) in [GetYear]"
 		}
+
+	if = {
+		limit = { revolution_target_exists = no }
+		owner = { set_revolution_target = THIS }
+	}
+
 	}
 	option = {
 		name = center_of_revolution.1001.A

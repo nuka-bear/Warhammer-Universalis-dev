@@ -1610,22 +1610,26 @@ revolution_target = {
 #	manpower_recovery_speed = 0.25
 #	sailors_recovery_speed = 0.25
 
-
+	### Colonists
 	colonists = 10
 	global_colonial_growth = 2500
 	colony_cost_modifier = -1.0
 	range = 5.0
 
-
-	warscore_cost_vs_other_religion = -0.75
+	### Expansion
+	province_warscore_cost = -2.00
 	war_exhaustion = -10.0
 	governing_capacity = 2500
+	religious_unity = 0.5
+	administrative_efficiency = 1.0
+	all_power_cost = -0.50
 
-
-	##
+	## Army
 	global_manpower_modifier = 2.0
 	land_forcelimit_modifier = 2.0
 	land_maintenance_modifier = -0.75
+	can_recruit_cossacks = yes
+	allowed_cossack_fraction = 0.1
 
 	## Naval
 	naval_forcelimit_modifier = 2.0
