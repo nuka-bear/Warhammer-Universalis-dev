@@ -8,67 +8,10 @@
  revolution.30.A:0 "Tolerate him."
  revolution.30.B:0 "Arrest him and burn his books!"
 
- french_revolution.4.robespierre:0 "The Reign of Terror has seen countless Frenchmen massacred in the name of the Republic. No sooner has one threat been eliminated then the next is identified and purged. Recently, [Root.Monarch.GetTitle] Robespierre held a particularly violent speech, in which he denounced and demanded the arrest of traitors in the Committees of Public Safety and General Security. This has caused widespread fear and outrage among the leaders of the Revolution, who fear yet another purge of their ranks. Already the National Assembly is moving to demand his arrest and curb the worst excesses of his Reign of Terror, returning stability to the realm and ensuring that no one may use the chaos as an excuse to restore the monarchy.\n\nHowever, it seems that Robespierre still has many supporters who will surely seek to protect him if we do not move swiftly."
- french_revolution.4.robespierre.A:0 "Arrest Robespierre!"
- french_revolution.4.robespierre.B:0 "The Terror shall continue. Enemies of the People beware!"
-
- french_revolution.301.name:0 "Treachery against the Revolution"
- french_revolution.301.desc1:0 "[Root.GetEventAdvisorName], [Root.GetUsableName]'s Chief [Root.GetEventAdvisorTitle], has often been critical of the Reign of Terror unleashed by [Root.Monarch.GetTitle] [Root.Monarch.GetName] and the revolutionary government. In the eyes of the Committee of Public Safety, this makes [Root.GetEventAdvisorHerHim] a dangerous reactionary and an Enemy of the People, one that it would be dangerous to leave alive."
- french_revolution.301.desc2:0 "It is not clear what Chief [Root.GetEventAdvisorTitle] [Root.GetEventAdvisorName] did to attract the ire of [Root.Monarch.GetTitle] [Root.Monarch.GetName], but the Committee of Public Safety has nevertheless identified [Root.GetEventAdvisorHerHim] as a potential reactionary. Just in case their suspicions are accurate, they recommend execution by guillotine."
- french_revolution.301.desc3:0 "It seems that one of the members of the Committee of Public Safety overheard [Root.GetEventAdvisorName], [Root.GetUsableName]'s Chief [Root.GetEventAdvisorTitle], making incriminating remarks to a suspected counter-revolutionary. No sooner was this reported then the Committee took the step of branding [Root.GetEventAdvisorHerHim] an Enemy of the People and recommending execution by guillotine."
- french_revolution.301.A:0 "Another victim for Madame Guillotine."
- french_revolution.301.B:0 "We shall spare [Root.GetEventAdvisorHerHim]."
-
- french_revolution.303.name:0 "Terror Reigns Supreme"
- french_revolution.303.desc:0 "The frequent purges have left enemies of the Revolution cowering in terror. None dare raise their voice in opposition to the course set by the government, leaving the country as united as never before. All praise to [Root.Monarch.GetTitle] [Root.Monarch.GetName]!"
- french_revolution.303.A:0 "If they cannot love us, let them fear us."
-
- french_revolution.5.female:0 "Since the Revolution, the Queen and the rest of the royal family have been kept under house arrest in the Tuileries Palace, where she has been turned into a reluctant puppet of the new regime. Although she had promised to guarantee the social advancements of the Revolution, she did not hide her contempt towards this filthy constitutional monarchy that had been imposed on her, and instead plotted to escape and seek refuge with our enemies in [flee_to_country.GetUsableName], from where she hoped she might be restored to the throne. However, revolutionary forces intercepted her before she could cross the border.\n\nThis has emboldened all those who despise the monarchy and wish to permanently rid us of their scourge. They have hauled her before the National Assembly to face trial over charges of having conspired with foreign powers and thus being a traitor. If found guilty, she will be forced to abdicate, be stripped of all titles and face execution by guillotine. However, tensions are running high and the vote is likely be a close one."
- french_revolution.5.male:0 "Since the Revolution, the King and the rest of the royal family have been kept under house arrest in the Tuileries Palace, where he has been turned into a reluctant puppet of the new regime. Although he had promised to guarantee the social advancements of the Revolution, he did not hide his contempt towards this filthy constitutional monarchy that had been imposed on him, and instead plotted to escape and seek refuge with our enemies in [flee_to_country.GetUsableName], from where he hoped he might be restored to the throne. However, revolutionary forces intercepted him before he could cross the border.\n\nThis has emboldened all those who despise the monarchy and wish to permanently rid us of their scourge. They have hauled him before the National Assembly to face trial over charges of having conspired with foreign powers and thus being a traitor. If found guilty, he will be forced to abdicate, be stripped of all titles and face execution by guillotine. However, tensions are running high and the vote is likely be a close one."
- 
- french_revolution.8.desc:0 "Our beloved [Root.Monarch.GetTitle] has been assassinated! The royalist conspirators concealed their bomb in a barrel on a cart parked on the Rue Saint-Nicaise, where Napoléon had to pass on the way to the Opéra to see the opening of Joseph Haydn's oratorio 'Die Schöpfung.' Nicknamed the 'Infernal Machine', the bomb was filled with gunpowder, flammable materials and bullets, and set off by using a long fuse. The explosion went off just as Napoléon neared, killing him instantly."
- french_revolution.8.B:0 "Quelle tragédie!"
-
- rus_revolutionary_zeal:0 "The Russian Revolution"
- desc_rus_revolutionary_zeal:0 "The people of Russia have embraced the Revolution! Now we must spread it to all corners of the earth!"
-
- REVOLUTIONARY_SPANISH_REPUBLIC:0 "Supreme Junta"
- FIRST_OFFICER:0 "First Officer"
- REVOLUTIONARY_SWEDISH_REPUBLIC:0 "Säkerhetstinget"
- REVOLUTIONARY_DANISH_REPUBLIC:0 "Sikkerhedtinget"
- FIRST_LAWSPEAKER:0 "First Lawspeaker"
- FIRST_LAWSPEAKER_fem:0 "First Lawspeaker"
- SUPREME_VIZIER:0 "Supreme Vizier"
- SUPREME_VIZIER_fem:0 "Supreme Vizier"
- CHAIRMAN:0 "Chairman"
- CHAIRMAN_fem:0 "Chairman"
-
- revolution.31.name:0 "The Spanish Revolution"
- revolution.31.desc:0 "The Revolution has arrived! The mob has stormed the Palacio Real in [Root.Capital.GetCapitalName], capturing [Root.Monarch.GetTitle] [Root.Monarch.GetName], who was promptly executed, along with other members of the royal family who were unable to escape.\n\nA Republic has been declared under by the new Supreme Central and Governing Junta, which is composed of two representatives from each of the divisions of the Spanish state and headed by renowned philosopher and lawyer Gaspar Melchor de Jovellanos. It promises to abolish serfdom, establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading Spain and the rest of Europe to a brighter future free from oppression."
- revolution.31.A:0 "Viva la revolución!"
-
- revolution.32.name:0 "The [Root.GetAdjective] Revolution"
- revolution.32.desc.swedish:0 "The Revolution has arrived! It began with a coup staged by a group of noblemen - quickly gaining notoriety as the '[GetYear] års män', the 'Men of [GetYear]' - that forced [Root.Monarch.GetTitle] [Root.Monarch.GetName] to abdicate and go into exile. Although the conspirators had aimed to establish a constitutional monarchy, matters quickly escalated as a radical clique of lawyers, businessmen and liberals roused the mob through incendiary speeches inciting popular outrage against the monarch. The Royal Palace in [Root.Capital.GetCapitalName] was stormed, officials only able to look on in terror as one symbol of the old regime after the next was torn apart and a Republic was proclaimed.\n\nA 'Säkerhetstinget' or 'Thing of Public Safety' dominated by the radicals has taken over temporary control of the state. They promise to establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading [Root.GetName] and the rest of Europe to a brighter future free from oppression."
- revolution.32.desc.norwegian:0 "The Revolution has arrived! It began with a coup staged by a group of noblemen - quickly gaining notoriety as the 'Menn fra [GetYear]', the 'Men of [GetYear]' - that forced [Root.Monarch.GetTitle] [Root.Monarch.GetName] to abdicate and go into exile. Although the conspirators had aimed to establish a constitutional monarchy, matters quickly escalated as a radical clique of lawyers, businessmen and liberals roused the mob through incendiary speeches inciting popular outrage against the monarch. The Royal Palace in [Root.Capital.GetCapitalName] was stormed, officials only able to look on in terror as one symbol of the old regime after the next was torn apart and a Republic was proclaimed.\n\nA 'Sikkerhedtinget' or 'Thing of Public Safety' dominated by the radicals has taken over temporary control of the state. They promise to establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading [Root.GetName] and the rest of Europe to a brighter future free from oppression."
- revolution.32.desc.danish:0 "The Revolution has arrived! It began with a coup staged by a group of noblemen - quickly gaining notoriety as the '[GetYear] års mænd', the 'Men of [GetYear]' - that forced [Root.Monarch.GetTitle] [Root.Monarch.GetName] to abdicate and go into exile. Although the conspirators had aimed to establish a constitutional monarchy, matters quickly escalated as a radical clique of lawyers, businessmen and liberals roused the mob through incendiary speeches inciting popular outrage against the monarch. The Royal Palace in [Root.Capital.GetCapitalName] was stormed, officials only able to look on in terror as one symbol of the old regime after the next was torn apart and a Republic was proclaimed.\n\nA 'Sikkerhedtinget' or 'Thing of Public Safety' dominated by the radicals has taken over temporary control of the state. They promise to establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading [Root.GetName] and the rest of Europe to a brighter future free from oppression."
- revolution.32.A.swedish:0 "För ett fritt Norden!"
- revolution.32.A.norwegian:0 "For et fritt Nord!"
- revolution.32.A.danish:0 "For et frit Norden!"
-
- revolution.33.name:0 "The Storming of the Tower of London"
- revolution.33.desc:0 ""I lament to see the honor of the [Root.GetStateForm] sunk even to prostitution." For these impertinent words, [Root.Monarch.GetTitle] [Root.Monarch.GetName] had popular politician John Wilkes arrested and imprisoned. However, this sparked large protests in London, where crowds gathered behind the rallying cry of "For Wilkes and Liberty!" Officials read the Riot Act, instructing troops to fire on the protestors, but this served only to further enflame tensions as the crowd continued to swell. Protests soon rose up across the city and a large mob stormed the Tower of London, freeing all political prisoners. Led by Wilkes himself, the crowd then turned towards Buckingham Palace. The [Root.Monarch.GetTitle] was captured as [Root.Monarch.GetSheHe] attempted to flee the city and now faces trial for conspiracy against the [Root.GetAdjective] people, the verdict a foregone conclusion.\n\nA Revolutionary Committee led by Wilkes has taken over control of the new republic, promising to abolish serfdom, establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading [Root.GetName] to a future guided by the ideals of liberty and the brotherhood of man."
- revolution.33.A:0 "Long live the Republic!"
-
  revolution.34.name:0 "The Fall of the [Root.GovernmentName]"
  revolution.34.desc:0 "The Revolution has arrived! Longstanding dissatisfaction at the lack of meaningful reforms by the government of the [Root.GovernmentName] boiled over as revolutionaries stormed the Topkapi Palace in [Root.Capital.GetCapitalName], capturing [Root.Monarch.GetTitle] [Root.Monarch.GetName]'s harem and the Royal Treasury. The [Root.Monarch.GetTitle] [Root.Monarch.GetHerselfHimself] attempted to flee but was unable to evade capture for long. [Root.Monarch.GetSheHeCap] was swiftly put to death for crimes against the people and the faith.\n\nThe Imperial Divan has been purged of all reactionaries and reorganized into the ruling council of the new Republic, which is now headed by self-styled Supreme Vizier [Root.new_supreme_vizier.GetName]. The new regime promises to abolish serfdom, establish equality under the law and redistribute the nobility's land between the state and the peasantry, so that all [Root.Religion.GetGroupName]s may be as brothers, free from oppression."
  revolution.34.desc.heir:0 "The Revolution has arrived! Longstanding dissatisfaction at the lack of meaningful reforms by the government of the [Root.GovernmentName] boiled over as revolutionaries stormed the Topkapi Palace in [Root.Capital.GetCapitalName], capturing [Root.Monarch.GetTitle] [Root.Monarch.GetName]'s harem and the Royal Treasury. The [Root.Monarch.GetTitle] [Root.Monarch.GetHerselfHimself] attempted to flee but was unable to evade capture for long. [Root.Monarch.GetSheHeCap] was swiftly put to death for crimes against the people and the faith.\n\nThe Imperial Divan has been purged of all reactionaries and reorganized into the ruling council of the new Republic, which is now headed by self-styled Supreme Vizier [Root.new_supreme_vizier.GetName]. The new regime promises to abolish serfdom, establish equality under the law and redistribute the nobility's land between the state and the peasantry, so that all [Root.Religion.GetGroupName]s may be as brothers, free from oppression.\n\nHowever, [Root.Heir.GetTitle] [Root.Heir.GetName] remains at large in the provinces and has gathered an army of Ottoman loyalists who vow to bring back the [Root.GovernmentName]..."
  revolution.34.A:0 "Freedom is the People's absolute right!"
-
- revolution.35.name:0 "Napoleone di Buonaparte"
- revolution.35.desc:0 "The chaos of the Revolution and threats of foreign intervention have given ambitious young officers a chance to shine - a chance that has been seized in both hands by one Napoleone di Buonaparte, a Corsican artillery lieutenant. His success in several engagements have brought him to prominence. Most recently, he single-handedly quashed a monarchist uprising in [Root.Capital.GetCapitalName] by deploying the heavy cannons on the city streets, the success of this decisive action earning him the adoration of the people. Already many leaders of the Revolution look favorably upon him and are pushing for him to be elevated to high office. However, he is a man of much ambition, one who may not be content to rule as a mere [Root.Monarch.GetTitle]."
-
- revolution.36.desc:0 "Not satisfied with being merely First Consul, Napoleone di Buonaparte is proposing that he be crowned Emperor of Italy. He justifies this by claiming that restoring the hereditary succession would make it harder to restore the antico regime of Italy to power - after all, there have been several royalist plots on his life - but there is little doubt that his prime motivation is to further his own ambitions for supreme power. The proposal has met with widespread support among the populace, who yearn for the relative stability of the pre-revolutionary years; however, diehard supporters of the Revolution express worry at this attempt to concentrate even more power in Napoleone's hands."
- revolution.36.A:0 "Italy will be an Empire!"
 
  revolution.37.name:0 "Revolution in [Root.Capital.GetCapitalName]"
  revolution.37.desc:0 "The Revolution has arrived! Large crowds gathered in [Root.Capital.GetCapitalName] to demand a wide range of concessions, chief among them a more democratic constitution. Taken aback by the scale of the protests, [Root.Monarch.GetTitle] [Root.Monarch.GetName] tried to defuse the situation by offering significant concessions. However, the leader of the revolutionaries [Root.new_ruler.GetName] ensured that they would not back down easily. "What proof have we," he asked, "that the despot will keep [Root.Monarch.GetHerHis] word?" At this, [Root.Monarch.GetTitle] [Root.Monarch.GetName] ordered the troops to disperse the crowds; however, the troops refused to fire on the protestors, and instead it was [Root.Monarch.GetSheHe] who was driven out.\n\nA Revolutionary Republic has been declared under the watchful stewardship of [Root.new_ruler.GetName], who promises to abolish serfdom, establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading the people of [Root.GetName] to a future guided by the ideals of liberty and the brotherhood of man."
@@ -148,16 +91,79 @@
  elections.700.caretaker:0 "With the return of some degree of normalcy to the Republic, the Committee of Public Safety has agreed to stand down and allow elections to take place. Three primary candidates have been nominated to take over as [Root.Monarch.GetTitle]."
  pirates.1.desc3:0 "The safety of the [Root.GovernmentName] secured, the Mutineer Council has broken down into bickering and infighting, and finally dissolved itself. The crews have been called to assembly to elect a new [Root.Monarch.GetTitle].\n\nA [Root.Monarch.GetTitle] rules over a nation of thieves and murderers whose sole political desire is to not be ruled at all. It is a task comparable to herding sharks, yet some brave or foolhardy soul must fill the role."
  
- center_of_revolution.1000.name:0 "The Birthplace of the Revolution"
- center_of_revolution.1000.desc:0 "A philosopher from [Root.GetCapitalName], [Root.first_center_revolutionary_philosopher.GetName], has published several treatises criticising the inequalities in [Root.Owner.GetUsableName] and calling for a new "social contract". Disputing the divine right of monarchs to rule as they see fit, he proclaims that sovereignty lies with the people and that ultimate power over the laws and policies of the land must lie with them.\n\nHis thesis is highly popular among the middle class entrepreneurs and literati, who have taken to spreading his ideas via pamphlets that call for popular mobilization against absolute power. Already, they are winning supporters across [Root.GetContinentName] as the first sparks of Revolution are born."
- center_of_revolution.1000.A:0 "This could shake things up..."
- center_of_revolution.1001.name:0 "The Revolutionary Torch is Rekindled"
- center_of_revolution.1001.desc:1 "Following the failure of revolutionary efforts in [first_revolution_center.GetCapitalName], the established order across [Root.GetContinentName] breathed a sigh of relief, thinking the challenge to their status had been overcome and things could return to normal. However, it now seems they were premature: the middle classes of [Root.GetCapitalName] have taken up the revolutionary ideals of [first_revolution_center.first_center_revolutionary_philosopher.GetName] and seek to succeed where their forerunners failed, liberating the third estate from the excesses of absolute power."
+
+#####
+
+ center_of_revolution.1000.name:0 "The End Times Begin"
+ center_of_revolution.1000.desc:0 "The winds of magic howl, as the Chaos Gods choose their host. Chaos Energies break through the gaps between worlds, pouring into [Root.GetName] from the dark void. Will the world fall to ruin, or can the powers of Chaos be stopped?"
+ center_of_revolution.1000.A:0 "This is the End"
+
+ center_of_revolution.1001.name:0 "The End times are Rekindled"
+ center_of_revolution.1001.desc:1 "Following the failure of Chaos Gods in [first_revolution_center.GetCapitalName], the forces of good across [Root.GetContinentName] breathed a sigh of relief. However, it now seems they were premature: the dark forces of [Root.GetCapitalName] have taken up the mantle and seek to succeed where their forerunners failed."
  center_of_revolution.1001.A:1 "They shall meet the same fate as [first_revolution_center.GetCapitalName]!"
- center_of_revolution.1001.B:0 "Long Live the Revolution!"
- center_of_revolution.1500.name:0 "The End of a Revolution"
- center_of_revolution.1500.desc:0 "The forces of [From.GetUsableName] have utterly vanquished the [Root.GetAdjective] Revolutionary Army! As idealists are rounded up mercilessly, the silent majority has turned to dusting off their old monarchist symbols."
- center_of_revolution.1500.A:0 "Long live the King!"
+ center_of_revolution.1001.B:0 "Embrace the End!"
+
+ ###
+
+ center_of_revolution.1500.name:0 "The End of the End"
+ center_of_revolution.1500.desc:0 "The forces of [From.GetUsableName] have utterly vanquished the [Root.GetAdjective] Army! As cultists are rounded up mercilessly, the world can return again to its normal, non-apocalyptic war."
+ center_of_revolution.1500.A:0 "Triumph for the Forces of Good!"
+
+####
+
+ reactionaries_failed:0 "Failure of the Forces of Good"
+ desc_reactionaries_failed:0 "The forces of good forces in this country fought a bitter civil war to prevent the chaos cultists from taking power. Although they ultimately failed at this, the nation is still divided between those who supported the chaos gods and those who opposed it."
+
+ revolution.1.A:0 "We must show these upstarts their place!"
+ revolution.1.B:0 "Perhaps they are right..."
+ revolution_disaster_go_for_it_tooltip:0 "§Y[Root.GetName] will become a Chaos Republic. Reactionaries will seek to reverse this change.§!\n"
+ the_revolution_will_succeed:0 "§YThe Chaos Gods will succeed\n§!"
+ revolution.9.won_revolution:0 "With the victory of our dark forces, the turmoil of recent years is at an end."
+ revolution.9.lost_revolution:0 "The footsoldiers of the Dark Gods have been crushed!"
+ revolution.9.won_reactionary:0 "We have crushed the Chaos upstarts!"
+ revolution.9.lost_reactionary:0 "Woe! The upstart Chaos Demons have defeated the rightful government of our nation! At the very least, perhaps the stability of former times may return, though."
+ revolution.9.A:0 "Let us rejoice in victory!"
+ revolution.9.B:0 "At least the conflict is over..."
+ add_as_much_revolutionary_zeal_as_you_can_take:0 "§Y[Root.GetName]§!'s Chaotic Zeal is set to the maximum value."
+ remove_revolution_from_all_provinces:0 "Chaos Corruption is removed from all owned provinces.\nIt will not return to them as long as we own them."
+
+ french_revolution.10.name:0 "The Toll of the Republic's Wars"
+ french_revolution.11.name:0 "The People are Weary of War"
+ french_revolution.12.name:0 "Our Coffers are Empty"
+ french_revolution.13.name:0 "The State of the Republic's Finances"
+ french_revolution.14.name:0 "Widespread Opposition to the Republic"
+ french_revolution.15.name:0 "The Republic in Turmoil"
+ french_revolution.16.name:0 "Spreading Disillusionment in the Republic"
+ french_revolution.18.e:0 "At least the conflict is over..."
+ french_revolution.18.f:0 "Let us rejoice in victory!"
+
+ center_of_revolution.1600.name:0 "Chaos Demons Defeated"
+ center_of_revolution.1600.desc:0 "Our defeat of the Chaotic forces in [From.GetName] represents a major setback for their cause. With their failure to overthrow the state, many of their former supporters across [From.GetRegionName] are losing faith in Chaos, opting instead to acquiesce in the continuation of the [Root.GovernmentName]."
+ center_of_revolution.1600.A:0 "For the [Root.Monarch.GetTitle]!"
+ root_is_most_powerful_in_europe:0 "§Y[Root.GetName]§! is the most powerful nation in §YEurope§!."
+ root_is_most_powerful_in_europe_2:0 "As subjects of the most powerful nation in §YEurope§!, our decadent citizens desire more freedom."
+
+ center_of_revolution.2950.name:0 "Chaos in Peril"
+ center_of_revolution.2950.desc:0 "The past ten years have seen many setbacks for the End Times. Leaderless, it flounders and will surely succumb unless we can manage to reinvigorate the movement."
+ center_of_revolution.2950.A:0 "Worrying."
+ center_of_revolution.2950.A.tt:0 "§YIf no country claims the title of End Times Bringer in the next 10 years, the End Times will end and [Root.GetName] will revert to a Parliamentary Republic.§!"
+ center_of_revolution.3000.name:0 "The End of the End Times"
+ center_of_revolution.3000.desc.last_rev:1 "Since the fall of the [last_revolutionary_country.GetAdjective] End Times Bringer, nobody has dared to take up their banner or sought to bring the fight to the forces of order. Those who once sought radical change are now resigning themselves to the old saying: The more things change, the more they stay the same."
+ center_of_revolution.3000.desc.no_last_rev:0 "The movements spawned by the chaos curruption first expressed in [revolution_center.GetCapitalName] have failed in their aim. Those who once sought the end of the world are now resigning themselves to the old saying: The more things change, the more they stay the same."
+ center_of_revolution.3000.desc.never_rev:0 "The chaotic corruption espoused in [revolution_center.GetCapitalName] have not been able to take hold sufficiently to materially change the circumstances of the people. The movements they gave birth to have failed to take overthrow the state, as they once planned to. Those who once sought radical change are now resigning themselves to the old saying: The more things change, the more they stay the same."
+ center_of_revolution.3000.A:0 "Good riddance!"
+ center_of_revolution.3000.A.tt:0 "§YRevolutionary ideals are removed from all provinces.§!"
+ center_of_revolution.3000.A.tt2:0 "§YAll Centers of Revolution are removed.§!"
+ center_of_revolution.3000.B:0 "A sad day."
+ disaster_active_for_20_years_tooltip:0 "Disaster has been active for 20 years."
+ no_spread_here_for_15_years_tt:0 "Revolutionary ideas will be removed from §Y[This.GetName]§!. They cannot be spread there again for 15 years."
+
+
+
+
+
+
+#### Pre revolution events that may not happen
 
  center_of_revolution.2000.name:0 "Restrict the Grain Trade?"
  center_of_revolution.2000.desc:0 "Grain merchants have long suffered under the harsh restrictions placed on their trade, among them price controls and checks on the purity of their wares. They have come forwards with a proposal to greatly increase their profits - and in turn our tax revenues - from the grain trade by implementing a laissez-faire policy, in essence lifting most restrictions imposed on them.\n\nHowever, others point out that these restrictions are intended to guarantee the people edible food at affordable prices, and that many see the grain merchants as "the cruellest enemies of the people", thought to mix their flour with chalk or ground up bones, and actively inflate prices to make money off the suffering of the people. This being the case, it may be risky to be seen to give the grain merchants free rein..."
@@ -194,51 +200,12 @@
 
  has_parliament_with_at_least_one_seat:0 "§Y[Root.GetName]§! has a Parliament with at least one seat assigned"
 
- reactionaries_failed:0 "Failure of the Reactionary Forces"
- desc_reactionaries_failed:0 "The entrenched reactionary forces in this country fought a bitter civil war to prevent the revolutionaries from taking power. Although they ultimately failed at this, the nation is still divided between those who supported the revolution and those who opposed it."
 
- revolution.1.A:0 "We must show these upstarts their place!"
- revolution.1.B:0 "Perhaps they are right..."
- revolution_disaster_go_for_it_tooltip:0 "§Y[Root.GetName] will become a Revolutionary Republic. Reactionaries will seek to reverse this change.§!\n"
- the_revolution_will_succeed:0 "§YThe Revolution will succeed\n§!"
- revolution.9.won_revolution:0 "With the victory of our revolutionary forces, the turmoil of recent years is at an end. We can now look forward to a brighter future for the people of [Root.GetName]."
- revolution.9.lost_revolution:0 "The footsoldiers of the Revolution have been crushed! Our people must now resign themselves to further rule by [Root.Monarch.GetTitle]s..."
- revolution.9.won_reactionary:0 "We have crushed the revolutionary upstarts! No longer shall the rule of the [Root.Monarch.GetTitle] be disputed..."
- revolution.9.lost_reactionary:0 "Woe! The upstart revolutionaries have defeated the rightful government of our nation! At the very least, perhaps the stability of former times may return, though."
- revolution.9.A:0 "Let us rejoice in victory!"
- revolution.9.B:0 "At least the conflict is over..."
- add_as_much_revolutionary_zeal_as_you_can_take:0 "§Y[Root.GetName]§!'s Revolutionary Zeal is set to the maximum value."
- remove_revolution_from_all_provinces:0 "Revolutionary sentiment is removed from all owned provinces.\nIt will not return to them as long as we own them."
- french_revolution.10.name:0 "The Toll of the Republic's Wars"
- french_revolution.11.name:0 "The People are Weary of War"
- french_revolution.12.name:0 "Our Coffers are Empty"
- french_revolution.13.name:0 "The State of the Republic's Finances"
- french_revolution.14.name:0 "Widespread Opposition to the Republic"
- french_revolution.15.name:0 "The Republic in Turmoil"
- french_revolution.16.name:0 "Spreading Disillusionment in the Republic"
- french_revolution.18.e:0 "At least the conflict is over..."
- french_revolution.18.f:0 "Let us rejoice in victory!"
 
- center_of_revolution.1600.name:0 "Revolutionaries Defeated"
- center_of_revolution.1600.desc:0 "Our defeat of the revolutionary forces in [From.GetName] represents a major setback for their cause. With their failure to overthrow the state, many of their former supporters across [From.GetRegionName] are losing faith in the revolutionary cause, opting instead to acquiesce in the continuation of the [Root.GovernmentName]."
- center_of_revolution.1600.A:0 "For the [Root.Monarch.GetTitle]!"
- root_is_most_powerful_in_europe:0 "§Y[Root.GetName]§! is the most powerful nation in §YEurope§!."
- root_is_most_powerful_in_europe_2:0 "As subjects of the most powerful nation in §YEurope§!, our decadent citizens desire more freedom."
 
- center_of_revolution.2950.name:0 "The Revolution in Peril"
- center_of_revolution.2950.desc:0 "The past ten years have seen many setbacks for the Revolution. Leaderless, it flounders and will surely succumb unless we can manage to reinvigorate the movement."
- center_of_revolution.2950.A:0 "Worrying."
- center_of_revolution.2950.A.tt:0 "§YIf no country claims the title of Revolutionary Target in the next 10 years, the Revolution will end and [Root.GetName] will revert to a Parliamentary Republic.§!"
- center_of_revolution.3000.name:0 "The End of the Revolutions"
- center_of_revolution.3000.desc.last_rev:1 "Since the fall of the [last_revolutionary_country.GetAdjective] Revolution, nobody has dared to take up their banner or sought to bring the fight to counter-revolutionary forces. Those who once sought radical change are now resigning themselves to the old saying: The more things change, the more they stay the same."
- center_of_revolution.3000.desc.no_last_rev:0 "The movements spawned by the revolutionary ideals first expressed in [revolution_center.GetCapitalName] have failed in their aim to materially change the circumstances of the people. Those who once sought radical change are now resigning themselves to the old saying: The more things change, the more they stay the same."
- center_of_revolution.3000.desc.never_rev:0 "The revolutionary ideals espoused in [revolution_center.GetCapitalName] have not been able to take hold sufficiently to materially change the circumstances of the people. The movements they gave birth to have failed to take overthrow the state, as they once planned to. Those who once sought radical change are now resigning themselves to the old saying: The more things change, the more they stay the same."
- center_of_revolution.3000.A:0 "Good riddance!"
- center_of_revolution.3000.A.tt:0 "§YRevolutionary ideals are removed from all provinces.§!"
- center_of_revolution.3000.A.tt2:0 "§YAll Centers of Revolution are removed.§!"
- center_of_revolution.3000.B:0 "A sad day."
- disaster_active_for_20_years_tooltip:0 "Disaster has been active for 20 years."
- no_spread_here_for_15_years_tt:0 "Revolutionary ideas will be removed from §Y[This.GetName]§!. They cannot be spread there again for 15 years."
+
+#### Specific
+
 
  french_revolution.18.d.reactionary:0 "The time of revolts and constant instability seem to be behind us. The Revolution has been utterly crushed, and things can finally return to normal."
 
@@ -254,6 +221,72 @@
  GURKANI_EMPIRE_STRING_ADJ:0 "Gurkani"
  REV_GURKANI_EMPIRE_STRING:0 "Revolutionary Gurkani Empire"
  REV_GURKANI_EMPIRE_STRING_ADJ:0 "Gurkani"
+
+
+
+
+ french_revolution.4.robespierre:0 "The Reign of Terror has seen countless Frenchmen massacred in the name of the Republic. No sooner has one threat been eliminated then the next is identified and purged. Recently, [Root.Monarch.GetTitle] Robespierre held a particularly violent speech, in which he denounced and demanded the arrest of traitors in the Committees of Public Safety and General Security. This has caused widespread fear and outrage among the leaders of the Revolution, who fear yet another purge of their ranks. Already the National Assembly is moving to demand his arrest and curb the worst excesses of his Reign of Terror, returning stability to the realm and ensuring that no one may use the chaos as an excuse to restore the monarchy.\n\nHowever, it seems that Robespierre still has many supporters who will surely seek to protect him if we do not move swiftly."
+ french_revolution.4.robespierre.A:0 "Arrest Robespierre!"
+ french_revolution.4.robespierre.B:0 "The Terror shall continue. Enemies of the People beware!"
+
+ french_revolution.301.name:0 "Treachery against the Revolution"
+ french_revolution.301.desc1:0 "[Root.GetEventAdvisorName], [Root.GetUsableName]'s Chief [Root.GetEventAdvisorTitle], has often been critical of the Reign of Terror unleashed by [Root.Monarch.GetTitle] [Root.Monarch.GetName] and the revolutionary government. In the eyes of the Committee of Public Safety, this makes [Root.GetEventAdvisorHerHim] a dangerous reactionary and an Enemy of the People, one that it would be dangerous to leave alive."
+ french_revolution.301.desc2:0 "It is not clear what Chief [Root.GetEventAdvisorTitle] [Root.GetEventAdvisorName] did to attract the ire of [Root.Monarch.GetTitle] [Root.Monarch.GetName], but the Committee of Public Safety has nevertheless identified [Root.GetEventAdvisorHerHim] as a potential reactionary. Just in case their suspicions are accurate, they recommend execution by guillotine."
+ french_revolution.301.desc3:0 "It seems that one of the members of the Committee of Public Safety overheard [Root.GetEventAdvisorName], [Root.GetUsableName]'s Chief [Root.GetEventAdvisorTitle], making incriminating remarks to a suspected counter-revolutionary. No sooner was this reported then the Committee took the step of branding [Root.GetEventAdvisorHerHim] an Enemy of the People and recommending execution by guillotine."
+ french_revolution.301.A:0 "Another victim for Madame Guillotine."
+ french_revolution.301.B:0 "We shall spare [Root.GetEventAdvisorHerHim]."
+
+ french_revolution.303.name:0 "Terror Reigns Supreme"
+ french_revolution.303.desc:0 "The frequent purges have left enemies of the Revolution cowering in terror. None dare raise their voice in opposition to the course set by the government, leaving the country as united as never before. All praise to [Root.Monarch.GetTitle] [Root.Monarch.GetName]!"
+ french_revolution.303.A:0 "If they cannot love us, let them fear us."
+
+ french_revolution.5.female:0 "Since the Revolution, the Queen and the rest of the royal family have been kept under house arrest in the Tuileries Palace, where she has been turned into a reluctant puppet of the new regime. Although she had promised to guarantee the social advancements of the Revolution, she did not hide her contempt towards this filthy constitutional monarchy that had been imposed on her, and instead plotted to escape and seek refuge with our enemies in [flee_to_country.GetUsableName], from where she hoped she might be restored to the throne. However, revolutionary forces intercepted her before she could cross the border.\n\nThis has emboldened all those who despise the monarchy and wish to permanently rid us of their scourge. They have hauled her before the National Assembly to face trial over charges of having conspired with foreign powers and thus being a traitor. If found guilty, she will be forced to abdicate, be stripped of all titles and face execution by guillotine. However, tensions are running high and the vote is likely be a close one."
+ french_revolution.5.male:0 "Since the Revolution, the King and the rest of the royal family have been kept under house arrest in the Tuileries Palace, where he has been turned into a reluctant puppet of the new regime. Although he had promised to guarantee the social advancements of the Revolution, he did not hide his contempt towards this filthy constitutional monarchy that had been imposed on him, and instead plotted to escape and seek refuge with our enemies in [flee_to_country.GetUsableName], from where he hoped he might be restored to the throne. However, revolutionary forces intercepted him before he could cross the border.\n\nThis has emboldened all those who despise the monarchy and wish to permanently rid us of their scourge. They have hauled him before the National Assembly to face trial over charges of having conspired with foreign powers and thus being a traitor. If found guilty, he will be forced to abdicate, be stripped of all titles and face execution by guillotine. However, tensions are running high and the vote is likely be a close one."
+ 
+ french_revolution.8.desc:0 "Our beloved [Root.Monarch.GetTitle] has been assassinated! The royalist conspirators concealed their bomb in a barrel on a cart parked on the Rue Saint-Nicaise, where Napoléon had to pass on the way to the Opéra to see the opening of Joseph Haydn's oratorio 'Die Schöpfung.' Nicknamed the 'Infernal Machine', the bomb was filled with gunpowder, flammable materials and bullets, and set off by using a long fuse. The explosion went off just as Napoléon neared, killing him instantly."
+ french_revolution.8.B:0 "Quelle tragédie!"
+
+ rus_revolutionary_zeal:0 "The Russian Revolution"
+ desc_rus_revolutionary_zeal:0 "The people of Russia have embraced the Revolution! Now we must spread it to all corners of the earth!"
+
+ REVOLUTIONARY_SPANISH_REPUBLIC:0 "Supreme Junta"
+ FIRST_OFFICER:0 "First Officer"
+ REVOLUTIONARY_SWEDISH_REPUBLIC:0 "Säkerhetstinget"
+ REVOLUTIONARY_DANISH_REPUBLIC:0 "Sikkerhedtinget"
+ FIRST_LAWSPEAKER:0 "First Lawspeaker"
+ FIRST_LAWSPEAKER_fem:0 "First Lawspeaker"
+ SUPREME_VIZIER:0 "Supreme Vizier"
+ SUPREME_VIZIER_fem:0 "Supreme Vizier"
+ CHAIRMAN:0 "Chairman"
+ CHAIRMAN_fem:0 "Chairman"
+
+ revolution.31.name:0 "The Spanish Revolution"
+ revolution.31.desc:0 "The Revolution has arrived! The mob has stormed the Palacio Real in [Root.Capital.GetCapitalName], capturing [Root.Monarch.GetTitle] [Root.Monarch.GetName], who was promptly executed, along with other members of the royal family who were unable to escape.\n\nA Republic has been declared under by the new Supreme Central and Governing Junta, which is composed of two representatives from each of the divisions of the Spanish state and headed by renowned philosopher and lawyer Gaspar Melchor de Jovellanos. It promises to abolish serfdom, establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading Spain and the rest of Europe to a brighter future free from oppression."
+ revolution.31.A:0 "Viva la revolución!"
+
+
+
+ revolution.35.name:0 "Napoleone di Buonaparte"
+ revolution.35.desc:0 "The chaos of the Revolution and threats of foreign intervention have given ambitious young officers a chance to shine - a chance that has been seized in both hands by one Napoleone di Buonaparte, a Corsican artillery lieutenant. His success in several engagements have brought him to prominence. Most recently, he single-handedly quashed a monarchist uprising in [Root.Capital.GetCapitalName] by deploying the heavy cannons on the city streets, the success of this decisive action earning him the adoration of the people. Already many leaders of the Revolution look favorably upon him and are pushing for him to be elevated to high office. However, he is a man of much ambition, one who may not be content to rule as a mere [Root.Monarch.GetTitle]."
+
+ revolution.36.desc:0 "Not satisfied with being merely First Consul, Napoleone di Buonaparte is proposing that he be crowned Emperor of Italy. He justifies this by claiming that restoring the hereditary succession would make it harder to restore the antico regime of Italy to power - after all, there have been several royalist plots on his life - but there is little doubt that his prime motivation is to further his own ambitions for supreme power. The proposal has met with widespread support among the populace, who yearn for the relative stability of the pre-revolutionary years; however, diehard supporters of the Revolution express worry at this attempt to concentrate even more power in Napoleone's hands."
+ revolution.36.A:0 "Italy will be an Empire!"
+
+
+
+ revolution.32.name:0 "The [Root.GetAdjective] Revolution"
+ revolution.32.desc.swedish:0 "The Revolution has arrived! It began with a coup staged by a group of noblemen - quickly gaining notoriety as the '[GetYear] års män', the 'Men of [GetYear]' - that forced [Root.Monarch.GetTitle] [Root.Monarch.GetName] to abdicate and go into exile. Although the conspirators had aimed to establish a constitutional monarchy, matters quickly escalated as a radical clique of lawyers, businessmen and liberals roused the mob through incendiary speeches inciting popular outrage against the monarch. The Royal Palace in [Root.Capital.GetCapitalName] was stormed, officials only able to look on in terror as one symbol of the old regime after the next was torn apart and a Republic was proclaimed.\n\nA 'Säkerhetstinget' or 'Thing of Public Safety' dominated by the radicals has taken over temporary control of the state. They promise to establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading [Root.GetName] and the rest of Europe to a brighter future free from oppression."
+ revolution.32.desc.norwegian:0 "The Revolution has arrived! It began with a coup staged by a group of noblemen - quickly gaining notoriety as the 'Menn fra [GetYear]', the 'Men of [GetYear]' - that forced [Root.Monarch.GetTitle] [Root.Monarch.GetName] to abdicate and go into exile. Although the conspirators had aimed to establish a constitutional monarchy, matters quickly escalated as a radical clique of lawyers, businessmen and liberals roused the mob through incendiary speeches inciting popular outrage against the monarch. The Royal Palace in [Root.Capital.GetCapitalName] was stormed, officials only able to look on in terror as one symbol of the old regime after the next was torn apart and a Republic was proclaimed.\n\nA 'Sikkerhedtinget' or 'Thing of Public Safety' dominated by the radicals has taken over temporary control of the state. They promise to establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading [Root.GetName] and the rest of Europe to a brighter future free from oppression."
+ revolution.32.desc.danish:0 "The Revolution has arrived! It began with a coup staged by a group of noblemen - quickly gaining notoriety as the '[GetYear] års mænd', the 'Men of [GetYear]' - that forced [Root.Monarch.GetTitle] [Root.Monarch.GetName] to abdicate and go into exile. Although the conspirators had aimed to establish a constitutional monarchy, matters quickly escalated as a radical clique of lawyers, businessmen and liberals roused the mob through incendiary speeches inciting popular outrage against the monarch. The Royal Palace in [Root.Capital.GetCapitalName] was stormed, officials only able to look on in terror as one symbol of the old regime after the next was torn apart and a Republic was proclaimed.\n\nA 'Sikkerhedtinget' or 'Thing of Public Safety' dominated by the radicals has taken over temporary control of the state. They promise to establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading [Root.GetName] and the rest of Europe to a brighter future free from oppression."
+ revolution.32.A.swedish:0 "För ett fritt Norden!"
+ revolution.32.A.norwegian:0 "For et fritt Nord!"
+ revolution.32.A.danish:0 "For et frit Norden!"
+
+ revolution.33.name:0 "The Storming of the Tower of London"
+ revolution.33.desc:0 ""I lament to see the honor of the [Root.GetStateForm] sunk even to prostitution." For these impertinent words, [Root.Monarch.GetTitle] [Root.Monarch.GetName] had popular politician John Wilkes arrested and imprisoned. However, this sparked large protests in London, where crowds gathered behind the rallying cry of "For Wilkes and Liberty!" Officials read the Riot Act, instructing troops to fire on the protestors, but this served only to further enflame tensions as the crowd continued to swell. Protests soon rose up across the city and a large mob stormed the Tower of London, freeing all political prisoners. Led by Wilkes himself, the crowd then turned towards Buckingham Palace. The [Root.Monarch.GetTitle] was captured as [Root.Monarch.GetSheHe] attempted to flee the city and now faces trial for conspiracy against the [Root.GetAdjective] people, the verdict a foregone conclusion.\n\nA Revolutionary Committee led by Wilkes has taken over control of the new republic, promising to abolish serfdom, establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading [Root.GetName] to a future guided by the ideals of liberty and the brotherhood of man."
+ revolution.33.A:0 "Long live the Republic!"
+
+ 
 
  revolution.40.name:0 "The Heavenly Revolution"
  revolution.40.desc:0 "The Revolution has arrived! Large crowds gathered in [Root.Capital.GetCapitalName] to demand an end to the millennia-old imperial regime that many feel does little for the majority of its people. Initially demanding a constitution to limit the [Root.Monarch.GetTitle]’s power and increase their own influence in government, the crowd was incensed at the violent crackdown by imperial forces and fought back, storming the Forbidden City. As the sheer scale of [Root.Monarch.GetTitle] [Root.Monarch.GetName]’s luxurious lifestyle was laid bare, few indeed felt merciful towards [Root.Monarch.GetHerHim]. Seeing no possible escape, [Root.Monarch.GetName] took [Root.Monarch.GetHerHis] own life rather than face the indignity of a public execution.\n\nThe new rulers of [Root.Capital.GetCapitalName] have declared China a Republic, promising to reorganize the state by redistributing the nobility's land to the peasantry and establishing full equality under the law. They declare that the future will be glorious and free for all the people of China!"

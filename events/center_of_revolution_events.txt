@@ -25,10 +25,8 @@ province_event = {
 			current_age = age_of_absolutism
 		}
 		religion_group = ruinous_powers_denominations
+		owner = { religion_group = ruinous_powers_denominations }
 
-		owner = {
-			is_free_or_tributary_trigger = yes
-		}
 		NOT = { has_province_modifier = religious_center }
 	}
 
@@ -53,10 +51,12 @@ province_event = {
 
 		modifier = {
 			factor = 0.01
-			all_country = {
-				OR = {
-					NOT = { religion_group = ruinous_powers_denominations }
-					NOT = { total_development = ROOT }
+			owner = { 
+				all_country = {
+					OR = {
+						NOT = { religion_group = ruinous_powers_denominations }
+						NOT = { total_development = ROOT }
+					}
 				}
 			}
 		}
@@ -102,76 +102,78 @@ province_event = {
 ### Development
 		modifier = {
 			factor = 0.90
-			owner = { total_development = 250 }
+			owner = { total_development = 100 }
 		}
 
 		modifier = {
 			factor = 0.90
+			owner = { total_development = 200 }
+		}
+
+		modifier = {
+			factor = 0.90
+			owner = { total_development = 300 }
+		}
+
+		modifier = {
+			factor = 0.8
+			owner = { total_development = 400 }
+		}
+
+		modifier = {
+			factor = 0.8
 			owner = { total_development = 500 }
 		}
 
 		modifier = {
-			factor = 0.90
-			owner = { total_development = 750 }
+			factor = 0.8
+			owner = { total_development = 600 }
 		}
 
 		modifier = {
 			factor = 0.8
+			owner = { total_development = 700 }
+		}
+
+		modifier = {
+			factor = 0.7
+			owner = { total_development = 800 }
+		}
+
+		modifier = {
+			factor = 0.7
+			owner = { total_development = 900 }
+		}
+
+		modifier = {
+			factor = 0.7
 			owner = { total_development = 1000 }
 		}
 
 		modifier = {
-			factor = 0.8
-			owner = { total_development = 1250 }
+			factor = 0.7
+			owner = { total_development = 1100 }
 		}
 
 		modifier = {
-			factor = 0.8
+			factor = 0.6
+			owner = { total_development = 1200 }
+		}
+
+		modifier = {
+			factor = 0.6
+			owner = { total_development = 1300 }
+		}
+
+		modifier = {
+			factor = 0.6
+			owner = { total_development = 1400 }
+		}
+
+		modifier = {
+			factor = 0.6
 			owner = { total_development = 1500 }
 		}
-
-		modifier = {
-			factor = 0.8
-			owner = { total_development = 1750 }
-
-		modifier = {
-			factor = 0.7
-			owner = { total_development = 2000 }
-		}
-
-		modifier = {
-			factor = 0.7
-			owner = { total_development = 2250 }
-		}
-
-		modifier = {
-			factor = 0.7
-			owner = { total_development = 2500 }
-		}
-
-		modifier = {
-			factor = 0.7
-			owner = { total_development = 2750 }
-		}
-
-		modifier = {
-			factor = 0.6
-			owner = { total_development = 3000 }
-		}
-
-		modifier = {
-			factor = 0.6
-			owner = { total_development = 3250 }
-		}
-
-		modifier = {
-			factor = 0.6
-			owner = { total_development = 3500 }
-		}
-
-		modifier = {
-			factor = 0.6
-			owner = { total_development = 3750 }
 
 
 
@@ -276,6 +278,8 @@ province_event = {
 		NOT = { has_global_flag = no_more_revolutions_ever }
 
 		religion_group = ruinous_powers_denominations
+
+		owner = { religion_group = ruinous_powers_denominations }
 
 		owner = {
 			is_free_or_tributary_trigger = yes

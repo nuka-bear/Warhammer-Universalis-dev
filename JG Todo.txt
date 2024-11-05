@@ -14,6 +14,7 @@ Everybody!
 	Special Religious mechanic
 	Triggered modifier for losing a key cultural monument mark
 	Split each major culture into 3-6 smaller cultures
+	Make people always able to see thier "make big country" decision
 
 Broadly
 	Add monuments based on the maps
@@ -67,7 +68,10 @@ End Times
 		static modifiers
 		common > Disasters > revolution
 		Events > center of revolution events
+		disasters > Revolution disaster
 
+
+		Need to adjust the revolution disaster
 	Disaster in end times age that starts for all relevant factions - ticks up from development, army, maybe some monuments. Has grown by.
 		Nah use center of revolution
 	The first person who gets it becomes the end times bringer, ending the disaster for everyone (and triggering an event for everyone)

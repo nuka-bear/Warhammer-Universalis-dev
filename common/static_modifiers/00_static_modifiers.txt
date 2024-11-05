@@ -1597,7 +1597,7 @@ autonomy_decreased = {
 	local_unrest = 10
 }
 
-#### The big bad!
+#### The big bad! Endtimes
 
 revolution_target = {
 #	global_manpower_modifier = 0.10
@@ -1612,13 +1612,14 @@ revolution_target = {
 
 
 	colonists = 10
-	global_colonial_growth = 250
+	global_colonial_growth = 2500
 	colony_cost_modifier = -1.0
 	range = 5.0
 
 
 	warscore_cost_vs_other_religion = -0.75
 	war_exhaustion = -10.0
+	governing_capacity = 2500
 
 
 	##
@@ -1632,8 +1633,9 @@ revolution_target = {
 
 
 	## Diplomatic
-	reverse_relation_with_same_religion = 100
-	reverse_relation_with_heretic_religion = 100
+	reverse_relation_with_same_religion = 150
+	reverse_relation_with_heretic_religion = 75
+	reverse_relation_with_heathen_religion = -200
 	monthly_favor_modifier = 5.0
 	diplomats = 5
 	diplomatic_upkeep = 50
