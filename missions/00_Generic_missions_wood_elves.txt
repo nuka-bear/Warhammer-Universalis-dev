@@ -329,15 +329,11 @@ gen_asrai_cadai_missions = {
 		position = 5
 		provinces_to_highlight = {
 			owned_by = ROOT
-			OR = {
-				NOT = { is_prosperous = yes }
-				devastation = .01
-			}
+			NOT = { is_prosperous = yes }
 		}
 		trigger = {
 			all_owned_province = {
 				is_prosperous = yes
-				NOT = { devastation = .01 }
 			}
 		}
 

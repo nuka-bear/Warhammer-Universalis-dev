@@ -393,7 +393,7 @@ gen_cadai_missions = {
 	gen_cadai_wine_and_silk = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = {
-			gen_yin_yang_happy_priest
+			gen_cadai_happy_priest
 		}
 		provinces_to_highlight = {
 			OR = {

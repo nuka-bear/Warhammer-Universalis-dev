@@ -78,6 +78,27 @@ el_torre_del_sol_desc:0 "Standing guard over the southern seas, El Torre del Sol
 
 
 
+##### Border Princes
+
+barak_varr:0 "Barak Varr"
+barak_varr_desc:0 "The mighty stronghold of Barak Varr stands as the only true Dwarfen port, a bastion that guards the waterways and the vast riches that come with maritime trade. Its harbors are heavily fortified, and the mastery of the Dwarfs over both stone and watercraft is legendary, allowing them to control and secure vital trade routes."
+
+black_fire_pass:0 "Black Fire Pass"
+black_fire_pass_desc:0 "Black Fire Pass is the most crucial gateway between the Empire and the lands of the Border Princes, often serving as the site of monumental battles throughout history. The treacherous mountains echo the clash of steel and the roars of warbeasts, and fortifying this passage grants immense strategic power over all who seek to traverse it."
+
+forest_of_gloom:0 "Forest of Gloom"
+forest_of_gloom_desc:0 "The Forest of Gloom is a shadowy expanse notorious for its labyrinthine trails, sinister spirits, and dangerous wildlife. Despite its ominous reputation, it is a land of rich resources, providing valuable trade goods and creating a natural barrier that repels invaders with its eerie, supernatural aura."
+
+blackcliff_bay:0 "Blackcliff Bay"
+blackcliff_bay_desc:0 "Blackcliff Bay is a windswept and treacherous bay known for its towering cliffs and natural defenses. Over time, it has become a haven for privateers and a bastion against maritime invasions, with its waters serving as a perfect staging ground for raids and seafaring warfare."
+
+mortensholm_marketplaces:0 "Mortensholm Marketplaces"
+mortensholm_marketplaces_desc:0 "The bustling marketplaces of Mortensholm are the lifeblood of commerce in the region. As a hub of trade and exchange, merchants from distant lands converge here, bringing wealth and prosperity. The city’s strategic location along trade routes ensures its importance as a center of economic activity and cultural exchange."
+
+
+
+
+
 
 
 
@@ -144,8 +165,8 @@ har_ganeth_desc:0 "Har Ganeth, the City of Executioners, is a place where blood 
  ashward_slave_pits:0 "Ashward Slave Pits"
  ashward_slave_pits_desc:0 "The Ashward Slave Pits are a grim testament to the cruel dominion of the Druchii. Here, countless slaves are driven to their breaking points, laboring endlessly under the watchful eyes of cruel overseers. Their suffering fuels the war machine of Naggaroth, providing a tireless resource for the construction of armaments and the strengthening of Dark Elf armies. These pits are a necessary evil in the pursuit of the Witch King's relentless ambitions."
 
- witchwood_monument:0 "Witchwood Monument"
- witchwood_monument_desc:0 "The Witchwood Monument stands as a sentinel of primal magic, revered and feared in equal measure. A bastion of the Asrai’s will in the tainted lands of Naggaroth, it is entwined with ancient wards and defended by the spirits of the forest. Those who dare trespass into its sacred ground are met with relentless resistance, as the Witchwood’s defenders harness the natural world to strike back against invaders. The monument embodies a harmonious blend of martial and spiritual fortitude, empowering the sanctity of the Elven groves and bolstering the faith of their people."
+ witchwood_monument:0 "Witchwood Oak"
+ witchwood_monument_desc:0 "The Witchwood Oak stands as a sentinel of primal magic, revered and feared in equal measure. A bastion of the Asrai’s will in the tainted lands of Naggaroth, it is entwined with ancient wards and defended by the spirits of the forest. Those who dare trespass into its sacred ground are met with relentless resistance, as the Witchwood’s defenders harness the natural world to strike back against invaders. The Oak embodies a harmonious blend of martial and spiritual fortitude, empowering the sanctity of the Elven groves and bolstering the faith of their people."
 
  
  #### Athel Loren

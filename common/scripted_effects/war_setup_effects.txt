@@ -2865,18 +2865,53 @@ setup_vision = {
 			}
 		}
 	}
-	#Discover allies capitals
-	every_ally = {
-		capital_scope = {
-			discover_country = ROOT
-		}
-	}
+
+### Everybody
+
+
 	# Discovers all neighbors
 	every_neighbor_country = {
 		every_owned_province = {
 			discover_country = ROOT
 		}
 	}
+
+	### Discover your neighbor's nieghbors
+	every_neighbor_country = {
+		every_neighbor_country = {
+			every_owned_province = {
+				discover_country = ROOT
+			}
+		}
+	}
+	
+	### Discover your neighbor's nieghbor's neighbor!
+	every_neighbor_country = {
+		every_neighbor_country = {
+			every_neighbor_country = {
+				every_owned_province = {
+					discover_country = ROOT
+				}
+			}
+		}
+	}
+
+	#Discover allies capitals
+	every_ally = {
+		capital_scope = {
+			discover_country = ROOT
+		}
+	}
+
+	### Everybody loses vision over Athel Loren
+	if = {
+		limit = { NOT = { tag = B01 } }
+		athel_loren_region = { undiscover_country = ROOT }
+
+	}
+
+
+
 	# Resets prestige from being the first in the tech group to discover a province
 	add_prestige = -200
 	add_prestige = 100

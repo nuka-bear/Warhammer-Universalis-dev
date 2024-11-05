@@ -13,6 +13,7 @@ Everybody!
 	Make each mission tree a single icon of the culture or religion
 	Special Religious mechanic
 	Triggered modifier for losing a key cultural monument mark
+	Split each major culture into 3-6 smaller cultures
 
 Broadly
 	Add monuments based on the maps
@@ -23,6 +24,9 @@ Broadly
 		Missions
 		Religious Advisor Icons
 			Do while watching something?
+
+
+	Vision for some countries is still strange, particularly the border princes (look at Barak Varr). Make sure everybody sees entier region subcontinent they are in, and all adjacent regions
 
 Raiding happens when people reclaim their own lands
 	Might be fixed, check if this works. - Nope!
@@ -36,6 +40,8 @@ Dimmed Sunz starts with no army!
 
 Make events for dominions to declare on their leader
 
+Increase culture conversion cost & times, missionary cost, autonomy from wrong culture & religion?
+
 
 Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
 
@@ -43,8 +49,17 @@ Add the warhammer legendary lords into the map
 
 Add legendary artifacts that are traits that move between people
 
+Kislev
+
+Norscans
+
+Chaos
+
+Skaven
+
 End Times
 	Disaster in end times age that starts for all relevant factions - ticks up from development, army, maybe some monuments. Has grown by.
+		Nah use center of revolution
 	The first person who gets it becomes the end times bringer, ending the disaster for everyone (and triggering an event for everyone)
 	Endtimes bringer gets
 		+10 colonists, +500 colony development
@@ -55,30 +70,21 @@ End Times
 		Some way of forcing him to wage war?
 		When he takes a province that has 3 development, or a province is brought to 100% devastation, it becomes decolonized, He will probably immediately colonize it.
 		Gains favors and trust with all other of that religion and tech group, eventually bringing them into dominion
+		Event to declare war on neighbors if not at war
+		Bonuses on 5th monarchist thing, but highest bonuses at the start, gettting weaker.
+
 
 
 Wood Elves
 	Need an event to reset Season
-	Right side internal development
-		Do things in certain seasons?
-		Monuments at Level 3
-	Left side raid enemies
-		War during summer?
-		Sieged during winter?
-		Get war reparations
-		Kill certain number of enemy armies
-		Enemy you are at war with has no armies or no manpower
-		All adjacent provinces have the raided modifier
-		More development than all adjacent nations
 	Land movement between centers of each wood
-	Disaster or Event for Losing the Oak of Ages?
+	Disaster or Triggered Modifier for Losing the Oak of Ages?
 
 
 Dark Elf
 
 
 High Elves
-
 
 
 Skaven
@@ -111,6 +117,10 @@ Orcs
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold
 	End Time mechanics for Orcs?
+	Waagh event improvements
+		Choose between three different neighbors, or nobody
+		Use Army Strength for choosing favorit
+
 
 Cathay
 	Disaster if Cathay provinces not owned by cathay dudes (or maybe just bastion?)
