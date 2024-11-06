@@ -19,7 +19,7 @@ country_decisions = {
 				exists = Z99
 			}
 			culture_group = nehekharan_group
-			has_reform = nehekharan_government_reform
+#			has_reform = nehekharan_government_reform
 			OR = {
 				ai = no
 				AND = {

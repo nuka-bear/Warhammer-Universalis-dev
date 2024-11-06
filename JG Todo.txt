@@ -70,6 +70,12 @@ End Times
 		Events > center of revolution events
 		disasters > Revolution disaster
 
+			1) At the start of the End Times Age, a Ruinous Power (4 Chaos Gods, Hashut, Norsca) is chosen to the be Everchosen/Revolutionary Target. This is almost always the biggest chaos nation, meaning it will probably be either the Choas Dwarves or Norsca. We could force this to be one of the small chaos waste tribes instead if we wanted. The Center of Revolution spawns in their area, and they get the "Everchosen" Government Type.
+			2) The Everchosen Government type provides huge bonuses to military and conquest that diminish over 100 years (colonists, manpower, admin eff, power cost reduction). Possibly this is based on the 5th monarchists, and they can explode if criteria are not met.
+			3) The Everchosen spreads the revolution through conquest and the Center of Revolution.
+			4) Countries get disaster ticks if they are a ruinous powe religion, or if they have a revolution in their provinces. If the disaster fires, it's similar to the revolution disaster: rebels and possibility to switch to the "Chaos Nation" government type. If you are adjacent to the Everchosen, you can also choose to avoid the disaster and just become a Chaos Nation and become a dominion of the Everchosen.
+
+
 
 		Need to adjust the revolution disaster
 	Disaster in end times age that starts for all relevant factions - ticks up from development, army, maybe some monuments. Has grown by.
@@ -84,10 +90,25 @@ End Times
 		Event to declare war on neighbors if not at war
 		Bonuses on 5th monarchist thing, but highest bonuses at the start, gettting weaker.
 
+		Event to make revolutionary places dominions of revolutionary target - Or this is the revolutionary disaster?
+
+		Think about the government reform - can we have people keep their government reforms, but still be seen as revolutionary?
+
+		Non-ruinouspowers should convert to Chaos Undivided
+
+		Revolution Target gets special government type which gives it all the perks slowly decreasing over 50 years. Government mechanic
+
+		Adjust revolutionary disaster to be either you are a ruinous dude, or you have big problems
+
+		Making the dominions messes with the framerate - Don't do this!
+
+		Crush the revolution cb?
+
+
+
 
 
 Wood Elves
-	Need an event to reset Season
 	Land movement between centers of each wood
 	Disaster or Triggered Modifier for Losing the Oak of Ages?
 

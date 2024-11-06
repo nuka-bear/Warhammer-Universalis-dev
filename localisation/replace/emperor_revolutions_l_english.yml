@@ -116,6 +116,8 @@
 
  revolution.1.A:0 "We must show these upstarts their place!"
  revolution.1.B:0 "Perhaps they are right..."
+ revolution.1.C:0 "Let us submit to the Everchosen"
+
  revolution_disaster_go_for_it_tooltip:0 "§Y[Root.GetName] will become a Chaos Republic. Reactionaries will seek to reverse this change.§!\n"
  the_revolution_will_succeed:0 "§YThe Chaos Gods will succeed\n§!"
  revolution.9.won_revolution:0 "With the victory of our dark forces, the turmoil of recent years is at an end."
@@ -286,7 +288,7 @@
  revolution.33.desc:0 ""I lament to see the honor of the [Root.GetStateForm] sunk even to prostitution." For these impertinent words, [Root.Monarch.GetTitle] [Root.Monarch.GetName] had popular politician John Wilkes arrested and imprisoned. However, this sparked large protests in London, where crowds gathered behind the rallying cry of "For Wilkes and Liberty!" Officials read the Riot Act, instructing troops to fire on the protestors, but this served only to further enflame tensions as the crowd continued to swell. Protests soon rose up across the city and a large mob stormed the Tower of London, freeing all political prisoners. Led by Wilkes himself, the crowd then turned towards Buckingham Palace. The [Root.Monarch.GetTitle] was captured as [Root.Monarch.GetSheHe] attempted to flee the city and now faces trial for conspiracy against the [Root.GetAdjective] people, the verdict a foregone conclusion.\n\nA Revolutionary Committee led by Wilkes has taken over control of the new republic, promising to abolish serfdom, establish equality under the law and redistribute the nobility's land between the state and the peasantry, leading [Root.GetName] to a future guided by the ideals of liberty and the brotherhood of man."
  revolution.33.A:0 "Long live the Republic!"
 
- 
+
 
  revolution.40.name:0 "The Heavenly Revolution"
  revolution.40.desc:0 "The Revolution has arrived! Large crowds gathered in [Root.Capital.GetCapitalName] to demand an end to the millennia-old imperial regime that many feel does little for the majority of its people. Initially demanding a constitution to limit the [Root.Monarch.GetTitle]’s power and increase their own influence in government, the crowd was incensed at the violent crackdown by imperial forces and fought back, storming the Forbidden City. As the sheer scale of [Root.Monarch.GetTitle] [Root.Monarch.GetName]’s luxurious lifestyle was laid bare, few indeed felt merciful towards [Root.Monarch.GetHerHim]. Seeing no possible escape, [Root.Monarch.GetName] took [Root.Monarch.GetHerHis] own life rather than face the indignity of a public execution.\n\nThe new rulers of [Root.Capital.GetCapitalName] have declared China a Republic, promising to reorganize the state by redistributing the nobility's land to the peasantry and establishing full equality under the law. They declare that the future will be glorious and free for all the people of China!"

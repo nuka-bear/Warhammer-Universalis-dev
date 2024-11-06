@@ -213,6 +213,47 @@ country_event = {
 			}
 		}
 	}
+
+
+	option = {
+		name = revolution.1.C			# Submit to the target
+		trigger = {
+			has_dlc = "Emperor"
+			revolution_target_exists = yes
+			any_neighbor_country = { is_revolution_target = yes }
+		}
+
+### Dominate me, Target
+
+		grant_independence = yes
+
+		revolution_target = {
+			create_subject = {
+				subject = ROOT
+				subject_type = dominion
+			}
+		}
+
+
+
+###
+		set_country_flag = revolution_disaster_revolutionary
+		set_country_flag = revolution_disaster_immediate_revolution
+		hidden_effect = { #The triggers for them mean only one will happen
+			country_event = { id = revolution.10 } #Generic
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 100
+				revolution_target_exists = yes
+			}
+			modifier = {
+				factor = 0
+				is_emperor = yes
+			}
+		}
+	}
 }
 
 

@@ -1623,13 +1623,21 @@ revolution_target = {
 	religious_unity = 0.5
 	administrative_efficiency = 1.0
 	all_power_cost = -0.50
+	may_establish_frontier = yes
 
 	## Army
 	global_manpower_modifier = 2.0
+	manpower_recovery_speed = 2.0
 	land_forcelimit_modifier = 2.0
 	land_maintenance_modifier = -0.75
 	can_recruit_cossacks = yes
 	allowed_cossack_fraction = 0.1
+
+
+	global_sailors_modifier = 2.0
+	sailors_recovery_speed = 2.0
+	sailor_maintenance_modifer = -0.75
+
 
 	## Naval
 	naval_forcelimit_modifier = 2.0
@@ -1640,7 +1648,7 @@ revolution_target = {
 	reverse_relation_with_same_religion = 150
 	reverse_relation_with_heretic_religion = 75
 	reverse_relation_with_heathen_religion = -200
-	monthly_favor_modifier = 5.0
+	ae_impact = 2.0
 	diplomats = 5
 	diplomatic_upkeep = 50
 	cb_on_religious_enemies = yes
