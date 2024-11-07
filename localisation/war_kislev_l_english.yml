@@ -1,0 +1,102 @@
+﻿l_english:
+
+### Mission Titles and Descriptions
+gen_kislev_please_nobility_title:0 "Please the Boyars"
+gen_kislev_please_nobility_desc:0 "The nobility of Kislev wields great power through their ancestral estates and legendary warriors. By gaining the favor of the Boyars, we can secure the support of their formidable winged hussars for the defense of the realm."
+
+gen_kislev_cavalry_title:0 "Unleash the Hussars"
+gen_kislev_cavalry_desc:0 "With their unmatched prowess, the Kislevite Winged Hussars are a force feared across the realm. These elite cavalrymen stand ready to ride against any who threaten our lands."
+
+gen_kislev_cavalry_2_title:0 "Golden Era of Cavalry"
+gen_kislev_cavalry_2_desc:0 "Like the mighty Kossars of old, Kislev once again commands armies of mounted warriors ready to protect the Motherland. Our hussars are trained to strike fast, bringing the wrath of Kislev to our foes."
+
+gen_kislev_prepare_the_defenses_title:0 "Prepare for Defense"
+gen_kislev_prepare_the_defenses_desc:0 "Kislev stands as the first line of defense against the forces of Chaos. By fortifying our borders, we can ensure our strength is unmatched and our people are safe from the horrors beyond."
+
+gen_kislev_reclaim_wheatlands_title:0 "Reclaim the Wheatlands"
+gen_kislev_reclaim_wheatlands_desc:0 "The rich wheatlands to the east were once the pride of Kislev, providing sustenance to our people. We must reclaim these lands to ensure our people never know hunger."
+
+gen_kislev_friend_to_the_south_title:0 "Alliance of Man"
+gen_kislev_friend_to_the_south_desc:0 "The threat of Chaos endangers not just Kislev, but all of mankind. By strengthening our alliance with the southern realms, we can stand united in the face of darkness."
+
+gen_kislev_build_navy_title:0 "Build the Northern Fleet"
+gen_kislev_build_navy_desc:0 "To contend with the raiders from Norsca, we must reclaim our naval strength. A formidable fleet will allow us to defend our shores and strike back against our foes on the seas."
+
+claim_norsca_tt:0 "Gain a claim on all Norsca"
+
+gen_kislev_ultimate_mission_title:0 "Triumph Over Chaos"
+gen_kislev_ultimate_mission_desc:0 "After years of struggle, Kislev has banished the ruinous powers from the Old World. Our ultimate victory over Chaos brings new hope to mankind, as we stand as the eternal guardians of humanity."
+
+
+
+### Mission Titles and Descriptions
+gen_orthodoxy_happy_priest_title:0 "Inspiration of the Faithful"
+gen_orthodoxy_happy_priest_desc:0 "The priesthood of Kislev has been emboldened, and our missionaries are more zealous than ever. With the blessings of Ursun, they will go forth to bring light to those who dwell in darkness and ignorance."
+
+gen_orthodoxy_religious_unity_title:0 "Unite Under Ursun"
+gen_orthodoxy_religious_unity_desc:0 "To strengthen Kislev against the powers that threaten our people, we must bring all under the faith of Ursun. A united Kislev, bound by a shared faith, will stand indomitable."
+
+gen_orthodoxy_war_with_chaos_title:0 "Crusade Against Chaos"
+gen_orthodoxy_war_with_chaos_desc:0 "The forces of Chaos are a blight upon the world. We shall carry forth Ursun’s righteous fury, bringing holy war upon those who defile the lands of men with their dark sorcery and twisted gods."
+
+gen_orthodoxy_push_back_norsca_title:0 "Drive Out the Norscan Threat"
+gen_orthodoxy_push_back_norsca_desc:0 "The marauders of Norsca worship foul gods and bring ruin to our lands. It is our duty to push them back and reclaim what they have defiled. Our faith demands nothing less than total victory."
+
+gen_orthodoxy_ice_palaces_title:0 "The Ice Palaces of Kislev"
+gen_orthodoxy_ice_palaces_desc:0 "The mystical Ice Witches of Kislev have transformed our capital into a place of strength and beauty, surrounded by towering ice palaces that reflect the power of our nation and faith."
+
+gen_orthodoxy_crownland_title:0 "Consolidate the Winter Throne"
+gen_orthodoxy_crownland_desc:0 "The rule of the Ice Witches grows, binding our government under a single, resilient authority. By securing control over Kislev’s lands, they will protect the realm from all who would threaten it."
+
+gen_orthodoxy_winter_magic_study_title:0 "Study of Winter’s Lore"
+gen_orthodoxy_winter_magic_study_desc:0 "The Ice Witches have built schools dedicated to studying the ancient and powerful lore of winter. Through their wisdom, we shall learn to harness the very cold itself to defend our people."
+
+### Modifiers Titles and Descriptions
+kislev_hussars_1:0 "Support of the Boyars"
+kislev_hussars_1_desc:0 "With the loyalty of the noble Boyars, our armies are reinforced by the legendary Winged Hussars, a symbol of Kislevite strength and nobility."
+
+kislev_hussars_2:0 "Strengthened Hussar Corps"
+kislev_hussars_2_desc:0 "Our hussars have undergone rigorous training, increasing their effectiveness on the battlefield and reinforcing Kislev’s position as a power among cavalry forces."
+
+kislev_hussars_3:0 "Efficient Hussar Reformation"
+kislev_hussars_3_desc:0 "Through reforms and training, the cost of maintaining our hussars has decreased, allowing us to deploy more of these elite riders at a lower expense."
+
+kislev_cheap_forts:0 "Bastions of Kislev"
+kislev_cheap_forts_desc:0 "With reinforced fortifications, our borders are resilient against Chaos and rival incursions, reducing maintenance costs for fortified outposts along the frontier."
+
+kislev_wheatlands_taken:0 "Reclaimed Wheatlands"
+kislev_wheatlands_taken_desc:0 "The bountiful wheatlands are once again under Kislev’s control, supplying ample food to our people and bolstering our manpower reserves."
+
+kislev_friends_with_heretics:0 "Southern Alliance"
+kislev_friends_with_heretics_desc:0 "Our southern allies, though of a different faith, stand with us against Chaos. This alliance reinforces Kislev’s position and tolerance toward those who share our cause."
+
+kislev_naval_enthusiasm:0 "Naval Expansion Efforts"
+kislev_naval_enthusiasm_desc:0 "With a renewed focus on naval prowess, Kislev is building up a fleet capable of protecting our shores and challenging enemies from the north."
+
+kislev_missionaries_1:0 "Inspired Missionaries"
+kislev_missionaries_1_desc:0 "Driven by unwavering faith, our missionaries venture to spread the Kislevite creed, converting heathens and solidifying religious authority."
+
+kislev_better_religious_unity:0 "United Under Ursun"
+kislev_better_religious_unity_desc:0 "Through devotion to Ursun, Kislev has achieved unity in faith, strengthening the cohesion and morale of our people."
+
+kislev_holy_war:0 "Holy War Against Chaos"
+kislev_holy_war_desc:0 "The dark powers must be purged from the lands. Our faith drives us to wage holy war, cleansing Chaos from the world."
+
+kislev_tolerance_own:0 "Acceptance of the Faithful"
+kislev_tolerance_own_desc:0 "Our people’s shared faith strengthens Kislevite society, fostering tolerance and unity among the faithful."
+
+kislev_brutal_winter_1:0 "Winter’s Harsh Embrace"
+kislev_brutal_winter_1_desc:0 "The unforgiving winters of Kislev lend our lands a natural defense, causing attrition to any unprepared invader who dares to march on our homeland."
+
+kislev_brutal_winter_2:0 "Icebound Defense"
+kislev_brutal_winter_2_desc:0 "Kislev’s bitter winters inflict terrible attrition on invading armies, while our own forces endure the cold with resilience."
+
+kislev_place_of_study:0 "Academy of Winter Magic"
+kislev_place_of_study_desc:0 "In the heart of Kislev, scholars and ice witches gather to study the arcane lore of winter, advancing our understanding of magical institutions."
+
+kislev_holy_war_2:0 "Judgment of Ursun"
+kislev_holy_war_2_desc:0 "With righteous fervor, Kislev strikes out against the forces of Chaos, reducing their strength in battle as we bring them to account for their blasphemy."
+
+kislev_ultimate_reward:0 "Triumphant Winter"
+kislev_ultimate_reward_desc:0 "The forces of Chaos are vanquished, and Kislev stands as the unbroken bastion of humanity. Our lands now reflect the harsh and invincible spirit of the Kislevite people, resilient against any threat."
+

@@ -1,0 +1,98 @@
+
+### Araby
+
+
+
+kislev_hussars_1 = {
+	cavalry_power = 0.10
+	cavalry_cost = -0.10
+}
+
+
+kislev_hussars_2 = {
+	cav_to_inf_ratio = 0.20
+	cavalry_flanking = 0.20
+}
+
+
+kislev_hussars_3 = {
+	cavalry_power = 0.10
+	cavalry_cost = -0.10
+}
+
+
+kislev_cheap_forts = {
+	rival_border_fort_maintenance = -0.50
+	fort_maintenance_modifier = -0.10
+}
+
+kislev_wheatlands_taken = {
+	manpower_recovery_speed = 0.10
+}
+
+
+kislev_friends_with_heretics = {
+	tolerance_heretic = 1
+	reverse_relation_with_heretic_religion = 10
+	relation_with_heretics = 10
+}
+
+
+
+
+kislev_naval_enthusiasm = {
+	naval_morale = 0.05
+}
+
+
+
+kislev_missionaries_1 = {
+	global_missionary_strength = 0.01
+	missionaries = 1
+	missionary_maintenance_cost = -0.10
+	tolerance_heathen = -2
+}
+
+kislev_better_religious_unity = {
+	religious_unity = 0.25
+}
+
+kislev_holy_war = {
+	cb_on_religious_enemies = yes
+	global_missionary_strength = 0.01
+	missionaries = 1
+	missionary_maintenance_cost = -0.10
+	tolerance_heathen = -2
+}
+
+
+kislev_tolerance_own = {
+	tolerance_own = 1
+}
+
+kislev_brutal_winter_1 = {
+	hostile_attrition = 1
+	max_hostile_attrition = 1
+	local_hostile_movement_speed = 0.1
+}
+
+kislev_brutal_winter_2 = {
+	hostile_attrition = 1
+	max_hostile_attrition = 1
+	local_hostile_movement_speed = 0.1
+}
+
+kislev_holy_war_2 = {
+	warscore_cost_vs_other_religion = -0.20
+	global_missionary_strength = 0.01
+	missionaries = 1
+	missionary_maintenance_cost = -0.10
+	tolerance_heathen = -2
+}
+
+
+kislev_ultimate_reward = {
+	hostile_attrition = 10
+	max_hostile_attrition = 10
+	local_hostile_movement_speed = 0.3
+}

@@ -308,6 +308,7 @@ everchosen_reform = {
 		global_unrest = 10
 
 		may_establish_frontier = yes
+		global_colonial_growth = 1000
 		governing_capacity = 10000
 
 		can_recruit_cossacks = yes

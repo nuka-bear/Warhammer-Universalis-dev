@@ -480,7 +480,7 @@ estate_church_clerical_ministers = {
 				limit = {
 					has_dlc = "Third Rome"
 				}
-				NOT = { religion = orthodox }
+				NOT = { religion = ursun }
 			}
 			if = {
 				limit = {
@@ -563,7 +563,7 @@ estate_church_clerical_ministers = {
 	}
 	conditional_modifier = {
 		trigger = {
-			religion = orthodox
+			religion = ursun
 			NOT = { has_country_flag = BYZ_buff_clerical_ministers_for_byz }
 		}
 		modifier = {
@@ -572,7 +572,7 @@ estate_church_clerical_ministers = {
 	}
 	conditional_modifier = {
 		trigger = {
-			religion = orthodox
+			religion = ursun
 			has_country_flag = BYZ_buff_clerical_ministers_for_byz
 		}
 		modifier = {
@@ -581,7 +581,7 @@ estate_church_clerical_ministers = {
 	}
 	conditional_modifier = {
 		trigger = {
-			religion = orthodox
+			religion = ursun
 			has_global_flag = BYZ_buff_clerical_ministers_for_orthodox
 		}
 		modifier = {
@@ -633,7 +633,7 @@ estate_church_clerical_ministers = {
 		}
 		modifier = {
 			factor = 10
-			religion = orthodox
+			religion = ursun
 			has_dlc = "Third Rome"
 		}
 	}
@@ -2240,7 +2240,7 @@ estate_church_anti_heresy_act = {
 	}
 	can_select = {
 		religion_group = christian
-		NOT = { religion = orthodox }
+		NOT = { religion = ursun }
 		NOT = { religion = coptic }
 		any_owned_province = {
 			religion_group = ROOT
@@ -2899,7 +2899,7 @@ estate_church_donation_right = {
 # 	}
 # 	conditional_modifier = {
 # 		trigger = {
-# 			religion = orthodox
+# 			religion = ursun
 # 		}
 # 		modifier = {
 # 			tolerance_heretic = 1

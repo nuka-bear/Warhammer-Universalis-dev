@@ -1,0 +1,60 @@
+
+
+### Greenskin
+
+greenskin_claimant = {
+	diplomatic_reputation = 1
+	prestige_decay = -0.005
+	global_manpower_modifier = 0.10
+}
+
+greenskin_khan = {
+	diplomatic_reputation = 1
+	reverse_relation_with_same_religion = 25
+	land_morale = 0.10
+}
+
+greenskin_scourge = {
+	warscore_cost_vs_other_religion = -0.25
+}
+
+
+greenskin_great_generals = {
+	leader_land_fire = 1
+	leader_land_shock = 1
+	max_general_fire = 1
+	max_general_shock = 1
+}
+
+greenskin_calmed_down = {
+	stability_cost_to_declare_war = -1
+	global_unrest = -1
+}
+
+greenskin_rituals = {
+	fire_damage = 0.25
+}
+
+greenskin_tried_mork = {
+	monthly_piety_accelerator = 0.001
+	spy_offence = 0.05
+}
+
+greenskin_tried_gork = {
+	monthly_piety_accelerator = 0.001
+	infantry_power = 0.025
+}
+
+greenskin_ultimate = {
+	land_morale = 0.25
+	fire_damage = 0.25
+	global_manpower_modifier = 0.25
+}
+
+greenskin_mork_party = {
+	monthly_piety = 0.01
+}
+
+greenskin_gork_party = {
+	monthly_piety = -0.01
+}

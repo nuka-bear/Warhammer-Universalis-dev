@@ -4,6 +4,10 @@ JG To Do & Thoughts
 https://docs.google.com/spreadsheets/d/1UPAxq7n6jmW5FqCbGsSO4l8Txm98r0WMgeluOR-HlrM/edit?gid=0#gid=0
 
 
+#############################
+###### FINISHING UP ######
+#############################
+
 Everybody!
 	0-1x government types
 	1x Disaster
@@ -12,7 +16,7 @@ Everybody!
 	Adjust opening text for cultures and religions, with callouts for most important things
 	Make each mission tree a single icon of the culture or religion
 	Special Religious mechanic
-	Triggered modifier for losing a key cultural monument mark
+	Triggered modifier for losing a key cultural monument mark (Oak of Ages, Great Wall, etc...)
 	Split each major culture into 3-6 smaller cultures
 	Make people always able to see thier "make big country" decision
 
@@ -26,6 +30,16 @@ Broadly
 		Religious Advisor Icons
 			Do while watching something?
 
+#############################
+###### RANDOM THOUGHTS ######
+#############################
+
+A basic spell or two? Is mana = spell resource?
+	Undead Spend 100 mil mana to gain a 10,000 manpower?
+
+Should it be possible to change or have multiple racial administrations & militaries?
+	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)
+	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
 
 	Vision for some countries is still strange, particularly the border princes (look at Barak Varr). Make sure everybody sees entier region subcontinent they are in, and all adjacent regions
 
@@ -38,30 +52,33 @@ Burger Privelage if your capital is in a subterranean zone, then you get + in su
 	This could be + minimum autonomy for non preferred zone
 
 
-
-
-
 Dimmed Sunz starts with no army!
 
-Make events for dominions to declare on their leader
-
 Increase culture conversion cost & times, missionary cost, autonomy from wrong culture & religion?
-
 
 Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
 
 Add the warhammer legendary lords into the map
 
-Add legendary artifacts that are traits that move between people
+Add legendary weapon that are traits that move between people
 
-Kislev
+ADd 1 legendary artifact per culture group (like the phoenix crown)
 
-Norscans
+Give the hobgoblins fightiness?
 
-Chaos
+Make the fightiness AI choose nobody if everybody neighboring is at least 2x stronger than them. Should add a little fightiness
 
-Skaven
+Reduce Southern Old World Development - nobody cares about them!
 
+Dominion tweaks
+	Make event for dominions to declare on their leader
+	+5% more liberty desire
+	Demoting a dominion lowers all trust by 30
+
+
+#############################
+###### END TIMES ######
+#############################
 End Times
 	Where to find relevant stuff
 		defines.lau
@@ -69,7 +86,6 @@ End Times
 		common > Disasters > revolution
 		Events > center of revolution events
 		disasters > Revolution disaster
-
 
 		TLDR, it's a reskin of Revolutions but more powerful and tied to religion.
 			1) At the start of the End Times Age, a Ruinous Power (4 Chaos Gods, Hashut, Norsca) is chosen to the be Everchosen/Revolutionary Target. This is almost always the biggest chaos nation, meaning it will probably be either the Choas Dwarves or Norsca. We could force this to be one of the small chaos waste tribes instead if we wanted. The Center of Revolution spawns in their area, and they get the "Everchosen" Government Type.
@@ -80,8 +96,8 @@ End Times
 			6) Non end-times nations can embrace the counter "revolution" in the normal way.
 			7) Non-"revolutionary" nations get the "crush the revolution" cb. The "Dismantle the revolution" peace term removes all the revolution/choas corruption. On success, end times over!
 
-
 		Devastation just for being near him?
+
 		Some way of forcing him to wage war? Event to declare war on neighbors if not at war
 		When he takes a province that has 3 development, or a province is brought to 100% devastation, it becomes decolonized, He will probably immediately colonize it.
 		
@@ -104,23 +120,54 @@ End Times
 		Different disasters for non-ruinous who get corrupted and ruinous to get dominated
 		Disaster for everybody as long as center of revolution exists? Spawning revolutionary stacks? Or just some province events?
 
+		Change this all from Revolutions to Centers of Reformation & religion based? Probably, yes
+
+		Don't make large nations who get the disaster automatically become dominions, particularly if they are good or don't have the right religion.
 
 
-Wood Elves
-	Land movement between centers of each wood
-	Disaster or Triggered Modifier for Losing the Oak of Ages?
 
 
-Dark Elf
+#############################
+###### NATIONS ######
+#############################
+
+Kislev
+	Give religion a push pull between Ursun and the Ice Witches?
+	Disaster for resurgance of the old ways
+		Unrest and can't declare wars until it's sorted?
+	Fix Icons for the ursun religion
+	No way to gain Patriarch Authority right now
 
 
-High Elves
+Norscans
+	One branch Land, One branch Sea? One branch Raiding, one branch conquest?
+	Unite Norscans
+	Take Albion, Take other areas. Foothold then conquer entirely?
+	Big fleet, transports, speed
 
+Chaos Tribes
 
 Skaven
 	Skaven decision to cause devastation in neighboring provinces
 
-Lizards
+Empire
+
+Non-Empire Northern
+
+Vampires
+
+Wood Elves - 1st done
+	Land movement between centers of each wood
+
+
+Dark Elf - 1st done
+	Need a little more oomph here. Make the religion more interesting?
+
+High Elves - 1st done
+	Need a little more oomph here
+
+
+Lizards - 1st done
 	have a government mechanic which makes them stronger for each geomantic web city they control spread like 50 around the world.
 		Province Group?
 		Number of Superregions?
@@ -128,12 +175,12 @@ Lizards
 	Check how many temple cities there actually are for lizard final mission
 	Fix the Sequence of Localization
 
-Dwarves
+Dwarves - 1st done
 
-OGRE
+OGRE - 1st done
 	Ogre leadership crisis if ruler is missing mil or not at war
 
-Nehekhara
+Nehekhara - 1st done
 	+ Tax, - production
 	Custom Estates - Mortuary Cult
 	Upset Estates with a frozen privilage - "Fractured Society" or something like that that gives them -loyalty. And each monument gives an estate + loyalty
@@ -142,16 +189,16 @@ Nehekhara
 	Nagashi religion to ressurect Nagash
 	Mission for controlling and having forts on the passes? Maybe missions based on areas
 
-Orcs
+Orcs - 1st done
 	5 pulse events to move towards mork or gork
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold
 	End Time mechanics for Orcs?
 
-Cathay
+Cathay - 1st done
 	Disaster if Cathay provinces not owned by cathay dudes (or maybe just bastion?)
 
-Legitimate Successor government mechanic for Nehekhara & Cathay?
+Legitimate Successor government mechanic for Nehekhara & Cathay? - 1st done
 	Event at high legitimate successor to declare independence war? Maybe it's a defensive war to give them a chance?
 	Event for the overlord to reign them in (declar war), or suffer penalty to own legitimacy
 	Pretty slow moving
@@ -169,110 +216,4 @@ For some missions use:
 
 Common missions: https://eu4.paradoxwikis.com/List_of_common_mission_triggers
 
-### Dev in provinces
-			development_in_provinces = {
-				value = 135 
-				owned_by = ROOT 
-				trade_goods = silk 
-			}
 
-### Provinces to highlight
-		provinces_to_highlight = {
-			AND = {
-				owned_by = ROOT 
-				trade_goods = silk 
-			}
-		}
-
-		provinces_to_highlight = {
-			province_id = 310
-		}
-
-### Owned Provinces with
-			num_of_owned_provinces_with = {
-				fort_level = 2
-				value = 4
-			}
-
-
-			num_of_owned_provinces_with = {
-
-				OR = {
-				 	has_building = dock
-				 	has_building = drydock
-				}
-				value = 5
-			}
-
-
-
-
-##### Paused for now #####
-
-Give Sylvania "Blood Kiss" to convert other humans to vamprism
-
-A basic spell or two? Is mana = spell resource?
-	Undead Spend 100 mil mana to gain a 10,000 manpower?
-
-Should it be possible to change or have multiple racial administrations & militaries?
-	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)
-	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
-
-
-
-Tier 1 Groups
-
-The Empire of Man
-Faction: Reikland
-Why play: The Empire is one of the most recognizable and pivotal factions in the Warhammer world. Players would be drawn to the Reikland, the heart of the Empire, ruled by Emperor Karl Franz. Players could engage in internal politics, defend against Chaos, and pursue Imperial reforms, making it a dynamic experience with military, political, and religious challenges.
-Key Mechanics: Elector Counts, religious turmoil (Sigmarite vs. Ulrican), political reforms, and military innovations.
-
-Bretonnia
-Faction: Duchy of Couronne
-Why play: Bretonnia offers a feudal, chivalric fantasy with a stark contrast to the more centralized and advanced Empire. Playing as the Duchy of Couronne, ruled by King Louen Leoncoeur, players could lead knightly crusades, maintain strict social order, and manage complex vassal relations. They could also engage with the Lady of the Lake as a spiritual guide.
-Key Mechanics: Vassal management, chivalric code, peasant revolts, quests for the Grail.
-
-The High Elves (Ulthuan)
-Faction: Eataine (Kingdom of Lothern)
-Why play: The High Elves of Ulthuan offer players a unique naval, magical, and diplomatic powerhouse. Eataine, led by Finubar the Seafarer, provides mastery over trade and maritime influence. Defending Ulthuan from Chaos, Dark Elves, and other threats would appeal to players interested in a delicate balance of expansion and defense.
-Key Mechanics: Phoenix King election, magic, naval supremacy, intricate diplomacy, and influence over world trade. 
-The Dark Elves (Naggaroth)
-Faction: Naggarond
-Why play: The Dark Elves of Naggarond, ruled by Malekith, offer a chance to play as a brutal, expansionist faction focused on slavery, raiding, and cruelty. The harsh environments of Naggaroth and the eternal quest to reclaim Ulthuan would make this a faction for players who enjoy aggressive tactics and subjugating enemies.
-Key Mechanics: Raiding, slavery economy, Black Arks (floating fortresses), political intrigue (rivalries between noble houses), and expansion.
-
-The Vampire Counts (Sylvania)
-Faction: Von Carstein Dynasty
-Why play: The Vampire Counts provide a dark, undead-focused playstyle where raising legions of the dead and corrupting lands are central themes. Led by Mannfred von Carstein, the Counts offer players a chance to spread undeath across the Old World, subjugating human factions through fear and necromantic power.
-Key Mechanics: Undead armies, necromancy, corruption (spreading vampiric influence), and internal power struggles within the Von Carsteins.
-
-Chaos (Norsca)
-Faction: Warriors of Chaos
-Why play: The Warriors of Chaos, particularly under Archaon the Everchosen, provide a nomadic, war-driven playstyle focused on spreading chaos and destruction. Conquering the Old World, triggering the End Times, and growing ever stronger through dark pacts would appeal to players who enjoy relentless expansion.
-Key Mechanics: Chaos invasions, corruption, religious devotion to the Chaos Gods (Khorne, Nurgle, Tzeentch, and Slaanesh), and raiding human, dwarf, and elf lands.
-The Dwarfs (Karaz Ankor)
-Faction: Karaz-a-Karak
-Why play: The Dwarfs of Karaz-a-Karak, led by High King Thorgrim Grudgebearer, offer a slower, defensive playstyle that emphasizes technological superiority, strong fortresses, and unyielding resistance. Dwarfs provide rich mechanics around grudges and ancient alliances, and players would work to reclaim lost holds from Orcs, Skaven, and Chaos.
-Key Mechanics: Grudges, technology (runecraft and engineering), defense of holds, and economy based on mining and industry.
-
-Skaven (Under-Empire)
-Faction: Clan Skryre
-Why play: The Skaven are a unique faction that specializes in subterfuge, massive armies, and bizarre technologies. Clan Skryre would appeal to players who enjoy unpredictability, as the clan focuses on warpstone-based weaponry and machines of war. Spreading the Under-Empire across the world and causing mayhem would be core themes.
-Key Mechanics: Warpstone resources, ambush tactics, corruption, massive armies, and risky technology development.
-
-Lizardmen (Lustria)
-Faction: Hexoatl
-Why play: The Lizardmen of Hexoatl, ruled by the powerful mage-priest Lord Mazdamundi, offer a faction with a focus on defending the natural world and enacting the will of the Old Ones. Players would balance exploration of ancient ruins, magical dominance, and the defense of their jungle homeland from Chaos, Skaven, and others.
-Key Mechanics: Magic, beast mastery, geomantic web (ancient energy network), and war against corrupting forces.
-
-Orcs & Goblins (Greenskins)
-Faction: Grimgor’s 'Ardboyz
-Why play: The Greenskins, under the leadership of Grimgor Ironhide, offer a fast-paced, aggressive playstyle focused on constant warfare and expansion. Players would enjoy leading devastating Waaagh! campaigns across the Old World, conquering and pillaging. Internal strife and a focus on orcish culture would add layers of challenge.
-Key Mechanics: Waaagh! system, tribal infighting, hordes of goblins and orcs, and the looting economy.
-
-Tomb Kings (Nehekhara)
-Faction: Khemri
-Why play: The Tomb Kings represent ancient Nehekhara, with a unique undead flavor, but focusing more on honor, kingdom-building, and the restoration of a fallen empire. Khemri, ruled by Settra the Imperishable, offers a different undead playstyle compared to the Vampire Counts, where territorial control and military might are prioritized over corruption.
-Key Mechanics: Constructing colossal monuments, undead legions, limited unit recruitment tied to ancient rituals, and reclamation of lost lands.
-
-Kislev!
