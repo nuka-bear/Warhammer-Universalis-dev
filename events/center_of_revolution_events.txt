@@ -235,26 +235,24 @@ province_event = {
 			}
 			save_global_event_target_as = revolution_center
 			save_global_event_target_as = first_revolution_center
+
+			if = {
+				limit = { revolution_target_exists = no }
+				owner = { set_revolution_target = THIS }
+			}
+
+			owner = {
+				change_government = monarchy
+				add_government_reform = everchosen_reform
+				change_adm = 6
+				change_dip = 6
+				change_mil = 6
+				clear_scipted_personalities = yes
+				add_ruler_personality = immortal_personality
+				add_ruler_personality = everchosen_personality
+
+			}
 		}
-
-	if = {
-		limit = { revolution_target_exists = no }
-		owner = { set_revolution_target = THIS }
-	}
-
-	owner = {
-		change_government = monarchy
-		add_government_reform = everchosen_reform
-		change_adm = 6
-		change_dip = 6
-		change_mil = 6
-		clear_scipted_personalities = yes
-		add_ruler_personality = immortal_personality
-		add_ruler_personality = everchosen_personality
-
-	}
-
-
 	}
 
 	option = {

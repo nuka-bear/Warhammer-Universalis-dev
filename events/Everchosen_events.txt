@@ -20,7 +20,7 @@ country_event = {
 		NOT = { is_at_war = yes }
 	}
 
-	mean_time_to_happen = { months = 12 }
+	mean_time_to_happen = { months = 6 }
 	
 
 	# Declare War on Somebody
@@ -200,29 +200,35 @@ country_event = {
 }
 
 
+
+
+### Everchosen Events
+
+namespace = event_end_times
+
 ### Ruin the world
 
 country_event = {
-	id = event_everchosen.2
-	title = event_everchosen.2.t
-	desc = event_everchosen.2.d
+	id = event_end_times.1
+	title = event_end_times.1.t
+	desc = event_end_times.1.d
 	picture = ARTWORK_eventPicture
 	
 	
 	is_triggered_only = no
 	
 	trigger = {
-		has_reform = everchosen_reform
+		is_revolutionary = yes
 	}
 
 	mean_time_to_happen = { months = 12 }
 	
 ### Ruin
 	option = {
-		name = event_everchosen.2.option_1
+		name = event_end_times.1.option_1
 		ai_chance = { factor = 10 }
 
-		custom_tooltip = "event_everchosen.2.option_1.tt"
+		custom_tooltip = "event_end_times.1.option_1.tt"
 
 		hidden_effect = {
 
@@ -233,7 +239,7 @@ country_event = {
 						base_tax = 2
 					}
 					add_base_tax = -1
-					controller = { add_treasury = 25 }
+					controller = { add_treasury = 50 }
 							
 				}
 
@@ -242,7 +248,7 @@ country_event = {
 						base_production = 2
 					}
 					add_base_production = -1
-					controller = { add_treasury = 25 }
+					controller = { add_treasury = 50 }
 
 				} 
 
@@ -260,7 +266,7 @@ country_event = {
 
 ### Better Not
 	option = {
-		name = event_everchosen.2.option_2
+		name = event_end_times.1.option_2
 		ai_chance = { factor = 1 }
 		random_owned_province = {
 			spawn_rebels = {
@@ -276,5 +282,45 @@ country_event = {
 		}
 
 
+	}
+}
+
+
+
+### Chaos Gate Anywhere is bad
+country_event = {
+	id = event_end_times.2
+	title = event_end_times.2.t
+	desc = event_end_times.2.d
+	picture = ARTWORK_eventPicture
+	
+	
+	is_triggered_only = no
+	
+	trigger = {
+		is_revolutionary = no
+		revolution_target_exists = yes
+	}
+
+	mean_time_to_happen = { months = 24 }
+	
+### Kill them
+	option = {
+		name = event_end_times.2.option_1
+		ai_chance = { factor = 5 }
+		random_owned_province = {
+			spawn_rebels = {
+				size = 2
+				type = revolutionary_rebels
+			}
+		}
+
+	}
+
+### Better Not
+	option = {
+		name = event_end_times.2.option_2
+		ai_chance = { factor = 10 }
+		add_stability = -1
 	}
 }

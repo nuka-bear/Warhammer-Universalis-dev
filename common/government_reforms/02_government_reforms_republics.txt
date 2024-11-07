@@ -571,7 +571,7 @@ military_dictatorship_reform = {
 revolutionary_republic_reform = {
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
-	icon = "revolutionary_republic"
+	icon = "rioting_burning_2"
 	potential = {
 		has_reform = revolutionary_republic_reform
 	}

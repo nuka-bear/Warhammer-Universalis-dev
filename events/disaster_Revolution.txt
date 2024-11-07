@@ -231,11 +231,15 @@ country_event = {
 
 		grant_independence = yes
 
+		end_disaster = revolution
+
 		revolution_target = {
 			create_subject = {
 				subject = ROOT
 				subject_type = dominion
 			}
+			ROOT = { change_religion = prev }
+
 		}
 
 

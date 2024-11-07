@@ -294,6 +294,9 @@ alert_can_claim_revolution_instant:0 "§YWe can claim the title of Everchosen§!
 alert_can_claim_revolution_delayed:0 "Chaos is weak. It is time to take the mantle of Everchosen and lead Chaos to victory!"
 
 
+revolutionary_republic_reform:0 "End Times State"
+revolutionary_republic_reform_desc:0 ""
+
 
 
  ##### Everchosen Stuff
@@ -317,11 +320,17 @@ alert_can_claim_revolution_delayed:0 "Chaos is weak. It is time to take the mant
  event_everchosen.1.option_5:0 "The people may not like it, but we need a break."
 
 
- event_everchosen.2.t:0 "Despoil our Lands"
- event_everchosen.2.d:0 "The Chaos Gods question our loyalty. If we are to bring about the End Times, why are our lands so verdant? They demand we sack and pillage our cities, and lay our own people to the sword."
- event_everchosen.2.option_1:0 "Splendid idea!"
- event_everchosen.2.option_2:0 "Now hold on one second ..."
- event_everchosen.2.option_1.tt:0 "Reduce your provinces development by one. Gain 25 ducats for each tax and production raized, and 500 manpower for each 1 manpower raized."
+ event_end_times.1.t:0 "Despoil our Lands"
+ event_end_times.1.d:0 "The Chaos Gods question our loyalty. If we are to bring about the End Times, why are our lands so verdant? They demand we sack and pillage our cities, and lay our own people to the sword."
+ event_end_times.1.option_1:0 "Splendid idea!"
+ event_end_times.1.option_2:0 "Now hold on one second ..."
+ event_end_times.1.option_1.tt:0 "Reduce your provinces development by one. Gain 50 ducats for each tax or production raized, and 1000 manpower for each 1 manpower raized."
+
+
+ event_end_times.2.t:0 "The Everchosen Roams"
+ event_end_times.2.d:0 "There is an open gate to in our world. As long as there is an Everchosen, Chaos corrupts our land. Corrupted individuals roam our streets. Do we round them up and put them down? Or attempt to integrate them peacefully?"
+ event_end_times.2.option_1:0 "Kill Them!"
+ event_end_times.2.option_2:0 "Maybe we can pacify them, for now"
 
 
   everchosen_personality:0 "Everchosen"
