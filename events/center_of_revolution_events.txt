@@ -28,10 +28,18 @@ province_event = {
 		owner = { religion_group = ruinous_powers_denominations }
 
 		NOT = { has_province_modifier = religious_center }
+
+		NOT = { owner = ( is_subject = yes } }
 	}
 
 	mean_time_to_happen = {
 		years = 1000
+
+### Increases the chance if it's a player
+		modifier = {
+			factor = 0.25
+			owner = { was_player = yes }
+		}
 
 
 ### Capital
@@ -46,11 +54,10 @@ province_event = {
 		}
 
 ### Bigger than all other ruininous powers. Either all other countries aren't ruinous powers, or they don't have a greater development than you.
-### This one makes all the others redundant.
 
 
 		modifier = {
-			factor = 0.01
+			factor = 0.75
 			owner = { 
 				all_country = {
 					OR = {
@@ -102,77 +109,77 @@ province_event = {
 ### Development
 		modifier = {
 			factor = 0.90
+			owner = { total_development = 50 }
+		}
+
+		modifier = {
+			factor = 0.90
 			owner = { total_development = 100 }
 		}
 
 		modifier = {
 			factor = 0.90
+			owner = { total_development = 150 }
+		}
+
+		modifier = {
+			factor = 0.8
 			owner = { total_development = 200 }
 		}
 
 		modifier = {
-			factor = 0.90
+			factor = 0.8
+			owner = { total_development = 250 }
+		}
+
+		modifier = {
+			factor = 0.8
 			owner = { total_development = 300 }
 		}
 
 		modifier = {
 			factor = 0.8
+			owner = { total_development = 350 }
+		}
+
+		modifier = {
+			factor = 0.7
 			owner = { total_development = 400 }
 		}
 
 		modifier = {
-			factor = 0.8
+			factor = 0.7
+			owner = { total_development = 450 }
+		}
+
+		modifier = {
+			factor = 0.7
 			owner = { total_development = 500 }
 		}
 
 		modifier = {
-			factor = 0.8
+			factor = 0.7
+			owner = { total_development = 550 }
+		}
+
+		modifier = {
+			factor = 0.6
 			owner = { total_development = 600 }
 		}
 
 		modifier = {
-			factor = 0.8
+			factor = 0.6
+			owner = { total_development = 650 }
+		}
+
+		modifier = {
+			factor = 0.6
 			owner = { total_development = 700 }
 		}
 
 		modifier = {
-			factor = 0.7
-			owner = { total_development = 800 }
-		}
-
-		modifier = {
-			factor = 0.7
-			owner = { total_development = 900 }
-		}
-
-		modifier = {
-			factor = 0.7
-			owner = { total_development = 1000 }
-		}
-
-		modifier = {
-			factor = 0.7
-			owner = { total_development = 1100 }
-		}
-
-		modifier = {
 			factor = 0.6
-			owner = { total_development = 1200 }
-		}
-
-		modifier = {
-			factor = 0.6
-			owner = { total_development = 1300 }
-		}
-
-		modifier = {
-			factor = 0.6
-			owner = { total_development = 1400 }
-		}
-
-		modifier = {
-			factor = 0.6
-			owner = { total_development = 1500 }
+			owner = { total_development = 750 }
 		}
 
 
@@ -233,6 +240,18 @@ province_event = {
 	if = {
 		limit = { revolution_target_exists = no }
 		owner = { set_revolution_target = THIS }
+	}
+
+	owner = {
+		change_government = monarchy
+		add_government_reform = everchosen_reform
+		change_adm = 6
+		change_dip = 6
+		change_mil = 6
+		clear_scipted_personalities = yes
+		add_ruler_personality = immortal_personality
+		add_ruler_personality = everchosen_personality
+
 	}
 
 
@@ -1176,7 +1195,7 @@ country_event = {
 
 
 ###Flavour Events relating to spread of Revolution
-
+å
 # A Philosopher publishes a work
 country_event = {
 	id = center_of_revolution.1

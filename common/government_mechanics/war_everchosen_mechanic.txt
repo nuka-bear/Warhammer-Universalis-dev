@@ -1,0 +1,53 @@
+everchosen_mechanic = {
+
+	powers = {
+		everchosen_favor = {
+			default = 100
+			max = 100	#Chaos Direction
+			min = 0
+			base_monthly_growth = -0.1
+			scaled_modifier = {
+
+				modifier = {
+
+					### Expansion
+					province_warscore_cost = -2.00
+					war_exhaustion = -10.0
+					religious_unity = 0.5
+					administrative_efficiency = 1.0
+					all_power_cost = -0.50
+					global_tax_income = 240
+
+					## Army
+					global_manpower = 200
+					land_forcelimit = 200
+					manpower_recovery_speed = 1.0
+					land_maintenance_modifier = -0.75
+					discipline = 0.10
+
+					### Revolutionary Zeal
+					yearly_revolutionary_zeal = 10.00
+					max_revolutionary_zeal= 50
+				}
+			}
+
+#			on_max_reached = {
+#				if = {
+#					limit = {
+#						NOT = { has_country_flag = had_fifth_monarchists_end_event }
+#					}
+#					custom_tooltip = end_time_mechanic_end_tt
+#					hidden_effect = {
+#						if = {
+#							limit = {
+#								NOT = { num_of_cities = 1000 }
+#							}
+#							set_country_flag = fifth_monarchists_have_failed
+#						}
+#					}
+#				}
+#			}
+
+		}
+	}
+}

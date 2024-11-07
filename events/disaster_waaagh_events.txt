@@ -31,8 +31,16 @@ country_event = {
 
 	option = {
 		name = event_no_waaagh.1.option_1
-		ai_chance = { factor = 100 }
-		add_yearly_manpower = 0.5	
+		ai_chance = { factor = 10 }
+		trigger = {
+			any_neighbor_country = {
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+			}
+		}
+		add_yearly_manpower = 0.5
 		random_neighbor_country = {
 			LIMIT = {
 				NOT = { is_subject_of = root }
@@ -50,12 +58,138 @@ country_event = {
 		}
 	}
 
+	option = {
+		name = event_no_waaagh.1.option_2
+		ai_chance = { factor = 100 }
+
+		trigger = {
+			any_neighbor_country = {
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+				ROOT = {
+					army_strength = {
+						who = prev
+						value = 1.25
+					}
+				}
+			}
+		}
+		add_yearly_manpower = 0.5
+		random_neighbor_country = {
+			LIMIT = {
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+				ROOT = {
+					army_strength = {
+						who = prev
+						value = 1.25
+					}
+				}
+			}
+			ROOT = {
+				declare_war_with_cb = {
+		  			who = PREV
+		    		casus_belli = cb_annex
+				}
+			}
+		}
+	}
+
+	option = {
+		name = event_no_waaagh.1.option_3
+		ai_chance = { factor = 1000 }
+
+		trigger = {
+			any_neighbor_country = {
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+				ROOT = {
+					army_strength = {
+						who = prev
+						value = 2.00
+					}
+				}
+			}
+		}
+		add_yearly_manpower = 0.5
+		random_neighbor_country = {
+			LIMIT = {
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+				ROOT = {
+					army_strength = {
+						who = prev
+						value = 2.00
+					}
+				}
+			}
+
+			ROOT = {
+				declare_war_with_cb = {
+		  			who = PREV
+		    		casus_belli = cb_annex
+				}
+			}
+		}
+	}
+
+
+	option = {
+		name = event_no_waaagh.1.option_4
+		ai_chance = { factor = 10000 }
+		trigger = {
+			any_neighbor_country = {
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+				ROOT = {
+					army_strength = {
+						who = prev
+						value = 4.00
+					}
+				}
+			}
+		}
+		add_yearly_manpower = 0.5
+
+		random_neighbor_country = {
+			LIMIT = {
+				NOT = { is_subject_of = root }
+				NOT = { overlord_of = root }
+				NOT = { alliance_with = root }
+				NOT = { ROOT = { truce_with = prev } }
+				ROOT = {
+					army_strength = {
+						who = prev
+						value = 4.00
+					}
+				}
+			}
+
+			ROOT = {
+				declare_war_with_cb = {
+		  			who = PREV
+		    		casus_belli = cb_annex
+				}
+			}
+		}
+	}
+
 
 	# Rebels instead
 
 	option = {
-		name = event_no_waaagh.1.option_2
-		ai_chance = { factor = 10 }
+		name = event_no_waaagh.1.option_5
+		ai_chance = { factor = 1 }
 		random_owned_province = {
 			spawn_rebels = {
 				size = 1

@@ -70,24 +70,21 @@ End Times
 		Events > center of revolution events
 		disasters > Revolution disaster
 
+
+		TLDR, it's a reskin of Revolutions but more powerful and tied to religion.
 			1) At the start of the End Times Age, a Ruinous Power (4 Chaos Gods, Hashut, Norsca) is chosen to the be Everchosen/Revolutionary Target. This is almost always the biggest chaos nation, meaning it will probably be either the Choas Dwarves or Norsca. We could force this to be one of the small chaos waste tribes instead if we wanted. The Center of Revolution spawns in their area, and they get the "Everchosen" Government Type.
 			2) The Everchosen Government type provides huge bonuses to military and conquest that diminish over 100 years (colonists, manpower, admin eff, power cost reduction). Possibly this is based on the 5th monarchists, and they can explode if criteria are not met.
 			3) The Everchosen spreads the revolution through conquest and the Center of Revolution.
-			4) Countries get disaster ticks if they are a ruinous powe religion, or if they have a revolution in their provinces. If the disaster fires, it's similar to the revolution disaster: rebels and possibility to switch to the "Chaos Nation" government type. If you are adjacent to the Everchosen, you can also choose to avoid the disaster and just become a Chaos Nation and become a dominion of the Everchosen.
+			4) Countries get disaster ticks if they are a ruinous powe religion, or if they have a revolution in their provinces. If the disaster fires, it's similar to the revolution disaster: rebels and possibility to switch to the "End Times Bringer" government type. If you are adjacent to the Everchosen, you can also choose to avoid the disaster and just become a Chaos Nation and become a dominion of the Everchosen and take their religion. All provinces with revolution flip as well?
+			5) Another revolutionary nation could technically claim the title of Everchosen and take the Revolutionary Target. The only way this is likely to happen is if a major power flips.
+			6) Non end-times nations can embrace the counter "revolution" in the normal way.
+			7) Non-"revolutionary" nations get the "crush the revolution" cb. The "Dismantle the revolution" peace term removes all the revolution/choas corruption. On success, end times over!
 
 
-
-		Need to adjust the revolution disaster
-	Disaster in end times age that starts for all relevant factions - ticks up from development, army, maybe some monuments. Has grown by.
-		Nah use center of revolution
-	The first person who gets it becomes the end times bringer, ending the disaster for everyone (and triggering an event for everyone)
-	Endtimes bringer gets
-
-		+500 devastation creation? Devastation just for being near him?
-		Some way of forcing him to wage war?
+		Devastation just for being near him?
+		Some way of forcing him to wage war? Event to declare war on neighbors if not at war
 		When he takes a province that has 3 development, or a province is brought to 100% devastation, it becomes decolonized, He will probably immediately colonize it.
-		Gains favors and trust with all other of that religion and tech group, eventually bringing them into dominion
-		Event to declare war on neighbors if not at war
+		
 		Bonuses on 5th monarchist thing, but highest bonuses at the start, gettting weaker.
 
 		Event to make revolutionary places dominions of revolutionary target - Or this is the revolutionary disaster?
@@ -96,15 +93,16 @@ End Times
 
 		Non-ruinouspowers should convert to Chaos Undivided
 
-		Revolution Target gets special government type which gives it all the perks slowly decreasing over 50 years. Government mechanic
-
-		Adjust revolutionary disaster to be either you are a ruinous dude, or you have big problems
-
-		Making the dominions messes with the framerate - Don't do this!
-
 		Crush the revolution cb?
 
+		When an end times nation takes a province in war, it always goes down to 1/1/1? Or ruin the world decision to strip your own provinces and get immediate boosts every year?
 
+		Late game lag - maybe the troops are better instead of there being more of them? Or will the diminshing bonuses help with this?
+
+		Need to figure out Nagash - Maybe 4 additional missions for all vampiric nations to ressurect Nagash?
+
+		Different disasters for non-ruinous who get corrupted and ruinous to get dominated
+		Disaster for everybody as long as center of revolution exists? Spawning revolutionary stacks? Or just some province events?
 
 
 
@@ -149,10 +147,6 @@ Orcs
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold
 	End Time mechanics for Orcs?
-	Waagh event improvements
-		Choose between three different neighbors, or nobody
-		Use Army Strength for choosing favorit
-
 
 Cathay
 	Disaster if Cathay provinces not owned by cathay dudes (or maybe just bastion?)

@@ -92,6 +92,7 @@ monarchy = {
 				pronoiar_monarchy_reform				#custom nation
 				#Egypt 
 				egyptian_government_reform
+
 				#warhammer
 				luccini_monarchy_states_general
 				luccini_monarchy_reformed
@@ -104,6 +105,7 @@ monarchy = {
 				athel_loren_monarchy
 				united_bretonnia_reform
 				cathay_splinter_state
+				everchosen_reform
 			}
 		}
 		hereditary_vs_nobility = {

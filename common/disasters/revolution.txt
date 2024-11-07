@@ -1,3 +1,6 @@
+
+### Used for people who aren't
+
 revolution = {
 	ended_by_country_breaking_to_rebels = no
 	potential = {
@@ -7,14 +10,7 @@ revolution = {
 		NOT = {
 			has_country_flag = had_revolution
 		}
-		NOT = {
-			tag = PAP
-		}
-		NOT = {
-			is_emperor_of_china = yes
-		}
-		is_free_or_tributary_trigger = yes
-		uses_doom = no
+
 
 #### Makes this available in the end times.
 		OR = {
@@ -28,12 +24,9 @@ revolution = {
 
 	can_start = {
 
-
-		NOT = { stability = 3 }
-
 		OR = {
 			any_owned_province = { has_revolution_in_province = yes }
-			religion_group = ruinous_powers_denominations
+			any_owned_province = { religion_group = ruinous_powers_denominations }
 			AND = {
 				has_spawned_rebels = revolutionary_rebels
 				num_of_rebel_controlled_provinces = 6
@@ -45,22 +38,21 @@ revolution = {
 			current_age = age_of_revolutions
 			current_age = age_of_absolutism
 		}
-		has_any_disaster = no
+
 	}
 	can_stop = {
-		OR = {
-			has_any_disaster = yes
-			stability = 3
-		}
+		stability = 1
+		NOT = { any_owned_province = { has_revolution_in_province = yes } }
+		NOT = { any_owned_province = { religion_group = ruinous_powers_denominations } }
 	}
 	progress = {
 		modifier = {
-			factor = -0.2
+			factor = -0.1
 			stability = 3
 		}
 
 		modifier = {
-			factor = -0.2
+			factor = -0.1
 			stability = 2
 		}
 		modifier = {
@@ -72,29 +64,24 @@ revolution = {
 			religion_group = ruinous_powers_denominations
 		}
 		modifier = {
+			factor = 0.25
+			any_owned_province = { religion_group = ruinous_powers_denominations }
+		}
+		modifier = {
+			factor = 0.25
+			any_owned_province = { has_revolution_in_province = yes }
+		}
+		modifier = {
+			factor = 0.25
+			revolution_spread = 0.1
+		}
+		modifier = {
 			factor = 0.5
 			revolution_spread = 0.5
-			NOT = {
-				revolution_spread = 0.65
-			}
 		}
 		modifier = {
-			factor = 0.75
-			revolution_spread = 0.65
-			NOT = {
-				revolution_spread = 0.8
-			}
-		}
-		modifier = {
-			factor = 1
-			revolution_spread = 0.8
-		}
-
-		modifier = {
-			factor = 3
-			capital_scope = {
-				controlled_by = REB
-			}
+			factor = 0.5
+			revolution_spread = 0.9
 		}
 		modifier = {
 			factor = 1

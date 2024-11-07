@@ -3795,3 +3795,19 @@ slann_personality = {
 
 }
 
+everchosen_personality = {
+	
+	allow = { always = no }
+	all_power_cost = -0.1
+	nation_designer_cost = 100
+	
+	easy_war_chance_multiplier = 5
+	war_chance_multiplier = 2.5
+	gift_chance = -50
+	wants_land = yes
+	random_insults = yes
+	
+	chance = {	
+	}
+}
+

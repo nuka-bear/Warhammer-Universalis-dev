@@ -80,11 +80,11 @@ gen_lizard_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_lizard_skinks }
 		trigger = {
-			years_of_income = 3.0
+			treasury = 1000
 		}
 		effect = {
 
-			add_years_of_income = -3.0
+			add_treasury = -1000
 
 			add_estate_loyalty = {
  				estate = estate_nobles

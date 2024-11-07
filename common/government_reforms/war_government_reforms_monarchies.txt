@@ -271,3 +271,60 @@ cathay_splinter_state = {
 	}
 }
 
+
+#### End Times
+
+
+everchosen_reform = {
+	lock_level_when_selected = yes
+	icon = "rioting_burning_2"
+	allow_normal_conversion = no
+	potential = {
+		has_reform = everchosen_reform
+	}
+	legacy_equivalent = revolutionary_empire
+	valid_for_new_country = no
+	uses_revolutionary_zeal = yes
+	revolutionary = yes
+	is_eligible_for_hre_emperor = no
+	fixed_rank = 3
+	modifiers = {
+
+		tolerance_heathen = -10
+		global_unrest = 10
+
+		may_establish_frontier = yes
+		governing_capacity = 10000
+
+		can_recruit_cossacks = yes
+		allowed_cossack_fraction = 0.1
+
+		ae_impact = 2.0
+
+		## Diplomatic
+		reverse_relation_with_same_religion = 150
+		reverse_relation_with_heretic_religion = 75
+		reverse_relation_with_heathen_religion = -200
+		diplomats = 2
+		diplomatic_upkeep = 10
+		cb_on_religious_enemies = yes
+
+		easy_war_chance_multiplier = 3
+		war_chance_multiplier = 2.5
+		wants_land = yes
+
+	}
+	
+	government_abilities = {
+		everchosen_mechanic
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+		has_upgraded_holy_wars = yes
+	}
+
+}
+
+
+

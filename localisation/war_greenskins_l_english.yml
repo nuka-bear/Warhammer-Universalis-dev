@@ -134,7 +134,10 @@ desc_greenskin_gork_party:0 "Da ladz iz bashin’ an’ krumpin’, doin’ Gork
 event_no_waaagh.1.t:0 "Da Boyz Gettin' Krumpy"
 event_no_waaagh.1.d:0 "Da boyz is restless, got no enemy ta smash! No WAAAGH ta keep ‘em busy, so dey's bout ta start scrappin' wif each udda!"
 event_no_waaagh.1.option_1:0 "Find sumfink ta fight!"
-event_no_waaagh.1.option_2:0 "Let 'em bash each uddah"
+event_no_waaagh.1.option_2:0 "Fight dez guys!"
+event_no_waaagh.1.option_3:0 "Or dez guys?"
+event_no_waaagh.1.option_4:0 "Dez guys look easy!"
+event_no_waaagh.1.option_5:0 "Let 'em bash each uddah"
 
 # Event event_no_waaagh.2
 event_no_waaagh.2.t:0 "Let da WAAAGH Begin!"
