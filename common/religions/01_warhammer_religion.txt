@@ -444,6 +444,18 @@ ruinous_powers_denominations = {
 			skulls_for_the_skull_throne_aspect
 			blade_of_khorne_aspect
 		}
+		allowed_conversion = {
+			slaaneshi_religion
+			nurglite_religion
+			tzeentchian_religion
+			chaos_undivided_religion
+		}
+		on_convert = {
+			change_religion = khornate_religion
+			add_prestige = -50
+			add_stability = -2
+			add_yearly_manpower = -1.0
+		}	
 		aspects_name = ANGLICAN_ASPECTS
 	}
 	########################################################################################################################
@@ -463,6 +475,18 @@ ruinous_powers_denominations = {
 		country_as_secondary = {
 			land_attrition = -0.1
 		}
+		allowed_conversion = {
+			slaaneshi_religion
+			khornate_religion
+			tzeentchian_religion
+			chaos_undivided_religion
+		}
+		on_convert = {
+			change_religion = nurglite_religion
+			add_prestige = -50
+			add_stability = -2
+			add_yearly_manpower = -1.0
+		}	
 		heretic = {
 			CHAOS_HERETIC
 		}
@@ -481,6 +505,18 @@ ruinous_powers_denominations = {
 		}
 		country_as_secondary = {
 		}
+		allowed_conversion = {
+			slaaneshi_religion
+			nurglite_religion
+			khornate_religion
+			chaos_undivided_religion
+		}
+		on_convert = {
+			change_religion = tzeentchian_religion
+			add_prestige = -50
+			add_stability = -2
+			add_yearly_manpower = -1.0
+		}	
 		heretic = {
 			CHAOS_HERETIC
 		}
@@ -506,6 +542,19 @@ ruinous_powers_denominations = {
 			cavalry_power = 0.15
 			movement_speed = 0.1
 		}
+		on_convert = {
+			change_religion = slaaneshi_religion
+			add_prestige = -50
+			add_stability = -2
+			add_yearly_manpower = -1.0
+		}
+		allowed_conversion = {
+			nurglite_religion
+			khornate_religion
+			tzeentchian_religion
+			chaos_undivided_religion
+		}
+
 		heretic = {
 			CHAOS_HERETIC
 		}
@@ -561,6 +610,13 @@ ruinous_powers_denominations = {
 			MALAL
 			BELAKOR
 		}
+		on_convert = {
+			change_religion = chaos_undivided_religion
+			add_prestige = -50
+			add_stability = -2
+			add_yearly_manpower = -1.0
+		}
+
 		allowed_conversion = {
 			slaaneshi_religion
 			nurglite_religion

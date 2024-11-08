@@ -3,6 +3,6 @@ add_government_reform = hordes_of_chaos
 government_rank = 1
 primary_culture = kul
 religion = chaos_undivided_religion
-technology_group = north_american
+technology_group = tech_chaos_warrior
 capital = 4926
 setup_vision = yes

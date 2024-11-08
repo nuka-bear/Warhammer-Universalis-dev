@@ -140,24 +140,21 @@ Kislev
 
 
 Norscans
-	One branch Land, One branch Sea? One branch Raiding, one branch conquest?
-	Unite Norscans
-	Take Albion, Take other areas. Foothold then conquer entirely?
-	Big fleet, transports, speed
+	Add monuments
+	Change Ultimate
 
 Chaos Tribes
+	Government Type should allow estates? Make sure everybody up there is the right gov type and tech group
 
 Skaven
 	Skaven decision to cause devastation in neighboring provinces
 
 Empire
 
-Non-Empire Northern
-
 Vampires
 
 Wood Elves - 1st done
-	Land movement between centers of each wood
+	Land movement between centers of each wood - Just if it's owned by wood elves?
 
 
 Dark Elf - 1st done

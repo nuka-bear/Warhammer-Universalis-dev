@@ -1,0 +1,139 @@
+﻿l_english:
+
+##################################
+##### CHAOS MODIFIERS
+##################################
+
+chaos_happy_nobles:0 "Loyalty of Dark Nobility"
+chaos_happy_nobles_desc:0 "The noble lords, whose loyalty has been secured through both terror and promises of power, strengthen our grip on the land. They will eagerly lend their resources to the Ruinous Powers' dark ambitions."
+
+chaos_corruption_spreads:0 "Spread of Corruption"
+chaos_corruption_spreads_desc:0 "The taint of Chaos permeates all it touches, twisting minds and souls. Our emissaries will bring corruption to every corner of the world, dismantling the old orders and paving the way for the dominance of Chaos."
+
+chaos_missionary_strength:0 "Strength of the Faithless "
+chaos_missionary_strength_desc:0 "Driven by the whispers of the Dark Gods, our missionaries are relentless in their work, sparing no effort in spreading the gospel of Chaos."
+
+chaos_tried_nurgle:0 "Touch of Nurgle's Blessing"
+chaos_tried_nurgle_desc:0 "Those who dabble in Nurgle's gifts find their bodies hardened, embracing the decay and resilience that comes with his blessings."
+
+chaos_tried_slaanesh:0 "Gift of Slaanesh’s Rejuvenation"
+chaos_tried_slaanesh_desc:0 "The Prince of Pleasure invigorates his followers, granting a revitalizing energy that quickens the return of strength to those who fall in his name."
+
+chaos_tried_tzeentch:0 "Insight of Tzeentch"
+chaos_tried_tzeentch_desc:0 "The Lord of Change shares fragments of his vast wisdom, making the impossible seem achievable to those touched by his favor."
+
+chaos_tried_khorne:0 "Endurance of Khorne's Fury"
+chaos_tried_khorne_desc:0 "Khorne’s favor strengthens the spirit, preserving the battle-scarred glory of those who dedicate themselves to endless conflict in his name."
+
+chaos_tried_undivided:0 "Tolerance of the Damned"
+chaos_tried_undivided_desc:0 "The Chaos Undivided imbues its followers with an unwavering acceptance of all who worship the Ruinous Powers, embracing them as allies in the endless war."
+
+chaos_holy_war:0 "Righteous Crusade of Chaos"
+chaos_holy_war_desc:0 "The Dark Gods’ call for conquest spurs us into holy war. The unbelievers will be shown no mercy as we descend upon them, heralding the end of their faiths."
+
+
+##################################
+##### CHAOS CULTURE MISSIONS
+##################################
+
+gen_chaos_defeated_nurgle_title:0 "Trial of Pestilence"
+gen_chaos_defeated_nurgle_desc:0 "The Lord of Decay challenges the worthy to endure his gifts of disease and corruption. By scattering the forces of Nurgle and overcoming the fetid rot of his pestilence, we prove our strength over decay itself, showing that we are fit to wield the power of resilience and endurance."
+
+gen_chaos_defeated_khorne_title:0 "Trial of Bloodshed"
+gen_chaos_defeated_khorne_desc:0 "Khorne, the Blood God, demands a test of unyielding ferocity in battle. We have vanquished his warriors and silenced their war cries, showing that we are worthy of his favor by demonstrating the resolve and strength to surpass even Khorne's mightiest followers in the art of war."
+
+gen_chaos_defeated_tzeentch_title:0 "Trial of Deception"
+gen_chaos_defeated_tzeentch_desc:0 "To gain the approval of Tzeentch, one must see through illusions and deceit. We have unraveled the schemes of the Changer of Ways, emerging from his labyrinth of lies with our purpose intact. This victory over Tzeentch’s machinations affirms that we are cunning and perceptive enough to be worthy of his gifts."
+
+gen_chaos_defeated_slaanesh_title:0 "Trial of Temptation"
+gen_chaos_defeated_slaanesh_desc:0 "Slaanesh, the Prince of Excess, tests his chosen through temptation and indulgence. By breaking the allure of his followers and rejecting the seductive promise of endless pleasure, we have proven our strength over desire and our capacity to resist even the darkest urges."
+
+gen_chaos_defeated_undivided_title:0 "Trial of Conquest"
+gen_chaos_defeated_undivided_desc:0 "The forces of Chaos Undivided have been broken, their unity shattered. In this trial, we demonstrate that our might surpasses even the combined power of all the Dark Gods. This conquest asserts that we are worthy to wield the undivided favor of the Ruinous Powers."
+
+gen_chaos_defeated_norscan_title:0 "Trial of the Norsca"
+gen_chaos_defeated_norscan_desc:0 "The fierce tribes of Norsca represent the untamed wilds that the Dark Gods seek to conquer. We have bent the savage Norscans to our will, proving to the Dark Gods that we can dominate the barbarian horde and expand Chaos's reach across the mortal realms."
+
+gen_chaos_happy_nobles_title:0 "Appease the Dark Nobility"
+gen_chaos_happy_nobles_desc:0 "The dark lords and nobles, ever-hungry for power and dominion, are eager to serve if they are properly rewarded. By satisfying their desires, we strengthen the loyalty of these influential allies and secure their support for our grim designs."
+
+
+##################################
+##### CHAOS GODS MISSIONS
+##################################
+
+gen_chaos_gods_please_church_title:0 "Appease the Dark Pantheon"
+gen_chaos_gods_please_church_desc:0 "The Ruinous Powers demand fealty. By aligning ourselves with the Dark Pantheon, we shall strengthen our favor and ensure the blessings of Chaos Undivided."
+
+gen_chaos_gods_try_nurgle_title:0 "Embrace the Gifts of Nurgle"
+gen_chaos_gods_try_nurgle_desc:0 "To welcome Nurgle’s blessings is to understand the beauty of decay and resilience. We shall allow his touch to spread amongst us, welcoming his pestilence."
+
+gen_chaos_gods_try_tzeentch_title:0 "Bargain with the Changer"
+gen_chaos_gods_try_tzeentch_desc:0 "The God of Change beckons us towards knowledge. By accepting his gifts, we will be granted the wisdom to rewrite our fate and reshape the world."
+
+gen_chaos_gods_try_slaanesh_title:0 "Slaanesh’s Temptations"
+gen_chaos_gods_try_slaanesh_desc:0 "The pleasures of Slaanesh offer release from the ordinary, a path of ecstasy and self-discovery. We shall let his influence spread, revitalizing our people."
+
+gen_chaos_gods_try_khorne_title:0 "Bathe of Khorne"
+gen_chaos_gods_try_khorne_desc:0 "By embracing the fury of Khorne, we will become unstoppable in battle. His strength will guide our blades and give us supremacy on the field."
+
+gen_chaos_gods_try_undivided_title:0 "Worship Chaos"
+gen_chaos_gods_try_undivided_desc:0 "Chaos Undivided promises unity among the followers of the Dark Gods. By embracing all Ruinous Powers, we secure a relentless tide of Chaos that no mortal or immortal can withstand."
+
+gen_chaos_gods_next_crusade_title:0 "Declare an Unholy War"
+gen_chaos_gods_next_crusade_desc:0 "The unbelievers must be made to suffer. This holy war will be waged in the name of Chaos, with our forces ravaging all who deny the Dark Gods' divinity."
+
+
+##################################
+##### CHAOS ULTIMATE MISSION
+##################################
+
+gen_chaos_ultimate_mission_title:0 "Corrupt the Mortal Realm"
+gen_chaos_ultimate_mission_desc:0 "Chaos knows no borders. The lands of the mortal world will be reshaped, conquered, and tainted by our corruption. We will make this world worthy of the Dark Gods, spreading the influence of Chaos across all continents."
+
+
+
+
+
+
+#### Khorne Religious Events
+
+
+ #events
+ religion_khorne_event.1.t:0 "Drawn to Destruction"
+ religion_khorne_event.1.d:0 "Drawn to Destruction"
+ religion_khorne_event.1.a:0 "In his unholy name"
+ 
+ religion_khorne_event.2.t:0 "SKULLS FOR THE SKULL THRONE"
+ religion_khorne_event.2.d:0 "Faithful... enlightened... ambitious... brethren.\n...it was Khorne's messenger who showed me the true path of freedom.\nAnd what is this path? This meaning, this purpose to which we gather the skulls of our foes?\nIt is nothing. There is no meaning, no purpose. We murder. We kill. It is mindless savagery, this UNIVERSE IS MINDLESS!\nIn mere hours, billions will die. Innocent! Guilty! Strong and weak! Honest and deceitful! ALL of them!\nThey will scream, they will burn, and for no purpose but that mighty Khorne may revel in their bloodshed!\nAnd united in this void of purpose, fear, or duty... we shall at long last be free!\nBlood for the Blood God! Skulls for the Skull Throne! LET! THE GALAXY! BURN!"
+ religion_khorne_event.2.a:0 "BLOOD FOR THE BLOOD GOD"
+ 
+ religion_khorne_event.3.t:0 "Blade of Khorne"
+ religion_khorne_event.3.d:0 "The power of Khorne himself and summon his wrath against his enemies, who cowardly hide in their holds. Let's gather our shamans and let them destroy enemy's walls!"
+ religion_khorne_event.3.a:0 "In his unholy name"
+
+ religion_khorne_event.4.t:0 "Scarifice to Khorne"
+ religion_khorne_event.4.d:0 "An worhty offering can be made to Khrone to gain his favor"
+ religion_khorne_event.4.a:0 "Scarifice our Adm Advisor"
+ religion_khorne_event.4.b:0 "Scarifice our Dip Advisor"
+ religion_khorne_event.4.c:0 "Scarifice our Military Advisor"
+ religion_khorne_event.4.dd:0 "Go Back"
+
+ #Modifiers
+ khorne_skulls_for_the_skull_throne:0 "Skulls for the skull Throne"
+ khorne_drawn_to_destruction_aspect:0 "Drawn to Destruction"
+ khorne_blade_of_khorne:0 "Blade of Khrone"
+
+ #Decisions
+ decision_scarifice_to_khorne:0 "Scarifice to Khorne"
+  decision_scarifice_to_khorne_desc:0 "Offers a worthy tribute to Khorne to gain more favor."
+
+ sacrifice_to_khrone_cooldown_tt:0 "This decision can only be taken once every 25 years"
+
+
+
+### Slaaneshi
+ #events
+ religion_slaaneshi_events.1.t:0 "The rise of Cult of the Jade Sceptre"
+ religion_slaaneshi_events.1.d:0 "Hedonistic excess and debauchery run rampant as cultists revel in their newfound freedoms, casting aside the shackles of morality and restraint in pursuit of pleasure and indulgence.\n\nLike a contagion, the influence of the Slaaneshi cults spreads throughout the realm, infiltrating communities, corrupting the innocent, and sowing discord and decadence wherever they tread."
+ religion_slaaneshi_events.1.a:0 "Send in the Witch Hunters"

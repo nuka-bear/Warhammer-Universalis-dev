@@ -99,3 +99,38 @@ nagash_ritual:0 "The Ritual of Nagash"
 desc_nagash_ritual:0 "This dark ritual, empowered by the energies of the Black Pyramid, augments our military might and cements our knowledge of the arcane. The path of power, though costly, is now within our grasp."
 
 
+
+
+
+ #################
+ #Dieites
+ ################
+ ptra:0 "Ptra"
+ asaph:0 "Asaph"
+ sokth:0 "Sokth"
+ khsar:0 "Khsar"
+ neru:0 "Neru"
+ djaf:0 "Djaf"
+ 
+ ptra_desc:0 "The sun god and the god of creation, as well as the king of the Nehekharan Pantheon, the first to set foot upon the mortal world. Ptra is the great creator and encompasses immortality and eternity. He alone among the gods does not have an animal form but always appears Human. His eyes, however, contain all the stars above, and his gaze is enough to drive a man mad."
+ asaph_desc:0 "The goddess of beauty, magic, and vengeance. Asaph sometimes takes the form of a snake like the asp, though even in this shape she is lovely."
+ sokth_desc:0 "The god of scorpions, poisoners, and thieves. Sokth can appear as a scorpion, or as a man with black chitin for skin and dead, black eyes. Despite his patronage of thieves, Sokth does not condone grave robbing, and his scorpions often guard royal tombs."
+ khsar_desc:0 "The god of the desert. Khsar does not have an animal form nor a Human form, but can appear as the desert wind."
+ neru_desc:0 "The goddess of protection and the moon, the wife of Ptra."
+ djaf_desc:0 "The god of war and death. Djaf appears as a tall, well-muscled man with a jackal's head. He can appear as a large but otherwise normal jackal as well."
+ #events
+
+ #Modifiers
+
+ #Decisions
+ religion_nehekharan_events.1.t:0 "Making Our Choice."
+ religion_nehekharan_events.1.d:0 "[Root.Monarch.GetTitle] has called a meeting of [Root.GetName]'s top religious officials to decide which member of the Nehekharan Pantheon we will follow. Who should we choose?\n\n§P(There's a scrollbar for the options here, by the way)§!"
+ religion_nehekharan_events.1.b:0 "Ptra"
+ religion_nehekharan_events.1.c:0 "Asaph"
+ religion_nehekharan_events.1.e:0 "Sokth"
+ religion_nehekharan_events.1.f:0 "Khasar"
+ religion_nehekharan_events.1.g:0 "Neru"
+ religion_nehekharan_events.1.h:0 "Djaf"
+
+
+

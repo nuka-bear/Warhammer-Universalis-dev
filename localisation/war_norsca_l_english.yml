@@ -1,5 +1,93 @@
 ﻿l_english:
 
+####  Missions
+
+gen_norsca_please_nobility_title:0 "Favor of the Jarls"
+gen_norsca_please_nobility_desc:0 "The jarls and chiefs of Norsca are powerful figures who lead raids and govern our clans. By pleasing the nobility, we will secure a potent general among their ranks, ensuring our warriors follow a truly capable leader."
+
+gen_norsca_bring_the_loot_title:0 "The Spoils of War"
+gen_norsca_bring_the_loot_desc:0 "Raiding is at the heart of our culture, and our victories must yield riches. By enforcing reparations from our foes, we shall reap the wealth of their lands, ensuring our own prosperity and the loyalty of our kin."
+
+gen_norsca_grow_title:0 "Expand the Hold"
+gen_norsca_grow_desc:0 "To the south lies fertile land ripe for conquest. We must consolidate our power by claiming all of Norsca and spreading our influence, preparing to challenge even the heart of the Old World."
+claim_norsca_tt:0 "Gain a permanent claim on all Norsca."
+
+
+gen_norsca_expand_outward_title:0 "Beyond the Northern Seas"
+gen_norsca_expand_outward_desc:0 "The tribes grow restless with hunger for new conquests. We will sail across frigid seas to lay claim to foreign shores. The Old World will tremble before the Norscan fury."
+claim_old_world_coasts_tt:0 "Gain a permanent claim on Old World coasts."
+
+
+gen_norsca_across_the_sea_title:0 "Raid Across the Sea"
+gen_norsca_across_the_sea_desc:0 "Beyond our homeland, there are lands yet untouched by our wrath. We must carry out lightning raids across the world, striking quickly and fiercely before returning with plunder."
+
+gen_norsca_fleet_1_title:0 "A Fleet of Raiders"
+gen_norsca_fleet_1_desc:0 "The sea is our path to riches and glory. To unleash true terror on our enemies, we must build a mighty fleet that can carry our raiders across all seas."
+
+gen_norsca_fleet_2_title:0 "Master the Art of Boarding"
+gen_norsca_fleet_2_desc:0 "No ship is safe from our warriors once they board! Capturing enemy vessels will strengthen our fleet, giving us the power to dominate any who oppose us at sea."
+
+gen_norsca_ultimate_mission_title:0 "Domination of the Tides"
+gen_norsca_ultimate_mission_desc:0 "With a fleet mightier than any other, we shall enforce Norscan dominance across the waves, laying claim to ports worldwide. None shall deny the Norscan strength and ferocity."
+claim_all_coast_tt:0 "Gain a permanent claim on all coastlines."
+
+gen_norsca_gods_happy_priest_title:0 "Please the Gods"
+gen_norsca_gods_happy_priest_desc:0 "Our priests wield the power to invoke the gods’ favor. By serving their needs and ensuring their loyalty, our warriors will be blessed with berserker fury, unstoppable in battle."
+
+gen_norsca_privateering_1_title:0 "Launch  Raids"
+gen_norsca_privateering_1_desc:0 "By striking at our enemies’ coastlines with swift raiding vessels, we will weaken their economy and bring riches home to Norsca. The world will learn to fear the Norscan privateers."
+
+gen_norsca_privateering_2_title:0 "Dominate the Seas"
+gen_norsca_privateering_2_desc:0 "Through our constant raids, we have become masters of privateering, striking terror into the hearts of those who think their coasts safe. No port is beyond our reach."
+
+
+gen_norsca_raid_20_title:0 "Raid Villages"
+gen_norsca_raid_20_desc:0 "Among the soft lands of the south, some provinces boast riches that could fuel our armies and satisfy the gods. These provinces shall be raided mercilessly, leaving only ruins in our wake."
+
+gen_norsca_raid_30_title:0 "Raid Cities"
+gen_norsca_raid_30_desc:0 "More than wealth, it is the pride of these so-called 'civilized' lands that we seek to destroy. By raiding their most prosperous regions, we remind them that nothing is safe from the wrath of the Norscan tribes."
+
+gen_norsca_raid_40_title:0 "Raid Metropolises"
+gen_norsca_raid_40_desc:0 "With greater risk comes greater reward. These provinces are the jewel of our enemies' realms, and by raiding them, we show that not even their mightiest fortresses can hold back the fury of Norsca."
+
+gen_norsca_raid_50_title:0 "Raid the Greatest Prizes"
+gen_norsca_raid_50_desc:0 "The gods demand tribute of the highest order, and the wealthiest lands are our rightful prize. These great fortresses of wealth shall be plundered and shattered, with all who resist cast down before our might."
+
+
+norsca_lootbringer:0 "Bringer of Spoils"
+desc_norsca_lootbringer:0 "With each successful raid, we bring wealth and glory to our people, inspiring loyalty and pride among our kin and intimidating our enemies."
+
+norsca_claimant:0 "Rulers of Norsca"
+desc_norsca_claimant:0 "The lands of the south are soft and ripe for the taking. By claiming what is ours by might, we establish ourselves as worthy conquerors and rightful rulers."
+
+norsca_better_transports:0 "Enhanced Transports"
+desc_norsca_better_transports:0 "Our ships are well-suited to carrying not only warriors but supplies for extended raids, ensuring we reach our enemies and return in strength."
+
+norsca_lightning_raids:0 "Lightning Raids"
+desc_norsca_lightning_raids:0 "Our raiders strike swiftly and with devastating efficiency, moving at unparalleled speed both by sea and by land to overwhelm our enemies before they can muster a defense."
+
+norsca_fleet_modifier_1:0 "Fleet of the North"
+desc_norsca_fleet_modifier_1:0 "Our seafaring prowess and tradition grant us an advantage on the waves. Our ships capture enemy vessels with ease, swelling our numbers and instilling fear in the hearts of our foes."
+
+norsca_fleet_modifier_2:0 "Marauders Fleet"
+desc_norsca_fleet_modifier_2:0 "The Norscan fleet, driven by relentless fury, strikes terror into those who would oppose us, their morale unbreakable and their ferocity unmatched."
+
+norsca_berserkers:0 "Blessing of the Berserkers"
+desc_norsca_berserkers:0 "The favor of the gods empowers our warriors to fight with unmatched fury, taking less harm as they cleave through enemy lines."
+
+norsca_privateers_1:0 "Raiders of the Coast"
+desc_norsca_privateers_1:0 "Our skilled raiders bring devastation to the coasts of our enemies, plundering wealth and resources that bolster our strength."
+
+norsca_privateers_2:0 "Masters of the Seas"
+desc_norsca_privateers_2:0 "The waters bend to our will as our raiders capture ships and plunder trade routes, building our strength and enriching our people."
+
+norsca_ultimate:0 "Wrath of the Sea Kings"
+desc_norsca_ultimate:0 "The seas belong to us, and our enemies tremble as the might of Norsca bears down upon them. With unmatched morale and swiftness, our fleets and raiders strike terror into the hearts of coastal cities, leaving only ruin and fear in their wake. No shore is safe from the wrath of the Norscan Sea Kings."
+
+
+
+#### Religion Stuff
+
 #################
 #Dieites
 ################
@@ -42,7 +130,7 @@
  religion_norscan_events.100.a: "On second thought. . . I'd rather not"
  religion_norscan_events.100.b: "Norsca" 
 
- religion_norscan_events.101.t: "Selecting our Query"
+ religion_norscan_events.101.t: "Selecting our Quarry"
  religion_norscan_events.101.d: "Far to the north of The Empire, lies a cold, savage, and brutal land. A land where the ground is permanently frozen and blistering winters ravage the land for 8 months of the year. A land where there are as many monsters as there are men. Soon there will be one less."
  religion_norscan_events.101.a: "Exit"
  religion_norscan_events.101.b: "A Mammoth"

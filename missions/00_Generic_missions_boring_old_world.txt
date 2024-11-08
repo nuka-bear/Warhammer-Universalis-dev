@@ -153,10 +153,9 @@ gen_sow_ultimate_missions = {
 	generic = yes
 	ai = yes
 	potential = {
-		OR = {
-			culture_group = estalian_group
-			culture_group = tilean_group
-		}
+		technology_group = tech_imperial
+		NOT = { culture_group = kislevite_group }
+		is_part_of_hre = no
 	}
 	gen_sow_ultimate_mission = { 
 		icon = mission_egyptian_mamluk_soldier
