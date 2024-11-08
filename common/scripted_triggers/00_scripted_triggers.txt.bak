@@ -478,37 +478,23 @@ consort_has_bad_mil_personality = {
 can_have_center_of_reformation_trigger = { #Province Scope
 	#$RELIGION$ needs to match the religion of the center that is being spawned.
 	OR = {
-		religion = protestant
+	#	religion = protestant
 		religion = catholic
 		religion = reformed
+		religion = chaos_undivided_religion
 	}
-	#NOT = { province_id = 118 }
-	is_in_capital_area = yes
-	is_reformation_center = no
-	is_island = no
-	expelling_minorities = no
-	development = 10
-	NOT = {
-		any_neighbor_province = {
-			is_reformation_center = yes
-		}
-	}
-	NOT = {
-		any_province = {
-			area = PREV
-			is_reformation_center = yes
-			religion = $RELIGION$
-		}
-	}
-	NOT = { has_climate = arctic }
-	#NOT = { has_climate = arid }
-	NOT = { has_terrain = coastline }
-	NOT = { has_terrain = coastal_desert }
-	NOT = { has_terrain = steppe }
-	NOT = { has_terrain = desert }
-	NOT = { has_terrain = glacier }
-	#NOT = { has_climate = tropical }
+	
+#	NOT = {
+#		any_province = {
+#			area = PREV
+#			is_reformation_center = yes
+#			religion = $RELIGION$
+#		}
+#	}
+
 }
+
+
 
 province_viable_for_industrialization_events_trigger = { #Province Scope
 	is_state = yes

@@ -5,10 +5,10 @@ chaos_happy_nobles = {
 	all_estate_loyalty_equilibrium = 0.05
 }
 
-chaos_corruption_spreads = {
+chaos_forever_chosen = {
 	global_missionary_strength = 0.1
 	missionaries = 3
-	administrative_efficiency = 0.25
+	monthly_everchosen_favor = 0.75
 }
 
 

@@ -9,7 +9,6 @@ namespace = center_of_revolution
 ###Mechanical Events
 
 #Spawning the Center
-
 province_event = {
 	id = center_of_revolution.1000
 	title = center_of_revolution.1000.name
@@ -20,192 +19,326 @@ province_event = {
 
 	trigger = {
 		has_dlc = "Emperor"
-		OR = {
-			current_age = age_of_revolutions
-			current_age = age_of_absolutism
+		current_age = age_of_revolutions
+		development = 30
+		enlightenment = 100
+		owner = {
+			is_great_power = yes
+			has_institution = enlightenment
+			is_free_or_tributary_trigger = yes
+			NOT = { tag = PAP }
+			#NOT = { has_reform = celestial_empire }
 		}
-		religion_group = ruinous_powers_denominations
-		owner = { religion_group = ruinous_powers_denominations }
-
 		NOT = { has_province_modifier = religious_center }
-
-		NOT = { owner = ( is_subject = yes } }
 	}
-
 	mean_time_to_happen = {
-		years = 1000
-
-### Increases the chance if it's a player
+		years = 600
 		modifier = {
-			factor = 0.25
-			owner = { was_player = yes }
+			factor = 20
+			NOT = { continent = europe }
 		}
-
-
-### Capital
 		modifier = {
 			factor = 0.75
 			is_capital = yes
 		}
-
+		modifier = {
+			factor = 1.5
+			owner = {
+				capital_scope = {
+					NOT = { region = root }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				europe = {
+					NOT = { province_id = root }
+					higher_development_than = root
+				}
+			}
+		}
 		modifier = {
 			factor = 2
 			is_in_capital_area = no
 		}
-
-### Bigger than all other ruininous powers. Either all other countries aren't ruinous powers, or they don't have a greater development than you.
-
-
 		modifier = {
-			factor = 0.75
-			owner = { 
-				all_country = {
-					OR = {
-						NOT = { religion_group = ruinous_powers_denominations }
-						NOT = { total_development = ROOT }
+			factor = 0.9
+			owner = {
+				government = monarchy
+			}
+		}
+		modifier = {
+			factor = 0.9
+			is_institution_enabled = industrialization
+		}
+		modifier = {
+			factor = 0.9
+			industrialization = 100
+		}
+		modifier = {
+			factor = 1.2
+			owner = { NOT = { has_estate = estate_burghers } }
+		}
+		#target absolutist states more
+		modifier = {
+			factor = 10
+			NOT = { owner = { absolutism = 10 } }
+		}
+		modifier = {
+			factor = 2
+			NOT = { owner = { absolutism = 20 } }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { owner = { absolutism = 30 } }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { owner = { absolutism = 40 } }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { owner = { absolutism = 50 } }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { owner = { absolutism = 60 } }
+		}
+		modifier = {
+			factor = 0.95
+			owner = { absolutism = 70 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { absolutism = 80 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { absolutism = 90 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { absolutism = 100 }
+		}
+		#cities are breeding grounds for revolution
+		modifier = {
+			factor = 0.95
+			development = 35
+		}
+		modifier = {
+			factor = 0.95
+			development = 40
+		}
+		modifier = {
+			factor = 0.9
+			development = 45
+		}
+		modifier = {
+			factor = 0.9
+			development = 50
+		}
+		#Production-based checks
+		modifier = {
+			factor = 0.8
+			OR = {
+				base_production = 20
+				province_trade_power = 30
+			}
+			owner = {
+				OR = {
+					has_estate = estate_burghers
+					has_estate = estate_jains
+					has_estate = estate_vaisyas
+				}
+				OR = {
+					AND = {
+						NOT = {
+							estate_influence = {
+								estate = estate_burghers
+								influence = 20
+							}
+						}
+						NOT = {
+							estate_influence = {
+								estate = estate_jains
+								influence = 20
+							}
+						}
+						NOT = {
+							estate_influence = {
+								estate = estate_vaisyas
+								influence = 20
+							}
+						}
+					}
+					AND = {
+						NOT = {
+							estate_loyalty = {
+								estate = estate_burghers
+								loyalty = 25
+							}
+						}
+						NOT = {
+							estate_loyalty = {
+								estate = estate_jains
+								loyalty = 25
+							}
+						}
+						NOT = {
+							estate_loyalty = {
+								estate = estate_vaisyas
+								loyalty = 25
+							}
+						}
 					}
 				}
 			}
 		}
-
-
-### Great Power
-
-		modifier = {
-			factor = 0.90
-			owner = { great_power_rank = 8 }
-		}
-		modifier = {
-			factor = 0.80
-			owner = { great_power_rank = 7 }
-		}
-		modifier = {
-			factor = 0.70
-			owner = { great_power_rank = 6 }
-		}
-		modifier = {
-			factor = 0.60
-			owner = { great_power_rank = 5 }
-		}
-		modifier = {
-			factor = 0.50
-			owner = { great_power_rank = 4 }
-		}
-		modifier = {
-			factor = 0.40
-			owner = { great_power_rank = 3 }
-		}
-		modifier = {
-			factor = 0.30
-			owner = { great_power_rank = 2 }
-		}
-		modifier = {
-			factor = 0.20
-			owner = { great_power_rank = 1 }
-		}
-
-
-
-### Development
-		modifier = {
-			factor = 0.90
-			owner = { total_development = 50 }
-		}
-
-		modifier = {
-			factor = 0.90
-			owner = { total_development = 100 }
-		}
-
-		modifier = {
-			factor = 0.90
-			owner = { total_development = 150 }
-		}
-
 		modifier = {
 			factor = 0.8
-			owner = { total_development = 200 }
+			owner = {
+				variable_arithmetic_trigger = { #trade and production is 75% of national income
+					export_to_variable = {
+						value = trigger_value:production_income_percentage
+						which = burgher_income_proportion
+					}
+					export_to_variable = {
+						value = trigger_value:trade_income_percentage
+						which = trade_income_proportion
+					}
+					change_variable = {
+						which = burgher_income_proportion
+						which = trade_income_proportion
+					}
+					check_variable = {
+						which = burgher_income_proportion
+						value = 0.75
+					}
+				}
+				OR = {
+					has_estate = estate_burghers
+					has_estate = estate_jains
+					has_estate = estate_vaisyas
+				}
+				OR = {
+					AND = {
+						NOT = {
+							estate_influence = {
+								estate = estate_burghers
+								influence = 20
+							}
+						}
+						NOT = {
+							estate_influence = {
+								estate = estate_jains
+								influence = 20
+							}
+						}
+						NOT = {
+							estate_influence = {
+								estate = estate_vaisyas
+								influence = 20
+							}
+						}
+					}
+					AND = {
+						NOT = {
+							estate_loyalty = {
+								estate = estate_burghers
+								loyalty = 25
+							}
+						}
+						NOT = {
+							estate_loyalty = {
+								estate = estate_jains
+								loyalty = 25
+							}
+						}
+						NOT = {
+							estate_loyalty = {
+								estate = estate_vaisyas
+								loyalty = 25
+							}
+						}
+					}
+				}
+			}
 		}
-
+		#National Vulnerability factors
 		modifier = {
 			factor = 0.8
-			owner = { total_development = 250 }
+			owner = {
+				revanchism = 50
+			}
 		}
-
 		modifier = {
-			factor = 0.8
-			owner = { total_development = 300 }
+			factor = 0.9
+			owner = {
+				num_of_loans = 20
+			}
 		}
-
 		modifier = {
-			factor = 0.8
-			owner = { total_development = 350 }
+			factor = 0.9
+			owner = {
+				num_of_loans = 30
+			}
 		}
-
 		modifier = {
-			factor = 0.7
-			owner = { total_development = 400 }
+			factor = 0.9
+			owner = {
+				NOT = { stability = 1 }
+			}
 		}
-
 		modifier = {
-			factor = 0.7
-			owner = { total_development = 450 }
+			factor = 0.9
+			owner = {
+				NOT = { stability = -1 }
+			}
 		}
-
 		modifier = {
-			factor = 0.7
-			owner = { total_development = 500 }
+			factor = 1.2
+			owner = {
+				stability = 3
+			}
 		}
-
 		modifier = {
-			factor = 0.7
-			owner = { total_development = 550 }
+			factor = 0.9
+			owner = {
+				NOT = { prestige = -10 }
+			}
 		}
-
 		modifier = {
-			factor = 0.6
-			owner = { total_development = 600 }
+			factor = 0.9
+			owner = {
+				NOT = { prestige = -50 }
+			}
 		}
-
+		#Special flavour modifiers
 		modifier = {
-			factor = 0.6
-			owner = { total_development = 650 }
+			factor = 0.75
+			owner = {
+				has_country_flag = revolutionary_sentiment_flour_wars
+			}
 		}
-
 		modifier = {
-			factor = 0.6
-			owner = { total_development = 700 }
+			factor = 0.75
+			owner = {
+				has_country_flag = revolutionary_sentiment_many_loans
+			}
 		}
-
 		modifier = {
-			factor = 0.6
-			owner = { total_development = 750 }
+			factor = 0.75
+			owner = {
+				has_country_flag = revolutionary_sentiment_necker_reforms
+			}
 		}
-
-
-
-## Prestige
 		modifier = {
-			factor = 0.95
-			owner = { prestige = 0 }
+			factor = 0.75
+			owner = {
+				has_country_flag = revolutionary_sentiment_3rd_estate_demands
+			}
 		}
-
-		modifier = {
-			factor = 0.95
-			owner = { prestige = 25 }
-		}
-
-		modifier = {
-			factor = 0.95
-			owner = { prestige = 50 }
-		}
-
-		modifier = {
-			factor = 0.95
-			owner = { prestige = 75 }
-		}
-
-
 		#Time-based checks
 		modifier = {
 			factor = 0.8
@@ -224,7 +357,6 @@ province_event = {
 			is_year = 1800
 		}
 	}
-
 	fire_only_once = yes
 
 	immediate = {
@@ -235,23 +367,6 @@ province_event = {
 			}
 			save_global_event_target_as = revolution_center
 			save_global_event_target_as = first_revolution_center
-
-			if = {
-				limit = { revolution_target_exists = no }
-				owner = { set_revolution_target = THIS }
-			}
-
-			owner = {
-				change_government = monarchy
-				add_government_reform = everchosen_reform
-				change_adm = 6
-				change_dip = 6
-				change_mil = 6
-				clear_scipted_personalities = yes
-				add_ruler_personality = immortal_personality
-				add_ruler_personality = everchosen_personality
-
-			}
 		}
 	}
 
@@ -298,21 +413,19 @@ province_event = {
 				}
 			}
 		}
-
 		NOT = { has_global_flag = no_more_revolutions_ever }
-
-		religion_group = ruinous_powers_denominations
-
-		owner = { religion_group = ruinous_powers_denominations }
-
+		development = 30
+		enlightenment = 100
 		owner = {
+			is_great_power = yes
+			has_institution = enlightenment
 			is_free_or_tributary_trigger = yes
+			NOT = { tag = PAP }
+			#NOT = { has_reform = celestial_empire }
 		}
-
 		NOT = { has_province_modifier = religious_center }
 		NOT = { has_province_flag = first_revolution_center }
 	}
-
 	mean_time_to_happen = { #slightly simplified version of .1000's weights
 		years = 15
 		modifier = {
@@ -355,37 +468,243 @@ province_event = {
 				}
 			}
 		}
-
+		modifier = {
+			factor = 0.8
+			NOT = {
+				europe = {
+					NOT = { province_id = root }
+					higher_development_than = root
+				}
+			}
+		}
 		modifier = {
 			factor = 2
 			is_in_capital_area = no
 		}
-
 		modifier = {
-			factor = 0.01
-			all_country = {
+			factor = 1.2
+			owner = { NOT = { has_estate = estate_burghers } }
+		}
+		#target absolutist states more
+		modifier = {
+			factor = 1.5
+			NOT = { owner = { absolutism = 35 } }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { owner = { absolutism = 50 } }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { absolutism = 75 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { absolutism = 90 }
+		}
+		modifier = {
+			factor = 0.8
+			owner = { absolutism = 100 }
+		}
+		#cities are breeding grounds for revolution
+		modifier = {
+			factor = 0.9
+			development = 40
+		}
+		modifier = {
+			factor = 0.8
+			development = 50
+		}
+		#Production-based checks
+		modifier = {
+			factor = 0.8
+			OR = {
+				base_production = 20
+				province_trade_power = 30
+			}
+			owner = {
 				OR = {
-					NOT = { religion_group = ruinous_powers_denominations }
-					NOT = { total_development = ROOT }
+					has_estate = estate_burghers
+					has_estate = estate_jains
+					has_estate = estate_vaisyas
+				}
+				OR = {
+					AND = {
+						NOT = {
+							estate_influence = {
+								estate = estate_burghers
+								influence = 20
+							}
+						}
+						NOT = {
+							estate_influence = {
+								estate = estate_jains
+								influence = 20
+							}
+						}
+						NOT = {
+							estate_influence = {
+								estate = estate_vaisyas
+								influence = 20
+							}
+						}
+					}
+					AND = {
+						NOT = {
+							estate_loyalty = {
+								estate = estate_burghers
+								loyalty = 25
+							}
+						}
+						NOT = {
+							estate_loyalty = {
+								estate = estate_jains
+								loyalty = 25
+							}
+						}
+						NOT = {
+							estate_loyalty = {
+								estate = estate_vaisyas
+								loyalty = 25
+							}
+						}
+					}
 				}
 			}
 		}
-
-
+		modifier = {
+			factor = 0.8
+			owner = {
+				variable_arithmetic_trigger = { #trade and production is 75% of national income
+					export_to_variable = {
+						value = trigger_value:production_income_percentage
+						which = burgher_income_proportion
+					}
+					export_to_variable = {
+						value = trigger_value:trade_income_percentage
+						which = trade_income_proportion
+					}
+					change_variable = {
+						which = burgher_income_proportion
+						which = trade_income_proportion
+					}
+					check_variable = {
+						which = burgher_income_proportion
+						value = 0.75
+					}
+				}
+				OR = {
+					has_estate = estate_burghers
+					has_estate = estate_jains
+					has_estate = estate_vaisyas
+				}
+				OR = {
+					AND = {
+						NOT = {
+							estate_influence = {
+								estate = estate_burghers
+								influence = 20
+							}
+						}
+						NOT = {
+							estate_influence = {
+								estate = estate_jains
+								influence = 20
+							}
+						}
+						NOT = {
+							estate_influence = {
+								estate = estate_vaisyas
+								influence = 20
+							}
+						}
+					}
+					AND = {
+						NOT = {
+							estate_loyalty = {
+								estate = estate_burghers
+								loyalty = 25
+							}
+						}
+						NOT = {
+							estate_loyalty = {
+								estate = estate_jains
+								loyalty = 25
+							}
+						}
+						NOT = {
+							estate_loyalty = {
+								estate = estate_vaisyas
+								loyalty = 25
+							}
+						}
+					}
+				}
+			}
+		}
+		#National Vulnerability factors
+		modifier = {
+			factor = 0.8
+			owner = {
+				revanchism = 50
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				num_of_loans = 20
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { stability = 0 }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			owner = {
+				stability = 2
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { prestige = -50 }
+			}
+		}
+		#Special flavour modifiers
+		modifier = {
+			factor = 0.75
+			owner = {
+				has_country_flag = revolutionary_sentiment_flour_wars
+			}
+		}
+		modifier = {
+			factor = 0.75
+			owner = {
+				has_country_flag = revolutionary_sentiment_many_loans
+			}
+		}
+		modifier = {
+			factor = 0.75
+			owner = {
+				has_country_flag = revolutionary_sentiment_necker_reforms
+			}
+		}
+		modifier = {
+			factor = 0.75
+			owner = {
+				has_country_flag = revolutionary_sentiment_3rd_estate_demands
+			}
+		}
 	}
-
 	immediate = {
 		hidden_effect = {
 			clear_global_event_target = revolution_center
 			save_global_event_target_as = revolution_center
 			log = "2nd Center of Revolution spawned in [Root.GetName] (owner: [Root.Owner.GetName]) in [GetYear]"
 		}
-
-	if = {
-		limit = { revolution_target_exists = no }
-		owner = { set_revolution_target = THIS }
-	}
-
 	}
 	option = {
 		name = center_of_revolution.1001.A
@@ -1193,7 +1512,7 @@ country_event = {
 
 
 ###Flavour Events relating to spread of Revolution
-å
+
 # A Philosopher publishes a work
 country_event = {
 	id = center_of_revolution.1

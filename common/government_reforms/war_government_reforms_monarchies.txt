@@ -282,25 +282,9 @@ everchosen_reform = {
 	potential = {
 		has_reform = everchosen_reform
 	}
-	legacy_equivalent = revolutionary_empire
 	valid_for_new_country = no
-	uses_revolutionary_zeal = yes
-	revolutionary = yes
 	is_eligible_for_hre_emperor = no
 	fixed_rank = 3
-
-	effect = {
-		custom_tooltip = break_every_non_rev_republic_alliance_tt
-		hidden_effect = {
-			every_ally = {
-				limit = {
-					NOT = { government = republic }
-					is_revolutionary = no
-				}
-				ROOT = { break_alliance = PREV }
-			}
-		}
-	}
 
 	modifiers = {
 
@@ -310,6 +294,7 @@ everchosen_reform = {
 		may_establish_frontier = yes
 		global_colonial_growth = 1000
 		governing_capacity = 10000
+		missionaries = 4
 
 		can_recruit_cossacks = yes
 		allowed_cossack_fraction = 0.1
@@ -337,8 +322,6 @@ everchosen_reform = {
 	custom_attributes = {
 		locked_government_type = yes
 		has_upgraded_holy_wars = yes
-		cannot_ally_non_republics_or_non_rev = yes
-
 	}
 }
 

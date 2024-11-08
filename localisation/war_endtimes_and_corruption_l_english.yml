@@ -1,0 +1,74 @@
+﻿l_english:
+
+
+
+  ### Endtimes
+
+  end_times_events.1000.name:0 "The End Times Begin"
+  end_times_events.1000.desc:0 "Dark energies flood into [Root.GetName] from beyond as the Chaos Gods call their followers. The world stands on the brink of ruin—will it fall, or can Chaos be contained?"
+  end_times_events.1000.A:0 "This is the End."
+
+
+
+
+ end_times_events.1.t:0 "Despoil our Lands"
+ end_times_events.1.d:0 "The Chaos Gods question our loyalty. If we are to bring about the End Times, why are our lands so verdant? They demand we sack and pillage our cities, and lay our own people to the sword."
+ end_times_events.1.option_1:0 "Splendid idea!"
+ end_times_events.1.option_2:0 "Now hold on one second ..."
+ end_times_events.1.option_1.tt:0 "Reduce your provinces development by one. Gain 50 ducats for each tax or production raized, and 1000 manpower for each 1 manpower raized."
+
+
+ end_times_events.2.t:0 "An Open Gate"
+ end_times_events.2.d:0 "There is an open gate to in our world. As long as there is an open Gate, Chaos corrupts our land. Corrupted individuals roam our streets. Do we round them up and put them down? Or attempt to integrate them peacefully?"
+ end_times_events.2.option_1:0 "Kill Them!"
+ end_times_events.2.option_2:0 "Maybe we can pacify them, for now"
+
+
+submit_to_everchosen.1.t:0 "Submit to the Everchosen"
+submit_to_everchosen.1.d:0 "The End Times have arrive, and the followers of Chaos are flocking to one banner. We are faced with a choice. Do we submit to the Everchosen? Or do we go it alone?"
+submit_to_everchosen.1.option_1:0 "Submit to the Everchosen."
+submit_to_everchosen.1.option_2:0 "We shall go it alone!"
+
+
+### Center of Reformation
+
+chaos_undivided_center_of_reformation:0 "Chaos Gate"
+chaos_undivided_center_of_reformation_title:0 "Chaos Gate"
+chaos_undivided_center_of_reformation_desc:0 "Chaos Gate"
+desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
+
+
+
+### Everchosen Stuff
+
+ everchosen_reform:0 "Everchosen"
+ everchosen_reform_desc:0 "This nation has been chosen by the Chaos gods to end the world."
+
+
+ everchosen_mechanic:0 "Chaos Favor"
+ everchosen_mechanic_desc:0 "The Chaos Gods are not patient. While they bestow awesome power, they grow weary of those who squander it."
+
+ everchosen_favor:0 "Chaos Favor"
+
+
+ everchosen_events.1.t:0 "Bring About Ruin"
+ everchosen_events.1.d:0 "We have sat in peace for far too long. Swift violence is needed to destroy the world. The Gods demand we choose another target."
+ everchosen_events.1.option_1:0 "They should do nicely"
+ everchosen_events.1.option_2:0 "Or perhaps them?"
+ everchosen_events.1.option_3:0 "These weaklings, surely"
+ everchosen_events.1.option_4:0 "They deserve a painful death."
+ everchosen_events.1.option_5:0 "The people may not like it, but we need a break."
+
+
+ everchosen_events.2.t:0 "Open Another Gate"
+ everchosen_events.2.d:0 "We have another opportunity to open a Chaos Gate to the realms of Chaos! Let Chaos pour through. CHAOS!"
+ everchosen_events.2.option_1:0 "Perhaps this location."
+ everchosen_events.2.option_2:0 "Or this?"
+ everchosen_events.2.option_3:0 "No, here is best."
+ everchosen_events.2.option_4:0 "Let us siphon the energies instead."
+
+
+
+  everchosen_personality:0 "Everchosen"
+  everchosen_personality_desc:0 "An Everchosen is a Chaos Demon who has earned the favor of all four Chaos Gods."
+

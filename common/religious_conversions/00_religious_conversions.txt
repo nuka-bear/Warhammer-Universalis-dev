@@ -668,3 +668,70 @@ slaaneshi_center_of_reformation = {
 		}
 	}
 }
+
+
+chaos_undivided_religion_center_of_reformation = {
+
+	religion = chaos_undivided_religion
+	
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 300.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 25
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 0
+			religion = tzeentchian_religion
+		}
+		modifier = {
+			factor = 0
+			religion = nurglite_religion
+		}
+		modifier = {
+			factor = 0
+			religion = khornate_religion
+		}
+		modifier = {
+			factor = 0
+			religion = slaaneshi_religion
+		}
+		modifier = {
+			factor = 0
+			religion = hashut
+		}
+		modifier = {
+			factor = 0
+			religion = norscan
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 0.5
+			has_state_edict = edict_religion_enforced
+		}
+
+### Could add in some religions and cultures that are less effected- Ogres, hobbits, old one worshippers, orthodoxy, harmony
+
+	}
+}

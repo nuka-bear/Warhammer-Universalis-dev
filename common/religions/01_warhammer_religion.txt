@@ -623,6 +623,46 @@ ruinous_powers_denominations = {
 			khornate_religion
 			tzeentchian_religion
 		}
+
+		allowed_center_conversion = {
+			lady_of_the_lake
+			myrmidia
+			ursun
+			cult_of_sigmar
+			cult_of_ulric_religion
+			cult_of_taal_religion
+			old_world_cults_religion
+			vampiric
+			nagash_worship
+			gork_n_mork_religion
+			spider_cult_religion
+			the_great_maw_religion
+			asrai_cadai
+			cytharai
+			cadai
+			ancestor_gods
+			druidism
+			kislev_old_faith
+			dragon_cult
+			the_one_faith
+			nehekharan_pantheon
+			horned_rat
+			old_ones
+			enlightened_path
+			yin_yang
+			the_thousand_gods
+		}
+
+		will_get_center = {
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = chaos_undivided_religion
+				}
+			}
+		}
+
+
+
 	}
 	########################################################################################################################
 	#	hashut

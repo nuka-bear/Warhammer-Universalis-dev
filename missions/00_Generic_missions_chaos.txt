@@ -199,43 +199,18 @@ gen_chaos_ultimate_missions = {
 		required_missions = {  }
 		position = 9
 		trigger = {
+			has_reform = everchosen_reform
+
 			num_of_owned_provinces_with = {
-				value = 15
-				continent = europe
-			}
-			num_of_owned_provinces_with = {
-				value = 15
-				continent = asia
-			}
-			num_of_owned_provinces_with = {
-				value = 15
-				continent = north_america
-			}
-			num_of_owned_provinces_with = {
-				value = 15
-				continent = africa
-			}
-			num_of_owned_provinces_with = {
-				value = 15
-				continent = south_america
-			}
-			num_of_owned_provinces_with = {
-				value = 15
-				continent = oceania
-			}
-			num_of_owned_provinces_with = {
-				value = 15
-				continent = underempire
-			}
-			num_of_owned_provinces_with = {
-				value = 15
-				continent = chaos_wastes
+				value = 500
+				religion = ROOT
 			}
 		}
 
 		effect = { 
+			custom_tooltip = claim_gain_75_everchosen_favor_tt
 			add_country_modifier = { 
- 				name = chaos_corruption_spreads
+ 				name = chaos_forever_chosen
 				duration = -1
 			}
 		}

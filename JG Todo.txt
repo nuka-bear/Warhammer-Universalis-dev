@@ -30,6 +30,9 @@ Broadly
 		Religious Advisor Icons
 			Do while watching something?
 
+	GFX
+		Stuff surrounding Chaos Centers of Reformation
+
 #############################
 ###### RANDOM THOUGHTS ######
 #############################
@@ -66,7 +69,7 @@ ADd 1 legendary artifact per culture group (like the phoenix crown)
 
 Give the hobgoblins fightiness?
 
-Make the fightiness AI choose nobody if everybody neighboring is at least 2x stronger than them. Should add a little fightiness
+Make the fightiness AI choose nobody if every neighboring is at least 2x stronger than them. Should add a little fightiness
 
 Reduce Southern Old World Development - nobody cares about them!
 
@@ -97,33 +100,29 @@ End Times
 			7) Non-"revolutionary" nations get the "crush the revolution" cb. The "Dismantle the revolution" peace term removes all the revolution/choas corruption. On success, end times over!
 
 		Devastation just for being near him?
-
-		Some way of forcing him to wage war? Event to declare war on neighbors if not at war
-		When he takes a province that has 3 development, or a province is brought to 100% devastation, it becomes decolonized, He will probably immediately colonize it.
 		
-		Bonuses on 5th monarchist thing, but highest bonuses at the start, gettting weaker.
+		Disaster to submit to the Everchosen - for Ruinous poweres neighboring the everchosen
+			Don't make large nations who get the disaster automatically become dominions, particularly if they are good or don't have the right religion.
 
-		Event to make revolutionary places dominions of revolutionary target - Or this is the revolutionary disaster?
+		When Chaos undivided takes a province, it has a chance to convert. Just everchosen? Or everybody? This might not be necessary with the gates
 
-		Think about the government reform - can we have people keep their government reforms, but still be seen as revolutionary?
+		Make them an end game tag? Make them form a new nation, black?
 
-		Non-ruinouspowers should convert to Chaos Undivided
+		Add global_religious_conversion_resistance = -0.1 to some religions, to lower their chances of getting chaos corrupted by gates
 
-		Crush the revolution cb?
+		Decision to destroy a Chaos Gate if you control an area
 
-		When an end times nation takes a province in war, it always goes down to 1/1/1? Or ruin the world decision to strip your own provinces and get immediate boosts every year?
+		Need a CB/Peace offering to get rid of him
 
-		Late game lag - maybe the troops are better instead of there being more of them? Or will the diminshing bonuses help with this?
+		Make the Chaos gate range really high, but a really high factor for same continent
 
-		Need to figure out Nagash - Maybe 4 additional missions for all vampiric nations to ressurect Nagash?
+		Regular events in corruption to give people the option to turn, ending the disaster
 
-		Different disasters for non-ruinous who get corrupted and ruinous to get dominated
-		Disaster for everybody as long as center of revolution exists? Spawning revolutionary stacks? Or just some province events?
+		Multiple gate creation not working
 
-		Change this all from Revolutions to Centers of Reformation & religion based? Probably, yes
 
-		Don't make large nations who get the disaster automatically become dominions, particularly if they are good or don't have the right religion.
-
+Vampiric End Times
+	Need to figure out Nagash - Maybe 4 additional missions for all vampiric nations to ressurect Nagash?
 
 
 
@@ -139,19 +138,31 @@ Kislev
 	No way to gain Patriarch Authority right now
 
 
+Skaven
+	Skaven decision to cause devastation in neighboring provinces
+	Betray special diplomatic action
+	Missions
+		Warpstone
+		urban environments, church things
+		Reduced stab from war, spy, movement, manpower
+	Ultimate is all warp stone at a certain development for weapon of mass destruction decision to nuke enemies
+
 Norscans
 	Add monuments
 	Change Ultimate
+	Needs vision of all nearby seas
 
 Chaos Tribes
 	Government Type should allow estates? Make sure everybody up there is the right gov type and tech group
-
-Skaven
-	Skaven decision to cause devastation in neighboring provinces
+	Add global_heretic_missionary_strength = 0.03
+	Mix up the religions of the different provinces upt north
 
 Empire
+	HRE stuff
+	Unify the religion?
 
 Vampires
+	Something to reduct the alignment relations penalty if they are both in the HRE?
 
 Wood Elves - 1st done
 	Land movement between centers of each wood - Just if it's owned by wood elves?

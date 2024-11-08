@@ -137,7 +137,7 @@ demote_dominion_action = {
     	every_subject_country = {
 			add_trust = {
 			    	who = ROOT
-			    	value = -15
+			    	value = -40
 			    	mutual = yes
 			}
 		}
