@@ -1,0 +1,20 @@
+#### Skaven
+
+
+namespace = skaven
+
+
+### Somebody took our Gray Seer!
+country_event = {
+	id = skaven.1
+	title = skaven.1.t
+	desc = skaven.1.d
+	picture = IMPALED_SOLDIERS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+        name = skaven.1.a
+        ai_chance = { factor = 100 }
+	}
+}

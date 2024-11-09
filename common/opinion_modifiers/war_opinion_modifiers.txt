@@ -19,3 +19,15 @@ both_destruction = {
 	opinion = 20
 	max = 20
 }
+
+
+
+####### Skaven
+
+ravaged_border = {
+	opinion = -25
+	max = 0
+	yearly_decay = 5
+	months = 60
+}
+

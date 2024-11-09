@@ -698,3 +698,99 @@ war_diplo_convert_to_religion = {
         always = yes
     }
 }
+
+
+
+#### Skaven Stuff!
+
+
+kidnap_grey_seer = {
+
+	category = covert
+
+	require_acceptance = no
+
+	is_visible = {
+		religion = horned_rat
+		FROM = { num_of_cardinals = 1 }
+	}
+
+	is_allowed = {
+
+		has_spy_network_in = {
+			who = FROM
+			value = 100
+		}
+
+	}
+
+    on_accept = {
+    	FROM = {
+    		random_owned_province = {
+    			limit = { has_cardinal = yes }
+    			remove_cardinal = yes
+    		}
+
+    		country_event = { 
+			    id = skaven.1
+			}
+    	}
+
+
+		random_owned_province = {
+			limit = { NOT = { has_cardinal = yes }  }
+				add_cardinal = yes = yes
+		}
+    }
+
+    ai_will_do = {
+        always = yes
+    }
+}
+
+
+ravage_borders = {
+
+	category = covert
+
+	require_acceptance = no
+
+	is_visible = {
+		has_country_modifier = skaven_administration
+	}
+
+	is_allowed = {
+
+		has_spy_network_in = {
+			who = FROM
+			value = 50
+		}
+
+	}
+
+    on_accept = {
+
+    	every_neighbor_province = {
+    		limit = { owned_by = FROM }
+    		add_devastation = 25
+    		ROOT = { add_treasury = 5 }
+    	}
+
+    	FROM = {
+			add_opinion = {
+			    who = ROOT
+			    modifier = ravaged_border
+			}
+    	}
+    }
+
+    ai_will_do = {
+        FROM = { has_cardinal = no }
+ 		NOT = {
+ 			has_opinion = {
+				who = FROM
+				value = 25
+			}
+		}       
+    }
+}

@@ -164,7 +164,7 @@ cb_war_end_end_times = {
 	}
 
 	prerequisites = {
-		has_reform = everchosen_reform
+		FROM = { has_reform = everchosen_reform }
 	}
 
 	war_goal = end_end_times_wargoal

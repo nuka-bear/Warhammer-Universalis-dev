@@ -1,0 +1,22 @@
+﻿l_english:
+
+ravaged_border:0 "Our borders were ravaged by skaven."
+
+
+skaven.1.t:0 "Grey Seer-Stench Gone! Stolen!"
+skaven.1.d:0 "Screech-screech! Our blessed Grey Seer, yes-yes, taken-stolen from us, yes! Gone without trace or clue-cause. Who did this? Foul-things all around! Perhaps those cowardly man-things? Elf-things? Filthy dwarf-things?! Can-trust not even other-sneaky rat-rats! This treachery must end-end! We must find-find them, punish-kill the thief-takers—no Grey Seer, no power-power!"
+skaven.1.a:0 "Yes-yes, all are enemies! All will pay-pay!"
+
+kidnap_grey_seer:0 "Kidnap Grey Seer"
+kidnap_grey_seer_title:0 "Kipnap Grey Seer"
+kidnap_grey_seer_desc:0 "Steal-take Grey Seer, yes-yes! Drag-bring him to our nests, yes. He learn-obey, do as told-commanded, yes-yes!"
+kidnap_grey_seer_tooltip:0 "Steal-take Grey Seer, yes-yes! Drag-bring him to our nests, yes. He learn-obey, do as told-commanded, yes-yes!"
+kidnap_grey_seer_alert_tooltip:0 "Steal-take Grey Seer, yes-yes! Drag-bring him to our nests, yes. He learn-obey, do as told-commanded, yes-yes!"
+
+ravage_borders:0 "Ravage Borders"
+ravage_borders_title:0 "Ravage Borders"
+ravage_borders_desc:0 "Raid-burn neighbor lands, yes-yes! Spread ruin-devastation, steal-take shiny things for us-us! (Add 50 devastation in enemy bordering provinces, and get 5 gold for each)"
+ravage_borders_tooltip:0 "Raid-burn neighbor lands, yes-yes! Spread ruin-devastation, steal-take shiny things for us-us! (Add 50 devastation in enemy bordering provinces, and get 5 gold for each)"
+ravage_borders_alert_tooltip:0 Raid-burn neighbor lands, yes-yes! Spread ruin-devastation, steal-take shiny things for us-us! (Add 50 devastation in enemy bordering provinces, and get 5 gold for each)"
+
+

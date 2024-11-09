@@ -78,7 +78,9 @@ Dominion tweaks
 	+5% more liberty desire
 	Demoting a dominion lowers all trust by 30
 
-Unification war to make a dominion lowers the dominion cost by too much - 
+Allow elven religions to convert to each other. Sam with human religions? Most religions?
+
+Add Clan Pestilens to Southlands, and A skaven to old world?
 
 
 #############################
@@ -144,6 +146,18 @@ Skaven
 		urban environments, church things
 		Reduced stab from war, spy, movement, manpower
 	Ultimate is all warp stone at a certain development for weapon of mass destruction decision to nuke enemies
+	Plus liberty desire and liberty desire for subjects
+	They create devastation in own and nearby provinces
+	Terrible diplomatic reputation -3 or something.
+	Special spy actions? Devastation in neighboring provinces?
+	Panama Canal
+	Poor war exhaustion
+	Piper prestige and legitimacy too but reduced power cost
+	Give them access to all the diplomatic actions early
+	How to make these two actions not require a diplomat?
+		Kidnap Gray Seer
+		Ravage Border Lands
+
 
 Norscans
 	Add monuments
@@ -172,6 +186,7 @@ Dark Elf - 1st done
 
 High Elves - 1st done
 	Need a little more oomph here
+	Ultimate mission highlight not working
 
 
 Lizards - 1st done
