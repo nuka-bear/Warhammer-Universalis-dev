@@ -455,6 +455,11 @@ ruinous_powers_denominations = {
 			add_prestige = -50
 			add_stability = -2
 			add_yearly_manpower = -1.0
+			remove_country_modifier = order_nation
+			add_country_modifier = { 
+			    name = destruction_nation
+			    duration = -1  
+			}
 		}	
 		aspects_name = ANGLICAN_ASPECTS
 	}
@@ -486,6 +491,11 @@ ruinous_powers_denominations = {
 			add_prestige = -50
 			add_stability = -2
 			add_yearly_manpower = -1.0
+			remove_country_modifier = order_nation
+			add_country_modifier = { 
+			    name = destruction_nation
+			    duration = -1  
+			}
 		}	
 		heretic = {
 			CHAOS_HERETIC
@@ -516,6 +526,11 @@ ruinous_powers_denominations = {
 			add_prestige = -50
 			add_stability = -2
 			add_yearly_manpower = -1.0
+			remove_country_modifier = order_nation
+			add_country_modifier = { 
+			    name = destruction_nation
+			    duration = -1  
+			}
 		}	
 		heretic = {
 			CHAOS_HERETIC
@@ -547,6 +562,11 @@ ruinous_powers_denominations = {
 			add_prestige = -50
 			add_stability = -2
 			add_yearly_manpower = -1.0
+			remove_country_modifier = order_nation
+			add_country_modifier = { 
+			    name = destruction_nation
+			    duration = -1  
+			}
 		}
 		allowed_conversion = {
 			nurglite_religion
@@ -615,6 +635,11 @@ ruinous_powers_denominations = {
 			add_prestige = -50
 			add_stability = -2
 			add_yearly_manpower = -1.0
+			remove_country_modifier = order_nation
+			add_country_modifier = { 
+			    name = destruction_nation
+			    duration = -1  
+			}
 		}
 
 		allowed_conversion = {
@@ -654,11 +679,12 @@ ruinous_powers_denominations = {
 		}
 
 		will_get_center = {
-			any_owned_province = {
-				can_have_center_of_reformation_trigger = {
-					RELIGION = chaos_undivided_religion
-				}
-			}
+			always = yes
+#			any_owned_province = {
+#				can_have_center_of_reformation_trigger = {
+#					RELIGION = chaos_undivided_religion
+#				}
+#			}
 		}
 
 

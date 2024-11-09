@@ -10,7 +10,6 @@
 
 
 
-
  end_times_events.1.t:0 "Despoil our Lands"
  end_times_events.1.d:0 "The Chaos Gods question our loyalty. If we are to bring about the End Times, why are our lands so verdant? They demand we sack and pillage our cities, and lay our own people to the sword."
  end_times_events.1.option_1:0 "Splendid idea!"
@@ -22,6 +21,16 @@
  end_times_events.2.d:0 "There is an open gate to in our world. As long as there is an open Gate, Chaos corrupts our land. Corrupted individuals roam our streets. Do we round them up and put them down? Or attempt to integrate them peacefully?"
  end_times_events.2.option_1:0 "Kill Them!"
  end_times_events.2.option_2:0 "Maybe we can pacify them, for now"
+
+
+ end_times_events.3.t:0 "Bring About Ruin"
+ end_times_events.3.d:0 "The End Times are here, and we have sat in peace for far too long. Swift violence is needed to destroy the world. The Gods demand we choose another target."
+ end_times_events.3.option_1:0 "They should do nicely"
+ end_times_events.3.option_2:0 "Or perhaps them?"
+ end_times_events.3.option_3:0 "These weaklings, surely"
+ end_times_events.3.option_4:0 "They deserve a painful death."
+ end_times_events.3.option_5:0 "The people may not like it, but we need a break."
+
 
 
 submit_to_everchosen.1.t:0 "Submit to the Everchosen"
@@ -36,6 +45,8 @@ chaos_undivided_center_of_reformation:0 "Chaos Gate"
 chaos_undivided_center_of_reformation_title:0 "Chaos Gate"
 chaos_undivided_center_of_reformation_desc:0 "Chaos Gate"
 desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
+
+ chaos_undivided_religion_center_of_reformation:0 "Chaos Gate"
 
 
 
@@ -52,7 +63,7 @@ desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
 
 
  everchosen_events.1.t:0 "Bring About Ruin"
- everchosen_events.1.d:0 "We have sat in peace for far too long. Swift violence is needed to destroy the world. The Gods demand we choose another target."
+ everchosen_events.1.d:0 "The End Times are here, and we have sat in peace for far too long. Swift violence is needed to destroy the world. The Gods demand we choose another target."
  everchosen_events.1.option_1:0 "They should do nicely"
  everchosen_events.1.option_2:0 "Or perhaps them?"
  everchosen_events.1.option_3:0 "These weaklings, surely"
@@ -71,4 +82,62 @@ desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
 
   everchosen_personality:0 "Everchosen"
   everchosen_personality_desc:0 "An Everchosen is a Chaos Demon who has earned the favor of all four Chaos Gods."
+
+
+
+
+  #### Ending the End Times
+
+  cb_war_end_end_times:0 "Bring Down the Everchosen"
+  cb_war_end_end_times_desc:0 "Attempt to take down the Everchosen and end the End Times."
+
+  end_end_times_wargoal:0 "Take their capital"
+
+  END_END_TIMES_WAR_NAME:0 "End Times War"
+
+  PEACE_po_end_end_times:0 "End the End Times"
+  CB_ALLOWED_po_end_end_times:0 "End the End Times"
+  po_end_end_times_desc:0 "You will put an end to the end times."
+
+  end_end_times_event_tt:0 "Put an end to it. End the end times."
+
+
+  end_times_events.2000.t:0 "The Everchosen Falls"
+  end_times_events.2000.d:0 "In an event that shakes the very foundations of the world, the Everchosen has been defeated, and the unholy tide of Chaos is finally broken. Across the land, the fires of rebellion and the taint of corruption are snuffed out, as if a dark cloud lifts from the world. The End Times, once thought inevitable, have come to a close, ushering in a new age of hope."
+  end_times_events.2000.option_1:0 "The darkness has lifted at last"
+
+  end_times_events.2000.option_1.tt:0 "Every non-chaos country gains 2 stability, loses 2 war exhaustion, and gains a permanent bonus to morale and religious unity."
+
+  survived_the_end_times:0 "Survived the End Times"
+  survived_the_end_times_desc:0 "We survived the end times on the side of good."
+
+
+
+#### CHAOS CORRUPTION EVENTS
+
+  chaos_corruption_events.2.t:0 "The Slaaneshi Seduction"
+chaos_corruption_events.2.d:0 "Whispers of indulgence and ecstasy sweep through your land as cults of Slaanesh emerge, spreading their influence over your people. The allure of hedonistic pleasures beckons many to abandon their former beliefs."
+chaos_corruption_events.2.option_1:0 "Let them indulge in their desires"
+chaos_corruption_events.2.option_2:0 "Embrace the worship of Slaanesh"
+
+chaos_corruption_events.3.t:0 "Nurgle's Rot"
+chaos_corruption_events.3.d:0 "A vile disease spreads across your lands, a manifestation of Nurgle's 'gifts' that weakens the resolve of your people and festers rebellion. Some, however, see it as a blessing rather than a curse."
+chaos_corruption_events.3.option_1:0 "Accept the Plaguebearers among us"
+chaos_corruption_events.3.option_2:0 "Embrace the worship of Nurgle"
+
+chaos_corruption_events.4.t:0 "Blood for the Blood God"
+chaos_corruption_events.4.d:0 "A surge of violent fervor overtakes your realm as Khorne's followers demand blood and skulls. Battle-thirsty cultists rally to spread chaos and fulfill the will of the Blood God."
+chaos_corruption_events.4.option_1:0 "Let them fight each other to exhaustion"
+chaos_corruption_events.4.option_2:0 "Embrace the worship of Khorne"
+
+chaos_corruption_events.5.t:0 "Tzeentch's Trickery"
+chaos_corruption_events.5.d:0 "Reality begins to twist and warp as Tzeentch’s influence grows, with bizarre occurrences unsettling the people. In the confusion, those loyal to the Changer of Ways find an opportunity to gain followers."
+chaos_corruption_events.5.option_1:0 "Allow the madness to play out"
+chaos_corruption_events.5.option_2:0 "Embrace the worship of Tzeentch"
+
+chaos_corruption_events.6.t:0 "Corruption of Chaos Undivided"
+chaos_corruption_events.6.d:0 "Your estates are overrun by fanatics who worship Chaos in all its aspects. Nobles, clergy, and merchants alike fall to corruption, threatening stability across your land."
+chaos_corruption_events.6.option_1:0 "Purge the estates of their heretical elements"
+chaos_corruption_events.6.option_2:0 "Embrace the path of Chaos Undivided"
+
 

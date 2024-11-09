@@ -78,6 +78,8 @@ Dominion tweaks
 	+5% more liberty desire
 	Demoting a dominion lowers all trust by 30
 
+Unification war to make a dominion lowers the dominion cost by too much - 
+
 
 #############################
 ###### END TIMES ######
@@ -100,25 +102,21 @@ End Times
 			7) Non-"revolutionary" nations get the "crush the revolution" cb. The "Dismantle the revolution" peace term removes all the revolution/choas corruption. On success, end times over!
 
 		Devastation just for being near him?
-		
-		Disaster to submit to the Everchosen - for Ruinous poweres neighboring the everchosen
-			Don't make large nations who get the disaster automatically become dominions, particularly if they are good or don't have the right religion.
-
-		When Chaos undivided takes a province, it has a chance to convert. Just everchosen? Or everybody? This might not be necessary with the gates
 
 		Make them an end game tag? Make them form a new nation, black?
-
-		Add global_religious_conversion_resistance = -0.1 to some religions, to lower their chances of getting chaos corrupted by gates
-
-		Decision to destroy a Chaos Gate if you control an area
 
 		Need a CB/Peace offering to get rid of him
 
 		Make the Chaos gate range really high, but a really high factor for same continent
 
-		Regular events in corruption to give people the option to turn, ending the disaster
-
 		Multiple gate creation not working
+				Decision to destroy a Chaos Gate if you control an area?
+
+		Prevent everchosen from converting?
+
+		Backup to end the endtimes if the everchosen is gone
+
+
 
 
 Vampiric End Times
@@ -151,6 +149,7 @@ Norscans
 	Add monuments
 	Change Ultimate
 	Needs vision of all nearby seas
+	Number of Flagships?
 
 Chaos Tribes
 	Government Type should allow estates? Make sure everybody up there is the right gov type and tech group

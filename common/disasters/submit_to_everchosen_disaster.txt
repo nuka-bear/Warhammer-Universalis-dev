@@ -20,11 +20,11 @@ submit_to_everchosen = {
 
 	}
 	can_stop = {
-
-		NOT = { religion_group = ruinous_powers_denominations }
-		NOT = { any_neighbor_country  = { has_reform = everchosen_reform } }
-		is_subject = yes
-
+		OR = {
+			NOT = { religion_group = ruinous_powers_denominations }
+			NOT = { any_neighbor_country  = { has_reform = everchosen_reform } }
+			is_subject = yes
+		}
 	}
 	
 	progress = {
@@ -67,15 +67,15 @@ submit_to_everchosen = {
 	}
 
 	can_end = {
-
-		NOT = { any_country = { has_reform = everchosen_reform } }
-		NOT = { religion_group = ruinous_powers_denominations}
-		is_subject = yes
-		
+		OR = {
+			NOT = { any_country = { has_reform = everchosen_reform } }
+			NOT = { religion_group = ruinous_powers_denominations}
+			is_subject = yes
+		}
 	}
 
 	modifier = {
-		global_unrest = 10
+		global_unrest = 4
 		stability_cost_modifier = 0.1
 	}
 
@@ -83,8 +83,8 @@ submit_to_everchosen = {
 	on_end = 0 #chaos_corruption.9
 	on_monthly = {
 		random_events = {
-			1000 = 0
-#			100 = revolution.2
+			1100 = 0
+			100 = submit_to_everchosen.1
 #			100 = revolution.3
 #			100 = revolution.4
 #			100 = revolution.5

@@ -154,6 +154,23 @@ cb_war_racial_raiding = {
 		po_transfer_vassals
 		po_force_dominion
 	}
+}
+
+cb_war_end_end_times = {
+	valid_for_subject = yes
+
+	prerequisites_self = {
+		NOT = { religion_group = ruinous_powers_denominations }
+	}
+
+	prerequisites = {
+		has_reform = everchosen_reform
+	}
+
+	war_goal = end_end_times_wargoal
+
+	attacker_disabled_po = {
+	}
 }	
 
 

@@ -254,3 +254,28 @@ wg_war_k8p = {
 	war_name = WAR_FOR_KARAK_EIGHT_PEAKS_WAR_NAME	
 }
 
+
+
+end_end_times_wargoal = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 1.0
+		peace_cost_factor = 0.5
+		
+		peace_options = {
+		}
+	}
+	
+	defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+		}
+	}
+
+	war_name = END_END_TIMES_WAR_NAME
+}

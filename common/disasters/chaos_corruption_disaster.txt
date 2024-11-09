@@ -5,6 +5,7 @@ chaos_corruption_disaster = {
 	ended_by_country_breaking_to_rebels = no
 	potential = {
 		NOT = { religion_group = ruinous_powers_denominations }
+		NOT = { religious_unity = 1.0 }
 	}
 
 	can_start = {
@@ -14,10 +15,15 @@ chaos_corruption_disaster = {
 		}
 
 	}
+
 	can_stop = {
-		NOT = { any_owned_province = { religion_group = ruinous_powers_denominations } }
-		religion_group = ruinous_powers_denominations
+		OR = {
+			NOT = { any_owned_province = { religion_group = ruinous_powers_denominations } }
+			religion_group = ruinous_powers_denominations
+			religious_unity = 1.0
+		}
 	}
+
 	progress = {
 
 ### Good Religious Unity
@@ -115,25 +121,26 @@ chaos_corruption_disaster = {
 	}
 
 	can_end = {
-		NOT = { any_owned_province = { religion_group = ruinous_powers_denominations } }
-		religion_group = ruinous_powers_denominations
+		OR = {
+			NOT = { any_owned_province = { religion_group = ruinous_powers_denominations } }
+			religion_group = ruinous_powers_denominations
+			religious_unity = 1.0
+		}
 	}
 	modifier = {
-		global_unrest = 10
+		global_unrest = 2
 		stability_cost_modifier = 0.1
 	}
 	on_start = 0 #chaos_corruption.1
 	on_end = 0 #chaos_corruption.9
 	on_monthly = {
 		random_events = {
-			1000 = 0
-#			100 = revolution.2
-#			100 = revolution.3
-#			100 = revolution.4
-#			100 = revolution.5
-#			100 = revolution.6
-#			100 = revolution.7
-#			100 = revolution.8
+			2000 = 0
+			100 = chaos_corruption.2
+			100 = chaos_corruption.3
+			100 = chaos_corruption.4
+			100 = chaos_corruption.5
+			100 = chaos_corruption.6
 		}
 	}
 }

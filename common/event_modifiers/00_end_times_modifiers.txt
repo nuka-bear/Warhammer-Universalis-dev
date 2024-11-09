@@ -1,0 +1,5 @@
+
+survived_the_end_times = {
+	land_morale = 0.05
+	religious_unity = 0.10
+}
