@@ -232,8 +232,19 @@ skaven_administration = {
 	diplomats = 1
 	production_efficiency = 0.10	
 	spy_offence = 0.5
+	envoy_travel_time = -0.8
 	global_colonial_growth = 20
-	reduced_stab_impacts = yes		
+	reduced_stab_impacts = yes
+
+	may_infiltrate_administration = yes
+	may_steal_maps = yes
+	may_study_technology = yes
+	may_slander_merchants = yes
+	may_sabotage_recruitment = yes
+	may_sow_discontent = yes
+	may_sabotage_reputation = yes
+	may_corrupt_officials = yes
+	may_agitate_for_liberty = yes
 	
 	#Negatives
 	diplomatic_reputation = -3

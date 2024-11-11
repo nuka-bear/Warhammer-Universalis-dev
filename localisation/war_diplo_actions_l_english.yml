@@ -1,0 +1,31 @@
+﻿l_english:
+
+
+#### Convert through convincing
+
+war_diplo_convert_to_religion: "Convert Them"
+war_diplo_convert_to_religion_title: "Convert Them"
+war_diplo_convert_to_religion_desc: "Convert them to our religion.\nImprove these chances by improving relations, trust, favors, and diplomatic reputation. If they have poor religious unity, you have 4 or more missionaries, or their capital is your religion, then they are more likely to accept."
+war_diplo_convert_to_religion_tooltip: "Convert them to our religion.\nImprove these chances by improving relations, trust, favors, and diplomatic reputation. If they have poor religious unity, you have 4 or more missionaries, or their capital is your religion, then they are more likely to accept."
+
+
+BAD_UNITY:0 "They have poor religious unity"
+REALLY_BAD_UNITY:0 "They have extremely poor religious unity"
+MANY_MISSIONARIES:0 "We have have at least four missionaries"
+CAPITAL_RELIGION:0 "They already have our religion in their capital!"
+
+tooltip_offer_dominion_alert_tooltip:0 "We can convert a friend to our religion."
+
+
+
+#### Convert through espionage/cults
+
+hidden_cult:0 "Hidden Cult"
+desc_hidden_cult:0 "A secret cult thrives in the shadows, quietly sowing discord and unrest. It's enthusiasm will wane over time."
+
+
+ implant_cult:0 "Implant Cult"
+ implant_cult_title:0 "Implant Cult"
+ implant_cult_desc:0 "Implant a cult to your religion in one of their provinces. This cult will be protected and cause unrest for two years before the enthusiasm dried up. The province will remain your religion until converted back."
+ implant_cult_tooltip:0 "Implant a cult to your religion in one of their provinces. This cult will be protected and cause unrest for two years before the enthusiasm dried up. The province will remain your religion until converted back."
+

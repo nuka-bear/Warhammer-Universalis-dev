@@ -15,8 +15,90 @@ kidnap_grey_seer_alert_tooltip:0 "Steal-take Grey Seer, yes-yes! Drag-bring him 
 
 ravage_borders:0 "Ravage Borders"
 ravage_borders_title:0 "Ravage Borders"
-ravage_borders_desc:0 "Raid-burn neighbor lands, yes-yes! Spread ruin-devastation, steal-take shiny things for us-us! (Add 50 devastation in enemy bordering provinces, and get 5 gold for each)"
-ravage_borders_tooltip:0 "Raid-burn neighbor lands, yes-yes! Spread ruin-devastation, steal-take shiny things for us-us! (Add 50 devastation in enemy bordering provinces, and get 5 gold for each)"
-ravage_borders_alert_tooltip:0 Raid-burn neighbor lands, yes-yes! Spread ruin-devastation, steal-take shiny things for us-us! (Add 50 devastation in enemy bordering provinces, and get 5 gold for each)"
+ravage_borders_desc:0 "Raid-burn neighbor lands, yes-yes! Spread ruin-devastation, steal-take shiny things for us-us! (Add 10 devastation in a random enemy bordering province)"
+ravage_borders_tooltip:0 "Raid-burn neighbor lands, yes-yes! Spread ruin-devastation, steal-take shiny things for us-us! (Add 10 devastation in a random enemy bordering province)"
+ravage_borders_alert_tooltip:0 "Raid-burn neighbor lands, yes-yes! Spread ruin-devastation, steal-take shiny things for us-us! (Add 10 devastation in a random enemy bordering province)"
 
 
+skaven_nobles:0 "Sneaky Tall-Nose Allies"
+desc_skaven_nobles:0 "Yes-yes, Skaven gain-gain many allies (fake-friends!), now all trust-favor our schemes, yes! Hide-hide sneaky true plans."
+
+skaven_siege:0 "Tunnel-Dig Tactics"
+desc_skaven_siege:0 "Clan Skryre-ways, twist-tunnels under walls, collapse-stone fall! Enemies weak-weak, Skaven rush-take! Yes-yes!"
+
+skaven_ratways:0 "Hidden-Quick Paths"
+desc_skaven_ratways:0 "Sneak-quick paths! Secret ways all around-below, yes-yes, Skaven move-move fast-fast, not like slow-stupid others!"
+
+skaven_warpstone_1:0 "Warpstone Trinkets"
+desc_skaven_warpstone_1:0 "Hold-hold warpstone, use-use warpstone, feel-feel power! All schemes, spells get-get cheaper!"
+
+skaven_warpstone_2:0 "Warpstone Supply Surge"
+desc_skaven_warpstone_2:0 "More-more warpstone! Costs drop-fall, schemes and spells grow-strong!"
+
+skaven_spies:0 "Whisker-Watchers"
+desc_skaven_spies:0 "Many-many spies, long-long tails, yes-yes, learn secrets, find-find all!"
+
+skaven_backstab:0 "Clan 'Allies'"
+desc_skaven_backstab:0 "Trust, fake-friend fools! More diplomats to trick-lie, and backstab-backstab when ready, yes-yes!"
+
+skaven_ultimate:0 "Skaven-Mind Supremacy!"
+desc_skaven_ultimate:0 "Tech for Clan, schemes easy-cheap! Progress like never before, yes-yes!"
+
+skaven_more_influence:0 "Grey-Seers Approve-Approve"
+desc_skaven_more_influence:0 "Grey Seers bless Skaven! Power grow-grow, schemes better with Horned Rat's favor."
+
+skaven_cheaper_effects:0 "Seer Gifts-Blessings"
+desc_skaven_cheaper_effects:0 "Grey Seers, secret favors, gifts of influence. All favors get-get cheaper!"
+
+skaven_even_more_influence:0 "Blessing of Thirteen"
+desc_skaven_even_more_influence:0 "Blessings from Grey Seers! Power, influence stronger-grow, Council listens!"
+
+skaven_historical_leader:0 "Council of Thirteen Power-Grab"
+desc_skaven_historical_leader:0 "Clan rises to lead Council! All lesser clans fall-become servants under, yes-yes!"
+
+# Missions
+gen_skaven_please_nobility_title:0 "Trick-Trick Nobles"
+gen_skaven_please_nobility_desc:0 "Convince-convince big-nose nobles that Skaven are civilized, like-mice. Make make them work-work for us!"
+
+gen_skaven_take_cities_title:0 "Take-Take Big Cities!"
+gen_skaven_take_cities_desc:0 "All big cities, yes-yes! Full of weak soft things, food for Skaven. Practice tunnel-dig siege!"
+
+gen_skaven_the_ratways_title:0 "Expand-Build Ratways!"
+gen_skaven_the_ratways_desc:0 "Spread tunnels, spread paths! Travel fast-far under surface, surprise surprise everyone!"
+
+gen_skaven_aquire_warpstone_title:0 "Find-Get Warpstone!"
+gen_skaven_aquire_warpstone_desc:0 "Must-must have warpstone for schemes, magic! Steal it, hoard it, power Skaven machines!"
+
+gen_skaven_trading_in_warpstone_title:0 "Warpstone Trade-Control"
+gen_skaven_trading_in_warpstone_desc:0 "Skaven trade-masters control warpstone. All cost cheap-cheap, plans become better!"
+
+gen_skaven_ready_the_knife_title:0 "Sharpen-Clean Knife"
+gen_skaven_ready_the_knife_desc:0 "Build-build trust with fake-friends! Ready knives for stab-stab when right moment comes!"
+
+gen_skaven_stab_in_the_back_title:0 "Stab-Stab the Ally!"
+gen_skaven_stab_in_the_back_desc:0 "Trust us, yes-yes! Then, when ally lowers guard, Skaven quick-stab back, take-take what’s ours!"
+
+gen_skaven_ultimate_mission_title:0 "Make-Build Doommaker"
+gen_skaven_ultimate_mission_desc:0 "Take-take all warpstone, rule the world, unstoppable-yes! Skaven rise-rise with warpstone!"
+
+# Horned Rat Missions
+gen_horned_rat_happy_priest_title:0 "Grey Seers Happy-Happy"
+gen_horned_rat_happy_priest_desc:0 "Please Grey Seers, make them loyal-happy to Clan! Blessings come, all Clans bow-bow to us!"
+
+gen_horned_rat_three_cardinals_title:0 "Grey Seer’s Gifts"
+gen_horned_rat_three_cardinals_desc:0 "Secure favor from three Grey Seers. Their blessings make-schemes cheaper, get power rise-rise!"
+
+gen_horned_rat_is_controller_title:0 "Master of the Council"
+gen_horned_rat_is_controller_desc:0 "Control Council of Thirteen, all Clans under Claw! Power most-most mighty, yes-yes!"
+
+gen_horned_rat_seven_cardinals_title:0 "Majority Rule, Yes-Yes!"
+gen_horned_rat_seven_cardinals_desc:0 "Gain-gain a majority on the Council. Other clans follow, obey, Skaven rise-rise mighty!"
+
+gen_skaven_raid_30_title:0 "Raid-Raid the Softlands!"
+gen_skaven_raid_30_desc:0 "Weak lands, fat cities, yes-yes! Steal-steal treasures, strip-burn their riches, weaken them!"
+
+gen_skaven_raid_40_title:0 "Even Bigger Raid!"
+gen_skaven_raid_40_desc:0 "Rich cities, big-big wealth, so much to take! Grab-grab more, make them fear Skaven might!"
+
+gen_skaven_raid_50_title:0 "Great-Great Raid!"
+gen_skaven_raid_50_desc:0 "Biggest raid yet! Richest cities, strip-burn down to ruin. All shall know Skaven strength-might!"

@@ -5,7 +5,3 @@ recently_raided = {
 lets_raid_modifier = {
 	loot_amount = 0.50
 }
-
-asrai_insulting = {
-	power_projection_from_insults = 1.0
-}

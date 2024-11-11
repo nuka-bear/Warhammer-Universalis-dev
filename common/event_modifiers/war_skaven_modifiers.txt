@@ -1,0 +1,52 @@
+
+
+
+skaven_nobles = {
+	diplomatic_reputation = 0.5
+}
+
+skaven_siege = {
+	siege_ability = 0.10
+}
+
+skaven_ratways = {
+	local_friendly_movement_speed = 0.1
+}
+
+skaven_warpstone_1 = {
+	all_power_cost = -0.01
+}
+
+skaven_warpstone_2 = {
+	all_power_cost = -0.01
+}
+
+skaven_spies = {
+	spy_offence = 0.20
+}
+
+skaven_backstab = {
+	spy_action_cost_modifier = -0.2
+	diplomats = 1
+}
+
+skaven_ultimate = {
+	technology_cost = -0.5
+	idea_cost = -0.5
+}
+
+skaven_more_influence = {
+	papal_influence = 1.0
+}
+
+skaven_cheaper_effects = {
+	curia_powers_cost = -0.1
+}
+
+skaven_even_more_influence = {
+	papal_influence_from_cardinals = 0.5
+}
+
+skaven_historical_leader = {
+	reverse_relation_with_same_religion = 25
+}

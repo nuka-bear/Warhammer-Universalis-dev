@@ -80,7 +80,17 @@ Dominion tweaks
 
 Allow elven religions to convert to each other. Sam with human religions? Most religions?
 
-Add Clan Pestilens to Southlands, and A skaven to old world?
+Add Clan Pestilens to Southlands, and A skaven to old world bookmark
+
+Fix all the "Great power rank" triggers
+
+Loss of Cultural Monument Triggered modifiers
+	Tomb of Settra, Skavenblight, Eatine Place, Karak, Zhar, Imperial City
+
+
+Make various diplomatic actions cause a pop-up for the receiver. And offers?
+	Offer to become dominion action?
+
 
 
 #############################
@@ -139,24 +149,22 @@ Kislev
 
 
 Skaven
-	Skaven decision to cause devastation in neighboring provinces
-	Betray special diplomatic action
+	Betray special diplomatic action?
 	Missions
 		Warpstone
 		urban environments, church things
 		Reduced stab from war, spy, movement, manpower
 	Ultimate is all warp stone at a certain development for weapon of mass destruction decision to nuke enemies
-	Plus liberty desire and liberty desire for subjects
 	They create devastation in own and nearby provinces
-	Terrible diplomatic reputation -3 or something.
-	Special spy actions? Devastation in neighboring provinces?
 	Panama Canal
-	Poor war exhaustion
-	Piper prestige and legitimacy too but reduced power cost
 	Give them access to all the diplomatic actions early
-	How to make these two actions not require a diplomat?
+	How to make these two actions not require a diplomat? - NEED TO MAKE THESE REDUCE SPY NETWORK!
 		Kidnap Gray Seer
 		Ravage Border Lands
+		Also, AI aren't doing them?
+	Put all the Skaven Capitals in the underdark - makes diplomacy easier
+	Betryal missions - Mission that causes you to declare war on a 100 truwt ally, high opinion ally, makes them a rival?
+	Special Betrayal Casus Beli for attacking Allies?
 
 
 Norscans
@@ -176,6 +184,7 @@ Empire
 
 Vampires
 	Something to reduct the alignment relations penalty if they are both in the HRE?
+		A start of game event that slowly diminishes?
 
 Wood Elves - 1st done
 	Land movement between centers of each wood - Just if it's owned by wood elves?

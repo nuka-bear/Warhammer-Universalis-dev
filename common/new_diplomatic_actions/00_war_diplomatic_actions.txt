@@ -149,7 +149,7 @@ demote_dominion_action = {
     }
 
     ai_will_do = {
-        always = yes
+        factor = 10000
     }
 }
 
@@ -418,7 +418,7 @@ offer_dominion_action = {
     }
 
     ai_will_do = {
-        always = yes
+        factor = 10000
     }
 }
 
@@ -490,6 +490,13 @@ war_diplo_convert_to_religion = {
 		add_entry = {
 			name = MANY_MISSIONARIES
 			limit = { num_of_missionaries = 4 }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = 15 }
+		}
+
+		add_entry = {
+			name = CAPITAL_RELIGION
+			limit = { FROM = { capital_scope = { religion = ROOT } } }
 			export_to_variable = { variable_name = ai_value value = 1 }
 			multiply_variable = { which = ai_value value = 15 }
 		}
@@ -695,102 +702,99 @@ war_diplo_convert_to_religion = {
     }
 
     ai_will_do = {
-        always = yes
+        factor = 100
     }
 }
 
 
 
-#### Skaven Stuff!
-
-
-kidnap_grey_seer = {
+implant_cult = {
 
 	category = covert
 
 	require_acceptance = no
 
 	is_visible = {
-		religion = horned_rat
-		FROM = { num_of_cardinals = 1 }
+		FROM = {
+			any_owned_province = {
+				NOT = { religion = ROOT }
+			}
+		}
 	}
 
 	is_allowed = {
-
 		has_spy_network_in = {
 			who = FROM
-			value = 100
+			value = 75
 		}
-
 	}
 
     on_accept = {
-    	FROM = {
-    		random_owned_province = {
-    			limit = { has_cardinal = yes }
-    			remove_cardinal = yes
-    		}
-
-    		country_event = { 
-			    id = skaven.1
-			}
+    	FROM = { 
+	    	random_owned_province = {
+	    		limit = { NOT = { religion = ROOT } }
+	    		change_religion = ROOT
+	    		add_province_modifier = { 
+				    name = hidden_cult
+				    duration = 730
+				}
+	    	}
     	}
 
-
-		random_owned_province = {
-			limit = { NOT = { has_cardinal = yes }  }
-				add_cardinal = yes = yes
+		add_spy_network_in = {
+		    who = FROM
+		    value = -75
 		}
+
     }
 
     ai_will_do = {
-        always = yes
-    }
-}
 
+    	factor = 1
 
-ravage_borders = {
-
-	category = covert
-
-	require_acceptance = no
-
-	is_visible = {
-		has_country_modifier = skaven_administration
-	}
-
-	is_allowed = {
-
-		has_spy_network_in = {
-			who = FROM
-			value = 50
-		}
-
-	}
-
-    on_accept = {
-
-    	every_neighbor_province = {
-    		limit = { owned_by = FROM }
-    		add_devastation = 25
-    		ROOT = { add_treasury = 5 }
-    	}
-
-    	FROM = {
-			add_opinion = {
-			    who = ROOT
-			    modifier = ravaged_border
-			}
-    	}
-    }
-
-    ai_will_do = {
-        FROM = { has_cardinal = no }
- 		NOT = {
- 			has_opinion = {
+    	modifier = {
+    		factor = 0
+	 		has_opinion = {
 				who = FROM
-				value = 25
+				value = -25
 			}
-		}       
+		}
+
+		modifier = {
+    		factor = 10
+    		OR = {
+    			religion_group = necromantic_denominations
+    			religion_group = ruinous_powers_denominations
+    		}
+		}
+
+		modifier = {
+    		factor = 10
+	 		NOT = {
+	 			has_opinion = {
+					who = FROM
+					value = -100
+				}
+			}
+		}
+
+		modifier = {
+    		factor = 0.5
+	 		NOT = { is_neighbor_of = FROM }
+		}
+
+		modifier = {
+    		factor = 10
+	 		is_part_of_hre = yes
+	 		FROM = { is_part_of_hre = yes }
+		}
+
+		modifier = {
+    		factor = 50
+	 		religion = cytharai
+	 		FROM = { religion = cadai }
+		}
     }
 }
+
+

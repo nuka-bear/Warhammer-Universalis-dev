@@ -25,6 +25,11 @@ asrai_motivated_building = {
 	great_project_upgrade_cost = -0.5
 }
 
+
+asrai_insulting = {
+	power_projection_from_insults = 1.0
+}
+
 asrai_powerful_magic = {
 	all_power_cost = -0.25
 }

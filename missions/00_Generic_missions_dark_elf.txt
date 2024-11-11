@@ -304,7 +304,7 @@ gen_cytharai_missions = {
 					}
 				change_religion = cytharai
 				add_province_modifier = { 
-    				name = hidden_cytharai_cult
+    				name = hidden_cult
     				duration = 9125
     				hidden = no
 				}
@@ -316,7 +316,7 @@ gen_cytharai_missions = {
 					}
 				change_religion = cytharai
 				add_province_modifier = { 
-    				name = hidden_cytharai_cult
+    				name = hidden_cult
     				duration = 9125
     				hidden = no
 				}
@@ -328,7 +328,7 @@ gen_cytharai_missions = {
 					}
 				change_religion = cytharai
 				add_province_modifier = { 
-    				name = hidden_cytharai_cult
+    				name = hidden_cult
     				duration = 9125
     				hidden = no
 				}
@@ -340,7 +340,7 @@ gen_cytharai_missions = {
 					}
 				change_religion = cytharai
 				add_province_modifier = { 
-    				name = hidden_cytharai_cult
+    				name = hidden_cult
     				duration = 9125
     				hidden = no
 				}
@@ -352,7 +352,7 @@ gen_cytharai_missions = {
 					}
 				change_religion = cytharai
 				add_province_modifier = { 
-    				name = hidden_cytharai_cult
+    				name = hidden_cult
     				duration = 9125
     				hidden = no
 				}
@@ -370,8 +370,10 @@ gen_cytharai_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_cytharai_missionaries_abroad }
 		provinces_to_highlight = {
-            has_province_modifier = hidden_cytharai_cult
-        } 
+			religion = cytharai
+			owner = { NOT = { religion = cytharai } }
+			owner = { religion_group = elven_denominations }
+        }
 		trigger = {
 			treasury = 250
 		}
@@ -379,11 +381,15 @@ gen_cytharai_missions = {
 		effect = {
 			add_treasury = -250
 			every_province = {
-				limit = { has_province_modifier = hidden_cytharai_cult }
+				limit = {
+					religion = cytharai
+					owner = { NOT = { religion = cytharai } }
+					owner = { religion_group = elven_denominations }
+				}
 				random_neighbor_province = { 
 					change_religion = cytharai
 					add_province_modifier = { 
-	    				name = hidden_cytharai_cult
+	    				name = hidden_cult
 	    				duration = 9125
 	    				hidden = no
 					}
@@ -401,7 +407,8 @@ gen_cytharai_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { gen_cytharai_expand_the_cults }
 		provinces_to_highlight = {
-            has_province_modifier = hidden_cytharai_cult
+			religion = cytharai
+			superregion = ulthuan_superregion
         } 
 		trigger = {
 			any_country = {
@@ -412,11 +419,14 @@ gen_cytharai_missions = {
 
 		effect = {
 			every_province = {
-				limit = { has_province_modifier = hidden_cytharai_cult }
+				limit = {
+					religion = cytharai
+					superregion = ulthuan_superregion
+				}
 				random_neighbor_province = { 
 					change_religion = cytharai
 					add_province_modifier = { 
-	    				name = hidden_cytharai_cult
+	    				name = hidden_cult
 	    				duration = 9125
 	    				hidden = no
 					}

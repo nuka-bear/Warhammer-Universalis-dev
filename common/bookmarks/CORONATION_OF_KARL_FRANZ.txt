@@ -7,15 +7,23 @@ bookmark = {
 	default = yes
 	
 	country = A01
-	country = A04
-	country = A16
-	country = A57
-	country = A41
+	country = A15
 	country = A29
-	country = A12
-	country = A71
+	country = B01
+	country = A33
+
 	country = A13
+	country = A39
+	country = A37
+	country = A12
+	country = A02
 	
+	easy_country = A01
+	easy_country = A15
+	easy_country = A29
+	easy_country = A33
+	easy_country = B01
+	easy_country = A33
 	
 	default = yes 
 }

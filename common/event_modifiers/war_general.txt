@@ -136,3 +136,13 @@ ruler_stupid_administration_reform = {
 	state_maintenance_modifier = 1
 }
 
+
+#### Hidden Cults
+
+hidden_cult = {
+	local_missionary_strength = -0.05
+	local_unrest = -4
+	local_autonomy = 0.10
+}
+
+
