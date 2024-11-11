@@ -59,6 +59,11 @@ desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
  everchosen_mechanic:0 "Chaos Favor"
  everchosen_mechanic_desc:0 "The Chaos Gods are not patient. While they bestow awesome power, they grow weary of those who squander it."
 
+ ability_everchosen_mechanic:0 "Chaos Favor"
+ ability_everchosen_mechanic_desc:0 "The Chaos Gods are not patient. While they bestow awesome power, they grow weary of those who squander it."
+
+
+
  everchosen_favor:0 "Chaos Favor"
 
 

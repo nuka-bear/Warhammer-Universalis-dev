@@ -205,7 +205,7 @@ gen_asur_ultimate_missions = {
 		icon = mission_egyptian_mamluk_soldier
 		provinces_to_highlight = {
 			owner = {
-				great_power_rank = 8
+				NOT = { great_power_rank = 9 }
 				NOT = {
 					OR = {
 						AND = {
@@ -232,7 +232,7 @@ gen_asur_ultimate_missions = {
 		position = 9
 		trigger = {
 			all_country = {
-				great_power_rank = 8
+				NOT = { great_power_rank = 9 }
 				OR = {
 					AND = {
 						alliance_with = ROOT

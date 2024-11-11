@@ -65,7 +65,7 @@ Add the warhammer legendary lords into the map
 
 Add legendary weapon that are traits that move between people
 
-ADd 1 legendary artifact per culture group (like the phoenix crown)
+Add 1 legendary artifact per culture group (like the phoenix crown)
 
 Give the hobgoblins fightiness?
 
@@ -76,21 +76,26 @@ Reduce Southern Old World Development - nobody cares about them!
 Dominion tweaks
 	Make event for dominions to declare on their leader
 	+5% more liberty desire
-	Demoting a dominion lowers all trust by 30
-
-Allow elven religions to convert to each other. Sam with human religions? Most religions?
-
-Add Clan Pestilens to Southlands, and A skaven to old world bookmark
-
-Fix all the "Great power rank" triggers
 
 Loss of Cultural Monument Triggered modifiers
 	Tomb of Settra, Skavenblight, Eatine Place, Karak, Zhar, Imperial City
 
-
 Make various diplomatic actions cause a pop-up for the receiver. And offers?
 	Offer to become dominion action?
+	Did this introduce a lot of lag?
+	Do a few speed tests with and without out
 
+	Turn various things off for AI, including some of the diplomatic actions for the AI races that it wouldn't make sense for - most non ruinous except for HRE? To save processing powre?
+
+	Some way of giving the vampiric people a center of reformation?
+
+	End times no longer triggering the chaos gate. And make this a country event?
+
+	Give the Queen of Athel Lorel an isolationist trait
+
+	Fightiness events that give manpower don't give manpower if you're already above max? They give mil power or something else?
+
+	End the end times peace option - po should proc off of gov reform AND/OR chaos gates
 
 
 #############################
@@ -98,11 +103,6 @@ Make various diplomatic actions cause a pop-up for the receiver. And offers?
 #############################
 End Times
 	Where to find relevant stuff
-		defines.lau
-		static modifiers
-		common > Disasters > revolution
-		Events > center of revolution events
-		disasters > Revolution disaster
 
 		TLDR, it's a reskin of Revolutions but more powerful and tied to religion.
 			1) At the start of the End Times Age, a Ruinous Power (4 Chaos Gods, Hashut, Norsca) is chosen to the be Everchosen/Revolutionary Target. This is almost always the biggest chaos nation, meaning it will probably be either the Choas Dwarves or Norsca. We could force this to be one of the small chaos waste tribes instead if we wanted. The Center of Revolution spawns in their area, and they get the "Everchosen" Government Type.
@@ -181,6 +181,8 @@ Chaos Tribes
 Empire
 	HRE stuff
 	Unify the religion?
+	Certain number of provinces in empire are your religion
+	Her two branches - electors, emperor. Religious unity. Better than the rest.
 
 Vampires
 	Something to reduct the alignment relations penalty if they are both in the HRE?

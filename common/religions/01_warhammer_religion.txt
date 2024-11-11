@@ -58,7 +58,15 @@ old_world_denominations = {
 		on_convert = {
 			change_religion = myrmidia
 			add_prestige = -100
-		}		
+		}
+		allowed_conversion = {
+			myrmidia
+			ursun
+			cult_of_sigmar
+			cult_of_ulric_religion
+			cult_of_taal_religion
+			vampiric
+		}	
 		allow_female_defenders_of_the_faith = yes
 		misguided_heretic = yes
 		heretic = {
@@ -94,6 +102,16 @@ old_world_denominations = {
 			OLD_GODS
 			OLD_FAITH
 		}
+		allowed_conversion = {
+			myrmidia
+			ursun
+			cult_of_sigmar
+			cult_of_ulric_religion
+			cult_of_taal_religion
+			vampiric
+			kislev_old_faith
+		}	
+
 
 		orthodox_icons = {
 			# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
@@ -255,7 +273,15 @@ old_world_denominations = {
 		on_convert = {
 			change_religion = cult_of_sigmar
 			add_prestige = -100
-		}	
+		}
+		allowed_conversion = {
+			myrmidia
+			ursun
+			cult_of_sigmar
+			cult_of_ulric_religion
+			cult_of_taal_religion
+			vampiric
+		}
 		misguided_heretic = yes
 		heretic = {
 			SIGMAR_HERETIC
@@ -284,6 +310,14 @@ old_world_denominations = {
 		}	
 		hre_heretic_religion = yes
 		misguided_heretic = yes
+		allowed_conversion = {
+			myrmidia
+			ursun
+			cult_of_sigmar
+			cult_of_ulric_religion
+			cult_of_taal_religion
+			vampiric
+		}	
 		heretic = {
 			ULRIC_HERETIC
 			OLD_FAITH
@@ -310,6 +344,14 @@ old_world_denominations = {
 			add_prestige = -100
 		}	
 		misguided_heretic = yes
+		allowed_conversion = {
+			myrmidia
+			ursun
+			cult_of_sigmar
+			cult_of_ulric_religion
+			cult_of_taal_religion
+			vampiric
+		}	
 		heretic = {
 			TAAL_HERETIC
 			OLD_FAITH
@@ -338,6 +380,14 @@ old_world_denominations = {
 		heretic = {
 			OLD_FAITH
 		}
+		allowed_conversion = {
+			myrmidia
+			ursun
+			cult_of_sigmar
+			cult_of_ulric_religion
+			cult_of_taal_religion
+			vampiric
+		}	
 		personal_deity = yes
 	}
 	crusade_name = CRUSADE
@@ -401,6 +451,11 @@ necromantic_denominations = {
 		heretic = {
 			NAGASH_HERETICS
 		}
+		on_convert = {
+			change_religion = nagash_worship
+			add_prestige = -100
+		}	
+
 	}
 	crusade_name = DARK_CRUSADE
 	harmonized_modifier = harmonized_necromantic
@@ -452,8 +507,8 @@ ruinous_powers_denominations = {
 		}
 		on_convert = {
 			change_religion = khornate_religion
-			add_prestige = -50
-			add_stability = -2
+			add_prestige = -100
+			add_stability = -1
 			add_yearly_manpower = -1.0
 			remove_country_modifier = order_nation
 			add_country_modifier = { 
@@ -488,8 +543,8 @@ ruinous_powers_denominations = {
 		}
 		on_convert = {
 			change_religion = nurglite_religion
-			add_prestige = -50
-			add_stability = -2
+			add_prestige = -100
+			add_stability = -1
 			add_yearly_manpower = -1.0
 			remove_country_modifier = order_nation
 			add_country_modifier = { 
@@ -523,8 +578,8 @@ ruinous_powers_denominations = {
 		}
 		on_convert = {
 			change_religion = tzeentchian_religion
-			add_prestige = -50
-			add_stability = -2
+			add_prestige = -100
+			add_stability = -1
 			add_yearly_manpower = -1.0
 			remove_country_modifier = order_nation
 			add_country_modifier = { 
@@ -559,8 +614,8 @@ ruinous_powers_denominations = {
 		}
 		on_convert = {
 			change_religion = slaaneshi_religion
-			add_prestige = -50
-			add_stability = -2
+			add_prestige = -100
+			add_stability = -1
 			add_yearly_manpower = -1.0
 			remove_country_modifier = order_nation
 			add_country_modifier = { 
@@ -594,6 +649,10 @@ ruinous_powers_denominations = {
 		country_as_secondary = {
 			merc_maintenance_modifier = -0.1
 			galley_power = 0.2
+		}
+		on_convert = {
+			change_religion = norscan
+			add_prestige = -100
 		}
 		personal_deity = yes
 		allowed_conversion = {
@@ -632,8 +691,8 @@ ruinous_powers_denominations = {
 		}
 		on_convert = {
 			change_religion = chaos_undivided_religion
-			add_prestige = -50
-			add_stability = -2
+			add_prestige = -100
+			add_stability = -1
 			add_yearly_manpower = -1.0
 			remove_country_modifier = order_nation
 			add_country_modifier = { 
@@ -650,6 +709,7 @@ ruinous_powers_denominations = {
 		}
 
 		allowed_center_conversion = {
+			chaos_undivided_religion
 			lady_of_the_lake
 			myrmidia
 			ursun
@@ -680,11 +740,11 @@ ruinous_powers_denominations = {
 
 		will_get_center = {
 			always = yes
-#			any_owned_province = {
-#				can_have_center_of_reformation_trigger = {
-#					RELIGION = chaos_undivided_religion
-#				}
-#			}
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = chaos_undivided_religion
+				}
+			}
 		}
 
 
@@ -705,6 +765,10 @@ ruinous_powers_denominations = {
 		country_as_secondary = {
 			land_morale = 0.05
 			global_unrest = -1
+		}
+		on_convert = {
+			change_religion = hashut
+			add_prestige = -100
 		}
 		heretic = {
 			CHAOS_HERETIC
@@ -743,6 +807,10 @@ greenskin_denominations = {
 			land_morale = 0.1
 			tolerance_heathen = -2
 		}
+		on_convert = {
+			change_religion = gork_n_mork_religion
+			add_prestige = -100
+		}
 		heretic = {
 			MORK
 			GORK
@@ -760,6 +828,10 @@ greenskin_denominations = {
 		}
 		icon = 1
 		country = {
+		}
+		on_convert = {
+			change_religion = spider_cult_religion
+			add_prestige = -100
 		}
 		country_as_secondary = {
 		}
@@ -841,6 +913,15 @@ elven_denominations = {
 		heretic = {
 			ASRAI_HERETICS
 		}
+		on_convert = {
+			change_religion = asrai_cadai
+			add_prestige = -100
+		}
+		allowed_conversion = {
+			asrai_cadai
+			cytharai
+			cadai
+		}
 	}
 	########################################################################################################################
 	#	dark elf
@@ -861,6 +942,15 @@ elven_denominations = {
 			land_morale = 0.05
 			advisor_cost = -0.1
 		}
+		on_convert = {
+			change_religion = cytharai
+			add_prestige = -100
+		}
+		allowed_conversion = {
+			asrai_cadai
+			cytharai
+			cadai
+		}
 		heretic = {
 			ASRAI_HERETICS
 		}
@@ -880,6 +970,15 @@ elven_denominations = {
 		country_as_secondary = {
 			same_culture_advisor_cost = -0.10
 			defensiveness = 0.15
+		}
+		on_convert = {
+			change_religion = cadai
+			add_prestige = -100
+		}
+		allowed_conversion = {
+			asrai_cadai
+			cytharai
+			cadai
 		}
 		heretic = {
 			ASRAI_HERETICS
@@ -922,6 +1021,10 @@ dawi_denominations = {
 		heretic = {
 			ANCESTOR_GODS_HERETICS
 		}
+		on_convert = {
+			change_religion = ancestor_gods
+			add_prestige = -100
+		}
 		ancestors = yes
 	}
 	crusade_name = CRUSADE
@@ -953,6 +1056,10 @@ the_old_faith = {
 			global_institution_spread = 0.1
 			idea_cost = -0.05
 		}
+		on_convert = {
+			change_religion = druidism
+			add_prestige = -100
+		}
 		heretic = {
 			HERETIC 
 		}
@@ -970,6 +1077,13 @@ the_old_faith = {
 			tolerance_heathen = 1
 			stability_cost_modifier = -0.10
 		}
+		on_convert = {
+			change_religion = kislev_old_faith
+			add_prestige = -100
+		}
+		allowed_conversion = {
+			ursun
+		}
 		heretic = {
 			HERETIC 
 		}
@@ -986,6 +1100,10 @@ the_old_faith = {
 		country_as_secondary = {
 			fire_damage = 0.1
 			fire_damage_received = -0.05
+		}
+		on_convert = {
+			change_religion = dragon_cult
+			add_prestige = -100
 		}
 		heretic = {
 			HERETIC
@@ -1022,6 +1140,10 @@ arabyn_denominations = {
 			global_institution_spread = 0.1
 			idea_cost = -0.05
 		}
+		on_convert = {
+			change_religion = the_one_faith
+			add_prestige = -100
+		}
 		heretic = {
 			HERETIC
 		}
@@ -1045,7 +1167,16 @@ arabyn_denominations = {
 		heretic = {
 			HERETIC
 		}
+		on_convert = {
+			change_religion = nehekharan_pantheon
+			add_prestige = -100
+		}
 		personal_deity = yes
+		allowed_conversion = {
+			nagash_worship
+		}
+
+
 	}
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_arabyn
@@ -1080,6 +1211,10 @@ skaven_denominations = {
 		}
 		heretic = {
 			HERETIC
+		}
+		on_convert = {
+			change_religion = horned_rat
+			add_prestige = -100
 		}
 		papacy = {
 			papal_tag = U25

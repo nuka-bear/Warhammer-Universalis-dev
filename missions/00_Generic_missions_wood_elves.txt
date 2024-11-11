@@ -175,7 +175,7 @@ gen_asrai_missions = {
 		required_missions = { gen_asrai_better_than_neighbors }
 		trigger = {
 			any_war_enemy_country = {
-				great_power_rank = 8
+				NOT = { great_power_rank = 9 }
 				NOT = { army_size = 1 }
 			}
 		}

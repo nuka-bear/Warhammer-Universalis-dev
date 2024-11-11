@@ -291,6 +291,20 @@ setup_vision = {
 			4948 = {
 				discover_country = ROOT
 			}
+			southern_sea_region = {
+				discover_country = ROOT
+			}
+			eastern_sea_of_claws_area = {
+				discover_country = ROOT
+			}
+			western_sea_of_claws_area = {
+				discover_country = ROOT
+			}
+			albion_coast_area = {
+				discover_country = ROOT
+			}
+
+
 		}
 		#wood elves know Athel loren
 		else_if = {
@@ -2893,6 +2907,19 @@ setup_vision = {
 					discover_country = ROOT
 				}
 			}
+		}
+	}
+
+### Discover coasts you can see
+
+	every_owned_province = {
+		sea_zone = { discover_country = ROOT }
+	}
+
+## Discover coasts your known provinces can see
+	every_known_country = {
+		every_owned_province = {
+			sea_zone = { discover_country = ROOT }
 		}
 	}
 

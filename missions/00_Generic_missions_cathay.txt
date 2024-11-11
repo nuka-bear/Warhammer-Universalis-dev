@@ -269,7 +269,6 @@ gen_cathay_ultimate_missions = {
 			prestige = 99
 			legitimacy_equivalent = 99
 			power_projection = 99
-			great_power_rank = 1
 			NOT = {
 				great_power_rank = 2
 			}

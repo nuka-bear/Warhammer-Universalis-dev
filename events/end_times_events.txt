@@ -35,7 +35,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		years = 1000
+		years = 100
 
 ### Increases the chance if it's a player
 		modifier = {
@@ -46,7 +46,7 @@ province_event = {
 
 ### Always in the capital
 		modifier = {
-			factor = 10000
+			factor = 1000
 			NOT = { is_capital = yes }
 		}
 
@@ -77,7 +77,7 @@ province_event = {
 
 
 		modifier = {
-			factor = 0.75
+			factor = 0.25
 			owner = { 
 				all_country = {
 					OR = {
@@ -92,38 +92,44 @@ province_event = {
 ### Great Power
 
 		modifier = {
-			factor = 0.90
-			owner = { great_power_rank = 8 }
-		}
-		modifier = {
-			factor = 0.80
-			owner = { great_power_rank = 7 }
-		}
-		modifier = {
-			factor = 0.70
-			owner = { great_power_rank = 6 }
-		}
-		modifier = {
-			factor = 0.60
-			owner = { great_power_rank = 5 }
-		}
-		modifier = {
 			factor = 0.50
-			owner = { great_power_rank = 4 }
-		}
-		modifier = {
-			factor = 0.40
-			owner = { great_power_rank = 3 }
-		}
-		modifier = {
-			factor = 0.30
-			owner = { great_power_rank = 2 }
-		}
-		modifier = {
-			factor = 0.20
-			owner = { great_power_rank = 1 }
+			owner = { NOT = { great_power_rank = 9 } }
 		}
 
+		modifier = {
+			factor = 0.50
+			owner = { NOT = { great_power_rank = 8 } }
+		}
+
+		modifier = {
+			factor = 0.50
+			owner = { NOT = { great_power_rank = 7 } }
+		}
+
+		modifier = {
+			factor = 0.50
+			owner = { NOT = { great_power_rank = 6 } }
+		}
+
+		modifier = {
+			factor = 0.50
+			owner = { NOT = { great_power_rank = 5 } }
+		}
+
+		modifier = {
+			factor = 0.50
+			owner = { NOT = { great_power_rank = 4 } }
+		}
+
+		modifier = {
+			factor = 0.50
+			owner = { NOT = { great_power_rank = 3 } }
+		}
+
+		modifier = {
+			factor = 0.50
+			owner = { NOT = { great_power_rank = 2 } }
+		}
 
 
 ### Development
@@ -251,8 +257,6 @@ province_event = {
 		hidden_effect = {
 			set_global_flag = end_times_started
 
-			add_reform_center = chaos_undivided_religion
-
 			owner = {
 				change_government = monarchy
 				add_government_reform = everchosen_reform
@@ -274,6 +278,9 @@ province_event = {
 				add_ruler_personality = immortal_personality
 
 			}
+
+			add_reform_center = chaos_undivided_religion
+
 		}
 
 

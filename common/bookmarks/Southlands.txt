@@ -20,7 +20,7 @@ bookmark = {
 	easy_country = Z01
 	easy_country = G24
 	easy_country = Z17
-	easy_coutnry = U29
+	easy_country = U29
 	
 
 }
