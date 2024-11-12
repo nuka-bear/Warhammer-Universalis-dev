@@ -32,6 +32,7 @@ Broadly
 
 	GFX
 		Stuff surrounding Chaos Centers of Reformation
+		Missions
 
 #############################
 ###### RANDOM THOUGHTS ######
@@ -53,7 +54,6 @@ Burger Privelage if your capital is in a subterranean zone, then you get + in su
 	Look at hydralaogic empire.
 	Use the same mechanic for magical and non-magical forests for wood elves - Bonus for magical foest, penalty for anything not forest or jungle
 	This could be + minimum autonomy for non preferred zone
-
 
 Dimmed Sunz starts with no army!
 
@@ -84,8 +84,7 @@ Make various diplomatic actions cause a pop-up for the receiver. And offers?
 	Offer to become dominion action?
 	Did this introduce a lot of lag?
 	Do a few speed tests with and without out
-
-	Turn various things off for AI, including some of the diplomatic actions for the AI races that it wouldn't make sense for - most non ruinous except for HRE? To save processing powre?
+		Turn various things off for AI, including some of the diplomatic actions for the AI races that it wouldn't make sense for - most non ruinous except for HRE? To save processing powre?
 
 	Some way of giving the vampiric people a center of reformation?
 
@@ -96,6 +95,15 @@ Make various diplomatic actions cause a pop-up for the receiver. And offers?
 	Fightiness events that give manpower don't give manpower if you're already above max? They give mil power or something else?
 
 	End the end times peace option - po should proc off of gov reform AND/OR chaos gates
+
+	Images for remaining old world monuments
+
+
+Bugs
+	Fix Monstrous Unit Cost?
+	Generic Beacon on a Hill mission with tech difference not working
+	Pop up when you can vassalize dominions (Doesn't work)
+
 
 
 #############################
@@ -145,32 +153,20 @@ Kislev
 	Disaster for resurgance of the old ways
 		Unrest and can't declare wars until it's sorted?
 	Fix Icons for the ursun religion
-	No way to gain Patriarch Authority right now
 
 
 Skaven
 	Betray special diplomatic action?
-	Missions
-		Warpstone
-		urban environments, church things
-		Reduced stab from war, spy, movement, manpower
 	Ultimate is all warp stone at a certain development for weapon of mass destruction decision to nuke enemies
-	They create devastation in own and nearby provinces
 	Panama Canal
 	Give them access to all the diplomatic actions early
 	How to make these two actions not require a diplomat? - NEED TO MAKE THESE REDUCE SPY NETWORK!
-		Kidnap Gray Seer
-		Ravage Border Lands
-		Also, AI aren't doing them?
 	Put all the Skaven Capitals in the underdark - makes diplomacy easier
-	Betryal missions - Mission that causes you to declare war on a 100 truwt ally, high opinion ally, makes them a rival?
 	Special Betrayal Casus Beli for attacking Allies?
 
 
 Norscans
-	Add monuments
 	Change Ultimate
-	Needs vision of all nearby seas
 	Number of Flagships?
 
 Chaos Tribes
@@ -197,7 +193,6 @@ Dark Elf - 1st done
 
 High Elves - 1st done
 	Need a little more oomph here
-	Ultimate mission highlight not working
 
 
 Lizards - 1st done
@@ -236,17 +231,3 @@ Legitimate Successor government mechanic for Nehekhara & Cathay? - 1st done
 	Event for the overlord to reign them in (declar war), or suffer penalty to own legitimacy
 	Pretty slow moving
 	Government scale for legitimate successor, with increasing diplomatic reputation and liberty desire. Higher, more liberty desire for self, less liverty desire for others.
-
-
-Bugs
-	Fix Monstrous Unit Cost?
-	Generic Beacon on a Hill mission with tech difference not working
-	Pop up when you can vassalize dominions (Doesn't work)
-
-
-
-For some missions use:
-
-Common missions: https://eu4.paradoxwikis.com/List_of_common_mission_triggers
-
-
