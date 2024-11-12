@@ -7,5 +7,62 @@
  vampire_events_gashnag_revived:0 "Gashnag re-emerges to lead his forces!"
  vampire_events_vorag_revived:0 "Vorag shall return as leader of our nation!"
  vampire_events_nagash_revived:0 "Nagash shall return as leader of our nation!"
+
+
+####
+
+diplomatic_tolerance:0 "Diplomatic Tolerance"
+diplomatic_tolerance_desc:0 "You are protected by certain diplomatic norms, but these are fading over time."
+
+vampire_events.0.t:0 "A Member of the Empire?"
+vampire_events.0.d:0 "Sylvania is technically a member of the Empire, but it has long been shunned by its neighbors. The humans surrounding us refuse to recognize our natural place at the head of the natural order. Through diplomacy, war, or subterfuge, we shall claim the emperorship. \n\nIn the meantime, we are somewhat tolerated due to the guidelines and procedures of Imperial law. This tolerance will wane over time, so we must make alliances while we can.\n\n§RUse the -Convert Them- influence action or the -Implant Cults- spy action to turn other countries to vamprism.§"
+vampire_events.0.a:0 "The Empire will be Ours!"
  
  
+# Vampire Modifiers
+vampire_happy_church:0 "Agents of the Night"
+vampire_happy_church_desc:0 "Our clergy and agents are loyal to the vampiric cause, enabling us to extend our influence with unmatched efficiency."
+
+vampire_ritual_site:0 "Site of Dark Rituals"
+vampire_ritual_site_desc:0 "The heart of our territory is a nexus of dark power, allowing us to perform rituals that enhance our magical potency and corrupt the lands around us."
+
+vampire_spread_vamprisim:0 "Infiltrating Influence"
+vampire_spread_vamprisim_desc:0 "Our covert agents work tirelessly to spread vampirism into neighboring realms, slowly turning their rulers into creatures of the night."
+
+vampire_spread_vamprisim_2:0 "Widespread Corruption"
+vampire_spread_vamprisim_2_desc:0 "Our influence spreads like a plague, embedding vampiric corruption in the surrounding nations, ensuring their rulers become loyal thralls."
+
+vampire_frightful_army:0 "Frightful Legion"
+vampire_frightful_army_desc:0 "The horrors within our army strike dread into the hearts of all foes, paralyzing them with fear and doubt."
+
+vampire_unified_empire:0 "The Eternal Empire"
+vampire_unified_empire_desc:0 "Our vampiric unity is unmatched, securing our control over all subjects and establishing our dominance over the Empire of the Night."
+
+# Vampire Religion Missions
+
+### Convert Neighbor, Convert All Neighbors
+gen_vampire_spread_vampirism_1_title:0 "Corrupt a Neighbor"
+gen_vampire_spread_vampirism_1_desc:0 "Our influence will seep into a neighboring realm, spreading the curse of vampirism to those in power and establishing a foothold in foreign lands."
+
+gen_vampire_spread_vampirism_2_title:0 "Extend Vampiric Borders"
+gen_vampire_spread_vampirism_2_desc:0 "By converting all our neighbors, we encircle ourselves with vampiric loyalists, turning the nearby lands into an extension of our dark influence."
+
+### Attrition and Casualties (Potential Ritual Site Mission)
+gen_vampire_religion_place_of_study_title:0 "Prepare the Ritual Site"
+gen_vampire_religion_place_of_study_desc:0 "To prepare for a powerful ritual, our capital must be developed and fortified as a place where dark magic can flourish, spreading vampiric power across the land."
+
+### Staff of Nagash
+gen_vampire_religion_get_staff_of_nagash_title:0 "Unleash the Power of Nagash"
+gen_vampire_religion_get_staff_of_nagash_desc:0 "The fabled Staff of Nagash is within our reach, a relic of immense dark power that will summon legions of the undead to bolster our forces."
+
+### Get vampires on board, and increase corrupting outreach
+gen_vampire_religion_happy_priest_title:0 "Control the Clergy"
+gen_vampire_religion_happy_priest_desc:0 "With the clergy under our thrall, we ensure their loyalty and gain control over the institutions that influence public opinion, spreading vampiric ideology throughout enemy lands."
+
+### Monsters in the Army
+gen_vampire_religion_monstrous_army_title:0 "A Monstrous Army"
+gen_vampire_religion_monstrous_army_desc:0 "Our legions will be bolstered by horrifying creatures of the night, striking terror into our enemies and showcasing the power of vampiric rule."
+
+### Turn the Empire Vampiric
+gen_vampire_religion_unify_empire_title:0 "Establish a Vampiric Empire"
+gen_vampire_religion_unify_empire_desc:0 "Our final ambition is to unite the Empire under vampiric rule, turning every subject into either a loyal servant or a vessel for our dark will."

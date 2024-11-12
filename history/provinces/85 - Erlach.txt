@@ -4,7 +4,7 @@ add_core = A12
 culture = wastelander
 religion = cult_of_sigmar
  
-hre = no
+hre = yes
 
 base_tax = 2 
 base_production = 2 

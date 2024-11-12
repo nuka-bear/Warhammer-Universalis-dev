@@ -4,12 +4,14 @@ add_core = A13
 culture = sylvanian 
 religion = vampiric
  
-hre = no
+hre = yes
 
-base_tax = 1
-base_production = 1
+base_tax = 8
+base_production = 3
 trade_goods = livestock
-base_manpower = 1
+base_manpower = 7
+
+fort_15th = yes
 
 is_city = yes
 

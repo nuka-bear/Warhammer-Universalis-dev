@@ -4,7 +4,7 @@ add_core = A13
 culture = sylvanian 
 religion = vampiric
  
-hre = no
+hre = yes
 
 base_tax = 2
 base_production = 2

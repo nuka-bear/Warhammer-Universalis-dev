@@ -1,0 +1,26 @@
+vampire_happy_church = {
+	diplomats = 1
+}
+
+vampire_ritual_site = {
+	all_power_cost = -0.01
+}
+
+
+vampire_spread_vamprisim = {
+	monthly_favor_modifier = 0.1
+	spy_offence = 0.1
+}
+
+vampire_spread_vamprisim_2 = {
+	monthly_favor_modifier = 0.1
+	spy_offence = 0.1
+}
+
+vampire_frightful_army = {
+	morale_damage = 0.025
+}
+
+vampire_unified_empire = {
+	diplomatic_reputation = 3
+}

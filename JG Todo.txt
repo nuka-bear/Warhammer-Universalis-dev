@@ -95,26 +95,24 @@ Make various diplomatic actions cause a pop-up for the receiver. And offers?
 
 	Pop-ups for when somebody steals your artifact
 
-	Vampire "diplomatic tolerance" event for HRE members
-
 	Sword of Khaine Disaster
 		Decision to start using
 		Can't stop using while at war
 		Stability cost to stop using
 		Disaster if using for too long
 
-	Give all AI
-
-	Lowers everchosen chance if owner is losing in a war
+	Give all AI personalities
 
 	Switch Lizardman ultimate to owning all temples
 
 	Replace Prestige gain with: add_prestige_or_monarch_power = { amount = 10 }
-	Replace STability gain with: add_stability_or_adm_power = yes
+	Replace Stability gain with: add_stability_or_adm_power = yes
 
-	Add Sylvania to HRE! Make parts of westernland in the HRE, even though the capital isn't
+	Make Generic mission culture and religion fallback tree for Fimir, Stygians, and others. Based on Greenskin & Cathay
 
-	Make converting religion also make you lose a stability
+	Have a Vampiric mission create a center of reformation
+
+	Add Starting events for all the major countries (In the on-startup events tied to an event)
 
 
 Bugs

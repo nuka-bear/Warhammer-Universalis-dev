@@ -4,7 +4,7 @@ add_core = A12
 culture = wastelander
 religion = old_world_cults_religion
  
-hre = no
+hre = yes
 
 base_tax = 3
 base_production = 4

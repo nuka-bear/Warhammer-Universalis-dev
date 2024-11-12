@@ -4,9 +4,9 @@ add_core = A13
 culture = sylvanian 
 religion = cult_of_sigmar
  
-hre = no
+hre = yes
 
-base_tax = 3
+base_tax = 5
 base_production = 3
 trade_goods = grain
 base_manpower = 6

@@ -29,6 +29,7 @@ old_world_denominations = {
 		on_convert = {
 			change_religion = lady_of_the_lake
 			add_prestige = -100
+			add_stability = -1
 		}
 		allow_female_defenders_of_the_faith = yes
 		misguided_heretic = yes
@@ -58,6 +59,7 @@ old_world_denominations = {
 		on_convert = {
 			change_religion = myrmidia
 			add_prestige = -100
+			add_stability = -1
 		}
 		allowed_conversion = {
 			myrmidia
@@ -95,6 +97,7 @@ old_world_denominations = {
 		on_convert = {
 			change_religion = ursun
 			add_prestige = -100
+			add_stability = -1
 		}	
 		has_patriarchs = yes		# Uses patriarch authority
 		misguided_heretic = yes
@@ -273,6 +276,7 @@ old_world_denominations = {
 		on_convert = {
 			change_religion = cult_of_sigmar
 			add_prestige = -100
+			add_stability = -1
 		}
 		allowed_conversion = {
 			myrmidia
@@ -307,6 +311,7 @@ old_world_denominations = {
 		on_convert = {
 			change_religion = cult_of_ulric_religion
 			add_prestige = -100
+			add_stability = -1
 		}	
 		hre_heretic_religion = yes
 		misguided_heretic = yes
@@ -342,6 +347,7 @@ old_world_denominations = {
 		on_convert = {
 			change_religion = cult_of_taal_religion
 			add_prestige = -100
+			add_stability = -1
 		}	
 		misguided_heretic = yes
 		allowed_conversion = {
@@ -375,6 +381,7 @@ old_world_denominations = {
 		on_convert = {
 			change_religion = old_world_cults_religion
 			add_prestige = -100
+			add_stability = -1
 		}	
 		misguided_heretic = yes
 		heretic = {
@@ -425,6 +432,7 @@ necromantic_denominations = {
 		on_convert = {
 			change_religion = vampiric
 			add_prestige = -100
+			add_stability = -1
 		}	
 		heretic = {
 			BLACK_GRAIL
@@ -454,6 +462,7 @@ necromantic_denominations = {
 		on_convert = {
 			change_religion = nagash_worship
 			add_prestige = -100
+			add_stability = -1
 		}	
 
 	}
@@ -509,7 +518,6 @@ ruinous_powers_denominations = {
 			change_religion = khornate_religion
 			add_prestige = -100
 			add_stability = -1
-			add_yearly_manpower = -1.0
 			remove_country_modifier = order_nation
 			add_country_modifier = { 
 			    name = destruction_nation
@@ -545,7 +553,6 @@ ruinous_powers_denominations = {
 			change_religion = nurglite_religion
 			add_prestige = -100
 			add_stability = -1
-			add_yearly_manpower = -1.0
 			remove_country_modifier = order_nation
 			add_country_modifier = { 
 			    name = destruction_nation
@@ -580,7 +587,6 @@ ruinous_powers_denominations = {
 			change_religion = tzeentchian_religion
 			add_prestige = -100
 			add_stability = -1
-			add_yearly_manpower = -1.0
 			remove_country_modifier = order_nation
 			add_country_modifier = { 
 			    name = destruction_nation
@@ -616,7 +622,6 @@ ruinous_powers_denominations = {
 			change_religion = slaaneshi_religion
 			add_prestige = -100
 			add_stability = -1
-			add_yearly_manpower = -1.0
 			remove_country_modifier = order_nation
 			add_country_modifier = { 
 			    name = destruction_nation
@@ -653,6 +658,7 @@ ruinous_powers_denominations = {
 		on_convert = {
 			change_religion = norscan
 			add_prestige = -100
+			add_stability = -1
 		}
 		personal_deity = yes
 		allowed_conversion = {
@@ -693,7 +699,6 @@ ruinous_powers_denominations = {
 			change_religion = chaos_undivided_religion
 			add_prestige = -100
 			add_stability = -1
-			add_yearly_manpower = -1.0
 			remove_country_modifier = order_nation
 			add_country_modifier = { 
 			    name = destruction_nation
@@ -769,6 +774,7 @@ ruinous_powers_denominations = {
 		on_convert = {
 			change_religion = hashut
 			add_prestige = -100
+			add_stability = -1
 		}
 		heretic = {
 			CHAOS_HERETIC
@@ -810,6 +816,7 @@ greenskin_denominations = {
 		on_convert = {
 			change_religion = gork_n_mork_religion
 			add_prestige = -100
+			add_stability = -1
 		}
 		heretic = {
 			MORK
@@ -872,7 +879,7 @@ ogre_denominations = {
 		on_convert = {
 			change_religion = the_great_maw_religion
 			add_prestige = -100
-			#add_country_modifier = { name = conversion_zeal duration = 3650 }
+			add_stability = -1
 		}
 		heretic = {
 			GREAT_MAW_HERETIC
@@ -916,6 +923,7 @@ elven_denominations = {
 		on_convert = {
 			change_religion = asrai_cadai
 			add_prestige = -100
+			add_stability = -1
 		}
 		allowed_conversion = {
 			asrai_cadai
@@ -945,6 +953,7 @@ elven_denominations = {
 		on_convert = {
 			change_religion = cytharai
 			add_prestige = -100
+			add_stability = -1
 		}
 		allowed_conversion = {
 			asrai_cadai
@@ -974,6 +983,7 @@ elven_denominations = {
 		on_convert = {
 			change_religion = cadai
 			add_prestige = -100
+			add_stability = -1
 		}
 		allowed_conversion = {
 			asrai_cadai
@@ -1024,6 +1034,7 @@ dawi_denominations = {
 		on_convert = {
 			change_religion = ancestor_gods
 			add_prestige = -100
+			add_stability = -1
 		}
 		ancestors = yes
 	}
@@ -1059,6 +1070,7 @@ the_old_faith = {
 		on_convert = {
 			change_religion = druidism
 			add_prestige = -100
+			add_stability = -1
 		}
 		heretic = {
 			HERETIC 
@@ -1080,6 +1092,7 @@ the_old_faith = {
 		on_convert = {
 			change_religion = kislev_old_faith
 			add_prestige = -100
+			add_stability = -1
 		}
 		allowed_conversion = {
 			ursun
@@ -1104,6 +1117,7 @@ the_old_faith = {
 		on_convert = {
 			change_religion = dragon_cult
 			add_prestige = -100
+			add_stability = -1
 		}
 		heretic = {
 			HERETIC
@@ -1143,6 +1157,7 @@ arabyn_denominations = {
 		on_convert = {
 			change_religion = the_one_faith
 			add_prestige = -100
+			add_stability = -1
 		}
 		heretic = {
 			HERETIC
@@ -1170,6 +1185,7 @@ arabyn_denominations = {
 		on_convert = {
 			change_religion = nehekharan_pantheon
 			add_prestige = -100
+			add_stability = -1
 		}
 		personal_deity = yes
 		allowed_conversion = {
@@ -1215,6 +1231,7 @@ skaven_denominations = {
 		on_convert = {
 			change_religion = horned_rat
 			add_prestige = -100
+			add_stability = -1
 		}
 		papacy = {
 			papal_tag = U25
@@ -1515,7 +1532,7 @@ lizardmen_denominations = {
 		on_convert = {
 			change_religion = old_ones
 			add_prestige = -100
-			#add_country_modifier = { name = conversion_zeal duration = 3650 }
+			add_stability = -1
 		}
 		heretic = {
 			OLD_ONES_HERETIC
@@ -1594,7 +1611,7 @@ eastern_denominations = {
 		on_convert = {
 			change_religion = yin_yang
 			add_prestige = -100
-			#add_country_modifier = { name = conversion_zeal duration = 3650 }
+			add_stability = -1
 		}
 		heretic = {
 			YIN_YANG_HERETIC
@@ -1637,7 +1654,7 @@ indish_denominations = {
 		on_convert = {
 			change_religion = the_thousand_gods
 			add_prestige = -100
-			#add_country_modifier = { name = conversion_zeal duration = 3650 }
+			add_stability = -1
 		}
 		heretic = {
 			IND_HERETIC
