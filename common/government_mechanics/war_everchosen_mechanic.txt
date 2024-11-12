@@ -25,10 +25,7 @@ everchosen_mechanic = {
 					manpower_recovery_speed = 1.0
 					land_maintenance_modifier = -0.75
 					discipline = 0.10
-
-					### Revolutionary Zeal
-					yearly_revolutionary_zeal = 10.00
-					max_revolutionary_zeal= 50
+					
 				}
 			}
 

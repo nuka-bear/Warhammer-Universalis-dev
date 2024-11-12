@@ -1,0 +1,466 @@
+#### Remove Potential if they already have it!
+
+
+country_decisions = {
+
+
+	take_the_phoenix_crown = {
+		potential = { 
+			OR = {
+				culture_group = asur_group
+				culture_group = druchii_group
+				culture_group = asrai_group
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_phoenix_crown }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_phoenix_crown }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_phoenix_crown } }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_phoenix_crown
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_phoenix_crown }
+				remove_province_modifier = location_of_the_phoenix_crown
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_phoenix_crown
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+
+	take_the_ghal_maraz = {
+		potential = { 
+			OR = {
+				technology_group = tech_imperial
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_ghal_maraz }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_ghal_maraz }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_ghal_maraz} }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_ghal_maraz
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_ghal_maraz }
+				remove_province_modifier = location_of_the_ghal_maraz
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_ghal_maraz
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+
+	take_the_book_of_grudges = {
+		potential = { 
+			OR = {
+				technology_group = tech_dwarf
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_book_of_grudges }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_book_of_grudges }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_book_of_grudges} }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_book_of_grudges
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_book_of_grudges }
+				remove_province_modifier = location_of_the_book_of_grudges
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_book_of_grudges
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+
+	take_the_widowmaker = {
+		potential = { 
+			OR = {
+				culture_group = asur_group
+				culture_group = druchii_group
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_widowmaker }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_widowmaker }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_widowmaker} }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_widowmaker
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_widowmaker }
+				remove_province_modifier = location_of_the_widowmaker
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_widowmaker
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+
+	take_the_carstein_ring = {
+		potential = { 
+			OR = {
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_carstein_ring }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_carstein_ring }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_carstein_ring} }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_carstein_ring
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_carstein_ring }
+				remove_province_modifier = location_of_the_carstein_ring
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_carstein_ring
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+
+	take_the_staff_of_nagash = {
+		potential = {
+			OR = {
+				technology_group = tech_tomb_kings
+				religion_group = necromantic_denominations
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_staff_of_nagash }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_staff_of_nagash }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_staff_of_nagash} }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_staff_of_nagash
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_staff_of_nagash }
+				remove_province_modifier = location_of_the_staff_of_nagash
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_staff_of_nagash
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+
+	take_the_fellblade = {
+		potential = {
+			OR = {
+				technology_group = tech_skaven
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_fellblade }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_fellblade }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_fellblade} }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_fellblade
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_fellblade }
+				remove_province_modifier = location_of_the_fellblade
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_fellblade
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+
+	take_the_bow_of_loren = {
+		potential = {
+			OR = {
+				culture_group = asrai_group
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_bow_of_loren }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_bow_of_loren }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_bow_of_loren} }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_bow_of_loren
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_bow_of_loren }
+				remove_province_modifier = location_of_the_bow_of_loren
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_bow_of_loren
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+
+	take_the_celestial_compass = {
+		potential = {
+			OR = {
+				technology_group = tech_cathayan
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_celestial_compass }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_celestial_compass }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_celestial_compass } }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_celestial_compass
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_celestial_compass }
+				remove_province_modifier = location_of_the_celestial_compass
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_celestial_compass
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+
+	take_the_great_maw_cauldron = {
+		potential = {
+			OR = {
+				religion = the_great_maw_religion
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_great_maw_cauldron }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_great_maw_cauldron }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_great_maw_cauldron } }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_great_maw_cauldron
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_great_maw_cauldron }
+				remove_province_modifier = location_of_the_great_maw_cauldron
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_great_maw_cauldron
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+
+	take_the_hashuts_black_hammer = {
+		potential = {
+			OR = {
+				religion = hashut
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_hashuts_black_hammer }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_hashuts_black_hammer }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_hashuts_black_hammer } }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_hashuts_black_hammer
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_hashuts_black_hammer }
+				remove_province_modifier = location_of_the_hashuts_black_hammer
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_hashuts_black_hammer
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	take_the_crown_of_the_troll_king = {
+		potential = {
+			OR = {
+				technology_group = tech_norscan
+				any_neighbor_country = {
+					any_owned_province = { has_province_modifier = location_of_the_crown_of_the_troll_king }
+				}
+				any_war_enemy_country = {
+					any_owned_province = { has_province_modifier = location_of_the_crown_of_the_troll_king }
+				}
+			}
+			all_owned_province = { NOT = { has_province_modifier = location_of_the_crown_of_the_troll_king } }
+		 }
+
+		allow = {
+			any_province = {
+				controlled_by = ROOT
+				has_province_modifier = location_of_the_crown_of_the_troll_king
+			}
+		}
+
+		effect = {
+			every_province ={
+				limit = { has_province_modifier = location_of_the_crown_of_the_troll_king }
+				remove_province_modifier = location_of_the_crown_of_the_troll_king
+			}
+			capital_scope = {
+				add_permanent_province_modifier = { 
+				    name = location_of_the_crown_of_the_troll_king
+				    duration = -1  
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+
+
+}

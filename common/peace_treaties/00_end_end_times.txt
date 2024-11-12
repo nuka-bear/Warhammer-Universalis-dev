@@ -10,7 +10,7 @@ po_end_end_times = {
 	warscore_cost = {
 		# Which of the giver's provinces' war score costs are included and by how much. All entries default to 0. Any combination of entries can be used. Try negative values at your own risk.
 		all_provinces = 0.75 # All the giver's provinces
-		no_provinces = 100000.0 # This is just a constant. Equivalent to a single province with with war score cost 1
+		no_provinces = 1000.0 # This is just a constant. Equivalent to a single province with with war score cost 1
 		owner_keeps = 0.0 # The provinces that are not of any of the types below
 		conquered = 1.0 # Provinces that are selected by a Demand Province treaty
 		returned_core = 0.0 # Provinces that are selected by a Return Core treaty

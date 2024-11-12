@@ -3768,9 +3768,6 @@ grail_knight_personality = {
 }
 
 
-
-### Slann, only through decision
-
 slann_personality = {
 	
 	allow = {	
@@ -3811,3 +3808,71 @@ everchosen_personality = {
 	}
 }
 
+
+##
+
+
+legendary_administrator_personality = {
+	
+	allow = { ADM = 6 }
+	nation_designer_cost = 50
+
+	global_tax_modifier = 0.2
+	global_unrest = -2
+	yearly_corruption = -0.10
+
+	building_budget_multiplier = 1.8
+	
+	chance = {
+		modifier = {
+			factor = 0.1
+			always = yes
+		}
+	}
+}
+
+
+legendary_diplomat_personality = {
+	
+	allow = { DIP = 6 }
+	nation_designer_cost = 50
+
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.2
+	reduced_liberty_desire = 10
+
+	gift_chance = 65
+	knowledge_sharing = yes
+	other_ai_help_us_multiplier = 2
+	
+	chance = {
+		modifier = {
+			factor = 0.1
+			always = yes
+		}
+	}
+}
+
+
+legendary_warrior_personality = {
+	
+	allow = { MIL = 6 }
+	nation_designer_cost = 50
+
+	discipline = 0.05
+	land_morale = 0.05
+	army_tradition_decay = -0.01
+
+	easy_war_chance_multiplier = 2
+	war_chance_multiplier = 1.75
+	building_budget_multiplier = 0.2
+	gift_chance = -50
+	wants_land = yes
+	
+	chance = {
+		modifier = {
+			factor = 0.1
+			always = yes
+		}
+	}
+}

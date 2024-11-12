@@ -54,18 +54,15 @@ Burger Privelage if your capital is in a subterranean zone, then you get + in su
 	Look at hydralaogic empire.
 	Use the same mechanic for magical and non-magical forests for wood elves - Bonus for magical foest, penalty for anything not forest or jungle
 	This could be + minimum autonomy for non preferred zone
+	Vampiric Corruption too
+	Dwarves, Skaven, Wood Elves.
+	Could be everybody really, or mostly everybody, for favored terrains.
 
 Dimmed Sunz starts with no army!
 
 Increase culture conversion cost & times, missionary cost, autonomy from wrong culture & religion?
 
-Add Legendary Warrior/Diplomat/Administrator to ruler traits & give them to the key figures
-
-Add the warhammer legendary lords into the map
-
-Add legendary weapon that are traits that move between people
-
-Add 1 legendary artifact per culture group (like the phoenix crown)
+Add the warhammer legendary lords into the map, with legendary traits
 
 Give the hobgoblins fightiness?
 
@@ -80,6 +77,8 @@ Dominion tweaks
 Loss of Cultural Monument Triggered modifiers
 	Tomb of Settra, Skavenblight, Eatine Place, Karak, Zhar, Imperial City
 
+Rename Estates by using war_estates_l_english and common > estates > burgers, church, nobles. Look for "estate_haggle_masters"
+
 Make various diplomatic actions cause a pop-up for the receiver. And offers?
 	Offer to become dominion action?
 	Did this introduce a lot of lag?
@@ -88,15 +87,34 @@ Make various diplomatic actions cause a pop-up for the receiver. And offers?
 
 	Some way of giving the vampiric people a center of reformation?
 
-	End times no longer triggering the chaos gate. And make this a country event?
-
 	Give the Queen of Athel Lorel an isolationist trait
 
 	Fightiness events that give manpower don't give manpower if you're already above max? They give mil power or something else?
 
-	End the end times peace option - po should proc off of gov reform AND/OR chaos gates
-
 	Images for remaining old world monuments
+
+	Pop-ups for when somebody steals your artifact
+
+	Vampire "diplomatic tolerance" event for HRE members
+
+	Sword of Khaine Disaster
+		Decision to start using
+		Can't stop using while at war
+		Stability cost to stop using
+		Disaster if using for too long
+
+	Give all AI
+
+	Lowers everchosen chance if owner is losing in a war
+
+	Switch Lizardman ultimate to owning all temples
+
+	Replace Prestige gain with: add_prestige_or_monarch_power = { amount = 10 }
+	Replace STability gain with: add_stability_or_adm_power = yes
+
+	Add Sylvania to HRE! Make parts of westernland in the HRE, even though the capital isn't
+
+	Make converting religion also make you lose a stability
 
 
 Bugs

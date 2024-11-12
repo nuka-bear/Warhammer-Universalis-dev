@@ -392,6 +392,8 @@ age_of_absolutism = {
 	}
 	
 	papacy = 1.5
+	religious_conflicts = yes
+
 	
 	absolutism = {
 		harsh_treatment = 1
@@ -585,6 +587,8 @@ age_of_revolutions = {
 	can_start = {
 		is_institution_enabled = enlightenment
 	}
+	religious_conflicts = yes
+
 	
 	papacy = 2.0
 	absolutism = {

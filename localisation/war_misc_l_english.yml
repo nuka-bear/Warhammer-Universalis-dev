@@ -50,7 +50,7 @@
  order_nation:0 "Good"
  desc_order_nation:0 "Good is one of three alignments a nation can be. Those nations that choose to side with the forces of Good, concepts such as order, law and justice are major elements in their society.\n\nA Good civilization will not automatically engage in war with a neighboring civilization of a differing alignment--instead, it receives a slight penalty to diplomatic relations with all Neutral-aligned civilizations, and a massive penalty to diplomatic relations with all Evil-aligned nations. These penalties do not force war, but influence the relationships between nations: it is more difficult to form lasting trade relations, open borders, and long-term peace with nations that are aligned differently, but relatively easy to keep nations with similar alignments happy." 
  
- root_destruction:0 "Different Allignment"
+ root_destruction:0 "Different Alignment"
  
  #Karak eight Peaks
  
@@ -68,3 +68,10 @@
  kark_eight_peaks_start_tooltip:0 "Fully occupy our enemies to end the war!"
  GOBLIN_EIGHT_PEAKS:0 "Goblin Eight Peaks"
  
+##### Personalities
+
+legendary_administrator_personality:0 "Legendary Administrator"
+legendary_diplomat_personality:0 "Legendary Diplomat"
+legendary_warrior_personality:0 "Legendary Warrior"
+
+

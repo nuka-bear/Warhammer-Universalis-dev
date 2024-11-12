@@ -1,12 +1,7 @@
 
 ### Dwarves
 
-### Phoenix Crown
 
-location_of_the_phoenix_crown = {
-	diplomatic_reputation = 0.5
-	prestige = 0.25
-}
 
 
 ### Chaos Dwarf Decisions

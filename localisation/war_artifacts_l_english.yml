@@ -1,0 +1,81 @@
+﻿l_english:
+
+
+#### Locations
+
+  location_of_the_phoenix_crown:0 "The Phoenix Crown"
+  location_of_the_phoenix_crown_desc:0 "The High Elven Phoenix Crown was taken by the Dwarves of Karaz a Karak long ago. Since then it has traded hands many times, but it remains a symbol of might and prestige."
+
+  location_of_the_ghal_maraz:0 "Ghal Maraz"
+  location_of_the_ghal_maraz_desc:0 "The legendary hammer of Sigmar, Ghal Maraz, embodies the might of the Empire and the indomitable spirit of its people. It grants unparalleled strength to any who wield it in battle, symbolizing the divine right to defend the realm."
+
+  location_of_the_book_of_grudges:0 "The Book of Grudges"
+  location_of_the_book_of_grudges_desc:0 "Kept by the High King of the Dwarfs, the Great Book of Grudges, or Dammaz Kron, records every wrong done to the Dwarfen people. It demands vengeance and inspires unwavering resolve in those who honor its pages."
+
+  location_of_the_widowmaker:0 "The Widowmaker"
+  location_of_the_widowmaker_desc:0 "The Sword of Khaine, known as the Widowmaker, is a weapon of boundless destructive power, cursed by the bloodlust of the Elven god Khaine. Those who wield it are fated for ruin, but they bring unparalleled devastation upon their enemies."
+
+  location_of_the_carstein_ring:0 "The Carstein Ring"
+  location_of_the_carstein_ring_desc:0 "This ancient ring grants its wearer the dark gift of eternal life, a powerful asset to the Vampire Counts. Passed down through the von Carstein line, the ring has long been the key to their enduring reign of terror."
+
+  location_of_the_staff_of_nagash:0 "The Staff of Nagash"
+  location_of_the_staff_of_nagash_desc:0 "Forged by the Great Necromancer himself, the Staff of Nagash holds the secrets of death and undeath. With this dark artifact, the wielder commands great power over the legions of the dead and strikes fear into the hearts of all who oppose them."
+
+  location_of_the_fellblade:0 "The Fellblade"
+  location_of_the_fellblade_desc:0 "Forged by the Skaven as the ultimate weapon of destruction, the Fellblade is a cursed sword of unparalleled power, capable of felling even the mightiest foes. Its wielder, however, must pay the price for wielding such a dangerous artifact."
+
+  location_of_the_bow_of_loren:0 "The Bow of Loren"
+  location_of_the_bow_of_loren_desc:0 "This magical bow, a gift from the forest of Athel Loren, grants its wielder deadly precision and a supernatural connection to the wild. It is said that arrows from the Bow of Loren strike with the wrath of the forest itself."
+
+  location_of_the_celestial_compass:0 "The Celestial Compass"
+  location_of_the_celestial_compass_desc:0 "An ancient artifact of Grand Cathay, the Celestial Compass guides the rulers of Cathay in aligning their empire with the harmony of the cosmos. With its wisdom, they strengthen their advisors and secure their realm against any threat."
+
+  location_of_the_great_maw_cauldron:0 "The Great Maw Cauldron"
+  location_of_the_great_maw_cauldron_desc:0 "In the heart of the Ogre Kingdoms lies the Great Maw Cauldron, a sacred pit used to honor the Great Maw itself. Those who feed it earn the Maw's favor, becoming unstoppable forces of destruction in battle."
+
+  location_of_the_hashuts_black_hammer:0 "Hashut's Black Hammer"
+  location_of_the_hashuts_black_hammer_desc:0 "The Black Hammer of Hashut, forged in Zharr-Naggrund, represents the infernal craftsmanship and dark industry of the Chaos Dwarves. With this hammer, their forges produce weapons and machines of unmatched power."
+
+  location_of_the_crown_of_the_troll_king:0 "The Crown of the Troll King"
+  location_of_the_crown_of_the_troll_king_desc:0 "The Troll King's crown grants dominion over the monstrous hordes of Norsca. With this artifact, the Troll King unites trolls, giants, and beasts under his rule, leading raids that devastate all in their path."
+
+
+## Decisions
+
+
+
+  take_the_phoenix_crown_title:0 "Take the Phoenix Crown"
+  take_the_phoenix_crown_desc:0 "We have the opportunity to take the famed Asur Phoenix Crown, which was a century in its creation."
+
+  take_the_ghal_maraz_title:0 "Take Ghal Maraz"
+  take_the_ghal_maraz_desc:0 "We have the chance to claim Ghal Maraz, the sacred hammer of Sigmar, which has long been a symbol of strength and divine purpose within the Empire. With it in our possession, we can inspire our people and strike fear into our enemies."
+
+  take_the_book_of_grudges_title:0 "Take the Book of Grudges"
+  take_the_book_of_grudges_desc:0 "The Great Book of Grudges, or Dammaz Kron, chronicles every wrong done to the Dwarfen people. By taking possession of this revered tome, we can channel the Dwarfs' unyielding resolve and call for vengeance upon our foes."
+
+  take_the_widowmaker_title:0 "Take the Widowmaker"
+  take_the_widowmaker_desc:0 "The fabled Sword of Khaine, the Widowmaker, lies within our reach. This cursed blade bestows immense power upon its wielder, though at great cost. We must decide if we dare to claim such a weapon, knowing the ruin it may bring."
+
+  take_the_carstein_ring_title:0 "Take the Carstein Ring"
+  take_the_carstein_ring_desc:0 "The Carstein Ring holds the dark power of immortality, granting its wearer the ability to evade death itself. By claiming this ring, we can wield the terror of the undead and secure our rule for eternity."
+
+  take_the_staff_of_nagash_title:0 "Take the Staff of Nagash"
+  take_the_staff_of_nagash_desc:0 "Forged by the Great Necromancer, the Staff of Nagash is a legendary artifact of death magic. By seizing this staff, we can harness its immense necromantic power and command legions of the undead against our enemies."
+
+  take_the_fellblade_title:0 "Take the Fellblade"
+  take_the_fellblade_desc:0 "The Fellblade, forged by the Skaven for destruction beyond measure, is within our grasp. However, this cursed weapon carries a high price for its wielder, as it drains the life of those who dare to use it. We must decide if the power it offers is worth the cost."
+
+  take_the_bow_of_loren_title:0 "Take the Bow of Loren"
+  take_the_bow_of_loren_desc:0 "The Bow of Loren, a gift from the enchanted forest of Athel Loren, grants its bearer exceptional skill in archery and a deep connection to nature. By taking this sacred bow, we can wield the wrath of the forest itself."
+
+  take_the_celestial_compass_title:0 "Take the Celestial Compass"
+  take_the_celestial_compass_desc:0 "The Celestial Compass of Cathay guides its rulers with wisdom and insight from the stars. By claiming this ancient artifact, we can align our actions with the heavens, ensuring harmony and strength throughout the land."
+
+  take_the_great_maw_cauldron_title:0 "Take the Great Maw Cauldron"
+  take_the_great_maw_cauldron_desc:0 "The Great Maw Cauldron lies at the heart of the Ogre Kingdoms, where offerings are made to the ravenous deity of the Ogres. With control of the Cauldron, we can channel the might of the Great Maw and unleash devastating power upon our foes."
+
+  take_the_hashuts_black_hammer_title:0 "Take Hashut's Black Hammer"
+  take_the_hashuts_black_hammer_desc:0 "Hashut's Black Hammer is a potent symbol of the Chaos Dwarves' mastery over dark industry. By seizing this hammer, we can enhance our forges, creating weapons and machines that are unmatched in power."
+
+  take_the_crown_of_the_troll_king_title:0 "Take the Crown of the Troll King"
+  take_the_crown_of_the_troll_king_desc:0 "The Crown of the Troll King grants dominion over trolls and other fearsome beasts of Norsca. By taking this crown, we can rally the monstrous creatures of the land to our side, striking terror into our enemies and uniting the north in ferocity."

@@ -8,6 +8,9 @@ capital = 1 #Altdorf
 elector = yes
 
 2502.1.1 = {
+
+	clear_scripted_personalities = yes
+
 	monarch = {
 		name = "Karl-Franz I"
 		dynasty = "Holswig-Schliestein"
@@ -33,6 +36,8 @@ elector = yes
 	set_country_flag = lore_of_light_1
 	set_country_flag = lore_of_metal_1
 	set_country_flag = lore_of_death_1
+
+	add_ruler_personality = legendary_diplomat_personality	
 }
 
 2502.1.1 = {

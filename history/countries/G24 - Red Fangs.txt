@@ -18,8 +18,6 @@ government_rank = 1
 	    culture = common_orc
 	    religion = gork_n_mork_religion
 	}
-	add_ruler_personality = strict_personality
-	add_ruler_personality = inspiring_leader_personality
-	add_ruler_personality = conqueror_personality
+	add_ruler_personality = legendary_warrior_personality
 
 }
