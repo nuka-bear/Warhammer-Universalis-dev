@@ -63,7 +63,7 @@ gen_nehekhara_missions = {
 			}
 		}
 		effect = {
-			add_prestige = 50
+			add_prestige_or_monarch_power = { amount = 50 }
 		}
 	}
 	### Retake Symbols of Power
@@ -109,7 +109,7 @@ gen_nehekhara_missions = {
 			}
 		}
 		effect = {
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			if = {
 				limit = {
 					adm = 6
@@ -336,7 +336,7 @@ gen_nehekharan_pantheon_missions = {
 			}
 		}
 		effect = {
-			add_stability = 1
+			add_stability_or_adm_power = yes
 			if = {
 				limit = {
 					adm = 6

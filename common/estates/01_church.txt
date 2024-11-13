@@ -96,6 +96,75 @@ estate_church = {
 		}
 	}
 
+	custom_name = {
+		desc = estate_grail_chapel
+		trigger = {
+			religion = lady_of_the_lake
+		}
+	}
+
+	custom_name = {
+		desc = estate_temple_of_khaine
+		trigger = {
+			religion = cytharai
+		}
+	}
+
+	custom_name = {
+		desc = estate_shamans
+		trigger = {
+			OR = {
+				religion_group = greenskin_denominations
+				religion = norscan
+			}
+		}
+	}
+
+	custom_name = {
+		desc = estate_mortuary_cult
+		trigger = {
+			OR = {
+				religion = nehekharan_pantheon
+				religion = nagash_worship
+			}
+		}
+	}
+
+	custom_name = {
+		desc = estate_celestial_order
+		trigger = {
+			technology_group = tech_cathayan
+		}
+	}
+
+	custom_name = {
+		desc = estate_necromancers
+		trigger = {
+			religion = vampiric
+		}
+	}
+
+	custom_name = {
+		desc = estate_forest_spirits
+		trigger = {
+			religion = asrai_cadai
+		}
+	}
+
+	custom_name = {
+		desc = estate_cultists
+		trigger = {
+			OR = {
+				religion = slaaneshi_religion
+				religion = khornate_religion
+				religion = nurglite_religion
+				religion = tzeentchian_religion
+				religion = chaos_undivided_religion
+			}
+		}
+	}
+
+
 	# Influence modifiers
 	base_influence = 10
 	influence_modifier = {

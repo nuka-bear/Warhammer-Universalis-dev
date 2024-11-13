@@ -214,29 +214,21 @@ gen_lizard_ultimate_missions = {
 		required_missions = {
 		}
 		position = 9
+
+
 		provinces_to_highlight = {
 			has_terrain = temple_city_terrain
 			NOT = { owned_by = ROOT }
-			NOT = { development = 50 }
-			NOT = {
-				OR = {
-					has_building = temple
-					has_building = cathedral
-				}
-			}
 		}
+		
 		trigger = {
-			num_of_owned_provinces_with = {
-				has_terrain = temple_city_terrain
-				development = 50
-				OR = {
-					has_building = temple
-					has_building = cathedral
+			NOT = {
+				any_province = {
+					has_terrain = temple_city_terrain
+					NOT = { owned_by = ROOT }
 				}
-				value = 25
 			}
 		}
-
 		effect = {
 			add_country_modifier = {
 				name = lizard_geomantic_web

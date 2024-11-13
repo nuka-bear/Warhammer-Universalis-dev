@@ -71,3 +71,10 @@ OFFER_DIF_CULTURE:0 "Different primary culture"
 OFFER_DIF_RELIGION:0 "Different religion"
 TOO_BIG_OFFER:0 "They are bigger than we are!"
 OFFER_DIF_TECH_GROUP:0 "They are in a different technology group!"
+
+
+
+dominion_events.1.t:0 "Nation Pride Boils Over"
+dominion_events.1.d:0 "People take to the streets, and the issue is openly discussed on our government.\n\nWhy are we subject to such a weak and divided nation? What claim have they over our lands? Why do we grovel before an inferior people?"
+dominion_events.1.option_1:0 "Subjects No Longer!"
+dominion_events.1.option_2:0 "Because they could knock our teeth in."

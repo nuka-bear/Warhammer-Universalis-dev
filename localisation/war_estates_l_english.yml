@@ -1,7 +1,42 @@
 ﻿l_english:
 
  #estate Renames
+ ### Skaven
  estate_plague_priests:0 "Plague Priests"
  estate_grey_seers:0 "Grey Seers"
  estate_haggle_masters:0 "Haggle Masters"
  estate_vitki:0 "Vitki"
+
+ estate_clan_leaders:0 "Clan Leaders"
+
+ estate_merchant_princes:0 "Merchant Princes"
+
+ estate_grail_chapel:0 "Grail Chapel"
+
+ estate_temple_of_khaine:0 "Temple of Khaine"
+
+ estate_shamans:0 "Shamans"
+
+ estate_warbosses:0 "Warbosses"
+
+ estate_mortuary_cult:0 "Mortuary Cult"
+
+ estate_necromancers:0 "Necromancers"
+
+ estate_vampire_lords:0 "Vampire Lords"
+
+ estate_cultists:0 "Cultists"
+
+ estate_celestial_order:0 "Celestial Order"
+
+ estate_tyrants:0 "Tyrants"
+
+ estate_gutbusters:0 "Gutbusters"
+
+ estate_jarls:0 "Jarls"
+
+ estate_boyars:0 "Boyars"
+
+ estate_forest_spirits:0 "Forest Spirits"
+
+ estate_guilds:0 "Guilds"

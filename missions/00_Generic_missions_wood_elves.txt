@@ -219,7 +219,7 @@ gen_asrai_ultimate_missions = {
 				development = 30
 			}
 
-			total_development = 900
+			total_development = 1000
 		}
 
 		effect = {

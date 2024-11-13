@@ -165,7 +165,7 @@ gen_asur_missions = {
 		}
 		effect = {
 			add_legitimacy = 50
-			add_prestige = 50
+			add_prestige_or_monarch_power = { amount = 50 }
 
 			custom_tooltip = reclaimed_phoenix_crown_mission_tooltip
 

@@ -1,7 +1,6 @@
 
 JG To Do & Thoughts
 
-https://docs.google.com/spreadsheets/d/1UPAxq7n6jmW5FqCbGsSO4l8Txm98r0WMgeluOR-HlrM/edit?gid=0#gid=0
 
 
 #############################
@@ -19,20 +18,16 @@ Everybody!
 	Triggered modifier for losing a key cultural monument mark (Oak of Ages, Great Wall, etc...)
 	Split each major culture into 3-6 smaller cultures
 	Make people always able to see thier "make big country" decision
+	Add Starting events for all the major countries explaining basic goals/mechanics (In the on-startup events tied to an event)
+		
+GFX
+	Stuff surrounding Chaos Centers of Reformation
+	Missions
+	Monuments
+	Missions
+	Religious Advisor Icons
+		Do while watching something?
 
-Broadly
-	Add monuments based on the maps
-	Switch up multiple different gov types and religions for each area.
-	Worry about military balance
-	Cool images for everything
-		Monuments
-		Missions
-		Religious Advisor Icons
-			Do while watching something?
-
-	GFX
-		Stuff surrounding Chaos Centers of Reformation
-		Missions
 
 #############################
 ###### RANDOM THOUGHTS ######
@@ -41,11 +36,12 @@ Broadly
 A basic spell or two? Is mana = spell resource?
 	Undead Spend 100 mil mana to gain a 10,000 manpower?
 
+	Switch up multiple different gov types and religions for each area.
+	Worry about military balance
+
 Should it be possible to change or have multiple racial administrations & militaries?
 	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)
 	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
-
-	Vision for some countries is still strange, particularly the border princes (look at Barak Varr). Make sure everybody sees entier region subcontinent they are in, and all adjacent regions
 
 Raiding happens when people reclaim their own lands
 	Might be fixed, check if this works. - Nope!
@@ -58,36 +54,19 @@ Burger Privelage if your capital is in a subterranean zone, then you get + in su
 	Dwarves, Skaven, Wood Elves.
 	Could be everybody really, or mostly everybody, for favored terrains.
 
-Dimmed Sunz starts with no army!
-
 Increase culture conversion cost & times, missionary cost, autonomy from wrong culture & religion?
 
 Add the warhammer legendary lords into the map, with legendary traits
 
-Give the hobgoblins fightiness?
-
-Make the fightiness AI choose nobody if every neighboring is at least 2x stronger than them. Should add a little fightiness
+Make the fightiness AI choose nobody if every neighboring is at least 2x stronger than them. Should add a little fightiness.
 
 Reduce Southern Old World Development - nobody cares about them!
 
-Dominion tweaks
-	Make event for dominions to declare on their leader
-	+5% more liberty desire
-
 Loss of Cultural Monument Triggered modifiers
-	Tomb of Settra, Skavenblight, Eatine Place, Karak, Zhar, Imperial City
-
-Rename Estates by using war_estates_l_english and common > estates > burgers, church, nobles. Look for "estate_haggle_masters"
+	Tomb of Settra, Skavenblight, Eatine Place, Karak, Zhar, Imperial City, Empire Capital
 
 Make various diplomatic actions cause a pop-up for the receiver. And offers?
 	Offer to become dominion action?
-	Did this introduce a lot of lag?
-	Do a few speed tests with and without out
-		Turn various things off for AI, including some of the diplomatic actions for the AI races that it wouldn't make sense for - most non ruinous except for HRE? To save processing powre?
-
-	Some way of giving the vampiric people a center of reformation?
-
-	Give the Queen of Athel Lorel an isolationist trait
 
 	Fightiness events that give manpower don't give manpower if you're already above max? They give mil power or something else?
 
@@ -103,22 +82,25 @@ Make various diplomatic actions cause a pop-up for the receiver. And offers?
 
 	Give all AI personalities
 
-	Switch Lizardman ultimate to owning all temples
-
-	Replace Prestige gain with: add_prestige_or_monarch_power = { amount = 10 }
-	Replace Stability gain with: add_stability_or_adm_power = yes
-
-	Make Generic mission culture and religion fallback tree for Fimir, Stygians, and others. Based on Greenskin & Cathay
-
 	Have a Vampiric mission create a center of reformation
 
-	Add Starting events for all the major countries (In the on-startup events tied to an event)
+	Panama Canal
 
-
-Bugs
 	Fix Monstrous Unit Cost?
-	Generic Beacon on a Hill mission with tech difference not working
 	Pop up when you can vassalize dominions (Doesn't work)
+
+
+##### Nah Stuff ####
+Legitimate Successor government mechanic for Nehekhara & Cathay?
+	Event at high legitimate successor to declare independence war? Maybe it's a defensive war to give them a chance?
+	Event for the overlord to reign them in (declar war), or suffer penalty to own legitimacy
+	Pretty slow moving
+	Government scale for legitimate successor, with increasing diplomatic reputation and liberty desire. Higher, more liberty desire for self, less liverty desire for others.
+
+	Generic Beacon on a Hill mission with tech difference not working
+
+	Give the hobgoblins fightiness?
+
 
 
 
@@ -126,16 +108,15 @@ Bugs
 ###### END TIMES ######
 #############################
 End Times
-	Where to find relevant stuff
 
-		TLDR, it's a reskin of Revolutions but more powerful and tied to religion.
-			1) At the start of the End Times Age, a Ruinous Power (4 Chaos Gods, Hashut, Norsca) is chosen to the be Everchosen/Revolutionary Target. This is almost always the biggest chaos nation, meaning it will probably be either the Choas Dwarves or Norsca. We could force this to be one of the small chaos waste tribes instead if we wanted. The Center of Revolution spawns in their area, and they get the "Everchosen" Government Type.
-			2) The Everchosen Government type provides huge bonuses to military and conquest that diminish over 100 years (colonists, manpower, admin eff, power cost reduction). Possibly this is based on the 5th monarchists, and they can explode if criteria are not met.
-			3) The Everchosen spreads the revolution through conquest and the Center of Revolution.
-			4) Countries get disaster ticks if they are a ruinous powe religion, or if they have a revolution in their provinces. If the disaster fires, it's similar to the revolution disaster: rebels and possibility to switch to the "End Times Bringer" government type. If you are adjacent to the Everchosen, you can also choose to avoid the disaster and just become a Chaos Nation and become a dominion of the Everchosen and take their religion. All provinces with revolution flip as well?
-			5) Another revolutionary nation could technically claim the title of Everchosen and take the Revolutionary Target. The only way this is likely to happen is if a major power flips.
-			6) Non end-times nations can embrace the counter "revolution" in the normal way.
-			7) Non-"revolutionary" nations get the "crush the revolution" cb. The "Dismantle the revolution" peace term removes all the revolution/choas corruption. On success, end times over!
+	TLDR, it's a reskin of Revolutions but more powerful and tied to religion.
+		1) At the start of the End Times Age, a Ruinous Power (4 Chaos Gods, Hashut, Norsca) is chosen to the be Everchosen/Revolutionary Target. This is almost always the biggest chaos nation, meaning it will probably be either the Choas Dwarves or Norsca. We could force this to be one of the small chaos waste tribes instead if we wanted. The Center of Revolution spawns in their area, and they get the "Everchosen" Government Type.
+		2) The Everchosen Government type provides huge bonuses to military and conquest that diminish over 100 years (colonists, manpower, admin eff, power cost reduction). Possibly this is based on the 5th monarchists, and they can explode if criteria are not met.
+		3) The Everchosen spreads the revolution through conquest and the Center of Revolution.
+		4) Countries get disaster ticks if they are a ruinous powe religion, or if they have a revolution in their provinces. If the disaster fires, it's similar to the revolution disaster: rebels and possibility to switch to the "End Times Bringer" government type. If you are adjacent to the Everchosen, you can also choose to avoid the disaster and just become a Chaos Nation and become a dominion of the Everchosen and take their religion. All provinces with revolution flip as well?
+		5) Another revolutionary nation could technically claim the title of Everchosen and take the Revolutionary Target. The only way this is likely to happen is if a major power flips.
+		6) Non end-times nations can embrace the counter "revolution" in the normal way.
+		7) Non-"revolutionary" nations get the "crush the revolution" cb. The "Dismantle the revolution" peace term removes all the revolution/choas corruption. On success, end times over!
 
 		Devastation just for being near him?
 
@@ -158,6 +139,10 @@ End Times
 Vampiric End Times
 	Need to figure out Nagash - Maybe 4 additional missions for all vampiric nations to ressurect Nagash?
 
+Orc End Times?
+
+Old Ones End Times?
+
 
 
 #############################
@@ -174,31 +159,22 @@ Kislev
 Skaven
 	Betray special diplomatic action?
 	Ultimate is all warp stone at a certain development for weapon of mass destruction decision to nuke enemies
-	Panama Canal
 	Give them access to all the diplomatic actions early
-	How to make these two actions not require a diplomat? - NEED TO MAKE THESE REDUCE SPY NETWORK!
+	How to make these two actions not require a diplomat?
 	Put all the Skaven Capitals in the underdark - makes diplomacy easier
-	Special Betrayal Casus Beli for attacking Allies?
-
 
 Norscans
-	Change Ultimate
-	Number of Flagships?
+	Change Ultimate - lame as is. Number of ships captured?
 
 Chaos Tribes
 	Government Type should allow estates? Make sure everybody up there is the right gov type and tech group
-	Add global_heretic_missionary_strength = 0.03
 	Mix up the religions of the different provinces upt north
 
 Empire
-	HRE stuff
-	Unify the religion?
-	Certain number of provinces in empire are your religion
-	Her two branches - electors, emperor. Religious unity. Better than the rest.
+
 
 Vampires
-	Something to reduct the alignment relations penalty if they are both in the HRE?
-		A start of game event that slowly diminishes?
+
 
 Wood Elves - 1st done
 	Land movement between centers of each wood - Just if it's owned by wood elves?
@@ -206,6 +182,7 @@ Wood Elves - 1st done
 
 Dark Elf - 1st done
 	Need a little more oomph here. Make the religion more interesting?
+
 
 High Elves - 1st done
 	Need a little more oomph here
@@ -216,34 +193,29 @@ Lizards - 1st done
 		Province Group?
 		Number of Superregions?
 	Spell to make devestation in all enemy lands
-	Check how many temple cities there actually are for lizard final mission
-	Fix the Sequence of Localization
 
 Dwarves - 1st done
 
-OGRE - 1st done
-	Ogre leadership crisis if ruler is missing mil or not at war
+Ogre - 1st done
+
 
 Nehekhara - 1st done
-	+ Tax, - production
-	Custom Estates - Mortuary Cult
-	Upset Estates with a frozen privilage - "Fractured Society" or something like that that gives them -loyalty. And each monument gives an estate + loyalty
-	Decision to improve ruler's stats
 	Tension between the Nekeharan Pantheon and Nagashi
 	Nagashi religion to ressurect Nagash
-	Mission for controlling and having forts on the passes? Maybe missions based on areas
 
 Orcs - 1st done
 	5 pulse events to move towards mork or gork
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold
-	End Time mechanics for Orcs?
 
 Cathay - 1st done
-	Disaster if Cathay provinces not owned by cathay dudes (or maybe just bastion?)
 
-Legitimate Successor government mechanic for Nehekhara & Cathay? - 1st done
-	Event at high legitimate successor to declare independence war? Maybe it's a defensive war to give them a chance?
-	Event for the overlord to reign them in (declar war), or suffer penalty to own legitimacy
-	Pretty slow moving
-	Government scale for legitimate successor, with increasing diplomatic reputation and liberty desire. Higher, more liberty desire for self, less liverty desire for others.
+
+#################################################
+############## Notes to remember ##############
+#################################################
+
+Rename Estates by using war_estates_l_english and common > estates > burgers, church, nobles. Look for "estate_haggle_masters"
+
+	Replace Prestige gain with: add_prestige_or_monarch_power = { amount = 10 }
+	Replace Stability gain with: add_stability_or_adm_power = yes

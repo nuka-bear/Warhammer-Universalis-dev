@@ -279,7 +279,6 @@ gen_war_empire_general = {
 
 		trigger = {
 			num_of_allies = 4
-			num_of_royal_marriages = 4
 		}
 
 		effect = {
