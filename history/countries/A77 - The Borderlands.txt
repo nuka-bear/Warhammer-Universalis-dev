@@ -4,3 +4,15 @@ primary_culture = reiklander
 religion = cult_of_sigmar
 technology_group = tech_imperial
 setup_vision = yes
+
+
+2502.1.1 = {
+	monarch = {
+		name = "Christoph"
+		dynasty = "Ragarsson"
+		birth_date = 2470.12.3
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}

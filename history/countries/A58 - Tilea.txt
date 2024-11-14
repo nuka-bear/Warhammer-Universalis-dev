@@ -6,3 +6,13 @@ religion = myrmidia
 capital = 118		# Roma
 setup_vision = yes
 
+2502.1.1 = {
+	monarch = {
+		name = "Gabriele"
+		dynasty = "Pietromarchi"
+		birth_date = 2470.12.3
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}

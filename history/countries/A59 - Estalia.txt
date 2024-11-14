@@ -5,3 +5,14 @@ religion = myrmidia
 technology_group = tech_imperial
 capital = 118 
 setup_vision = yes
+
+2502.1.1 = {
+	monarch = {
+		name = "Pericle"
+		dynasty = "Gozzadini"
+		birth_date = 2470.12.3
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+}

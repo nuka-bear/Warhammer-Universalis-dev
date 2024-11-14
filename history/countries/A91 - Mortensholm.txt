@@ -7,3 +7,15 @@ capital = 655
 fixed_capital = 655
 setup_vision = yes
 government_rank = 1
+
+
+2502.1.1 = {
+	monarch = {
+		name = "Florian"
+		dynasty = "Ragarsson"
+		birth_date = Olmstadt.12.3
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}

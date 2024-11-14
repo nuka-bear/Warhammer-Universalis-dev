@@ -7,3 +7,13 @@ capital = 650
 setup_vision = yes
 government_rank = 1
 
+2502.1.1 = {
+	monarch = {
+		name = "Jacob"
+		dynasty = "Roslavsky"
+		birth_date = 2470.12.3
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}

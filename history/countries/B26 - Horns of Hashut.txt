@@ -7,3 +7,14 @@ capital = 2208#wissenburg
 setup_vision = yes
 #chaos Dwarf
 government_rank = 1
+
+2502.1.1 = {
+	monarch = {
+		name = "Pitraz"
+		dynasty = "Hackheart"
+		birth_date = 2470.12.3
+		adm = 0
+		dip = 0
+		mil = 6
+	}
+}

@@ -6,3 +6,15 @@ technology_group = tech_norscan
 capital = 486
 government_rank = 1
 setup_vision = yes
+
+
+2502.1.1 = {
+	monarch = {
+		name = "Aðalmækir"
+		dynasty = "Ragarsson"
+		birth_date = 2470.12.3
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}

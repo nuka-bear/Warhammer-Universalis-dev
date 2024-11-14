@@ -7,3 +7,13 @@ capital = 2172
 setup_vision = yes
 government_rank = 1
 
+2502.1.1 = {
+	monarch = {
+		name = "Afag"
+		dynasty = "Thundergut"
+		birth_date = 2470.12.3
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+}

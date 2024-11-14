@@ -19,6 +19,11 @@ Everybody!
 	Split each major culture into 3-6 smaller cultures
 	Make people always able to see thier "make big country" decision
 	Add Starting events for all the major countries explaining basic goals/mechanics (In the on-startup events tied to an event)
+		Done
+			Cathay
+			Jade Vampires
+			Reikland
+			Sylvania
 		
 GFX
 	Stuff surrounding Chaos Centers of Reformation
@@ -35,6 +40,19 @@ GFX
 
 A basic spell or two? Is mana = spell resource?
 	Undead Spend 100 mil mana to gain a 10,000 manpower?
+
+	Give Everybody a starting ruler
+	DONE: As
+2502.1.1 = {
+	monarch = {
+		name = "Alfríkr"
+		dynasty = "Ragarsson"
+		birth_date = 2470.12.3
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
 
 	Switch up multiple different gov types and religions for each area.
 	Worry about military balance

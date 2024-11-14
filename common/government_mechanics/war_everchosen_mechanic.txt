@@ -11,7 +11,7 @@ everchosen_mechanic = {
 				modifier = {
 
 					### Expansion
-					province_warscore_cost = -2.00
+					province_warscore_cost = -1.00
 					war_exhaustion = -10.0
 					religious_unity = 0.5
 					administrative_efficiency = 1.0
