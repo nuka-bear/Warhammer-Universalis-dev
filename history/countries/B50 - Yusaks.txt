@@ -6,3 +6,15 @@ religion = slaaneshi_religion
 technology_group = tech_chaos_warrior
 capital = 2727
 setup_vision = yes
+
+
+2502.1.1 = {
+	monarch = {
+		name = "Yeska"
+		dynasty = "Yusak"
+		birth_date = 2470.12.3
+		adm = 3
+		dip = 1
+		mil = 5
+	}
+}

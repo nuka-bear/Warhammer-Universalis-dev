@@ -6,3 +6,13 @@ technology_group = tech_orcish
 capital = 676
 setup_vision = yes
 
+2502.1.1 = {
+	monarch = {
+		name = "Aggry"
+		dynasty = "Bloodbasher"
+		birth_date = 2470.12.3
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}

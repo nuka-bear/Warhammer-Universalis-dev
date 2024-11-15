@@ -6,3 +6,14 @@ religion = chaos_undivided_religion
 technology_group = tech_chaos_warrior
 capital = 4926
 setup_vision = yes
+
+2502.1.1 = {
+	monarch = {
+		name = "Man-bane"
+		dynasty = "Sonofsonalson"
+		birth_date = 2470.12.3
+		adm = 6
+		dip = 2
+		mil = 1
+	}
+}

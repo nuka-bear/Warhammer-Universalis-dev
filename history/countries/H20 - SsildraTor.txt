@@ -7,3 +7,14 @@ capital = 2348
 government_rank = 1
 setup_vision = yes
 add_government_reform = autocracy_reform
+
+2502.1.1 = {
+	monarch = {
+		name = "Eluthekan"
+		dynasty = "Lifequencher"
+		birth_date = 2470.12.3
+		adm = 2
+		dip = 0
+		mil = 6
+	}
+}

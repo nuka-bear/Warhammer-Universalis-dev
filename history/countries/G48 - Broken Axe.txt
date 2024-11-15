@@ -6,3 +6,14 @@ technology_group = tech_orcish
 capital = 4815
 setup_vision = yes
 government_rank = 1
+
+2502.1.1 = {
+	monarch = {
+		name = "Puff"
+		dynasty = "Castle-kracka"
+		birth_date = 2470.12.3
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}

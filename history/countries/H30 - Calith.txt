@@ -12,3 +12,14 @@ add_government_reform = feudal_monarchy
 add_government_reform = feudal_monarchy
 add_government_reform = feudal_monarchy
 add_government_reform = feudal_monarchy
+
+2502.1.1 = {
+	monarch = {
+		name = "Caedral"
+		dynasty = "Stormcastle"
+		birth_date = 2470.12.3
+		adm = 6
+		dip = 2
+		mil = 4
+	}
+}

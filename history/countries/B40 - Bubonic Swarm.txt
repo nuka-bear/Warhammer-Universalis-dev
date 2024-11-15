@@ -6,3 +6,14 @@ religion = totemism
 technology_group = north_american
 capital = 2517
 setup_vision = yes
+
+2502.1.1 = {
+	monarch = {
+		name = "Bulgu"
+		dynasty = "Plugge"
+		birth_date = 2470.12.3
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}

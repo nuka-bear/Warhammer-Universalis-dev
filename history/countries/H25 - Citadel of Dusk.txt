@@ -11,3 +11,15 @@ add_government_reform = feudal_monarchy
 add_government_reform = feudal_monarchy
 add_government_reform = feudal_monarchy
 add_government_reform = oligarchy_reform
+
+
+2502.1.1 = {
+	monarch = {
+		name = "Delzhnir"
+		dynasty = "Leviathanrage"
+		birth_date = 2470.12.3
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

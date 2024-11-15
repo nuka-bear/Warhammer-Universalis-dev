@@ -7,3 +7,14 @@ capital = 1982
 government_rank = 2
 setup_vision = yes
 add_government_reform = autocracy_reform
+
+2502.1.1 = {
+	monarch = {
+		name = "Caghall"
+		dynasty = "Spiteheart"
+		birth_date = 2470.12.3
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}

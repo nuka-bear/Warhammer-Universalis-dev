@@ -7,3 +7,13 @@ technology_group = tech_chaos_warrior
 capital = 2672
 setup_vision = yes
 
+2502.1.1 = {
+	monarch = {
+		name = "Ayasun"
+		dynasty = "Goredrinker"
+		birth_date = 2470.12.3
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

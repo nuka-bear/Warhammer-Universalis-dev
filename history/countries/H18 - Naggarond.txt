@@ -7,3 +7,14 @@ capital = 2009
 government_rank = 2
 setup_vision = yes
 add_government_reform = autocracy_reform
+
+2502.1.1 = {
+	monarch = {
+		name = "Tothorm"
+		dynasty = "Zorass"
+		birth_date = 2470.12.3
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+}

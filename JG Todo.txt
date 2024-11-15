@@ -42,7 +42,7 @@ A basic spell or two? Is mana = spell resource?
 	Undead Spend 100 mil mana to gain a 10,000 manpower?
 
 	Give Everybody a starting ruler
-	DONE: As
+	DONE: A, B, G, H
 2502.1.1 = {
 	monarch = {
 		name = "Alfríkr"

@@ -6,3 +6,14 @@ technology_group = tech_orcish
 capital = 224
 setup_vision = yes
 government_rank = 1
+
+2502.1.1 = {
+	monarch = {
+		name = "Bograk"
+		dynasty = "Zik Grok"
+		birth_date = 2470.12.3
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}

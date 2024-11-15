@@ -6,3 +6,14 @@ religion = khornate_religion
 technology_group = tech_chaos_warrior
 capital = 4459
 setup_vision = yes
+
+2502.1.1 = {
+	monarch = {
+		name = "Bloodrunner"
+		dynasty = "Kuj"
+		birth_date = 2470.12.3
+		adm = 3
+		dip = 1
+		mil = 5
+	}
+}

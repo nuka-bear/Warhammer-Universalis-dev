@@ -6,3 +6,14 @@ technology_group = tech_wood_elf
 capital = 2097
 setup_vision = yes
 government_rank = 1
+
+2502.1.1 = {
+	monarch = {
+		name = "Hextvar"
+		dynasty = "Fellheart"
+		birth_date = 2470.12.3
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
