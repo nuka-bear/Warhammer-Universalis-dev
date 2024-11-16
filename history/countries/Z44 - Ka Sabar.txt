@@ -7,3 +7,14 @@ technology_group = tech_tomb_kings
 capital = 1789
 setup_vision = yes
 government_rank = 1
+
+2502.1.1 = {
+	monarch = {
+		name = "Nyuserre"
+		dynasty = "Itjtawy"
+		birth_date = 2470.12.3
+		adm = 4
+		dip = 2
+		mil = 6
+	}
+}

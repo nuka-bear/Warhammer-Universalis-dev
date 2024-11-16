@@ -7,3 +7,14 @@ government_rank = 1
 setup_vision = yes
 
 add_government_reform = cathay_splinter_state
+
+2502.1.1 = {
+	monarch = {
+		name = "Shouyi"
+		dynasty = "Jadeblooded"
+		birth_date = 2470.12.3
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}

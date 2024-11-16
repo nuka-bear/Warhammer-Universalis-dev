@@ -7,3 +7,13 @@ technology_group = tech_di_lizardmen
 capital = 4848# Owari
 setup_vision = yes
 
+2502.1.1 = {
+	monarch = {
+		name = "Nebaj"
+		dynasty = "Xcalumkin"
+		birth_date = 2470.12.3
+		adm = 2
+		dip = 6
+		mil = 3
+	}
+}

@@ -8,5 +8,14 @@ capital = 4844# Owari
 setup_vision = yes
 
 
-
+2502.1.1 = {
+	monarch = {
+		name = "Bramak"
+		dynasty = "Tikal"
+		birth_date = 2470.12.3
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+}
 

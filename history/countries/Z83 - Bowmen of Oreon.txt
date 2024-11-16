@@ -6,3 +6,14 @@ technology_group = tech_wood_elf
 capital = 4881
 setup_vision = yes
 government_rank = 1
+
+2502.1.1 = {
+	monarch = {
+		name = "Efaen"
+		dynasty = "Skyblade"
+		birth_date = 2470.12.3
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}

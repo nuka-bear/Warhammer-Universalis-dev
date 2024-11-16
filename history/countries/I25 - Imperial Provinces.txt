@@ -9,6 +9,17 @@ setup_vision = yes
 add_government_reform = cathay_splinter_state
 
 2502.1.1 = {
+
+	monarch = {
+		name = "Yingxiang"
+		dynasty = "Sun"
+		birth_date = 2470.12.3
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+
+
 	change_estate_land_share = {
     	estate = estate_nobles
     	share = 10

@@ -6,3 +6,14 @@ religion = enlightened_path
 technology_group = tech_di_lizardmen
 capital = 4266# Owari
 setup_vision = yes
+
+2502.1.1 = {
+	monarch = {
+		name = "Cho-Li"
+		dynasty = "Nebaj"
+		birth_date = 2470.12.3
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

@@ -6,3 +6,14 @@ capital = 370# Gao
 government_rank = 1
 setup_vision = yes
 add_government_reform = autocracy_reform
+
+2502.1.1 = {
+	monarch = {
+		name = "Tepchicc"
+		dynasty = "the Screaming One"
+		birth_date = 2470.12.3
+		adm = 1
+		dip = 0
+		mil = 6
+	}
+}

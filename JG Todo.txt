@@ -40,19 +40,19 @@ GFX
 
 A basic spell or two? Is mana = spell resource?
 	Undead Spend 100 mil mana to gain a 10,000 manpower?
+	Make some way of finding the everchosen
 
-	Give Everybody a starting ruler
-	DONE: A, B, G, H
-2502.1.1 = {
-	monarch = {
-		name = "Alfríkr"
-		dynasty = "Ragarsson"
-		birth_date = 2470.12.3
-		adm = 3
-		dip = 2
-		mil = 4
-	}
-}
+Skism in Araby - It a ruler is 666, then a chance for them to declare themselves a prophet
+
+Form the underempire as skaven starts the vermintide, similar to everchosen mechanic
+
+Vampire, get three vampire relics (Carstein Ring, Staff of Nagash, Jadeblooded thing) to ressurect Nagash and start their own endtimes
+
+	Finish Names in War_Cultures
+
+	Intolerant, with decision to get rid of it
+
+	Converting between good and evil?
 
 	Switch up multiple different gov types and religions for each area.
 	Worry about military balance

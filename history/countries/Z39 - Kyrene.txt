@@ -7,3 +7,14 @@ capital = 945# Gao
 government_rank = 1
 setup_vision = yes
 set_country_flag = tomb_king_ruler
+
+2502.1.1 = {
+	monarch = {
+		name = "Akhenaten"
+		dynasty = "Rophran"
+		birth_date = 2470.12.3
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}

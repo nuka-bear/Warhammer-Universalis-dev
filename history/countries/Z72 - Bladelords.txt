@@ -6,4 +6,13 @@ capital = 2148
 government_rank = 1
 setup_vision = yes
 
-
+2502.1.1 = {
+	monarch = {
+		name = "Hideyori"
+		dynasty = "Ieshige"
+		birth_date = 2470.12.3
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}

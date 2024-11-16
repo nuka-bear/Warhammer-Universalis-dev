@@ -9,3 +9,14 @@ government_rank = 1
 
 
 add_government_reform = lizardmen_government_reform
+
+2502.1.1 = {
+	monarch = {
+		name = "Ilinbasu"
+		dynasty = "Yaxha"
+		birth_date = 2470.12.3
+		adm = 4
+		dip = 3
+		mil = 1
+	}
+}

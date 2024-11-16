@@ -6,3 +6,13 @@ religion = enlightened_path
 technology_group = tech_di_lizardmen
 capital = 4856# Owari
 
+2502.1.1 = {
+	monarch = {
+		name = "Huacalcuauhtototl"
+		dynasty = "Xpuhil"
+		birth_date = 2470.12.3
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}

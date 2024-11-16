@@ -9,3 +9,15 @@ capital = 4857# Owari
 
 
 setup_vision = yes
+
+2502.1.1 = {
+	monarch = {
+		name = "Bramak"
+		dynasty = "Chalteco"
+		birth_date = 2470.12.3
+		adm = 4
+		dip = 4
+		mil = 1
+	}
+}
+

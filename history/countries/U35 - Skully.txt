@@ -6,3 +6,14 @@ capital = 4718# Gao
 government_rank = 1
 setup_vision = yes
 add_government_reform = autocracy_reform
+
+2502.1.1 = {
+	monarch = {
+		name = "Vermitt"
+		dynasty = "the Grabby"
+		birth_date = 2470.12.3
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}

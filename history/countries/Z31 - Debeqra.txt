@@ -6,3 +6,14 @@ technology_group = tech_arabyn
 setup_vision = yes
 capital = 1227# Gao
 government_rank = 1
+
+2502.1.1 = {
+	monarch = {
+		name = "Othman"
+		dynasty = "Yorassem"
+		birth_date = 2470.12.3
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}

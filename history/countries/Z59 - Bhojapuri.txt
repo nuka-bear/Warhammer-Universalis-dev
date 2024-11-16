@@ -6,3 +6,13 @@ setup_vision = yes
 government_rank = 1
 primary_culture = east_indish_c
 
+2502.1.1 = {
+	monarch = {
+		name = "Bala Rama"
+		dynasty = "Cheraman"
+		birth_date = 2470.12.3
+		adm = 1
+		dip = 4
+		mil = 1
+	}
+}

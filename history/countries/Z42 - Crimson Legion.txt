@@ -8,3 +8,14 @@ government_rank = 1
 setup_vision = yes
 
 
+
+2502.1.1 = {
+	monarch = {
+		name = "Nigbau"
+		dynasty = "Neit"
+		birth_date = 2470.12.3
+		adm = 3
+		dip = 2
+		mil = 6
+	}
+}

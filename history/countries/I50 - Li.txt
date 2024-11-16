@@ -6,3 +6,14 @@ religion = enlightened_path
 technology_group = tech_di_lizardmen
 capital = 4841# Owari
 setup_vision = yes
+
+2502.1.1 = {
+	monarch = {
+		name = "Chamani"
+		dynasty = "Nakbe"
+		birth_date = 2470.12.3
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
