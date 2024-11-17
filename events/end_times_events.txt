@@ -77,7 +77,7 @@ province_event = {
 
 
 		modifier = {
-			factor = 0.25
+			factor = 0.05
 			owner = { 
 				all_country = {
 					OR = {
@@ -291,6 +291,20 @@ province_event = {
 			}
 
 			add_reform_center = chaos_undivided_religion
+
+
+			create_unit_forcelimit_percentage = {
+			    type = infantry
+			    force_limit_percentage = 0.25
+			}
+			create_unit_forcelimit_percentage = {
+			    type = artillery
+			    force_limit_percentage = 0.25
+			}
+			create_unit_forcelimit_percentage = {
+			    type = cavalry
+			    force_limit_percentage = 0.05
+			}
 
 		}
 

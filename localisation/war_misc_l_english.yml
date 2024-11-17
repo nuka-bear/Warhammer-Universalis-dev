@@ -75,3 +75,38 @@ legendary_diplomat_personality:0 "Legendary Diplomat"
 legendary_warrior_personality:0 "Legendary Warrior"
 
 
+###
+loss_of_cultural_monument:0 "Loss of A Cultural Monument"
+
+#### RACE X TERRAIN
+
+
+lizardfolk_mild_winter:0 "Lizardfolk Mild Winter"
+lizardfolk_normal_winter:0 "Lizardfolk Normal Winter"
+lizardfolk_severe_winter:0 "Lizardfolk Severe Winter"
+lizardfolk_arctic:0 "Lizardfolk Arctic"
+
+lizardfolk_mild_winter_desc:0 "The mild winter offers some resistance to the hardy lizardfolk, and disrupts their ability to administer the lands."
+lizardfolk_normal_winter_desc:0 "A normal winter tests the adaptability of the lizardfolk, reducing their administrative abilities."
+lizardfolk_severe_winter_desc:0 "Severe winter bites hard, challenging the administration of the lizardfolk in harsh conditions."
+lizardfolk_arctic_desc:0 "The relentless arctic cold pushes the lizardfolk to their limits. Lizardfolk cannot survive up here, and the provinces are left to govern themselves."
+
+
+### Wood Elves
+
+wood_elves_magical_forest:0 "Wood Elves in Magical Forest"
+wood_elves_non_forest:0 "Wood Elves Not in Wood"
+
+wood_elves_magical_forest_desc:0 "Within the magical forest, the Wood Elves thrive, drawing strength from its ancient power."
+wood_elves_non_forest_desc:0 "Separated from their sacred woods, the Wood Elves are unable to effectively administer their lands."
+
+
+
+### Undergrounder
+
+undergrounder_underground:0 "Underground Race Underground"
+undergrounder_above_ground:0 "Underground Race Above Ground"
+
+undergrounder_underground_desc:0 "Dwelling underground, this race finds comfort and strength in their subterranean domain."
+undergrounder_above_ground_desc:0 "Exposed above ground, the underground race is unable to effective administer their lands."
+

@@ -29,11 +29,27 @@ po_end_end_times = {
 	
 	is_visible = { # Defaults to equivalent of "always = yes"
 		NOT = { religion_group = ruinous_powers_denominations }
-		FROM = { has_reform = everchosen_reform }
+		OR = {
+			FROM = { has_reform = everchosen_reform }
+			FROM = {
+				any_owned_province = {
+					religion = chaos_undivided_religion
+					is_reformation_center = no
+				}
+			}
+		}
 	}
 	is_allowed = { # Defaults to equivalent of "always = yes"
 		NOT = { religion_group = ruinous_powers_denominations }
-		FROM = { has_reform = everchosen_reform }
+		OR = {
+			FROM = { has_reform = everchosen_reform }
+			FROM = {
+				any_owned_province = {
+					religion = chaos_undivided_religion
+					is_reformation_center = no
+				}
+			}
+		}
 	}
 	effect = { # Defaults to empty effect (which makes error log entry but is safe)
 

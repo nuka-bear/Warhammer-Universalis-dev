@@ -3,6 +3,22 @@
 #
 # Effects are fully scriptable here.
 
+
+###
+
+
+
+
+
+
+
+
+
+
+
+
+####
+
 norscan_hunting_ptm = {
 	potential = { religion = norscan }
 

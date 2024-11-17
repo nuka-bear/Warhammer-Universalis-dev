@@ -120,6 +120,11 @@ desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
 
 #### CHAOS CORRUPTION EVENTS
 
+ chaos_corruption_disaster:0 "Chaos Corruption"
+ chaos_corruption_disaster_desc:0 "Chaos cults have taken hold in our land. If we do not root them out, then we risk a total overthrow of our established order. A terrible outcome. Unless ... perhaps that is what we want?"
+
+
+
   chaos_corruption_events.2.t:0 "The Slaaneshi Seduction"
 chaos_corruption_events.2.d:0 "Whispers of indulgence and ecstasy sweep through your land as cults of Slaanesh emerge, spreading their influence over your people. The allure of hedonistic pleasures beckons many to abandon their former beliefs."
 chaos_corruption_events.2.option_1:0 "Let them indulge in their desires"

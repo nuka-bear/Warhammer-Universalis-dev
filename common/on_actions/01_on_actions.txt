@@ -340,6 +340,126 @@ on_siege_won_province = {
 	}
 }
 
+#### Terrain & Race Bonus Transfer
+
+on_province_owner_change = {
+
+	remove_province_modifier = lizardfolk_mild_winter
+	remove_province_modifier = lizardfolk_normal_winter
+	remove_province_modifier = lizardfolk_severe_winter
+	remove_province_modifier = lizardfolk_arctic
+	remove_province_modifier = wood_elves_magical_forest
+	remove_province_modifier = wood_elves_non_forest
+	remove_province_modifier = undergrounder_underground
+	remove_province_modifier = undergrounder_above_ground
+
+
+## Lizardfolk
+	if = {
+		limit = {
+			owner = { has_country_modifier = lizardmen_administration }
+			has_climate = mild_winter
+			}
+		add_permanent_province_modifier = { 
+			name = lizardfolk_mild_winter
+			duration = -1  	
+		}
+	}
+
+	if = {
+		limit = {
+			owner = { has_country_modifier = lizardmen_administration }
+			has_climate = normal_winter
+		}
+		add_permanent_province_modifier = { 
+		    name = lizardfolk_normal_winter
+		    duration = -1  
+		}
+	}
+
+	if = {
+		limit = {
+			owner = { has_country_modifier = lizardmen_administration }
+			has_climate = severe_winter
+		}
+		add_permanent_province_modifier = { 
+		    name = lizardfolk_severe_winter
+		    duration = -1  
+		}
+	}
+
+	if = {
+		limit = {
+			owner = { has_country_modifier = lizardmen_administration }
+			has_climate = arctic
+		}
+		add_permanent_province_modifier = { 
+		    name = lizardfolk_arctic
+		    duration = -1  
+		}
+	}
+
+### Wood Elves
+	if = {
+		limit = {
+			owner = { technology_group = tech_wood_elf }
+			has_terrain = magical_forest_terrain
+		}
+		add_permanent_province_modifier = { 
+		    name = wood_elves_magical_forest
+		    duration = -1  
+		}
+	}
+
+	if = {
+		limit = {
+			owner = { technology_group = tech_wood_elf }
+			NOT = { has_terrain = magical_forest_terrain }
+			NOT = { has_terrain = forest }
+			NOT = { has_terrain = jungle }
+		}
+		add_permanent_province_modifier = { 
+		    name = wood_elves_non_forest
+		    duration = -1  
+		}
+	}
+
+### Dwarves and Skaven
+	if = {
+		limit = {
+			OR = {
+				owner = { technology_group = tech_dwarf }
+				owner = { technology_group = tech_skaven }
+			}
+			OR = {
+				has_terrain = subterranean_city_terrain
+				has_terrain = subterranean_terrain
+				has_terrain = urban_terrain
+			}
+		}	
+		add_permanent_province_modifier = { 
+		    name = undergrounder_underground
+		    duration = -1  
+		}
+	}
+
+	if = {
+		limit = {
+			OR = {
+				owner = { technology_group = tech_dwarf }
+				owner = { technology_group = tech_skaven }
+			}
+			NOT = { has_terrain = subterranean_city_terrain }
+			NOT = { has_terrain = subterranean_terrain }
+			NOT = { has_terrain = urban_terrain }
+		}	
+		add_permanent_province_modifier = { 
+		    name = undergrounder_above_ground
+		    duration = -1  
+		}
+	}
+}
+
 
 
 

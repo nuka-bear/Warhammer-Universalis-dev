@@ -14,7 +14,7 @@ REALLY_BAD_UNITY:0 "They have extremely poor religious unity"
 MANY_MISSIONARIES:0 "We have have at least four missionaries"
 CAPITAL_RELIGION:0 "They already have our religion in their capital!"
 
-tooltip_offer_dominion_alert_tooltip:0 "We can convert a friend to our religion."
+# tooltip_offer_dominion_alert_tooltip:0 "We can convert a friend to our religion."
 
 
 

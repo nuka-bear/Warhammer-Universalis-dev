@@ -164,7 +164,15 @@ cb_war_end_end_times = {
 	}
 
 	prerequisites = {
-		FROM = { has_reform = everchosen_reform }
+		OR = {
+			FROM = { has_reform = everchosen_reform }
+			FROM = {
+				any_owned_province = {
+					religion = chaos_undivided_religion
+					is_reformation_center = no
+				}
+			}
+		}
 	}
 
 	war_goal = end_end_times_wargoal

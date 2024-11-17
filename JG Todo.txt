@@ -13,11 +13,8 @@ Everybody!
 	5x random pulse events
 	5x decisions
 	Adjust opening text for cultures and religions, with callouts for most important things
-	Make each mission tree a single icon of the culture or religion
 	Special Religious mechanic
-	Triggered modifier for losing a key cultural monument mark (Oak of Ages, Great Wall, etc...)
-	Split each major culture into 3-6 smaller cultures
-	Make people always able to see thier "make big country" decision
+	Switch up multiple different gov types and religions for each area.
 	Add Starting events for all the major countries explaining basic goals/mechanics (In the on-startup events tied to an event)
 		Done
 			Cathay
@@ -30,6 +27,7 @@ GFX
 	Missions
 	Monuments
 	Missions
+	Make each mission tree a single icon of the culture or religion
 	Religious Advisor Icons
 		Do while watching something?
 
@@ -38,50 +36,40 @@ GFX
 ###### RANDOM THOUGHTS ######
 #############################
 
-A basic spell or two? Is mana = spell resource?
-	Undead Spend 100 mil mana to gain a 10,000 manpower?
+Crash is probably from the country getting fully annex, and then us trying to find or make a dominion from it, or perhaps trying to transfer a domain or brettonian vassal from it. THATS IT. This happens even when demanding independence
+	Err, no it's just whenever somebosy with dominions is fully annexed
+
+
+
+Is endtimes mechanic starting at 100?
+
+Make the end times cb apply if the person is the everchosen, or if the chaos gate is in their territory
+
 	Make some way of finding the everchosen
-
-Skism in Araby - It a ruler is 666, then a chance for them to declare themselves a prophet
-
-Form the underempire as skaven starts the vermintide, similar to everchosen mechanic
-
-Vampire, get three vampire relics (Carstein Ring, Staff of Nagash, Jadeblooded thing) to ressurect Nagash and start their own endtimes
 
 	Finish Names in War_Cultures
 
 	Intolerant, with decision to get rid of it
 
-	Converting between good and evil?
+	Converting between good and evil? Based on Religion?
 
-	Switch up multiple different gov types and religions for each area.
 	Worry about military balance
 
-Should it be possible to change or have multiple racial administrations & militaries?
-	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)
-	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
+	Split ogre culture into 2-3 
+		Rockbiter Ogre
+		Firedrinker Ogre
+		Fishskinner Ogre
+		Cathayan Ogre
+
 
 Raiding happens when people reclaim their own lands
 	Might be fixed, check if this works. - Nope!
-
-Burger Privelage if your capital is in a subterranean zone, then you get + in subterranean, - in non-subterranean
-	Look at hydralaogic empire.
-	Use the same mechanic for magical and non-magical forests for wood elves - Bonus for magical foest, penalty for anything not forest or jungle
-	This could be + minimum autonomy for non preferred zone
-	Vampiric Corruption too
-	Dwarves, Skaven, Wood Elves.
-	Could be everybody really, or mostly everybody, for favored terrains.
 
 Increase culture conversion cost & times, missionary cost, autonomy from wrong culture & religion?
 
 Add the warhammer legendary lords into the map, with legendary traits
 
-Make the fightiness AI choose nobody if every neighboring is at least 2x stronger than them. Should add a little fightiness.
-
 Reduce Southern Old World Development - nobody cares about them!
-
-Loss of Cultural Monument Triggered modifiers
-	Tomb of Settra, Skavenblight, Eatine Place, Karak, Zhar, Imperial City, Empire Capital
 
 Make various diplomatic actions cause a pop-up for the receiver. And offers?
 	Offer to become dominion action?
@@ -92,19 +80,12 @@ Make various diplomatic actions cause a pop-up for the receiver. And offers?
 
 	Pop-ups for when somebody steals your artifact
 
-	Sword of Khaine Disaster
-		Decision to start using
-		Can't stop using while at war
-		Stability cost to stop using
-		Disaster if using for too long
-
-	Give all AI personalities
-
 	Have a Vampiric mission create a center of reformation
 
 	Panama Canal
 
 	Fix Monstrous Unit Cost?
+
 	Pop up when you can vassalize dominions (Doesn't work)
 
 
@@ -119,6 +100,13 @@ Legitimate Successor government mechanic for Nehekhara & Cathay?
 
 	Give the hobgoblins fightiness?
 
+	Should it be possible to change or have multiple racial administrations & militaries?
+	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)
+	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
+	Undead in particular is weird
+
+A basic spell or two? Is mana = spell resource?
+	Undead Spend 100 mil mana to gain a 10,000 manpower?
 
 
 
@@ -139,8 +127,6 @@ End Times
 		Devastation just for being near him?
 
 		Make them an end game tag? Make them form a new nation, black?
-
-		Need a CB/Peace offering to get rid of him
 
 		Make the Chaos gate range really high, but a really high factor for same continent
 
@@ -180,6 +166,8 @@ Skaven
 	Give them access to all the diplomatic actions early
 	How to make these two actions not require a diplomat?
 	Put all the Skaven Capitals in the underdark - makes diplomacy easier
+	Form the underempire as skaven starts the vermintide, similar to everchosen mechanic
+
 
 Norscans
 	Change Ultimate - lame as is. Number of ships captured?
@@ -192,6 +180,7 @@ Empire
 
 
 Vampires
+	Vampire, get three vampire relics (Carstein Ring, Staff of Nagash, Jadeblooded thing at 2905) to ressurect Nagash and start their own endtimes
 
 
 Wood Elves - 1st done
@@ -204,6 +193,11 @@ Dark Elf - 1st done
 
 High Elves - 1st done
 	Need a little more oomph here
+		Sword of Khaine Disaster
+		Decision to start using
+		Can't stop using while at war
+		Stability cost to stop using
+		Disaster if using for too long
 
 
 Lizards - 1st done
@@ -225,8 +219,14 @@ Orcs - 1st done
 	5 pulse events to move towards mork or gork
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold
+	Make the fightiness AI choose nobody if every neighboring is at least 2x stronger than them. Should add a little fightiness.
 
-Cathay - 1st done
+
+Cathay
+
+Araby
+	Skism in Araby - If a ruler is 666, then a chance for them to declare themselves a prophet
+
 
 
 #################################################

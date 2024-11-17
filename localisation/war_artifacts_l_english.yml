@@ -39,6 +39,8 @@
   location_of_the_crown_of_the_troll_king:0 "The Crown of the Troll King"
   location_of_the_crown_of_the_troll_king_desc:0 "The Troll King's crown grants dominion over the monstrous hordes of Norsca. With this artifact, the Troll King unites trolls, giants, and beasts under his rule, leading raids that devastate all in their path."
 
+  location_of_the_jade_blooded_vial:0 "Jade Blooded Vial"
+  location_of_the_jade_blooded_vial_desc:0 "The Jade Blooded Vial is said to contain a drop of the first Cathayan vampire's blood. Each new Jadeblooded Vampire must sip from the vial, and by midnight it is always refilled. It is said the power of the vial increases the bloodline's power of misdirection and subterfuge."
 
 ## Decisions
 
@@ -79,3 +81,15 @@
 
   take_the_crown_of_the_troll_king_title:0 "Take the Crown of the Troll King"
   take_the_crown_of_the_troll_king_desc:0 "The Crown of the Troll King grants dominion over trolls and other fearsome beasts of Norsca. By taking this crown, we can rally the monstrous creatures of the land to our side, striking terror into our enemies and uniting the north in ferocity."
+
+  take_the_jade_blooded_vial_title:0 "Take the Jade Blooded Vial"
+  take_the_jade_blooded_vial_desc:0 "The Jade Blooded Vial is said to contain a drop of the first Cathayan vampire's blood. Each new Jadeblooded Vampire must sip from the vial, and by midnight it is always refilled. It is said the power of the vial increases the bloodline's power of misdirection and subterfuge."
+
+
+### Resurrect Nagash
+
+resurrect_nagash_decision_title:0 "Resurrect Nagash"
+resurrect_nagash_decision_desc:0 "Nagash, the Great Necromancer and father of the undead, can be brought back to unlife through a dark and forbidden ritual. By gathering the three legendary necromantic artifacts—the Carstein Ring, the Jade Blooded Vial, and the Staff of Nagash—you can complete the ritual to bind his soul to your will. With Nagash resurrected and enslaved to your service, your nation will wield unparalleled necromantic power, striking fear into the hearts of all who oppose you."
+
+nagash_resurrected_modifier:0 "Resurrect Nagash"
+nagash_resurrected_modifier_desc:0 "Nagash, the Great Necromancer and father of the undead, is bound to serve our nation. Though his ressurection was difficult, our efforts have been greatly rewarded."
