@@ -5,6 +5,6 @@ trade_goods = wool
 religion = the_great_maw_religion
 is_city = yes
 owner = I16
-culture = ogre_main
+culture = ogre_fishguts
 controller = I16
 add_core = I16

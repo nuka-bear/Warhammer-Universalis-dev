@@ -6,5 +6,5 @@ trade_goods = wool
 religion = the_great_maw_religion
 controller = I05
 
-culture = ogre_main
+culture = ogre_redmaw
 add_core = I05

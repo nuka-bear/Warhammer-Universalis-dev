@@ -6,5 +6,5 @@ trade_goods = gold
 religion = nagash_worship
 controller = Z02
 is_city = yes
-culture = nehekharan_culture
+culture = nehekharan_zandri_culture
 add_core = Z02

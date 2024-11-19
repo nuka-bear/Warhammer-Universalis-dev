@@ -6,9 +6,9 @@ culture = asturian
 religion = myrmidia
  
 
-base_tax = 7
-base_production = 7
-base_manpower = 7
+base_tax = 6
+base_production = 6
+base_manpower = 6
 trade_goods = dyes
 center_of_trade = 2
 fort_15th = yes

@@ -9,6 +9,7 @@ gen_war_empire_monarchy = {
 
 	slot = 1
 	generic = yes
+	has_country_shield = yes
 	ai = yes
 	
 	potential = {
@@ -89,6 +90,7 @@ gen_war_empire_monarchy = {
 gen_war_europe_hre_theocracy = {
 	slot = 1
 	generic = yes
+	has_country_shield = yes
 	ai = yes
 	potential = {
 		is_part_of_hre = yes
@@ -203,6 +205,7 @@ gen_war_europe_hre_theocracy = {
 gen_war_empire_republic = {
 	slot = 1
 	generic = yes
+	has_country_shield = yes
 	ai = yes
 	potential = {
 		is_part_of_hre = yes
@@ -267,6 +270,7 @@ gen_war_empire_republic = {
 gen_war_empire_general = {
 	slot = 1
 	generic = yes
+	has_country_shield = yes
 	ai = yes
 	potential = {
 		is_part_of_hre = yes
@@ -425,6 +429,7 @@ gen_war_empire_ultimate = {
 
 	slot = 3
 	generic = yes
+	has_country_shield = yes
 	ai = yes
 	
 	potential = {
@@ -482,6 +487,7 @@ gen_war_empire_religion = {
 
 	slot = 5
 	generic = yes
+	has_country_shield = yes
 	ai = yes
 	
 	potential = {

@@ -1,6 +1,6 @@
 owner = Z03
 controller = Z03
-culture = nehekharan_culture
+culture = nehekharan_zandri_culture
 religion = nehekharan_pantheon
 base_tax = 6
 base_production = 8

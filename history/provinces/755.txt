@@ -2,7 +2,7 @@
 #lol
 owner = G20
 controller = G20
-culture = common_orc
+culture = border_orc
 religion = gork_n_mork_religion
 base_tax = 2
 base_production = 1

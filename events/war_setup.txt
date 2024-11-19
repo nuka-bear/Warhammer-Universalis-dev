@@ -359,6 +359,33 @@ country_event = {
 			}
 		}
 
+
+### Surface Dweller underground
+
+		every_country = {
+			limit = {
+				NOT = { technology_group = tech_dwarf }
+				NOT = { technology_group = tech_skaven }
+				NOT = { technology_group = tech_chaos_dwarfen }
+				NOT = { technology_group = tech_hobgoblin }
+				NOT = { technology_group = tech_orcish }
+				NOT = { technology_group = tech_eastern_greenskin }
+			}
+
+			every_owned_province = { 
+				limit = {
+					OR = {
+						has_terrain = subterranean_city_terrain
+						has_terrain = subterranean_terrain
+					}
+				}
+				add_permanent_province_modifier = { 
+				    name = surface_dweller_underground
+				    duration = -1  
+				}
+			}
+		}
+
 	}
 }
 

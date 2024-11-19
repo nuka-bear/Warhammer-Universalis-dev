@@ -987,7 +987,84 @@ greenskins_group	= {
 			Badruk Baldagran Balst Banak Bang Basha Bashag Bashak Bashbang Bashbla Bashbrag Bashga 
 			Bashgor Bashgrek Bashgut Bashko Bashlud Bashrat Bazag Bazak Bazbad Bazbang Bazbla Bazbog 
 			Bazbrag Bazbus Bazga Bazgash Bazged Bazgok Bazgor Bazgorak Bazgrek Bazgruk Bazgut Bazhag 
-
+			Cargok  Cargorak  Cargrek  Cargut  Chagor  Chargorak  Chargrek  Chargut  Chokrak  Chokruk  
+			Chugash  Chuged  Chugok  Chugor  Chugorak  Chugrek  Chugruk  Chumgok  Chumgor  Chumrek  
+			Dagaz  Dagbog  Dagorak  Dagrek  Dagruzk  Dazgok  Dazgorak  Dazgrek  Dazgruk  Dazgut  
+			Drogak  Drogar  Drogork  Drogrek  Drogut  Drukgor  Drukgok  Drukgrak  Drukgork  Drukgut  
+			Dugrog  Dugrek  Dugruk  Dugutr  Dugzag  Dugzed  Dugzuk  Dugzut  Dugzor  Dugzrek  
+			Fargok  Fargorak  Fargrek  Fargut  Fashgor  Fashgok  Fashgrak  Fashgrek  Fashgut  Fashrak  
+			Garguk  Gargut  Gashgok  Gashgor  Gashrek  Gashruk  Gogzag  Gogzed  Gogzok  Gogzuk  
+			Gozbag  Gozgok  Gozgor  Gozgrak  Gozgrek  Gozgruk  Gozgut  Groggash  Groggok  Groggrek  
+			Grogguk  Grograk  Grogrok  Grogruk  Grukbog  Grukgok  Grukgor  Grukgrek  Grukgut  Grukrag  
+			Chugmag  Chugrek  Chugruk  Chugtag  Chugtork  Chugzag  Chugzed  Chugzok  Chugzuk  Chugzut  
+		
+		}
+		female_names = {
+			Bdaset Bite Bizzle Blib Blotty Bogoexr Bred Btesg Doz Ekalim Faq Ferenghi Gkobat Grot Grott Grotty Kzed Lotty Mab Mazy
+			Meal Moretar Mtan Munch Nilbog Nmatub Nozudg Origol Puff Rikkitikki Rundo Sber Serugz Shakog Shisho Splib Splog Sprog 
+			Squeebles Squik Squog Teeny Temn Ten Tiny Toerag Toss Tosukg Turbogz Winky Xob Zogubd
+		
+		}
+		dynasty_names = {
+			Blackfang Boneripper "The Throttler" Ironhide Ironskull Ironclaw Headstompa Necksnapper Rotgut
+			Greenboy Deathskull "Bad Moon" Snakebite "Evil Sun" "Blood Axe" "Axe Choppa" Deadboy "Stunty-Stomper" "Chaos Boy Stomper"
+			"Ogre Puncha" Crusher Choppa "Right Krumper" "Beard Biter" "Rock Lobba" "Hammer Basher"  "Beard Eater" 
+			"Blue 'n Black" "Black 'n Blue" "Skullsmash" Deathbite "Pointy Stick"
+		}
+	}
+	border_orc = {
+		male_names = {
+			Arag Adorg Arak Arbad Arbang Arbla Arbog Arbrag Arbus Arbuttz Arga Argash Arged Argok Argor 
+			Argorak Argrek Argruk Argut Arhag Arhak Arko Arla Arlok Arlud Arnar Arrak Arrat Arrgard Arruk
+			Arum Azag Azaramag Azbad Azbang Azbla Azbog Azbus Azgash Azged Azgok Azgorak Azgruk Azgut 
+			Azhag Azhak Azla Azlok Aznar Azock Azrak Azruk Azum Badbag Badbang Badbla Badgut Badhag 
+			Badruk Baldagran Balst Banak Bang Basha Bashag Bashak Bashbang Bashbla Bashbrag Bashga 
+			Bashgor Bashgrek Bashgut Bashko Bashlud Bashrat Bazag Bazak Bazbad Bazbang Bazbla Bazbog 
+			Bazbrag Bazbus Bazga Bazgash Bazged Bazgok Bazgor Bazgorak Bazgrek Bazgruk Bazgut Bazhag 
+			Cargok  Cargorak  Cargrek  Cargut  Chagor  Chargorak  Chargrek  Chargut  Chokrak  Chokruk  
+			Chugash  Chuged  Chugok  Chugor  Chugorak  Chugrek  Chugruk  Chumgok  Chumgor  Chumrek  
+			Dagaz  Dagbog  Dagorak  Dagrek  Dagruzk  Dazgok  Dazgorak  Dazgrek  Dazgruk  Dazgut  
+			Drogak  Drogar  Drogork  Drogrek  Drogut  Drukgor  Drukgok  Drukgrak  Drukgork  Drukgut  
+			Dugrog  Dugrek  Dugruk  Dugutr  Dugzag  Dugzed  Dugzuk  Dugzut  Dugzor  Dugzrek  
+			Fargok  Fargorak  Fargrek  Fargut  Fashgor  Fashgok  Fashgrak  Fashgrek  Fashgut  Fashrak  
+			Garguk  Gargut  Gashgok  Gashgor  Gashrek  Gashruk  Gogzag  Gogzed  Gogzok  Gogzuk  
+			Gozbag  Gozgok  Gozgor  Gozgrak  Gozgrek  Gozgruk  Gozgut  Groggash  Groggok  Groggrek  
+			Grogguk  Grograk  Grogrok  Grogruk  Grukbog  Grukgok  Grukgor  Grukgrek  Grukgut  Grukrag  
+			Chugmag  Chugrek  Chugruk  Chugtag  Chugtork  Chugzag  Chugzed  Chugzok  Chugzuk  Chugzut  
+		
+		}
+		female_names = {
+			Bdaset Bite Bizzle Blib Blotty Bogoexr Bred Btesg Doz Ekalim Faq Ferenghi Gkobat Grot Grott Grotty Kzed Lotty Mab Mazy
+			Meal Moretar Mtan Munch Nilbog Nmatub Nozudg Origol Puff Rikkitikki Rundo Sber Serugz Shakog Shisho Splib Splog Sprog 
+			Squeebles Squik Squog Teeny Temn Ten Tiny Toerag Toss Tosukg Turbogz Winky Xob Zogubd
+		
+		}
+		dynasty_names = {
+			Blackfang Boneripper "The Throttler" Ironhide Ironskull Ironclaw Headstompa Necksnapper Rotgut
+			Greenboy Deathskull "Bad Moon" Snakebite "Evil Sun" "Blood Axe" "Axe Choppa" Deadboy "Stunty-Stomper" "Chaos Boy Stomper"
+			"Ogre Puncha" Crusher Choppa "Right Krumper" "Beard Biter" "Rock Lobba" "Hammer Basher"  "Beard Eater" 
+			"Blue 'n Black" "Black 'n Blue" "Skullsmash" Deathbite "Pointy Stick"
+		}
+	}
+	desert_orc = {
+		male_names = {
+			Arag Adorg Arak Arbad Arbang Arbla Arbog Arbrag Arbus Arbuttz Arga Argash Arged Argok Argor 
+			Argorak Argrek Argruk Argut Arhag Arhak Arko Arla Arlok Arlud Arnar Arrak Arrat Arrgard Arruk
+			Arum Azag Azaramag Azbad Azbang Azbla Azbog Azbus Azgash Azged Azgok Azgorak Azgruk Azgut 
+			Azhag Azhak Azla Azlok Aznar Azock Azrak Azruk Azum Badbag Badbang Badbla Badgut Badhag 
+			Badruk Baldagran Balst Banak Bang Basha Bashag Bashak Bashbang Bashbla Bashbrag Bashga 
+			Bashgor Bashgrek Bashgut Bashko Bashlud Bashrat Bazag Bazak Bazbad Bazbang Bazbla Bazbog 
+			Bazbrag Bazbus Bazga Bazgash Bazged Bazgok Bazgor Bazgorak Bazgrek Bazgruk Bazgut Bazhag 
+			Cargok  Cargorak  Cargrek  Cargut  Chagor  Chargorak  Chargrek  Chargut  Chokrak  Chokruk  
+			Chugash  Chuged  Chugok  Chugor  Chugorak  Chugrek  Chugruk  Chumgok  Chumgor  Chumrek  
+			Dagaz  Dagbog  Dagorak  Dagrek  Dagruzk  Dazgok  Dazgorak  Dazgrek  Dazgruk  Dazgut  
+			Drogak  Drogar  Drogork  Drogrek  Drogut  Drukgor  Drukgok  Drukgrak  Drukgork  Drukgut  
+			Dugrog  Dugrek  Dugruk  Dugutr  Dugzag  Dugzed  Dugzuk  Dugzut  Dugzor  Dugzrek  
+			Fargok  Fargorak  Fargrek  Fargut  Fashgor  Fashgok  Fashgrak  Fashgrek  Fashgut  Fashrak  
+			Garguk  Gargut  Gashgok  Gashgor  Gashrek  Gashruk  Gogzag  Gogzed  Gogzok  Gogzuk  
+			Gozbag  Gozgok  Gozgor  Gozgrak  Gozgrek  Gozgruk  Gozgut  Groggash  Groggok  Groggrek  
+			Grogguk  Grograk  Grogrok  Grogruk  Grukbog  Grukgok  Grukgor  Grukgrek  Grukgut  Grukrag  
+			Chugmag  Chugrek  Chugruk  Chugtag  Chugtork  Chugzag  Chugzed  Chugzok  Chugzuk  Chugzut  
 		
 		}
 		female_names = {
@@ -1018,6 +1095,17 @@ greenskins_group	= {
 			Bigtoof Bigum Bilik Blakka Blaktoof Blanek Blarg Blazes Blitz Blorg Blud Bludcrumpa Bludd 
 			Bluddy Bludgor Bogg Bogga Bogga-Bogga Boirag Bolck Bone Borbang Borbla Borg Borgut Borhag 
 			Borkak Borkbang Borkbla Borkbrag Borkga Borkgor Borkgrek Borkgut Borkhag Borkko Borklud 
+			Cargok  Cargorak  Cargrek  Cargut  Chagor  Chargorak  Chargrek  Chargut  Chokrak  Chokruk  
+			Chugash  Chuged  Chugok  Chugor  Chugorak  Chugrek  Chugruk  Chumgok  Chumgor  Chumrek  
+			Dagaz  Dagbog  Dagorak  Dagrek  Dagruzk  Dazgok  Dazgorak  Dazgrek  Dazgruk  Dazgut  
+			Drogak  Drogar  Drogork  Drogrek  Drogut  Drukgor  Drukgok  Drukgrak  Drukgork  Drukgut  
+			Dugrog  Dugrek  Dugruk  Dugutr  Dugzag  Dugzed  Dugzuk  Dugzut  Dugzor  Dugzrek  
+			Fargok  Fargorak  Fargrek  Fargut  Fashgor  Fashgok  Fashgrak  Fashgrek  Fashgut  Fashrak  
+			Garguk  Gargut  Gashgok  Gashgor  Gashrek  Gashruk  Gogzag  Gogzed  Gogzok  Gogzuk  
+			Gozbag  Gozgok  Gozgor  Gozgrak  Gozgrek  Gozgruk  Gozgut  Groggash  Groggok  Groggrek  
+			Grogguk  Grograk  Grogrok  Grogruk  Grukbog  Grukgok  Grukgor  Grukgrek  Grukgut  Grukrag  
+			Chugmag  Chugrek  Chugruk  Chugtag  Chugtork  Chugzag  Chugzed  Chugzok  Chugzuk  Chugzut  
+
 
 		
 		}
@@ -1043,6 +1131,15 @@ greenskins_group	= {
 			Badruk Baldagran Balst Banak Bang Basha Bashag Bashak Bashbang Bashbla Bashbrag Bashga 
 			Bashgor Bashgrek Bashgut Bashko Bashlud Bashrat Bazag Bazak Bazbad Bazbang Bazbla Bazbog 
 			Bazbrag Bazbus Bazga Bazgash Bazged Bazgok Bazgor Bazgorak Bazgrek Bazgruk Bazgut Bazhag 
+			Chugash  Chuged  Chugok  Chugor  Chugorak  Chugrek  Chugruk  Chumgok  Chumgor  Chumrek  
+			Dagaz  Dagbog  Dagorak  Dagrek  Dagruzk  Dazgok  Dazgorak  Dazgrek  Dazgruk  Dazgut  
+			Drogak  Drogar  Drogork  Drogrek  Drogut  Drukgor  Drukgok  Drukgrak  Drukgork  Drukgut  
+			Dugrog  Dugrek  Dugruk  Dugutr  Dugzag  Dugzed  Dugzuk  Dugzut  Dugzor  Dugzrek  
+			Fargok  Fargorak  Fargrek  Fargut  Fashgor  Fashgok  Fashgrak  Fashgrek  Fashgut  Fashrak  
+			Garguk  Gargut  Gashgok  Gashgor  Gashrek  Gashruk  Gogzag  Gogzed  Gogzok  Gogzuk  
+			Gozbag  Gozgok  Gozgor  Gozgrak  Gozgrek  Gozgruk  Gozgut  Groggash  Groggok  Groggrek  
+			Grogguk  Grograk  Grogrok  Grogruk  Grukbog  Grukgok  Grukgor  Grukgrek  Grukgut  Grukrag  
+			Chugmag  Chugrek  Chugruk  Chugtag  Chugtork  Chugzag  Chugzed  Chugzok  Chugzuk  Chugzut  
 	
 		
 		}
@@ -1068,6 +1165,15 @@ greenskins_group	= {
 			Badruk Baldagran Balst Banak Bang Basha Bashag Bashak Bashbang Bashbla Bashbrag Bashga 
 			Bashgor Bashgrek Bashgut Bashko Bashlud Bashrat Bazag Bazak Bazbad Bazbang Bazbla Bazbog 
 			Bazbrag Bazbus Bazga Bazgash Bazged Bazgok Bazgor Bazgorak Bazgrek Bazgruk Bazgut Bazhag 
+			Chugash  Chuged  Chugok  Chugor  Chugorak  Chugrek  Chugruk  Chumgok  Chumgor  Chumrek  
+			Dagaz  Dagbog  Dagorak  Dagrek  Dagruzk  Dazgok  Dazgorak  Dazgrek  Dazgruk  Dazgut  
+			Drogak  Drogar  Drogork  Drogrek  Drogut  Drukgor  Drukgok  Drukgrak  Drukgork  Drukgut  
+			Dugrog  Dugrek  Dugruk  Dugutr  Dugzag  Dugzed  Dugzuk  Dugzut  Dugzor  Dugzrek  
+			Fargok  Fargorak  Fargrek  Fargut  Fashgor  Fashgok  Fashgrak  Fashgrek  Fashgut  Fashrak  
+			Garguk  Gargut  Gashgok  Gashgor  Gashrek  Gashruk  Gogzag  Gogzed  Gogzok  Gogzuk  
+			Gozbag  Gozgok  Gozgor  Gozgrak  Gozgrek  Gozgruk  Gozgut  Groggash  Groggok  Groggrek  
+			Grogguk  Grograk  Grogrok  Grogruk  Grukbog  Grukgok  Grukgor  Grukgrek  Grukgut  Grukrag  
+			Chugmag  Chugrek  Chugruk  Chugtag  Chugtork  Chugzag  Chugzed  Chugzok  Chugzuk  Chugzut  
 
 		
 		}
@@ -1116,6 +1222,18 @@ greenskins_group	= {
 			Backgut Backid Backira Backit Backlah Backlit Backnose Backny Backoff Backopa Backrak Backrit 
 			Backsnik Backstabba Backurran Backzak Badbinz Badbla Badblum Badbog Baddy Badgi Badgit Badgrub 
 			Badgut Badkid Badkira Badkit Badkurran Badlah Badlit Badnose Badny Badoff Badopa Badrak Badrit
+			Eekzit  Eeknik  Eeknob  Eekrit  Eeksnik  Eekstabba  Eekzak  Ekker  Ekky  Elzit  Elzin  
+			Elzinz  Ergit  Ergob  Ergrub  Ergut  Erkitz  Erkit  Erkzit  Erkzak  Ernez  Ernezit  
+			Ernob  Ernsnik  Ernostabba  Ernzak  Ettik  Ettin  Ettinz  Ettitz  Ettzag  Ettzit  
+			Feggit  Feggitty  Feggrub  Feggut  Fenik  Fenitz  Fensnik  Fenzak  Fikkit  Fikkitz  
+			Fikzag  Fikzit  Flibbin  Flibbitz  Fliggit  Fligzag  Fligzit  Flinix  Flinzit  Flinsnik  
+			Flizkinz  Flizzit  Flizznik  Flubbinz  Flubgit  Flubgrub  Flubgut  Flubzit  Fluknik  
+			Flukzag  Flukzit  Fuzzit  Fuzzkinz  Fuzznik  Fuzzzak  Fuzzzit  Fynk  Fynkbitz  Fynkit  
+			Fynkzag  Fynkzit  Gekzit  Geknik  Gekzak  Gelbitz  Gelgrub  Gelgut  Gelkit  Gelzag  
+			Gekbinz  Gekgrub  Gekgut  Gelzit  Gelzit  Gensnik  Genzak  Genzzit  Gidbitz  Gidgrub  
+			Gidkit  Gidzag  Gidzit  Ginkbinz  Ginkkit  Ginkzag  Ginkzit  Gribbinz  Gribkit  Gribzag  
+			Gribzit  Grizzbinz  Grizzkit  Grizzzag  Grizzzit  Gronbinz  Gronkit  Gronzig  Gronzit  
+
 
 		}
 		female_names = {
@@ -1135,6 +1253,17 @@ greenskins_group	= {
 			Aggro Aggry Amble Anx Assik Ati Backbinz Backbla Backblum Backbog Backdy Backgi Backgit Backgrub 
 			Backgut Backid Backira Backit Backlah Backlit Backnose Backny Backoff Backopa Backrak Backrit 
 			Backsnik Backstabba Backurran Backzak Badbinz Badbla Badblum Badbog Baddy Badgi Badgit Badgrub 
+			Eekzit  Eeknik  Eeknob  Eekrit  Eeksnik  Eekstabba  Eekzak  Ekker  Ekky  Elzit  Elzin  
+			Elzinz  Ergit  Ergob  Ergrub  Ergut  Erkitz  Erkit  Erkzit  Erkzak  Ernez  Ernezit  
+			Ernob  Ernsnik  Ernostabba  Ernzak  Ettik  Ettin  Ettinz  Ettitz  Ettzag  Ettzit  
+			Feggit  Feggitty  Feggrub  Feggut  Fenik  Fenitz  Fensnik  Fenzak  Fikkit  Fikkitz  
+			Fikzag  Fikzit  Flibbin  Flibbitz  Fliggit  Fligzag  Fligzit  Flinix  Flinzit  Flinsnik  
+			Flizkinz  Flizzit  Flizznik  Flubbinz  Flubgit  Flubgrub  Flubgut  Flubzit  Fluknik  
+			Flukzag  Flukzit  Fuzzit  Fuzzkinz  Fuzznik  Fuzzzak  Fuzzzit  Fynk  Fynkbitz  Fynkit  
+			Fynkzag  Fynkzit  Gekzit  Geknik  Gekzak  Gelbitz  Gelgrub  Gelgut  Gelkit  Gelzag  
+			Gekbinz  Gekgrub  Gekgut  Gelzit  Gelzit  Gensnik  Genzak  Genzzit  Gidbitz  Gidgrub  
+			Gidkit  Gidzag  Gidzit  Ginkbinz  Ginkkit  Ginkzag  Ginkzit  Gribbinz  Gribkit  Gribzag  
+			Gribzit  Grizzbinz  Grizzkit  Grizzzag  Grizzzit  Gronbinz  Gronkit  Gronzig  Gronzit  
 			
 		}
 		female_names = {
@@ -2752,7 +2881,8 @@ darkland_human_group = {
 	}
 
 	dynasty_names = {
-		Stonefist 
+		Stonefist Ashforge Blackcrag Blisterstone Cinderveil Coalrender Darkmantle Dreadhollow Driftscourge Dustvein Emberchain Firemaw Flintshade Forgewrath Gravemark Grimspire Hatehelm Hollowbrand Ironbleed Ironspike Magmafang Moltenhelm Pyreshard Redhollow Scaldingstone Scornforge Shadowgrasp Shattermaw Siltbarrow Smokefang Sootveil Spiteash Stonecarve Stormspike Sulphurbrand Tarnfell Thornrock Thunderash Umberforge Venomslag Volcanveil Warshade Witherpeak Wrathstone Wyrmspire Ashiron Charveil Moltenbrand Flarebarrow Graveash Scorchmantle
+ 
 	}
 		male_names = {
 			Mani Rabi'a Musa Ibrahim Markhan Watban Nasir Idris "'Abd-Allah" Sa'ud Zayid Abdullah
@@ -2782,6 +2912,19 @@ ogre_group = {
 	
 	ogre_main = { 
 	}
+
+	ogre_fishguts = { 
+	}
+
+	ogre_cathayan = { 
+	}
+
+	ogre_firedrinker = { 
+	}
+
+	ogre_redmaw = {
+	}
+
 	male_names = {
 		Aag Abat Adig Adreg Afag Aflab Agang Agart Agedd Agergl Aggrot Aggrut Agi Agorth Agthrog Agull Agung Agut Akashii Akort Anaga Ar Aralg Arargan Ararth Ared Arew Aroll Aron Arorg Arthrut Arurk Asus Ato Azadd Azang Azenn Azfag Azgat Azgrog Azgrut Azong Azrog Azroth 
 		Banag Banbat Bandig Bandreg Banfag Banflab Bangi Bangut Bannaga Banred Banron Bansus Banto Barghang Barghelg Bargherg Barghergl Barghonn Barghott Barghrag Barghrug Barghruk Baulag Baulbat Bauldig Bauldreg Baulfag Baulflab Baulgi Baulgut Baulnaga Baulred Baulron Baulsus Baulto Blagang Blagek Blagelg Blagerg Blagolg Blagolt Blagthorg Blagult Blagulz Blaut Blautag Blautbat Blautdig Blautdreg Blautfag Blautflab Blautgi Blautgut Blautnaga Blautred Blautron Blautsus Blautto Bolag Bolbat Boldig Boldreg Bolfag Bolflab Bolgi Bolgut Bolnaga Bolred Bolron Bolsus Bolto Boralt Borebb Borelg Boreng Borfug Borg Borgrut Borkuk Borrug Borthrut Borudd Borull Bozall Bozarkug Bozart Bozemm Bozert Bozfug Bozgat Bozteg Bozurt Braugh Braughag Braughbat Braughdig Braughdreg Braughfag Braughflab Braughgi Braughgut Braughnaga Braughred Braughron Braughsus Braughto Brog Brogag Brogbat Brogdig Brogdreg Brogfag Brogflab Broggi Broggut Brognaga Brogred Brogron Brogsus Brogto Bron Bronag Bronbat Brondig Brondreg Bronfag Bronflab Brongi Brongut Bronnaga Bronred Bronron Bronsus Bronto Bru Bruag Brubat Brudig Brudreg Brufag Bruflab Brugi Brugut Brunaga Brured Bruron Brusus Bruto Burart Burarth Burgag Burgret Burreg Burrog Burubb Bururth Burutt 
@@ -2861,9 +3004,19 @@ nehekharan_group = {
 	graphical_culture = muslimgfx
 	nehekharan_culture = {
 	}
+
+	nehekharan_bhagar_culture = {
+	}
+
+	nehekharan_zandri_culture = {
+	}
+
+	nehekharan_lybaras_culture = {
+	}
 	
 	dynasty_names = {
-		Thinis Memphis Abydos Herakleopolis Thebes Itjtawy Avaris Bubastis Sais
+		Thinis Memphis Abydos Herakleopolis Thebes Itjtawy Avaris Bubastis Sais Tanis Pi-Ramesses Akhmim Heliopolis Ombos Edfu Esna Philae Dendera Kom-Ombo Hierakonpolis Amarna Crocodilopolis Medinet-Habu Abydon Kharga Khufu Meidum Dahshur Saqqara Giza Karnak Luxor Abyssos Nekhen Per-Bast Nubt Ankh-Tawy Ta-Seti Iunet Per-Sopdu Ipet-Sut Sekhem Tjenu Waset Ta-Mehu Per-Ramun Behdet Tharu Per-Imen Ta-Djeser Khemenu Nekheb On Ankh-Hap Tepih Abedju
+
 	}
 	male_names = {
 		Seka Khayu Tiu Thesh Neheb Wazner Mekh "Iry-Hor" Sekhen Serqer Narmer "Hor-Aha" Djer Djet Den 
@@ -2893,7 +3046,8 @@ nehekharan_group = {
 		
 		}
 	female_names = {
-		"Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti 
+		"Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti Ankhesenamun Nefertari Meritaten Neferure Sitamun Tiye Cleopatra Arsinoe Hatshepsut Berenice Ahmose Tetisheri Mutnofret Sobekneferu Neferuptah Henutmire Tia Meritptah Ankhesneferibra Neferet Hathor Aset Kiya Mutemwiya Beketaten Tausret Tiaa Esenkh Khamerernebty Tashat Isetnofret Henenit Satiah Henttawy Neithnodjmet Meritsekhemneferure Bentanta Nebetah Sitrenre Neferetiry Satmut Henuttaneb Sitre Meryt Ankhesenmut Neferankh Tiankh Sekhmet Amunet Mehyt Pakhet Tefnut Wadjet Menhet Nebethetepet Hededet Neith Isis Renpet Sopdet Seshat Mut Sekhmetneferet Meryetamun Huy Meritsekmet Ankhetmeryre Henhenet Henutiry Sobekhotep Bekhen Neferka Ankhet Anhotep Henutitef Henutmutes Anipepy Satirept Mutirdis Sitreemheb Sehetabat Sobekiru Ahhotep Meryetamunipet Neferetiabet Henutmireten Nebemankh Tahemmedj Neferuretenmut Henetnebsekmet Bekhenamun Satpenmet Hatshepsekhmet Meritmenes Tiyra Menheneferet Ankherura Setepenmut Heduhet Sehemettet
+
 	}	
 	
 }

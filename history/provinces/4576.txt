@@ -7,4 +7,4 @@ is_city = yes
 owner = G42
 controller = G42
 add_core = G42
-culture = common_orc
+culture = desert_orc

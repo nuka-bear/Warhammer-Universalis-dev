@@ -5,17 +5,18 @@ bookmark = {
 	
 	center = 2796
 
-	country = I25
+	country = I27
 	country = B17
 	country = G26
 	country = I01
-
+	country = I25
+	
 	country = I49
-	country = I27
 	country = I21
 	country = I23
 	country = I26
 	
+	easy_country = I27
 	easy_country = I25
 	easy_country = B17
 	easy_country = G26

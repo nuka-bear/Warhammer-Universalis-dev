@@ -6,5 +6,5 @@ trade_goods = fish
 religion = the_great_maw_religion
 controller = I16
 is_city = yes
-culture = ogre_main
+culture = ogre_fishguts
 add_core = I16

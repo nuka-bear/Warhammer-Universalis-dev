@@ -3,7 +3,7 @@ primary_culture = north_cathayan
 religion = yin_yang
 technology_group = tech_cathayan
 capital = 2838
-government_rank = 2
+government_rank = 3
 setup_vision = yes
 
 add_government_reform = cathay_splinter_state

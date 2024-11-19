@@ -1223,3 +1223,216 @@ gp_white_lion_hunting_grounds = {
 		}
 	}
 }
+
+
+gp_great_vortex = {
+	start = 1967
+	date = 1.01.01
+	time = {
+		months = 0
+	}
+	build_cost = 1000
+	starting_tier = 3
+	type = monument
+	can_be_moved = no
+	build_trigger = {
+		owner = { NOT = { religion_group = ruinous_powers_denominations } }
+	}
+	on_built = {
+	}
+	on_destroyed = {
+	}
+	can_use_modifiers_trigger = {
+		owner = { NOT = { religion_group = ruinous_powers_denominations } }
+	}
+	can_upgrade_trigger = {
+		owner = { NOT = { religion_group = ruinous_powers_denominations } }
+	}
+	keep_trigger = {
+	}
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		region_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_unrest = 1
+			all_power_cost = -0.01
+			yearly_corruption = 0.1
+			prestige = 0.5
+		}
+		on_upgraded = {
+		}
+	}
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_unrest = 2
+			all_power_cost = -0.02
+			yearly_corruption = 0.2
+			prestige = 1.0
+		}
+		on_upgraded = {
+		}
+	}
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_unrest = 3
+			all_power_cost = -0.03
+			yearly_corruption = 0.3
+			prestige = 1.0
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+
+gp_great_vortex_corrupted = {
+	start = 1967
+	date = 1.01.01
+	time = {
+		months = 0
+	}
+	build_cost = 1000
+	starting_tier = 3
+	type = monument
+	can_be_moved = no
+	build_trigger = {
+		owner = { religion_group = ruinous_powers_denominations }
+	}
+	on_built = {
+	}
+	on_destroyed = {
+	}
+	can_use_modifiers_trigger = {
+		owner = { religion_group = ruinous_powers_denominations }
+	}
+	can_upgrade_trigger = {
+		owner = { religion_group = ruinous_powers_denominations }
+	}
+	keep_trigger = {
+	}
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		region_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_unrest = 5
+			all_power_cost = -0.05
+			monthly_everchosen_favor = 0.05
+			global_missionary_strength = 0.05
+		}
+		on_upgraded = {
+		}
+	}
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_unrest = 10
+			all_power_cost = -0.10
+			monthly_everchosen_favor = 0.10
+			global_missionary_strength = 0.10
+
+		}
+		on_upgraded = {
+		}
+	}
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_unrest = 15
+			all_power_cost = -0.15
+			monthly_everchosen_favor = 0.15
+			global_missionary_strength = 0.15
+		}
+		on_upgraded = {
+		}
+	}
+}

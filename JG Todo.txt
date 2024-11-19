@@ -2,7 +2,6 @@
 JG To Do & Thoughts
 
 
-
 #############################
 ###### FINISHING UP ######
 #############################
@@ -21,12 +20,9 @@ Everybody!
 			Jade Vampires
 			Reikland
 			Sylvania
-		
+
 GFX
 	Stuff surrounding Chaos Centers of Reformation
-	Missions
-	Monuments
-	Missions
 	Make each mission tree a single icon of the culture or religion
 	Religious Advisor Icons
 		Do while watching something?
@@ -36,47 +32,25 @@ GFX
 ###### RANDOM THOUGHTS ######
 #############################
 
-Crash is probably from the country getting fully annex, and then us trying to find or make a dominion from it, or perhaps trying to transfer a domain or brettonian vassal from it. THATS IT. This happens even when demanding independence
-	Err, no it's just whenever somebosy with dominions is fully annexed
+	Change Main Cathay bookmark suggestion to biggest Cathayan Dominion
 
+	Is the Bhagaran Culture in the wrong place?
 
+	Ruinous power getting great vortex should trigger an event that makes a center of reformation on the location.
 
 Is endtimes mechanic starting at 100?
 
-Make the end times cb apply if the person is the everchosen, or if the chaos gate is in their territory
-
 	Make some way of finding the everchosen
 
-	Finish Names in War_Cultures
-
-	Intolerant, with decision to get rid of it
-
-	Converting between good and evil? Based on Religion?
-
 	Worry about military balance
-
-	Split ogre culture into 2-3 
-		Rockbiter Ogre
-		Firedrinker Ogre
-		Fishskinner Ogre
-		Cathayan Ogre
-
 
 Raiding happens when people reclaim their own lands
 	Might be fixed, check if this works. - Nope!
 
-Increase culture conversion cost & times, missionary cost, autonomy from wrong culture & religion?
-
 Add the warhammer legendary lords into the map, with legendary traits
-
-Reduce Southern Old World Development - nobody cares about them!
 
 Make various diplomatic actions cause a pop-up for the receiver. And offers?
 	Offer to become dominion action?
-
-	Fightiness events that give manpower don't give manpower if you're already above max? They give mil power or something else?
-
-	Images for remaining old world monuments
 
 	Pop-ups for when somebody steals your artifact
 
@@ -88,13 +62,43 @@ Make various diplomatic actions cause a pop-up for the receiver. And offers?
 
 	Pop up when you can vassalize dominions (Doesn't work)
 
+	Surface Dweller abovre ground not working
 
-##### Nah Stuff ####
+	Use on-actions to Tie administration & mil to primary culture and convert good/evil to religion
+
+	Force Domain and Offer Domain should require same culture group, religion, or tech group
+
+	Change Claim rewards to be just in culture group?
+
+#############################
+######## FUTURE STUFF #######
+#############################
+
+	Should all Old World Human cultures be in the same culture group?
+
+	Intolerant, with decision to get rid of it
+
+	Converting between good and evil? Based on Religion?
+
+	Make all the tech ground and administration & military stuff come from primary culture?
+
+	Norsca Nation can choose to civilize
+
+	Send raiding party ability to lose manpower, damage relationship, and spawn a rebel army in an adjacent country
+
+	At start of end times all good nations like each other more
+
+	Fightiness events that give manpower don't give manpower if you're already above max? They give mil power or something else?
+
+#############################
+######### NAH STUFF #########
+#############################
+
 Legitimate Successor government mechanic for Nehekhara & Cathay?
 	Event at high legitimate successor to declare independence war? Maybe it's a defensive war to give them a chance?
 	Event for the overlord to reign them in (declar war), or suffer penalty to own legitimacy
 	Pretty slow moving
-	Government scale for legitimate successor, with increasing diplomatic reputation and liberty desire. Higher, more liberty desire for self, less liverty desire for others.
+	Government scale for legitimate successor, with increasing diplomatic reputation and liberty desire. Higher, more liberty desire for self, less liberty desire for others.
 
 	Generic Beacon on a Hill mission with tech difference not working
 

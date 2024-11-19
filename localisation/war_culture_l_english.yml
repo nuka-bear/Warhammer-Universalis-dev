@@ -74,6 +74,7 @@
  common_orc:0 "Common Orc"
  swamp_orc:0 "Swamp Orc"
  freeboota_orc:0 "Freebotta Orc"
+ desert_orc:0 "Desert Orc"
  goblin:0 "Goblin"
  common_goblin:0 "Common Goblins"
  forest_goblin:0 "Forest Goblins"
@@ -126,7 +127,7 @@
  urban_arabyan:0 "Cophic"
  pirate_arabyn:0 "Umbar"
  sudron_arabyn:0 "Sudron"
- assassin_arabic:0 "REPLACE_ME"
+ assassin_arabic:0 "Hashashin"
  aghols:0 "Aghols"
  mung:0 "Mung"
  chian:0 "Chi-An"
@@ -148,10 +149,25 @@
  yusaks:0 "Yusak"
  avags:0 "Avag"
  pigbarterite:0 "Pigbarterite"
- ogre_main:0 "Ogre"
+ 
+ ogre_main:0 "Mountain Ogre"
+ ogre_fishguts:0 "Fishguts Ogre"
+  ogre_cathayan:0 "Cathayan Ogre"
+  ogre_firedrinker:0 "Firedrinker Ogre"
+  ogre_redmaw:0 "Redmaw Ogre"
+
+
+
  amazon_group:0 "Amazon"
  amazon_culture:0 "Amazon"
  nehekharan_culture:0 "Nehekharan"
+  nehekharan_bhagar_culture:0 "Bhagaran"
+  nehekharan_zandri_culture:0 "Zandrian"
+  nehekharan_lybaras_culture:0 "Lybarasian"
+
+
+
+
  hobgoblin_group:0 "Hobgoblin"
  steppe_hobgoblin:0 "Steppe Hobgoblin"
  darklands_hobgoblin:0 "Darklands Hobgoblin"

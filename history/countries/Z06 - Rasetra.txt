@@ -1,5 +1,5 @@
 government = theocracy
-primary_culture = nehekharan_culture
+primary_culture = nehekharan_lybaras_culture
 religion = nehekharan_pantheon
 technology_group = tech_tomb_kings
 government_rank = 2

@@ -6,5 +6,5 @@ trade_goods = copper
 religion = the_great_maw_religion
 controller = I02
 is_city = yes
-culture = ogre_main
+culture = ogre_firedrinker
 add_core = I02

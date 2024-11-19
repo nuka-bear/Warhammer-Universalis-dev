@@ -110,3 +110,7 @@ undergrounder_above_ground:0 "Underground Race Above Ground"
 undergrounder_underground_desc:0 "Dwelling underground, this race finds comfort and strength in their subterranean domain."
 undergrounder_above_ground_desc:0 "Exposed above ground, the underground race is unable to effective administer their lands."
 
+
+surface_dweller_underground:0 "Surface Dweller Underground"
+surface_dweller_underground_desc:0 "This race is accustomed to open sky, and has a difficult time administering the places beneath the earth."
+

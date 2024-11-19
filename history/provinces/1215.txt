@@ -4,7 +4,7 @@ controller = I22
 add_core = I22
 add_core = I11
 hre = no
-culture = ogre_main
+culture = ogre_cathayan
 religion = the_great_maw_religion
  
 

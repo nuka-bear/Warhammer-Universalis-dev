@@ -6,6 +6,6 @@ trade_goods = slaves
 religion = the_great_maw_religion
 controller = I14
 is_city = yes
-culture = ogre_main
+culture = ogre_fishguts
 add_core = I14
 fort_15th = yes

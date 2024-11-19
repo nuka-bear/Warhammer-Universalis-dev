@@ -1,6 +1,6 @@
 owner = Z11
 controller = Z11
-culture = nehekharan_culture
+culture = nehekharan_zandri_culture
 religion = nehekharan_pantheon
 base_tax = 2
 base_production = 1

@@ -2,7 +2,7 @@
 #lol
 owner = B17
 controller = B17
-culture = common_orc
+culture = chaos_dwarf
 religion = hashut
 base_tax = 4
 base_production = 3

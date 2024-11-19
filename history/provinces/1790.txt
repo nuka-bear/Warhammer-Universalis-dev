@@ -7,4 +7,4 @@ is_city = yes
 owner = Z44
 controller = Z44
 add_core = Z44
-culture = nehekharan_culture
+culture = nehekharan_bhagar_culture

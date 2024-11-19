@@ -6,5 +6,5 @@ trade_goods = fish
 religion = old_world_cults_religion
 controller = B21
 is_city = yes
-culture = pigbarterite
+culture = ogre_fishguts
 add_core = B21

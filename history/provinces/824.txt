@@ -6,5 +6,5 @@ trade_goods = iron
 religion = gork_n_mork_religion
 controller = G07
 is_city = yes
-culture = common_orc
+culture = desert_orc
 add_core = G07

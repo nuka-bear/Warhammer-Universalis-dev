@@ -160,6 +160,12 @@ gp_ancient_subterranean_palace_desc:0 "The Ancient Subterranean Palace is a marv
 gp_white_lion_hunting_grounds:0 "White Lion Hunting Grounds"
 gp_white_lion_hunting_grounds_desc:0 "The White Lion Hunting Grounds of Chrace are where the fiercest and most honorable of warriors train to hunt the great White Lions. These grounds produce warriors known for their courage and ferocity, strengthening the Elven military. The spirit of the hunt instills discipline and endurance, making the armies of Chrace an unbreakable force in battle and a symbol of unwavering strength and tradition."
 
+gp_great_vortex:0 "The Great Vortex"
+gp_great_vortex_desc:0 "A monument to the arcane might of the High Elves, the Great Vortex serves as a safeguard against the ruinous energies of Chaos. Through careful maintenance by righteous powers, the Vortex siphons away excess magic, stabilizing the Winds of Magic across the world. However, such immense power comes at a cost, as its delicate balance stirs unrest and latent instability among those who wield it."
+
+gp_great_vortex_corrupted:0 "The Corrupted Vortex"
+gp_great_vortex_corrupted_desc:0 "Twisted by the foul influence of the Ruinous Powers, the once-stabilizing Great Vortex now serves as a source of unrestrained magic for the forces of Chaos. With its corruption, vast energies are siphoned off, fueling destruction and chaos while plunging the world into greater instability. The very presence of such corruption radiates dread and rebellion across the lands, heralding the apocalypse."
+
   
  ### Naggaroth ###
  ### Naggaroth ###

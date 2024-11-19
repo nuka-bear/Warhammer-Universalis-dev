@@ -6,5 +6,5 @@ trade_goods = livestock
 religion = nehekharan_pantheon
 controller = Z12
 is_city = yes
-culture = nehekharan_culture
+culture = nehekharan_zandri_culture
 add_core = Z12

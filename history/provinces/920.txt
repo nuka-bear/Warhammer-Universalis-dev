@@ -6,6 +6,6 @@ trade_goods = salt
 religion = nehekharan_pantheon
 controller = Z04
 is_city = yes
-culture = nehekharan_culture
+culture = nehekharan_bhagar_culture
 add_core = Z04
 fort_15th = yes

@@ -2,7 +2,7 @@
 #lol
 owner = G14
 controller = G14
-culture = common_orc
+culture = border_orc
 religion = gork_n_mork_religion
 base_tax = 4
 base_production = 2

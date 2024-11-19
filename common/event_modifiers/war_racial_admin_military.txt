@@ -14,7 +14,6 @@ human_military = {
 orcish_administration = {
 	#Positives
 	mil_advisor_cost = -0.90
-	war_exhaustion = -0.50
 	war_taxes_cost_modifier = -1.0
 	country_military_power = 1
 	loot_amount = 10.0

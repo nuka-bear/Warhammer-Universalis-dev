@@ -16,6 +16,7 @@ gen_war_vampire_religion = {
 
 	slot = 5
 	generic = yes
+	has_country_shield = yes
 	ai = yes
 	
 	potential = {

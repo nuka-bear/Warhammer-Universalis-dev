@@ -3,8 +3,6 @@
 
 
 
-
-
 #### Greenskin Missions
 
 gen_greenskin_please_nobility_title:0 "Make Da Bosses ‘Appy"
@@ -90,7 +88,10 @@ greenskin_tried_gork:0 "Tried Da Smashin’ Path"
 desc_greenskin_tried_gork:0 "Da boyz got strong on da stomp of Gork! Dey punch harder now an' leave a trail o' bones behind!"
 
 
-
+ greenskin_tribe: "Greenskin Tribe"
+ greenskin_tribe_desc: "Greenskin tribes must war. They must fight and win battles in order to maintain their society. Each won battle increases fightiness by 100, while each lost battle increases fightiness by 25."
+ orc_fightiness_mechanic: "Fightiness"
+ orc_fightiness: "Fightiness"
 
 
 

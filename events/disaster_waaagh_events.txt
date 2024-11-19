@@ -461,7 +461,11 @@ country_event = {
 	
 	trigger = {
 		has_government_mechanic = orc_fightiness_mechanic
-		is_at_war = yes
+		has_government_power = {
+			mechanic_type = orc_fightiness_mechanic
+			power_type = orc_fightiness_power
+			value = 50
+		}
 	}
 	
 	mean_time_to_happen = { months = 12 }
@@ -519,7 +523,11 @@ country_event = {
 	
 	trigger = {
 		has_government_mechanic = orc_fightiness_mechanic
-		is_at_war = yes
+		has_government_power = {
+			mechanic_type = orc_fightiness_mechanic
+			power_type = orc_fightiness_power
+			value = 50
+		}
 	}
 	
 	mean_time_to_happen = { months = 12 }
@@ -559,7 +567,11 @@ country_event = {
 	
 	trigger = {
 		has_government_mechanic = orc_fightiness_mechanic
-		is_at_war = yes
+		has_government_power = {
+			mechanic_type = orc_fightiness_mechanic
+			power_type = orc_fightiness_power
+			value = 50
+		}
 	}
 	
 	mean_time_to_happen = { months = 12 }

@@ -6,5 +6,5 @@ trade_goods = slaves
 religion = hashut
 controller = B26
 
-culture = dark_land_orc
+culture = chaos_dwarf
 add_core = B26

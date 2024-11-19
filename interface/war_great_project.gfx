@@ -602,4 +602,141 @@ spriteType = {
 	}
 
 
+	spriteType = {
+		name = "GFX_great_project_alcazar_of_magritta"	
+		texturefile = "gfx//interface//great_projects//great_project_alcazar_of_magritta.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_great_project_bells_of_luccini"	
+		texturefile = "gfx//interface//great_projects//great_project_bells_of_luccini.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_cathedra_of_myrmidia"	
+		texturefile = "gfx//interface//great_projects//great_project_cathedra_of_myrmidia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_the_estelian_citadel"	
+		texturefile = "gfx//interface//great_projects//great_project_the_estelian_citadel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_old_dwarf_road"	
+		texturefile = "gfx//interface//great_projects//great_project_old_dwarf_road.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_palazzo_della_virtu"	
+		texturefile = "gfx//interface//great_projects//great_project_palazzo_della_virtu.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_great_project_royal_university_of_bilbali"	
+		texturefile = "gfx//interface//great_projects//great_project_royal_university_of_bilbali.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_sagrada_hermandad_of_myrmidia"	
+		texturefile = "gfx//interface//great_projects//great_project_sagrada_hermandad_of_myrmidia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_el_torre_del_sol"	
+		texturefile = "gfx//interface//great_projects//great_project_el_torre_del_sol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_barak_varr"	
+		texturefile = "gfx//interface//great_projects//great_project_barak_varr.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_black_fire_pass"	
+		texturefile = "gfx//interface//great_projects//great_project_black_fire_pass.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_forest_of_gloom"	
+		texturefile = "gfx//interface//great_projects//great_project_forest_of_gloom.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_blackcliff_bay"	
+		texturefile = "gfx//interface//great_projects//great_project_blackcliff_bay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_mortensholm_marketplaces"	
+		texturefile = "gfx//interface//great_projects//great_project_mortensholm_marketplaces.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_castle_drakenhof"	
+		texturefile = "gfx//interface//great_projects//great_project_castle_drakenhof.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_gp_great_vortex"	
+		texturefile = "gfx//interface//great_projects//great_project_gp_great_vortex.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_gp_great_vortex_corrupted"	
+		texturefile = "gfx//interface//great_projects//great_project_gp_great_vortex_corrupted.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_oak_of_ages"	
+		texturefile = "gfx//interface//great_projects//great_project_oak_of_ages.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_kings_glade"	
+		texturefile = "gfx//interface//great_projects//great_project_kings_glade.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_monument_to_the_old_gods"	
+		texturefile = "gfx//interface//great_projects//great_project_monument_to_the_old_gods.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_skjold_fjords"	
+		texturefile = "gfx//interface//great_projects//great_project_skjold_fjords.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_zanbaijin_fallen_city"	
+		texturefile = "gfx//interface//great_projects//great_project_zanbaijin_fallen_city.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_the_inevitable_city"	
+		texturefile = "gfx//interface//great_projects//great_project_the_inevitable_city.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_council_of_thirteen"	
+		texturefile = "gfx//interface//great_projects//great_project_council_of_thirteen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_hellpit"	
+		texturefile = "gfx//interface//great_projects//great_project_hellpit.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_under_alchemy_laboratories"	
+		texturefile = "gfx//interface//great_projects//great_project_under_alchemy_laboratories.dds"
+	}
+ 
+	spriteType = {
+		name = "GFX_great_project_nest_of_corruption"	
+		texturefile = "gfx//interface//great_projects//great_project_nest_of_corruption.dds"
+	}
+
 }

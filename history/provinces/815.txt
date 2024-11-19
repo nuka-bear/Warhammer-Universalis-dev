@@ -2,8 +2,8 @@
 #lol
 owner = B17
 controller = B17
-culture = common_orc
-religion = gork_n_mork_religion
+culture = chaos_dwarf
+religion = hashut
 base_tax = 4
 base_production = 4
 base_manpower = 3

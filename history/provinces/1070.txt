@@ -6,5 +6,5 @@ trade_goods = incense
 religion = nehekharan_pantheon
 controller = Z06
 is_city = yes
-culture = nehekharan_culture
+culture = nehekharan_lybaras_culture
 add_core = Z06
