@@ -1943,7 +1943,6 @@ oak_of_ages = {
 			factor = 1000
 		}
 		province_modifiers = {
-			local_unrest = -1
 		}
 		area_modifier = {
 		}

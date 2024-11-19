@@ -13,7 +13,7 @@ lizardfolk_mild_winter = {
 }
 
 lizardfolk_normal_winter = {
-	min_local_autonomy = 25
+	min_local_autonomy = 20
 	local_unrest = 2
 }
 
@@ -38,8 +38,8 @@ wood_elves_magical_forest = {
 }
 
 wood_elves_non_forest = {
-	min_local_autonomy = 25
-	local_unrest = 1
+	min_local_autonomy = 20
+	local_unrest = 2
 }
 
 
@@ -52,10 +52,10 @@ undergrounder_underground = {
 
 undergrounder_above_ground = {
 	min_local_autonomy = 20
-	local_unrest = 1
+	local_unrest = 2
 }
 
 surface_dweller_underground = {
 	min_local_autonomy = 20
-	local_unrest = 1
+	local_unrest = 2
 }

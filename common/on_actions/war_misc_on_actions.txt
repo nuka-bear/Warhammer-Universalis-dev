@@ -1,0 +1,277 @@
+on_monthly_pulse = {
+	if = {
+		limit = {
+			has_subject_of_type = bretonnian_dukedom_subject
+			not = {
+				or = {
+					has_reform = bretonnian_royarch_reform
+					has_reform = bretonnian_dukedom_reform
+				}
+			}
+		}
+		country_event = {
+			id = flavor_bretonnia.8
+		}
+	}
+}
+
+on_annexed = {
+	events = {
+		flavor_bretonnia.9		# Bretonnia dismantled
+	}
+	FROM = {
+		if = {
+			limit = {
+				has_reform = bretonnian_royarch_reform
+			}
+			set_global_flag = bretonnian_kingdom_dismantled
+		}
+	}
+}
+
+on_heir_needed_theocracy = {
+}
+
+on_battle_won_country = {
+	#on_battle_ended_effect = yes
+	on_battle_won_country_effect = yes	#1.35
+	if = {
+		limit = {
+			owner = {
+				religion = khornate_religion
+			}
+		}
+		add_church_power = 1
+	}
+}
+
+on_battle_lost_country = {
+	if = {
+		limit = {
+			owner = {
+				religion = khornate_religion
+			}
+		}
+		add_church_power = 1		#khorne cares not where the blood flows so long as it flows
+	}
+}
+
+on_raid_coast = {
+	if = {
+		limit = {
+			religion = khornate_religion
+		}
+		add_church_power = 1
+	}
+}
+
+on_raze = {
+	if = {
+		limit = {
+			owner = {
+				religion = khornate_religion
+			}
+		}
+		owner = {
+			add_church_power = 2
+		}
+	}
+	if = {
+		limit = {
+			owner = {
+				has_government_mechanic = orc_fightiness_mechanic
+			}
+		}
+		add_government_power = {
+			mechanic_type = orc_fightiness_mechanic
+			power_type = orc_fightiness_power
+			value = 2
+		}
+	}
+}
+
+on_new_term_election = {
+	events = {
+		flavor_verezzo.1		#verezzo
+		700
+		elections.720
+		elections.800
+	}
+}
+
+on_monarch_death = {
+	on_monarch_death_effect = yes
+	events = {
+		tomb_king.1
+	}
+	if = {
+		limit = {
+			has_reform = bretonnian_royarch_reform
+		}
+		country_event = {
+			id = flavor_bretonnia.3
+		}
+	}
+}
+
+on_death_election = {
+	events = {
+		flavor_verezzo.2
+		701
+		elections.721
+		elections.800
+	}
+}
+
+on_war_won = {
+
+	# bretonnia wars won counter
+	if = {
+		limit = {
+			has_bretonnian_mission_tree = yes
+		}
+		change_variable = { bretonnia_Wars_Won = 1 }
+		if = {
+			limit = {
+				FROM = {
+					destruction_culture = yes
+				}
+			}
+			change_variable = { bretonnia_Evil_Wars_Won = 1 }
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_force_converted = yes
+				}
+				religion = lady_of_the_lake
+			}
+			change_variable = { bretonnia_Religious_Wars_Won = 1 }
+		}
+	}
+}
+
+on_hre_dismantled = {
+	every_country = {
+		limit = {
+			OR = {
+				has_country_modifier = emp_religious_tension_1
+				has_country_modifier = emp_religious_tension_2
+				has_country_modifier = emp_religious_tension_3
+				has_country_modifier = emp_religious_tension_4
+				has_country_modifier = emp_religious_tension_5
+			}
+		}
+		remove_country_modifier = emp_religious_tension_1
+		remove_country_modifier = emp_religious_tension_2
+		remove_country_modifier = emp_religious_tension_3
+		remove_country_modifier = emp_religious_tension_4
+		remove_country_modifier = emp_religious_tension_5
+	}
+}
+
+on_lock_hre_religion = {
+	every_country = {
+		limit = {
+			OR = {
+				has_country_modifier = emp_religious_tension_1
+				has_country_modifier = emp_religious_tension_2
+				has_country_modifier = emp_religious_tension_3
+				has_country_modifier = emp_religious_tension_4
+				has_country_modifier = emp_religious_tension_5
+			}
+		}
+		remove_country_modifier = emp_religious_tension_1
+		remove_country_modifier = emp_religious_tension_2
+		remove_country_modifier = emp_religious_tension_3
+		remove_country_modifier = emp_religious_tension_4
+		remove_country_modifier = emp_religious_tension_5
+	}
+}
+
+on_religion_change = {
+	if = {
+		#Save the empire if the emperor is force converted
+		limit = {
+			is_emperor = yes
+			NOT = {
+				religion_group = old_world_denominations
+			}
+		}
+		set_emperor = no
+	}
+	#converting out of lady of the lake
+
+}
+
+on_lock_hre_religion = {
+	events = {
+		religious_leagues.1
+		religious_leagues.8
+		religious_leagues.9
+	}
+}
+
+on_change_hre_religion = {
+	events = {
+		religious_leagues.2
+		religious_leagues.3
+		religious_leagues.27
+	}
+}
+
+on_bi_yearly_pulse = {
+	if = {
+		limit = {
+			ruler_can_revive = yes
+		}
+		save_ruler_stats = yes
+		save_persistent_ruler_personalities = yes
+	}
+}
+
+
+on_battle_won_country = {
+
+	limit = { has_government_mechanic = orc_fightiness_mechanic }
+
+	add_government_power = {
+		mechanic_type = orc_fightiness_mechanic
+		power_type = orc_fightiness_power
+		value = 100
+	}
+
+}
+
+on_battle_lost_country = {
+
+	limit = { has_government_mechanic = orc_fightiness_mechanic }
+
+	add_government_power = {
+		mechanic_type = orc_fightiness_mechanic
+		power_type = orc_fightiness_power
+		value = 25
+	}
+
+}
+
+
+
+
+# on_new_monarch = {
+# 	if = { 
+# 		limit = {
+# 			NOT = { ruler_has_personality = immortal_personality }
+# 			OR = {
+# 				culture_group = asur_group
+# 				culture_group = druchii_group
+# 				culture_group = dwarf_group
+# 				culture_group = asrai_group
+# 				culture_group = lizardmen_group
+# 				culture_group = chaos_dwarf_group
+# 			}
+# 		}
+# 		add_ruler_personality = immortal_personality
+# 	}
+# }
+

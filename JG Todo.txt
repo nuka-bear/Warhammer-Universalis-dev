@@ -11,7 +11,7 @@ Everybody!
 	1x Disaster
 	5x random pulse events
 	5x decisions
-	Adjust opening text for cultures and religions, with callouts for most important things
+	Adjust opening text for cultures and religions, with callouts for most important things - Gov mechanics, regions, religion, objectives
 	Special Religious mechanic
 	Switch up multiple different gov types and religions for each area.
 	Add Starting events for all the major countries explaining basic goals/mechanics (In the on-startup events tied to an event)
@@ -32,25 +32,23 @@ GFX
 ###### RANDOM THOUGHTS ######
 #############################
 
-	Change Main Cathay bookmark suggestion to biggest Cathayan Dominion
-
 	Is the Bhagaran Culture in the wrong place?
 
 	Ruinous power getting great vortex should trigger an event that makes a center of reformation on the location.
 
-Is endtimes mechanic starting at 100?
+	Is endtimes mechanic starting at 100?
 
 	Make some way of finding the everchosen
 
 	Worry about military balance
 
-Raiding happens when people reclaim their own lands
-	Might be fixed, check if this works. - Nope!
+	Raiding happens when people reclaim their own lands
+		Might be fixed, check if this works. - Nope!
 
-Add the warhammer legendary lords into the map, with legendary traits
+	Add the warhammer legendary lords into the map, with legendary traits
 
-Make various diplomatic actions cause a pop-up for the receiver. And offers?
-	Offer to become dominion action?
+	Make various diplomatic actions cause a pop-up for the receiver. And offers?
+		Offer to become dominion action?
 
 	Pop-ups for when somebody steals your artifact
 
@@ -58,17 +56,13 @@ Make various diplomatic actions cause a pop-up for the receiver. And offers?
 
 	Panama Canal
 
-	Fix Monstrous Unit Cost?
+	Fix Monstrous Unit Cost? 
 
 	Pop up when you can vassalize dominions (Doesn't work)
 
-	Surface Dweller abovre ground not working
-
 	Use on-actions to Tie administration & mil to primary culture and convert good/evil to religion
 
-	Force Domain and Offer Domain should require same culture group, religion, or tech group
-
-	Change Claim rewards to be just in culture group?
+	Change Claim rewards mission tree to be just in culture group?
 
 #############################
 ######## FUTURE STUFF #######
@@ -77,8 +71,6 @@ Make various diplomatic actions cause a pop-up for the receiver. And offers?
 	Should all Old World Human cultures be in the same culture group?
 
 	Intolerant, with decision to get rid of it
-
-	Converting between good and evil? Based on Religion?
 
 	Make all the tech ground and administration & military stuff come from primary culture?
 
