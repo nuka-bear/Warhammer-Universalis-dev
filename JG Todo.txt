@@ -35,6 +35,9 @@ GFX
 
 	Uzkulak Caravan Stop missing image
 
+	The start of the endtimes is causing a crash?
+		Make the event a country event
+
 	New World Bookmark Mission Image
 
 	Thousand gods countries missing middle mission tree
