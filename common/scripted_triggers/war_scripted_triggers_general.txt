@@ -11,12 +11,14 @@ destruction_culture = {
 		technology_group = tech_vampire_coast
 		technology_group = tech_eastern_greenskin
 		technology_group = tech_eastern_undead
+		technology_group = tech_arabyn
 		religion = khornate_religion
 		religion = tzeentchian_religion
 		religion = hashut
 		religion = slaaneshi_religion
 		religion = nurglite_religion
 		religion = nagash_worship
+		religion = chaos_undivided_religion
 
 	}
 }
@@ -43,6 +45,7 @@ order_culture = {
 			religion = slaaneshi_religion
 			religion = nurglite_religion
 			religion = nagash_worship
+			religion = chaos_undivided_religion
 		}
 
 	}
@@ -53,7 +56,6 @@ neutral_culture = {
 		technology_group = tech_ogre
 		technology_group = tech_tomb_kings
 		technology_group = tech_norscan
-		technology_group = tech_arabyn
 		technology_group = tech_khureshi
 		technology_group = tech_hobgoblin
 	}
@@ -65,6 +67,8 @@ neutral_culture = {
 			religion = slaaneshi_religion
 			religion = nurglite_religion
 			religion = nagash_worship
+			religion = chaos_undivided_religion
+
 		}
 	}
 }

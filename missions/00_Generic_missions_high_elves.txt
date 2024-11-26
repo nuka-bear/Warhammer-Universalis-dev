@@ -8,7 +8,7 @@
 gen_asur_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = asur_group
@@ -18,7 +18,7 @@ gen_asur_missions = {
 #### Send out diplomatic missions
 
 	gen_asur_please_nobility = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_culture
 		required_missions = {
 		}
 		trigger = {
@@ -54,7 +54,7 @@ gen_asur_missions = {
 	}
 
 	gen_asur_get_crownland_up = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_culture
 		required_missions = {
 			gen_asur_please_nobility
 		}
@@ -71,7 +71,7 @@ gen_asur_missions = {
 	}
 
 	gen_asur_fight_religious_enemy = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_culture
 		required_missions = {
 		}
 		trigger = {
@@ -90,7 +90,7 @@ gen_asur_missions = {
 
 
 	gen_asur_enemies_and_alliances = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_culture
 		required_missions = { gen_asur_fight_religious_enemy }
 		trigger = {
 			any_ally = { NOT = { technology_group = ROOT } }
@@ -108,7 +108,7 @@ gen_asur_missions = {
 
 	## Big Fleet
 	gen_asur_big_fleet = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_culture
 		required_missions = {
 		}
 		trigger = {
@@ -128,7 +128,7 @@ gen_asur_missions = {
 	}
 
 	gen_asur_colonists = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_culture
 		required_missions = { gen_asur_big_fleet }
 		provinces_to_highlight = {
 				province_has_center_of_trade_of_level = 1
@@ -153,7 +153,7 @@ gen_asur_missions = {
 	}
 
 	gen_asur_reclaim_phoenix_crown = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_culture
 		required_missions = {
 		}
 		provinces_to_highlight = {
@@ -197,14 +197,14 @@ gen_asur_missions = {
 gen_asur_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = asur_group
 	}
 
 	gen_asur_ultimate_mission = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_culture
 		provinces_to_highlight = {
 			owner = {
 				NOT = { great_power_rank = 9 }
@@ -270,7 +270,7 @@ gen_asur_ultimate_missions = {
 gen_cadai_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion = cadai
@@ -278,7 +278,7 @@ gen_cadai_missions = {
 
 
 	gen_cadai_places_of_worship = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_religion
 		provinces_to_highlight = {
 			owned_by = ROOT
 			NOT = { development = 6 }
@@ -310,7 +310,7 @@ gen_cadai_missions = {
 		}
 	}
 	gen_cadai_place_of_study = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_religion
 		required_missions = {
 			gen_cadai_places_of_worship
 		}
@@ -329,7 +329,7 @@ gen_cadai_missions = {
 		}
 	}
 	gen_cadai_places_of_law = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_religion
 		required_missions = {
 			gen_cadai_place_of_study
 		}
@@ -350,7 +350,7 @@ gen_cadai_missions = {
 		}
 	}
 	gen_cadai_places_of_innovation = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_religion
 		required_missions = {
 			gen_cadai_places_of_law
 		}
@@ -370,7 +370,7 @@ gen_cadai_missions = {
 
 
 	gen_cadai_happy_priest = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_religion
 		required_missions = {
 		}
 		position = 6
@@ -394,7 +394,7 @@ gen_cadai_missions = {
 	}
 
 	gen_cadai_wine_and_silk = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_religion
 		required_missions = {
 			gen_cadai_happy_priest
 		}
@@ -428,7 +428,7 @@ gen_cadai_missions = {
 	}
 
 	gen_cadai_unify_ulthuan = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_high_elf_religion
 		required_missions = { gen_cadai_wine_and_silk }
 		provinces_to_highlight = {
 			region = ulthuan_region

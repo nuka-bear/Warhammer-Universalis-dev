@@ -16,7 +16,7 @@ gen_war_vampire_religion = {
 
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	
 	potential = {
@@ -27,7 +27,7 @@ gen_war_vampire_religion = {
 ### Get vampires on board, and increase corrupting outreach
 
 	gen_vampire_religion_happy_priest = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_vampire_religion
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {
@@ -50,7 +50,7 @@ gen_war_vampire_religion = {
 
 ### Spread Vamprism to another country
 	gen_vampire_spread_vampirism_1 = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_vampire_religion
 		required_missions = { gen_vampire_religion_happy_priest } 
 		trigger = {
 			any_neighbor_country = {
@@ -72,7 +72,7 @@ gen_war_vampire_religion = {
 
 ### Surround yourself with Vamprism
 	gen_vampire_spread_vampirism_2 = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_vampire_religion
 		required_missions = { gen_vampire_spread_vampirism_1 }
 		provinces_to_highlight = {
 			is_neighbor_of = ROOT
@@ -99,7 +99,7 @@ gen_war_vampire_religion = {
 
 ### Put monsters in your army
 	gen_vampire_religion_monstrous_army = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_vampire_religion
 		required_missions = {  } 
 		trigger = {
 			num_of_cossacks = 4
@@ -116,7 +116,7 @@ gen_war_vampire_religion = {
 
 ### Prepare the capital for the ritual
 	gen_vampire_religion_place_of_study = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_vampire_religion
 		required_missions = {  } 
 		trigger = {
 			OR = {
@@ -142,7 +142,7 @@ gen_war_vampire_religion = {
 
 ### Perform Nagash's ritual with his staff
 	gen_vampire_religion_get_staff_of_nagash = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_vampire_religion
 		required_missions = { gen_vampire_religion_place_of_study }
 		position = 6
 		provinces_to_highlight = {
@@ -154,7 +154,7 @@ gen_war_vampire_religion = {
 			}
 		}
 		effect = {
-			add_manpower = 1000
+			add_manpower = 500
 		}
 	}
 
@@ -164,7 +164,7 @@ gen_war_vampire_religion = {
 
 ### Turn the empire vampiric
 	gen_vampire_religion_unify_empire = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_vampire_religion
 		required_missions = {  }
 		provinces_to_highlight = {
 			owner = {
@@ -178,7 +178,8 @@ gen_war_vampire_religion = {
 					is_part_of_hre = yes
 					NOT = { religion = ROOT }
 				}
-			}		}
+			}	
+		}
 
 		effect = {
 

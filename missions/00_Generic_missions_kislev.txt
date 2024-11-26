@@ -7,7 +7,7 @@
 gen_kislev_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = kislevite_group
@@ -15,7 +15,7 @@ gen_kislev_missions = {
 
 ### The Boyars lend their winged hussars to the state
 	gen_kislev_please_nobility = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_culture
 		required_missions = { }
 		trigger = {
 			estate_loyalty = {
@@ -37,7 +37,7 @@ gen_kislev_missions = {
 
 ### Our winged hussars are unmatched
 	gen_kislev_cavalry = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_culture
 		required_missions = { gen_kislev_please_nobility }
 		trigger = {
 			num_of_cavalry = 10
@@ -52,7 +52,7 @@ gen_kislev_missions = {
 
 ### Like times of old, we are taking to mounted warfare
 	gen_kislev_cavalry_2 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_culture
 		required_missions = { gen_kislev_cavalry }
 		trigger = {
 			num_of_cavalry = 20
@@ -67,7 +67,7 @@ gen_kislev_missions = {
 
 ### Kisleve is a bastion against the forces of chaos. We need forts.
 	gen_kislev_prepare_the_defenses = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_culture
 		required_missions = { }
 		position = 5
 		trigger = {
@@ -86,7 +86,7 @@ gen_kislev_missions = {
 
 ### We need to reclaim our lands to the east
 	gen_kislev_reclaim_wheatlands = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_culture
 		required_missions = { }
 		provinces_to_highlight = {
             region = wheatlands_region
@@ -109,7 +109,7 @@ gen_kislev_missions = {
 ### The realms of men must help us again. We stand together against darkness.
 
 	gen_kislev_friend_to_the_south = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_culture
 		required_missions = { gen_kislev_prepare_for_defense }
 		provinces_to_highlight = {
             owner = {
@@ -144,7 +144,7 @@ gen_kislev_missions = {
 
 ### In order to contend with the norsca, we need to build up our fleets.
 	gen_kislev_build_navy = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_culture
 		required_missions = { }
 		position = 6
 		trigger = {
@@ -174,13 +174,13 @@ gen_kislev_missions = {
 gen_kislev_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = kislevite_group
 	}
 	gen_kislev_ultimate_mission = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_culture
 		required_missions = { }
 		position = 9
 		provinces_to_highlight = {
@@ -210,7 +210,7 @@ gen_kislev_ultimate_missions = {
 gen_orthodoxy_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -222,7 +222,7 @@ gen_orthodoxy_missions = {
 
 ### Our missionaries are inspired!
 	gen_orthodoxy_happy_priest = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_religion
 		required_missions = {
 		}
 		trigger = {
@@ -246,7 +246,7 @@ gen_orthodoxy_missions = {
 
 ### Unite Under Ursus
 	gen_orthodoxy_religious_unity = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_religion
 		required_missions = { }
 		position = 3
 		trigger = {
@@ -267,7 +267,7 @@ gen_orthodoxy_missions = {
 
 ### Ursus takes the war to chaos
 	gen_orthodoxy_war_with_chaos = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_religion
 		required_missions = { gen_orthodoxy_religious_unity }
 		trigger = {
 			any_war_enemy_country = {
@@ -284,7 +284,7 @@ gen_orthodoxy_missions = {
 
 ### Ursus takes the war to chaos
 	gen_orthodoxy_push_back_norsca = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_religion
 		required_missions = { gen_orthodoxy_war_with_chaos }
 		provinces_to_highlight = {
           	NOT = { owned_by = ROOT }
@@ -309,7 +309,7 @@ gen_orthodoxy_missions = {
 
 ### Ice Witches solidify hold on government
 	gen_orthodoxy_crownland = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_religion
 		required_missions = {  }
 		trigger = {
 			crown_land_share = 50
@@ -326,7 +326,7 @@ gen_orthodoxy_missions = {
 ### Ice Witches have build up the capital
 
 	gen_orthodoxy_ice_palaces = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_religion
 		required_missions = { gen_orthodoxy_crownland }
 		provinces_to_highlight = {
           	is_capital_of = ROOT
@@ -346,7 +346,7 @@ gen_orthodoxy_missions = {
 
 ### Ice Witches build places to study the lore of winter.
 	gen_orthodoxy_winter_magic_study = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_kislev_religion
 		required_missions = { gen_orthodoxy_crownland }
 		trigger = {
 			num_of_owned_provinces_with = {

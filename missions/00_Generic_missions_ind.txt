@@ -12,7 +12,7 @@
 gen_ind_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -24,7 +24,7 @@ gen_ind_missions = {
 	}
 
 	gen_indish_please_nobility = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_culture
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {
@@ -47,7 +47,7 @@ gen_ind_missions = {
 
 
 	gen_indish_cavalry = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_culture
 		required_missions = { gen_indish_please_nobility }
 		trigger = {
 			num_of_cavalry = 10
@@ -63,7 +63,7 @@ gen_ind_missions = {
 
 
 	gen_indish_war_with_infidel = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_culture
 		required_missions = { gen_indish_cavalry } 
 		trigger = {
 			at_war_with_religious_enemy = yes
@@ -78,7 +78,7 @@ gen_ind_missions = {
 	}
 
 	gen_indish_war_expand_faith = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_culture
 		required_missions = { gen_indish_war_with_infidel } 
 		trigger = {
 			num_of_continents = 2
@@ -93,7 +93,7 @@ gen_ind_missions = {
 	}
 
 	gen_indish_build_docks = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_culture
 		required_missions = {  }
 		position = 6
 		trigger = {
@@ -113,7 +113,7 @@ gen_ind_missions = {
 	}
 
 	gen_indish_expand_overseas = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_culture
 		required_missions = { gen_indish_build_docks } 
 		trigger = {
 			num_of_continents = 3
@@ -129,7 +129,7 @@ gen_ind_missions = {
 
 
 	gen_indish_center_of_trade = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_culture
 		required_missions = { gen_indish_expand_overseas } 
 		trigger = {
 			num_of_light_ship = 25
@@ -147,7 +147,7 @@ gen_ind_missions = {
 gen_indish_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -158,7 +158,7 @@ gen_indish_ultimate_missions = {
 		}
 	}
 	gen_indish_ultimate_mission = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_culture
 		required_missions = {  }
 		position = 9
 		trigger = {
@@ -194,7 +194,7 @@ gen_indish_ultimate_missions = {
 gen_thousand_gods_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -204,7 +204,7 @@ gen_thousand_gods_missions = {
 	}
 
 	gen_thousand_gods_happy_priest = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_religion
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {
@@ -226,7 +226,7 @@ gen_thousand_gods_missions = {
 	}
 
 	gen_thousand_gods_places_of_worship = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_religion
 		required_missions = { gen_thousand_gods_happy_priest } 
 		trigger = {
 			all_owned_province = {
@@ -243,7 +243,7 @@ gen_thousand_gods_missions = {
 	}
 
 	gen_thousand_gods_place_of_study = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_religion
 		required_missions = { gen_thousand_gods_places_of_worship } 
 		trigger = {
 			capital_scope = {
@@ -262,7 +262,7 @@ gen_thousand_gods_missions = {
 	}
 
 	gen_thousand_gods_places_of_law = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_religion
 		required_missions = { gen_thousand_gods_place_of_study } 
 		trigger = {
 			all_owned_province = {
@@ -282,7 +282,7 @@ gen_thousand_gods_missions = {
 	}
 
 	gen_thousand_gods_places_of_innovation = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_religion
 		required_missions = { gen_thousand_gods_places_of_law } 
 		trigger = {
 			all_owned_province = {
@@ -299,7 +299,7 @@ gen_thousand_gods_missions = {
 	}
 
 	gen_thousand_gods_charitable = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_religion
 		required_missions = {  }
 		trigger = {
 			years_of_income = 2.0
@@ -320,7 +320,7 @@ gen_thousand_gods_missions = {
 
 
 	gen_thousand_gods_defender_of_faith = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ind_religion
 		required_missions = { gen_thousand_gods_charitable }
 		trigger = {
 			is_defender_of_faith = yes

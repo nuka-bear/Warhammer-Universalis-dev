@@ -11,7 +11,7 @@
 gen_dwarf_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -21,7 +21,7 @@ gen_dwarf_missions = {
 	}
 
 	gen_dwarf_please_nobility = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_culture
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {
@@ -45,7 +45,7 @@ gen_dwarf_missions = {
 	}
 
 	gen_dwarf_fortify = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_culture
 		required_missions = { gen_dwarf_please_nobility } 
 		trigger = {
 			num_of_owned_provinces_with = {
@@ -63,7 +63,7 @@ gen_dwarf_missions = {
 	}
 
 	gen_dwarf_metals = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_culture
 		required_missions = {  } 
 		provinces_to_highlight = {
 			OR = {
@@ -98,7 +98,7 @@ gen_dwarf_missions = {
 	}
 
 	gen_dwarf_gold_beer_gems = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_culture
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
@@ -138,7 +138,7 @@ gen_dwarf_missions = {
 
 
 	gen_dwarf_make_money_1 = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_culture
 		required_missions = {  }
 		position = 6 
 		trigger = {
@@ -156,7 +156,7 @@ gen_dwarf_missions = {
 	}
 
 	gen_dwarf_make_money_2 = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_culture
 		required_missions = { gen_dwarf_make_money_1 } 
 		trigger = {
 			monthly_income = 50
@@ -173,7 +173,7 @@ gen_dwarf_missions = {
 	}
 
 	gen_dwarf_make_money_3 = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_culture
 		required_missions = { gen_dwarf_make_money_2 } 
 		trigger = {
 			monthly_income = 100
@@ -194,7 +194,7 @@ gen_dwarf_missions = {
 gen_dwarf_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -204,7 +204,7 @@ gen_dwarf_ultimate_missions = {
 	}
 
 	gen_dwarf_ultimate_mission = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_culture
 		required_missions = {  }
 		position = 9
 		provinces_to_highlight = {
@@ -259,7 +259,7 @@ gen_dwarf_ultimate_missions = {
 gen_ancestor_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion_group = dawi_denominations
@@ -268,7 +268,7 @@ gen_ancestor_missions = {
 
 ### The God of Mining, Smithing, and Stone
 	gen_ancestor_grungni = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_religion
 		required_missions = {  }
 		provinces_to_highlight = {
 			trade_goods = iron
@@ -298,7 +298,7 @@ gen_ancestor_missions = {
 
 ### Goddess of Hearth, Healing, and Protection
 	gen_ancestor_valaya = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_religion
 		required_missions = {  }
 		provinces_to_highlight = {
 			trade_goods = beer
@@ -328,7 +328,7 @@ gen_ancestor_missions = {
 
 ### The God of War, Vengeance, and Honor
 	gen_ancestor_grimnir = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_religion
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
@@ -367,7 +367,7 @@ gen_ancestor_missions = {
 
 ### Another warrior figure who aids Grimnir and is revered as a god of battle strategy and tactics.
 	gen_ancestor_mogrim = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_religion
 		required_missions = {  } 
 		trigger = {
 			OR = {
@@ -389,7 +389,7 @@ gen_ancestor_missions = {
 
 ### Known as the god of forging and metallurgy, Smednir is sometimes mentioned as an aspect or companion of Grungni. He represents the more specialized aspects of smithing.
 	gen_ancestor_smednir = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_religion
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
@@ -428,7 +428,7 @@ gen_ancestor_missions = {
 
 ### Thungni is the god of Runic magic and runesmithing.
 	gen_ancestor_thungni = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_religion
 		required_missions = {  }
 		provinces_to_highlight = {
 			trade_goods = warpstone
@@ -462,7 +462,7 @@ gen_ancestor_missions = {
 	}
 
 	gen_ancestor_pantheon = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dwarf_religion
 		required_missions = { gen_ancestor_grungni gen_ancestor_valaya gen_ancestor_grimnir gen_ancestor_mogrim gen_ancestor_smednir gen_ancestor_thungni}
 		position = 8
 		trigger = {
@@ -505,14 +505,14 @@ gen_ancestor_missions = {
 gen_hashut_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion = hashut
 	}
 
 	gen_hashut_please_church = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_hashut_religion
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {
@@ -541,7 +541,7 @@ gen_hashut_missions = {
 
 
 	gen_hashut_great_sacrifice = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_hashut_religion
 		required_missions = { gen_hashut_please_church } 
 		trigger = {
 			treasury = 500
@@ -560,7 +560,7 @@ gen_hashut_missions = {
 	}	
 
 	gen_hashut_expand_religion = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_hashut_religion
 		required_missions = { gen_hashut_great_sacrifice }
 		provinces_to_highlight = {
 			owned_by = ROOT
@@ -587,7 +587,7 @@ gen_hashut_missions = {
 	}
 
 	gen_hashut_expand_culture = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_hashut_religion
 		required_missions = { gen_hashut_expand_religion }
 		provinces_to_highlight = {
 			owned_by = ROOT
@@ -614,7 +614,7 @@ gen_hashut_missions = {
 	}
 
 	gen_hashut_get_slaves = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_hashut_religion
 		required_missions = {  }
 		provinces_to_highlight = {
 			trade_goods = slaves
@@ -647,7 +647,7 @@ gen_hashut_missions = {
 	}
 
 	gen_hashut_lead_slaves = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_hashut_religion
 		required_missions = { gen_hashut_get_slaves }
 		provinces_to_highlight = {
 			trade_goods = slaves
@@ -672,7 +672,7 @@ gen_hashut_missions = {
 
 
 	gen_hashut_high_crownland = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_hashut_religion
 		required_missions = {  }
 		position = 8
 		trigger = {

@@ -9,7 +9,7 @@ gen_war_empire_monarchy = {
 
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	
 	potential = {
@@ -19,7 +19,7 @@ gen_war_empire_monarchy = {
 	}
 	
 	gen_war_empire_monarchy_electors = {
-		icon = mission_alliances
+		icon = mission_empire_culture
 		required_missions = { }
 		position = 1
 		
@@ -51,7 +51,7 @@ gen_war_empire_monarchy = {
 	}
 	
 	gen_war_empire_monarchy_emperor = {
-		icon = mission_empire
+		icon = mission_empire_culture
 		required_missions = { gen_war_empire_monarchy_electors }
 		position = 2
 		
@@ -90,7 +90,7 @@ gen_war_empire_monarchy = {
 gen_war_europe_hre_theocracy = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		is_part_of_hre = yes
@@ -98,7 +98,7 @@ gen_war_europe_hre_theocracy = {
 	}
 	
 	gen_war_empire_theocracy_house_of_god = {
-		icon = mission_hands_praying
+		icon = mission_empire_culture
 		required_missions = { }
 		position = 1
 
@@ -142,7 +142,7 @@ gen_war_europe_hre_theocracy = {
 		}
 	}
 	gen_war_empire_theocracy_lords_army = {
-		icon = mission_teutonic_knights
+		icon = mission_empire_culture
 		required_missions = { gen_war_empire_theocracy_house_of_god }
 		position = 2
 
@@ -205,7 +205,7 @@ gen_war_europe_hre_theocracy = {
 gen_war_empire_republic = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		is_part_of_hre = yes
@@ -213,7 +213,7 @@ gen_war_empire_republic = {
 	}
 	
 	gen_war_empire_republic_relations_with_emperor = {
-		icon = mission_monarch_in_throne_room
+		icon = mission_empire_culture
 		required_missions = { }
 		position = 1
 
@@ -239,7 +239,7 @@ gen_war_empire_republic = {
 		}
 	}
 	gen_war_empire_republic_financial_centre = {
-		icon = mission_high_income
+		icon = mission_empire_culture
 		required_missions = { gen_war_empire_republic_relations_with_emperor }
 		position = 2
 
@@ -270,14 +270,14 @@ gen_war_empire_republic = {
 gen_war_empire_general = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		is_part_of_hre = yes
 	}
 	
 	gen_war_empire_general_web_of_allies = {
-		icon = mission_monarch_in_throne_room
+		icon = mission_empire_culture
 		required_missions = { }
 		position = 4
 
@@ -303,7 +303,7 @@ gen_war_empire_general = {
 
 
 	gen_war_empire_general_biggest_development = {
-		icon = mission_monarch_in_throne_room
+		icon = mission_empire_culture
 		required_missions = { gen_war_empire_general_web_of_allies }
 		provinces_to_highlight = {
 			owner = {
@@ -336,7 +336,7 @@ gen_war_empire_general = {
 
 
 	gen_war_empire_general_biggest_army = {
-		icon = mission_monarch_in_throne_room
+		icon = mission_empire_culture
 		required_missions = { }
 		provinces_to_highlight = {
 			owner = {
@@ -369,7 +369,7 @@ gen_war_empire_general = {
 
 
 	gen_war_empire_general_most_impressive = {
-		icon = mission_monarch_in_throne_room
+		icon = mission_empire_culture
 		required_missions = { gen_war_empire_general_biggest_army }
 		provinces_to_highlight = {
 			owner = {
@@ -402,7 +402,7 @@ gen_war_empire_general = {
 
 
 	gen_war_empire_general_sword_of_the_empire = {
-		icon = mission_monarch_in_throne_room
+		icon = mission_empire_culture
 		required_missions = { gen_war_empire_general_biggest_development gen_war_empire_general_most_impressive}
 
 		provinces_to_highlight = {
@@ -429,7 +429,7 @@ gen_war_empire_ultimate = {
 
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	
 	potential = {
@@ -437,7 +437,7 @@ gen_war_empire_ultimate = {
 	}
 	
 	gen_war_empire_ultimate = {
-		icon = mission_monarch_in_throne_room
+		icon = mission_empire_culture
 		required_missions = { }
 		position = 9
 		provinces_to_highlight = {
@@ -487,7 +487,7 @@ gen_war_empire_religion = {
 
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	
 	potential = {
@@ -501,7 +501,7 @@ gen_war_empire_religion = {
 	
 
 	gen_empire_religion_happy_priest = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_empire_religion
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {
@@ -523,7 +523,7 @@ gen_war_empire_religion = {
 	}
 
 	gen_empire_religion_places_of_worship = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_empire_religion
 		required_missions = { gen_empire_religion_happy_priest } 
 		trigger = {
 			all_owned_province = {
@@ -540,7 +540,7 @@ gen_war_empire_religion = {
 	}
 
 	gen_empire_religion_place_of_study = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_empire_religion
 		required_missions = { gen_empire_religion_places_of_worship } 
 		trigger = {
 			capital_scope = {
@@ -559,7 +559,7 @@ gen_war_empire_religion = {
 	}
 
 	gen_empire_religion_places_of_law = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_empire_religion
 		required_missions = { gen_empire_religion_place_of_study } 
 		trigger = {
 			all_owned_province = {
@@ -579,7 +579,7 @@ gen_war_empire_religion = {
 	}
 
 	gen_empire_religion_places_of_innovation = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_empire_religion
 		required_missions = { gen_empire_religion_places_of_law } 
 		trigger = {
 			all_owned_province = {
@@ -597,7 +597,7 @@ gen_war_empire_religion = {
 
 
 	gen_empire_religion_defender_of_faith = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_empire_religion
 		required_missions = {  }
 		trigger = {
 			is_defender_of_faith = yes
@@ -614,7 +614,7 @@ gen_war_empire_religion = {
 	}
 
 	gen_empire_religion_unify_empire = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_empire_religion
 		required_missions = { gen_empire_religion_defender_of_faith }
 		provinces_to_highlight = {
 			owner = {

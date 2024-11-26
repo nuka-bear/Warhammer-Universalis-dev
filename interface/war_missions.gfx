@@ -1,0 +1,184 @@
+spriteTypes = {
+	spriteType = {
+		name = "mission_araby_culture"
+		texturefile = "gfx/interface/missions/mission_araby_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_araby_religion"
+		texturefile = "gfx/interface/missions/mission_araby_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_sow_culture"
+		texturefile = "gfx/interface/missions/mission_sow_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_myrmidia"
+		texturefile = "gfx/interface/missions/mission_myrmidia.dds"
+	}
+
+	spriteType = {
+		name = "mission_cathayan_culture"
+		texturefile = "gfx/interface/missions/mission_cathayan_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_yin_yang"
+		texturefile = "gfx/interface/missions/mission_yin_yang.dds"
+	}
+
+	spriteType = {
+		name = "mission_chaos_culture"
+		texturefile = "gfx/interface/missions/mission_chaos_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_chaos_religion"
+		texturefile = "gfx/interface/missions/mission_chaos_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_dark_elf_culture"
+		texturefile = "gfx/interface/missions/mission_dark_elf_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_cytharai"
+		texturefile = "gfx/interface/missions/mission_cytharai.dds"
+	}
+
+	spriteType = {
+		name = "mission_dwarf_culture"
+		texturefile = "gfx/interface/missions/mission_dwarf_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_dwarf_religion"
+		texturefile = "gfx/interface/missions/mission_dwarf_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_orc_culture"
+		texturefile = "gfx/interface/missions/mission_orc_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_orc_religion"
+		texturefile = "gfx/interface/missions/mission_orc_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_ind_culture"
+		texturefile = "gfx/interface/missions/mission_ind_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_ind_religion"
+		texturefile = "gfx/interface/missions/mission_ind_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_kislev_culture"
+		texturefile = "gfx/interface/missions/mission_kislev_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_kislev_religion"
+		texturefile = "gfx/interface/missions/mission_kislev_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_high_elf_culture"
+		texturefile = "gfx/interface/missions/mission_high_elf_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_high_elf_religion"
+		texturefile = "gfx/interface/missions/mission_high_elf_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_lizardmen_culture"
+		texturefile = "gfx/interface/missions/mission_lizardmen_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_lizardmen_religion"
+		texturefile = "gfx/interface/missions/mission_lizardmen_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_norscan_culture"
+		texturefile = "gfx/interface/missions/mission_norscan_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_norscan_religion"
+		texturefile = "gfx/interface/missions/mission_norscan_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_ogre_culture"
+		texturefile = "gfx/interface/missions/mission_ogre_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_ogre_religion"
+		texturefile = "gfx/interface/missions/mission_ogre_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_skaven_culture"
+		texturefile = "gfx/interface/missions/mission_skaven_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_skaven_religion"
+		texturefile = "gfx/interface/missions/mission_skaven_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_tomb_king_culture"
+		texturefile = "gfx/interface/missions/mission_tomb_king_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_tomb_king_religion"
+		texturefile = "gfx/interface/missions/mission_tomb_king_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_wood_elf_culture"
+		texturefile = "gfx/interface/missions/mission_wood_elf_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_wood_elf_religion"
+		texturefile = "gfx/interface/missions/mission_wood_elf_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_empire_culture"
+		texturefile = "gfx/interface/missions/mission_empire_culture.dds"
+	}
+
+	spriteType = {
+		name = "mission_empire_religion"
+		texturefile = "gfx/interface/missions/mission_empire_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_vampire_religion"
+		texturefile = "gfx/interface/missions/mission_vampire_religion.dds"
+	}
+
+	spriteType = {
+		name = "mission_hashut_religion"
+		texturefile = "gfx/interface/missions/mission_hashut_religion.dds"
+	}
+
+
+
+}

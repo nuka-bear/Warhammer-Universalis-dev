@@ -1,4 +1,3 @@
-## Ogres and Maw
 
 ##################################
 ##### DARK ELF CULTURE GROUP
@@ -7,14 +6,14 @@
 gen_dark_elf_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = druchii_group
 	}
 
 	gen_dark_elf_please_nobility = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dark_elf_culture
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {
@@ -43,7 +42,7 @@ gen_dark_elf_missions = {
 
 
 	gen_dark_elf_rebuild_black_arks = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dark_elf_culture
 		required_missions = { gen_dark_elf_please_nobility } 
 		trigger = {
 			num_of_heavy_ship = 10
@@ -59,7 +58,7 @@ gen_dark_elf_missions = {
 
 
 	gen_dark_elf_colonize_coasts = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dark_elf_culture
 		required_missions = { gen_dark_elf_rebuild_black_arks } 
 		trigger = {
 			has_flagship = yes
@@ -75,7 +74,7 @@ gen_dark_elf_missions = {
 	}
 
 	gen_dark_elf_get_slaves = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dark_elf_culture
 		required_missions = {  }
 		provinces_to_highlight = {
 			trade_goods = slaves
@@ -110,7 +109,7 @@ gen_dark_elf_missions = {
 	}
 
 	gen_dark_elf_lead_slaves = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dark_elf_culture
 		required_missions = { gen_dark_elf_get_slaves }
 		provinces_to_highlight = {
 			trade_goods = slaves
@@ -135,7 +134,7 @@ gen_dark_elf_missions = {
 	}
 
 	gen_dark_elf_consolidate_power = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dark_elf_culture
 		required_missions = {  }
 		trigger = {
 			NOT = {
@@ -179,7 +178,7 @@ gen_dark_elf_missions = {
 	}
 
 	gen_dark_elf_court_of_despair = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dark_elf_culture
 		required_missions = { gen_dark_elf_consolidate_power }
 		trigger = {
 			capital_scope = {
@@ -207,14 +206,14 @@ gen_dark_elf_missions = {
 gen_dark_elf_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = druchii_group
 	}
 
 	gen_dark_elf_ultimate = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_dark_elf_culture
 		required_missions = { }
 		position = 9
 		provinces_to_highlight = {
@@ -262,7 +261,7 @@ gen_dark_elf_ultimate_missions = {
 gen_cytharai_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion = cytharai
@@ -270,7 +269,7 @@ gen_cytharai_missions = {
 
 
 	gen_cytharai_great_sacrifice = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cytharai
 		required_missions = { }
 		trigger = {
 			manpower = 25
@@ -286,7 +285,7 @@ gen_cytharai_missions = {
 	}
 
 	gen_cytharai_missionaries_abroad = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cytharai
 		required_missions = { } 
 		trigger = {
 			estate_loyalty = {
@@ -370,7 +369,7 @@ gen_cytharai_missions = {
 
 
 	gen_cytharai_expand_the_cults = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cytharai
 		required_missions = { gen_cytharai_missionaries_abroad }
 		provinces_to_highlight = {
 			religion = cytharai
@@ -407,7 +406,7 @@ gen_cytharai_missions = {
 
 
 	gen_cytharai_cytharai_in_ulthuan = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cytharai
 		required_missions = { gen_cytharai_expand_the_cults }
 		provinces_to_highlight = {
 			religion = cytharai
@@ -445,7 +444,7 @@ gen_cytharai_missions = {
 
 
 	gen_cytharai_ally_on_ulthuan = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cytharai
 		required_missions = {  } 
 		trigger = {
 			OR {
@@ -487,7 +486,7 @@ gen_cytharai_missions = {
 	}
 
 	gen_cytharai_foothold_on_ulthuan = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cytharai
 		required_missions = { gen_cytharai_ally_on_ulthuan } 
 		trigger = {
 			any_owned_province = { superregion = ulthuan_superregion }
@@ -503,7 +502,7 @@ gen_cytharai_missions = {
 
 
 	gen_cytharai_take_the_phoenix_throne = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cytharai
 		required_missions = { gen_cytharai_foothold_on_ulthuan } 
 		trigger = {
 			451 = { owned_by = ROOT }

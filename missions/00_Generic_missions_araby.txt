@@ -5,13 +5,13 @@
 gen_araby_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = arabyan_group
 	}
 	gen_araby_please_nobility = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_culture
 		required_missions = {
 		}
 		trigger = {
@@ -32,7 +32,7 @@ gen_araby_missions = {
 		}
 	}
 	gen_araby_cavalry = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_culture
 		required_missions = {
 			gen_araby_please_nobility
 		}
@@ -47,7 +47,7 @@ gen_araby_missions = {
 		}
 	}
 	gen_araby_war_with_infidel = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_culture
 		required_missions = {
 			gen_araby_cavalry
 		}
@@ -62,7 +62,7 @@ gen_araby_missions = {
 		}
 	}
 	gen_araby_war_expand_faith = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_culture
 		required_missions = {
 			gen_araby_war_with_infidel
 		}
@@ -100,7 +100,7 @@ gen_araby_missions = {
 		}
 	}
 	gen_araby_build_docks = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_culture
 		required_missions = {
 		}
 		position = 6
@@ -121,7 +121,7 @@ gen_araby_missions = {
 		}
 	}
 	gen_araby_expand_overseas = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_culture
 		required_missions = {
 			gen_araby_build_docks
 		}
@@ -136,7 +136,7 @@ gen_araby_missions = {
 		}
 	}
 	gen_araby_center_of_trade = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_culture
 		required_missions = {
 			gen_araby_expand_overseas
 		}
@@ -155,13 +155,13 @@ gen_araby_missions = {
 gen_araby_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = arabyan_group
 	}
 	gen_araby_ultimate_mission = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_culture
 		required_missions = {
 		}
 		position = 9
@@ -190,13 +190,13 @@ gen_araby_ultimate_missions = {
 gen_one_faith_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion = the_one_faith
 	}
 	gen_one_faith_happy_priest = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_religion
 		required_missions = {
 		}
 		trigger = {
@@ -217,7 +217,7 @@ gen_one_faith_missions = {
 		}
 	}
 	gen_one_faith_places_of_worship = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_religion
 		required_missions = {
 			gen_one_faith_happy_priest
 		}
@@ -235,7 +235,7 @@ gen_one_faith_missions = {
 		}
 	}
 	gen_one_faith_place_of_study = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_religion
 		required_missions = {
 			gen_one_faith_places_of_worship
 		}
@@ -254,7 +254,7 @@ gen_one_faith_missions = {
 		}
 	}
 	gen_one_faith_places_of_law = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_religion
 		required_missions = {
 			gen_one_faith_place_of_study
 		}
@@ -275,7 +275,7 @@ gen_one_faith_missions = {
 		}
 	}
 	gen_one_faith_places_of_innovation = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_religion
 		required_missions = {
 			gen_one_faith_places_of_law
 		}
@@ -293,7 +293,7 @@ gen_one_faith_missions = {
 		}
 	}
 	gen_one_faith_charitable = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_religion
 		required_missions = {
 		}
 		trigger = {
@@ -311,7 +311,7 @@ gen_one_faith_missions = {
 		}
 	}
 	gen_one_faith_defender_of_faith = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_araby_religion
 		required_missions = {
 			gen_one_faith_charitable
 		}

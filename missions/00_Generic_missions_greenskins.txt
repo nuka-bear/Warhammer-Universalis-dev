@@ -5,7 +5,7 @@
 gen_greenskin_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -14,7 +14,7 @@ gen_greenskin_missions = {
 		}
 	}
 	gen_greenskin_please_nobility = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_culture
 		required_missions = {
 		}
 		trigger = {
@@ -37,7 +37,7 @@ gen_greenskin_missions = {
 		}
 	}
 	gen_greenskin_impress_nobility = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_culture
 		required_missions = {
 			gen_greenskin_please_nobility
 		}
@@ -55,7 +55,7 @@ gen_greenskin_missions = {
 		}
 	}
 	gen_greenskin_bring_the_loot = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_culture
 		required_missions = {
 			gen_greenskin_impress_nobility
 		}
@@ -70,7 +70,7 @@ gen_greenskin_missions = {
 		}
 	}
 	gen_greenskin_grow = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_culture
 		required_missions = {
 		}
 		position = 5
@@ -85,7 +85,7 @@ gen_greenskin_missions = {
 		}
 	}
 	gen_greenskin_claim_horde = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_culture
 		required_missions = {
 			gen_greenskin_grow
 		}
@@ -102,7 +102,7 @@ gen_greenskin_missions = {
 		}
 	}
 	gen_greenskin_bridge_the_divide = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_culture
 		required_missions = {
 			gen_greenskin_claim_horde
 		}
@@ -117,7 +117,7 @@ gen_greenskin_missions = {
 		}
 	}
 	gen_greenskin_spread_like_fire = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_culture
 		required_missions = {
 			gen_greenskin_bridge_the_divide
 		}
@@ -159,7 +159,7 @@ gen_greenskin_missions = {
 gen_greenskin_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -168,7 +168,7 @@ gen_greenskin_ultimate_missions = {
 		}
 	}
 	gen_greenskin_ultimate_mission = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_culture
 		required_missions = {
 		}
 		position = 9
@@ -209,13 +209,13 @@ gen_greenskin_ultimate_missions = {
 gen_gork_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion_group = greenskin_denominations
 	}
 	gen_gork_happy_priest = {
-		icon = mission_impaled_soldies
+		icon = mission_orc_religion
 		required_missions = {
 		}
 		trigger = {
@@ -236,7 +236,7 @@ gen_gork_missions = {
 		}
 	}
 	gen_gork_try_mork = {
-		icon = mission_impaled_soldies
+		icon = mission_orc_religion
 		required_missions = {
 		}
 		trigger = {
@@ -250,7 +250,7 @@ gen_gork_missions = {
 		}
 	}
 	gen_gork_try_gork = {
-		icon = mission_impaled_soldies
+		icon = mission_orc_religion
 		required_missions = {
 		}
 		trigger = {
@@ -266,7 +266,7 @@ gen_gork_missions = {
 		}
 	}
 	gen_greenskin_raid_20 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_religion
 		required_missions = {
 		}
 		position = 5
@@ -423,7 +423,7 @@ gen_gork_missions = {
 		}
 	}
 	gen_greenskin_raid_30 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_religion
 		required_missions = {
 			gen_greenskin_raid_20
 		}
@@ -580,7 +580,7 @@ gen_gork_missions = {
 		}
 	}
 	gen_greenskin_raid_40 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_religion
 		required_missions = {
 			gen_greenskin_raid_30
 		}
@@ -737,7 +737,7 @@ gen_gork_missions = {
 		}
 	}
 	gen_greenskin_raid_50 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_orc_religion
 		required_missions = {
 			gen_greenskin_raid_40
 		}

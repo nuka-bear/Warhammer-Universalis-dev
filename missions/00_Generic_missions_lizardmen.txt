@@ -18,7 +18,7 @@
 gen_lizard_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = lizardmen_group
@@ -27,7 +27,7 @@ gen_lizard_missions = {
 
 ### Nobles teach the leader about military might
 	gen_lizard_please_nobility = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_culture
 		required_missions = { }
 		trigger = {
 			estate_loyalty = {
@@ -54,7 +54,7 @@ gen_lizard_missions = {
 
 ### Give the skinks somewhere to do their research
 	gen_lizard_skinks = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_culture
 		required_missions = { gen_lizard_please_nobility }
 		trigger = {
 			num_of_owned_provinces_with = {
@@ -78,7 +78,7 @@ gen_lizard_missions = {
 
 ### With the nobles and skinks on side, throw a big celebration
 	gen_lizard_celebration = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_culture
 		required_missions = { gen_lizard_skinks }
 		trigger = {
 			treasury = 1000
@@ -107,7 +107,7 @@ gen_lizard_missions = {
 ### Morale is high. It's time to claim our birthright and take over all the Lizardfolk Temple Cities
 
 	gen_lizard_claim_temples = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_culture
 		required_missions = { gen_lizard_celebration }
 		provinces_to_highlight = {
 			has_terrain = temple_city_terrain
@@ -143,7 +143,7 @@ gen_lizard_missions = {
 
 ### Saurus are our powerful infantry, but they can sometimes run amok. Train them
 	gen_lizard_saurus = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_culture
 		required_missions = {  }
 		position = 6
 		trigger = {
@@ -161,7 +161,7 @@ gen_lizard_missions = {
 
 ### It's always been challenging to integrate our huge dinosaurs into our army. We need an army reform to do this.
 	gen_lizard_get_monsters = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_culture
 		required_missions = { gen_lizard_saurus }
 		trigger = {
 			num_of_cossacks = 3
@@ -182,7 +182,7 @@ gen_lizard_missions = {
 
 ### Fighting alongside dinosaurs can be challenging. We need to resturcture our army to make this work.
 	gen_lizard_monster_spawning_grounds = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_culture
 		required_missions = { gen_lizard_get_monsters }
 		trigger = {
 			num_of_cossacks = 6
@@ -206,13 +206,13 @@ gen_lizard_missions = {
 gen_lizard_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = lizardmen_group
 	}
 	gen_lizard_ultimate_mission = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_culture
 		required_missions = {
 		}
 		position = 9
@@ -257,7 +257,7 @@ gen_lizard_ultimate_missions = {
 gen_old_ones_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion_group = lizardmen_denominations
@@ -265,7 +265,7 @@ gen_old_ones_missions = {
 
 ### Priests are now willing to try a 6th Slann spawning. They attune with the ley lines
 	gen_old_ones_happy_priest = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_religion
 		required_missions = { }
 		trigger = {
 			estate_loyalty = {
@@ -312,7 +312,7 @@ gen_old_ones_missions = {
 
 ### The skink priests find a good place with good ley lines for the rituals
 	gen_old_ones_identify_ritual_site = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_religion
 		required_missions = { gen_old_ones_happy_priest }
 		provinces_to_highlight = {
 			owned_by = ROOT
@@ -343,7 +343,7 @@ gen_old_ones_missions = {
 
 ### They build a ritual site at the leyline
 	gen_old_ones_build_ritual_site = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_religion
 		required_missions = { gen_old_ones_identify_ritual_site }
 		provinces_to_highlight = {
 			has_province_modifier = lizard_6th_spawning_site
@@ -379,7 +379,7 @@ gen_old_ones_missions = {
 
 ### Trying out some things before attempting the 6th Slann Spawning.
 	gen_old_ones_experiments = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_religion
 		required_missions = { gen_old_ones_build_ritual_site }
 		trigger = {
 			adm_power = 200
@@ -401,7 +401,7 @@ gen_old_ones_missions = {
 
 ### The 6th Slann spawning is a success! A slann rules the nation, there is a slann heir, and most future leaders will be Slann.
 	gen_old_6th_spawning = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_religion
 		required_missions = { gen_old_ones_experiments }
 		provinces_to_highlight = {
 			has_province_modifier = lizard_ritual_site_ready
@@ -464,7 +464,7 @@ gen_old_ones_missions = {
 
 ### We are branching to different continents to find the ley lines
 	gen_old_ones_find_ley_lines = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_religion
 		required_missions = {  }
 		position = 6
 		trigger = {
@@ -480,7 +480,7 @@ gen_old_ones_missions = {
 
 ### Our religion is unified!
 	gen_old_ones_holy_sites_converted = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_lizardmen_religion
 		required_missions = { }
 		provinces_to_highlight = {
 			OR = {

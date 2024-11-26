@@ -5,14 +5,14 @@
 gen_cathay_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = cathayan_cg
 	}
 	### Nobles donating gifts and resources
 	gen_cathay_please_nobility = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cathayan_culture
 		required_missions = {
 		}
 		trigger = {
@@ -34,7 +34,7 @@ gen_cathay_missions = {
 	}
 	### Retaking government assests
 	gen_cathay_get_crownland_up = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cathayan_culture
 		required_missions = {
 			gen_cathay_please_nobility
 		}
@@ -52,7 +52,7 @@ gen_cathay_missions = {
 	### Korea B63 and monkey court -I35 are your vassals, or do not exist
 	### More spies to make sure this doesn't happen again
 	gen_cathay_reign_in_defectors = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cathayan_culture
 		required_missions = {
 		}
 		position = 4
@@ -88,7 +88,7 @@ gen_cathay_missions = {
 	### get rid of non-cathayans
 	### Can we change this to - all countries with their capital in Cathay have the religion and culture group of you
 	gen_cathay_purge_unwanted_elements = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cathayan_culture
 		required_missions = {
 		}
 		provinces_to_highlight = {
@@ -126,7 +126,7 @@ gen_cathay_missions = {
 	}
 	### Porcelain leader to start up terracotta forges to make giant terracotta warriors for army
 	gen_cathay_porcelain_leader = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cathayan_culture
 		required_missions = {
 		}
 		provinces_to_highlight = {
@@ -167,7 +167,7 @@ gen_cathay_missions = {
 	}
 	### Great Bastion is at level 3 and you or a subject own it
 	gen_cathay_reinforce_wall = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cathayan_culture
 		required_missions = {
 		}
 		provinces_to_highlight = {
@@ -206,7 +206,7 @@ gen_cathay_missions = {
 	}
 	## Big Fleet
 	gen_cathay_big_fleet = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cathayan_culture
 		required_missions = {
 		}
 		provinces_to_highlight = {
@@ -243,13 +243,13 @@ gen_cathay_missions = {
 gen_cathay_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = cathayan_cg
 	}
 	gen_cathay_ultimate_mission = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_cathayan_culture
 		required_missions = {
 		}
 		position = 9
@@ -291,14 +291,14 @@ gen_cathay_ultimate_missions = {
 gen_yin_yang_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion = yin_yang
 	}
 	### Clergy donating gifts & Resources
 	gen_yin_yang_places_of_worship = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_yin_yang
 		provinces_to_highlight = {
 			owned_by = ROOT
 			NOT = { development = 6 }
@@ -322,7 +322,7 @@ gen_yin_yang_missions = {
 		}
 	}
 	gen_yin_yang_place_of_study = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_yin_yang
 		required_missions = {
 			gen_yin_yang_places_of_worship
 		}
@@ -341,7 +341,7 @@ gen_yin_yang_missions = {
 		}
 	}
 	gen_yin_yang_places_of_law = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_yin_yang
 		required_missions = {
 			gen_yin_yang_place_of_study
 		}
@@ -362,7 +362,7 @@ gen_yin_yang_missions = {
 		}
 	}
 	gen_yin_yang_places_of_innovation = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_yin_yang
 		required_missions = {
 			gen_yin_yang_places_of_law
 		}
@@ -382,7 +382,7 @@ gen_yin_yang_missions = {
 	### This Harmony thing isn'y working
 	### Should this be all of the areais the same religion?
 	gen_yin_yang_happy_priest = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_yin_yang
 		required_missions = {
 		}
 		position = 6
@@ -404,7 +404,7 @@ gen_yin_yang_missions = {
 		}
 	}
 	gen_yin_yang_tea_leader = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_yin_yang
 		required_missions = {
 			gen_yin_yang_happy_priest
 		}
@@ -446,7 +446,7 @@ gen_yin_yang_missions = {
 	}
 	### This harmony thing isn't working?
 	gen_yin_yang_balanced = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_yin_yang
 		required_missions = {
 			gen_yin_yang_tea_leader
 		}

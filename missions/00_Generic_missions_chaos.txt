@@ -11,7 +11,7 @@
 gen_chaos_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -21,7 +21,7 @@ gen_chaos_missions = {
 	}
 
 	gen_chaos_defeated_nurgle = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_culture
 		required_missions = {  }
 		provinces_to_highlight = {
 			owner = { religion = nurglite_religion }
@@ -44,7 +44,7 @@ gen_chaos_missions = {
 	}
 
 	gen_chaos_defeated_khorne = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_culture
 		required_missions = {  }
 		provinces_to_highlight = {
 			owner = { religion = khornate_religion }
@@ -67,7 +67,7 @@ gen_chaos_missions = {
 	}
 
 	gen_chaos_defeated_tzeentch = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_culture
 		required_missions = {  }
 		provinces_to_highlight = {
 			owner = { religion = tzeentchian_religion }
@@ -90,7 +90,7 @@ gen_chaos_missions = {
 	}
 
 	gen_chaos_defeated_slaanesh = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_culture
 		required_missions = {  }
 		provinces_to_highlight = {
 			owner = { religion = slaaneshi_religion }
@@ -113,7 +113,7 @@ gen_chaos_missions = {
 	}
 
 	gen_chaos_defeated_undivided = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_culture
 		required_missions = {  }
 		provinces_to_highlight = {
 			owner = { religion = chaos_undivided_religion }
@@ -137,7 +137,7 @@ gen_chaos_missions = {
 
 
 	gen_chaos_defeated_norscan = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_culture
 		required_missions = {  }
 		provinces_to_highlight = {
 			owner = { religion = norscan }
@@ -160,7 +160,7 @@ gen_chaos_missions = {
 	}
 
 	gen_chaos_happy_nobles = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_culture
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {
@@ -188,7 +188,7 @@ gen_chaos_missions = {
 gen_chaos_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -197,7 +197,7 @@ gen_chaos_ultimate_missions = {
 		}
 	}
 	gen_chaos_ultimate_mission = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_culture
 		required_missions = {  }
 		position = 9
 		trigger = {
@@ -229,7 +229,7 @@ gen_chaos_ultimate_missions = {
 gen_chaos_gods_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -243,7 +243,7 @@ gen_chaos_gods_missions = {
 
 
 	gen_chaos_gods_try_nurgle = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_religion
 		required_missions = {  } 
 		trigger = {
 			religion = nurglite_religion
@@ -258,7 +258,7 @@ gen_chaos_gods_missions = {
 	}
 
 	gen_chaos_gods_try_khorne = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_religion
 		required_missions = {  } 
 		trigger = {
 			religion = khornate_religion
@@ -274,7 +274,7 @@ gen_chaos_gods_missions = {
 
 
 	gen_chaos_gods_try_tzeentch = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_religion
 		required_missions = {  } 
 		trigger = {
 			religion = tzeentchian_religion
@@ -289,7 +289,7 @@ gen_chaos_gods_missions = {
 	}
 
 	gen_chaos_gods_try_slaanesh = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_religion
 		required_missions = {  } 
 		trigger = {
 			religion = slaaneshi_religion
@@ -306,7 +306,7 @@ gen_chaos_gods_missions = {
 
 
 	gen_chaos_gods_try_undivided = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_religion
 		required_missions = {  } 
 		trigger = {
 			religion = chaos_undivided_religion
@@ -322,7 +322,7 @@ gen_chaos_gods_missions = {
 
 
 	gen_chaos_gods_next_crusade = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_religion
 		required_missions = {  } 
 		trigger = {
 			any_country = {
@@ -345,7 +345,7 @@ gen_chaos_gods_missions = {
 
 
 	gen_chaos_gods_please_church = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_chaos_religion
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {

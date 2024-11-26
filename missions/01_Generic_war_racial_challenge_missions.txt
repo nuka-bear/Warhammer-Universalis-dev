@@ -16,7 +16,7 @@ race_relations_1_missions = {
 	}
 	### Humans ###
 	challenge_humans = {
-		icon = mission_cannons_firing
+		icon = mission_empire_culture
 		required_missions = {
 		}
 		position = 10
@@ -39,7 +39,7 @@ race_relations_1_missions = {
 		}
 	}
 	trade_humans = {
-		icon = mission_war_chest
+		icon = mission_sow_culture
 		required_missions = {
 		}
 		trigger = {
@@ -64,7 +64,7 @@ race_relations_1_missions = {
 	}
 	### Orcs ###
 	challenge_orcs = {
-		icon = mission_cannons_firing
+		icon = mission_orc_culture
 		required_missions = {
 		}
 		trigger = {
@@ -86,7 +86,7 @@ race_relations_1_missions = {
 		}
 	}
 	trade_orcs = {
-		icon = mission_war_chest
+		icon = mission_orc_religion
 		required_missions = {
 		}
 		trigger = {
@@ -125,7 +125,7 @@ race_relations_2_missions = {
 	}
 	### Dwarves ###
 	challenge_dwarves = {
-		icon = mission_cannons_firing
+		icon = mission_dwarf_culture
 		required_missions = {
 		}
 		position = 10
@@ -148,7 +148,7 @@ race_relations_2_missions = {
 		}
 	}
 	trade_dwarves = {
-		icon = mission_war_chest
+		icon = mission_dwarf_religion
 		required_missions = {
 		}
 		trigger = {
@@ -173,7 +173,7 @@ race_relations_2_missions = {
 	}
 	### Elves ###
 	challenge_elves = {
-		icon = mission_cannons_firing
+		icon = mission_wood_elf_culture
 		required_missions = {
 		}
 		trigger = {
@@ -195,7 +195,7 @@ race_relations_2_missions = {
 		}
 	}
 	trade_elves = {
-		icon = mission_war_chest
+		icon = mission_high_elf_culture
 		required_missions = {
 		}
 		trigger = {
@@ -234,7 +234,7 @@ race_relations_3_missions = {
 	}
 	### Lizardmen ###
 	challenge_lizardmen = {
-		icon = mission_cannons_firing
+		icon = mission_lizardmen_culture
 		required_missions = {
 		}
 		position = 10
@@ -257,7 +257,7 @@ race_relations_3_missions = {
 		}
 	}
 	trade_lizardmen = {
-		icon = mission_war_chest
+		icon = mission_lizardmen_religion
 		required_missions = {
 		}
 		trigger = {
@@ -282,7 +282,7 @@ race_relations_3_missions = {
 	}
 	### Fimir ###
 	challenge_fimir = {
-		icon = mission_cannons_firing
+		icon = mission_norscan_religion
 		required_missions = {
 		}
 		trigger = {
@@ -304,7 +304,7 @@ race_relations_3_missions = {
 		}
 	}
 	trade_fimir = {
-		icon = mission_war_chest
+		icon = mission_chaos_religion
 		required_missions = {
 		}
 		trigger = {
@@ -343,7 +343,7 @@ race_relations_4_missions = {
 	}
 	### Ogre ###
 	challenge_ogres = {
-		icon = mission_cannons_firing
+		icon = mission_ogre_culture
 		required_missions = {
 		}
 		position = 10
@@ -366,7 +366,7 @@ race_relations_4_missions = {
 		}
 	}
 	trade_ogres = {
-		icon = mission_war_chest
+		icon = mission_ogre_religion
 		required_missions = {
 		}
 		trigger = {
@@ -391,7 +391,7 @@ race_relations_4_missions = {
 	}
 	### Skaven ###
 	challenge_skaven = {
-		icon = mission_cannons_firing
+		icon = mission_skaven_culture
 		required_missions = {
 		}
 		trigger = {
@@ -413,7 +413,7 @@ race_relations_4_missions = {
 		}
 	}
 	trade_skaven = {
-		icon = mission_war_chest
+		icon = mission_skaven_religion
 		required_missions = {
 		}
 		trigger = {
@@ -452,7 +452,7 @@ race_relations_5_missions = {
 	}
 	### Beastfolk ###
 	challenge_beastfolk = {
-		icon = mission_cannons_firing
+		icon = mission_chaos_culture
 		required_missions = {
 		}
 		position = 10
@@ -475,7 +475,7 @@ race_relations_5_missions = {
 		}
 	}
 	trade_beastfolk = {
-		icon = mission_war_chest
+		icon = mission_wood_elf_religion
 		required_missions = {
 		}
 		trigger = {
@@ -500,7 +500,7 @@ race_relations_5_missions = {
 	}
 	### Undead ###
 	challenge_undead = {
-		icon = mission_cannons_firing
+		icon = mission_vampire_religion
 		required_missions = {
 		}
 		trigger = {
@@ -522,7 +522,7 @@ race_relations_5_missions = {
 		}
 	}
 	trade_undead = {
-		icon = mission_war_chest
+		icon = mission_tomb_king_religion
 		required_missions = {
 		}
 		trigger = {
@@ -569,7 +569,7 @@ race_relations_1_missions_for_orcs = {
 	}
 	### Humans ###
 	challenge_humans_for_orcs = {
-		icon = mission_cannons_firing
+		icon = mission_empire_culture
 		required_missions = {
 		}
 		position = 10
@@ -592,7 +592,7 @@ race_relations_1_missions_for_orcs = {
 		}
 	}
 	trade_humans_for_orcs = {
-		icon = mission_war_chest
+		icon = mission_sow_culture
 		required_missions = {
 		}
 		trigger = {
@@ -617,7 +617,7 @@ race_relations_1_missions_for_orcs = {
 	}
 	### Orcs ###
 	challenge_orcs_for_orcs = {
-		icon = mission_cannons_firing
+		icon = mission_orc_culture
 		required_missions = {
 		}
 		trigger = {
@@ -639,7 +639,7 @@ race_relations_1_missions_for_orcs = {
 		}
 	}
 	trade_orcs_for_orcs = {
-		icon = mission_war_chest
+		icon = mission_orc_religion
 		required_missions = {
 		}
 		trigger = {
@@ -676,7 +676,7 @@ race_relations_2_missions_for_orcs = {
 	}
 	### Dwarves ###
 	challenge_dwarves_for_orcs = {
-		icon = mission_cannons_firing
+		icon = mission_dwarf_culture
 		required_missions = {
 		}
 		position = 10
@@ -699,7 +699,7 @@ race_relations_2_missions_for_orcs = {
 		}
 	}
 	trade_dwarves_for_orcs = {
-		icon = mission_war_chest
+		icon = mission_dwarf_religion
 		required_missions = {
 		}
 		trigger = {
@@ -724,7 +724,7 @@ race_relations_2_missions_for_orcs = {
 	}
 	### Elves ###
 	challenge_elves_for_orcs = {
-		icon = mission_cannons_firing
+		icon = mission_high_elf_culture
 		required_missions = {
 		}
 		trigger = {
@@ -746,7 +746,7 @@ race_relations_2_missions_for_orcs = {
 		}
 	}
 	trade_elves_for_orcs = {
-		icon = mission_war_chest
+		icon = mission_wood_elf_culture
 		required_missions = {
 		}
 		trigger = {
@@ -783,7 +783,7 @@ race_relations_3_missions_for_orcs = {
 	}
 	### Lizardmen ###
 	challenge_lizardmen_for_orcs = {
-		icon = mission_cannons_firing
+		icon = mission_lizardmen_culture
 		required_missions = {
 		}
 		position = 10
@@ -806,7 +806,7 @@ race_relations_3_missions_for_orcs = {
 		}
 	}
 	trade_lizardmen_for_orcs = {
-		icon = mission_war_chest
+		icon = mission_lizardmen_religion
 		required_missions = {
 		}
 		trigger = {
@@ -831,7 +831,7 @@ race_relations_3_missions_for_orcs = {
 	}
 	### Fimir ###
 	challenge_fimir_for_orcs = {
-		icon = mission_cannons_firing
+		icon = mission_norscan_religion
 		required_missions = {
 		}
 		trigger = {
@@ -853,7 +853,7 @@ race_relations_3_missions_for_orcs = {
 		}
 	}
 	trade_fimir_for_orcs = {
-		icon = mission_war_chest
+		icon = mission_chaos_religion
 		required_missions = {
 		}
 		trigger = {
@@ -890,7 +890,7 @@ race_relations_4_missions_for_orcs = {
 	}
 	### Ogre ###
 	challenge_ogres_for_orcs = {
-		icon = mission_cannons_firing
+		icon = mission_ogre_culture
 		required_missions = {
 		}
 		position = 10
@@ -913,7 +913,7 @@ race_relations_4_missions_for_orcs = {
 		}
 	}
 	trade_ogres_for_orcs = {
-		icon = mission_war_chest
+		icon = mission_ogre_religion
 		required_missions = {
 		}
 		trigger = {
@@ -938,7 +938,7 @@ race_relations_4_missions_for_orcs = {
 	}
 	### Skaven ###
 	challenge_skaven_for_orcs = {
-		icon = mission_cannons_firing
+		icon = mission_skaven_culture
 		required_missions = {
 		}
 		trigger = {
@@ -960,7 +960,7 @@ race_relations_4_missions_for_orcs = {
 		}
 	}
 	trade_skaven_for_orcs = {
-		icon = mission_war_chest
+		icon = mission_skaven_religion
 		required_missions = {
 		}
 		trigger = {
@@ -997,7 +997,7 @@ race_relations_5_missions_for_orcs = {
 	}
 	### Beastfolk ###
 	challenge_beastfolk_for_orcs = {
-		icon = mission_cannons_firing
+		icon = mission_chaos_culture
 		required_missions = {
 		}
 		position = 10
@@ -1020,7 +1020,7 @@ race_relations_5_missions_for_orcs = {
 		}
 	}
 	trade_beastfolk_for_orcs = {
-		icon = mission_war_chest
+		icon = mission_wood_elf_religion
 		required_missions = {
 		}
 		trigger = {
@@ -1045,7 +1045,7 @@ race_relations_5_missions_for_orcs = {
 	}
 	### Undead ###
 	challenge_undead_for_orcs = {
-		icon = mission_cannons_firing
+		icon = mission_vampire_religion
 		required_missions = {
 		}
 		trigger = {
@@ -1067,7 +1067,7 @@ race_relations_5_missions_for_orcs = {
 		}
 	}
 	trade_undead_for_orcs = {
-		icon = mission_war_chest
+		icon = mission_tomb_king_religion
 		required_missions = {
 		}
 		trigger = {

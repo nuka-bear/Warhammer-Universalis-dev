@@ -9,7 +9,7 @@
 gen_ogre_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -19,7 +19,7 @@ gen_ogre_missions = {
 	}
 
 	gen_ogre_please_nobility = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_culture
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {
@@ -39,7 +39,7 @@ gen_ogre_missions = {
 	}
 
 	gen_ogre_unite_tribes = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_culture
 		required_missions = { gen_ogre_please_nobility } 
 		trigger = {
 			num_of_provinces_owned_or_owned_by_subjects_with = {
@@ -57,7 +57,7 @@ gen_ogre_missions = {
 	}
 
 	gen_ogre_mercenaries = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_culture
 		required_missions = {  } 
 		trigger = {
 			any_country = {
@@ -73,7 +73,7 @@ gen_ogre_missions = {
 
 
 	gen_ogre_ivory_pass = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_culture
 		required_missions = {  } 
 		position = 5
 		provinces_to_highlight = {
@@ -102,7 +102,7 @@ gen_ogre_missions = {
 	}
 
 	gen_ogre_silk_pass = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_culture
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
@@ -128,7 +128,7 @@ gen_ogre_missions = {
 	}
 
 	gen_ogre_north_pass = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_culture
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
@@ -163,7 +163,7 @@ gen_ogre_missions = {
 
 
 	gen_ogre_dominate_ivory_road = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_culture
 		required_missions = { gen_ogre_ivory_pass gen_ogre_silk_pass gen_ogre_north_pass} 
 		provinces_to_highlight = {
 			province_has_center_of_trade_of_level = 1
@@ -190,7 +190,7 @@ gen_ogre_missions = {
 gen_ogre_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		OR = {
@@ -200,7 +200,7 @@ gen_ogre_ultimate_missions = {
 	}
 
 	gen_ogre_ultimate = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_culture
 		required_missions = { }
 		position = 9
 		provinces_to_highlight = {
@@ -227,7 +227,7 @@ gen_ogre_ultimate_missions = {
 gen_maw_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion = the_great_maw_religion
@@ -236,7 +236,7 @@ gen_maw_missions = {
 
 
 	gen_maw_grain = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_religion
 		required_missions = {  } 
 		provinces_to_highlight = {
 			trade_goods = grain
@@ -264,7 +264,7 @@ gen_maw_missions = {
 	}
 
 	gen_maw_alcohol = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_religion
 		required_missions = {  } 
 		provinces_to_highlight = {
 			OR = {
@@ -301,7 +301,7 @@ gen_maw_missions = {
 	}
 
 	gen_maw_fish = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_religion
 		required_missions = {  } 
 		provinces_to_highlight = {
 			trade_goods = fish
@@ -329,7 +329,7 @@ gen_maw_missions = {
 	}
 
 	gen_maw_spices = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_religion
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
@@ -372,7 +372,7 @@ gen_maw_missions = {
 	}
 
 		gen_maw_drinks = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_religion
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
@@ -412,7 +412,7 @@ gen_maw_missions = {
 	}
 
 	gen_maw_meat = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_religion
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
@@ -452,7 +452,7 @@ gen_maw_missions = {
 
 
 	gen_maw_great_feast = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_ogre_religion
 		required_missions = { gen_maw_meat gen_maw_drinks gen_maw_spices gen_maw_fish gen_maw_alcohol gen_maw_grain } 
 		trigger = {
 			estate_loyalty = {

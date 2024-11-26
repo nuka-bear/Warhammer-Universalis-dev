@@ -8,7 +8,7 @@ nordland_1_missions = {
 			map_setup = map_setup_random
 		}
 	}
-	has_country_shield = yes
+	has_country_shield = no
 	gen_war_hre_electors = {
 		icon = mission_alliances
 		required_missions = {
@@ -170,7 +170,7 @@ nordland_2_missions = {
 			map_setup = map_setup_random
 		}
 	}
-	has_country_shield = yes
+	has_country_shield = no
 	nordland_sarls = {
 		icon = mission_rb_unite_the_clans
 		required_missions = {
@@ -255,7 +255,7 @@ nordland_3_missions = {
 			map_setup = map_setup_random
 		}
 	}
-	has_country_shield = yes
+	has_country_shield = no
 	nordland_bulwark_of_the_north = {
 		icon = mission_united_knight_order
 		required_missions = {
@@ -452,7 +452,7 @@ nordland_4_missions = {
 			map_setup = map_setup_random
 		}
 	}
-	has_country_shield = yes
+	has_country_shield = no
 	nordland_blockade_marienburg = {
 		icon = mission_rb_control_the_hansa
 		required_missions = {
@@ -610,7 +610,7 @@ nordland_5_missions = {
 			map_setup = map_setup_random
 		}
 	}
-	has_country_shield = yes
+	has_country_shield = no
 	nordland_show = {
 		icon = mission_among_the_great_powers
 		required_missions = {

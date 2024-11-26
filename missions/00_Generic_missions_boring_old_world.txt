@@ -11,7 +11,7 @@
 gen_sow_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		technology_group = tech_imperial
@@ -20,7 +20,7 @@ gen_sow_missions = {
 	}
 
 	gen_sow_happy_nobles = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_sow_culture
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {
@@ -42,7 +42,7 @@ gen_sow_missions = {
 	}
 
 	gen_sow_unify_friends = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_sow_culture
 		required_missions = { gen_sow_happy_nobles } 
 		trigger = {
 			num_of_allies = 4
@@ -59,7 +59,7 @@ gen_sow_missions = {
 
 
 	gen_sow_place_of_study = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_sow_culture
 		required_missions = { } 
 		trigger = {
 			capital_scope = {
@@ -78,7 +78,7 @@ gen_sow_missions = {
 	}
 
 	gen_sow_places_of_law = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_sow_culture
 		required_missions = { gen_sow_place_of_study } 
 		trigger = {
 			all_owned_province = {
@@ -98,7 +98,7 @@ gen_sow_missions = {
 	}
 
 	gen_sow_places_of_innovation = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_sow_culture
 		required_missions = { gen_sow_places_of_law } 
 		trigger = {
 			all_owned_province = {
@@ -115,7 +115,7 @@ gen_sow_missions = {
 	}
 
 	gen_sow_center_of_trade = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_sow_culture
 		required_missions = {  } 
 		trigger = {
 			any_owned_province = {
@@ -132,7 +132,7 @@ gen_sow_missions = {
 	}
 
 	gen_sow_trade_ships = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_sow_culture
 		required_missions = {gen_sow_center_of_trade } 
 		trigger = {
 			num_of_light_ship = 25
@@ -152,7 +152,7 @@ gen_sow_missions = {
 gen_sow_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		technology_group = tech_imperial
@@ -160,7 +160,7 @@ gen_sow_ultimate_missions = {
 		is_part_of_hre = no
 	}
 	gen_sow_ultimate_mission = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_sow_culture
 		required_missions = {  }
 		position = 9
 		trigger = {
@@ -217,14 +217,14 @@ gen_sow_ultimate_missions = {
 gen_myrmidian_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion = myrmidia
 	}
 
 	gen_myrmidian_please_church = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_myrmidia
 		required_missions = {  } 
 		trigger = {
 			estate_loyalty = {
@@ -247,7 +247,7 @@ gen_myrmidian_missions = {
 
 
 	gen_myrmidian_mercenary_armies = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_myrmidia
 		required_missions = {  } 
 		trigger = {
 			num_of_mercenaries = 10
@@ -265,7 +265,7 @@ gen_myrmidian_missions = {
 
 
 	gen_myrmidian_next_crusade = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_myrmidia
 		required_missions = {  } 
 		trigger = {
 			at_war_with_religious_enemy = yes
@@ -280,7 +280,7 @@ gen_myrmidian_missions = {
 	}
 
 	gen_myrmidian_war_expand_faith = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_myrmidia
 		required_missions = { gen_myrmidian_next_crusade } 
 		trigger = {
 			num_of_continents = 2
@@ -296,7 +296,7 @@ gen_myrmidian_missions = {
 
 
 	gen_myrmidian_build_docks = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_myrmidia
 		required_missions = {  }
 		position = 6
 		trigger = {
@@ -316,7 +316,7 @@ gen_myrmidian_missions = {
 	}
 
 	gen_myrmidian_expand_overseas = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_myrmidia
 		required_missions = { gen_myrmidian_build_docks } 
 		trigger = {
 			num_of_continents = 3
@@ -332,7 +332,7 @@ gen_myrmidian_missions = {
 
 
 	gen_sow_defender_of_faith = { 
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_myrmidia
 		required_missions = {  }
 		trigger = {
 			is_defender_of_faith = yes

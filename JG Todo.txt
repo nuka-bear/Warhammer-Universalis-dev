@@ -24,17 +24,26 @@ Everybody!
 GFX
 	Stuff surrounding Chaos Centers of Reformation
 	Make each mission tree a single icon of the culture or religion
+		59 by 63, 72
 	Religious Advisor Icons
 		Do while watching something?
 
 
 #############################
-###### RANDOM THOUGHTS ######
+###### RANDOM TO DOS ######
 #############################
 
-	Is the Bhagaran Culture in the wrong place?
+	Make more of Vampire Cathay actually vampiric religion
 
-	Ruinous power getting great vortex should trigger an event that makes a center of reformation on the location.
+	Uzkulak Caravan Stop missing image
+
+	New World Bookmark Mission Image
+
+	Racial Challenge icons should come from the other missions?
+
+	Thousand gods countries missing middle mission tree
+
+	Is the Bhagaran Culture in the wrong place?
 
 	Is endtimes mechanic starting at 100?
 
@@ -52,7 +61,7 @@ GFX
 
 	Pop-ups for when somebody steals your artifact
 
-	Have a Vampiric mission create a center of reformation
+	Reset Different Alignments on Convertion changes
 
 	Panama Canal
 
@@ -60,7 +69,7 @@ GFX
 
 	Pop up when you can vassalize dominions (Doesn't work)
 
-	Use on-actions to Tie administration & mil to primary culture and convert good/evil to religion
+	Use on-actions to Tie administration & mil to primary culture
 
 	Change Claim rewards mission tree to be just in culture group?
 
@@ -81,6 +90,11 @@ GFX
 	At start of end times all good nations like each other more
 
 	Fightiness events that give manpower don't give manpower if you're already above max? They give mil power or something else?
+
+	Have a Vampiric mission create a center of reformation
+
+	Ruinous power getting great vortex should trigger an event that makes a center of reformation on the location.
+
 
 #############################
 ######### NAH STUFF #########
@@ -103,7 +117,6 @@ Legitimate Successor government mechanic for Nehekhara & Cathay?
 
 A basic spell or two? Is mana = spell resource?
 	Undead Spend 100 mil mana to gain a 10,000 manpower?
-
 
 
 #############################
@@ -143,8 +156,6 @@ Orc End Times?
 
 Old Ones End Times?
 
-
-
 #############################
 ###### NATIONS ######
 #############################
@@ -179,39 +190,38 @@ Vampires
 	Vampire, get three vampire relics (Carstein Ring, Staff of Nagash, Jadeblooded thing at 2905) to ressurect Nagash and start their own endtimes
 
 
-Wood Elves - 1st done
+Wood Elves
 	Land movement between centers of each wood - Just if it's owned by wood elves?
 
 
-Dark Elf - 1st done
+Dark Elf
 	Need a little more oomph here. Make the religion more interesting?
 
 
-High Elves - 1st done
+High Elves
 	Need a little more oomph here
 		Sword of Khaine Disaster
-		Decision to start using
-		Can't stop using while at war
-		Stability cost to stop using
-		Disaster if using for too long
+			Decision to start using
+			Can't stop using while at war
+			Stability cost to stop using
+			Disaster if using for too long
 
 
-Lizards - 1st done
+Lizards
 	have a government mechanic which makes them stronger for each geomantic web city they control spread like 50 around the world.
 		Province Group?
 		Number of Superregions?
 	Spell to make devestation in all enemy lands
 
-Dwarves - 1st done
+Dwarves
 
-Ogre - 1st done
+Ogre
 
-
-Nehekhara - 1st done
+Nehekhara
 	Tension between the Nekeharan Pantheon and Nagashi
 	Nagashi religion to ressurect Nagash
 
-Orcs - 1st done
+Orcs
 	5 pulse events to move towards mork or gork
 	Mork interaction: raise rebels in adjacent territories
 	Gork interaction: more manpower and gold
@@ -223,11 +233,11 @@ Cathay
 Araby
 	Skism in Araby - If a ruler is 666, then a chance for them to declare themselves a prophet
 
+#################################################
+############## Notes to remember ################
+#################################################
 
 
-#################################################
-############## Notes to remember ##############
-#################################################
 
 Rename Estates by using war_estates_l_english and common > estates > burgers, church, nobles. Look for "estate_haggle_masters"
 

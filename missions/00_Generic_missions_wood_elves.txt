@@ -1,13 +1,13 @@
 
 ##################################
-##### HIGH ELVES CULTURE GROUP
+##### WOOD ELVES CULTURE GROUP
 ##################################
 
 
 gen_asrai_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = asrai_group
@@ -17,7 +17,7 @@ gen_asrai_missions = {
 ### Nobles offer up their private armies to the cause
 
 	gen_asrai_please_nobility = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_culture
 		required_missions = { }
 		trigger = {
 			estate_loyalty = {
@@ -37,7 +37,7 @@ gen_asrai_missions = {
 
 ### Be at war during the summer
 	gen_asrai_summer_war = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_culture
 		required_missions = { }
 		trigger = {
 			at_war_with_religious_enemy = yes
@@ -68,7 +68,7 @@ gen_asrai_missions = {
 
 ### Be at war during the winter
 	gen_asrai_winter_war = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_culture
 		required_missions = { }
 		trigger = {
 			at_war_with_religious_enemy = yes
@@ -91,7 +91,7 @@ gen_asrai_missions = {
 
 ### Reduce enemy to no manpower
 	gen_asrai_bleed_them_dry = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_culture
 		required_missions = { }
 		position = 5
 		trigger = {
@@ -109,7 +109,7 @@ gen_asrai_missions = {
 
 ## Raid surrounding area
 	gen_asrai_raiding_area = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_culture
 		required_missions = { gen_asrai_bleed_them_dry }
 		provinces_to_highlight = {
 			is_neighbor_of = ROOT
@@ -144,7 +144,7 @@ gen_asrai_missions = {
 
 ### More powerful than neighbors
 	gen_asrai_better_than_neighbors = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_culture
 		required_missions = { gen_asrai_raiding_area }
 		provinces_to_highlight = {
 			is_neighbor_of = ROOT
@@ -172,7 +172,7 @@ gen_asrai_missions = {
 
 ### Obliterate a great power
 	gen_asrai_destroy_great_power_army = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_culture
 		required_missions = { gen_asrai_better_than_neighbors }
 		trigger = {
 			any_war_enemy_country = {
@@ -196,14 +196,14 @@ gen_asrai_missions = {
 gen_asrai_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = asrai_group
 	}
 
 	gen_asrai_ultimate_mission = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_culture
 		position = 9
 		required_missions = {
 		}
@@ -241,7 +241,7 @@ gen_asrai_ultimate_missions = {
 gen_asrai_cadai_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion = asrai_cadai
@@ -250,7 +250,7 @@ gen_asrai_cadai_missions = {
 
 ### Priests make the nature's bounty come alive
 	gen_asrai_cadai_happy_priest = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_religion
 		required_missions = {
 		}
 		trigger = {
@@ -271,7 +271,7 @@ gen_asrai_cadai_missions = {
 
 ### Build up a fund for when we can use it best - Fall
 	gen_asrai_cadai_building_in_fall = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_religion
 		required_missions = {  }
 		trigger = {
 			treasury = 1000
@@ -300,7 +300,7 @@ gen_asrai_cadai_missions = {
 
 ### Build up magical energies for when we can use them best - Spring
 	gen_asrai_cadai_magic_in_spring = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_religion
 		required_missions = {  }
 		trigger = {
 			adm_power = 900
@@ -327,7 +327,7 @@ gen_asrai_cadai_missions = {
 
 ### Every province is prosperous
 	gen_asrai_cadai_prosperity = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_religion
 		required_missions = {  }
 		position = 5
 		provinces_to_highlight = {
@@ -350,7 +350,7 @@ gen_asrai_cadai_missions = {
 
 ### Every province is growing
 	gen_asrai_cadai_dev_7 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_religion
 		required_missions = { gen_asrai_cadai_prosperity }
 		provinces_to_highlight = {
 			owned_by = ROOT
@@ -372,7 +372,7 @@ gen_asrai_cadai_missions = {
 
 ### Every province has a building
 	gen_asrai_cadai_has_building = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_religion
 		required_missions = { gen_asrai_cadai_dev_7 }
 		provinces_to_highlight = {
 			owned_by = ROOT
@@ -394,7 +394,7 @@ gen_asrai_cadai_missions = {
 
 ### Every province is growing stronger
 	gen_asrai_cadai_dev_10 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_wood_elf_religion
 		required_missions = { gen_asrai_cadai_has_building }
 		provinces_to_highlight = {
 			owned_by = ROOT

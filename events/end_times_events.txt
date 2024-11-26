@@ -55,21 +55,21 @@ province_event = {
 
 		modifier = {
 			factor = 0.1
-			mission_completed = gen_chaos_defeated_nurgle
-			mission_completed = gen_chaos_defeated_khorne
-			mission_completed = gen_chaos_defeated_tzeentch
-			mission_completed = gen_chaos_defeated_slaanesh
-			mission_completed = gen_chaos_defeated_undivided
-			mission_completed = gen_chaos_defeated_norscan
+			owner = { mission_completed = gen_chaos_defeated_nurgle }
+			owner = { mission_completed = gen_chaos_defeated_khorne }
+			owner = { mission_completed = gen_chaos_defeated_tzeentch }
+			owner = { mission_completed = gen_chaos_defeated_slaanesh }
+			owner = { mission_completed = gen_chaos_defeated_undivided }
+			owner = { mission_completed = gen_chaos_defeated_norscan }
 		}
 
 		modifier = {
 			factor = 0.1
-			mission_completed = gen_chaos_gods_try_nurgle
-			mission_completed = gen_chaos_gods_try_khorne
-			mission_completed = gen_chaos_gods_try_tzeentch
-			mission_completed = gen_chaos_gods_try_slaanesh
-			mission_completed = gen_chaos_gods_try_undivided
+			owner = { mission_completed = gen_chaos_gods_try_nurgle }
+			owner = { mission_completed = gen_chaos_gods_try_khorne }
+			owner = { mission_completed = gen_chaos_gods_try_tzeentch }
+			owner = { mission_completed = gen_chaos_gods_try_slaanesh }
+			owner = { mission_completed = gen_chaos_gods_try_undivided }
 		}
 
 

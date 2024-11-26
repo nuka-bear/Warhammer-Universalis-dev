@@ -5,7 +5,7 @@
 gen_skaven_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = skaven_group
@@ -14,7 +14,7 @@ gen_skaven_missions = {
 
 #### Convince our higher ups to pretend to be civilized once in a while.
 	gen_skaven_please_nobility = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_skaven_culture
 		required_missions = { }
 		trigger = {
 			estate_loyalty = {
@@ -39,7 +39,7 @@ gen_skaven_missions = {
 
 ### Cities are filled with tasty refuse. Take them, and practice tunneling in.
 	gen_skaven_take_cities = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_skaven_culture
 		required_missions = { }
 		provinces_to_highlight = {
 			has_terrain = urban_terrain
@@ -63,7 +63,7 @@ gen_skaven_missions = {
 
 ### Our ratways extend far and wide. Make them faster for travel
 	gen_skaven_the_ratways = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_skaven_culture
 		required_missions = { gen_skaven_take_cities }
 		trigger = {
 			num_of_continents = 3
@@ -81,7 +81,7 @@ gen_skaven_missions = {
 
 ### Get warpstone to power our machines
 	gen_skaven_aquire_warpstone = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_skaven_culture
 		required_missions = { }
 		provinces_to_highlight = {
 			trade_goods = warpstone
@@ -104,7 +104,7 @@ gen_skaven_missions = {
 
 ### Get warpstone to power our machines
 	gen_skaven_trading_in_warpstone = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_skaven_culture
 		required_missions = { gen_skaven_aquire_warpstone }
 		provinces_to_highlight = {
 			trade_goods = warpstone
@@ -129,7 +129,7 @@ gen_skaven_missions = {
 
 
 	gen_skaven_ready_the_knife = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_skaven_culture
 		required_missions = {  }
 		trigger = {
 			any_ally = {
@@ -150,7 +150,7 @@ gen_skaven_missions = {
 
 
 	gen_skaven_stab_in_the_back = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_skaven_culture
 		required_missions = { gen_skaven_ready_the_knife }
 		trigger = {
 			any_ally = {
@@ -185,13 +185,13 @@ gen_skaven_missions = {
 gen_skaven_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = skaven_group
 	}
 	gen_skaven_ultimate_mission = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_skaven_culture
 		required_missions = {
 		}
 		position = 9
@@ -226,7 +226,7 @@ gen_skaven_ultimate_missions = {
 gen_horned_rat_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion = horned_rat
@@ -234,7 +234,7 @@ gen_horned_rat_missions = {
 
 ### Please the Grey Seers
 	gen_horned_rat_happy_priest = {
-		icon = mission_impaled_soldies
+		icon = mission_skaven_religion
 		required_missions = {
 		}
 		trigger = {
@@ -259,7 +259,7 @@ gen_horned_rat_missions = {
 
 ### Get the backing of three grey seers.
 	gen_horned_rat_three_cardinals = {
-		icon = mission_impaled_soldies
+		icon = mission_skaven_religion
 		required_missions = {
 		}
 		trigger = {
@@ -277,7 +277,7 @@ gen_horned_rat_missions = {
 
 #### Get control of the Council of 13
 	gen_horned_rat_is_controller = {
-		icon = mission_impaled_soldies
+		icon = mission_skaven_religion
 		required_missions = { gen_horned_rat_three_cardinals
 		}
 		trigger = {
@@ -295,7 +295,7 @@ gen_horned_rat_missions = {
 
 ### Have a majority vote on the council of 13
 	gen_horned_rat_seven_cardinals = {
-		icon = mission_impaled_soldies
+		icon = mission_skaven_religion
 		required_missions = { gen_horned_rat_is_controller
 		}
 		trigger = {
@@ -312,7 +312,7 @@ gen_horned_rat_missions = {
 
 
 	gen_skaven_raid_30 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_skaven_religion
 		required_missions = { }
 		provinces_to_highlight = {
 			development = 30
@@ -467,7 +467,7 @@ gen_horned_rat_missions = {
 		}
 	}
 	gen_skaven_raid_40 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_skaven_religion
 		required_missions = { gen_skaven_raid_30 }
 		provinces_to_highlight = {
 			development = 40
@@ -622,7 +622,7 @@ gen_horned_rat_missions = {
 		}
 	}
 	gen_skaven_raid_50 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_skaven_religion
 		required_missions = { gen_skaven_raid_40 }
 		provinces_to_highlight = {
 			development = 50

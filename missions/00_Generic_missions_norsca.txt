@@ -6,13 +6,13 @@
 gen_norsca_missions = {
 	slot = 1
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = norse_group
 	}
 	gen_norsca_please_nobility = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_culture
 		required_missions = { }
 		trigger = {
 			estate_loyalty = {
@@ -35,7 +35,7 @@ gen_norsca_missions = {
 	}
 
 	gen_norsca_bring_the_loot = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_culture
 		required_missions = { gen_norsca_impress_nobility }
 		trigger = {
 			num_of_war_reparations = 3
@@ -49,7 +49,7 @@ gen_norsca_missions = {
 	}
 
 	gen_norsca_grow = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_culture
 		required_missions = { }
 		trigger = {
 			num_of_provinces_owned_or_owned_by_subjects_with = {
@@ -75,7 +75,7 @@ gen_norsca_missions = {
 
 
 	gen_norsca_expand_outward = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_culture
 		required_missions = { gen_norsca_grow }
 		trigger = {
 			num_of_provinces_owned_or_owned_by_subjects_with = {
@@ -112,7 +112,7 @@ gen_norsca_missions = {
 	}
 
 	gen_norsca_across_the_sea = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_culture
 		required_missions = { gen_norsca_expand_outward }
 		trigger = {
 			num_of_provinces_owned_or_owned_by_subjects_with = {
@@ -136,7 +136,7 @@ gen_norsca_missions = {
 
 
 	gen_norsca_fleet_1 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_culture
 		required_missions = {  }
 		trigger = {
 			navy_size = 25
@@ -151,7 +151,7 @@ gen_norsca_missions = {
 	}
 
 	gen_norsca_fleet_2 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_culture
 		required_missions = { gen_norsca_fleet_1 }
 		trigger = {
 			num_of_captured_ships_with_boarding_doctrine = 20
@@ -171,13 +171,13 @@ gen_norsca_missions = {
 gen_norsca_ultimate_missions = {
 	slot = 3
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		culture_group = norse_group
 	}
 	gen_norsca_ultimate_mission = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_culture
 		required_missions = {
 		}
 		position = 9
@@ -211,13 +211,13 @@ gen_norsca_ultimate_missions = {
 gen_norsca_gods_missions = {
 	slot = 5
 	generic = yes
-	has_country_shield = yes
+	has_country_shield = no
 	ai = yes
 	potential = {
 		religion = norscan
 	}
 	gen_norsca_gods_happy_priest = {
-		icon = mission_impaled_soldies
+		icon = mission_norscan_religion
 		required_missions = {
 		}
 		trigger = {
@@ -240,7 +240,7 @@ gen_norsca_gods_missions = {
 
 
 	gen_norsca_privateering_1 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_religion
 		required_missions = {
 			gen_norsca_claim_horde
 		}
@@ -256,7 +256,7 @@ gen_norsca_gods_missions = {
 	}
 
 	gen_norsca_privateering_2 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_religion
 		required_missions = {
 			gen_norsca_privateering_1
 		}
@@ -272,7 +272,7 @@ gen_norsca_gods_missions = {
 	}
 
 	gen_norsca_raid_20 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_religion
 		required_missions = {
 		}
 		position = 5
@@ -429,7 +429,7 @@ gen_norsca_gods_missions = {
 		}
 	}
 	gen_norsca_raid_30 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_religion
 		required_missions = {
 			gen_norsca_raid_20
 		}
@@ -586,7 +586,7 @@ gen_norsca_gods_missions = {
 		}
 	}
 	gen_norsca_raid_40 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_religion
 		required_missions = {
 			gen_norsca_raid_30
 		}
@@ -743,7 +743,7 @@ gen_norsca_gods_missions = {
 		}
 	}
 	gen_norsca_raid_50 = {
-		icon = mission_egyptian_mamluk_soldier
+		icon = mission_norscan_religion
 		required_missions = {
 			gen_norsca_raid_40
 		}
