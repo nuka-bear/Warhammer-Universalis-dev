@@ -562,3 +562,6 @@ desc_nest_of_corruption:0 "A dark heart of Skaven infestation, the Nest of Corru
 
 
 
+province_is_or_accepts_horned_rat_tt:0 "Province is or accepts Horned Rat."
+province_is_or_accepts_lizardmen_denominations_tt:0 "Province is or accepts Lizardmen Denominations."
+

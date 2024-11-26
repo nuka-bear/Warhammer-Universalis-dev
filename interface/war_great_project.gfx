@@ -739,4 +739,10 @@ spriteType = {
 		texturefile = "gfx//interface//great_projects//great_project_nest_of_corruption.dds"
 	}
 
+ 
+	spriteType = {
+		name = "GFX_great_project_uzkulak_caravan_stop"	
+		texturefile = "gfx//interface//great_projects//great_project_uzkulak_caravan_stop.dds"
+	}
+
 }

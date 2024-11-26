@@ -8,6 +8,47 @@
 
 ### Need one to add crusade, warscore against non religion, colonist. Certain number of calvary for improved cavalry ration & power? Call them civilizing mission
 
+gen_indish_ultimate_missions = {
+	slot = 3
+	generic = yes
+	has_country_shield = no
+	ai = yes
+	potential = {
+		OR = {
+			culture_group = indish_cg
+			culture_group = snakefolk_cg
+			culture_group = nipponese_cg
+			culture_group = eastern_beastfolk_cg
+		}
+	}
+	
+	gen_indish_ultimate_mission = { 
+		icon = mission_ind_culture
+		required_missions = {  }
+		position = 9
+		trigger = {
+			is_great_power = yes
+			calc_true_if = {
+				all_country = {
+					religion = ROOT
+					is_great_power = yes
+				}
+				amount = 4
+			}
+		}
+
+		effect = { 
+			add_country_modifier = { 
+ 				name = indish_ultimate_reward
+				duration = -1
+			}
+		}
+	}
+}
+
+
+
+
 
 gen_ind_missions = {
 	slot = 1
@@ -144,42 +185,6 @@ gen_ind_missions = {
 	}
 }
 
-gen_indish_ultimate_missions = {
-	slot = 3
-	generic = yes
-	has_country_shield = no
-	ai = yes
-	potential = {
-		OR = {
-			culture_group = indish_cg
-			culture_group = snakefolk_cg
-			culture_group = nipponese_cg
-			culture_group = eastern_beastfolk_cg
-		}
-	}
-	gen_indish_ultimate_mission = { 
-		icon = mission_ind_culture
-		required_missions = {  }
-		position = 9
-		trigger = {
-			is_great_power = yes
-			calc_true_if = {
-				all_country = {
-					religion = ROOT
-					is_great_power = yes
-				}
-				amount = 4
-			}
-		}
-
-		effect = { 
-			add_country_modifier = { 
- 				name = indish_ultimate_reward
-				duration = -1
-			}
-		}
-	}
-}
 
 
 

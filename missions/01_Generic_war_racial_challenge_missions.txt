@@ -282,7 +282,7 @@ race_relations_3_missions = {
 	}
 	### Fimir ###
 	challenge_fimir = {
-		icon = mission_norscan_religion
+		icon = mission_norscan_culture
 		required_missions = {
 		}
 		trigger = {
@@ -831,7 +831,7 @@ race_relations_3_missions_for_orcs = {
 	}
 	### Fimir ###
 	challenge_fimir_for_orcs = {
-		icon = mission_norscan_religion
+		icon = mission_norscan_culture
 		required_missions = {
 		}
 		trigger = {

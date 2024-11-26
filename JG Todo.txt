@@ -23,8 +23,8 @@ Everybody!
 
 GFX
 	Stuff surrounding Chaos Centers of Reformation
-	Make each mission tree a single icon of the culture or religion
-		59 by 63, 72
+	Remaining Flags - compare to list of countries to see what's missing
+	Advisors
 	Religious Advisor Icons
 		Do while watching something?
 
@@ -33,13 +33,9 @@ GFX
 ###### RANDOM TO DOS ######
 #############################
 
-	Make more of Vampire Cathay actually vampiric religion
-
 	Uzkulak Caravan Stop missing image
 
 	New World Bookmark Mission Image
-
-	Racial Challenge icons should come from the other missions?
 
 	Thousand gods countries missing middle mission tree
 
@@ -61,23 +57,21 @@ GFX
 
 	Pop-ups for when somebody steals your artifact
 
-	Reset Different Alignments on Convertion changes
-
 	Panama Canal
 
 	Fix Monstrous Unit Cost? 
 
 	Pop up when you can vassalize dominions (Doesn't work)
 
-	Use on-actions to Tie administration & mil to primary culture
-
-	Change Claim rewards mission tree to be just in culture group?
+	Change Claim rewards mission tree to be just in culture group? (what is this?)
 
 #############################
 ######## FUTURE STUFF #######
 #############################
 
 	Should all Old World Human cultures be in the same culture group?
+
+	Use on-actions to Tie administration & mil to primary culture
 
 	Intolerant, with decision to get rid of it
 

@@ -167,18 +167,39 @@ gen_war_vampire_religion = {
 		icon = mission_vampire_religion
 		required_missions = {  }
 		provinces_to_highlight = {
-			owner = {
-				NOT = { religion = ROOT }
-				is_part_of_hre = yes
+
+			OR = {
+				owner = {
+					NOT = { religion = ROOT }
+					is_part_of_hre = yes
+				}
+
+				AND = {
+					superregion = cathay_superregion
+					owner = { NOT = { religion = ROOT } }
+				}
 			}
 		}
 		trigger = {
-			NOT = {
-				any_country = {
-					is_part_of_hre = yes
-					NOT = { religion = ROOT }
+
+
+			OR = {
+
+				NOT = {
+					any_country = {
+						is_part_of_hre = yes
+						NOT = { religion = ROOT }
+					}
 				}
-			}	
+
+				NOT = {
+					any_province = {
+						superregion = cathay_superregion
+						owner = { NOT = { religion = ROOT } }
+					}
+				}
+
+			}
 		}
 
 		effect = {
