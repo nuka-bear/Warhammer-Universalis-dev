@@ -33,7 +33,11 @@ GFX
 ###### RANDOM TO DOS ######
 #############################
 
-	Uzkulak Caravan Stop missing image
+	Two more Lizardfolk Cultures?
+
+	Put the Isle of the Dead in a State!
+
+	Old World Pantheons and Enlightened Path are missing GFX
 
 	The start of the endtimes is causing a crash?
 		Make the event a country event

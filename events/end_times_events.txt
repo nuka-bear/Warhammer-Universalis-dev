@@ -35,7 +35,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		years = 1000
+		years = 10000
 
 ### Increases the chance if it's a player
 		modifier = {
