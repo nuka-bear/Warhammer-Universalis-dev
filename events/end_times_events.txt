@@ -20,10 +20,10 @@ province_event = {
 
 #### Take out ages when testing
 
-		OR = {
-			current_age = age_of_revolutions
-			current_age = age_of_absolutism
-		}
+#		OR = {
+#			current_age = age_of_revolutions
+#			current_age = age_of_absolutism
+#		}
 
 		religion_group = ruinous_powers_denominations
 
@@ -35,7 +35,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		years = 10000
+		years = 1000
 
 ### Increases the chance if it's a player
 		modifier = {
@@ -265,6 +265,7 @@ province_event = {
 	fire_only_once = yes
 
 	immediate = {
+
 		hidden_effect = {
 			set_global_flag = end_times_started
 
@@ -292,19 +293,76 @@ province_event = {
 
 			add_reform_center = chaos_undivided_religion
 
+			owner = { add_manpower = 100 }
+			owner = { add_treasury = 1000 }
 
-			create_unit_forcelimit_percentage = {
-			    type = infantry
-			    force_limit_percentage = 0.25
-			}
-			create_unit_forcelimit_percentage = {
-			    type = artillery
-			    force_limit_percentage = 0.25
-			}
-			create_unit_forcelimit_percentage = {
-			    type = cavalry
-			    force_limit_percentage = 0.05
-			}
+### Let's get a 50 infantry army
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
 
 		}
 
