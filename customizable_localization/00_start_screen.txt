@@ -570,6 +570,7 @@ defined_text = {
 		}
 	}
 
+# need to add
 # tech_hobgoblin
 # tech_eastern_undead
 # tech_eastern_greenskin

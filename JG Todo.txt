@@ -11,7 +11,6 @@ Everybody!
 	1x Disaster
 	5x random pulse events
 	5x decisions
-	Adjust opening text for cultures and religions, with callouts for most important things - Gov mechanics, regions, religion, objectives
 	Special Religious mechanic
 	Switch up multiple different gov types and religions for each area.
 	Add Domain and raiding event for explanation
@@ -19,54 +18,50 @@ Everybody!
 
 GFX
 	Stuff surrounding Chaos Centers of Reformation
-	Remaining Flags - compare to list of countries to see what's missing
 	Advisors
 	Religious Advisor Icons
 		Do while watching something?
+	Event Pictures: https://eu4.paradoxwikis.com/List_of_event_pictures
 
 #############################
 ###### RANDOM TO DOS ######
 #############################
 
-	Two more Lizardfolk Cultures?
 
-	Put the Isle of the Dead in a State!
+	Adjust Age Bonuses and Localization for Age bonuses
+
+	Starting event explaining raiding, dominions, and terrain
 
 	Old World Pantheons and Enlightened Path are missing GFX
 
-	New World Bookmark Mission Image
+	New World Bookmark Mission Image -  Not working!
 
 	Thousand gods countries missing middle mission tree
 
-	Is the Bhagaran Culture in the wrong place?
-
 	Make some way of finding the everchosen
-
-	Worry about military balance
 
 	Raiding happens when people reclaim their own lands
 		Might be fixed, check if this works. - Nope!
 
-	Add the warhammer legendary lords into the map, with legendary traits
-
 	Make various diplomatic actions cause a pop-up for the receiver. And offers?
 		Offer to become dominion action?
+		Pop up when you can vassalize dominions (Doesn't work)
 
-	Pop-ups for when somebody steals your artifact
+	Fix Monstrous Unit Cost?
 
-	Panama Canal
-
-	Fix Monstrous Unit Cost? 
-
-	Pop up when you can vassalize dominions (Doesn't work)
-
-	Change generic mission tree that gives claim rewards to be just provinces in culture group
+	Make a few chaos monuments give monthly chaos favor
 
 #############################
 ######## FUTURE STUFF #######
 #############################
 
+	Worry about military balance
+
+	Panama Canal
+
 	Should all Old World Human cultures be in the same culture group?
+
+	Add the warhammer legendary lords into the map, with legendary traits
 
 	Make end times start a country event, not a province event
 
@@ -113,6 +108,9 @@ Legitimate Successor government mechanic for Nehekhara & Cathay?
 	Generic Beacon on a Hill mission with tech difference not working
 
 	Give the hobgoblins fightiness?
+
+	Change generic mission tree that gives claim rewards to be just provinces in culture group
+
 
 	Should it be possible to change or have multiple racial administrations & militaries?
 	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)

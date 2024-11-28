@@ -1147,6 +1147,9 @@ tamarha_area = {
 yvraine_area = {
 	1948 1969 1970 
 }
+isle_of_the_dead_area = {
+	1967
+}
 #
 taeland_area = {
 	1952 1971 1930 

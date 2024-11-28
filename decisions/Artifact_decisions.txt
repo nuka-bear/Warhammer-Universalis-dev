@@ -21,6 +21,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_phoenix_crown
@@ -31,6 +32,16 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_phoenix_crown }
 				remove_province_modifier = location_of_the_phoenix_crown
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -59,6 +70,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_ghal_maraz
@@ -69,6 +81,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_ghal_maraz }
 				remove_province_modifier = location_of_the_ghal_maraz
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -97,6 +114,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_book_of_grudges
@@ -107,6 +125,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_book_of_grudges }
 				remove_province_modifier = location_of_the_book_of_grudges
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -136,6 +159,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_widowmaker
@@ -146,6 +170,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_widowmaker }
 				remove_province_modifier = location_of_the_widowmaker
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -173,6 +202,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_carstein_ring
@@ -183,6 +213,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_carstein_ring }
 				remove_province_modifier = location_of_the_carstein_ring
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -212,6 +247,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_staff_of_nagash
@@ -222,6 +258,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_staff_of_nagash }
 				remove_province_modifier = location_of_the_staff_of_nagash
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -250,6 +291,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_fellblade
@@ -260,6 +302,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_fellblade }
 				remove_province_modifier = location_of_the_fellblade
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -288,6 +335,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_bow_of_loren
@@ -298,6 +346,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_bow_of_loren }
 				remove_province_modifier = location_of_the_bow_of_loren
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -326,6 +379,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_celestial_compass
@@ -336,6 +390,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_celestial_compass }
 				remove_province_modifier = location_of_the_celestial_compass
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -364,6 +423,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_great_maw_cauldron
@@ -374,6 +434,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_great_maw_cauldron }
 				remove_province_modifier = location_of_the_great_maw_cauldron
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -402,6 +467,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_hashuts_black_hammer
@@ -412,6 +478,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_hashuts_black_hammer }
 				remove_province_modifier = location_of_the_hashuts_black_hammer
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -439,6 +510,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_crown_of_the_troll_king
@@ -449,6 +521,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_crown_of_the_troll_king }
 				remove_province_modifier = location_of_the_crown_of_the_troll_king
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 
@@ -477,6 +554,7 @@ country_decisions = {
 		 }
 
 		allow = {
+			capital_scope = { controlled_by = ROOT }
 			any_province = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_jade_blooded_vial
@@ -487,6 +565,11 @@ country_decisions = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_jade_blooded_vial }
 				remove_province_modifier = location_of_the_jade_blooded_vial
+				owner = {
+					country_event = { 
+    					id = artifact_events.0
+    				}
+    			}
 			}
 			capital_scope = {
 				add_permanent_province_modifier = { 

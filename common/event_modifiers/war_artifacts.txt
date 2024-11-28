@@ -7,6 +7,8 @@ location_of_the_phoenix_crown = {
 
 location_of_the_ghal_maraz = {
 	leader_land_shock = 1
+	imperial_authority_value = 0.01
+	reasons_to_elect = 5
 	prestige = 0.1
 }
 

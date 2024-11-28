@@ -1,6 +1,13 @@
 ﻿l_english:
 
 
+## Artifacts Stolen 
+
+  artifact_events.0.t:0 "Our artifact was stolen!"
+  artifact_events.0.d:0 "Disaster has struck! With the fall of our capital, our revered has been stolen from our vaults. With its absence, our people are restless, and the power of the artifact no longer strengthens our realm."
+  artifact_events.0.a:0 "They shall regret this!"
+
+
 #### Locations
 
   location_of_the_phoenix_crown:0 "The Phoenix Crown"
