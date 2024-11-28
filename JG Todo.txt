@@ -14,12 +14,8 @@ Everybody!
 	Adjust opening text for cultures and religions, with callouts for most important things - Gov mechanics, regions, religion, objectives
 	Special Religious mechanic
 	Switch up multiple different gov types and religions for each area.
-	Add Starting events for all the major countries explaining basic goals/mechanics (In the on-startup events tied to an event)
-		Done
-			Cathay
-			Jade Vampires
-			Reikland
-			Sylvania
+	Add Domain and raiding event for explanation
+
 
 GFX
 	Stuff surrounding Chaos Centers of Reformation
@@ -27,7 +23,6 @@ GFX
 	Advisors
 	Religious Advisor Icons
 		Do while watching something?
-
 
 #############################
 ###### RANDOM TO DOS ######
@@ -44,8 +39,6 @@ GFX
 	Thousand gods countries missing middle mission tree
 
 	Is the Bhagaran Culture in the wrong place?
-
-	Is endtimes mechanic starting at 100?
 
 	Make some way of finding the everchosen
 
@@ -95,6 +88,17 @@ GFX
 
 	Ruinous power getting great vortex should trigger an event that makes a center of reformation on the location.
 
+	Finish Starting localization
+		# tech_hobgoblin
+		# tech_eastern_undead
+		# tech_eastern_greenskin
+		# tech_khureshi
+		# tech_di_lizardmen
+		# tech_amazon
+		# tech_halfling
+		# tech_dark_elven
+		# tech_indish
+				
 
 #############################
 ######### NAH STUFF #########

@@ -113,12 +113,80 @@ defined_text = {
 	text = {
 		localisation_key = string_start_title_dwarf
 		trigger = {
-			and = {
-				technology_group = tech_dwarf
-			}
-
+			technology_group = tech_dwarf
 		}
 	}
+
+	text = {
+		localisation_key = string_start_title_imperial
+		trigger = {
+				technology_group = tech_imperial
+		}
+	}
+
+	text = {
+		localisation_key = string_start_title_albionise
+		trigger = {
+				technology_group = tech_albionise
+		}
+	}
+
+	text = {
+		localisation_key = string_start_title_vampire_count
+		trigger = {
+				technology_group = tech_vampire_count
+		}
+	}
+
+	text = {
+		localisation_key = string_start_title_norscan
+		trigger = {
+				technology_group = tech_norscan
+		}
+	}
+
+	text = {
+		localisation_key = string_start_title_chaos_warrior
+		trigger = {
+				technology_group = tech_chaos_warrior
+		}
+	}
+
+	text = {
+		localisation_key = string_start_title_fimir
+		trigger = {
+				technology_group = tech_fimir
+		}
+	}
+
+	text = {
+		localisation_key = string_start_title_wood_elf
+		trigger = {
+				technology_group = tech_wood_elf
+		}
+	}
+
+	text = {
+		localisation_key = string_start_title_high_elf
+		trigger = {
+				technology_group = tech_high_elven
+		}
+	}
+
+	text = {
+		localisation_key = string_start_vampire_coast
+		trigger = {
+				technology_group = tech_vampire_coast
+		}
+	}
+
+	text = {
+		localisation_key = string_start_title_lizardmen
+		trigger = {
+				technology_group = tech_lizardmen
+		}
+	}
+
 
 ##################
 ###### GENERIC
@@ -363,6 +431,7 @@ defined_text = {
 			current_age = age_of_revolutions
 		}
 	}
+
 	#Country Specific:
 	#Naggaroth
 	#Countries
@@ -373,13 +442,7 @@ defined_text = {
 			tag = H12
 		}
 	}
-	#Africa
-	#India
-	#East Asia:	
-	#Japan
-	#Europe:	
-	#Middle & Near East	
-	#Regions
+
 	text = {
 		localisation_key = string_start_nehekhara
 		trigger = {
@@ -435,7 +498,92 @@ defined_text = {
 		trigger = {
 				technology_group = tech_dwarf
 		}
-	}	
+	}
+
+	text = {
+		localisation_key = string_start_imperial
+		trigger = {
+				technology_group = tech_imperial
+		}
+	}
+
+	text = {
+		localisation_key = string_start_albionise
+		trigger = {
+				technology_group = tech_albionise
+		}
+	}
+
+	text = {
+		localisation_key = string_start_vampire_count
+		trigger = {
+				technology_group = tech_vampire_count
+		}
+	}
+
+	text = {
+		localisation_key = string_start_norscan
+		trigger = {
+				technology_group = tech_norscan
+		}
+	}
+
+	text = {
+		localisation_key = string_start_chaos_warrior
+		trigger = {
+				technology_group = tech_chaos_warrior
+		}
+	}
+
+	text = {
+		localisation_key = string_start_fimir
+		trigger = {
+				technology_group = tech_fimir
+		}
+	}
+
+	text = {
+		localisation_key = string_start_wood_elf
+		trigger = {
+				technology_group = tech_wood_elf
+		}
+	}
+
+	text = {
+		localisation_key = string_start_high_elf
+		trigger = {
+				technology_group = tech_high_elven
+		}
+	}
+
+	text = {
+		localisation_key = string_start_vampire_coast
+		trigger = {
+				technology_group = tech_vampire_coast
+		}
+	}
+
+	text = {
+		localisation_key = string_start_lizardmen
+		trigger = {
+				technology_group = tech_lizardmen
+		}
+	}
+
+# tech_hobgoblin
+# tech_eastern_undead
+# tech_eastern_greenskin
+# tech_khureshi
+# tech_di_lizardmen
+# tech_amazon
+# tech_halfling
+# tech_dark_elven
+# tech_indish
+
+
+
+
+
 	#Super Regions
 	#Continents
 	text = {
