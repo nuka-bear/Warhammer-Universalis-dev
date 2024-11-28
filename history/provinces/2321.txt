@@ -7,6 +7,6 @@ is_city = yes
 owner = V04
 controller = V04
 center_of_trade = 1
-culture = lustrian_lizardmen
+culture = hexoatl_lizardmen
 add_core = V04
 fort_15th = yes

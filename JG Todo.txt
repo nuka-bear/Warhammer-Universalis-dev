@@ -39,9 +39,6 @@ GFX
 
 	Old World Pantheons and Enlightened Path are missing GFX
 
-	The start of the endtimes is causing a crash?
-		Make the event a country event
-
 	New World Bookmark Mission Image
 
 	Thousand gods countries missing middle mission tree
@@ -70,13 +67,15 @@ GFX
 
 	Pop up when you can vassalize dominions (Doesn't work)
 
-	Change Claim rewards mission tree to be just in culture group? (what is this?)
+	Change generic mission tree that gives claim rewards to be just provinces in culture group
 
 #############################
 ######## FUTURE STUFF #######
 #############################
 
 	Should all Old World Human cultures be in the same culture group?
+
+	Make end times start a country event, not a province event
 
 	Use on-actions to Tie administration & mil to primary culture
 

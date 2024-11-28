@@ -3293,6 +3293,10 @@ lizardmen_group = {
 	}
 	lustrian_lizardmen = {
 	}
+	hexoatl_lizardmen = {
+	}
+	amazon_lizardmen = {
+	}
 	dragon_isles_lizardmen = {
 		country = { has_samurai = yes }
 		province = { local_has_samurai = yes }

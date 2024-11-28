@@ -20,10 +20,10 @@ province_event = {
 
 #### Take out ages when testing
 
-#		OR = {
-#			current_age = age_of_revolutions
-#			current_age = age_of_absolutism
-#		}
+		OR = {
+			current_age = age_of_revolutions
+			current_age = age_of_absolutism
+		}
 
 		religion_group = ruinous_powers_denominations
 
