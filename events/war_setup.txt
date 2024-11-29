@@ -70,6 +70,9 @@ country_event = {
 	}
 }
 
+
+### Racial Administration and Military
+
 country_event = {
 	id = warhammer_setup.2
 	title = warhammer_setup.2.t
@@ -87,25 +90,11 @@ country_event = {
 		every_country = {
 			limit = {
 				or = {
-					technology_group = tech_vampire_count
-					technology_group = tech_eastern_undead
-					technology_group = tech_vampire_coast
-				}
-			}
-			add_country_modifier = {
-				name = undead_administration
-				duration = -1
-			}
-			add_country_modifier = {
-				name = undead_military
-				duration = -1
-			}
-		}
-		#tomb kings
-		every_country = {
-			limit = {
-				or = {
-					technology_group = tech_tomb_kings
+					culture_group = strigany_group
+					culture_group = nehekharan_group
+					culture_group = nagashi_group
+					religion = vampiric
+					religion = nagash_worship
 				}
 			}
 			add_country_modifier = {
@@ -120,15 +109,27 @@ country_event = {
 		#humans
 		every_country = {
 			limit = {
-				or = {
-					technology_group = tech_imperial
-					technology_group = tech_albionise
-					technology_group = tech_norscan
-					technology_group = tech_arabyn
-					technology_group = tech_chaos_warrior
-					technology_group = tech_cathayan
-					technology_group = tech_amazon
-					technology_group = tech_indish
+				AND = {
+					or = {
+						culture_group = imperial_group
+						culture_group = estalian_group
+						culture_group = halfling_group
+						culture_group = bretonnian_group
+						culture_group = kislevite_group
+						culture_group = ungol_group
+						culture_group = tilean_group
+						culture_group = norse_group
+						culture_group = albionise_group
+						culture_group = arabyan_group
+						culture_group = hung_group
+						culture_group = kurgan_group
+						culture_group = darkland_human_group
+						culture_group = amazon_group
+						culture_group = cathayan_cg
+						culture_group = indish_cg
+						culture_group = nipponese_cg
+					}
+					NOT = { religion = vampiric }
 				}
 			}
 			add_country_modifier = {
@@ -144,9 +145,8 @@ country_event = {
 		every_country = {
 			limit = {
 				or = {
-					technology_group = tech_orcish
-					technology_group = tech_hobgoblin
-					technology_group = tech_eastern_greenskin
+					culture_group = greenskins_group
+					culture_group = hobgoblin_group
 				}
 			}
 			add_country_modifier = {
@@ -162,9 +162,9 @@ country_event = {
 		every_country = {
 			limit = {
 				or = {
-					technology_group = tech_wood_elf
-					technology_group = tech_high_elven
-					technology_group = tech_dark_elven
+					culture_group = asrai_group
+					culture_group = asur_group
+					culture_group = druchii_group
 				}
 			}
 			add_country_modifier = {
@@ -180,8 +180,8 @@ country_event = {
 		every_country = {
 			limit = {
 				or = {
-					technology_group = tech_dwarf
-					technology_group = tech_chaos_dwarfen
+					culture_group = dwarf_group
+					culture_group = chaos_dwarf_group
 				}
 			}
 			add_country_modifier = {
@@ -196,7 +196,7 @@ country_event = {
 		#fimir
 		every_country = {
 			limit = {
-				technology_group = tech_fimir
+				culture_group = fimir_group
 			}
 			add_country_modifier = {
 				name = fimir_administration
@@ -210,7 +210,7 @@ country_event = {
 		#ogre
 		every_country = {
 			limit = {
-				technology_group = tech_ogre
+				culture_group = ogre_group
 			}
 			add_country_modifier = {
 				name = ogre_administration
@@ -224,7 +224,7 @@ country_event = {
 		#skaven
 		every_country = {
 			limit = {
-				technology_group = tech_skaven
+				culture_group = skaven_group
 			}
 			add_country_modifier = {
 				name = skaven_administration
@@ -238,7 +238,7 @@ country_event = {
 		#Lizardmen
 		every_country = {
 			limit = {
-				technology_group = tech_lizardmen
+				culture_group = lizardmen_group
 			}
 			add_country_modifier = {
 				name = lizardmen_administration
@@ -246,6 +246,25 @@ country_event = {
 			}
 			add_country_modifier = {
 				name = lizardmen_military
+				duration = -1
+			}
+
+		}
+		#Beastfolk
+		every_country = {
+			limit = {
+				OR = {
+					culture_group = beastmen_group
+					culture_group = snakefolk_cg
+					culture_group = eastern_beastfolk_cg
+				}
+			}
+			add_country_modifier = {
+				name = eastern_beastfolk_administration
+				duration = -1
+			}
+			add_country_modifier = {
+				name = eastern_beastfolk_military
 				duration = -1
 			}
 

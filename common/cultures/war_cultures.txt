@@ -974,7 +974,6 @@ bretonnian_group	= {
 	}
 }
 
-#Figure this out later
 
 greenskins_group	= {
 	graphical_culture = westerngfx

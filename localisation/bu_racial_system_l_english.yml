@@ -52,3 +52,9 @@
 
  lizardmen_military:0 "Lizardmen Military"
  desc_lizardmen_military:0 "Lizardmen armies are disciplined and resilient, adept at minimizing morale loss and retaining their combat effectiveness. However, they avoid mercenaries and struggle with reinforcing their troops quickly, relying on disciplined Saurus and Skink warriors to hold the line."
+
+ eastern_beastfolk_administration:0 "Beastfolk Administration"
+ desc_eastern_beastfolk_administration:0 "The Beastfolk excel at leveraging the strength of their diverse tribes and vassals, fostering efficient administration despite their chaotic nature. Their leadership is marked by an uncanny ability to adapt and accept various cultural practices, making them flexible in governance. However, their primitive methods hinder technological progress and institutional adoption, while corruption and disinterest in naval trade further diminish their economic potential."
+
+ eastern_beastfolk_military:0 "Beastfolk Military"
+ desc_eastern_beastfolk_military:0 "The martial traditions of the Beastfolk emphasize ferocity and mobility, with devastating shock tactics and a preference for overwhelming strength in battle. Their troops inspire great prestige through victory, and frequent skirmishes keep their warriors seasoned and their traditions alive. However, their disdain for disciplined formations and naval combat leaves them vulnerable in sustained engagements and at sea, while their nomadic tendencies limit logistical capacity."

@@ -13,8 +13,6 @@ Everybody!
 	5x decisions
 	Special Religious mechanic
 	Switch up multiple different gov types and religions for each area.
-	Add Domain and raiding event for explanation
-
 
 GFX
 	Stuff surrounding Chaos Centers of Reformation
@@ -28,33 +26,22 @@ GFX
 ###### RANDOM TO DOS ######
 #############################
 
-
 	Prov 593 in wrong place
 
-	Why do some pop-ups have the _desc at the end of the description? - Fixed?
-		Like racial_raiding_war_goal_desc
-		Fix the "No war Names"
-
-	The Eastern Beastfolk don't actually have the modifier?
-		eastern_beastfolk_military & administration has no localization
+	Balance Mission Rewards
 
 	Make racial rewards a little less?
 
-	Fix HRE gfx and voting - Can Sylvania never become it because they aren't in the same religious group?
+	Fix HRE gfx (hre.gui)
 
 	Make Everchosen A Theocracy to make it stickier
 
 	Adjust all starting text to be more explanatory
 
-	Adjust Age Bonuses and Localization for Age bonuses
-
-	Starting event explaining raiding, dominions, and terrain
-
 	Old World Pantheons and Enlightened Path are missing GFX
+		Should Old World Pantheons be something different from the Kisleve old world religions, or druidism?
 
 	New World Bookmark Mission Image -  Not working!
-
-	Thousand gods countries missing middle mission tree - whyyy
 
 	Make some way of finding the everchosen
 
@@ -67,24 +54,25 @@ GFX
 
 	Fix Monstrous Unit Cost?
 
-
 #############################
 ###### Confirm ######
 #############################
 
-	Make Wood Elf Missions a little harder?
-		And make the bleed them no armies or no manpower?
-
 	Goblin 8 Peaks Adj
-
 
 #############################
 ######## FUTURE STUFF #######
 #############################
 
+	Can Sylvania never become it because they aren't in the same religious group?
+		Put Vampiric in Old World Religion Group? Is there a better way?
+		Or if a majority of electors become vampiric, then the religion of the empire switches?
+
 	Worry about military balance
 
 	Panama Canal
+
+	Adjust Age Bonuses and Localization for Age bonuses
 
 	Should all Old World Human cultures be in the same culture group?
 

@@ -1,10 +1,11 @@
-owner = Z23
 base_tax = 2
 base_manpower = 1
 base_production = 1
-culture = reiklander
 trade_goods = coffee
-religion = cult_of_sigmar
-controller = Z23
+religion = nehekharan_pantheon
 is_city = yes
-add_core = Z23
+
+owner = Z44
+controller = Z44
+culture = nehekharan_bhagar_culture
+add_core = Z44

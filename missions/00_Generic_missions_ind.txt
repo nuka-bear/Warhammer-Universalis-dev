@@ -24,16 +24,53 @@ gen_indish_ultimate_missions = {
 	
 	gen_indish_ultimate_mission = { 
 		icon = mission_ind_culture
-		required_missions = {  }
+		provinces_to_highlight = {
+			owner = {
+				NOT = { great_power_rank = 9 }
+				NOT = {
+					OR = {
+						AND = {
+							alliance_with = ROOT
+							trust = { who = ROOT value = 90 }
+						}
+						AND = {
+							is_subject_of = ROOT
+							trust = { who = ROOT value = 90 }
+						}
+						ROOT = {
+							has_won_war_against = {
+								who = PREV
+								max_years_since = 50
+							}
+						}
+						tag = ROOT
+					}
+				}
+			}
+		}
+		required_missions = {
+		}
 		position = 9
 		trigger = {
-			is_great_power = yes
-			calc_true_if = {
-				all_country = {
-					religion = ROOT
-					is_great_power = yes
+			all_country = {
+				NOT = { great_power_rank = 9 }
+				OR = {
+					AND = {
+						alliance_with = ROOT
+						trust = { who = ROOT value = 90 }
+					}
+					AND = {
+						is_subject_of = ROOT
+						trust = { who = ROOT value = 90 }
+					}
+					ROOT = {
+						has_won_war_against = {
+							who = PREV
+							max_years_since = 50
+						}
+					}
+					tag = ROOT
 				}
-				amount = 4
 			}
 		}
 

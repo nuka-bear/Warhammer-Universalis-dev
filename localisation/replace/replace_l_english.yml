@@ -1038,5 +1038,9 @@ desc_icon_nicholas:1 "Grigori the Wanderer, a revered holy man, is depicted trav
 icon_climacus:0 "Icon of Yevgeny the Huntsman"
 desc_icon_climacus:1 "Yevgeny the Huntsman, a mythical hero of Kislevite legend, is shown leading a pack of sacred bears in pursuit of Chaos beasts. This icon symbolizes relentless determination, vigilance, and the eternal fight for Kislev’s survival."
 
+#### Age Stuff
 
+ obj_discover_america:0 "Discover the New World"
+ obj_discover_america_desc:0 "As a nation with a capital in the Old World discover at least one province in the New World."
+ obj_discover_america_tooltip:0 "Discover the New World"
 

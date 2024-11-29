@@ -40,7 +40,6 @@ age_of_discovery = {
 				}
 			}
 			total_development = 100
-
 		}
 		
 		
@@ -78,13 +77,6 @@ age_of_discovery = {
 	 		all_state_province = {
 	 			renaissance = 100
 	 		}
-		}
-		
-		obj_two_unions = {
-			allow = {
-				religion_group = christian
-			}
-			personal_union  = 2
 		}
 		
 		obj_many_vassals = {
@@ -236,8 +228,6 @@ age_of_reformation = {
 					value = yes
 				}
 			}
-		
-		
 		}
 		
 		obj_unify_culture = {	
