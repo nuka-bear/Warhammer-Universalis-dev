@@ -57,21 +57,6 @@ chaos_corruption_disaster = {
 
 		modifier = {
 			factor = 0.25
-			NOT = { legitimacy_equivalent = 75 }
-		}
-
-		modifier = {
-			factor = 0.25
-			NOT = { legitimacy_equivalent = 25 }
-		}
-
-		modifier = {
-			factor = 0.25
-			num_of_loans = 5
-		}
-
-		modifier = {
-			factor = 0.25
 			NOT = { religious_unity = 0.9 }
 		}
 

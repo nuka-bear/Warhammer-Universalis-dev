@@ -170,7 +170,7 @@ cb_war_end_end_times = {
 			FROM = {
 				any_owned_province = {
 					religion = chaos_undivided_religion
-					is_reformation_center = no
+					is_reformation_center = yes
 				}
 			}
 		}

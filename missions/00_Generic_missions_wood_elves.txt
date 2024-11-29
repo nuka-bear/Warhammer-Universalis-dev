@@ -96,7 +96,10 @@ gen_asrai_missions = {
 		position = 5
 		trigger = {
 			any_war_enemy_country = {
-				NOT = { manpower = 0.001 }
+				OR = {
+					NOT = { manpower = 0.001 }
+					NOT = {	army_size = 1 }
+				}
 			}
 		}
 
@@ -116,6 +119,7 @@ gen_asrai_missions = {
 			development = 4
 			NOT = { has_province_modifier = recently_raided }
 			NOT = { owned_by = ROOT }
+			NOT = { owned_by_subject_of = ROOT }
 		}
 
 		## This isn't working
@@ -126,6 +130,7 @@ gen_asrai_missions = {
 					NOT = { development = 4 }
 					has_province_modifier = recently_raided
 					owned_by = ROOT
+					owned_by_subject_of = ROOT
 					NOT = { is_neighbor_of = ROOT }
 				}
 			}
@@ -358,7 +363,7 @@ gen_asrai_cadai_missions = {
 		}
 		trigger = {
 			all_owned_province = {
-				development = 7
+				development = 9
 			}
 		}
 
@@ -376,11 +381,11 @@ gen_asrai_cadai_missions = {
 		required_missions = { gen_asrai_cadai_dev_7 }
 		provinces_to_highlight = {
 			owned_by = ROOT
-			NOT = { num_of_buildings_in_province = 1 }
+			NOT = { num_of_buildings_in_province = 2 }
 		}
 		trigger = {
 			all_owned_province = {
-				num_of_buildings_in_province = 1
+				num_of_buildings_in_province = 2
 			}
 		}
 
@@ -398,11 +403,11 @@ gen_asrai_cadai_missions = {
 		required_missions = { gen_asrai_cadai_has_building }
 		provinces_to_highlight = {
 			owned_by = ROOT
-			NOT = { development = 10 }
+			NOT = { development = 12 }
 		}
 		trigger = {
 			all_owned_province = {
-				development = 10
+				development = 12
 			}
 		}
 

@@ -23,9 +23,11 @@
 
   cb_war_racial_unification:0 "Unification"
   cb_war_racial_unification_desc:0 "Unify your race or religion by forcing another nation into a subject relationship."
+  force_dominion_wargoal_desc:0 "Take their capital."
 
   cb_war_racial_raiding:0 "Racial Raiding"
   cb_war_racial_raiding_desc:0 "We don't want their land, polluted as it is with their filthy kind. We only want their stuff!"
+  racial_raiding_war_goal_desc:0 "Defeat Them in Combat."
 
 
   FORCE_DOMINION_WAR_NAME:0 "Unification"

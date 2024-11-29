@@ -1749,6 +1749,8 @@ citadel_of_lead = {
 			prestige = 0.5
 			max_absolutism = 10
 			max_revolutionary_zeal = 10
+			monthly_everchosen_favor = 0.01
+
 		}
 
 		#what effects happen when this tier is achieved
@@ -5077,6 +5079,8 @@ the_inevitable_city = {
 		country_modifiers = {
 			idea_cost = -0.15
 			reform_progress_growth = 0.1
+			monthly_everchosen_favor = 0.01
+
 		}
 
 		#what effects happen when this tier is achieved

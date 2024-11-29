@@ -347,7 +347,7 @@ gen_orthodoxy_missions = {
 ### Ice Witches build places to study the lore of winter.
 	gen_orthodoxy_winter_magic_study = {
 		icon = mission_kislev_religion
-		required_missions = { gen_orthodoxy_crownland }
+		required_missions = { gen_orthodoxy_ice_palaces }
 		trigger = {
 			num_of_owned_provinces_with = {
 				has_building = university

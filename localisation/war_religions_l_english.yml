@@ -427,7 +427,7 @@
  #albion
  the_old_faith:0 "The Old Faiths"
  druidism:0 "Druidism"
- druidism_rebels_demand_desc:0 "REPLACE_ME"
+ druidism_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
  druidism_rebels_name:0 "$RELIGION$ Zealots"
  druidism_rebels_title:0 "Religious"
  druidism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."

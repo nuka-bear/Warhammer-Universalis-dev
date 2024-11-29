@@ -14,7 +14,7 @@
 ability_wood_elf_seasons_mechanic:0 "Magical Seasons"
 
  wood_elf_seasons_mechanic:0 "Seasons"
-  wood_elf_seasons_mechanic_desc:0 "To every season, a different purpose. Spring - Power cost is reduced, but so is Morale. Summer - Morale is increased, but so are Power costs. Fall - Defense is reduced, but buildings are cheaper. Winter - Defense is increased, but buildings are more expense."
+  wood_elf_seasons_mechanic_desc:0 "To every season, a different purpose.\nSpring - Power cost is reduced, but so is Morale.\nSummer - Morale is increased, but so are Power costs.\nFall - Defense is reduced, but buildings are cheaper.\nWinter - Defense is increased, but buildings are more expensive."
  season_time_power:0 "Seasons"
    season_time_power_desc:0 "To every season, a different purpose. Spring - Power cost is reduced, but so is Morale. Summer - Morale is increased, but so are Power costs. Fall - Defense is reduced, but buildings are cheaper. Winter - Defense is increased, but buildings are more expense."
  monthly_season_time_power:0 "Passage of Seasons"

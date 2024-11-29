@@ -18,6 +18,7 @@ Everybody!
 
 GFX
 	Stuff surrounding Chaos Centers of Reformation
+		This kind of works? But change it back and just fix the religion icons
 	Advisors
 	Religious Advisor Icons
 		Do while watching something?
@@ -28,6 +29,23 @@ GFX
 #############################
 
 
+	Prov 593 in wrong place
+
+	Why do some pop-ups have the _desc at the end of the description? - Fixed?
+		Like racial_raiding_war_goal_desc
+		Fix the "No war Names"
+
+	The Eastern Beastfolk don't actually have the modifier?
+		eastern_beastfolk_military & administration has no localization
+
+	Make racial rewards a little less?
+
+	Fix HRE gfx and voting - Can Sylvania never become it because they aren't in the same religious group?
+
+	Make Everchosen A Theocracy to make it stickier
+
+	Adjust all starting text to be more explanatory
+
 	Adjust Age Bonuses and Localization for Age bonuses
 
 	Starting event explaining raiding, dominions, and terrain
@@ -36,7 +54,7 @@ GFX
 
 	New World Bookmark Mission Image -  Not working!
 
-	Thousand gods countries missing middle mission tree
+	Thousand gods countries missing middle mission tree - whyyy
 
 	Make some way of finding the everchosen
 
@@ -49,7 +67,16 @@ GFX
 
 	Fix Monstrous Unit Cost?
 
-	Make a few chaos monuments give monthly chaos favor
+
+#############################
+###### Confirm ######
+#############################
+
+	Make Wood Elf Missions a little harder?
+		And make the bleed them no armies or no manpower?
+
+	Goblin 8 Peaks Adj
+
 
 #############################
 ######## FUTURE STUFF #######
@@ -82,6 +109,9 @@ GFX
 	Have a Vampiric mission create a center of reformation
 
 	Ruinous power getting great vortex should trigger an event that makes a center of reformation on the location.
+
+	Add some islands? Increase colonial range?
+
 
 	Finish Starting localization
 		# tech_hobgoblin

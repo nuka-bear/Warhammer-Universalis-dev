@@ -16,14 +16,14 @@ everchosen_mechanic = {
 					religious_unity = 0.5
 					administrative_efficiency = 1.0
 					all_power_cost = -0.50
-					global_tax_income = 240
+					global_tax_income = 300
 					global_missionary_strength = 0.10
 
 					## Army
 					global_manpower = 200
 					land_forcelimit = 200
 					manpower_recovery_speed = 1.0
-					land_maintenance_modifier = -0.75
+					land_maintenance_modifier = -0.90
 					discipline = 0.10
 					
 				}

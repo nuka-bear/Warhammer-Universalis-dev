@@ -4714,6 +4714,7 @@ tower_of_skulls = {
 			global_missionary_strength = 0.05
 			missionaries = 1
 			morale_damage = 0.025
+			monthly_everchosen_favor = 0.01
 		}
 		on_upgraded = {
 		}

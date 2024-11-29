@@ -96,6 +96,7 @@ desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
 
   cb_war_end_end_times:0 "End the End Times"
   cb_war_end_end_times_desc:0 "Attempt to take down the Everchosen and end the End Times."
+  end_end_times_wargoal_desc:0 "Take their capital"
 
   end_end_times_wargoal:0 "Take their capital"
 
