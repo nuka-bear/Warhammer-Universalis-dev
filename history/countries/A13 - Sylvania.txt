@@ -5,6 +5,8 @@ religion = vampiric
 technology_group = tech_vampire_count
 capital = 199
 setup_vision = yes
+elector = yes
+
 
 2502.1.1 = {
 	monarch = {

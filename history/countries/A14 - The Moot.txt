@@ -4,7 +4,6 @@ primary_culture = halfling
 religion = cult_of_sigmar
 technology_group = tech_imperial
 capital = 59
-elector = yes
 setup_vision = yes
 
 2502.1.1 = {

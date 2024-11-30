@@ -3,3 +3,16 @@ survived_the_end_times = {
 	land_morale = 0.05
 	religious_unity = 0.10
 }
+
+saved_the_world = {
+	prestige = 2.0
+	legitimacy = 2
+	republican_tradition = 1.0
+	devotion = 2
+	horde_unity = 2
+	meritocracy = 2
+	governing_capacity_modifier = 0.2
+	diplomatic_reputation = 3
+	land_morale = 0.05
+	religious_unity = 0.10
+}

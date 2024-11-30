@@ -95,7 +95,7 @@ desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
   #### Ending the End Times
 
   cb_war_end_end_times:0 "End the End Times"
-  cb_war_end_end_times_desc:0 "Attempt to take down the Everchosen and end the End Times."
+  cb_war_end_end_times_desc:0 "Attempt to take down the Everchosen and end the End Times. The nation who succeeds gains a large permanent bonus."
   end_end_times_wargoal_desc:0 "Take their capital"
 
   end_end_times_wargoal:0 "Take their capital"
@@ -104,7 +104,7 @@ desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
 
   PEACE_po_end_end_times:0 "End the End Times"
   CB_ALLOWED_po_end_end_times:0 "End the End Times"
-  po_end_end_times_desc:0 "You will put an end to the end times."
+  po_end_end_times_desc:0 "You will put an end to the end times, and gain a large permanent bonus."
 
   end_end_times_event_tt:0 "Put an end to it. End the end times."
 
@@ -117,6 +117,9 @@ desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
 
   survived_the_end_times:0 "Survived the End Times"
   survived_the_end_times_desc:0 "We survived the end times on the side of good."
+
+  saved_the_world:0 "Saved the World"
+  saved_the_world_desc:0 "We defeated the Everchosen and closed the Chaos Gate, saving the world from Chaos. The glory of our nation shall forever echo is the hearts of minds of the Good!"
 
 
 

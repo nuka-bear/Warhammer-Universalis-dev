@@ -27,25 +27,27 @@ old_world_denominations = {
 			global_unrest = -2
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -61,45 +63,47 @@ old_world_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
 			}
@@ -131,25 +135,27 @@ old_world_denominations = {
 			discipline = 0.025
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -164,48 +170,51 @@ old_world_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		allowed_conversion = {
 			myrmidia
 			ursun
@@ -240,25 +249,27 @@ old_world_denominations = {
 			infantry_power = 0.10
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -273,45 +284,47 @@ old_world_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
 			}
@@ -491,25 +504,27 @@ old_world_denominations = {
 			land_morale = 0.1
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -524,45 +539,46 @@ old_world_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
-
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
 			}
@@ -598,25 +614,27 @@ old_world_denominations = {
 			land_morale = 0.1
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -631,48 +649,51 @@ old_world_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}	
+			}
+		}	
 		hre_heretic_religion = yes
 		misguided_heretic = yes
 		allowed_conversion = {
@@ -705,25 +726,27 @@ old_world_denominations = {
 			manpower_recovery_speed = 0.15
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -738,48 +761,51 @@ old_world_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}	
+			}
+		}	
 		misguided_heretic = yes
 		allowed_conversion = {
 			myrmidia
@@ -810,25 +836,27 @@ old_world_denominations = {
 			global_unrest = -2
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -843,45 +871,47 @@ old_world_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
 			}
@@ -932,25 +962,58 @@ necromantic_denominations = {
 			global_unrest = -1
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+## You become undead
+			remove_country_modifier = human_administration
+			remove_country_modifier = human_military
+			remove_country_modifier = orcish_administration
+			remove_country_modifier = orcish_military
+			remove_country_modifier = dwarven_administration
+			remove_country_modifier = dwarven_military
+			remove_country_modifier = elven_administration
+			remove_country_modifier = elven_military
+			remove_country_modifier = lizardmen_administration
+			remove_country_modifier = lizardmen_military
+			remove_country_modifier = fimir_administration
+			remove_country_modifier = fimir_military
+			remove_country_modifier = ogre_administration
+			remove_country_modifier = ogre_military
+			remove_country_modifier = skaven_administration
+			remove_country_modifier = skaven_military
+			remove_country_modifier = eastern_beastfolk_administration
+			remove_country_modifier = eastern_beastfolk_military
+			add_country_modifier = { 
+			    name = undead_administration
+			    duration = -1
+		    }
+			add_country_modifier = { 
+			    name = undead_military
+			    duration = -1
+		    }
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+### The normal Stuff
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
+
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
+
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
+
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -965,45 +1028,47 @@ necromantic_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
 			}
@@ -1034,25 +1099,56 @@ necromantic_denominations = {
 			NAGASH_HERETICS
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+## You become undead
+			remove_country_modifier = human_administration
+			remove_country_modifier = human_military
+			remove_country_modifier = orcish_administration
+			remove_country_modifier = orcish_military
+			remove_country_modifier = dwarven_administration
+			remove_country_modifier = dwarven_military
+			remove_country_modifier = elven_administration
+			remove_country_modifier = elven_military
+			remove_country_modifier = lizardmen_administration
+			remove_country_modifier = lizardmen_military
+			remove_country_modifier = fimir_administration
+			remove_country_modifier = fimir_military
+			remove_country_modifier = ogre_administration
+			remove_country_modifier = ogre_military
+			remove_country_modifier = skaven_administration
+			remove_country_modifier = skaven_military
+			remove_country_modifier = eastern_beastfolk_administration
+			remove_country_modifier = eastern_beastfolk_military
+			add_country_modifier = { 
+			    name = undead_administration
+			    duration = -1
+		    }
+			add_country_modifier = { 
+			    name = undead_military
+			    duration = -1
+		    }
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
+
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
+
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -1067,48 +1163,51 @@ necromantic_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}	
+			}
+		}	
 
 	}
 	crusade_name = DARK_CRUSADE
@@ -1161,25 +1260,27 @@ ruinous_powers_denominations = {
 			chaos_undivided_religion
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -1194,45 +1295,47 @@ ruinous_powers_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
 			}			}
@@ -1264,25 +1367,27 @@ ruinous_powers_denominations = {
 			chaos_undivided_religion
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -1297,45 +1402,47 @@ ruinous_powers_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
 			}			}
@@ -1366,25 +1473,27 @@ ruinous_powers_denominations = {
 			chaos_undivided_religion
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -1398,45 +1507,47 @@ ruinous_powers_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
 			}			}
@@ -1468,25 +1579,27 @@ ruinous_powers_denominations = {
 			movement_speed = 0.1
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -1500,48 +1613,51 @@ ruinous_powers_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		allowed_conversion = {
 			nurglite_religion
 			khornate_religion
@@ -1570,25 +1686,27 @@ ruinous_powers_denominations = {
 			galley_power = 0.2
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -1603,48 +1721,51 @@ ruinous_powers_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		personal_deity = yes
 		allowed_conversion = {
 			chaos_undivided_religion
@@ -1682,25 +1803,27 @@ ruinous_powers_denominations = {
 			BELAKOR
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -1714,48 +1837,51 @@ ruinous_powers_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 
 		allowed_conversion = {
 			slaaneshi_religion
@@ -1823,25 +1949,27 @@ ruinous_powers_denominations = {
 			global_unrest = -1
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -1856,48 +1984,51 @@ ruinous_powers_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		heretic = {
 			CHAOS_HERETIC
 		}
@@ -1936,25 +2067,27 @@ greenskin_denominations = {
 			tolerance_heathen = -2
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -1969,48 +2102,51 @@ greenskin_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		heretic = {
 			MORK
 			GORK
@@ -2030,25 +2166,27 @@ greenskin_denominations = {
 		country = {
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -2063,48 +2201,51 @@ greenskin_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		country_as_secondary = {
 		}
 		heretic = {
@@ -2142,25 +2283,27 @@ ogre_denominations = {
 			raze_power_gain = 0.2
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -2175,48 +2318,51 @@ ogre_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		heretic = {
 			GREAT_MAW_HERETIC
 		}
@@ -2257,25 +2403,27 @@ elven_denominations = {
 			ASRAI_HERETICS
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -2290,45 +2438,47 @@ elven_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
 			}
@@ -2359,25 +2509,27 @@ elven_denominations = {
 			advisor_cost = -0.1
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -2392,48 +2544,51 @@ elven_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		allowed_conversion = {
 			asrai_cadai
 			cytharai
@@ -2460,25 +2615,27 @@ elven_denominations = {
 			defensiveness = 0.15
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -2494,45 +2651,47 @@ elven_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
 			}
@@ -2584,25 +2743,27 @@ dawi_denominations = {
 			ANCESTOR_GODS_HERETICS
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -2617,48 +2778,51 @@ dawi_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		ancestors = yes
 	}
 	crusade_name = CRUSADE
@@ -2691,25 +2855,27 @@ the_old_faith = {
 			idea_cost = -0.05
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -2724,48 +2890,51 @@ the_old_faith = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		heretic = {
 			HERETIC 
 		}
@@ -2784,25 +2953,27 @@ the_old_faith = {
 			stability_cost_modifier = -0.10
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -2817,48 +2988,51 @@ the_old_faith = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		allowed_conversion = {
 			ursun
 		}
@@ -2880,25 +3054,27 @@ the_old_faith = {
 			fire_damage_received = -0.05
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -2913,48 +3089,51 @@ the_old_faith = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		heretic = {
 			HERETIC
 		}
@@ -2991,25 +3170,27 @@ arabyn_denominations = {
 			idea_cost = -0.05
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -3024,48 +3205,51 @@ arabyn_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		heretic = {
 			HERETIC
 		}
@@ -3090,25 +3274,27 @@ arabyn_denominations = {
 			HERETIC
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -3123,48 +3309,51 @@ arabyn_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		personal_deity = yes
 		allowed_conversion = {
 			nagash_worship
@@ -3207,25 +3396,27 @@ skaven_denominations = {
 			HERETIC
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -3240,48 +3431,51 @@ skaven_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		papacy = {
 			papal_tag = U25
 			election_cost = 8
@@ -3579,25 +3773,27 @@ lizardmen_denominations = {
 			local_missionary_strength = -0.02
 		}	
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -3612,45 +3808,47 @@ lizardmen_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
 			}
@@ -3690,25 +3888,27 @@ lizardmen_denominations = {
 			local_missionary_strength = -0.02
 		}	
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -3752,25 +3952,27 @@ eastern_denominations = {
 			local_missionary_strength = -0.02
 		}	
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -3785,48 +3987,51 @@ eastern_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		heretic = {
 			YIN_YANG_HERETIC
 		}
@@ -3866,25 +4071,27 @@ indish_denominations = {
 
 		}
 		on_convert = {
-			every_country = {
-				remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = root_destruction
-				}
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
 
-				remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
-				}
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 
-				reverse_remove_opinion = {
-				    who = PREV
-				    modifier = both_destruction
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
 				}
 			}
 
@@ -3899,48 +4106,51 @@ indish_denominations = {
 				duration = -1
 			}
 
-			every_country = {
-				limit = {
-					has_country_modifier = destruction_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = order_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-
-
 			}
 
 
-			every_country = {
-				limit = {
-					has_country_modifier = order_nation
-					NOT = { tag = PREV }
-				}
-
-				if {
-					limit = { ROOT = { has_country_modifier = destruction_nation } }
-
-					add_opinion = {
-						who = PREV
-						modifier = root_destruction
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
 					}
-					reverse_add_opinion = {
-						who = PREV
-						modifier = root_destruction
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
 					}
 				}
-			}		}
+			}
+		}
 		heretic = {
 			IND_HERETIC
 		}

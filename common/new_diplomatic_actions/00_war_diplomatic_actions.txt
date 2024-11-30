@@ -171,7 +171,7 @@ offer_dominion_action = {
 			OR = {
 				technology_group = ROOT
 				religion = ROOT
-				culture_group = FROM
+				culture_group = ROOT
 			}
 		}
 	}

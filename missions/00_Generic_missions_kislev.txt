@@ -110,7 +110,7 @@ gen_kislev_missions = {
 
 	gen_kislev_friend_to_the_south = {
 		icon = mission_kislev_culture
-		required_missions = { gen_kislev_prepare_for_defense }
+		required_missions = {  }
 		provinces_to_highlight = {
             owner = {
 				OR = {

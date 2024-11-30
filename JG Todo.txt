@@ -26,17 +26,24 @@ GFX
 ###### RANDOM TO DOS ######
 #############################
 
-	Prov 593 in wrong place
+	Prov 593, 762, 789 in wrong physical place
+
+	End times stuff based on Chaos Gate
+
+	Some relationship between racial administration and culture of individual province?
+
+	Ending the end times gives a global event and a modifier to the county that did it
 
 	Balance Mission Rewards
+
+	No gov capacity boost from gov rank
+		But some idea groups get it? Or administration?
 
 	Make racial rewards a little less?
 
 	Fix HRE gfx (hre.gui)
 
-	Make Everchosen A Theocracy to make it stickier
-
-	Adjust all starting text to be more explanatory
+	Make Everchosen A Theocracy to make it stickier?
 
 	Old World Pantheons and Enlightened Path are missing GFX
 		Should Old World Pantheons be something different from the Kisleve old world religions, or druidism?
@@ -45,14 +52,21 @@ GFX
 
 	Make some way of finding the everchosen
 
-	Raiding happens when people reclaim their own lands
-		Might be fixed, check if this works. - Nope!
-
 	Make various diplomatic actions cause a pop-up for the receiver. And offers?
 		Offer to become dominion action?
 		Pop up when you can vassalize dominions (Doesn't work)
 
 	Fix Monstrous Unit Cost?
+
+	Make all Missions Harder?
+		Make all "At war with" missions to "won war against" missions
+
+	Can Sylvania never become it because they aren't in the same religious group?
+		Put Vampiric in Old World Religion Group? Is there a better way?
+		Or if a majority of electors become vampiric, then the religion of the empire switches?
+		Take away Moot's Electorate, give it to Sylvania
+
+	end_times_events.2000 should trigger for everybody to let them know the end times have ended, with unique effects
 
 #############################
 ###### Confirm ######
@@ -60,15 +74,26 @@ GFX
 
 	Goblin 8 Peaks Adj
 
+	End the end times peace offering should only come up when applicable
+
+	The defeator of the everchosen should get a special modifier (Saved the World)
+
 #############################
 ######## FUTURE STUFF #######
 #############################
 
-	Can Sylvania never become it because they aren't in the same religious group?
-		Put Vampiric in Old World Religion Group? Is there a better way?
-		Or if a majority of electors become vampiric, then the religion of the empire switches?
+	Many more cultures!
+
+	Recently Raided is weird. Maybe you can't undo the decision while at war, buut your warscore is 2x the cost?
+	But then you can't selectively raid?
+	Should it go away at the end of the war? Clear all recently raided?
+
+	Raiding happens when people reclaim their own lands
+	Might be fixed, check if this works. - Nope!
 
 	Worry about military balance
+
+	Is it possible to be both a race and undead? Undead human, undead orc? And gain both the racial and undead adm/military qualities
 
 	Panama Canal
 

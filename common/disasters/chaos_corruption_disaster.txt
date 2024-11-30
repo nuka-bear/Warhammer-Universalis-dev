@@ -26,17 +26,7 @@ chaos_corruption_disaster = {
 
 	progress = {
 
-### Good Religious Unity
 
-		modifier = {
-			factor = -0.25
-			religious_unity = 1.1
-		}
-
-		modifier = {
-			factor = -0.25
-			religious_unity = 0.99
-		}
 
 ### Good Stability
 
@@ -51,6 +41,19 @@ chaos_corruption_disaster = {
 		modifier = {
 			factor = -0.25
 			stability = 1
+		}
+
+
+### Good Religious Unity
+
+		modifier = {
+			factor = -0.25
+			religious_unity = 1.1
+		}
+
+		modifier = {
+			factor = -0.25
+			religious_unity = 0.99
 		}
 
 ### Desperate

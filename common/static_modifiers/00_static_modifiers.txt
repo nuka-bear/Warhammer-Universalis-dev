@@ -599,9 +599,7 @@ base_values = {
 	devotion = -0.5
 	meritocracy = -2
 	governing_capacity = 200
-
-### Warhammer Change, used to be 2
-	num_accepted_cultures = 0
+	num_accepted_cultures = 2
 
 	monthly_splendor = 1
 	artillery_levels_available_vs_fort = 5

@@ -53,6 +53,11 @@ po_end_end_times = {
 	}
 	effect = { # Defaults to empty effect (which makes error log entry but is safe)
 
+		add_country_modifier = { 
+		    name = saved_the_world
+		    duration = -1  
+		}
+
 		FROM = {
 			country_event = { 
     			id = end_times_events.2000
