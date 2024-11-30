@@ -168,7 +168,6 @@ vampiric_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = necromantic_denominations
 			dominant_religion = vampiric
 		}
 	}
@@ -192,7 +191,7 @@ vampiric_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = necromantic_denominations }
+				NOT = { religion = vampiric }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -237,17 +236,17 @@ vampiric_rebels = {
 			change_religion = vampiric
 			force_converted = yes
 		}
-		if = {
-			limit = {
-				NOT = { religion = vampiric }
-				NOT = { dominant_religion = vampiric }
-				religion_group = old_world_denominations
-			}
-			add_country_modifier = {
-				name = "heretic_tolerance"
-				duration = 3650
-			}
-		}
+#		if = {
+#			limit = {
+#				NOT = { religion = vampiric }
+#				NOT = { dominant_religion = vampiric }
+#				religion_group = old_world_denominations
+#			}
+#			add_country_modifier = {
+#				name = "heretic_tolerance"
+#				duration = 3650
+#			}
+#		}
 		if = {
 			limit = { has_country_modifier = support_heretics }
 			capital_scope = {

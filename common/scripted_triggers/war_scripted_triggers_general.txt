@@ -17,6 +17,7 @@ destruction_culture = {
 		religion = hashut
 		religion = slaaneshi_religion
 		religion = nurglite_religion
+		religion = vampiric
 		religion = nagash_worship
 		religion = chaos_undivided_religion
 
@@ -44,6 +45,7 @@ order_culture = {
 			religion = hashut
 			religion = slaaneshi_religion
 			religion = nurglite_religion
+			religion = vampiric
 			religion = nagash_worship
 			religion = chaos_undivided_religion
 		}

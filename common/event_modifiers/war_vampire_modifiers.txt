@@ -1,5 +1,6 @@
 vampire_happy_church = {
 	diplomats = 1
+	reasons_to_elect = 5
 }
 
 vampire_ritual_site = {
@@ -10,11 +11,13 @@ vampire_ritual_site = {
 vampire_spread_vamprisim = {
 	monthly_favor_modifier = 0.1
 	spy_offence = 0.1
+	reasons_to_elect = 5
 }
 
 vampire_spread_vamprisim_2 = {
 	monthly_favor_modifier = 0.1
 	spy_offence = 0.1
+	reasons_to_elect = 5
 }
 
 vampire_frightful_army = {

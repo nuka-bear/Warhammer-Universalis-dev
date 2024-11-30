@@ -932,17 +932,8 @@ old_world_denominations = {
 	}
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_old_world
-}
 
-########################################################################################################################
-#	NECROMATIC ########################################################################################################
-########################################################################################################################
-necromantic_denominations = {
-	flags_with_emblem_percentage = 10
-	flag_emblem_index_range = {
-		83
-		96
-	}
+
 	########################################################################################################################
 	#	VAMPIRIC
 	########################################################################################################################	
@@ -1077,139 +1068,27 @@ necromantic_denominations = {
 			BLACK_GRAIL
 		}
 	}
-	########################################################################################################################
-	#	NAGASH
-	########################################################################################################################		
-	nagash_worship = {
-		color = {
-			73
-			9
-			96
-		}
-		icon = 19
-		country = {
-			hostile_attrition = 1
-			missionaries = 1
-		}
-		country_as_secondary = {
-			global_spy_defence = 0.15
-			war_exhaustion = -0.03
-		}
-		heretic = {
-			NAGASH_HERETICS
-		}
-		on_convert = {
-## You become undead
-			remove_country_modifier = human_administration
-			remove_country_modifier = human_military
-			remove_country_modifier = orcish_administration
-			remove_country_modifier = orcish_military
-			remove_country_modifier = dwarven_administration
-			remove_country_modifier = dwarven_military
-			remove_country_modifier = elven_administration
-			remove_country_modifier = elven_military
-			remove_country_modifier = lizardmen_administration
-			remove_country_modifier = lizardmen_military
-			remove_country_modifier = fimir_administration
-			remove_country_modifier = fimir_military
-			remove_country_modifier = ogre_administration
-			remove_country_modifier = ogre_military
-			remove_country_modifier = skaven_administration
-			remove_country_modifier = skaven_military
-			remove_country_modifier = eastern_beastfolk_administration
-			remove_country_modifier = eastern_beastfolk_military
-			add_country_modifier = { 
-			    name = undead_administration
-			    duration = -1
-		    }
-			add_country_modifier = { 
-			    name = undead_military
-			    duration = -1
-		    }
 
 
-			hidden_effect = {
-				every_country = {
-					remove_opinion = {
-					    who = PREV
-					    modifier = root_destruction
-					}
-
-					reverse_remove_opinion = {
-					    who = PREV
-					    modifier = root_destruction
-					}
-
-					remove_opinion = {
-					    who = PREV
-					    modifier = both_destruction
-					}
-
-					reverse_remove_opinion = {
-					    who = PREV
-					    modifier = both_destruction
-					}
-				}
-			}
-
-			change_religion = nagash_worship
-			add_prestige = -100
-			add_stability = -1
-
-			remove_country_modifier = neutral_nation
-			remove_country_modifier = order_nation
-			add_country_modifier = {
-				name = destruction_nation
-				duration = -1
-			}
-
-			hidden_effect = {
-				every_country = {
-					limit = {
-						has_country_modifier = destruction_nation
-						NOT = { tag = PREV }
-					}
-
-					if {
-						limit = { ROOT = { has_country_modifier = order_nation } }
-
-						add_opinion = {
-							who = PREV
-							modifier = root_destruction
-						}
-						reverse_add_opinion = {
-							who = PREV
-							modifier = root_destruction
-						}
-					}
-				}
-			}
 
 
-			hidden_effect = {
-				every_country = {
-					limit = {
-						has_country_modifier = order_nation
-						NOT = { tag = PREV }
-					}
 
-					if {
-						limit = { ROOT = { has_country_modifier = destruction_nation } }
 
-						add_opinion = {
-							who = PREV
-							modifier = root_destruction
-						}
-						reverse_add_opinion = {
-							who = PREV
-							modifier = root_destruction
-						}
-					}
-				}
-			}
-		}	
 
+
+}
+
+########################################################################################################################
+#	NECROMATIC ########################################################################################################
+########################################################################################################################
+necromantic_denominations = {
+	flags_with_emblem_percentage = 10
+	flag_emblem_index_range = {
+		83
+		96
 	}
+
+
 	crusade_name = DARK_CRUSADE
 	harmonized_modifier = harmonized_necromantic
 }
@@ -3361,6 +3240,142 @@ arabyn_denominations = {
 
 
 	}
+
+	########################################################################################################################
+	#	NAGASH
+	########################################################################################################################		
+	nagash_worship = {
+		color = {
+			73
+			9
+			96
+		}
+		icon = 19
+		country = {
+			hostile_attrition = 1
+			missionaries = 1
+		}
+		country_as_secondary = {
+			global_spy_defence = 0.15
+			war_exhaustion = -0.03
+		}
+		heretic = {
+			NAGASH_HERETICS
+		}
+		on_convert = {
+## You become undead
+			remove_country_modifier = human_administration
+			remove_country_modifier = human_military
+			remove_country_modifier = orcish_administration
+			remove_country_modifier = orcish_military
+			remove_country_modifier = dwarven_administration
+			remove_country_modifier = dwarven_military
+			remove_country_modifier = elven_administration
+			remove_country_modifier = elven_military
+			remove_country_modifier = lizardmen_administration
+			remove_country_modifier = lizardmen_military
+			remove_country_modifier = fimir_administration
+			remove_country_modifier = fimir_military
+			remove_country_modifier = ogre_administration
+			remove_country_modifier = ogre_military
+			remove_country_modifier = skaven_administration
+			remove_country_modifier = skaven_military
+			remove_country_modifier = eastern_beastfolk_administration
+			remove_country_modifier = eastern_beastfolk_military
+			add_country_modifier = { 
+			    name = undead_administration
+			    duration = -1
+		    }
+			add_country_modifier = { 
+			    name = undead_military
+			    duration = -1
+		    }
+
+
+			hidden_effect = {
+				every_country = {
+					remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
+
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = root_destruction
+					}
+
+					remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
+
+					reverse_remove_opinion = {
+					    who = PREV
+					    modifier = both_destruction
+					}
+				}
+			}
+
+			change_religion = nagash_worship
+			add_prestige = -100
+			add_stability = -1
+
+			remove_country_modifier = neutral_nation
+			remove_country_modifier = order_nation
+			add_country_modifier = {
+				name = destruction_nation
+				duration = -1
+			}
+
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = destruction_nation
+						NOT = { tag = PREV }
+					}
+
+					if {
+						limit = { ROOT = { has_country_modifier = order_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+					}
+				}
+			}
+
+
+			hidden_effect = {
+				every_country = {
+					limit = {
+						has_country_modifier = order_nation
+						NOT = { tag = PREV }
+					}
+
+					if {
+						limit = { ROOT = { has_country_modifier = destruction_nation } }
+
+						add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+						reverse_add_opinion = {
+							who = PREV
+							modifier = root_destruction
+						}
+					}
+				}
+			}
+		}	
+
+	}
+
+	
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_arabyn
 }

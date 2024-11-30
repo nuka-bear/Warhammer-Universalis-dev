@@ -235,7 +235,8 @@ country_decisions = {
 		potential = {
 			OR = {
 				technology_group = tech_tomb_kings
-				religion_group = necromantic_denominations
+				religion = vampiric
+				religion = nagash_worship
 				any_neighbor_country = {
 					any_owned_province = { has_province_modifier = location_of_the_staff_of_nagash }
 				}
@@ -542,7 +543,8 @@ country_decisions = {
 	take_the_jade_blooded_vial = {
 		potential = {
 			OR = {
-				religion_group = necromantic_denominations
+				religion = vampiric
+				religion = nagash_worship
 				any_neighbor_country = {
 					any_owned_province = { has_province_modifier = location_of_the_jade_blooded_vial }
 				}
@@ -589,7 +591,8 @@ country_decisions = {
 		potential = {
 			OR = {
 
-				religion_group = necromantic_denominations
+				religion = vampiric
+				religion = nagash_worship
 
 				any_province = {
 					owned_by = ROOT
@@ -609,7 +612,8 @@ country_decisions = {
 
 		allow = {
 
-			religion_group = necromantic_denominations
+			religion = vampiric
+			religion = nagash_worship
 
 			any_province = {
 				owned_by = ROOT

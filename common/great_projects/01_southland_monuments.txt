@@ -2163,7 +2163,7 @@ mortuary_temple_of_quaph = {
 	#can we build it?
 	build_trigger = {
 		OR = {
-			owner = { religion_group = necromantic_denominations }
+			owner = { religion = vampiric }
 			owner = { religion_group = arabyn_denominations }
 		}
 		has_owner_religion = yes
@@ -2179,7 +2179,7 @@ mortuary_temple_of_quaph = {
 	
 	can_use_modifiers_trigger = {
 		OR = {
-			owner = { religion_group = necromantic_denominations }
+			owner = { religion = vampiric }
 			owner = { religion_group = arabyn_denominations }
 		}
 		has_owner_religion = yes
@@ -2187,7 +2187,7 @@ mortuary_temple_of_quaph = {
 	
 	can_upgrade_trigger = {
 		OR = {
-			owner = { religion_group = necromantic_denominations }
+			owner = { religion = vampiric }
 			owner = { religion_group = arabyn_denominations }
 		}
 		has_owner_religion = yes

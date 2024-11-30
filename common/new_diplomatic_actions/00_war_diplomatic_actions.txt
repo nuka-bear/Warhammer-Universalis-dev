@@ -436,7 +436,8 @@ war_diplo_convert_to_religion = {
 	is_visible = {
 		OR = {
 			religion = cytharai
-			religion_group = necromantic_denominations
+			religion = vampiric
+			religion = nagash_worship	
 		}
 		NOT = { religion = FROM }
 	}
@@ -480,13 +481,6 @@ war_diplo_convert_to_religion = {
 				value = 0.125
 			}
         }
-
-		add_entry = {
-			name = IN_HRE_OFFER
-			limit = { FROM = { is_part_of_hre = yes } }
-			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = -15 }
-		}
 
 		add_entry = {
 			name = MANY_MISSIONARIES
@@ -764,7 +758,8 @@ implant_cult = {
 		modifier = {
     		factor = 10
     		OR = {
-    			religion_group = necromantic_denominations
+				religion = vampiric
+				religion = nagash_worship	
     			religion_group = ruinous_powers_denominations
     		}
 		}

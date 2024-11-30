@@ -168,7 +168,6 @@ nagash_worship_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = necromantic_denominations
 			dominant_religion = nagash_worship
 		}
 	}
@@ -192,7 +191,7 @@ nagash_worship_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion_group = necromantic_denominations }
+				NOT = { dominant_religion = nagash_worship }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -237,17 +236,17 @@ nagash_worship_rebels = {
 			change_religion = nagash_worship
 			force_converted = yes
 		}
-		if = {
-			limit = {
-				NOT = { religion = nagash_worship }
-				NOT = { dominant_religion = nagash_worship }
-				religion_group = old_world_denominations
-			}
-			add_country_modifier = {
-				name = "heretic_tolerance"
-				duration = 3650
-			}
-		}
+#		if = {
+#			limit = {
+#				NOT = { religion = nagash_worship }
+#				NOT = { dominant_religion = nagash_worship }
+#				religion_group = old_world_denominations
+#			}
+#			add_country_modifier = {
+#				name = "heretic_tolerance"
+#				duration = 3650
+#			}
+#		}
 		if = {
 			limit = { has_country_modifier = support_heretics }
 			capital_scope = {
