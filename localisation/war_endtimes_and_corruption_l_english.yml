@@ -109,11 +109,13 @@ desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
   end_end_times_event_tt:0 "Put an end to it. End the end times."
 
 
-  end_times_events.2000.t:0 "The Everchosen Falls"
-  end_times_events.2000.d:0 "In an event that shakes the very foundations of the world, the Everchosen has been defeated, and the unholy tide of Chaos is finally broken. Across the land, the fires of rebellion and the taint of corruption are snuffed out, as if a dark cloud lifts from the world. The End Times, once thought inevitable, have come to a close, ushering in a new age of hope."
-  end_times_events.2000.option_1:0 "The darkness has lifted at last"
+  end_times_events.2001.t:0 "The Everchosen Falls"
+  end_times_events.2001.d:0 "In an event that shakes the very foundations of the world, the Everchosen has been defeated, and the unholy tide of Chaos is finally broken. Across the land, the fires of rebellion and the taint of corruption are snuffed out, as if a dark cloud lifts from the world. The End Times, once thought inevitable, have come to a close, ushering in a new age of hope."
+  end_times_events.2001.option_1:0 "The darkness has lifted at last"
 
-  end_times_events.2000.option_1.tt:0 "Every non-chaos country gains 2 stability, loses 2 war exhaustion, and gains a permanent bonus to morale and religious unity."
+  end_times_events.2002.t:0 "The Everchosen Falls"
+  end_times_events.2002.d:0 "In an event that rends the fabric of the Great Game, the Everchosen has fallen, and the inexorable march of Chaos is halted. Across the mortal realms, the weak cling to their fleeting triumph, their fires of defiance rekindled, and the sacred gifts of the Dark Gods are driven back as if a cruel veil is torn away. The End Times, once promised as the apotheosis of entropy and despair, have been denied—for now.\n\nYet, the servants of Chaos know that this age of fragile hope is but a delay, for the winds of ruin are eternal, and the Dark Gods shall rise again."
+  end_times_events.2002.option_1:0 "No matter! We shall conquer the world anyway. Once these rebels stop spawning ..."
 
   survived_the_end_times:0 "Survived the End Times"
   survived_the_end_times_desc:0 "We survived the end times on the side of good."
@@ -121,7 +123,8 @@ desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
   saved_the_world:0 "Saved the World"
   saved_the_world_desc:0 "We defeated the Everchosen and closed the Chaos Gate, saving the world from Chaos. The glory of our nation shall forever echo is the hearts of minds of the Good!"
 
-
+  destroy_the_chaos_gate_decision_title:0 "Destroy the Chaos Gate"
+  destroy_the_chaos_gate_decision_desc:0 "Destroy the Chaos Gate, ending the End Times."
 
 #### CHAOS CORRUPTION EVENTS
 

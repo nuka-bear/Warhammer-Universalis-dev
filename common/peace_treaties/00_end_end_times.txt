@@ -34,7 +34,7 @@ po_end_end_times = {
 			FROM = {
 				any_owned_province = {
 					religion = chaos_undivided_religion
-					is_reformation_center = no
+					is_reformation_center = yes
 				}
 			}
 		}
@@ -46,7 +46,7 @@ po_end_end_times = {
 			FROM = {
 				any_owned_province = {
 					religion = chaos_undivided_religion
-					is_reformation_center = no
+					is_reformation_center = yes
 				}
 			}
 		}
@@ -58,13 +58,10 @@ po_end_end_times = {
 		    duration = -1  
 		}
 
-		FROM = {
-			country_event = { 
-    			id = end_times_events.2000
-    			tooltip = end_end_times_event_tt
-			}
+		country_event = { 
+   			id = end_times_events.2000
+			tooltip = end_end_times_event_tt
 		}
-		
 
 	}
 	ai_weight = { # Defaults to always evaluate to 0

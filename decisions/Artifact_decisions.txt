@@ -28,6 +28,10 @@ country_decisions = {
 			}
 		}
 
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_phoenix_crown
+		}
+
 		effect = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_phoenix_crown }
@@ -77,6 +81,10 @@ country_decisions = {
 			}
 		}
 
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_ghal_maraz
+		}
+
 		effect = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_ghal_maraz }
@@ -119,6 +127,10 @@ country_decisions = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_book_of_grudges
 			}
+		}
+
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_book_of_grudges
 		}
 
 		effect = {
@@ -166,6 +178,10 @@ country_decisions = {
 			}
 		}
 
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_widowmaker
+		}
+
 		effect = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_widowmaker }
@@ -209,6 +225,10 @@ country_decisions = {
 			}
 		}
 
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_carstein_ring
+		}
+
 		effect = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_carstein_ring }
@@ -246,6 +266,10 @@ country_decisions = {
 			}
 			all_owned_province = { NOT = { has_province_modifier = location_of_the_staff_of_nagash} }
 		 }
+
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_staff_of_nagash
+		}
 
 		allow = {
 			capital_scope = { controlled_by = ROOT }
@@ -299,6 +323,10 @@ country_decisions = {
 			}
 		}
 
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_fellblade
+		}
+
 		effect = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_fellblade }
@@ -341,6 +369,10 @@ country_decisions = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_bow_of_loren
 			}
+		}
+
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_bow_of_loren
 		}
 
 		effect = {
@@ -387,6 +419,10 @@ country_decisions = {
 			}
 		}
 
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_celestial_compass
+		}
+
 		effect = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_celestial_compass }
@@ -429,6 +465,10 @@ country_decisions = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_great_maw_cauldron
 			}
+		}
+
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_great_maw_cauldron
 		}
 
 		effect = {
@@ -475,6 +515,10 @@ country_decisions = {
 			}
 		}
 
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_hashuts_black_hammer
+		}
+
 		effect = {
 			every_province ={
 				limit = { has_province_modifier = location_of_the_hashuts_black_hammer }
@@ -516,6 +560,10 @@ country_decisions = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_crown_of_the_troll_king
 			}
+		}
+
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_crown_of_the_troll_king
 		}
 
 		effect = {
@@ -561,6 +609,10 @@ country_decisions = {
 				controlled_by = ROOT
 				has_province_modifier = location_of_the_jade_blooded_vial
 			}
+		}
+
+		provinces_to_highlight = {
+			has_province_modifier = location_of_the_jade_blooded_vial
 		}
 
 		effect = {

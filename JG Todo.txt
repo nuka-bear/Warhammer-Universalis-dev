@@ -32,12 +32,7 @@ GFX
 
 	Some relationship between racial administration and culture of individual province?
 
-	Ending the end times gives a global event and a modifier to the county that did it
-
 	Balance Mission Rewards
-
-	No gov capacity boost from gov rank
-		But some idea groups get it? Or administration?
 
 	Make racial rewards a little less?
 
@@ -50,8 +45,6 @@ GFX
 
 	New World Bookmark Mission Image -  Not working!
 
-	Make some way of finding the everchosen
-
 	Make various diplomatic actions cause a pop-up for the receiver. And offers?
 		Offer to become dominion action?
 		Pop up when you can vassalize dominions (Doesn't work)
@@ -61,7 +54,7 @@ GFX
 	Make all Missions Harder?
 		Make all "At war with" missions to "won war against" missions
 
-	end_times_events.2000 should trigger for everybody to let them know the end times have ended, with unique effects
+	Sylvania National Ideas
 
 #############################
 ###### Confirm ######
@@ -71,10 +64,10 @@ GFX
 
 	End the end times peace offering should only come up when applicable
 
-	The defeator of the everchosen should get a special modifier (Saved the World)
+	Need a backup end times events that will trigger if the chaos gate is gone.
 
-	Can Sylvania never become it because they aren't in the same religious group?
-		Put Vampiric in Old World Religion Group? Is there a better way?
+	end_times_events.2000 should trigger for everybody to let them know the end times have ended, with unique effects
+		test the end of the end times on all receipient sides
 
 #############################
 ######## FUTURE STUFF #######

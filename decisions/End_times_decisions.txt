@@ -1,0 +1,48 @@
+### Decision
+
+
+
+country_decisions = {
+	
+	destroy_the_chaos_gate_decision = {
+		major = yes
+		
+		potential = {
+			any_province = {
+				religion = chaos_undivided_religion
+				is_reformation_center = yes
+			}
+			NOT = { religion_group = ruinous_powers_denominations }
+		}
+		
+		provinces_to_highlight = {
+			AND = {
+				religion = chaos_undivided_religion
+				is_reformation_center = yes
+			}
+		}
+		
+		allow = {
+			any_owned_province = {
+				religion = chaos_undivided_religion
+				is_reformation_center = yes
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+		    	name = saved_the_world
+		    	duration = -1  
+			}
+
+			country_event = { 
+	   			id = end_times_events.2000
+    			tooltip = end_end_times_event_tt
+			}
+		}
+		ai_will_do = {
+			factor = 10000
+		}
+	}
+
+}

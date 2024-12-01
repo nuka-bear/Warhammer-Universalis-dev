@@ -25,6 +25,8 @@ province_event = {
 			current_age = age_of_absolutism
 		}
 
+###
+
 		religion_group = ruinous_powers_denominations
 
 		owner = { religion_group = ruinous_powers_denominations }
@@ -381,47 +383,153 @@ province_event = {
 
 ##### END THE END TIMES
 
+### The cause of the end gives the victor the saved_the_world modifier
+
+### One hidden event to do basic things. This is triggered by the person who does the thing, and applies nothing to them. Triggers once
+####	Destroy the Chaos Gate, wherever it is
+###		Remove the Everchosen Reform
+###		Kill the Everchosen ruler
+### 	Triggers the two visible effects
+
+
+### One for the Ruinous Powers. Triggers for each country
+	### They get bad things
+
+### One for non-ruinous Powers. Triggers for each country
+	#### They get good things!
+
+### END TIMES CATCHER
+
+country_event = {
+	id = end_times_events.1999
+	title = end_times_events.1999.t
+	desc = end_times_events.1999.d
+	picture = FAILED_REVOLUTION_eventPicture
+	is_triggered_only = no
+	fire_only_once = yes
+	hidden = yes
+	major = no
+	trigger = {
+
+		has_global_flag = end_times_started
+
+		all_province = {
+			OR = {
+				is_reformation_center = no
+				NOT = { religion_group = chaos_undivided_religion }
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = end_times_events.1999.option_1
+		country_event = { 
+	   		id = end_times_events.2000
+    		tooltip = end_end_times_event_tt
+		}
+	}
+
+}
+
+
+#### HIDDEN END TIMES ENDER
+
 country_event = {
 	id = end_times_events.2000
 	title = end_times_events.2000.t
 	desc = end_times_events.2000.d
 	picture = FAILED_REVOLUTION_eventPicture
 	is_triggered_only = yes
-
-	major = yes
-
+	major = no
+	hidden = yes
 	immediate = {
 
-		kill_ruler = yes
-		hidden_effect = {
-			every_province = {
-				limit = { is_reformation_center = yes }
-				remove_reform_center = chaos_undivided_religion
-			}
+## REMOVE CHAOS GATE		
+		every_province = {
+			limit = { is_reformation_center = yes }
+			remove_reform_center = chaos_undivided_religion
 		}
 
-		remove_government_reform = everchosen_reform
+## DISMANTLE EVERCHOSEN
+		every_country = {
+			limit = {
+				OR = {
+					personality = everchosen_personality
+					has_reform = everchosen_reform
+				}
+			}
+			remove_government_reform = everchosen_reform
+			kill_ruler = yes
+
+		}
+
+## Good Countries
+		every_country = {
+			limit = { NOT = { religion_group = ruinous_powers_denominations } }
+			country_event = { id = end_times_events.2001 }
+		}
+
+## Bad countries
+		every_country = {
+			limit = { religion_group = ruinous_powers_denominations }
+			country_event = { id = end_times_events.2002 }
+		}
+
 
 	}
 
 	option = {
 		name = end_times_events.2000.option_1
-		custom_tooltip = "end_times_events.2000.option_1.tt"
-		hidden_effect = {
-			every_country = {
-				limit = { NOT = { religious_group = ruinous_powers_denominations } }
-				add_stability = 2
-				add_war_exhaustion = -2
-				add_country_modifier = { 
-	    			name = survived_the_end_times
-	    			duration = -1  
-	    		}
-	    	}
-		}
-
+		ai_chance = { factor = 1 }
 	}
 }
 
+
+### FOR GOOD GUYS
+
+country_event = {
+	id = end_times_events.2001
+	title = end_times_events.2001.t
+	desc = end_times_events.2001.d
+	picture = FAILED_REVOLUTION_eventPicture
+	is_triggered_only = yes
+
+	major = no
+
+	option = {
+		name = end_times_events.2001.option_1
+		add_stability = 2
+		add_war_exhaustion = -2
+		add_prestige = 25
+		add_country_modifier = { 
+			name = survived_the_end_times
+			duration = -1  
+		}
+	}
+}
+
+
+### FOR BAD GUYS
+
+country_event = {
+	id = end_times_events.2002
+	title = end_times_events.2002.t
+	desc = end_times_events.2002.d
+	picture = FAILED_REVOLUTION_eventPicture
+	is_triggered_only = yes
+
+	major = no
+
+	option = {
+		name = end_times_events.2002.option_1
+		add_stability = -6
+	}
+}
 
 
 
@@ -518,8 +626,10 @@ country_event = {
 	is_triggered_only = no
 	
 	trigger = {
-		any_province = { is_reformation_center = yes }
-		any_country = { has_reform = everchosen_reform }
+		any_province = {
+			is_reformation_center = yes
+			religion = chaos_undivided_religion
+		}
 	}
 
 	mean_time_to_happen = { months = 24 }
