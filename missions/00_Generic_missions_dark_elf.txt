@@ -276,7 +276,7 @@ gen_cytharai_missions = {
 		}
 
 		effect = {
-			add_manpower = 25
+			add_manpower = -25
 			add_country_modifier = { 
  				name = dark_elf_monsters
 				duration = -1

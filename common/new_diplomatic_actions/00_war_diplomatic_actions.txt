@@ -501,7 +501,7 @@ war_diplo_convert_to_religion = {
 			name = BASE_CONVERT_RESIST
 			limit = { always = yes }
 			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = -50 }
+			multiply_variable = { which = ai_value value = -25 }
 		}
 
 		add_entry = {
@@ -581,14 +581,14 @@ war_diplo_convert_to_religion = {
 			name = OFFER_DIF_CULTURE
 			limit = { NOT = { FROM = { primary_culture = ROOT } } }
 			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = -30 }
+			multiply_variable = { which = ai_value value = -25 }
 		}
 
 		add_entry = {
 			name = OFFER_DIF_TECH_GROUP
 			limit = { NOT = { FROM = { technology_group = ROOT } } }
 			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = -30 }
+			multiply_variable = { which = ai_value value = -25 }
 		}
 
 		add_entry = {
@@ -754,6 +754,14 @@ war_diplo_convert_to_religion = {
 
     	FROM = {
     		change_religion = ROOT
+
+    		set_dynasty = ROOT
+
+    		add_opinion = {
+			    who = ROOT
+			    modifier = showed_us_the_truth
+			}
+
     	}
 
     	add_favors = {
@@ -765,7 +773,7 @@ war_diplo_convert_to_religion = {
     	FROM = {
 			add_trust = {
 			   	who = ROOT
-			  	value = -50
+			  	value = -25
 			   	mutual = yes
 			}
 

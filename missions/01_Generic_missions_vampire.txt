@@ -70,18 +70,20 @@ gen_war_vampire_religion = {
 
 
 
-### Surround yourself with Vamprism
+### Have a network of Vampiric
 	gen_vampire_spread_vampirism_2 = { 
 		icon = mission_vampire_religion
 		required_missions = { gen_vampire_spread_vampirism_1 }
-		provinces_to_highlight = {
-			is_neighbor_of = ROOT
-			NOT = { religion = ROOT }
-		}
-
 		trigger = {
-			all_neighbor_province = {
-				religion = ROOT
+			calc_true_if = {
+				all_country = {
+					religion = ROOT
+					OR = {
+						alliance_with = ROOT
+						is_subject_of = ROOT
+					}
+				}
+				amount = 5
 			}
 		}
 

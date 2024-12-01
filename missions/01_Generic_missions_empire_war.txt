@@ -289,11 +289,7 @@ gen_war_empire_general = {
 			every_ally = {
 				add_trust = {
 			    	who = ROOT
-			    	value = 15
-				}
-				add_favors = {
-			    	who = ROOT
-			    	value = 15
+			    	value = 20
 				}
 			}
 		}

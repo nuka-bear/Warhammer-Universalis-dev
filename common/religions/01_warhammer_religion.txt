@@ -972,6 +972,13 @@ old_world_denominations = {
 			remove_country_modifier = skaven_military
 			remove_country_modifier = eastern_beastfolk_administration
 			remove_country_modifier = eastern_beastfolk_military
+
+			clear_scipted_personalities = yes
+			add_ruler_personality = immortal_personality
+			add_heir_personality = immortal_personality
+
+
+
 			add_country_modifier = { 
 			    name = undead_administration
 			    duration = -1
@@ -3282,6 +3289,11 @@ arabyn_denominations = {
 			remove_country_modifier = skaven_military
 			remove_country_modifier = eastern_beastfolk_administration
 			remove_country_modifier = eastern_beastfolk_military
+
+			clear_scipted_personalities = yes
+			add_ruler_personality = immortal_personality
+			add_heir_personality = immortal_personality
+
 			add_country_modifier = { 
 			    name = undead_administration
 			    duration = -1

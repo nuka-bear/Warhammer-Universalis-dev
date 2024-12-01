@@ -144,7 +144,15 @@ gen_ind_missions = {
 		icon = mission_ind_culture
 		required_missions = { gen_indish_cavalry } 
 		trigger = {
-			at_war_with_religious_enemy = yes
+			any_country = {
+				NOT = { religion = ROOT }
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 10
+					}
+				}
+			}
 		}
 
 		effect = { 

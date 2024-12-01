@@ -63,6 +63,7 @@ country_decisions = {
 		potential = { 
 			OR = {
 				technology_group = tech_imperial
+				is_part_of_hre = yes
 				any_neighbor_country = {
 					any_owned_province = { has_province_modifier = location_of_the_ghal_maraz }
 				}

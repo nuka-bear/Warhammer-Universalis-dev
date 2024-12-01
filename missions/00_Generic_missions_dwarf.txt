@@ -571,9 +571,14 @@ gen_hashut_missions = {
 			    estate = estate_church
 			    loyalty = 50
 			}
-			at_war_with_religious_enemy = yes
-			any_owned_province = {
-				has_owner_religion = no
+			any_country = {
+				NOT = { religion = ROOT }
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 10
+					}
+				}
 			}
 		}
 

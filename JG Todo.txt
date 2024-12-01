@@ -28,9 +28,10 @@ GFX
 
 	Prov 593, 762, 789, 134 in wrong physical place
 
-	End times stuff based on Chaos Gate
+		Balance Mission Rewards
 
-	Balance Mission Rewards
+	Add Protestant Aspects to Dark and High Elf Religion
+		https://whfb.lexicanum.com/wiki/Elf_pantheon
 
 	Make racial rewards a little less?
 
@@ -43,27 +44,26 @@ GFX
 
 	New World Bookmark Mission Image -  Not working!
 
-	Make various diplomatic actions cause a pop-up for the receiver. And offers?
-		Offer to become dominion action?
-		Pop up when you can vassalize dominions (Doesn't work)
-
-	Fix Monstrous Unit Cost?
-
-	Make all Missions Harder?
-		Make all "At war with" missions to "won war against" missions
-
-	Sylvania National Ideas
-
-	Make the convert them idea also give a modifier that makes them vote for you? Or just an opinion modifier?
-		Gives them our dynasty as well?
-
-	Make Ghaz Decision visible if you are in the hre
-
 #############################
 ###### Confirm ######
 #############################
 
 	Goblin 8 Peaks Adj
+
+	Make all Missions Harder?
+		Make all "At war with" missions to "won war against" missions
+			(araby for example)
+			at_war_with_religious_enemy	= yes
+
+			any_country = {
+				NOT = { religion = ROOT }
+				ROOT = {
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 10
+					}
+				}
+			}
 
 	End the end times peace offering should only come up when applicable
 
@@ -72,13 +72,29 @@ GFX
 	end_times_events.2000 should trigger for everybody to let them know the end times have ended, with unique effects
 		test the end of the end times on all receipient sides
 
+	End times stuff based on Chaos Gate
+
 	Empire alliance reward now properly gives trust and favors?
+
+	Fix Monstrous Unit Cost?
+
+	Sylvania National Ideas
 
 #############################
 ######## FUTURE STUFF #######
 #############################
 
 	Many more cultures!
+
+	Age Bonuses
+		Be a Ruinous power with over 200 development
+		or
+		Be at war with a Ruinous power
+
+	Event for a high elf country to go dark elf
+
+	End Times Drama
+		Being next to the everchosen (or any chaos dude) makes rebels spawn in that province?
 
 	Recently Raided is weird. Maybe you can't undo the decision while at war, buut your warscore is 2x the cost?
 	But then you can't selectively raid?
@@ -88,6 +104,11 @@ GFX
 	Might be fixed, check if this works. - Nope!
 
 	Worry about military balance
+
+	Make various diplomatic actions cause a pop-up for the receiver. And offers?
+	Offer to become dominion action?
+	Pop up when you can vassalize dominions (Doesn't work)
+	Convert Them
 
 	Is it possible to be both a race and undead? Undead human, undead orc? And gain both the racial and undead adm/military qualities
 
@@ -123,7 +144,6 @@ GFX
 
 	Add some islands? Increase colonial range?
 
-
 	Finish Starting localization
 		# tech_hobgoblin
 		# tech_eastern_undead
@@ -134,6 +154,14 @@ GFX
 		# tech_halfling
 		# tech_dark_elven
 		# tech_indish
+
+		Prevent everchosen from converting?
+
+	Vampiric End Times
+
+	Orc End Times?
+
+	Old Ones End Times?
 				
 
 #############################
@@ -152,7 +180,6 @@ Legitimate Successor government mechanic for Nehekhara & Cathay?
 
 	Change generic mission tree that gives claim rewards to be just provinces in culture group
 
-
 	Should it be possible to change or have multiple racial administrations & militaries?
 	To keep this balanced, either the racial admins/mils would need to be balanced with positives and negatives, or you get some broad negatives to counteract this. (like +unrest and unhappy estates for administration and -discipline for military)
 	Maybe use the native religion reform mechanics for them? Aligns with slowly rebuilding/reforming the old empire
@@ -161,43 +188,6 @@ Legitimate Successor government mechanic for Nehekhara & Cathay?
 A basic spell or two? Is mana = spell resource?
 	Undead Spend 100 mil mana to gain a 10,000 manpower?
 
-
-#############################
-###### END TIMES ######
-#############################
-End Times
-
-	TLDR, it's a reskin of Revolutions but more powerful and tied to religion.
-		1) At the start of the End Times Age, a Ruinous Power (4 Chaos Gods, Hashut, Norsca) is chosen to the be Everchosen/Revolutionary Target. This is almost always the biggest chaos nation, meaning it will probably be either the Choas Dwarves or Norsca. We could force this to be one of the small chaos waste tribes instead if we wanted. The Center of Revolution spawns in their area, and they get the "Everchosen" Government Type.
-		2) The Everchosen Government type provides huge bonuses to military and conquest that diminish over 100 years (colonists, manpower, admin eff, power cost reduction). Possibly this is based on the 5th monarchists, and they can explode if criteria are not met.
-		3) The Everchosen spreads the revolution through conquest and the Center of Revolution.
-		4) Countries get disaster ticks if they are a ruinous powe religion, or if they have a revolution in their provinces. If the disaster fires, it's similar to the revolution disaster: rebels and possibility to switch to the "End Times Bringer" government type. If you are adjacent to the Everchosen, you can also choose to avoid the disaster and just become a Chaos Nation and become a dominion of the Everchosen and take their religion. All provinces with revolution flip as well?
-		5) Another revolutionary nation could technically claim the title of Everchosen and take the Revolutionary Target. The only way this is likely to happen is if a major power flips.
-		6) Non end-times nations can embrace the counter "revolution" in the normal way.
-		7) Non-"revolutionary" nations get the "crush the revolution" cb. The "Dismantle the revolution" peace term removes all the revolution/choas corruption. On success, end times over!
-
-		Devastation just for being near him?
-
-		Make them an end game tag? Make them form a new nation, black?
-
-		Make the Chaos gate range really high, but a really high factor for same continent
-
-		Multiple gate creation not working
-				Decision to destroy a Chaos Gate if you control an area?
-
-		Prevent everchosen from converting?
-
-		Backup to end the endtimes if the everchosen is gone
-
-
-
-
-Vampiric End Times
-	Need to figure out Nagash - Maybe 4 additional missions for all vampiric nations to ressurect Nagash?
-
-Orc End Times?
-
-Old Ones End Times?
 
 #############################
 ###### NATIONS ######
@@ -239,6 +229,7 @@ Wood Elves
 
 Dark Elf
 	Need a little more oomph here. Make the religion more interesting?
+	Protestant Aspects?
 
 
 High Elves
@@ -248,6 +239,7 @@ High Elves
 			Can't stop using while at war
 			Stability cost to stop using
 			Disaster if using for too long
+	Protestant Aspects?
 
 
 Lizards

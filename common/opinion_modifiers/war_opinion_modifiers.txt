@@ -30,10 +30,18 @@ ravaged_border = {
 }
 
 
-### Sylvanian Tolerance
+### Vampiric Tolerance
 
 diplomatic_tolerance = {
 	opinion = 100
 	yearly_decay = 1
 	min = 0
 }
+
+
+### Converted Us Peacefully
+
+showed_us_the_truth = {
+	opinion = 50
+}
+
