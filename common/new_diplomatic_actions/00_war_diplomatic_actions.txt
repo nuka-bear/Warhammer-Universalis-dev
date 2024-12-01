@@ -323,6 +323,21 @@ offer_dominion_action = {
 				value = -0.15
 			}
 		}
+
+		add_entry = {
+			name = OUR_TOTAL_DEVELOPMENT
+			export_to_variable = {
+				variable_name = ai_value
+				value = total_development
+				who = ROOT
+			}
+			#4 dev = -1
+			multiply_variable = {
+				which = ai_value
+				value = 0.10
+			}
+		}
+
 		add_entry = {
 			name = DIPLO_HAS_AI_HAS_OWN_SUBJECTS_TT
 			limit = {
@@ -483,31 +498,76 @@ war_diplo_convert_to_religion = {
         }
 
 		add_entry = {
+			name = BASE_CONVERT_RESIST
+			limit = { always = yes }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -50 }
+		}
+
+		add_entry = {
 			name = MANY_MISSIONARIES
 			limit = { num_of_missionaries = 4 }
 			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = 15 }
+			multiply_variable = { which = ai_value value = 20 }
+		}
+
+		add_entry = {
+			name = THEY_HAVE_MANY_MISSIONARIES
+			limit = { FROM  = { num_of_missionaries = 4 } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -20 }
+		}
+
+		add_entry = {
+			name = SPREAD_VAMPRISM_MODIFIER_1
+			limit = { has_country_modifier = vampire_spread_vamprisim }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = 10 }
+		}
+
+		add_entry = {
+			name = SPREAD_VAMPRISM_MODIFIER_2
+			limit = { has_country_modifier = vampire_spread_vamprisim_2 }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = 10 }
 		}
 
 		add_entry = {
 			name = CAPITAL_RELIGION
 			limit = { FROM = { capital_scope = { religion = ROOT } } }
 			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = 15 }
+			multiply_variable = { which = ai_value value = 40 }
 		}
 
 		add_entry = {
 			name = BAD_UNITY
 			limit = { FROM = { NOT = { religious_unity = 0.80 } } }
 			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = 15 }
+			multiply_variable = { which = ai_value value = 20 }
 		}
 
 		add_entry = {
 			name = REALLY_BAD_UNITY
 			limit = { FROM = { NOT = { religious_unity = 0.50 } } }
 			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = 15 }
+			multiply_variable = { which = ai_value value = 20 }
+		}
+
+		add_entry = {
+			name = BOTH_IN_EMPIRE
+			limit = {
+				FROM = { is_part_of_hre = yes }
+				ROOT = { is_part_of_hre = yes }
+			}
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = 10 }
+		}
+
+		add_entry = {
+			name = WE_ARE_MARRIED
+			limit = { FROM = { marriage_with = ROOT } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = 10 }
 		}
 
 		add_entry = {
@@ -558,7 +618,7 @@ war_diplo_convert_to_religion = {
 			#1 rep = 3
 			multiply_variable = {
 				which = ai_value
-				value = 5
+				value = 10
 			}
 		}
 
@@ -602,6 +662,22 @@ war_diplo_convert_to_religion = {
 				value = -0.15
 			}
 		}
+
+		add_entry = {
+			name = OUR_TOTAL_DEVELOPMENT
+			export_to_variable = {
+				variable_name = ai_value
+				value = total_development
+				who = ROOT
+			}
+			#4 dev = -1
+			multiply_variable = {
+				which = ai_value
+				value = 0.10
+			}
+		}
+
+
 		add_entry = {
 			name = DIPLO_HAS_AI_HAS_OWN_SUBJECTS_TT
 			limit = {

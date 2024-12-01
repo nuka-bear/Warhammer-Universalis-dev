@@ -12,7 +12,13 @@ war_diplo_convert_to_religion_tooltip: "Convert them to our religion.\nImprove t
 BAD_UNITY:0 "They have poor religious unity"
 REALLY_BAD_UNITY:0 "They have extremely poor religious unity"
 MANY_MISSIONARIES:0 "We have have at least four missionaries"
+THEY_HAVE_MANY_MISSIONARIES:0 "They have at least four missionaries"
 CAPITAL_RELIGION:0 "They already have our religion in their capital!"
+BOTH_IN_EMPIRE:0 "They are a fellow member of the empire"
+WE_ARE_MARRIED:0 "We have a marriage."
+SPREAD_VAMPRISM_MODIFIER_1:0 "Infiltrating Influence"
+SPREAD_VAMPRISM_MODIFIER_2:0 "Widespread Corruption"
+OUR_TOTAL_DEVELOPMENT:0 "Our development"
 
 # tooltip_offer_dominion_alert_tooltip:0 "We can convert a friend to our religion."
 

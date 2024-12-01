@@ -287,15 +287,13 @@ gen_war_empire_general = {
 
 		effect = {
 			every_ally = {
-				ROOT = {
-					add_trust = {
-				    	who = PREV
-				    	value = 15
-					}
-					add_favors = {
-				    	who = PREV
-				    	value = 15
-					}
+				add_trust = {
+			    	who = ROOT
+			    	value = 15
+				}
+				add_favors = {
+			    	who = ROOT
+			    	value = 15
 				}
 			}
 		}

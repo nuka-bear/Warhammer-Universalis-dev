@@ -81,10 +81,7 @@ gen_war_vampire_religion = {
 
 		trigger = {
 			all_neighbor_province = {
-				OR = {
-					religion = ROOT
-					is_sea = yes
-				}
+				religion = ROOT
 			}
 		}
 

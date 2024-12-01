@@ -26,11 +26,9 @@ GFX
 ###### RANDOM TO DOS ######
 #############################
 
-	Prov 593, 762, 789 in wrong physical place
+	Prov 593, 762, 789, 134 in wrong physical place
 
 	End times stuff based on Chaos Gate
-
-	Some relationship between racial administration and culture of individual province?
 
 	Balance Mission Rewards
 
@@ -56,6 +54,11 @@ GFX
 
 	Sylvania National Ideas
 
+	Make the convert them idea also give a modifier that makes them vote for you? Or just an opinion modifier?
+		Gives them our dynasty as well?
+
+	Make Ghaz Decision visible if you are in the hre
+
 #############################
 ###### Confirm ######
 #############################
@@ -68,6 +71,8 @@ GFX
 
 	end_times_events.2000 should trigger for everybody to let them know the end times have ended, with unique effects
 		test the end of the end times on all receipient sides
+
+	Empire alliance reward now properly gives trust and favors?
 
 #############################
 ######## FUTURE STUFF #######
@@ -87,6 +92,8 @@ GFX
 	Is it possible to be both a race and undead? Undead human, undead orc? And gain both the racial and undead adm/military qualities
 
 	Panama Canal
+
+	Some relationship between racial administration and culture of individual province?
 
 	Adjust Age Bonuses and Localization for Age bonuses
 
