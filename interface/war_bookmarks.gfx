@@ -11,6 +11,11 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
+		name = "GFX_bookmark_image_the_new_world"
+		texturefile = "gfx//interface//bookmarks//bookmark_image_the_new_world.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
 		name = "GFX_bookmark_image_the_southlands"
 		texturefile = "gfx//interface//bookmarks//bookmark_image_the_southlands.dds"
 		loadType = "INGAME"

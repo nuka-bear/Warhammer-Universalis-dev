@@ -189,5 +189,6 @@ convert_a_province_to_cytharai_tt:0 "§VA Cytharai cult appears.§!"
 convert_a_province_to_asrai_cadai_tt:0 "§GAn Asrai Cadai§ cult appears.§!"
 
 ELVEN_ASPECTS:0 "Elven Blessings"
-ELVEN_ASPECTS_LONG:0 "The blessings of the many elven gods are manifold. Choose a god favored by another race of elves, and you will suffer some small heresy. Choose wisely."
+ELVEN_ASPECTS_POWER_NAME:0 "Church Power"
+ELVEN_ASPECTS_LONG:0 "Elven Blessing"
 ELVEN_ASPECTS_SHORT:0 "Elven Blessings"

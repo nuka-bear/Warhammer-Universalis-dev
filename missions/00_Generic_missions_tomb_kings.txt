@@ -528,7 +528,7 @@ gen_nehekharan_pantheon_missions = {
 				name = nagash_ritual
 				duration = 3650
 			}
-			864 = {
+			871 = {
 				add_great_project_tier = {
 					type = black_pyramid_of_nagash
 					tier = -1
@@ -589,7 +589,7 @@ gen_nehekharan_pantheon_missions = {
 				name = nagash_ritual
 				duration = -1
 			}
-			864 = {
+			871 = {
 				add_great_project_tier = {
 					type = black_pyramid_of_nagash
 					tier = -1

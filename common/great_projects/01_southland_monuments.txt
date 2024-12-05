@@ -1842,7 +1842,7 @@ tomb_of_settra = {
 
 black_pyramid_of_nagash = {
 	# province it starts in
-	start = 864
+	start = 871
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 01.01.01

@@ -45,7 +45,7 @@
 	 				OR = {
 	 					860 = { controller = { NOT = { culture_group = nehekharan_group } } }
 	 					862 = { controller = { NOT = { culture_group = nehekharan_group } } }
-	 					864 = { controller = { NOT = { culture_group = nehekharan_group } } }
+	 					871 = { controller = { NOT = { culture_group = nehekharan_group } } }
 	 				}
 	 			}
 

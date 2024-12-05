@@ -106,12 +106,14 @@ death_crossing_pm = {
 
 entrance_underempire = {
 	local_friendly_movement_speed = 10000.0
+	local_hostile_movement_speed = 10000.0
 	trade_goods_size = 0.02
 	picture = "underway"
 }
 
 exit_underempire = {
 	local_friendly_movement_speed = 10000.0
+	local_hostile_movement_speed = 10000.0
 	trade_goods_size = 0.02
 	picture = "underway"
 }

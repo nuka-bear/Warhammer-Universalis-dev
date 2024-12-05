@@ -1,6 +1,29 @@
 
 JG To Do & Thoughts
 
+#### Warhammer Fantasy Universalis ####
+
+
+
+WFU is a total overhaul mod bringing Warhammer Fantasy into EU4. It features hundreds of custom nations, thousands of provinces, and all new mechanics to bring the world of Warhammer to life. Play as your favorite factions and complete custom mission trees, seek out powerful artifacts, and fight against (or become) the Everchosen during the End Times!
+
+The 1.0 release is a fully-functional gameplay experience. Every culture, religion, and races has unique mission trees and abilities, with an endgame threat in the End Times. Highlights include:
+
+- Face the Everychosen in the End Times as Chaos Corruptions spreads (or earn the mantle for yourself).
+- Steal powerful artifacts like the Ghal Maraz or Ring of Carstein.
+- Turn the empire Vampiric through espionage, diplomacy, and warfare.
+- Take advantage of unique racial bonuses, penalties, units, and terrain synergies.
+- Ressurect Nagash by searching the world for Necromantic talismans.
+- Raid your neighbors and destroy their development - you don't want that filthy human land anyway.
+- Kipnap-steal Greyseers for your own use-purpose, and ravage-burn neighboring lands as Skaven.
+- Keep warring dominions unified as the Cathayan emperor - or take the crown for yourself as a minor faction.
+- And so much more!
+
+Play out your Warhammer and EU4 fantasies in Warhammer Fantasy Universalis!
+
+Join the discord here: https://discord.gg/n5EDPWRj
+
+
 
 #############################
 ###### FINISHING UP ######
@@ -19,13 +42,14 @@ Everybody!
 ###### RANDOM TO DOS ######
 #############################
 
-
 	WHAT IF RACIAL RAIDING IS AN END OF WAR PEACE OFFERING?
 		THAT TAKES 75 WARSCORE?
 
-	Make all missions harder
+	Missions
+		Make all missions a little harder
 		Balance Mission Rewards
 		Make Beacon of power harder
+		For highlighted provinces in missions, only highlight the ones you need, not also the ones you have
 
 	Prov 593, 762, 789, 134 in wrong physical place
 
@@ -35,43 +59,40 @@ Everybody!
 		Maybe fewer accepted races, but better results from them
 
 	Make racial rewards a little less?
-
-	New World Bookmark Mission Image -  Not working!
  
 	Go on a quest decision - take your ruler to a randomly set province on a different continent, maybe fight a rebel army there.
 
-	"The world moves too fast event"
+	"The world moves too fast event" causes two stab loss?
 
-	Tomb kings should also get resurrect nagash - probably anybody with an undead administration
-
-	Tomb king mission for advisor makes him 150% cheaper.
-
-	Change enslave the living to anybody without undead administration
-
-	Move the black pyramid from 874 to 871
-		Look for anythign that references 874
+	Tomb King Mission
+		Tomb king mission for advisor makes him 150% cheaper.
+		Change enslave the living to anybody without undead administration
 
 	Make release dominion action (that AI never do)
 
-	For highlighted provinces in missions, only highlight the ones you need, not also the ones you have
+	Lizardfolk Holy Site gfx
+
+	Subjects don't do racial raiding!
+
+	Adjust Seer Council action localization and images
+
+	Simplify Skaven - Lower Discipline, Lower Morale?
+
+	Decadence comes with age - too penalizing? Half the costs? or get rid of them, or give it a choice
 
 #############################
 ###### Confirm ######
 #############################
 
-	High elf aspect gfx
-
 	Change Chaos Gate icon
+
+	ALL THOSE UNDERGROUND TUNNELS GIVE FRIENDLY MOVEMENT - THEY SHOULD GIVE FRIENDLY AND HOSTILE!
 
 	End times
 		End the end times peace offering should only come up when applicable
 		Need a backup end times events that will trigger if the chaos gate is gone.
 		end_times_events.2000 should trigger for everybody to let them know the end times have ended, with unique effects
 			test the end of the end times on all receipient sides
-
-	Adjust Event Pictures: https://eu4.paradoxwikis.com/List_of_event_pictures
-
-	Empire alliance reward now properly gives trust and favors?
 
 	Fix Monstrous Unit Cost?
 
@@ -82,6 +103,8 @@ Everybody!
 #############################
 
 	Many more cultures!
+
+	Add Non-accepted culture governing cost increase back in - local_governing_cost = 1.0 ?
 
 	Fix HRE gfx (hre.gui)
 
