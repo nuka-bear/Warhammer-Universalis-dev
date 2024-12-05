@@ -8,6 +8,8 @@ war_diplo_convert_to_religion_title: "Convert Them"
 war_diplo_convert_to_religion_desc: "Convert them to our religion.\nImprove these chances by improving relations, trust, favors, and diplomatic reputation. If they have poor religious unity, you have 4 or more missionaries, or their capital is your religion, then they are more likely to accept."
 war_diplo_convert_to_religion_tooltip: "Convert them to our religion.\nImprove these chances by improving relations, trust, favors, and diplomatic reputation. If they have poor religious unity, you have 4 or more missionaries, or their capital is your religion, then they are more likely to accept."
 
+showed_us_the_truth:0 "Showed us the Truth"
+showed_us_the_truth_desc:0 "They showed us the true nature of the universe."
 
 BAD_UNITY:0 "They have poor religious unity"
 REALLY_BAD_UNITY:0 "They have extremely poor religious unity"
@@ -35,4 +37,15 @@ desc_hidden_cult:0 "A secret cult thrives in the shadows, quietly sowing discord
  implant_cult_title:0 "Implant Cult"
  implant_cult_desc:0 "Implant a cult to your religion in one of their provinces. This cult will be protected and cause unrest for two years before the enthusiasm dried up. The province will remain your religion until converted back."
  implant_cult_tooltip:0 "Implant a cult to your religion in one of their provinces. This cult will be protected and cause unrest for two years before the enthusiasm dried up. The province will remain your religion until converted back."
+
+
+#####
+
+pr_campaign_dip_action:0 "Sway our Citizens"
+pr_campaign_dip_action_title:0 "Sway our Citizens"
+pr_campaign_dip_action_desc:0 "Convince our own citizens to value the friendship of this nation, increasing OUR opinion of THEM. Useful when forging alliances with nations of opposite alignments."
+pr_campaign_dip_action_tooltip:0 "Convince our own citizens to value the friendship of this nation, increasing OUR opinion of THEM. Useful when forging alliances with nations of opposite alignments."
+
+pr_campaign_modifier:0 "Swayed our Citizens"
+pr_campaign_modifier_desc:0 "Swayed our own nation's citizens to appreciate this nation."
 

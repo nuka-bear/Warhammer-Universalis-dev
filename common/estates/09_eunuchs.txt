@@ -5,11 +5,10 @@ estate_eunuchs = {
 
 	# If true, country will get estate
 	trigger = {
-		always = no
-		has_dlc = "Domination"
 		NOT = { has_disabled_estate = { estate = estate_eunuchs } }
 		OR = {
 			has_enabled_estate = { estate = estate_eunuchs }
+			culture_group = cathayan_cg
 			is_emperor_of_china = yes 
 			AND = {
 				has_unlocked_estate = { estate = estate_eunuchs }

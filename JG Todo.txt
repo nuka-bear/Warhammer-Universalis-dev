@@ -14,71 +14,68 @@ Everybody!
 	Special Religious mechanic
 	Switch up multiple different gov types and religions for each area.
 
-GFX
-	Stuff surrounding Chaos Centers of Reformation
-		This kind of works? But change it back and just fix the religion icons
-	Advisors
-	Religious Advisor Icons
-		Do while watching something?
-	Event Pictures: https://eu4.paradoxwikis.com/List_of_event_pictures
 
 #############################
 ###### RANDOM TO DOS ######
 #############################
 
+
+	WHAT IF RACIAL RAIDING IS AN END OF WAR PEACE OFFERING?
+		THAT TAKES 75 WARSCORE?
+
+	Make all missions harder
+		Balance Mission Rewards
+		Make Beacon of power harder
+
 	Prov 593, 762, 789, 134 in wrong physical place
 
-		Balance Mission Rewards
+	Give the racial admin tooltips that also explain the terrain thing
 
-	Add Protestant Aspects to Dark and High Elf Religion
-		https://whfb.lexicanum.com/wiki/Elf_pantheon
+	Hashut missions are a little strange
+		Maybe fewer accepted races, but better results from them
 
 	Make racial rewards a little less?
 
-	Fix HRE gfx (hre.gui)
-
-	Make Everchosen A Theocracy to make it stickier?
-
-	Old World Pantheons and Enlightened Path are missing GFX
-		Should Old World Pantheons be something different from the Kisleve old world religions, or druidism?
-
 	New World Bookmark Mission Image -  Not working!
+ 
+	Go on a quest decision - take your ruler to a randomly set province on a different continent, maybe fight a rebel army there.
+
+	"The world moves too fast event"
+
+	Tomb kings should also get resurrect nagash - probably anybody with an undead administration
+
+	Tomb king mission for advisor makes him 150% cheaper.
+
+	Change enslave the living to anybody without undead administration
+
+	Move the black pyramid from 874 to 871
+		Look for anythign that references 874
+
+	Make release dominion action (that AI never do)
+
+	For highlighted provinces in missions, only highlight the ones you need, not also the ones you have
 
 #############################
 ###### Confirm ######
 #############################
 
-	Goblin 8 Peaks Adj
+	High elf aspect gfx
 
-	Make all Missions Harder?
-		Make all "At war with" missions to "won war against" missions
-			(araby for example)
-			at_war_with_religious_enemy	= yes
+	Change Chaos Gate icon
 
-			any_country = {
-				NOT = { religion = ROOT }
-				ROOT = {
-					has_won_war_against = {
-						who = PREV
-						max_years_since = 10
-					}
-				}
-			}
+	End times
+		End the end times peace offering should only come up when applicable
+		Need a backup end times events that will trigger if the chaos gate is gone.
+		end_times_events.2000 should trigger for everybody to let them know the end times have ended, with unique effects
+			test the end of the end times on all receipient sides
 
-	End the end times peace offering should only come up when applicable
-
-	Need a backup end times events that will trigger if the chaos gate is gone.
-
-	end_times_events.2000 should trigger for everybody to let them know the end times have ended, with unique effects
-		test the end of the end times on all receipient sides
-
-	End times stuff based on Chaos Gate
+	Adjust Event Pictures: https://eu4.paradoxwikis.com/List_of_event_pictures
 
 	Empire alliance reward now properly gives trust and favors?
 
 	Fix Monstrous Unit Cost?
 
-	Sylvania National Ideas
+	Add Uzkulak Canal picture
 
 #############################
 ######## FUTURE STUFF #######
@@ -86,12 +83,26 @@ GFX
 
 	Many more cultures!
 
+	Fix HRE gfx (hre.gui)
+
+	Make Everchosen A Theocracy to make it stickier?
+
+	"Canals" from the Oak to other places
+
+	Add 3 advisors gfx per race + 1 female one
+
+	Make Lizardfolk Enlightened Path = Harmony? Or give it a unique GFX
+
 	Age Bonuses
 		Be a Ruinous power with over 200 development
 		or
 		Be at war with a Ruinous power
 
 	Event for a high elf country to go dark elf
+
+	Add Panama Canal
+	Disaster and event series for high elves to unify and fight off invaders if they land in ulthuan. number of provinces owned by a nation not of the right religion or culture.
+		Or just an event that encourages high elves to do it - if you declar war, you get prestige and more trust and love with everybody else on the island.
 
 	End Times Drama
 		Being next to the everchosen (or any chaos dude) makes rebels spawn in that province?
@@ -111,8 +122,6 @@ GFX
 	Convert Them
 
 	Is it possible to be both a race and undead? Undead human, undead orc? And gain both the racial and undead adm/military qualities
-
-	Panama Canal
 
 	Some relationship between racial administration and culture of individual province?
 
@@ -199,13 +208,11 @@ Kislev
 		Unrest and can't declare wars until it's sorted?
 	Fix Icons for the ursun religion
 
-
 Skaven
 	Betray special diplomatic action?
 	Ultimate is all warp stone at a certain development for weapon of mass destruction decision to nuke enemies
 	Give them access to all the diplomatic actions early
 	How to make these two actions not require a diplomat?
-	Put all the Skaven Capitals in the underdark - makes diplomacy easier
 	Form the underempire as skaven starts the vermintide, similar to everchosen mechanic
 
 
@@ -220,17 +227,10 @@ Empire
 
 
 Vampires
-	Vampire, get three vampire relics (Carstein Ring, Staff of Nagash, Jadeblooded thing at 2905) to ressurect Nagash and start their own endtimes
-
 
 Wood Elves
-	Land movement between centers of each wood - Just if it's owned by wood elves?
-
 
 Dark Elf
-	Need a little more oomph here. Make the religion more interesting?
-	Protestant Aspects?
-
 
 High Elves
 	Need a little more oomph here

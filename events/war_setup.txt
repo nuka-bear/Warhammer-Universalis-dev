@@ -389,6 +389,9 @@ country_event = {
 				NOT = { technology_group = tech_hobgoblin }
 				NOT = { technology_group = tech_orcish }
 				NOT = { technology_group = tech_eastern_greenskin }
+				NOT = { technology_group = tech_eastern_undead }
+				NOT = { technology_group = tech_vampire_count }
+				NOT = { technology_group = tech_tomb_kings }
 			}
 
 			every_owned_province = { 

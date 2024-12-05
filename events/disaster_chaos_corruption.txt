@@ -13,8 +13,8 @@ country_event = {
 	id = chaos_corruption_events.2
 	title = chaos_corruption_events.2.t
 	desc = chaos_corruption_events.2.d
-	picture = ARTWORK_eventPicture
-	
+	picture = EP_POLYNESIAN_DANCES_eventPicture
+
 	is_triggered_only = yes
 	
 	trigger = {
@@ -52,7 +52,8 @@ country_event = {
 	id = chaos_corruption_events.3
 	title = chaos_corruption_events.3.t
 	desc = chaos_corruption_events.3.d
-	picture = ARTWORK_eventPicture
+	picture = PLAGUE_eventPicture
+
 	
 	is_triggered_only = yes
 	
@@ -89,7 +90,8 @@ country_event = {
 	id = chaos_corruption_events.4
 	title = chaos_corruption_events.4.t
 	desc = chaos_corruption_events.4.d
-	picture = ARTWORK_eventPicture
+	picture = HORDE_ON_HORSEBACK_eventPicture
+
 	
 	is_triggered_only = yes
 	
@@ -126,7 +128,8 @@ country_event = {
 	id = chaos_corruption_events.5
 	title = chaos_corruption_events.5.t
 	desc = chaos_corruption_events.5.d
-	picture = ARTWORK_eventPicture
+	picture = REVOLUTION_eventPicture
+
 	
 	is_triggered_only = yes
 	
@@ -164,7 +167,8 @@ country_event = {
 	id = chaos_corruption_events.5
 	title = chaos_corruption_events.5.t
 	desc = chaos_corruption_events.5.d
-	picture = ARTWORK_eventPicture
+	picture = DEFENESTRATION_PRAGUE_eventPicture
+
 	
 	is_triggered_only = yes
 	

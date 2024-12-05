@@ -221,6 +221,7 @@ old_world_denominations = {
 			cult_of_sigmar
 			cult_of_ulric_religion
 			cult_of_taal_religion
+			old_world_cults_religion
 			vampiric
 		}	
 		allow_female_defenders_of_the_faith = yes
@@ -341,6 +342,7 @@ old_world_denominations = {
 			cult_of_sigmar
 			cult_of_ulric_religion
 			cult_of_taal_religion
+			old_world_cults_religion
 			vampiric
 			kislev_old_faith
 		}	
@@ -589,6 +591,7 @@ old_world_denominations = {
 			cult_of_sigmar
 			cult_of_ulric_religion
 			cult_of_taal_religion
+			old_world_cults_religion
 			vampiric
 		}
 		misguided_heretic = yes
@@ -702,6 +705,7 @@ old_world_denominations = {
 			cult_of_sigmar
 			cult_of_ulric_religion
 			cult_of_taal_religion
+			old_world_cults_religion
 			vampiric
 		}	
 		heretic = {
@@ -813,6 +817,7 @@ old_world_denominations = {
 			cult_of_sigmar
 			cult_of_ulric_religion
 			cult_of_taal_religion
+			old_world_cults_religion
 			vampiric
 		}	
 		heretic = {
@@ -2282,12 +2287,48 @@ elven_denominations = {
 			advisor_cost = -0.1	
 		}
 		country_as_secondary = {
-			development_cost = -0.1
+			tolerance_heretic = 2
 			diplomats = 1
 		}
 		heretic = {
 			ASRAI_HERETICS
 		}
+
+		uses_church_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+			asuryan_aspect
+			hoeth_aspect
+			isha_aspect
+			kurnous_aspect
+			ladrielle_aspect
+			lileath_aspect
+			loec_aspect
+			vaul_aspect
+			addaioth_aspect
+			anath_raema_aspect
+			atharti_aspect
+			drakira_aspect
+			eldrazor_aspect
+			ellinill_aspect
+			ereth_khial_aspect
+			estreuth_aspect
+			hekarti_aspect
+			hukon_aspect
+			khaine_aspect
+			mathlann_aspect
+			nethu_aspect
+			ariel_aspect
+			durthu_aspect
+			orion_aspect
+			loirath_aspect
+			oak_aspect
+			glade_aspect
+			stream_aspect
+		}
+		aspects_name = ELVEN_ASPECTS
+
+
+
 		on_convert = {
 			hidden_effect = {
 				every_country = {
@@ -2394,6 +2435,38 @@ elven_denominations = {
 			land_morale = 0.05
 			advisor_cost = -0.1
 		}
+		uses_church_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+			asuryan_aspect
+			hoeth_aspect
+			isha_aspect
+			kurnous_aspect
+			ladrielle_aspect
+			lileath_aspect
+			loec_aspect
+			vaul_aspect
+			addaioth_aspect
+			anath_raema_aspect
+			atharti_aspect
+			drakira_aspect
+			eldrazor_aspect
+			ellinill_aspect
+			ereth_khial_aspect
+			estreuth_aspect
+			hekarti_aspect
+			hukon_aspect
+			khaine_aspect
+			mathlann_aspect
+			nethu_aspect
+			ariel_aspect
+			durthu_aspect
+			orion_aspect
+			loirath_aspect
+			oak_aspect
+			glade_aspect
+			stream_aspect
+		}
+		aspects_name = ELVEN_ASPECTS
 		on_convert = {
 			hidden_effect = {
 				every_country = {
@@ -2500,6 +2573,40 @@ elven_denominations = {
 			same_culture_advisor_cost = -0.10
 			defensiveness = 0.15
 		}
+		uses_church_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+			asuryan_aspect
+			hoeth_aspect
+			isha_aspect
+			kurnous_aspect
+			ladrielle_aspect
+			lileath_aspect
+			loec_aspect
+			vaul_aspect
+			addaioth_aspect
+			anath_raema_aspect
+			atharti_aspect
+			drakira_aspect
+			eldrazor_aspect
+			ellinill_aspect
+			ereth_khial_aspect
+			estreuth_aspect
+			hekarti_aspect
+			hukon_aspect
+			khaine_aspect
+			mathlann_aspect
+			nethu_aspect
+			ariel_aspect
+			durthu_aspect
+			orion_aspect
+			loirath_aspect
+			oak_aspect
+			glade_aspect
+			stream_aspect
+		}
+		aspects_name = ELVEN_ASPECTS
+
+
 		on_convert = {
 			hidden_effect = {
 				every_country = {
@@ -3899,7 +4006,7 @@ lizardmen_denominations = {
 		}
 	}
 	enlightened_path = {
-		icon = 1
+		icon = 29
 		color = {
 			124 244 254 
 		}

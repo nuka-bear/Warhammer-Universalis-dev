@@ -103,8 +103,8 @@
  ########################################
  #Old World Pantheon#
  ########################################
- old_world_cults_religion:0 "Old World Pantheon"
- old_world_cults_religion_religion_desc:0 "The Old World Pantheon refers to a collection of deities worshipped by the realms of Mankind on the Old World continent.\n\nIn the game this religion is used to cover a wide variety of cults praciticed by denizens of the old world."
+ old_world_cults_religion:0 "Imperial Pantheon"
+ old_world_cults_religion_religion_desc:0 "The Imperial Pantheon refers to a unification of the worship of a collection of deities worshipped by the Empire."
  old_world_cults_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
  old_world_cults_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
  old_world_cults_religion_rebels_title:0 "Religious"
@@ -264,7 +264,7 @@
  greenskin_denominations:0 "Greenskin Faiths"
  
  gork_n_mork_religion:0 "Gork n' Mork"
- gork_n_mork_religion_religion_desc:0 "Gork and Mork are the twin Gods of the Greenskin race, each one representing two of the most defining characteristics of the Orcs and Goblins. In the Greenskins use of words, Gork is brutally cunning, while Mork is cunningly brutal. The core "difference" between the two is that Mork will hit you when you aren't looking, while Gork will hit you harder when you are.\n\nIn game this religion represents the religious beliefs of the greenskins"
+ gork_n_mork_religion_religion_desc:0 "Gork and Mork are the twin Gods of the Greenskin race, each one representing two of the most defining characteristics of the Orcs and Goblins. In the Greenskins use of words, Gork is brutally cunning, while Mork is cunningly brutal. The core "difference" between the two is that Mork will hit you when you aren't looking, while Gork will hit you harder when you are."
  gork_n_mork_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
  gork_n_mork_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
  gork_n_mork_religion_rebels_title:0 "Religious"

@@ -97,3 +97,97 @@ gen_cadai_unify_ulthuan_desc:0 "Ulthuan must be united under our banner. Only th
   asur_diplomatic_missions_tooltip:0 "Gain 5 trust and favors with all nations who know us."
 
 
+
+  ##### Elven REligion Aspects - for High, Dark, and Wood Elves
+
+  asuryan_aspect:0 "Blessing of Asuryan"
+desc_asuryan_aspect:0 "The Phoenix King, Asuryan, grants wisdom and order. His blessing reduces the cost of development, allowing prosperity to flourish."
+
+hoeth_aspect:0 "Blessing of Hoeth"
+desc_hoeth_aspect:0 "The Lorekeeper, Hoeth, blesses with insight and clarity. His guidance reduces the cost of adopting new ideas."
+
+ladrielle_aspect:0 "Blessing of Ladrielle"
+desc_ladrielle_aspect:0 "Ladrielle, the Lady of Mists, enhances trade with her unseen hand. Her blessing increases global trade power, enriching the realm."
+
+lileath_aspect:0 "Blessing of Lileath"
+desc_lileath_aspect:0 "The Maiden of Dreams, Lileath, brings hope and renewal. Her blessing increases global tax efficiency, uplifting her followers' spirits."
+
+loec_aspect:0 "Blessing of Loec"
+desc_loec_aspect:0 "Loec, the Trickster God, sows harmony through his mischievous influence. His blessing reduces unrest, ensuring stability in the realm."
+
+vaul_aspect:0 "Blessing of Vaul"
+desc_vaul_aspect:0 "Vaul, the Smith God, strengthens the hands of craftsmen. His blessing increases production efficiency, driving economic growth."
+
+addaioth_aspect:0 "Blessing of Addaioth"
+desc_addaioth_aspect:0 "The Warden of Fire, Addaioth, sharpens the discipline of armies. His blessing improves combat effectiveness, forging disciplined warriors."
+
+anath_raema_aspect:0 "Blessing of Anath Raema"
+desc_anath_raema_aspect:0 "Anath Raema, the Savage Huntress, grants unrelenting speed and ferocity. Her blessing increases army movement speed, enabling swift action."
+
+atharti_aspect:0 "Blessing of Atharti"
+desc_atharti_aspect:0 "Atharti, the Mistress of Desire, spreads her influence far and wide. Her blessing enhances missionary strength, spreading faith effectively."
+
+drakira_aspect:0 "Blessing of Drakira"
+desc_drakira_aspect:0 "Drakira, the Goddess of Spite, rewards ambition. Her blessing increases prestige, cementing the glory of the realm."
+
+eldrazor_aspect:0 "Blessing of Eldrazor"
+desc_eldrazor_aspect:0 "Eldrazor, the Warlord God, tempers the strength of infantry. His blessing increases their combat power, ensuring dominance in battle."
+
+ellinill_aspect:0 "Blessing of Ellinill"
+desc_ellinill_aspect:0 "Ellinill, the Shadow God, brings clarity and resolve. His blessing reduces the cost of maintaining stability, ensuring balanced governance."
+
+ereth_khial_aspect:0 "Blessing of Ereth Khial"
+desc_ereth_khial_aspect:0 "Ereth Khial, the Keeper of the Dead, grants honor in victory. Her blessing increases prestige gained from land battles, exalting her champions."
+
+estreuth_aspect:0 "Blessing of Estreuth"
+desc_estreuth_aspect:0 "Estreuth, the Protector, alleviates the burdens of war. His blessing reduces war exhaustion, allowing resilience in prolonged conflicts."
+
+hekarti_aspect:0 "Blessing of Hekarti"
+desc_hekarti_aspect:0 "Hekarti, Mistress of Magic, lightens the burden of command. Her blessing reduces the cost of recruiting leaders, ensuring capable leadership."
+
+hukon_aspect:0 "Blessing of Hukon"
+desc_hukon_aspect:0 "Hukon, the Builder God, fosters ingenuity and growth. His blessing reduces development costs, aiding the expansion of cities."
+
+khaine_aspect:0 "Blessing of Khaine"
+desc_khaine_aspect:0 "Khaine, the Bloody-Handed God, fuels relentless fervor. His blessing enhances land morale, inspiring warriors to unmatched ferocity."
+
+mathlann_aspect:0 "Blessing of Mathlann"
+desc_mathlann_aspect:0 "Mathlann, Lord of the Seas, protects his vessels. His blessing increases ship durability, ensuring dominance over the waves."
+
+nethu_aspect:0 "Blessing of Nethu"
+desc_nethu_aspect:0 "Nethu, the Silent Wanderer, lessens the toll of the march. His blessing reduces land attrition, safeguarding armies on their journeys."
+
+isha_aspect:0 "Blessing of Isha"
+desc_isha_aspect:0 "Isha, the Mother Goddess, heals the wounds of her children. Her blessing increases manpower recovery speed, fortifying the realm's vitality."
+
+kurnous_aspect:0 "Blessing of Kurnous"
+desc_kurnous_aspect:0 "Kurnous, the Hunter, imbues his followers with courage and tenacity. His blessing boosts both land and naval morale, inspiring warriors to greater feats."
+
+ariel_aspect:0 "Blessing of Ariel"
+desc_ariel_aspect:0 "Ariel, the Queen of Athel Loren, grants her followers the wisdom of balance and authority. Her blessing reduces local autonomy, ensuring a stronger, more united realm."
+
+durthu_aspect:0 "Blessing of Durthu"
+desc_durthu_aspect:0 "Durthu, the venerable Treeman, fortifies the boundaries of Athel Loren. His blessing enhances defensiveness, ensuring the safety of the forest’s heart."
+
+orion_aspect:0 "Blessing of Orion"
+desc_orion_aspect:0 "Orion, the King of the Wild Hunt, leads his warriors with unparalleled agility and skill. His blessing increases the maneuverability of army leaders, ensuring strategic dominance."
+
+loirath_aspect:0 "Blessing of Loirath"
+desc_loirath_aspect:0 "Loirath, the twilight spirit, instills a calm and steadying influence. Her blessing helps mitigate inflation, bringing economic stability to the realm."
+
+oak_aspect:0 "Blessing of the Oak of Ages"
+desc_oak_aspect:0 "The Oak of Ages, the soul of Athel Loren, inspires growth and renewal. Its blessing increases reform progress, allowing for the steady evolution of governance."
+
+glade_aspect:0 "Blessing of the Eternal Glades"
+desc_lade_aspect:0 "The Eternal Glades radiate harmony and purpose, inspiring leaders of all kinds. This blessing boosts legitimacy, republican tradition, devotion, horde unity, and meritocracy, unifying the realm under a shared ideal."
+
+stream_aspect:0 "Blessing of the Sacred Stream"
+desc_stream_aspect:0 "The Sacred Stream nurtures the land with its lifegiving waters. Its blessing accelerates prosperity growth, enriching the realm and its inhabitants."
+
+convert_a_province_to_cadai_tt:0 "§YA Cadai cult appears.§!"
+convert_a_province_to_cytharai_tt:0 "§VA Cytharai cult appears.§!"
+convert_a_province_to_asrai_cadai_tt:0 "§GAn Asrai Cadai§ cult appears.§!"
+
+ELVEN_ASPECTS:0 "Elven Blessings"
+ELVEN_ASPECTS_LONG:0 "The blessings of the many elven gods are manifold. Choose a god favored by another race of elves, and you will suffer some small heresy. Choose wisely."
+ELVEN_ASPECTS_SHORT:0 "Elven Blessings"

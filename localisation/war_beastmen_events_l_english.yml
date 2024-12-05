@@ -48,6 +48,8 @@
  no_old_gate_tooltip:0 "REPLACE_ME"
  fight_great_invasion_tooltip:0 "REPLACE_ME"
 
+ beastman_rebels_warband_name:0 "Beastman Rebels"
+
  defender_of_civilization:0 "Defender of Civilization"
  desc_defender_of_civilization:0 "We have destoried the Beastmen"
  waystone.1.t:0 "REPLACE_ME"

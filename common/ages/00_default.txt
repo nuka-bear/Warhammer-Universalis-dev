@@ -10,37 +10,37 @@ age_of_discovery = {
 	
 
 	objectives = {
-		obj_discover_america = {
-			allow = {
-				capital_scope = {
-					OR = {
-						continent = europe
-						continent = asia
-						continent = africa
-					}
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = obj_discover_america_tooltip
-					OR = {
-						north_america = { has_discovered = ROOT }
-						south_america = { has_discovered = ROOT }
-						new_world = { has_discovered = ROOT }
-					}
-				}
-		}
-		obj_100_development = {
-			allow = {
-				capital_scope = {
-					NOT = {
-						continent = europe
-						continent = asia
-						continent = africa
-					}
-				}
-			}
-			total_development = 100
-		}
+#		obj_discover_america = {
+#			allow = {
+#				capital_scope = {
+#					OR = {
+#						continent = europe
+#						continent = asia
+#						continent = africa
+#					}
+#				}
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = obj_discover_america_tooltip
+#					OR = {
+#						north_america = { has_discovered = ROOT }
+#						south_america = { has_discovered = ROOT }
+#						new_world = { has_discovered = ROOT }
+#					}
+#				}
+#		}
+#		obj_100_development = {
+#			allow = {
+#				capital_scope = {
+#					NOT = {
+#						continent = europe
+#						continent = asia
+#						continent = africa
+#					}
+#				}
+#			}
+#			total_development = 100
+#		}
 		
 		
 		

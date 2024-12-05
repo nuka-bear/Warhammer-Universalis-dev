@@ -324,15 +324,15 @@ diplomatic_missions = {
 		trigger = {
 			estate_loyalty = {
     			estate = estate_burghers
-    			loyalty = 60
+    			loyalty = 65
 			}
 			estate_loyalty = {
     			estate = estate_church
-    			loyalty = 60
+    			loyalty = 65
 			}
 			estate_loyalty = {
     			estate = estate_nobles
-    			loyalty = 60
+    			loyalty = 65
 			}
 			num_of_estate_agendas_completed = {
 				estate = estate_church

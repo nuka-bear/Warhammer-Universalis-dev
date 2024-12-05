@@ -745,4 +745,9 @@ spriteType = {
 		texturefile = "gfx//interface//great_projects//great_project_uzkulak_caravan_stop.dds"
 	}
 
+	spriteType = {
+		name = "GFX_great_project_uzkulak_canal"	
+		texturefile = "gfx//interface//great_projects//great_project_uzkulak_canal.dds"
+	}
+
 }

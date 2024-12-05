@@ -45,3 +45,9 @@ showed_us_the_truth = {
 	opinion = 50
 }
 
+pr_campaign_modifier = {
+	opinion = 100
+	yearly_decay = 5
+	min = 0
+}
+

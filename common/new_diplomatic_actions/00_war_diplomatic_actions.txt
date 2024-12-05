@@ -797,6 +797,7 @@ implant_cult = {
 		FROM = {
 			any_owned_province = {
 				NOT = { religion = ROOT }
+				is_reformation_center = no
 			}
 		}
 	}
@@ -811,7 +812,10 @@ implant_cult = {
     on_accept = {
     	FROM = { 
 	    	random_owned_province = {
-	    		limit = { NOT = { religion = ROOT } }
+	    		limit = {
+	    			NOT = { religion = ROOT }
+	    			is_reformation_center = no
+	    		}
 	    		change_religion = ROOT
 	    		add_province_modifier = { 
 				    name = hidden_cult
@@ -876,5 +880,6 @@ implant_cult = {
 		}
     }
 }
+
 
 

@@ -9,52 +9,56 @@
  	}
 
  	trigger = {
- 		OR = {
-
- 			AND = {
- 				culture_group = cathayan_cg 
- 				OR = {
- 					2838 = { controller = { NOT = { culture_group = cathayan_cg } } }
- 					2825 = { controller = { NOT = { culture_group = cathayan_cg } } }
- 					2826 = { controller = { NOT = { culture_group = cathayan_cg } } }
- 					2827 = { controller = { NOT = { culture_group = cathayan_cg } } }
- 				}
- 			}
-
- 			AND = {
- 				culture_group = imperial_group 
- 				OR = {
- 					1 = { controller = { NOT = { culture_group = imperial_group } } }
- 					2 = { controller = { NOT = { culture_group = imperial_group } } }
- 					3 = { controller = { NOT = { culture_group = imperial_group } } }
- 				}
- 			}
-
- 			AND = {
- 				culture_group = asrai_group 
- 				662 = { controller = { NOT = { culture_group = asrai_group } } }
- 			}
-
- 			AND = {
- 				culture_group = nehekharan_group 
- 				OR = {
- 					860 = { controller = { NOT = { culture_group = nehekharan_group } } }
- 					862 = { controller = { NOT = { culture_group = nehekharan_group } } }
- 					864 = { controller = { NOT = { culture_group = nehekharan_group } } }
- 				}
- 			}
-
- 			AND = {
- 				culture_group = skaven_group 
- 				169 = { controller = { NOT = { culture_group = skaven_group } } }
- 			}
-
- 			AND = {
- 				culture_group = asur_group 
- 				451 = { controller = { NOT = { culture_group = asur_group } } }
- 			}
 
 
+
+ 		custom_trigger_tooltip = {
+ 			tooltip = LOSS_OF_CULTURAL_MONUMENT_TT
+	 		OR = {
+
+	 			AND = {
+	 				culture_group = cathayan_cg 
+	 				OR = {
+	 					2838 = { controller = { NOT = { culture_group = cathayan_cg } } }
+	 					2825 = { controller = { NOT = { culture_group = cathayan_cg } } }
+	 					2826 = { controller = { NOT = { culture_group = cathayan_cg } } }
+	 					2827 = { controller = { NOT = { culture_group = cathayan_cg } } }
+	 				}
+	 			}
+
+	 			AND = {
+	 				culture_group = imperial_group 
+	 				OR = {
+	 					1 = { controller = { NOT = { culture_group = imperial_group } } }
+	 					2 = { controller = { NOT = { culture_group = imperial_group } } }
+	 					3 = { controller = { NOT = { culture_group = imperial_group } } }
+	 				}
+	 			}
+
+	 			AND = {
+	 				culture_group = asrai_group 
+	 				662 = { controller = { NOT = { culture_group = asrai_group } } }
+	 			}
+
+	 			AND = {
+	 				culture_group = nehekharan_group 
+	 				OR = {
+	 					860 = { controller = { NOT = { culture_group = nehekharan_group } } }
+	 					862 = { controller = { NOT = { culture_group = nehekharan_group } } }
+	 					864 = { controller = { NOT = { culture_group = nehekharan_group } } }
+	 				}
+	 			}
+
+	 			AND = {
+	 				culture_group = skaven_group 
+	 				169 = { controller = { NOT = { culture_group = skaven_group } } }
+	 			}
+
+	 			AND = {
+	 				culture_group = asur_group 
+	 				451 = { controller = { NOT = { culture_group = asur_group } } }
+	 			}
+	 		}
  		}
  	}
 
@@ -69,6 +73,26 @@
  }
 
 
+
+ chaos_power_boosted = {
+ 	potential = {
+		OR = {
+			current_age = age_of_absolutism
+			current_age = age_of_revolutions
+		}
+	}
+	trigger = {
+		religion_group = ruinous_powers_denominations
+		any_province = {
+			is_reformation_center = yes
+			religion = chaos_undivided_religion
+		}
+	}
+
+	manpower_recovery_speed = 0.25
+	land_morale = 0.10
+	all_power_cost = -0.05
+}
 
 
 

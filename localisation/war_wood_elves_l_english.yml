@@ -16,7 +16,7 @@ ability_wood_elf_seasons_mechanic:0 "Magical Seasons"
  wood_elf_seasons_mechanic:0 "Seasons"
   wood_elf_seasons_mechanic_desc:0 "To every season, a different purpose.\nSpring - Power cost is reduced, but so is Morale.\nSummer - Morale is increased, but so are Power costs.\nFall - Defense is reduced, but buildings are cheaper.\nWinter - Defense is increased, but buildings are more expensive."
  season_time_power:0 "Seasons"
-   season_time_power_desc:0 "To every season, a different purpose. Spring - Power cost is reduced, but so is Morale. Summer - Morale is increased, but so are Power costs. Fall - Defense is reduced, but buildings are cheaper. Winter - Defense is increased, but buildings are more expense."
+   season_time_power_desc:0 "To every season, a different purpose\nSpring - Power cost is reduced, but so is Morale.\nSummer - Morale is increased, but so are Power costs.\nFall - Defense is reduced, but buildings are cheaper.\nWinter - Defense is increased, but buildings are more expense."
  monthly_season_time_power:0 "Passage of Seasons"
 
  ## Monument Help
@@ -35,6 +35,10 @@ asrai_winter_war_modifier_desc:0 "The harshness of winter strengthens our resolv
 
 asrai_faster_looting:0 "Faster Looting"
 asrai_faster_looting_desc:0 "Our raiders plunder swiftly, stripping the land of resources with unmatched efficiency."
+
+asrai_insulting:0 "Moral Superiority"
+asrai_insulting_desc:0 "These races in their squallor can succeed at nothing except amusing us."
+
 
 asrai_ultimate_reward:0 "Ultimate Growth"
 asrai_ultimate_reward_desc:0 "Our dominion is secured, and the blessings of Athel Loren grant us untold development and mastery over our lands."

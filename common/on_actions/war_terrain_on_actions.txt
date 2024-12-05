@@ -119,11 +119,15 @@ on_province_owner_change = {
 		}
 	}
 
+
+### Surface Dweller
 	if = {
 		limit = {
 			owner = { NOT = { technology_group = tech_dwarf } }
 			owner = { NOT = { has_country_modifier = skaven_administration } }
 			owner = { NOT = { has_country_modifier = orcish_administration } }
+			owner = { NOT = { has_country_modifier = undead_administration } }
+			owner = { NOT = { has_country_modifier = dwarven_administration } }
 
 			OR = {
 				has_terrain = subterranean_city_terrain

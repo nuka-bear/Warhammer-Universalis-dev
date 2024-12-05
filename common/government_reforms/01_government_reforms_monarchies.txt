@@ -5381,26 +5381,28 @@ the_leviathan_reform = {
 	}
 }
 
-the_social_contract_reform = {
-	icon = "the_social_contract"
-	allow_normal_conversion = yes
-	#potential = {
-	#	OR = {
-	#		is_revolutionary = no
-	#		NOT = { has_dlc = "Emperor" }
-	#	}
-	#}
-	modifiers = {
-		no_religion_penalty = yes
-		global_unrest = -1
-	}
-	custom_attributes = {
-		enforced_interfaith_dialogue_buff = yes
-	}
-	ai = {
-		factor = 1
-	}
-}
+## Warhammer removed
+
+#the_social_contract_reform = {
+#	icon = "the_social_contract"
+#	allow_normal_conversion = yes
+#	#potential = {
+#	#	OR = {
+#	#		is_revolutionary = no
+#	#		NOT = { has_dlc = "Emperor" }
+#	#	}
+#	#}
+#	modifiers = {
+#		no_religion_penalty = yes
+#		global_unrest = -1
+#	}
+#	custom_attributes = {
+#		enforced_interfaith_dialogue_buff = yes
+#	}
+#	ai = {
+#		factor = 1
+#	}
+#}
 
 #absolute_rule_vs_constitutional
 

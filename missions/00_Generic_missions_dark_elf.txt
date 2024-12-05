@@ -272,11 +272,11 @@ gen_cytharai_missions = {
 		icon = mission_cytharai
 		required_missions = { }
 		trigger = {
-			manpower = 25
+			manpower = 50
 		}
 
 		effect = {
-			add_manpower = -25
+			add_manpower = -50
 			add_country_modifier = { 
  				name = dark_elf_monsters
 				duration = -1
@@ -377,11 +377,11 @@ gen_cytharai_missions = {
 			owner = { religion_group = elven_denominations }
         }
 		trigger = {
-			treasury = 250
+			treasury = 500
 		}
 
 		effect = {
-			add_treasury = -250
+			add_treasury = -500
 			every_province = {
 				limit = {
 					religion = cytharai
@@ -459,28 +459,26 @@ gen_cytharai_missions = {
 
 		effect = {
 			every_ally = {
-				ROOT = {
-					add_trust = {
-				    	who = PREV
-				    	value = 25
-					}
-					add_favors = {
-				    	who = PREV
-				    	value = 25
-					}
+				add_trust = {
+			    	who = ROOT
+			    	value = 25
 				}
 			}
 			every_subject_country = {
-				ROOT = {
-					add_trust = {
-				    	who = PREV
-				    	value = 25
-					}
-					add_favors = {
-				    	who = PREV
-				    	value = 25
-					}
+				add_trust = {
+			    	who = ROOT
+			    	value = 25
 				}
+			}
+
+			every_country = {
+
+				limit = {
+					NOT = { alliance_with = ROOT }
+					capital_scope = { superregion = ulthuan_superregion }
+				}
+
+				capital_scope = { add_permanent_claim = ROOT }
 			}
 		}
 	}

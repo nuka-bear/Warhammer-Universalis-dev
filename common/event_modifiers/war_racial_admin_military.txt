@@ -84,6 +84,7 @@ elven_administration = {
 	election_cycle = 20	
 	female_advisor_chance = 0.5
 	may_recruit_female_generals = yes
+	range = 2.0
 
 	#Negatives
 	technology_cost = 0.05	

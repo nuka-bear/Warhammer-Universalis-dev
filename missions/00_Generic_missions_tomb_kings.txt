@@ -155,8 +155,8 @@ gen_nehekhara_missions = {
 			define_advisor = {
 				type = statesman
 				name = "Amentep the Golden Tongued"
-				skill = 5
-				cost_multiplier = -0.5
+				skill = 3
+				cost_multiplier = -0.1
 			}
 		}
 	}

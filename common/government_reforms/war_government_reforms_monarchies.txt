@@ -299,8 +299,6 @@ everchosen_reform = {
 		can_recruit_cossacks = yes
 		allowed_cossack_fraction = 0.1
 
-		ae_impact = 3.0
-
 		## Diplomatic
 		reverse_relation_with_same_religion = 150
 		reverse_relation_with_heretic_religion = 75
@@ -308,6 +306,9 @@ everchosen_reform = {
 		diplomats = 2
 		diplomatic_upkeep = 10
 		cb_on_religious_enemies = yes
+
+		ae_impact = 3.5
+		improve_relation_modifier = -0.5
 
 		easy_war_chance_multiplier = 3
 		war_chance_multiplier = 2.5
