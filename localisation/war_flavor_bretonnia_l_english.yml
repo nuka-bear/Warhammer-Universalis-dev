@@ -126,6 +126,9 @@
  flavor_bretonnia.9.a:0 "Ok."
 
 
+ heir_grail_quest_title:0 "Heir Grail Quest"
+ heir_grail_quest_desc:0 "Send your heir on a grail quest."
+
  flavor_bretonnia.900.t: "[Root.grail_quest_heir_name.GetName] Embarks on the Grail Quest"
  flavor_bretonnia.900.d: "\n\nAmidst whispers of anticipation and reverence, [Root.grail_quest_heir_name.GetName] stands before you, their eyes filled with determination and resolve. With a solemn voice, they declare their intention to embark on the Grail Quest, a sacred pilgrimage in search of the legendary Grail that has long been the symbol of Bretonnian honor and chivalry.\n\nAs a ruler of Bretonnia, you are faced with a momentous decision. Will you grant [Root.grail_quest_heir_name.GetName] your blessing and support in their noble quest, knowing that they may face dangers and trials beyond imagination? Or will you counsel caution, urging them to remain by your side and fulfill their duties to the realm?\n\nChoose wisely, for the fate of your heir and the future of Bretonnia hang in the balance. Should you grant your blessing, your heir will set forth on a journey of epic proportions, seeking to prove themselves worthy of the Grail and the divine favor of the Lady of the Lake. But be warned - the road ahead is fraught with peril, and not all who embark on the Grail Quest return unchanged.\n\nConsider your decision carefully, for the choices you make now will shape the destiny of [Root.grail_quest_heir_name.GetName] and the kingdom of Bretonnia for generations to come. Will they emerge victorious, bathed in the light of the Lady's grace? Or will they be lost to the mists of legend, their fate forever intertwined with the mysteries of the Grail?"
  flavor_bretonnia.900.a: "May the Lady guide and protect you on your noble quest!"

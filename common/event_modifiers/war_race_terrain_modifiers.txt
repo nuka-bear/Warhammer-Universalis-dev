@@ -38,7 +38,7 @@ wood_elves_magical_forest = {
 }
 
 wood_elves_non_forest = {
-	min_local_autonomy = 20
+	min_local_autonomy = 25
 	local_unrest = 2
 }
 
@@ -51,11 +51,11 @@ undergrounder_underground = {
 }
 
 undergrounder_above_ground = {
-	min_local_autonomy = 20
+	min_local_autonomy = 25
 	local_unrest = 2
 }
 
 surface_dweller_underground = {
-	min_local_autonomy = 20
+	min_local_autonomy = 25
 	local_unrest = 2
 }

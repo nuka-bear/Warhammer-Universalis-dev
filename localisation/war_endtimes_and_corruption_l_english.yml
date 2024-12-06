@@ -4,9 +4,14 @@
 
   ### Endtimes
 
-  end_times_events.1000.name:0 "The End Times Begin"
-  end_times_events.1000.desc:0 "Dark energies flood into [Root.GetName] from beyond as the Chaos Gods call their followers. The world stands on the brink of ruin—will it fall, or can Chaos be contained?"
-  end_times_events.1000.A:0 "This is the End."
+  end_times_events.1000.name:0 "We are Everchosen"
+  end_times_events.1000.desc:0 "Dark energies flood into [Root.GetName] from beyond as the Chaos Gods call their followers. The dark will of the Chaos Gods has chosen us as their favored instrument. The winds of magic swell, and the mortal world trembles beneath the weight of our destiny. We are the Everchosen, the harbinger of ruin, the destroyer of nations, and the breaker of hope. The gods demand conquest and destruction. Will any dare to stand in our way?"
+  end_times_events.1000.A:0 "We shall end this world"
+
+
+  end_times_events.1001.t:0 "The End Times Begin"
+  end_times_events.1001.d:0 "Dark energies flood into the world from beyond as the Chaos Gods call their followers. The world stands on the brink of ruin. Will it fall, or can Chaos be contained?\n\nA Chaos Gate has been opened, spreading corruption into our lands. As long as it is open, it will convert provinces across the world to Chaos, and Chaos cultists will appear. You can always find the Chaos Gate with a decision.\n\nThe Everchosen gets massive bonuses which dwindle slowly over the next 20 years. They wage relentless war on weaker prey and expand without mercy. If the Everchosen conquers the Great Vortext, these massive bonuses last forever!\n\nChaos nations get minor bonuses, and are compelled to subjugate themselves to the Everchosen. They also devour the development of their own lands for temporary buggs, leaving them barrent and wasted. \n\nTo end the End Times, either conquer the Chaos Gate and take the decsions to close the gate, or Enact the -End the End Times- Peace deal in a war with the Everchosen."
+  end_times_events.1001.option_1:0 "This is the End."
 
 
 

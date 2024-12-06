@@ -55,7 +55,7 @@ province_event = {
 
 ### Hashut is less likely
 		modifier = {
-			factor = 10
+			factor = 20
 			religion = hashut
 		}
 
@@ -367,6 +367,8 @@ province_event = {
 
 			add_reform_center = chaos_undivided_religion
 
+			save_global_event_target_as = original_everchosen_country
+
 			owner = { add_manpower = 100 }
 			owner = { add_treasury = 1000 }
 
@@ -643,10 +645,48 @@ province_event = {
 
 	option = {
 		name = end_times_events.1000.A
+		owner = { save_global_event_target_as = original_everchosen_country }
+		every_country  {
+			country_event = { 
+		 	   id = end_times_events.1001
+			}
+		}
 		
 		log = "The End Times Started in [Root.GetName] (owner: [Root.Owner.GetName]) in [GetYear]"
 	}
 }
+
+
+### Start of Endtimes Explainer
+
+country_event = {
+	id = end_times_events.1001
+	title = end_times_events.1001.t
+	desc = end_times_events.1001.d
+	picture = REVOLUTION_eventPicture
+	is_triggered_only = yes
+	hidden = no
+	major = no
+
+	immediate = {
+		hidden_effect = {
+			every_province = {
+				limit = {
+					is_reformation_center = yes
+					religion = chaos_undivided_religion
+				}
+				save_event_target_as = chaos_gate_province
+			}
+		}
+	}
+
+	option = {
+		name = end_times_events.1001.option_1
+		add_stability = -1
+		goto = chaos_gate_province
+	}
+}
+
 
 
 
@@ -705,6 +745,8 @@ country_event = {
 	}
 
 }
+
+
 
 
 #### HIDDEN END TIMES ENDER
