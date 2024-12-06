@@ -129,6 +129,11 @@ desc_chaos_undivided_center_of_reformation:0 "Chaos Gate"
 
 #### CHAOS CORRUPTION EVENTS
 
+submit_to_everchosen:0 "Submit to the Everchosen"
+submit_to_everchosen_desc:0 "The Everchosen represents a unification of the forces of Chaos. His pull is undeniable."
+
+
+
  chaos_corruption_disaster:0 "Chaos Corruption"
  chaos_corruption_disaster_desc:0 "Chaos cults have taken hold in our land. If we do not root them out, then we risk a total overthrow of our established order. A terrible outcome. Unless ... perhaps that is what we want?"
 

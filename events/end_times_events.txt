@@ -150,8 +150,10 @@ province_event = {
 								religion = tzeentchian_religion
 								religion = norscan
 							}
-							NOT = { total_development = PREV }
 						}
+						
+						NOT = { total_development = PREV }
+
 					}
 				}
 			}
@@ -172,42 +174,42 @@ province_event = {
 ### Great Power
 
 		modifier = {
-			factor = 0.50
+			factor = 0.10
 			owner = { NOT = { great_power_rank = 9 } }
 		}
 
 		modifier = {
-			factor = 0.50
+			factor = 0.10
 			owner = { NOT = { great_power_rank = 8 } }
 		}
 
 		modifier = {
-			factor = 0.50
+			factor = 0.10
 			owner = { NOT = { great_power_rank = 7 } }
 		}
 
 		modifier = {
-			factor = 0.50
+			factor = 0.10
 			owner = { NOT = { great_power_rank = 6 } }
 		}
 
 		modifier = {
-			factor = 0.50
+			factor = 0.10
 			owner = { NOT = { great_power_rank = 5 } }
 		}
 
 		modifier = {
-			factor = 0.50
+			factor = 0.10
 			owner = { NOT = { great_power_rank = 4 } }
 		}
 
 		modifier = {
-			factor = 0.50
+			factor = 0.10
 			owner = { NOT = { great_power_rank = 3 } }
 		}
 
 		modifier = {
-			factor = 0.50
+			factor = 0.10
 			owner = { NOT = { great_power_rank = 2 } }
 		}
 
@@ -215,97 +217,97 @@ province_event = {
 ### Development
 
 		modifier = {
-			factor = 0.90
+			factor = 0.25
 			owner = { total_development = 25 }
 		}
 
 		modifier = {
-			factor = 0.90
+			factor = 0.25
 			owner = { total_development = 50 }
 		}
 
 		modifier = {
-			factor = 0.90
+			factor = 0.25
 			owner = { total_development = 75 }
 		}
 
 		modifier = {
-			factor = 0.90
+			factor = 0.25
 			owner = { total_development = 100 }
 		}
 
 		modifier = {
-			factor = 0.90
+			factor = 0.25
 			owner = { total_development = 125 }
 		}
 
 		modifier = {
-			factor = 0.90
+			factor = 0.25
 			owner = { total_development = 150 }
 		}
 
 		modifier = {
-			factor = 0.90
+			factor = 0.25
 			owner = { total_development = 175 }
 		}
 
 		modifier = {
-			factor = 0.90
+			factor = 0.25
 			owner = { total_development = 200 }
 		}
 
 		modifier = {
-			factor = 0.9
+			factor = 0.25
 			owner = { total_development = 250 }
 		}
 
 		modifier = {
-			factor = 0.9
+			factor = 0.25
 			owner = { total_development = 300 }
 		}
 
 		modifier = {
-			factor = 0.9
+			factor = 0.25
 			owner = { total_development = 350 }
 		}
 
 		modifier = {
-			factor = 0.9
+			factor = 0.25
 			owner = { total_development = 400 }
 		}
 
 		modifier = {
-			factor = 0.9
+			factor = 0.25
 			owner = { total_development = 450 }
 		}
 
 		modifier = {
-			factor = 0.9
+			factor = 0.25
 			owner = { total_development = 500 }
 		}
 
 		modifier = {
-			factor = 0.9
+			factor = 0.25
 			owner = { total_development = 550 }
 		}
 
 		modifier = {
-			factor = 0.9
+			factor = 0.25
 			owner = { total_development = 600 }
 		}
 
 		modifier = {
-			factor = 0.9
+			factor = 0.25
 			owner = { total_development = 650 }
 		}
 
 		modifier = {
-			factor = 0.9
+			factor = 0.25
 			owner = { total_development = 700 }
 		}
 
 		modifier = {
-			factor = 0.9
+			factor = 0.25
 			owner = { total_development = 750 }
 		}
 
@@ -313,12 +315,12 @@ province_event = {
 
 ## Prestige
 		modifier = {
-			factor = 0.95
+			factor = 0.90
 			owner = { prestige = 0 }
 		}
 
 		modifier = {
-			factor = 0.95
+			factor = 0.90
 			owner = { prestige = 25 }
 		}
 
@@ -766,6 +768,7 @@ country_event = {
 	desc = end_times_events.2001.d
 	picture = REFORM_eventPicture
 	is_triggered_only = yes
+	hidden = no
 
 	major = no
 
@@ -790,6 +793,7 @@ country_event = {
 	desc = end_times_events.2002.d
 	picture = IMPALED_SOLDIERS_eventPicture
 	is_triggered_only = yes
+	hidden = no
 
 	major = no
 
@@ -903,7 +907,7 @@ country_event = {
 		}
 	}
 
-	mean_time_to_happen = { months = 24 }
+	mean_time_to_happen = { months = 30 }
 	
 ### Kill them
 	option = {

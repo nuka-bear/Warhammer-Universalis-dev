@@ -5,15 +5,11 @@ chaos_corruption_disaster = {
 	ended_by_country_breaking_to_rebels = no
 	potential = {
 		NOT = { religion_group = ruinous_powers_denominations }
-		NOT = { religious_unity = 1.0 }
 	}
 
 	can_start = {
-
-		OR = {
-			any_owned_province = { religion_group = ruinous_powers_denominations }
-		}
-
+		any_owned_province = { religion_group = ruinous_powers_denominations }
+		NOT = { religious_unity = 1.0 }
 	}
 
 	can_stop = {
