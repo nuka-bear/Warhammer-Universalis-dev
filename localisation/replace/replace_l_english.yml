@@ -1044,3 +1044,23 @@ desc_icon_climacus:1 "Yevgeny the Huntsman, a mythical hero of Kislevite legend,
  obj_discover_america_desc:0 "As a nation with a capital in the Old World discover at least one province in the New World."
  obj_discover_america_tooltip:0 "Discover the New World"
 
+
+### Some more Papal Stuff
+ forgiveness_for_usury:0 "Erase Debts"
+ proclaim_holy_war:0 "Scratch-Bite Heretics"
+ send_papal_legate:0 "Send Horned Legate"
+ sanction_commercial_monopoly:0 "Sanction Monopoly"
+
+  usury_forgiven:0 "Debts Erased"
+ desc_usury_forgiven:0 "The Council has declared us above debt."
+
+ papal_sanction_for_church_taxes:0 "Council Sanction for Increased Taxes"
+ desc_papal_sanction_for_church_taxes:0 "The Council has sanctioned our right to tax the faithful of our nation for a period, boosting our tax income substantially."
+ papal_blessing:0 "Council Blessing"
+ desc_papal_blessing:0 "The Council has extended their blessing upon our ruler and our country, greatly increasing our standing both abroad and internally."
+ papal_indulgence:0 "Council Sanction for our Dynasty"
+ desc_papal_indulgence:0 "The council has issued a bull sanctioning the past actions of the rulers of our dynasty and stating the divine right we have to the throne of our kingdom."
+ papal_sanction_for_holy_war:0 "Council Sanction of War"
+ desc_papal_sanction_for_holy_war:0 "The Council has seen fit to declare its support for the wars our country is currently involved in, greatly increasing the enthusiasm among the greater population to join our armies."
+ papal_legate:0 "Council Legate"
+ desc_papal_legate:0 "A council legate has been attached to our court to assist in our diplomatic endeavors with both his expertise and the added respect his very presence brings to negotiations."

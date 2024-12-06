@@ -45,6 +45,8 @@ Everybody!
 	WHAT IF RACIAL RAIDING IS AN END OF WAR PEACE OFFERING?
 		THAT TAKES 75 WARSCORE?
 
+	Do people get the end-times pop-up?
+
 	Missions
 		Make all missions a little harder
 		Balance Mission Rewards
@@ -62,8 +64,6 @@ Everybody!
  
 	Go on a quest decision - take your ruler to a randomly set province on a different continent, maybe fight a rebel army there.
 
-	"The world moves too fast event" causes two stab loss?
-
 	Tomb King Mission
 		Tomb king mission for advisor makes him 150% cheaper.
 		Change enslave the living to anybody without undead administration
@@ -72,13 +72,13 @@ Everybody!
 
 	Lizardfolk Holy Site gfx
 
-	Subjects don't do racial raiding!
+	Simplify Skaven modifiers- Lower Discipline, Lower Morale?
 
-	Adjust Seer Council action localization and images
+	Decision for Greenskin and Skaven administrations to raid own lands!
 
-	Simplify Skaven - Lower Discipline, Lower Morale?
+	GFX for underground goods
 
-	Decadence comes with age - too penalizing? Half the costs? or get rid of them, or give it a choice
+	GFX for gret seer council actions and cardinals
 
 #############################
 ###### Confirm ######
@@ -86,7 +86,15 @@ Everybody!
 
 	Change Chaos Gate icon
 
+	Adjust Seer Council action localization
+
 	ALL THOSE UNDERGROUND TUNNELS GIVE FRIENDLY MOVEMENT - THEY SHOULD GIVE FRIENDLY AND HOSTILE!
+
+	Subjects don't do racial raiding!
+
+	Decadence comes with age - too penalizing? Half the costs? or get rid of them, or give it a choice
+
+	"The world moves too fast event" causes two stab loss?
 
 	End times
 		End the end times peace offering should only come up when applicable

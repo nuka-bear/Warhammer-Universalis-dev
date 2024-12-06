@@ -347,8 +347,6 @@ country_event = {
 		name = war_ruler.7.b
 		ai_chance = { factor = 1 }
 		trigger = { has_ruler_flag = decadent_5 }
-		
-		reduce_stability_or_adm_power = yes
 		reduce_stability_or_adm_power = yes
 	}
 	
@@ -414,9 +412,9 @@ country_event = {
 		ai_chance = { factor = 1 }
 		trigger = { has_ruler_flag = decadent_11 }
 		random_list = {
-			50 = { add_years_of_income = -1 }
-			35 = { add_years_of_income = -1.5 }
-			15 = { add_years_of_income = -2 }
+			50 = { add_years_of_income = -0.25 }
+			35 = { add_years_of_income = -0.5 }
+			15 = { add_years_of_income = -1.0 }
 		}
 	}
 }

@@ -20,6 +20,7 @@ province_event = {
 
 #### Take out ages when testing
 
+
 		OR = {
 			current_age = age_of_revolutions
 			current_age = age_of_absolutism
@@ -33,7 +34,7 @@ province_event = {
 
 		NOT = { has_province_modifier = religious_center }
 
-		NOT = { owner = ( is_subject = yes } }
+		NOT = { owner = { is_subject = yes } }
 	}
 
 	mean_time_to_happen = {
@@ -54,7 +55,7 @@ province_event = {
 
 ### Hashut is less likely
 		modifier = {
-			factor = 3
+			factor = 10
 			religion = hashut
 		}
 
@@ -132,10 +133,11 @@ province_event = {
 
 
 ### Bigger than all other ruininous powers that aren't hashut (So if you are the biggest non-hashut chaos country, or a hashut country bigger than all other chaos). Either all other countries aren't ruinous powers, or they don't have a greater development than you.
+## Is this borked?
 
 
 		modifier = {
-			factor = 0.25
+			factor = 0.10
 			owner = { 
 				all_country = {
 					OR = {
@@ -148,7 +150,8 @@ province_event = {
 								religion = tzeentchian_religion
 								religion = norscan
 							}
-						NOT = { total_development = ROOT }
+							NOT = { total_development = PREV }
+						}
 					}
 				}
 			}
@@ -365,7 +368,139 @@ province_event = {
 			owner = { add_manpower = 100 }
 			owner = { add_treasury = 1000 }
 
-### Let's get a 100 infantry army
+### Let's get a 200 infantry army
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
+			infantry = ROOT
 			infantry = ROOT
 			infantry = ROOT
 			infantry = ROOT

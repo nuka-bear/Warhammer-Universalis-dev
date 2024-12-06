@@ -13,7 +13,13 @@ country_decisions = {
 	    		duration = -1 
 			}
 		}
-		ai_will_do = { factor = 1 }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			 	factor = 0
+			 	is_subject = yes
+			}
+		}
 	}
 
 
@@ -24,6 +30,12 @@ country_decisions = {
 		effect = {
 			remove_country_modifier = lets_raid_modifier
 		}
-		ai_will_do = { factor = 0 }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			 	factor = 0
+			 	is_subject = no
+			}
+		}
 	}
 }
